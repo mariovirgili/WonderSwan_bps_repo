@@ -190,6 +190,9 @@ inc = E["Densha_de_Go_2_EN_v0.4.21_from_v0.4.20"]
 check(inc["requires_patched_rom"] and inc["requires_patch_ids"] and not dk["requires_patched_rom"], "incremental patch detected")
 check("md5" not in inc["source_rom"] and "name" not in inc["source_rom"], "hashes on a line about another CRC32 are not attributed")
 check(tw["source_rom"].get("notes_crc32_mismatch") == "AF9D8F42" and "md5" not in tw["source_rom"], "twin BPS beats disagreeing notes")
+r = c.rom_info_from_notes("| | CRC32 |\n|---|---|\n| Original | `7F3A14C0` |\n| v0.2 patched | `2D1D4A81` |\n| v0.2.1 patched | `A53C9190` |\n",
+                          "7F3A14C0", "A53C9190")
+check(r["source"].get("crc32") == "7F3A14C0" and "crc32_other" not in r["source"], "no false mismatch when notes list several versions")
 check(c.parse_release_name("[Release] X - Card of Fate (WonderSwan Color) - English translation patch v0.9")[:2]
       == ("X - Card of Fate", "wonderswan_color"), "title with ' - ' inside")
 check(c.guess_language(["lode-runner-se-ja-1.0.bps", None, "x.zip", "[Release] Lode Runner - AI English translation"], "en") == "ja"

@@ -338,7 +338,8 @@ def rom_info_from_notes(text: str, src_crc: str | None, dst_crc: str | None) -> 
             res[role].setdefault(h["kind"], set()).add(h["value"])
     out: dict = {"source": {}, "target": {}}
     for role in ("source", "target"):
-        other = {h["value"] for h in hs if h["line"] in foreign and h["kind"] == "crc32" and h["role"] == role}
+        other = {h["value"] for h in hs if h["line"] in foreign and h["line"] not in anchors and h["kind"] == "crc32"
+                 and h["role"] == role and h["value"] not in known}
         if len(other) == 1:
             out[role]["crc32_other"] = next(iter(other))
         for kind, vals in res[role].items():
