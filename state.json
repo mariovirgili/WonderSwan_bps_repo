@@ -1083,11 +1083,6 @@
   "blob:Gand46/Rockman-EXE-N1-Battle-ChipControl-Wonderswan-English-Translation-AI_GPT:0ef7208d89a2903e7b54ac89beb7730478a8d2ce:maintenance/mant04-originals.zip": {
    "entries": []
   },
-  "blob:Gand46/Rockman-EXE-N1-Battle-ChipControl-Wonderswan-English-Translation-AI_GPT:2eae288cc2bd9a5ad6439486f0619891adfe8664:components/qa09/tests/fixtures/patches/Rockman_EXE_N1_Battle_English_v0.10.7-graphics-a8.ips": {
-   "entries": [
-    "d4f05841889955bd0818994f05637203bbea376b31ef90edf08cd2ba8e1c3165"
-   ]
-  },
   "blob:Gand46/Rockman-EXE-N1-Battle-ChipControl-Wonderswan-English-Translation-AI_GPT:303228089fbf3b06b25aac382fc9f0790422d47e:maintenance/baseline-patches/Rockman_N1_English_QA09_ChipControl_RC6_EXPERIMENTAL.bps": {
    "entries": [
     "fa5afaea67e287eb7dd3c1d6bfb36898c1af78e22a4a472af36f96c4732a4b96"
@@ -1111,21 +1106,6 @@
   "blob:Gand46/Rockman-EXE-N1-Battle-ChipControl-Wonderswan-English-Translation-AI_GPT:6c2816442f79b97d3bcce056045a50f88d0f4373:patches/qa09/Rockman_N1_English_QA09_MANT05.bps": {
    "entries": [
     "72a8ff6a70ca7bf0ed467a2605a0fa9a260519043aa8ab20444715899dd8e995"
-   ]
-  },
-  "blob:Gand46/Rockman-EXE-N1-Battle-ChipControl-Wonderswan-English-Translation-AI_GPT:6f86e62a01839031ddda7d1b00336baa79992352:components/qa09/tests/fixtures/patches/Rockman_N1_English_QA08.bps": {
-   "entries": [
-    "9ba0894b023f6f120c2b51fb14a120eec8079fedce3787bc092212d4b660ae05"
-   ]
-  },
-  "blob:Gand46/Rockman-EXE-N1-Battle-ChipControl-Wonderswan-English-Translation-AI_GPT:93d4af09f190cb64e7c15e532c7d04a6a93f4f25:components/chip-control/vendor/ChipControl_v0.5.8_RC6_for_English_v0.10.7-graphics-a9.ips": {
-   "entries": [
-    "c4f088078bf42b6a3e56f3b42704ffe92377c91b32a98b3a0017461c92d0540b"
-   ]
-  },
-  "blob:Gand46/Rockman-EXE-N1-Battle-ChipControl-Wonderswan-English-Translation-AI_GPT:fe7cfa8b2921bd301f8a956a6795a866d8e7c75f:components/chip-control/vendor/Rockman_EXE_N1_Battle_English_v0.10.7-graphics-a9.ips": {
-   "entries": [
-    "9a1bf3430a4e213eb10d3a1f340532dc43f4a7554fad83821263c21bef9e9cb5"
    ]
   },
   "blob:Gand46/StarHearts-Wonderswan-English-Translation-AI_GPT:4145585b37ffeb990f13e3e858d80a185d55789e:patches/F38/StarHearts_EN_F38_CUMULATIVE_FROM_JP.bps": {
