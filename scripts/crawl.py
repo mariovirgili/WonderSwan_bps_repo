@@ -320,8 +320,12 @@ def rom_info_from_notes(text: str, src_crc: str | None, dst_crc: str | None) -> 
         known = {c for c in (src_crc, dst_crc) if c}
         if not anchors and any(h["kind"] == "crc32" for h in hs) and not any(h["value"] in known for h in hs):
             return res | {"mismatch": sorted({h["value"] for h in hs if h["kind"] == "crc32"})}
+    known = {c for c in (src_crc, dst_crc) if c}
+    foreign = {h["line"] for h in hs if known and h["kind"] == "crc32" and h["value"] not in known}
     for h in hs:
         role = h["role"]
+        if h["line"] in foreign and h["line"] not in anchors:
+            continue  # this line is about a ROM with another CRC32
         if anchors:
             dist, near_role = min((abs(h["line"] - ln), r) for ln, r in anchors.items())
             if h["line"] in anchors:
@@ -334,6 +338,9 @@ def rom_info_from_notes(text: str, src_crc: str | None, dst_crc: str | None) -> 
             res[role].setdefault(h["kind"], set()).add(h["value"])
     out: dict = {"source": {}, "target": {}}
     for role in ("source", "target"):
+        other = {h["value"] for h in hs if h["line"] in foreign and h["kind"] == "crc32" and h["role"] == role}
+        if len(other) == 1:
+            out[role]["crc32_other"] = next(iter(other))
         for kind, vals in res[role].items():
             if len(vals) == 1:  # ambiguous values are dropped
                 out[role][kind] = next(iter(vals))
@@ -341,12 +348,12 @@ def rom_info_from_notes(text: str, src_crc: str | None, dst_crc: str | None) -> 
     name_lines = [ln for ln, r in anchors.items() if r == "source"] or range(len(lines))
     for ln in name_lines:
         for k in (ln, ln - 1, ln + 1, ln - 2, ln + 2, ln - 3, ln + 3) if anchors else (ln,):
-            if 0 <= k < len(lines):
+            if 0 <= k < len(lines) and (k not in foreign or k in anchors):
                 m = ROM_NAME_RE.search(lines[k])
                 if m:
                     name = re.sub(r"^[\s:>\-–*#]+", "", m.group(1)).strip()
                     name = re.sub(r"^(?:[A-Za-z]+\s+){0,3}?(?:rom|file|game|name|cartridge)\s*(?:name)?\s*[:=]\s*", "", name, flags=re.I)
-                    out["source"]["name"] = name
+                    out["source"]["name"] = re.split(r"[\\/]", name)[-1]
                     break
         if "name" in out["source"]:
             break
@@ -378,11 +385,17 @@ def guess_language(texts: list[str], default: str | None) -> str | None:
     m = re.search(r"(?<![a-z])t[-+](" + "|".join(LANG_CODE) + r")(?![a-z])", blob)
     if m:
         return LANG_CODE[m.group(1)]
-    # 2. Language words.
+    # 2. Hyphenated lower-case file stems such as "lode-runner-se-ja-1.0": the last code wins.
+    stem = strip_ext(Path(texts[0]).name) if texts and texts[0] else ""
+    if re.fullmatch(r"[a-z0-9.\-]+", stem):
+        codes = re.findall(r"(?<=-)(en|ja|it|es|fr|de|pt)(?=-|$)", stem)
+        if codes:
+            return codes[-1]
+    # 3. Language words.
     for code, words in LANG_WORDS.items():
         if any(re.search(rf"(?<![a-z]){re.escape(w)}(?![a-z])", blob) for w in words):
             return code
-    # 3. Upper-case codes set off by separators: "Chocobo_EN_v1.1", "Game-ITA.ips", "(ES)".
+    # 4. Upper-case codes set off by separators: "Chocobo_EN_v1.1", "Game-ITA.ips", "(ES)".
     #    Case-sensitive on purpose: lower-case "de"/"it" are ordinary words in titles.
     m = re.search(r"(?:^|[_\-.\s\[(])(EN|ENG|IT|ITA|ES|ESP|FR|FRA|DE|GER|PT|PTBR|RU)(?=$|[_\-.\s\])])", raw)
     if m:
@@ -446,7 +459,13 @@ def parse_release_name(name: str | None) -> tuple[str | None, str | None, bool]:
     if m:
         tag, s = m.group(1), s[m.end():]
     superseded = bool(re.search(r"\(superseded\b", s, re.I))
-    title = re.split(r"\s+[-–—]\s+", s, maxsplit=1)[0].strip()
+    title = s
+    for m in re.finditer(r"\s+[-–—]\s+", s):
+        segment = re.split(r"\s+[-–—]\s+", s[m.end():], maxsplit=1)[0]
+        if re.search(r"translat|patch|tradu|english|spanish|italian|french|german|version|\bv\d", segment, re.I):
+            title = s[:m.start()]
+            break
+    title = title.strip()
     plat = platform_from_text(tag)
     pm = re.search(r"\(([^()]*)\)\s*$", title)
     if pm and platform_from_text(pm.group(1)):
@@ -470,6 +489,7 @@ def clean_name(text: str | None) -> str | None:
     t = strip_ext(text)
     t = re.sub(r"\[[^\]]*\]|\((?:Japan|J|Rev[^)]*|En|debug)\)", " ", t, flags=re.I)
     t = VERSION_RE.sub(" ", t)
+    t = re.sub(r"(?<![A-Za-z])T[-+][A-Za-z]{2,3}(?![A-Za-z])", " ", t)
     t = re.sub(r"[._]+", " ", t)
     t = re.sub(r"(?<=[A-Za-z0-9])-(?=[A-Za-z0-9])", " ", t)
     t = re.sub(rf"(?<![A-Za-z])({NOISE_WORDS})(?![A-Za-z])", " ", t, flags=re.I)
@@ -485,6 +505,7 @@ def describe(e: dict, notes: str, default_lang: str | None) -> None:
     if e["format"] == "ips":  # IPS has no checksums: anything here came from notes/overrides last time
         e["source_crc32"] = e["target_crc32"] = None
     title, plat, superseded = parse_release_name(o.get("release_name"))
+    e["_game_from"] = 3 if title else 0
     repo_name = o["source"].split("/", 1)[1]
     e["variant"] = Path(fname).stem
     if o["kind"] == "release_asset":
@@ -512,6 +533,8 @@ def describe(e: dict, notes: str, default_lang: str | None) -> None:
     for rom, found in ((src, info["source"]), (dst, info["target"])):
         if not rom["crc32"] and found.get("crc32"):
             rom["crc32"], rom["crc32_from"] = found["crc32"], "notes"
+        if rom["crc32"] and not found.get("crc32") and found.get("crc32_other"):
+            rom["notes_crc32_mismatch"] = found["crc32_other"]  # notes name another ROM for this role
         elif rom["crc32"] and found.get("crc32") and found["crc32"] != rom["crc32"]:
             rom["notes_crc32_mismatch"] = found["crc32"]  # notes describe another revision: ignore them
             continue
@@ -526,8 +549,10 @@ def describe(e: dict, notes: str, default_lang: str | None) -> None:
                           src.get("name") or "").strip() or None
         if o["kind"] == "repo_file":
             title = rom_name or clean_name(repo_name) or clean_name(fname)
+            e["_game_from"] = 2 if rom_name else 1
         else:
             title = rom_name or clean_name(fname)
+            e["_game_from"] = 2 if rom_name else 0
     e["game"] = title
     e["source_rom"] = {k: v for k, v in src.items() if v is not None}
     e["target_rom"] = {k: v for k, v in dst.items() if v is not None}
@@ -733,6 +758,62 @@ def finalize(entries: list[dict], platforms: list) -> tuple[list[dict], list[dic
             e["path"] = e["url"] = None
             excluded.append(e)
 
+    # IPS published next to a BPS of the same name (same folder / same release) was made from the same ROMs.
+    bps_by_stem = {}
+    for e in kept:
+        if e["format"] == "bps":
+            o = e["origin"]
+            where = o.get("release_tag") or str(Path(o.get("repo_path") or "").parent)
+            bps_by_stem[(o["source"], where, Path(e["file_name"]).stem.lower())] = e
+    for e in kept:
+        if e["format"] == "ips":
+            o = e["origin"]
+            where = o.get("release_tag") or str(Path(o.get("repo_path") or "").parent)
+            twin = bps_by_stem.get((o["source"], where, Path(e["file_name"]).stem.lower()))
+            if twin:
+                for side in ("source", "target"):
+                    rom = e.setdefault(f"{side}_rom", {})
+                    tc = twin.get(f"{side}_crc32")
+                    if tc and rom.get("crc32_from") in (None, "notes"):
+                        if rom.get("crc32") and rom["crc32"] != tc:  # the notes were about another revision
+                            mism = rom["crc32"]
+                            rom.clear()
+                            rom["notes_crc32_mismatch"] = mism
+                            if side == "source":  # so was any name taken from them
+                                e["game"], e["_game_from"] = twin.get("game"), twin.get("_game_from", 0)
+                        rom.update(crc32=tc, crc32_from="bps_twin", size=twin.get(f"{side}_size"))
+                        for k in ("md5", "sha1", "sha256", "name"):
+                            if k not in rom and twin.get(f"{side}_rom", {}).get(k):
+                                rom[k] = twin[f"{side}_rom"][k]
+                        e[f"{side}_crc32"] = tc
+                e["bps_twin"] = twin["id"]
+
+    # Patches whose input is the output of another patch (incremental updates, add-ons).
+    produced_by: dict = {}
+    for e in kept:
+        if e.get("target_crc32"):
+            produced_by.setdefault(e["target_crc32"], []).append(e["id"])
+    for e in kept:
+        prev = [i for i in produced_by.get(e.get("source_crc32") or "", []) if i != e["id"]]
+        e["requires_patched_rom"] = bool(prev)
+        e["requires_patch_ids"] = sorted(set(prev)) or None
+        if prev:  # notes about the original Japanese ROM are expected to disagree here
+            e.get("source_rom", {}).pop("notes_crc32_mismatch", None)
+
+    # One name per original ROM: the best-sourced name wins (release title > ROM name in notes > repo/file name).
+    best_name: dict = {}
+    for e in kept:
+        c = e.get("source_crc32")
+        if c and e.get("game") and not e["requires_patched_rom"]:
+            if c not in best_name or e.get("_game_from", 0) > best_name[c][0]:
+                best_name[c] = (e.get("_game_from", 0), e["game"])
+    for e in kept:
+        b = best_name.get(e.get("source_crc32") or "")
+        if b and b[0] > e.get("_game_from", 0):
+            e["game"] = b[1]
+    for e in entries:
+        e.pop("_game_from", None)
+
     # Identical files in one source: keep the release asset / the shortest path, mark the others.
     by_sha: dict = {}
     for e in kept:
@@ -765,7 +846,7 @@ def finalize(entries: list[dict], platforms: list) -> tuple[list[dict], list[dic
 
 
 ENTRY_ORDER = ["id", "game", "variant", "version", "language", "platform", "latest", "superseded", "duplicate_of",
-               "format", "source_crc32", "target_crc32", "source_rom", "target_rom", "file_name", "path", "url",
+               "requires_patched_rom", "requires_patch_ids", "bps_twin", "format", "source_crc32", "target_crc32", "source_rom", "target_rom", "file_name", "path", "url",
                "size", "sha256", "patch_crc32"]
 
 

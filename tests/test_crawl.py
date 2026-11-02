@@ -100,12 +100,16 @@ blobs = {"b1": bps(0x33333333, 0x44444444), "b2": blobs_b2 if False else None, "
          "ri": b"Required ROM: Hanafuda (Japan).ws\nCRC32: 0BADF00D\n"}
 blobs["b2"] = blobs["b1"]  # duplicate copy in another folder
 blobs["ip"] = IPS2
+blobs["tw"] = ips(7)
+blobs["inc"] = bps(0x44444444, 0x77777777, salt=3)
 trees = {"Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT": [
     {"path": "patches/Densha_de_Go_2_EN_v0.4.20_CUMULATIVE.bps", "type": "blob", "sha": "b1", "size": 30},
     {"path": "patches/README.md", "type": "blob", "sha": "rd", "size": 100},
     {"path": "history/old/Densha_de_Go_2_EN_v0.4.20_CUMULATIVE.bps", "type": "blob", "sha": "b2", "size": 30},
     {"path": "components/vendor/someone_else.ips", "type": "blob", "sha": "v1", "size": 8},
     {"path": "hanafuda/Hanafuda_EN.ips", "type": "blob", "sha": "ip", "size": 20},
+    {"path": "patches/Densha_de_Go_2_EN_v0.4.20_CUMULATIVE.ips", "type": "blob", "sha": "tw", "size": 20},
+    {"path": "patches/Densha_de_Go_2_EN_v0.4.21_from_v0.4.20.bps", "type": "blob", "sha": "inc", "size": 30},
     {"path": "hanafuda/readme.txt", "type": "blob", "sha": "ri", "size": 40}]}
 spec = importlib.util.spec_from_file_location("crawl", work / "scripts/crawl.py")
 c = importlib.util.module_from_spec(spec)
@@ -167,7 +171,7 @@ ips_e = E["patch_ITA"]
 check(ips_e["language"] == "it" and ips_e["source_crc32"] == "ABCD1234" and ips_e["source_rom"]["crc32_from"] == "notes"
       and ips_e["source_rom"]["sha1"] == "da39a3ee5e6b4b0d3255bfef95601890afd80709" and ips_e["target_crc32"] == "9876FEDC"
       and ips_e["source_rom"]["name"] == "Gioco Bello (Japan).wsc", "IPS: CRC32/SHA-1/name from a release-notes table, commit id ignored")
-d = [e for e in idx["entries"] if e["variant"].startswith("Densha")]
+d = [e for e in idx["entries"] if e["file_name"] == "Densha_de_Go_2_EN_v0.4.20_CUMULATIVE.bps"]
 check(len(d) == 2 and sum(1 for e in d if e["duplicate_of"]) == 1, "identical files in one repo flagged as duplicate")
 dk = next(e for e in d if not e["duplicate_of"])
 check(dk["game"] == "Densha de Go 2" and dk["language"] == "en" and dk["version"] == "0.4.20", "repo-file name/lang/version")
@@ -178,6 +182,18 @@ check(h["source_crc32"] == "0BADF00D" and h["source_rom"]["name"] == "Hanafuda (
 check(not any("someone_else" in e["file_name"] for e in idx["entries"] + idx["excluded"]), "vendor/ folders skipped")
 check([x["file_name"] for x in idx["excluded"]] == ["pdw.bps"] and idx["excluded"][0]["path"] is None, "PS1 patch excluded, not stored")
 check(not (work / "patches/mariovirgili/WonderSwanColor-AI_Translation/PS1-DigiPocket2").exists(), "excluded file removed from disk")
+tw = E["Densha_de_Go_2_EN_v0.4.20_CUMULATIVE"] if E["Densha_de_Go_2_EN_v0.4.20_CUMULATIVE"]["format"] == "ips" else \
+    next(e for e in idx["entries"] if e["file_name"].endswith("CUMULATIVE.ips"))
+check(tw["source_crc32"] == "33333333" and tw["source_rom"]["crc32_from"] == "bps_twin" and tw["target_crc32"] == "44444444",
+      "IPS inherits CRC32s from its BPS twin")
+inc = E["Densha_de_Go_2_EN_v0.4.21_from_v0.4.20"]
+check(inc["requires_patched_rom"] and inc["requires_patch_ids"] and not dk["requires_patched_rom"], "incremental patch detected")
+check("md5" not in inc["source_rom"] and "name" not in inc["source_rom"], "hashes on a line about another CRC32 are not attributed")
+check(tw["source_rom"].get("notes_crc32_mismatch") == "AF9D8F42" and "md5" not in tw["source_rom"], "twin BPS beats disagreeing notes")
+check(c.parse_release_name("[Release] X - Card of Fate (WonderSwan Color) - English translation patch v0.9")[:2]
+      == ("X - Card of Fate", "wonderswan_color"), "title with ' - ' inside")
+check(c.guess_language(["lode-runner-se-ja-1.0.bps", None, "x.zip", "[Release] Lode Runner - AI English translation"], "en") == "ja"
+      and c.guess_language(["densha-de-go-en-1.0.bps"], None) == "en", "edition language from hyphenated stems")
 n1 = len(downloads)
 
 downloads.clear()

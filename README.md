@@ -41,11 +41,14 @@ but only after its source was read successfully: an API error never deletes anyt
     "latest": true,                // newest non-superseded version of this game from this source
     "superseded": false,           // the release says "(superseded by …)"
     "duplicate_of": null,          // id of an identical file kept elsewhere in the same source
+    "requires_patched_rom": false, // true for incremental patches / add-ons: their input is another patch's output
+    "requires_patch_ids": null,    // ids of the patches that produce the ROM this one needs
+    "bps_twin": null,              // for an IPS: id of the BPS with the same name it was published with
     "format": "bps",               // or "ips"
     "source_crc32": "14ADBD4B",    // ROM the patch needs (shortcut for source_rom.crc32)
     "target_crc32": "BC3C951B",    // ROM it produces
     "source_rom": {                // everything known about the required ROM
-      "crc32": "14ADBD4B", "crc32_from": "bps",   // "bps" (in the patch), "notes" (release notes / README)
+      "crc32": "14ADBD4B", "crc32_from": "bps",   // "bps" (in the patch), "bps_twin", "notes" (release notes / README)
       "size": 4194304,
       "sha1": "…", "md5": "…", "sha256": "…",     // only when the notes give them
       "name": "Ring Infinity (Japan).ws",          // No-Intro style name, when the notes give it
@@ -72,7 +75,9 @@ but only after its source was read successfully: an API error never deletes anyt
 produces, so those are exact. IPS patches contain no checksums, so for them the crawler reads the release notes (and,
 for patches committed to a repository, the README files in the same folder and its parents) and picks up CRC32, MD5,
 SHA-1 and SHA-256 values labelled as belonging to the original or the patched ROM, plus a No-Intro style name such as
-`Game (Japan).wsc`. Unlabelled hex strings (commit ids, dates) are ignored. When a patch is a BPS, the notes only add
+`Game (Japan).wsc`. Unlabelled hex strings (commit ids, dates) are ignored, and so is anything on a line that names a
+different CRC32. An IPS published next to a BPS of the same name (same folder or release) takes the checksums of that
+BPS, which beats the notes. When a patch is a BPS, the notes only add
 the stronger hashes and the name, and only if their CRC32 agrees with the one in the patch.
 
 An emulator can compute the CRC32 of the ROM the user loads, offer the entries whose `source_crc32` matches (preferring
