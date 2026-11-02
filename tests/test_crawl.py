@@ -221,4 +221,6 @@ c.api_list = lambda path: (_ for _ in ()).throw(OSError("simulated outage")) if 
 idx3 = run()
 check(not any(e["variant"] == "ring-infinity-special" for e in idx3["entries"]), "patch removed upstream is removed")
 check(any(e["variant"] == "patch_ITA" and e["source_crc32"] == "ABCD1234" for e in idx3["entries"]), "failed source keeps its data and metadata")
+check(all(c.safe_member(n) for n in ["a.bps", "dir/b.ips", "x..y.bps"]) and not any(c.safe_member(n) for n in
+      ["../evil.bps", "a/../../index.json", "/etc/x.bps", "C:\\x.bps", "..\\x.bps", ""]), "archive member names: path traversal refused")
 print("all tests passed")

@@ -193,6 +193,12 @@ def parse_patch(d: bytes) -> dict | None:
     return None
 
 
+def safe_member(name: str) -> bool:
+    """Archive member names come from third parties: refuse absolute paths and '..' (path traversal)."""
+    p = name.replace("\\", "/")
+    return bool(p) and not p.startswith("/") and not re.match(r"^[A-Za-z]:", p) and ".." not in p.split("/")
+
+
 def extract_patches(name: str, data: bytes, depth: int = 0) -> list[tuple[str, str | None, bytes]]:
     """(file name, member path inside archive or None, bytes) for every patch found."""
     low = name.lower()
@@ -219,14 +225,14 @@ def extract_patches(name: str, data: bytes, depth: int = 0) -> list[tuple[str, s
             return []
         try:
             with tempfile.TemporaryDirectory() as tmp, py7zr.SevenZipFile(io.BytesIO(data)) as z:
-                wanted = [f.filename for f in z.list() if not f.is_directory
+                wanted = [f.filename for f in z.list() if not f.is_directory and safe_member(f.filename)
                           and f.filename.lower().endswith(PATCH_EXT + ARCHIVE_EXT)
                           and (f.uncompressed or 0) <= MAX_DOWNLOAD]
                 if wanted:
                     z.extract(path=tmp, targets=wanted)
                 for m in wanted:
-                    f = Path(tmp, m)
-                    if not f.is_file():
+                    f = Path(tmp, m).resolve()
+                    if not f.is_file() or Path(tmp).resolve() not in f.parents:
                         continue
                     b = f.read_bytes()
                     if m.lower().endswith(PATCH_EXT):
