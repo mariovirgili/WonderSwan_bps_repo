@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "query": {
+  "md5": "0215c4b8a395f6fcf8f5b07605eae08b"
+ },
+ "crc32": "BF8D9212",
+ "size": 2097152,
+ "md5": "0215c4b8a395f6fcf8f5b07605eae08b",
+ "sha1": "ae31488cee1c91f383efbe3083b4abec092dda36",
+ "names": [
+  "Neon Genesis Evangelion - Shito Ikusei (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "fd55b623cb24b9b8",
+   "game": "NGE",
+   "variant": "NGE",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "C5A88BEB",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Test/NGE.bps",
+   "sha256": "fd55b623cb24b9b8902184ba4f48aa204b5e865777cf331d34d118569cc25b8c",
+   "size": 149916,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test"
+  }
+ ],
+ "produced_by": []
+}

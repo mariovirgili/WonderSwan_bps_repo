@@ -5,8 +5,11 @@
  },
  "crc32": "0E40829C",
  "size": 4194304,
+ "md5": "173e9d76206a88bf05696027b4d55850",
+ "sha1": "016de32719e920fd9996c52d7eb81f2a60a24d7a",
  "names": [
-  "Digital Monster - D-Project (Japan) (Rev 2)"
+  "Digital Monster - D-Project (Japan) (Rev 2)",
+  "Digital Monster - D-Project (Japan) (Rev 2).wsc"
  ],
  "patches": [
   {

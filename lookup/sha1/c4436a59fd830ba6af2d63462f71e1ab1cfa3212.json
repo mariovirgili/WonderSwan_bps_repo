@@ -1,0 +1,35 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "c4436a59fd830ba6af2d63462f71e1ab1cfa3212"
+ },
+ "crc32": "56E2C069",
+ "size": 2097152,
+ "md5": "5432d188664bc4e5dae0fc859580cda1",
+ "sha1": "c4436a59fd830ba6af2d63462f71e1ab1cfa3212",
+ "names": [
+  "Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3).ws",
+  "Chou Denki Card Game - Youfu Makai - Kikuchi Shuukou (Japan)"
+ ],
+ "patches": [
+  {
+   "id": "49cd0e809434ff7a",
+   "game": "Chou Denki Card Battle: Youfu Makai",
+   "variant": "youfu-makai-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "CB5FACF7",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/youfu-makai-v1.0/youfu-makai-en-1.0.bps",
+   "sha256": "49cd0e809434ff7ac2a38b41c2bcdd785f2350c8ec5d013aa91f6229ff8dfbae",
+   "size": 362756,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.0"
+  }
+ ],
+ "produced_by": []
+}

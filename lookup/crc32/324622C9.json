@@ -5,8 +5,11 @@
  },
  "crc32": "324622C9",
  "size": 16777216,
+ "md5": "b814e71eb1d079466a9535566d605280",
+ "sha1": "544e76133fa53fc0ae5e00e3465b9cf634f14fd0",
  "names": [
-  "Beatmania for WonderSwan (Japan)"
+  "Beatmania for WonderSwan (Japan)",
+  "beatmania for WonderSwan (Japan).ws"
  ],
  "patches": [
   {

@@ -5,8 +5,12 @@
  },
  "crc32": "AF9D8F42",
  "size": 4194304,
+ "md5": "eec79ad5bb634a90b9d020415046e921",
+ "sha1": "c07f776ac4374b648d1a49efd9d6fcd0db2ac1fa",
  "sha256": "3ec68e02fa964383d6a0792aca7e53ab005e17a768a8546eb6dc5ed482db7c29",
- "names": [],
+ "names": [
+  "Densha de Go! 2 (Japan).ws"
+ ],
  "patches": [
   {
    "id": "1c4910264190aca3",

@@ -5,8 +5,11 @@
  },
  "crc32": "A1FB16FC",
  "size": 1048576,
+ "md5": "eb3f161ea3db4ebd759c9b1346032d4f",
+ "sha1": "f8f077da30f227f3793e97c7f1d656559f08b9d4",
  "names": [
-  "Fishing Freaks - Bass Rise for WonderSwan (Japan)"
+  "Fishing Freaks - Bass Rise for WonderSwan (Japan)",
+  "Fishing Freaks - Bass Rise for WonderSwan (Japan).ws"
  ],
  "patches": [
   {

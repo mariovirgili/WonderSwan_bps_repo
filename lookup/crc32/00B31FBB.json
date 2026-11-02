@@ -5,8 +5,12 @@
  },
  "crc32": "00B31FBB",
  "size": 2097152,
+ "md5": "f06beaff2703728baa8dddc0ddeb7094",
+ "sha1": "5eaeab859e5f647fac354dad285a311387ea126b",
  "sha256": "3fc350fd39cd1c15608c4e9e791487b9d2f8aa535a73482472e11d4c337a796a",
- "names": [],
+ "names": [
+  "Makaimura for WonderSwan (Japan).ws"
+ ],
  "patches": [
   {
    "id": "bf4742141bbf7f94",

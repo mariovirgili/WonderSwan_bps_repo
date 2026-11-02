@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "cbf6455e89b20a000b6121e5c485be1a20d1f726"
+ },
+ "crc32": "A193458C",
+ "size": 524288,
+ "md5": "6f09fc64352ba0051e724c4ae58402f4",
+ "sha1": "cbf6455e89b20a000b6121e5c485be1a20d1f726",
+ "names": [
+  "Ganso Jajamaru-kun (Japan)",
+  "Ganso Jajamaru-kun (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "baab45cd9af58115",
+   "game": "Ganso Jajamaru-kun",
+   "variant": "jajamaru-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "5B68EAFE",
+   "target_size": 524288,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/jajamaru-v1.0/jajamaru-en-1.0.bps",
+   "sha256": "baab45cd9af58115712cf933be3ea131434e68c96f826349c748c368719e7bf6",
+   "size": 33183,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/jajamaru-v1.0"
+  },
+  {
+   "id": "4e8969d6ec616e17",
+   "game": "Ganso Jajamaru-kun",
+   "variant": "jajamaru-en-special-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "3A10EC60",
+   "target_size": 524288,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/jajamaru-v1.0/jajamaru-en-special-1.0.bps",
+   "sha256": "4e8969d6ec616e1759aee63e8c951e52ec03644ddc72b74ebaa1f928ca372b18",
+   "size": 33332,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/jajamaru-v1.0"
+  }
+ ],
+ "produced_by": []
+}

@@ -5,8 +5,11 @@
  },
  "crc32": "AA525C04",
  "size": 2097152,
+ "md5": "0eb951b486fe25f37371835be81eed75",
+ "sha1": "1f42c5694a798de8ff3c68f63dfc7395be1669a5",
  "names": [
-  "Harobots (Japan)"
+  "Harobots (Japan)",
+  "Harobots (Japan).ws"
  ],
  "patches": [
   {

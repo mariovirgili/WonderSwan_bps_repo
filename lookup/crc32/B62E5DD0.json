@@ -5,8 +5,11 @@
  },
  "crc32": "B62E5DD0",
  "size": 4194304,
+ "md5": "7b2180e38b4720ce711768a73c33c9df",
+ "sha1": "d3da0ae529c6f78162682141154a95879f288ca7",
  "names": [
-  "Densha de Go! (Japan)"
+  "Densha de Go! (Japan)",
+  "Densha de Go! (Japan) (Rev 1).ws"
  ],
  "patches": [
   {

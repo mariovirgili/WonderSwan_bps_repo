@@ -5,8 +5,11 @@
  },
  "crc32": "392DD813",
  "size": 2097152,
+ "md5": "c53a5d8c189a23b16c444c4e8ef581af",
+ "sha1": "821bb81917445b63ac663c706ab4ce27de28543f",
  "names": [
-  "Bakusou Dekotora Densetsu for WonderSwan (Japan)"
+  "Bakusou Dekotora Densetsu for WonderSwan (Japan)",
+  "Bakusou Dekotora Densetsu for WonderSwan (Japan).ws"
  ],
  "patches": [
   {

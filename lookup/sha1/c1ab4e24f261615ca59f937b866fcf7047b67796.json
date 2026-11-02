@@ -1,0 +1,35 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "c1ab4e24f261615ca59f937b866fcf7047b67796"
+ },
+ "crc32": "66B617D5",
+ "size": 4194304,
+ "md5": "26c76cfcb14c5c8799dbe4367184d4a5",
+ "sha1": "c1ab4e24f261615ca59f937b866fcf7047b67796",
+ "names": [
+  "X - Card of Fate (Japan)",
+  "X - Card of Fate (Japan).wsc"
+ ],
+ "patches": [
+  {
+   "id": "1363fdfcd60d7b44",
+   "game": "X - Card of Fate",
+   "variant": "X - Card of Fate [T-En v0.9]",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "9955C0E1",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/X-Card_0.9/X%20-%20Card%20of%20Fate%20%5BT-En%20v0.9%5D.bps",
+   "sha256": "1363fdfcd60d7b4453f1670252872b527306de83e69c18d5b443babadf3708a5",
+   "size": 697179,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/X-Card_0.9"
+  }
+ ],
+ "produced_by": []
+}

@@ -1,0 +1,35 @@
+{
+ "schema": 1,
+ "query": {
+  "md5": "dd9be38cd66ffd3b526d3388c6b99b8e"
+ },
+ "crc32": "F246A68E",
+ "size": 4194304,
+ "md5": "dd9be38cd66ffd3b526d3388c6b99b8e",
+ "sha1": "fbb745b016cc710ff6f82ec3091a181415d8de61",
+ "names": [
+  "Fire Pro Wrestling for WonderSwan (Japan)",
+  "Fire Pro Wrestling for WonderSwan (Japan) (Rev 5).ws"
+ ],
+ "patches": [
+  {
+   "id": "0aa24805577d4f12",
+   "game": "Fire Pro Wrestling for WonderSwan",
+   "variant": "fire-pro-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "7E701D9E",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/fire-pro-v1.0/fire-pro-en-1.0.bps",
+   "sha256": "0aa24805577d4f1207dc42d3db37c42153b44f9a4298f32ac56c6db05665024c",
+   "size": 176934,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/fire-pro-v1.0"
+  }
+ ],
+ "produced_by": []
+}

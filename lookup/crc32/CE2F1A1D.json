@@ -5,8 +5,11 @@
  },
  "crc32": "CE2F1A1D",
  "size": 1048576,
+ "md5": "a466797b353d610f43a0f030cec721c1",
+ "sha1": "cfcb14be6d2f1dbffdfcefb8c8d83b4f39bc102b",
  "names": [
-  "Final Lap 2000 (Japan)"
+  "Final Lap 2000 (Japan)",
+  "Final Lap 2000 (Japan).ws"
  ],
  "patches": [
   {

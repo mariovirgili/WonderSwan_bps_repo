@@ -5,8 +5,12 @@
  },
  "crc32": "CCAA4853",
  "size": 2097152,
+ "md5": "edbc77ab0d585447d927318a6eb66c9b",
+ "sha1": "3b62fd2841602f1077270848ab7a3aad58712ee9",
  "sha256": "38fd168a8cefa4ed80db42eed9f720e42da5b8f71d551c707520b24060c14728",
- "names": [],
+ "names": [
+  "Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 2).ws"
+ ],
  "patches": [
   {
    "id": "46408bc9842ed235",

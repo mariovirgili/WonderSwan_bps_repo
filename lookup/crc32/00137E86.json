@@ -5,8 +5,11 @@
  },
  "crc32": "00137E86",
  "size": 1048576,
+ "md5": "1adacf9cb5aa3eb5839a9e2c94933348",
+ "sha1": "af3fe9da3f5ee0f5a7b06b0440223db88fcb3bf2",
  "names": [
-  "Goraku Ou Tango! (Japan)"
+  "Goraku Ou Tango! (Japan)",
+  "Goraku Ou Tango! (Japan) (Rev 2).ws"
  ],
  "patches": [
   {

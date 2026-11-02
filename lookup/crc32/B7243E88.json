@@ -5,8 +5,11 @@
  },
  "crc32": "B7243E88",
  "size": 4194304,
+ "md5": "e36650ac50df69d1832a0d496c165db2",
+ "sha1": "26628eb76c16880b6faf2e706778d91a60144078",
  "names": [
-  "Final Fantasy (Japan)"
+  "Final Fantasy (Japan)",
+  "Final Fantasy (Japan).wsc"
  ],
  "patches": [
   {

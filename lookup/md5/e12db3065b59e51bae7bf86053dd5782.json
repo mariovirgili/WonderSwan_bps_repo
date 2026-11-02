@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "query": {
+  "md5": "e12db3065b59e51bae7bf86053dd5782"
+ },
+ "crc32": "301436AC",
+ "size": 1048576,
+ "md5": "e12db3065b59e51bae7bf86053dd5782",
+ "sha1": "708288e70b3186f6c0ef07acaef1b50fe6b7ab22",
+ "names": [
+  "Sennou Millennium (Japan)",
+  "Sennou Millennium (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "40912bbb3f5d76e6",
+   "game": "Sennou Millennium",
+   "variant": "sennou-millennium-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "4883A851",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/sennou-millennium-v1.0/sennou-millennium-en-1.0.bps",
+   "sha256": "40912bbb3f5d76e6eeb17520fe20829160df9179a66523615c0153b29727c82e",
+   "size": 235610,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/sennou-millennium-v1.0"
+  },
+  {
+   "id": "b1ea6c586fdb23d5",
+   "game": "Sennou Millennium",
+   "variant": "sennou-millennium-en-special-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "C6995751",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/sennou-millennium-v1.0/sennou-millennium-en-special-1.0.bps",
+   "sha256": "b1ea6c586fdb23d5135afd1bc127417befb278552d60f163761c021f007ff460",
+   "size": 235756,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/sennou-millennium-v1.0"
+  }
+ ],
+ "produced_by": []
+}

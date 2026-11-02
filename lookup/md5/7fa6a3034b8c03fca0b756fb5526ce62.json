@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "query": {
+  "md5": "7fa6a3034b8c03fca0b756fb5526ce62"
+ },
+ "crc32": "F8A1DD2B",
+ "size": 8388608,
+ "md5": "7fa6a3034b8c03fca0b756fb5526ce62",
+ "sha1": "01e765bf356cdcb413bfd27c6321f7449465766a",
+ "names": [
+  "From TV Animation One Piece - Grand Battle Swan Colosseum (Japan)",
+  "From TV Animation One Piece - Grand Battle Swan Colosseum (Japan).wsc"
+ ],
+ "patches": [
+  {
+   "id": "017aeb1d166d60aa",
+   "game": "One Piece: Grand Battle Swan Colosseum",
+   "variant": "grand-battle-en-1.3",
+   "version": "1.3",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "F3DB0917",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/grand-battle-v1.3/grand-battle-en-1.3.bps",
+   "sha256": "017aeb1d166d60aa4ccb8a347a9c0e0ef5ea16a491018e3a8dd729c217ccd594",
+   "size": 75926,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/grand-battle-v1.3"
+  },
+  {
+   "id": "9d82d04718fd68d8",
+   "game": "One Piece: Grand Battle Swan Colosseum",
+   "variant": "grand-battle-en-1.2",
+   "version": "1.2",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": false,
+   "superseded": true,
+   "format": "bps",
+   "target_crc32": "A10DA837",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/grand-battle-v1.2/grand-battle-en-1.2.bps",
+   "sha256": "9d82d04718fd68d853e427dcf58539b05dad8aacc97080e62780957fcefbb6b6",
+   "size": 75836,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/grand-battle-v1.2"
+  }
+ ],
+ "produced_by": []
+}

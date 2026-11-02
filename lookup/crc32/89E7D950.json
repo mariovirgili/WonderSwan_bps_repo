@@ -5,8 +5,11 @@
  },
  "crc32": "89E7D950",
  "size": 1048576,
+ "md5": "da17db6b7f491510e4b284996ff0eebf",
+ "sha1": "3d5a1ed77e721908eb1145aaedef17c0ee6355ae",
  "names": [
-  "Dokodemo Hamster (Japan)"
+  "Dokodemo Hamster (Japan)",
+  "Dokodemo Hamster (Japan).ws"
  ],
  "patches": [
   {

@@ -1,0 +1,35 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "f7aeab6724154f7ef6a389f9f18b7100045e1064"
+ },
+ "crc32": "D7A12BD5",
+ "size": 4194304,
+ "md5": "1eb91e6b46ab5624c7b707ea7b7abe9d",
+ "sha1": "f7aeab6724154f7ef6a389f9f18b7100045e1064",
+ "names": [
+  "Guilty Gear Petit 2 (Japan)",
+  "Guilty Gear Petit 2 (Japan).wsc"
+ ],
+ "patches": [
+  {
+   "id": "df7d403b23e3cf77",
+   "game": "Guilty Gear Petit 2",
+   "variant": "Guilty Gear Petit 2 [T-En v0.9]",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "5F6A6550",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Petit2_v0.9/Guilty%20Gear%20Petit%202%20%5BT-En%20v0.9%5D.bps",
+   "sha256": "df7d403b23e3cf77b4f57b44904dff0438648b13535207a1ccf1016c9403f75b",
+   "size": 98387,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Petit2_v0.9"
+  }
+ ],
+ "produced_by": []
+}

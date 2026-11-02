@@ -5,8 +5,11 @@
  },
  "crc32": "A5643AA3",
  "size": 1048576,
+ "md5": "c21571f057d05bb01db2ece8517b121d",
+ "sha1": "9622c65c939f05a9dfae288919ec5bd15c348f14",
  "names": [
-  "Tare Panda no GunPey (Japan)"
+  "Tare Panda no GunPey (Japan)",
+  "Tare Panda no GunPey (Japan).ws"
  ],
  "patches": [
   {

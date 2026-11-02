@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "35eea568f756bacf533bb9aaad7e3239ba00e411"
+ },
+ "crc32": "B25A0635",
+ "size": 4194304,
+ "md5": "9b15b2236cae605f7bc3bea3859fdd36",
+ "sha1": "35eea568f756bacf533bb9aaad7e3239ba00e411",
+ "names": [
+  "Buffers Evolution (Japan)",
+  "Buffers Evolution (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "8e9c3f909ec89c74",
+   "game": "Buffers Evolution",
+   "variant": "buffers-evolution-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "378A17BC",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/buffers-evolution-v1.0/buffers-evolution-en-1.0.bps",
+   "sha256": "8e9c3f909ec89c7490ee08a2cd8c754e386f6e5d265d701e1ada3fa9e064b9af",
+   "size": 2419,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/buffers-evolution-v1.0"
+  },
+  {
+   "id": "8dccb7287e23eca3",
+   "game": "Buffers Evolution",
+   "variant": "buffers-evolution-en-wondergate-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "1E355E65",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/buffers-evolution-v1.0/buffers-evolution-en-wondergate-1.0.bps",
+   "sha256": "8dccb7287e23eca365477aa31e59600dacb467f0014445c9bd5941bceeac8514",
+   "size": 2423,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/buffers-evolution-v1.0"
+  }
+ ],
+ "produced_by": []
+}

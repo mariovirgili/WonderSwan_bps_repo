@@ -5,9 +5,12 @@
  },
  "crc32": "F0ACDA5C",
  "size": 2097152,
+ "md5": "12c3cca0ef52343509dda1c1fb4c1b65",
+ "sha1": "152c4d63b1b17f2c717a43efc75d718b614f9ddc",
  "names": [
   "Apply to: SD Gundam - Operation U.C. (Japan) (SWJ-BANC21)",
-  "SD Gundam - Operation U.C. (Japan)"
+  "SD Gundam - Operation U.C. (Japan)",
+  "SD Gundam - Operation U.C. (Japan).wsc"
  ],
  "patches": [
   {

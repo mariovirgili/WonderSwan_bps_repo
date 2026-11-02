@@ -5,8 +5,11 @@
  },
  "crc32": "35361250",
  "size": 2097152,
+ "md5": "e79dddc7db77ad96c52b0b7690f8c1b1",
+ "sha1": "fb8d0f4e58a4192989ec71eb6e392d182aaa3eec",
  "names": [
-  "Pocket Fighter (Japan)"
+  "Pocket Fighter (Japan)",
+  "Pocket Fighter (Japan).ws"
  ],
  "patches": [
   {

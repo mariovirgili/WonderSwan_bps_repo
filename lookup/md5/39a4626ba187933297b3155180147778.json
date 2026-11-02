@@ -1,0 +1,71 @@
+{
+ "schema": 1,
+ "query": {
+  "md5": "39a4626ba187933297b3155180147778"
+ },
+ "crc32": "E4EB3AB1",
+ "size": 4194304,
+ "md5": "39a4626ba187933297b3155180147778",
+ "sha1": "5e5db8b066e1b41c5c12a2d4ffa97b73ed6c3f03",
+ "names": [
+  "SD Gundam G Generation - Gather Beat (Japan).ws",
+  "SD Gundam G-Generation - Gather Beat (Japan)"
+ ],
+ "patches": [
+  {
+   "id": "77ead29dade8ed60",
+   "game": "SD Gundam G Generation: Gather Beat",
+   "variant": "gather-beat-gb1-en-1.2",
+   "version": "1.2",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "F2DF9A5A",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gather-beat-v1.2/gather-beat-gb1-en-1.2.bps",
+   "sha256": "77ead29dade8ed60b38aa5d1cb04fb66b8b95c68351fe3c7c6e6e39a5c23c1ed",
+   "size": 508150,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-v1.2"
+  },
+  {
+   "id": "6889d29941c7e904",
+   "game": "SD Gundam G Generation: Gather Beat",
+   "variant": "gather-beat-gb1-en-1.1",
+   "version": "1.1",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": false,
+   "superseded": true,
+   "format": "bps",
+   "target_crc32": "9CB44071",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gather-beat-v1.1/gather-beat-gb1-en-1.1.bps",
+   "sha256": "6889d29941c7e9045e3b770025c6ea29bbd48d206b3c7c72f7758d287e24b2c0",
+   "size": 507660,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-v1.1"
+  },
+  {
+   "id": "b5a4029570f049a2",
+   "game": "SD Gundam G Generation: Gather Beat 1 & 2",
+   "variant": "gather-beat-gb1-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": false,
+   "superseded": true,
+   "format": "bps",
+   "target_crc32": "C9C1EC3A",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gather-beat-v1.0/gather-beat-gb1-en-1.0.bps",
+   "sha256": "b5a4029570f049a249c8b71ae7e6d95d0af34592a040c73fd3a7a012812966a2",
+   "size": 507694,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-v1.0"
+  }
+ ],
+ "produced_by": []
+}

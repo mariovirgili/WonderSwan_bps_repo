@@ -5,8 +5,11 @@
  },
  "crc32": "80DE367D",
  "size": 2097152,
+ "md5": "b1b20bb24be3767ab5bfcfca54b51c54",
+ "sha1": "92d4a6ff6f2b1152d8935025f38f910155e5d709",
  "names": [
-  "MobileWonderGate (Japan)"
+  "MobileWonderGate (Japan)",
+  "MobileWonderGate (Japan) (Rev 1).ws"
  ],
  "patches": [
   {

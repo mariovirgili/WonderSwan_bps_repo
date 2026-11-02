@@ -5,8 +5,11 @@
  },
  "crc32": "D7A0AB74",
  "size": 4194304,
+ "md5": "30e5f0895254ea2952f4a6a707ace47c",
+ "sha1": "caf4a8de853ded732b2a72619acf2784eeceafc7",
  "names": [
-  "Another Heaven - Memory of those Days (Japan)"
+  "Another Heaven - Memory of those Days (Japan)",
+  "Another Heaven - Memory of those Days (Japan).wsc"
  ],
  "patches": [
   {

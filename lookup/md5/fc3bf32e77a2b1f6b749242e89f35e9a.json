@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "query": {
+  "md5": "fc3bf32e77a2b1f6b749242e89f35e9a"
+ },
+ "crc32": "A9F5BF54",
+ "size": 8388608,
+ "md5": "fc3bf32e77a2b1f6b749242e89f35e9a",
+ "sha1": "35443e2ef8a20a0ad82da1274b2768c16239dd46",
+ "names": [
+  "Kidou Senshi Gundam Vol. 3 - A Baoa Qu (Japan)",
+  "Kidou Senshi Gundam Vol. 3 - A Baoa Qu (Japan).wsc"
+ ],
+ "patches": [
+  {
+   "id": "88784f68f44a53d8",
+   "game": "Kidou Senshi Gundam Vol. 3: A Baoa Qu",
+   "variant": "gundam-vol3-a-baoa-qu-en-1.1",
+   "version": "1.1",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "E245AF80",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gundam-vol3-a-baoa-qu-v1.1/gundam-vol3-a-baoa-qu-en-1.1.bps",
+   "sha256": "88784f68f44a53d86acca6c8113dab0b0e1a5b81979cfc78c0a666c123928c42",
+   "size": 224698,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol3-a-baoa-qu-v1.1"
+  },
+  {
+   "id": "32f3c08ffeb7c731",
+   "game": "Kidou Senshi Gundam Vol. 3: A Baoa Qu",
+   "variant": "gundam-vol3-a-baoa-qu-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": false,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "33889AC7",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gundam-vol3-a-baoa-qu-v1.0/gundam-vol3-a-baoa-qu-en-1.0.bps",
+   "sha256": "32f3c08ffeb7c7313b0e00e3c3003dbf45961d4977a968224130d2420b24f5e0",
+   "size": 212260,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol3-a-baoa-qu-v1.0"
+  }
+ ],
+ "produced_by": []
+}

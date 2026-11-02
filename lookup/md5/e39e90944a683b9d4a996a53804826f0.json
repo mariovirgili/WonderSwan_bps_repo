@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "query": {
+  "md5": "e39e90944a683b9d4a996a53804826f0"
+ },
+ "crc32": "B1CAEC06",
+ "size": 1048576,
+ "md5": "e39e90944a683b9d4a996a53804826f0",
+ "sha1": "83e190af2e25fbb3e93b1d5835c52fe6f1d279ce",
+ "names": [
+  "D's Garage 21 Koubo Game - Tane o Maku Tori (Japan)",
+  "D's Garage 21 Koubo Game - Tane o Maku Tori (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "d2543bc0fd6f5917",
+   "game": "Tane o Maku Tori: The Bird Who Sowed Seeds",
+   "variant": "tane-o-maku-tori-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "40EC6A1D",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/tane-o-maku-tori-v1.0/tane-o-maku-tori-en-1.0.bps",
+   "sha256": "d2543bc0fd6f5917dc1b75ab3b0a738adaef9694e137bc7f96cfbb78333c86c1",
+   "size": 174712,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tane-o-maku-tori-v1.0"
+  },
+  {
+   "id": "13225f918a25c1c3",
+   "game": "Tane o Maku Tori: The Bird Who Sowed Seeds",
+   "variant": "tane-o-maku-tori-en-wondergate-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "63BC5043",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/tane-o-maku-tori-v1.0/tane-o-maku-tori-en-wondergate-1.0.bps",
+   "sha256": "13225f918a25c1c39eed36646fb5416212a1229ce19c523ef34d71e7e909b09c",
+   "size": 174717,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tane-o-maku-tori-v1.0"
+  }
+ ],
+ "produced_by": []
+}

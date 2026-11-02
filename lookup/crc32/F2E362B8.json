@@ -5,8 +5,11 @@
  },
  "crc32": "F2E362B8",
  "size": 1048576,
+ "md5": "fe30867e698c071f6be94cce24b095ee",
+ "sha1": "99c831c27c478064e3d3fa8f9f089cc28f0e946f",
  "names": [
-  "From TV Animation One Piece - Mezase Kaizoku Ou! (Japan)"
+  "From TV Animation One Piece - Mezase Kaizoku Ou! (Japan)",
+  "From TV Animation One Piece - Mezase Kaizoku Ou! (Japan).ws"
  ],
  "patches": [
   {

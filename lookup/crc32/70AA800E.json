@@ -5,8 +5,11 @@
  },
  "crc32": "70AA800E",
  "size": 4194304,
+ "md5": "fd2165de8c6bb617166f6bb34447e70d",
+ "sha1": "57b4278fc5812f52413ca65f45225922d4f2ec3d",
  "names": [
-  "Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 2)"
+  "Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 2)",
+  "Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 2).ws"
  ],
  "patches": [
   {

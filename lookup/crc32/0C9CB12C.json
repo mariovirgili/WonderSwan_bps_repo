@@ -5,8 +5,11 @@
  },
  "crc32": "0C9CB12C",
  "size": 1048576,
+ "md5": "b7f9c3d80b83178ba192297ea755d066",
+ "sha1": "1eb729aa9ab0a7df6f8a3470a6fede59d7622d4a",
  "names": [
-  "GunPey EX (Japan)"
+  "GunPey EX (Japan)",
+  "GunPey EX (Japan).wsc"
  ],
  "patches": [
   {

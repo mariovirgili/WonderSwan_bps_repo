@@ -1,0 +1,71 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "9622c65c939f05a9dfae288919ec5bd15c348f14"
+ },
+ "crc32": "A5643AA3",
+ "size": 1048576,
+ "md5": "c21571f057d05bb01db2ece8517b121d",
+ "sha1": "9622c65c939f05a9dfae288919ec5bd15c348f14",
+ "names": [
+  "Tare Panda no GunPey (Japan)",
+  "Tare Panda no GunPey (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "45eb0a544c31a7e2",
+   "game": "Tare Panda no GunPey",
+   "variant": "tare-panda-gunpey-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "37A58671",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/tare-panda-gunpey-v1.0/tare-panda-gunpey-en-1.0.bps",
+   "sha256": "45eb0a544c31a7e2ef24a58067ba6f4765939bc088dc68119ff8d00be500d8c1",
+   "size": 174830,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tare-panda-gunpey-v1.0"
+  },
+  {
+   "id": "af7efa19c916dadd",
+   "game": "Tare Panda no GunPey",
+   "variant": "tare-panda-gunpey-en-debug-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "B9B75EE5",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/tare-panda-gunpey-v1.0/tare-panda-gunpey-en-debug-1.0.bps",
+   "sha256": "af7efa19c916dadd7f2fc708763fbc6b0e352b867d16a32753a15d1cdc6f6340",
+   "size": 175257,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tare-panda-gunpey-v1.0"
+  },
+  {
+   "id": "3eb141659b002029",
+   "game": "Tare Panda no GunPey",
+   "variant": "tare-panda-gunpey-en-wondergate-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "E3DE2601",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/tare-panda-gunpey-v1.0/tare-panda-gunpey-en-wondergate-1.0.bps",
+   "sha256": "3eb141659b002029f3a43ea16d7f8eb97e18a0617466c1bf6a712069bb1f232a",
+   "size": 174840,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tare-panda-gunpey-v1.0"
+  }
+ ],
+ "produced_by": []
+}

@@ -5,8 +5,11 @@
  },
  "crc32": "B25A0635",
  "size": 4194304,
+ "md5": "9b15b2236cae605f7bc3bea3859fdd36",
+ "sha1": "35eea568f756bacf533bb9aaad7e3239ba00e411",
  "names": [
-  "Buffers Evolution (Japan)"
+  "Buffers Evolution (Japan)",
+  "Buffers Evolution (Japan).ws"
  ],
  "patches": [
   {

@@ -5,8 +5,12 @@
  },
  "crc32": "2F9E2560",
  "size": 8388608,
+ "md5": "9bfcf86bf65c9fdae4a0f88fadafd0d8",
+ "sha1": "3c752694ab651f9a00ccd39c334a2e3ff78f5cb2",
  "sha256": "d1d21d5199971b345e9907861c04a080ac7b44e07303f96717fd7f603f9ba380",
- "names": [],
+ "names": [
+  "Front Mission (Japan).wsc"
+ ],
  "patches": [
   {
    "id": "3834387947741d4c",

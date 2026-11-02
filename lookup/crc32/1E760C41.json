@@ -5,8 +5,11 @@
  },
  "crc32": "1E760C41",
  "size": 4194304,
+ "md5": "c17c4de6648c776b246ae83991ac3978",
+ "sha1": "e31bfa54cbf539a9d28090b372d8e669a93c3e28",
  "names": [
-  "Digital Monster Card Game - Ver. WonderSwan Color (Japan) (Rev 2)"
+  "Digital Monster Card Game - Ver. WonderSwan Color (Japan) (Rev 2)",
+  "Digital Monster Card Game - Ver. WonderSwan Color (Japan) (Rev 2).wsc"
  ],
  "patches": [
   {

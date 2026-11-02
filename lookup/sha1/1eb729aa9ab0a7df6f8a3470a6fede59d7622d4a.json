@@ -1,0 +1,35 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "1eb729aa9ab0a7df6f8a3470a6fede59d7622d4a"
+ },
+ "crc32": "0C9CB12C",
+ "size": 1048576,
+ "md5": "b7f9c3d80b83178ba192297ea755d066",
+ "sha1": "1eb729aa9ab0a7df6f8a3470a6fede59d7622d4a",
+ "names": [
+  "GunPey EX (Japan)",
+  "GunPey EX (Japan).wsc"
+ ],
+ "patches": [
+  {
+   "id": "dbb2eccea2cbca7c",
+   "game": "GunPey EX",
+   "variant": "gunpey-ex-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "16998248",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gunpey-ex-v1.0/gunpey-ex-en-1.0.bps",
+   "sha256": "dbb2eccea2cbca7ca28fee9366ab8ea518e4c994d3c277456e0fd10fbd914280",
+   "size": 15060,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gunpey-ex-v1.0"
+  }
+ ],
+ "produced_by": []
+}

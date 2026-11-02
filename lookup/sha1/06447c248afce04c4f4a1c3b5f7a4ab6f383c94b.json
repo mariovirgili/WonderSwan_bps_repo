@@ -1,0 +1,35 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "06447c248afce04c4f4a1c3b5f7a4ab6f383c94b"
+ },
+ "crc32": "425EB893",
+ "size": 1048576,
+ "md5": "7528a5de5924896d152920b1eaf8fd5d",
+ "sha1": "06447c248afce04c4f4a1c3b5f7a4ab6f383c94b",
+ "names": [
+  "Anchorz Field (Japan)",
+  "Anchorz Field (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "553c45b988f1cdc3",
+   "game": "Anchorz Field",
+   "variant": "anchorz-field-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "34A7D483",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/anchorz-field-v1.0/anchorz-field-en-1.0.bps",
+   "sha256": "553c45b988f1cdc382354f780eb8b234252b5d7db1a0da184cfcae05efdca300",
+   "size": 45977,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/anchorz-field-v1.0"
+  }
+ ],
+ "produced_by": []
+}

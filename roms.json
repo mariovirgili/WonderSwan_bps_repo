@@ -5,8 +5,11 @@
   "00137E86": {
    "crc32": "00137E86",
    "size": 1048576,
+   "md5": "1adacf9cb5aa3eb5839a9e2c94933348",
+   "sha1": "af3fe9da3f5ee0f5a7b06b0440223db88fcb3bf2",
    "names": [
-    "Goraku Ou Tango! (Japan)"
+    "Goraku Ou Tango! (Japan)",
+    "Goraku Ou Tango! (Japan) (Rev 2).ws"
    ],
    "patches": [
     {
@@ -33,8 +36,12 @@
   "00B31FBB": {
    "crc32": "00B31FBB",
    "size": 2097152,
+   "md5": "f06beaff2703728baa8dddc0ddeb7094",
+   "sha1": "5eaeab859e5f647fac354dad285a311387ea126b",
    "sha256": "3fc350fd39cd1c15608c4e9e791487b9d2f8aa535a73482472e11d4c337a796a",
-   "names": [],
+   "names": [
+    "Makaimura for WonderSwan (Japan).ws"
+   ],
    "patches": [
     {
      "id": "bf4742141bbf7f94",
@@ -214,8 +221,11 @@
   "08C0247B": {
    "crc32": "08C0247B",
    "size": 4194304,
+   "md5": "3f81d86b97a81ed8fb2fd90a20b94c7a",
+   "sha1": "29e72e7f96f145a0ff56e447f577310df2ec463b",
    "names": [
-    "Kidou Senshi Gundam Vol. 1 - Side 7 (Japan)"
+    "Kidou Senshi Gundam Vol. 1 - Side 7 (Japan)",
+    "Kidou Senshi Gundam Vol. 1 - Side 7 (Japan).wsc"
    ],
    "patches": [
     {
@@ -339,8 +349,11 @@
   "0C9CB12C": {
    "crc32": "0C9CB12C",
    "size": 1048576,
+   "md5": "b7f9c3d80b83178ba192297ea755d066",
+   "sha1": "1eb729aa9ab0a7df6f8a3470a6fede59d7622d4a",
    "names": [
-    "GunPey EX (Japan)"
+    "GunPey EX (Japan)",
+    "GunPey EX (Japan).wsc"
    ],
    "patches": [
     {
@@ -367,8 +380,11 @@
   "0E40829C": {
    "crc32": "0E40829C",
    "size": 4194304,
+   "md5": "173e9d76206a88bf05696027b4d55850",
+   "sha1": "016de32719e920fd9996c52d7eb81f2a60a24d7a",
    "names": [
-    "Digital Monster - D-Project (Japan) (Rev 2)"
+    "Digital Monster - D-Project (Japan) (Rev 2)",
+    "Digital Monster - D-Project (Japan) (Rev 2).wsc"
    ],
    "patches": [
     {
@@ -413,8 +429,11 @@
   "138D1018": {
    "crc32": "138D1018",
    "size": 4194304,
+   "md5": "41a4a0ab39c036fb4ad741f19027e443",
+   "sha1": "2b2c2a0566646156bcdde2a00b728c5b8218aa23",
    "names": [
-    "Star Hearts - Hoshi to Daichi no Shisha (Japan)"
+    "Star Hearts - Hoshi to Daichi no Shisha (Japan)",
+    "Star Hearts - Hoshi to Daichi no Shisha (Japan).wsc"
    ],
    "patches": [
     {
@@ -652,6 +671,8 @@
   "14ADBD4B": {
    "crc32": "14ADBD4B",
    "size": 4194304,
+   "md5": "ffee38c08b4e76cf68420f2e22973284",
+   "sha1": "9896d93c97381dc06b6f044de6c9bd112ca0c94b",
    "names": [
     "Ring Infinity (Japan)",
     "Ring Infinity (Japan).ws"
@@ -927,8 +948,11 @@
   "1E760C41": {
    "crc32": "1E760C41",
    "size": 4194304,
+   "md5": "c17c4de6648c776b246ae83991ac3978",
+   "sha1": "e31bfa54cbf539a9d28090b372d8e669a93c3e28",
    "names": [
-    "Digital Monster Card Game - Ver. WonderSwan Color (Japan) (Rev 2)"
+    "Digital Monster Card Game - Ver. WonderSwan Color (Japan) (Rev 2)",
+    "Digital Monster Card Game - Ver. WonderSwan Color (Japan) (Rev 2).wsc"
    ],
    "patches": [
     {
@@ -1009,8 +1033,12 @@
   "1F10CA75": {
    "crc32": "1F10CA75",
    "size": 4194304,
+   "md5": "d902afdadf17b452621c50a1ffda2fa9",
+   "sha1": "9b4786adca7b83fe66a9d4b9fd4ffaf32abe7656",
    "sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
-   "names": [],
+   "names": [
+    "Rockman EXE - N1 Battle (Japan) (Rev 1).wsc"
+   ],
    "patches": [
     {
      "id": "72a8ff6a70ca7bf0",
@@ -1225,7 +1253,11 @@
   "2460B45A": {
    "crc32": "2460B45A",
    "size": 8388608,
-   "names": [],
+   "md5": "3e62a6b6af656fcac225cd02446acb9d",
+   "sha1": "a8f8d3efc9b2d5741081e05f517d746ee5437f87",
+   "names": [
+    "Riviera - Yakusoku no Chi Riviera (Japan).wsc"
+   ],
    "patches": [
     {
      "id": "e4bda7c628316fb9",
@@ -1435,8 +1467,12 @@
   "2F9E2560": {
    "crc32": "2F9E2560",
    "size": 8388608,
+   "md5": "9bfcf86bf65c9fdae4a0f88fadafd0d8",
+   "sha1": "3c752694ab651f9a00ccd39c334a2e3ff78f5cb2",
    "sha256": "d1d21d5199971b345e9907861c04a080ac7b44e07303f96717fd7f603f9ba380",
-   "names": [],
+   "names": [
+    "Front Mission (Japan).wsc"
+   ],
    "patches": [
     {
      "id": "3834387947741d4c",
@@ -1532,8 +1568,11 @@
   "301436AC": {
    "crc32": "301436AC",
    "size": 1048576,
+   "md5": "e12db3065b59e51bae7bf86053dd5782",
+   "sha1": "708288e70b3186f6c0ef07acaef1b50fe6b7ab22",
    "names": [
-    "Sennou Millennium (Japan)"
+    "Sennou Millennium (Japan)",
+    "Sennou Millennium (Japan).ws"
    ],
    "patches": [
     {
@@ -1708,8 +1747,11 @@
   "324622C9": {
    "crc32": "324622C9",
    "size": 16777216,
+   "md5": "b814e71eb1d079466a9535566d605280",
+   "sha1": "544e76133fa53fc0ae5e00e3465b9cf634f14fd0",
    "names": [
-    "Beatmania for WonderSwan (Japan)"
+    "Beatmania for WonderSwan (Japan)",
+    "beatmania for WonderSwan (Japan).ws"
    ],
    "patches": [
     {
@@ -1814,8 +1856,11 @@
   "35361250": {
    "crc32": "35361250",
    "size": 2097152,
+   "md5": "e79dddc7db77ad96c52b0b7690f8c1b1",
+   "sha1": "fb8d0f4e58a4192989ec71eb6e392d182aaa3eec",
    "names": [
-    "Pocket Fighter (Japan)"
+    "Pocket Fighter (Japan)",
+    "Pocket Fighter (Japan).ws"
    ],
    "patches": [
     {
@@ -2042,8 +2087,11 @@
   "392DD813": {
    "crc32": "392DD813",
    "size": 2097152,
+   "md5": "c53a5d8c189a23b16c444c4e8ef581af",
+   "sha1": "821bb81917445b63ac663c706ab4ce27de28543f",
    "names": [
-    "Bakusou Dekotora Densetsu for WonderSwan (Japan)"
+    "Bakusou Dekotora Densetsu for WonderSwan (Japan)",
+    "Bakusou Dekotora Densetsu for WonderSwan (Japan).ws"
    ],
    "patches": [
     {
@@ -2124,8 +2172,11 @@
   "39A1391A": {
    "crc32": "39A1391A",
    "size": 8388608,
+   "md5": "95b2632395ce85fc5f0cdb762e665136",
+   "sha1": "df1a794f7e3992b1e1e9de14141b607746202202",
    "names": [
-    "Kidou Senshi Gundam Vol. 2 - Jaburo (Japan)"
+    "Kidou Senshi Gundam Vol. 2 - Jaburo (Japan)",
+    "Kidou Senshi Gundam Vol. 2 - Jaburo (Japan).wsc"
    ],
    "patches": [
     {
@@ -2483,8 +2534,11 @@
   "425EB893": {
    "crc32": "425EB893",
    "size": 1048576,
+   "md5": "7528a5de5924896d152920b1eaf8fd5d",
+   "sha1": "06447c248afce04c4f4a1c3b5f7a4ab6f383c94b",
    "names": [
-    "Anchorz Field (Japan)"
+    "Anchorz Field (Japan)",
+    "Anchorz Field (Japan).ws"
    ],
    "patches": [
     {
@@ -2511,8 +2565,11 @@
   "427056C4": {
    "crc32": "427056C4",
    "size": 4194304,
+   "md5": "547501367ccf6262a70d0030e68cc75e",
+   "sha1": "2410690ad46667c52b63402df9e95fc8a75cee62",
    "names": [
-    "From TV Animation One Piece - Niji no Shima Densetsu (Japan)"
+    "From TV Animation One Piece - Niji no Shima Densetsu (Japan)",
+    "From TV Animation One Piece - Niji no Shima Densetsu (Japan).wsc"
    ],
    "patches": [
     {
@@ -2767,8 +2824,11 @@
   "4D21A347": {
    "crc32": "4D21A347",
    "size": 8388608,
+   "md5": "6c1949e0201437ed16d9182956b67b0e",
+   "sha1": "016ff46509cbfe57a7440a1755d3a41ef49c048f",
    "names": [
-    "SD Gundam G Generation - Gather Beat 2 (Japan)"
+    "SD Gundam G Generation - Gather Beat 2 (Japan)",
+    "SD Gundam G Generation - Gather Beat 2 (Japan).wsc"
    ],
    "patches": [
     {
@@ -2885,8 +2945,11 @@
   "4E467626": {
    "crc32": "4E467626",
    "size": 1048576,
+   "md5": "3584e4a63a6ae9fa546722a349f88573",
+   "sha1": "f79451034b6d844f0e10c825306bbc26f26a5466",
    "names": [
-    "Engacho! for WonderSwan (Japan)"
+    "Engacho! for WonderSwan (Japan)",
+    "Engacho! for WonderSwan (Japan).ws"
    ],
    "patches": [
     {
@@ -3192,7 +3255,10 @@
   "56E2C069": {
    "crc32": "56E2C069",
    "size": 2097152,
+   "md5": "5432d188664bc4e5dae0fc859580cda1",
+   "sha1": "c4436a59fd830ba6af2d63462f71e1ab1cfa3212",
    "names": [
+    "Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3).ws",
     "Chou Denki Card Game - Youfu Makai - Kikuchi Shuukou (Japan)"
    ],
    "patches": [
@@ -3637,8 +3703,11 @@
   "62CB398B": {
    "crc32": "62CB398B",
    "size": 8388608,
+   "md5": "b1832d4e48ba931adbfaf2ed35314fe0",
+   "sha1": "862e59fc9322b1177cfff86d405f288fa904788c",
    "names": [
-    "Riviera - Yakusoku no Chi Riviera (Japan)"
+    "Riviera - Yakusoku no Chi Riviera (Japan)",
+    "Riviera - Yakusoku no Chi Riviera (Japan) (Rev 1).wsc"
    ],
    "patches": [
     {
@@ -3861,8 +3930,11 @@
   "66B617D5": {
    "crc32": "66B617D5",
    "size": 4194304,
+   "md5": "26c76cfcb14c5c8799dbe4367184d4a5",
+   "sha1": "c1ab4e24f261615ca59f937b866fcf7047b67796",
    "names": [
-    "X - Card of Fate (Japan)"
+    "X - Card of Fate (Japan)",
+    "X - Card of Fate (Japan).wsc"
    ],
    "patches": [
     {
@@ -3986,8 +4058,11 @@
   "70AA800E": {
    "crc32": "70AA800E",
    "size": 4194304,
+   "md5": "fd2165de8c6bb617166f6bb34447e70d",
+   "sha1": "57b4278fc5812f52413ca65f45225922d4f2ec3d",
    "names": [
-    "Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 2)"
+    "Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 2)",
+    "Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 2).ws"
    ],
    "patches": [
     {
@@ -4138,8 +4213,11 @@
   "7F3A14C0": {
    "crc32": "7F3A14C0",
    "size": 2097152,
+   "md5": "bb9f130931b2b7d1f646f44d1667ad63",
+   "sha1": "39e9a897b681b2c326b052827d7c534f22290286",
    "names": [
-    "Cardcaptor Sakura - Sakura to Fushigi na Clow Card (Japan)"
+    "Cardcaptor Sakura - Sakura to Fushigi na Clow Card (Japan)",
+    "Cardcaptor Sakura - Sakura to Fushigi na Clow Card (Japan).ws"
    ],
    "patches": [
     {
@@ -4272,7 +4350,11 @@
   "7FFF2520": {
    "crc32": "7FFF2520",
    "size": 1048576,
-   "names": [],
+   "md5": "24fd819c4f4866d7c5c340d0273acbf9",
+   "sha1": "eb538b82c5516fae8ce38778e41fb118aa5c830f",
+   "names": [
+    "Chou Aniki - Otoko no Tamafuda (Japan) (Rev 4).ws"
+   ],
    "patches": [
     {
      "id": "84e38abf4f4b2a8f",
@@ -4324,8 +4406,11 @@
   "80DE367D": {
    "crc32": "80DE367D",
    "size": 2097152,
+   "md5": "b1b20bb24be3767ab5bfcfca54b51c54",
+   "sha1": "92d4a6ff6f2b1152d8935025f38f910155e5d709",
    "names": [
-    "MobileWonderGate (Japan)"
+    "MobileWonderGate (Japan)",
+    "MobileWonderGate (Japan) (Rev 1).ws"
    ],
    "patches": [
     {
@@ -4378,7 +4463,11 @@
   "84A46949": {
    "crc32": "84A46949",
    "size": 4194304,
-   "names": [],
+   "md5": "367e9ef3630061fdf91a2110911611a7",
+   "sha1": "6c5a2dc7e231ebd278fe22bb7f01b1a7cc3785d6",
+   "names": [
+    "Digimon Tamers - Digimon Medley (Japan) (Rev 1).wsc"
+   ],
    "patches": [
     {
      "id": "a805471859c5fb77",
@@ -4585,8 +4674,11 @@
   "89E7D950": {
    "crc32": "89E7D950",
    "size": 1048576,
+   "md5": "da17db6b7f491510e4b284996ff0eebf",
+   "sha1": "3d5a1ed77e721908eb1145aaedef17c0ee6355ae",
    "names": [
-    "Dokodemo Hamster (Japan)"
+    "Dokodemo Hamster (Japan)",
+    "Dokodemo Hamster (Japan).ws"
    ],
    "patches": [
     {
@@ -4659,8 +4751,11 @@
   "8E120B5A": {
    "crc32": "8E120B5A",
    "size": 4194304,
+   "md5": "f19436970509e5e97b5fd96752aadb8a",
+   "sha1": "221f48e97ec2c6d0046213956e1f36e923c0dec2",
    "names": [
-    "From TV Animation One Piece - Chopper no Daibouken (Japan)"
+    "From TV Animation One Piece - Chopper no Daibouken (Japan)",
+    "From TV Animation One Piece - Chopper no Daibouken (Japan).wsc"
    ],
    "patches": [
     {
@@ -4812,8 +4907,11 @@
   "9750BC2A": {
    "crc32": "9750BC2A",
    "size": 2097152,
+   "md5": "be0f50bc4470711a31be0bd33c775ad2",
+   "sha1": "6d8f8fd330f32374b55cf6b998196a7db2131073",
    "names": [
-    "Guilty Gear Petit (Japan)"
+    "Guilty Gear Petit (Japan)",
+    "Guilty Gear Petit (Japan).wsc"
    ],
    "patches": [
     {
@@ -4840,6 +4938,8 @@
   "99027238": {
    "crc32": "99027238",
    "size": 2097152,
+   "md5": "1ea61538422bc2d6349c321fa15b334f",
+   "sha1": "02103fc5fc97c3a38834ced32a3cfe6523832535",
    "names": [
     "Blue Wing Blitz (Japan)",
     "Blue Wing Blitz (Japan).wsc"
@@ -4958,7 +5058,11 @@
   "9C98D97D": {
    "crc32": "9C98D97D",
    "size": 4194304,
-   "names": [],
+   "md5": "a4862ef07e13231ae429a98ef667a74a",
+   "sha1": "06fcc9aad3ae478db6eed27621af4f56a6488a67",
+   "names": [
+    "Romancing Sa-Ga (Japan).wsc"
+   ],
    "patches": [
     {
      "id": "c56cba1ce248b54d",
@@ -5010,7 +5114,11 @@
   "9F6E3F8D": {
    "crc32": "9F6E3F8D",
    "size": 4194304,
-   "names": [],
+   "md5": "6ec4fe6789acab4347355fcb53f10146",
+   "sha1": "36d8bc2ce7920d940943358d48f056f81055ab34",
+   "names": [
+    "Meitantei Conan - Yuugure no Oujo (Japan).wsc"
+   ],
    "patches": [
     {
      "id": "052bf7bb2eb729a5",
@@ -5161,8 +5269,11 @@
   "A193458C": {
    "crc32": "A193458C",
    "size": 524288,
+   "md5": "6f09fc64352ba0051e724c4ae58402f4",
+   "sha1": "cbf6455e89b20a000b6121e5c485be1a20d1f726",
    "names": [
-    "Ganso Jajamaru-kun (Japan)"
+    "Ganso Jajamaru-kun (Japan)",
+    "Ganso Jajamaru-kun (Japan).ws"
    ],
    "patches": [
     {
@@ -5207,8 +5318,11 @@
   "A1FB16FC": {
    "crc32": "A1FB16FC",
    "size": 1048576,
+   "md5": "eb3f161ea3db4ebd759c9b1346032d4f",
+   "sha1": "f8f077da30f227f3793e97c7f1d656559f08b9d4",
    "names": [
-    "Fishing Freaks - Bass Rise for WonderSwan (Japan)"
+    "Fishing Freaks - Bass Rise for WonderSwan (Japan)",
+    "Fishing Freaks - Bass Rise for WonderSwan (Japan).ws"
    ],
    "patches": [
     {
@@ -5331,8 +5445,11 @@
   "A5643AA3": {
    "crc32": "A5643AA3",
    "size": 1048576,
+   "md5": "c21571f057d05bb01db2ece8517b121d",
+   "sha1": "9622c65c939f05a9dfae288919ec5bd15c348f14",
    "names": [
-    "Tare Panda no GunPey (Japan)"
+    "Tare Panda no GunPey (Japan)",
+    "Tare Panda no GunPey (Japan).ws"
    ],
    "patches": [
     {
@@ -5517,8 +5634,11 @@
   "A9F5BF54": {
    "crc32": "A9F5BF54",
    "size": 8388608,
+   "md5": "fc3bf32e77a2b1f6b749242e89f35e9a",
+   "sha1": "35443e2ef8a20a0ad82da1274b2768c16239dd46",
    "names": [
-    "Kidou Senshi Gundam Vol. 3 - A Baoa Qu (Japan)"
+    "Kidou Senshi Gundam Vol. 3 - A Baoa Qu (Japan)",
+    "Kidou Senshi Gundam Vol. 3 - A Baoa Qu (Japan).wsc"
    ],
    "patches": [
     {
@@ -5563,8 +5683,11 @@
   "AA525C04": {
    "crc32": "AA525C04",
    "size": 2097152,
+   "md5": "0eb951b486fe25f37371835be81eed75",
+   "sha1": "1f42c5694a798de8ff3c68f63dfc7395be1669a5",
    "names": [
-    "Harobots (Japan)"
+    "Harobots (Japan)",
+    "Harobots (Japan).ws"
    ],
    "patches": [
     {
@@ -5686,8 +5809,12 @@
   "AF9D8F42": {
    "crc32": "AF9D8F42",
    "size": 4194304,
+   "md5": "eec79ad5bb634a90b9d020415046e921",
+   "sha1": "c07f776ac4374b648d1a49efd9d6fcd0db2ac1fa",
    "sha256": "3ec68e02fa964383d6a0792aca7e53ab005e17a768a8546eb6dc5ed482db7c29",
-   "names": [],
+   "names": [
+    "Densha de Go! 2 (Japan).ws"
+   ],
    "patches": [
     {
      "id": "1c4910264190aca3",
@@ -5862,8 +5989,11 @@
   "B1CAEC06": {
    "crc32": "B1CAEC06",
    "size": 1048576,
+   "md5": "e39e90944a683b9d4a996a53804826f0",
+   "sha1": "83e190af2e25fbb3e93b1d5835c52fe6f1d279ce",
    "names": [
-    "D's Garage 21 Koubo Game - Tane o Maku Tori (Japan)"
+    "D's Garage 21 Koubo Game - Tane o Maku Tori (Japan)",
+    "D's Garage 21 Koubo Game - Tane o Maku Tori (Japan).ws"
    ],
    "patches": [
     {
@@ -5908,8 +6038,11 @@
   "B25A0635": {
    "crc32": "B25A0635",
    "size": 4194304,
+   "md5": "9b15b2236cae605f7bc3bea3859fdd36",
+   "sha1": "35eea568f756bacf533bb9aaad7e3239ba00e411",
    "names": [
-    "Buffers Evolution (Japan)"
+    "Buffers Evolution (Japan)",
+    "Buffers Evolution (Japan).ws"
    ],
    "patches": [
     {
@@ -5954,8 +6087,11 @@
   "B62E5DD0": {
    "crc32": "B62E5DD0",
    "size": 4194304,
+   "md5": "7b2180e38b4720ce711768a73c33c9df",
+   "sha1": "d3da0ae529c6f78162682141154a95879f288ca7",
    "names": [
-    "Densha de Go! (Japan)"
+    "Densha de Go! (Japan)",
+    "Densha de Go! (Japan) (Rev 1).ws"
    ],
    "patches": [
     {
@@ -5982,8 +6118,11 @@
   "B7243E88": {
    "crc32": "B7243E88",
    "size": 4194304,
+   "md5": "e36650ac50df69d1832a0d496c165db2",
+   "sha1": "26628eb76c16880b6faf2e706778d91a60144078",
    "names": [
-    "Final Fantasy (Japan)"
+    "Final Fantasy (Japan)",
+    "Final Fantasy (Japan).wsc"
    ],
    "patches": [
     {
@@ -6166,7 +6305,11 @@
   "BF8D9212": {
    "crc32": "BF8D9212",
    "size": 2097152,
-   "names": [],
+   "md5": "0215c4b8a395f6fcf8f5b07605eae08b",
+   "sha1": "ae31488cee1c91f383efbe3083b4abec092dda36",
+   "names": [
+    "Neon Genesis Evangelion - Shito Ikusei (Japan).ws"
+   ],
    "patches": [
     {
      "id": "fd55b623cb24b9b8",
@@ -6399,8 +6542,12 @@
   "CCAA4853": {
    "crc32": "CCAA4853",
    "size": 2097152,
+   "md5": "edbc77ab0d585447d927318a6eb66c9b",
+   "sha1": "3b62fd2841602f1077270848ab7a3aad58712ee9",
    "sha256": "38fd168a8cefa4ed80db42eed9f720e42da5b8f71d551c707520b24060c14728",
-   "names": [],
+   "names": [
+    "Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 2).ws"
+   ],
    "patches": [
     {
      "id": "46408bc9842ed235",
@@ -6705,8 +6852,11 @@
   "CE2F1A1D": {
    "crc32": "CE2F1A1D",
    "size": 1048576,
+   "md5": "a466797b353d610f43a0f030cec721c1",
+   "sha1": "cfcb14be6d2f1dbffdfcefb8c8d83b4f39bc102b",
    "names": [
-    "Final Lap 2000 (Japan)"
+    "Final Lap 2000 (Japan)",
+    "Final Lap 2000 (Japan).ws"
    ],
    "patches": [
     {
@@ -6961,8 +7111,11 @@
   "D7A0AB74": {
    "crc32": "D7A0AB74",
    "size": 4194304,
+   "md5": "30e5f0895254ea2952f4a6a707ace47c",
+   "sha1": "caf4a8de853ded732b2a72619acf2784eeceafc7",
    "names": [
-    "Another Heaven - Memory of those Days (Japan)"
+    "Another Heaven - Memory of those Days (Japan)",
+    "Another Heaven - Memory of those Days (Japan).wsc"
    ],
    "patches": [
     {
@@ -6989,8 +7142,11 @@
   "D7A12BD5": {
    "crc32": "D7A12BD5",
    "size": 4194304,
+   "md5": "1eb91e6b46ab5624c7b707ea7b7abe9d",
+   "sha1": "f7aeab6724154f7ef6a389f9f18b7100045e1064",
    "names": [
-    "Guilty Gear Petit 2 (Japan)"
+    "Guilty Gear Petit 2 (Japan)",
+    "Guilty Gear Petit 2 (Japan).wsc"
    ],
    "patches": [
     {
@@ -7212,7 +7368,10 @@
   "E4EB3AB1": {
    "crc32": "E4EB3AB1",
    "size": 4194304,
+   "md5": "39a4626ba187933297b3155180147778",
+   "sha1": "5e5db8b066e1b41c5c12a2d4ffa97b73ed6c3f03",
    "names": [
+    "SD Gundam G Generation - Gather Beat (Japan).ws",
     "SD Gundam G-Generation - Gather Beat (Japan)"
    ],
    "patches": [
@@ -7517,9 +7676,12 @@
   "F0ACDA5C": {
    "crc32": "F0ACDA5C",
    "size": 2097152,
+   "md5": "12c3cca0ef52343509dda1c1fb4c1b65",
+   "sha1": "152c4d63b1b17f2c717a43efc75d718b614f9ddc",
    "names": [
     "Apply to: SD Gundam - Operation U.C. (Japan) (SWJ-BANC21)",
-    "SD Gundam - Operation U.C. (Japan)"
+    "SD Gundam - Operation U.C. (Japan)",
+    "SD Gundam - Operation U.C. (Japan).wsc"
    ],
    "patches": [
     {
@@ -7582,7 +7744,10 @@
   "F1F4D41F": {
    "crc32": "F1F4D41F",
    "size": 4194304,
+   "md5": "5883b9d0f63fe8daa9c1a2259c154466",
+   "sha1": "31a718cfbcff2dab56ab9606a0b5b2dfccecbbcb",
    "names": [
+    "Digimon Tamers - Brave Tamer (Japan) (Rev 1).wsc",
     "Digimon Tamers - Brave Tamer (Japan) (SWJ-BANC1D)"
    ],
    "patches": [
@@ -7682,8 +7847,11 @@
   "F246A68E": {
    "crc32": "F246A68E",
    "size": 4194304,
+   "md5": "dd9be38cd66ffd3b526d3388c6b99b8e",
+   "sha1": "fbb745b016cc710ff6f82ec3091a181415d8de61",
    "names": [
-    "Fire Pro Wrestling for WonderSwan (Japan)"
+    "Fire Pro Wrestling for WonderSwan (Japan)",
+    "Fire Pro Wrestling for WonderSwan (Japan) (Rev 5).ws"
    ],
    "patches": [
     {
@@ -7736,8 +7904,11 @@
   "F2E362B8": {
    "crc32": "F2E362B8",
    "size": 1048576,
+   "md5": "fe30867e698c071f6be94cce24b095ee",
+   "sha1": "99c831c27c478064e3d3fa8f9f089cc28f0e946f",
    "names": [
-    "From TV Animation One Piece - Mezase Kaizoku Ou! (Japan)"
+    "From TV Animation One Piece - Mezase Kaizoku Ou! (Japan)",
+    "From TV Animation One Piece - Mezase Kaizoku Ou! (Japan).ws"
    ],
    "patches": [
     {
@@ -7869,8 +8040,11 @@
   "F699D6D1": {
    "crc32": "F699D6D1",
    "size": 4194304,
+   "md5": "47d83279cbdbd91c51cb7b0063d5d3e5",
+   "sha1": "6d707e88c85d1b5ef708631e709668006a9ee244",
    "names": [
-    "Final Fantasy IV (Japan)"
+    "Final Fantasy IV (Japan)",
+    "Final Fantasy IV (Japan).wsc"
    ],
    "patches": [
     {
@@ -7977,8 +8151,11 @@
   "F8A1DD2B": {
    "crc32": "F8A1DD2B",
    "size": 8388608,
+   "md5": "7fa6a3034b8c03fca0b756fb5526ce62",
+   "sha1": "01e765bf356cdcb413bfd27c6321f7449465766a",
    "names": [
-    "From TV Animation One Piece - Grand Battle Swan Colosseum (Japan)"
+    "From TV Animation One Piece - Grand Battle Swan Colosseum (Japan)",
+    "From TV Animation One Piece - Grand Battle Swan Colosseum (Japan).wsc"
    ],
    "patches": [
     {
@@ -8152,16 +8329,129 @@
    ]
   }
  },
- "by_md5": {},
+ "by_md5": {
+  "0215c4b8a395f6fcf8f5b07605eae08b": "BF8D9212",
+  "0eb951b486fe25f37371835be81eed75": "AA525C04",
+  "12c3cca0ef52343509dda1c1fb4c1b65": "F0ACDA5C",
+  "173e9d76206a88bf05696027b4d55850": "0E40829C",
+  "1adacf9cb5aa3eb5839a9e2c94933348": "00137E86",
+  "1ea61538422bc2d6349c321fa15b334f": "99027238",
+  "1eb91e6b46ab5624c7b707ea7b7abe9d": "D7A12BD5",
+  "24fd819c4f4866d7c5c340d0273acbf9": "7FFF2520",
+  "26c76cfcb14c5c8799dbe4367184d4a5": "66B617D5",
+  "30e5f0895254ea2952f4a6a707ace47c": "D7A0AB74",
+  "3584e4a63a6ae9fa546722a349f88573": "4E467626",
+  "367e9ef3630061fdf91a2110911611a7": "84A46949",
+  "39a4626ba187933297b3155180147778": "E4EB3AB1",
+  "3e62a6b6af656fcac225cd02446acb9d": "2460B45A",
+  "3f81d86b97a81ed8fb2fd90a20b94c7a": "08C0247B",
+  "41a4a0ab39c036fb4ad741f19027e443": "138D1018",
+  "47d83279cbdbd91c51cb7b0063d5d3e5": "F699D6D1",
+  "5432d188664bc4e5dae0fc859580cda1": "56E2C069",
+  "547501367ccf6262a70d0030e68cc75e": "427056C4",
+  "5883b9d0f63fe8daa9c1a2259c154466": "F1F4D41F",
+  "6c1949e0201437ed16d9182956b67b0e": "4D21A347",
+  "6ec4fe6789acab4347355fcb53f10146": "9F6E3F8D",
+  "6f09fc64352ba0051e724c4ae58402f4": "A193458C",
+  "7528a5de5924896d152920b1eaf8fd5d": "425EB893",
+  "7b2180e38b4720ce711768a73c33c9df": "B62E5DD0",
+  "7fa6a3034b8c03fca0b756fb5526ce62": "F8A1DD2B",
+  "95b2632395ce85fc5f0cdb762e665136": "39A1391A",
+  "9b15b2236cae605f7bc3bea3859fdd36": "B25A0635",
+  "9bfcf86bf65c9fdae4a0f88fadafd0d8": "2F9E2560",
+  "a466797b353d610f43a0f030cec721c1": "CE2F1A1D",
+  "a4862ef07e13231ae429a98ef667a74a": "9C98D97D",
+  "b1832d4e48ba931adbfaf2ed35314fe0": "62CB398B",
+  "b1b20bb24be3767ab5bfcfca54b51c54": "80DE367D",
+  "b7f9c3d80b83178ba192297ea755d066": "0C9CB12C",
+  "b814e71eb1d079466a9535566d605280": "324622C9",
+  "bb9f130931b2b7d1f646f44d1667ad63": "7F3A14C0",
+  "be0f50bc4470711a31be0bd33c775ad2": "9750BC2A",
+  "c17c4de6648c776b246ae83991ac3978": "1E760C41",
+  "c21571f057d05bb01db2ece8517b121d": "A5643AA3",
+  "c53a5d8c189a23b16c444c4e8ef581af": "392DD813",
+  "d902afdadf17b452621c50a1ffda2fa9": "1F10CA75",
+  "da17db6b7f491510e4b284996ff0eebf": "89E7D950",
+  "dd9be38cd66ffd3b526d3388c6b99b8e": "F246A68E",
+  "e12db3065b59e51bae7bf86053dd5782": "301436AC",
+  "e36650ac50df69d1832a0d496c165db2": "B7243E88",
+  "e39e90944a683b9d4a996a53804826f0": "B1CAEC06",
+  "e79dddc7db77ad96c52b0b7690f8c1b1": "35361250",
+  "eb3f161ea3db4ebd759c9b1346032d4f": "A1FB16FC",
+  "edbc77ab0d585447d927318a6eb66c9b": "CCAA4853",
+  "eec79ad5bb634a90b9d020415046e921": "AF9D8F42",
+  "f06beaff2703728baa8dddc0ddeb7094": "00B31FBB",
+  "f19436970509e5e97b5fd96752aadb8a": "8E120B5A",
+  "fc3bf32e77a2b1f6b749242e89f35e9a": "A9F5BF54",
+  "fd2165de8c6bb617166f6bb34447e70d": "70AA800E",
+  "fe30867e698c071f6be94cce24b095ee": "F2E362B8",
+  "ffee38c08b4e76cf68420f2e22973284": "14ADBD4B"
+ },
  "by_sha1": {
+  "016de32719e920fd9996c52d7eb81f2a60a24d7a": "0E40829C",
+  "016ff46509cbfe57a7440a1755d3a41ef49c048f": "4D21A347",
   "01c052eef384d825b275d6dd3f1f363cb111ba1b": "33889AC7",
+  "01e765bf356cdcb413bfd27c6321f7449465766a": "F8A1DD2B",
+  "02103fc5fc97c3a38834ced32a3cfe6523832535": "99027238",
   "02428d6a2af4bf84b84321b336db98c8b718b347": "8892AE15",
+  "06447c248afce04c4f4a1c3b5f7a4ab6f383c94b": "425EB893",
+  "06fcc9aad3ae478db6eed27621af4f56a6488a67": "9C98D97D",
   "0a765180c8f35f5e1123939e25d284aec1a7bc8f": "C2F3CCBD",
+  "152c4d63b1b17f2c717a43efc75d718b614f9ddc": "F0ACDA5C",
+  "1eb729aa9ab0a7df6f8a3470a6fede59d7622d4a": "0C9CB12C",
+  "1f42c5694a798de8ff3c68f63dfc7395be1669a5": "AA525C04",
+  "221f48e97ec2c6d0046213956e1f36e923c0dec2": "8E120B5A",
+  "2410690ad46667c52b63402df9e95fc8a75cee62": "427056C4",
+  "26628eb76c16880b6faf2e706778d91a60144078": "B7243E88",
+  "29e72e7f96f145a0ff56e447f577310df2ec463b": "08C0247B",
+  "2b2c2a0566646156bcdde2a00b728c5b8218aa23": "138D1018",
+  "31a718cfbcff2dab56ab9606a0b5b2dfccecbbcb": "F1F4D41F",
+  "35443e2ef8a20a0ad82da1274b2768c16239dd46": "A9F5BF54",
+  "35eea568f756bacf533bb9aaad7e3239ba00e411": "B25A0635",
+  "36d8bc2ce7920d940943358d48f056f81055ab34": "9F6E3F8D",
+  "39e9a897b681b2c326b052827d7c534f22290286": "7F3A14C0",
+  "3b62fd2841602f1077270848ab7a3aad58712ee9": "CCAA4853",
+  "3c752694ab651f9a00ccd39c334a2e3ff78f5cb2": "2F9E2560",
+  "3d5a1ed77e721908eb1145aaedef17c0ee6355ae": "89E7D950",
+  "544e76133fa53fc0ae5e00e3465b9cf634f14fd0": "324622C9",
+  "57b4278fc5812f52413ca65f45225922d4f2ec3d": "70AA800E",
+  "5e5db8b066e1b41c5c12a2d4ffa97b73ed6c3f03": "E4EB3AB1",
+  "5eaeab859e5f647fac354dad285a311387ea126b": "00B31FBB",
   "5f3b81c2f7459b602fecb621d288cf4ddf5e640f": "19AC67B5",
   "6b3146e8c5b5ea51a7bed47d8afbc607d6f91051": "E245AF80",
+  "6c5a2dc7e231ebd278fe22bb7f01b1a7cc3785d6": "84A46949",
+  "6d707e88c85d1b5ef708631e709668006a9ee244": "F699D6D1",
+  "6d8f8fd330f32374b55cf6b998196a7db2131073": "9750BC2A",
+  "708288e70b3186f6c0ef07acaef1b50fe6b7ab22": "301436AC",
+  "821bb81917445b63ac663c706ab4ce27de28543f": "392DD813",
+  "83e190af2e25fbb3e93b1d5835c52fe6f1d279ce": "B1CAEC06",
+  "862e59fc9322b1177cfff86d405f288fa904788c": "62CB398B",
+  "92d4a6ff6f2b1152d8935025f38f910155e5d709": "80DE367D",
   "9427f4a6c9b6de37c205249149c11cc7ee1259ce": "9ADAFACD",
+  "9622c65c939f05a9dfae288919ec5bd15c348f14": "A5643AA3",
+  "9896d93c97381dc06b6f044de6c9bd112ca0c94b": "14ADBD4B",
+  "99c831c27c478064e3d3fa8f9f089cc28f0e946f": "F2E362B8",
+  "9b4786adca7b83fe66a9d4b9fd4ffaf32abe7656": "1F10CA75",
+  "a8f8d3efc9b2d5741081e05f517d746ee5437f87": "2460B45A",
+  "ae31488cee1c91f383efbe3083b4abec092dda36": "BF8D9212",
+  "af3fe9da3f5ee0f5a7b06b0440223db88fcb3bf2": "00137E86",
+  "c07f776ac4374b648d1a49efd9d6fcd0db2ac1fa": "AF9D8F42",
+  "c1ab4e24f261615ca59f937b866fcf7047b67796": "66B617D5",
+  "c4436a59fd830ba6af2d63462f71e1ab1cfa3212": "56E2C069",
+  "caf4a8de853ded732b2a72619acf2784eeceafc7": "D7A0AB74",
+  "cbf6455e89b20a000b6121e5c485be1a20d1f726": "A193458C",
+  "cfcb14be6d2f1dbffdfcefb8c8d83b4f39bc102b": "CE2F1A1D",
+  "d3da0ae529c6f78162682141154a95879f288ca7": "B62E5DD0",
+  "df1a794f7e3992b1e1e9de14141b607746202202": "39A1391A",
   "e03332ebbd3fed88084bc96030c65a9b531e6ed1": "40E63922",
-  "f38c28a858ff27826be3f4df8d8b32012609c3b8": "43BD6D16"
+  "e31bfa54cbf539a9d28090b372d8e669a93c3e28": "1E760C41",
+  "eb538b82c5516fae8ce38778e41fb118aa5c830f": "7FFF2520",
+  "f38c28a858ff27826be3f4df8d8b32012609c3b8": "43BD6D16",
+  "f79451034b6d844f0e10c825306bbc26f26a5466": "4E467626",
+  "f7aeab6724154f7ef6a389f9f18b7100045e1064": "D7A12BD5",
+  "f8f077da30f227f3793e97c7f1d656559f08b9d4": "A1FB16FC",
+  "fb8d0f4e58a4192989ec71eb6e392d182aaa3eec": "35361250",
+  "fbb745b016cc710ff6f82ec3091a181415d8de61": "F246A68E"
  },
  "by_sha256": {
   "38fd168a8cefa4ed80db42eed9f720e42da5b8f71d551c707520b24060c14728": "CCAA4853",

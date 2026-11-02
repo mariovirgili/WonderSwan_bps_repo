@@ -1,0 +1,35 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "af3fe9da3f5ee0f5a7b06b0440223db88fcb3bf2"
+ },
+ "crc32": "00137E86",
+ "size": 1048576,
+ "md5": "1adacf9cb5aa3eb5839a9e2c94933348",
+ "sha1": "af3fe9da3f5ee0f5a7b06b0440223db88fcb3bf2",
+ "names": [
+  "Goraku Ou Tango! (Japan)",
+  "Goraku Ou Tango! (Japan) (Rev 2).ws"
+ ],
+ "patches": [
+  {
+   "id": "bf0652525887b01b",
+   "game": "Goraku Ou Tango!",
+   "variant": "goraku-ou-tango-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "76D6F197",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/goraku-ou-tango-v1.0/goraku-ou-tango-en-1.0.bps",
+   "sha256": "bf0652525887b01b9744a9d25a42ea9c110f6e976698163ee07b8d2a1d821cbd",
+   "size": 42920,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/goraku-ou-tango-v1.0"
+  }
+ ],
+ "produced_by": []
+}

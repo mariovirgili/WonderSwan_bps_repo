@@ -1,0 +1,34 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "6c5a2dc7e231ebd278fe22bb7f01b1a7cc3785d6"
+ },
+ "crc32": "84A46949",
+ "size": 4194304,
+ "md5": "367e9ef3630061fdf91a2110911611a7",
+ "sha1": "6c5a2dc7e231ebd278fe22bb7f01b1a7cc3785d6",
+ "names": [
+  "Digimon Tamers - Digimon Medley (Japan) (Rev 1).wsc"
+ ],
+ "patches": [
+  {
+   "id": "a805471859c5fb77",
+   "game": "Digimon Tamers - Digimon Medley",
+   "variant": "Digimon.Tamers.-.Digimon.Medley.T-En.v0.9",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "0BA9A1BA",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Test/Digimon.Tamers.-.Digimon.Medley.T-En.v0.9.bps",
+   "sha256": "a805471859c5fb77f640e1b064c5db45c05154ede9303860727393da213c4822",
+   "size": 316762,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test"
+  }
+ ],
+ "produced_by": []
+}

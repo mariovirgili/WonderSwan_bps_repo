@@ -5,8 +5,11 @@
  },
  "crc32": "F246A68E",
  "size": 4194304,
+ "md5": "dd9be38cd66ffd3b526d3388c6b99b8e",
+ "sha1": "fbb745b016cc710ff6f82ec3091a181415d8de61",
  "names": [
-  "Fire Pro Wrestling for WonderSwan (Japan)"
+  "Fire Pro Wrestling for WonderSwan (Japan)",
+  "Fire Pro Wrestling for WonderSwan (Japan) (Rev 5).ws"
  ],
  "patches": [
   {

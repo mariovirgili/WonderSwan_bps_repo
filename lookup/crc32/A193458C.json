@@ -5,8 +5,11 @@
  },
  "crc32": "A193458C",
  "size": 524288,
+ "md5": "6f09fc64352ba0051e724c4ae58402f4",
+ "sha1": "cbf6455e89b20a000b6121e5c485be1a20d1f726",
  "names": [
-  "Ganso Jajamaru-kun (Japan)"
+  "Ganso Jajamaru-kun (Japan)",
+  "Ganso Jajamaru-kun (Japan).ws"
  ],
  "patches": [
   {

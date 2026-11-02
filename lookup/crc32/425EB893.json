@@ -5,8 +5,11 @@
  },
  "crc32": "425EB893",
  "size": 1048576,
+ "md5": "7528a5de5924896d152920b1eaf8fd5d",
+ "sha1": "06447c248afce04c4f4a1c3b5f7a4ab6f383c94b",
  "names": [
-  "Anchorz Field (Japan)"
+  "Anchorz Field (Japan)",
+  "Anchorz Field (Japan).ws"
  ],
  "patches": [
   {

@@ -1,0 +1,53 @@
+{
+ "schema": 1,
+ "query": {
+  "md5": "0eb951b486fe25f37371835be81eed75"
+ },
+ "crc32": "AA525C04",
+ "size": 2097152,
+ "md5": "0eb951b486fe25f37371835be81eed75",
+ "sha1": "1f42c5694a798de8ff3c68f63dfc7395be1669a5",
+ "names": [
+  "Harobots (Japan)",
+  "Harobots (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "47d09792f5ec4be9",
+   "game": "Harobots",
+   "variant": "harobots-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "0311B0F8",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/harobots-v1.0/harobots-en-1.0.bps",
+   "sha256": "47d09792f5ec4be91027e06038678ad70ca5a321b4a20cd516740566b6263986",
+   "size": 242356,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/harobots-v1.0"
+  },
+  {
+   "id": "8302882eb181cd9b",
+   "game": "Harobots",
+   "variant": "harobots-en-special-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "796D9DB0",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/harobots-v1.0/harobots-en-special-1.0.bps",
+   "sha256": "8302882eb181cd9b7f6bc3059bddcbb3c1c71068d8f3cf6e7070cb2176eaf9bb",
+   "size": 242596,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/harobots-v1.0"
+  }
+ ],
+ "produced_by": []
+}

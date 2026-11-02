@@ -5,8 +5,11 @@
  },
  "crc32": "4D21A347",
  "size": 8388608,
+ "md5": "6c1949e0201437ed16d9182956b67b0e",
+ "sha1": "016ff46509cbfe57a7440a1755d3a41ef49c048f",
  "names": [
-  "SD Gundam G Generation - Gather Beat 2 (Japan)"
+  "SD Gundam G Generation - Gather Beat 2 (Japan)",
+  "SD Gundam G Generation - Gather Beat 2 (Japan).wsc"
  ],
  "patches": [
   {

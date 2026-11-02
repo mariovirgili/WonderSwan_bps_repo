@@ -5,7 +5,11 @@
  },
  "crc32": "2460B45A",
  "size": 8388608,
- "names": [],
+ "md5": "3e62a6b6af656fcac225cd02446acb9d",
+ "sha1": "a8f8d3efc9b2d5741081e05f517d746ee5437f87",
+ "names": [
+  "Riviera - Yakusoku no Chi Riviera (Japan).wsc"
+ ],
  "patches": [
   {
    "id": "e4bda7c628316fb9",

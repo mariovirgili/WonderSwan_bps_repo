@@ -5,8 +5,11 @@
  },
  "crc32": "D7A12BD5",
  "size": 4194304,
+ "md5": "1eb91e6b46ab5624c7b707ea7b7abe9d",
+ "sha1": "f7aeab6724154f7ef6a389f9f18b7100045e1064",
  "names": [
-  "Guilty Gear Petit 2 (Japan)"
+  "Guilty Gear Petit 2 (Japan)",
+  "Guilty Gear Petit 2 (Japan).wsc"
  ],
  "patches": [
   {

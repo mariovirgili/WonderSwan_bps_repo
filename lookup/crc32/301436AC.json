@@ -5,8 +5,11 @@
  },
  "crc32": "301436AC",
  "size": 1048576,
+ "md5": "e12db3065b59e51bae7bf86053dd5782",
+ "sha1": "708288e70b3186f6c0ef07acaef1b50fe6b7ab22",
  "names": [
-  "Sennou Millennium (Japan)"
+  "Sennou Millennium (Japan)",
+  "Sennou Millennium (Japan).ws"
  ],
  "patches": [
   {

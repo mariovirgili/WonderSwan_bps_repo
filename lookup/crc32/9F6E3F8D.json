@@ -5,7 +5,11 @@
  },
  "crc32": "9F6E3F8D",
  "size": 4194304,
- "names": [],
+ "md5": "6ec4fe6789acab4347355fcb53f10146",
+ "sha1": "36d8bc2ce7920d940943358d48f056f81055ab34",
+ "names": [
+  "Meitantei Conan - Yuugure no Oujo (Japan).wsc"
+ ],
  "patches": [
   {
    "id": "052bf7bb2eb729a5",

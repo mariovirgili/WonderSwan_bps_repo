@@ -5,8 +5,11 @@
  },
  "crc32": "66B617D5",
  "size": 4194304,
+ "md5": "26c76cfcb14c5c8799dbe4367184d4a5",
+ "sha1": "c1ab4e24f261615ca59f937b866fcf7047b67796",
  "names": [
-  "X - Card of Fate (Japan)"
+  "X - Card of Fate (Japan)",
+  "X - Card of Fate (Japan).wsc"
  ],
  "patches": [
   {

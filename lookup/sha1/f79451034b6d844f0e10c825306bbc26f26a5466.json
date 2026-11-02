@@ -1,0 +1,35 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "f79451034b6d844f0e10c825306bbc26f26a5466"
+ },
+ "crc32": "4E467626",
+ "size": 1048576,
+ "md5": "3584e4a63a6ae9fa546722a349f88573",
+ "sha1": "f79451034b6d844f0e10c825306bbc26f26a5466",
+ "names": [
+  "Engacho! for WonderSwan (Japan)",
+  "Engacho! for WonderSwan (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "5cd46cbc55249210",
+   "game": "Engacho!",
+   "variant": "engacho-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "31F0D8F8",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/engacho-v1.0/engacho-en-1.0.bps",
+   "sha256": "5cd46cbc552492102456ce7fb22d96bb1e0bb75274baee1ea36110a2f80de237",
+   "size": 37074,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/engacho-v1.0"
+  }
+ ],
+ "produced_by": []
+}

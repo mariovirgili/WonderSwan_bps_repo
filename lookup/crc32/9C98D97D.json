@@ -5,7 +5,11 @@
  },
  "crc32": "9C98D97D",
  "size": 4194304,
- "names": [],
+ "md5": "a4862ef07e13231ae429a98ef667a74a",
+ "sha1": "06fcc9aad3ae478db6eed27621af4f56a6488a67",
+ "names": [
+  "Romancing Sa-Ga (Japan).wsc"
+ ],
  "patches": [
   {
    "id": "c56cba1ce248b54d",

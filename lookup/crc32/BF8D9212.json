@@ -5,7 +5,11 @@
  },
  "crc32": "BF8D9212",
  "size": 2097152,
- "names": [],
+ "md5": "0215c4b8a395f6fcf8f5b07605eae08b",
+ "sha1": "ae31488cee1c91f383efbe3083b4abec092dda36",
+ "names": [
+  "Neon Genesis Evangelion - Shito Ikusei (Japan).ws"
+ ],
  "patches": [
   {
    "id": "fd55b623cb24b9b8",

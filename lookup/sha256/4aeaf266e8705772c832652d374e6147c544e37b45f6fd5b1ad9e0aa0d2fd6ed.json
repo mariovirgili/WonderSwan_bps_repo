@@ -5,8 +5,12 @@
  },
  "crc32": "1F10CA75",
  "size": 4194304,
+ "md5": "d902afdadf17b452621c50a1ffda2fa9",
+ "sha1": "9b4786adca7b83fe66a9d4b9fd4ffaf32abe7656",
  "sha256": "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed",
- "names": [],
+ "names": [
+  "Rockman EXE - N1 Battle (Japan) (Rev 1).wsc"
+ ],
  "patches": [
   {
    "id": "72a8ff6a70ca7bf0",

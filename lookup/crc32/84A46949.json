@@ -5,7 +5,11 @@
  },
  "crc32": "84A46949",
  "size": 4194304,
- "names": [],
+ "md5": "367e9ef3630061fdf91a2110911611a7",
+ "sha1": "6c5a2dc7e231ebd278fe22bb7f01b1a7cc3785d6",
+ "names": [
+  "Digimon Tamers - Digimon Medley (Japan) (Rev 1).wsc"
+ ],
  "patches": [
   {
    "id": "a805471859c5fb77",

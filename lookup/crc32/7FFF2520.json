@@ -5,7 +5,11 @@
  },
  "crc32": "7FFF2520",
  "size": 1048576,
- "names": [],
+ "md5": "24fd819c4f4866d7c5c340d0273acbf9",
+ "sha1": "eb538b82c5516fae8ce38778e41fb118aa5c830f",
+ "names": [
+  "Chou Aniki - Otoko no Tamafuda (Japan) (Rev 4).ws"
+ ],
  "patches": [
   {
    "id": "84e38abf4f4b2a8f",

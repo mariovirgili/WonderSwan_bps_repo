@@ -5,8 +5,11 @@
  },
  "crc32": "7F3A14C0",
  "size": 2097152,
+ "md5": "bb9f130931b2b7d1f646f44d1667ad63",
+ "sha1": "39e9a897b681b2c326b052827d7c534f22290286",
  "names": [
-  "Cardcaptor Sakura - Sakura to Fushigi na Clow Card (Japan)"
+  "Cardcaptor Sakura - Sakura to Fushigi na Clow Card (Japan)",
+  "Cardcaptor Sakura - Sakura to Fushigi na Clow Card (Japan).ws"
  ],
  "patches": [
   {

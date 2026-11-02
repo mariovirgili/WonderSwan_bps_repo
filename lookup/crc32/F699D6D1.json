@@ -5,8 +5,11 @@
  },
  "crc32": "F699D6D1",
  "size": 4194304,
+ "md5": "47d83279cbdbd91c51cb7b0063d5d3e5",
+ "sha1": "6d707e88c85d1b5ef708631e709668006a9ee244",
  "names": [
-  "Final Fantasy IV (Japan)"
+  "Final Fantasy IV (Japan)",
+  "Final Fantasy IV (Japan).wsc"
  ],
  "patches": [
   {
