@@ -1,0 +1,3 @@
+{
+  "_comment": "Manual corrections keyed by the patch sha256 (see index.json). Any field set here replaces the crawled value, e.g. the CRC32s of an IPS patch: { \"<sha256>\": { \"source_crc32\": \"1234ABCD\", \"target_crc32\": \"89ABCDEF\", \"game\": \"...\", \"language\": \"it\" } }"
+}

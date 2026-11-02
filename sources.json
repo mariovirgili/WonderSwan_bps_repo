@@ -1,0 +1,8 @@
+{
+  "_comment": "Sources crawled daily by scripts/crawl.py. type=repo crawls one repository; type=user crawls every public, non-fork repository of a user. default_language is used when nothing in the file/release name says otherwise.",
+  "sources": [
+    { "type": "repo", "repo": "mariovirgili/WonderSwanColor-AI_Translation", "default_language": "en" },
+    { "type": "repo", "repo": "PokemonGoDB/wonderswan-english-patches", "default_language": "en" },
+    { "type": "user", "user": "Gand46", "default_language": null }
+  ]
+}

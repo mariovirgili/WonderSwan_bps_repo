@@ -1,0 +1,48 @@
+name: Crawl patches
+
+on:
+  schedule:
+    - cron: '17 4 * * *'   # every day at 04:17 UTC (05:17 / 06:17 in Italy)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'sources.json'
+      - 'overrides.json'
+      - '.github/workflows/crawl.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install 7z support
+        run: pip install py7zr==1.1.4
+      - name: Crawl sources
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/crawl.py
+      - name: Commit changes
+        run: |
+          git add -A patches index.json index.csv PATCHES.md state.json
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          count=$(python -c "import json;print(json.load(open('index.json'))['count'])")
+          git commit -q -m "Update patch catalog ($count patches)"
+          git push
