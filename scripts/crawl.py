@@ -7,14 +7,21 @@ For every source in sources.json the crawler looks at
 takes .bps/.ips files directly and pulls them out of .zip/.7z archives, then
 stores them under patches/ and writes index.json, index.csv and PATCHES.md.
 
-BPS patches carry the CRC32 of the original ROM and of the patched ROM in
-their footer, so both are recorded; IPS patches carry no checksums, so those
-fields stay empty unless overrides.json supplies them.
+What is recorded about the ROM a patch needs (and the ROM it produces):
+  * BPS patches carry the original and patched ROM CRC32 and sizes in the
+    patch itself - these are authoritative;
+  * release notes and the README files next to committed patches are scanned
+    for CRC32 / MD5 / SHA-1 / SHA-256 values and No-Intro style ROM names,
+    which fill the gaps (IPS patches carry no checksums at all) and add the
+    stronger hashes;
+  * overrides.json can set anything by hand.
 
 The run is incremental: a release asset (id + updated_at + size) or a git blob
-(sha) that was already processed is not downloaded again. Patches that
-disappear upstream are removed here too, but only when their source was
-crawled successfully, so a temporary API error never deletes anything.
+(sha) that was already processed is not downloaded again; descriptive fields
+are recomputed every run, so improving the heuristics updates old entries.
+Patches that disappear upstream are removed here too, but only when their
+source was crawled successfully, so a temporary API error never deletes
+anything.
 
 Environment: GITHUB_TOKEN (recommended), GITHUB_REPOSITORY (this repo),
 TARGET_BRANCH (default main). Only the standard library is required; .7z
@@ -30,6 +37,7 @@ import json
 import os
 import re
 import sys
+import tempfile
 import time
 import urllib.error
 import urllib.parse
@@ -55,7 +63,11 @@ PATCH_EXT = (".bps", ".ips")
 ARCHIVE_EXT = (".zip", ".7z")
 MAX_DOWNLOAD = 100 * 1024 * 1024
 MAX_PATCH = 50 * 1024 * 1024
-SCHEMA = 1
+MAX_WS_ROM = 16 * 1024 * 1024
+SCHEMA = 2
+DEFAULT_PLATFORMS = ["wonderswan", "wonderswan_color", None]
+ALLOWED: list = []  # platforms kept, set from sources.json in main()
+DEFAULT_EXCLUDE_PATHS = r"(^|/)(vendor|third[_-]?party|fixtures?|tests?|node_modules|\.github)(/|$)"
 
 try:  # optional
     import py7zr  # type: ignore
@@ -77,9 +89,8 @@ def http_get(url: str, accept: str = "application/vnd.github+json", auth: bool =
         req = urllib.request.Request(url, headers=headers)
         try:
             with urllib.request.urlopen(req, timeout=120) as r:
-                length = int(r.headers.get("Content-Length") or 0)
-                if length > MAX_DOWNLOAD:
-                    raise ValueError(f"too large ({length} bytes)")
+                if int(r.headers.get("Content-Length") or 0) > MAX_DOWNLOAD:
+                    raise ValueError("too large")
                 data = r.read(MAX_DOWNLOAD + 1)
                 if len(data) > MAX_DOWNLOAD:
                     raise ValueError("too large")
@@ -114,7 +125,7 @@ def api_list(path: str) -> list:
     return out
 
 
-# ----------------------------------------------------------------------- parsing
+# ------------------------------------------------------------------ patch parsing
 
 def crc32(b: bytes) -> str:
     return f"{zlib.crc32(b) & 0xFFFFFFFF:08X}"
@@ -132,8 +143,8 @@ def bps_number(d: bytes, i: int) -> tuple[int, int]:
         value += shift
 
 
-def parse_patch(name: str, d: bytes) -> dict | None:
-    """Return format-specific info, or None if the bytes are not a valid patch."""
+def parse_patch(d: bytes) -> dict | None:
+    """Format-specific info, or None if the bytes are not a valid patch."""
     if d[:4] == b"BPS1" and len(d) >= 4 + 3 + 12:
         try:
             src_size, i = bps_number(d, 4)
@@ -146,10 +157,8 @@ def parse_patch(name: str, d: bytes) -> dict | None:
         src_crc, dst_crc, patch_crc = (int.from_bytes(d[n + k:n + k + 4], "little") for k in (-12, -8, -4))
         return {
             "format": "bps",
-            "source_size": src_size,
-            "target_size": dst_size,
-            "source_crc32": f"{src_crc:08X}",
-            "target_crc32": f"{dst_crc:08X}",
+            "source_size": src_size, "target_size": dst_size,
+            "source_crc32": f"{src_crc:08X}", "target_crc32": f"{dst_crc:08X}",
             "patch_crc32_footer": f"{patch_crc:08X}",
             "patch_checksum_ok": (zlib.crc32(d[:-4]) & 0xFFFFFFFF) == patch_crc,
             "bps_metadata": meta or None,
@@ -175,14 +184,8 @@ def parse_patch(name: str, d: bytes) -> dict | None:
             return None
         truncate = int.from_bytes(d[i:i + 3], "big") if len(d) >= i + 3 else None
         return {
-            "format": "ips",
-            "ips_records": records,
-            "ips_min_target_size": max_end,
-            "ips_truncate_size": truncate,
-            "source_size": None,
-            "target_size": truncate,
-            "source_crc32": None,
-            "target_crc32": None,
+            "format": "ips", "ips_records": records, "ips_min_target_size": max_end,
+            "source_size": None, "target_size": truncate, "source_crc32": None, "target_crc32": None,
         }
     return None
 
@@ -211,7 +214,6 @@ def extract_patches(name: str, data: bytes, depth: int = 0) -> list[tuple[str, s
         if py7zr is None:
             log(f"  ! skipping {name}: py7zr not installed")
             return []
-        import tempfile
         try:
             with tempfile.TemporaryDirectory() as tmp, py7zr.SevenZipFile(io.BytesIO(data)) as z:
                 wanted = [f.filename for f in z.list() if not f.is_directory
@@ -235,6 +237,122 @@ def extract_patches(name: str, data: bytes, depth: int = 0) -> list[tuple[str, s
     return out
 
 
+# ------------------------------------------------------- hashes in notes / READMEs
+
+HASH_RE = re.compile(r"(?<![0-9A-Za-z])([0-9A-Fa-f]{64}|[0-9A-Fa-f]{40}|[0-9A-Fa-f]{32}|[0-9A-Fa-f]{8})(?![0-9A-Za-z])")
+HASH_KIND = {8: "crc32", 32: "md5", 40: "sha1", 64: "sha256"}
+SRC_WORDS = r"unpatched|original|source|clean|required|requires|input|base|vanilla|untouched|before|japan(?:ese)?|\bjp\b|\bjpn\b|from"
+DST_WORDS = r"(?<!un)patched|output|result|target|translated|english|after|resulting|\bto\b"
+ROM_NAME_RE = re.compile(r"([A-Za-z0-9][^\n`|*\"<>\[\]]{1,120}?\((?:Japan|J|Asia)\)(?:\s*\([^()\n]{1,30}\))*(?:\.(?:wsc|ws|pc2))?)")
+
+
+def _label_kind(label: str, length: int) -> bool:
+    """Does the text label allow a hex token of this length to be read as a hash?"""
+    lab = label.lower()
+    if length == 8:
+        return "crc" in lab
+    if length == 32:
+        return "md5" in lab
+    if length == 40:
+        return bool(re.search(r"sha-?1(?!\d)", lab))
+    return bool(re.search(r"sha-?256", lab))
+
+
+def _role(context: str, pos: int) -> str | None:
+    """'source' / 'target' from the keyword nearest before `pos` (else anywhere)."""
+    ctx = context.lower()
+    best = None
+    for role, rx in (("source", SRC_WORDS), ("target", DST_WORDS)):
+        for m in re.finditer(rx, ctx):
+            dist = pos - m.start() if m.start() <= pos else 10_000 + m.start() - pos
+            if best is None or dist < best[0]:
+                best = (dist, role)
+    return best[1] if best else None
+
+
+def find_hashes(text: str) -> list[dict]:
+    """Every hash in a README / release note: {kind, value, role, line}."""
+    out = []
+    lines = text.splitlines()
+    header: list[str] | None = None
+    for ln, line in enumerate(lines):
+        stripped = line.strip()
+        cells = [c.strip() for c in stripped.strip("|").split("|")] if stripped.startswith("|") else None
+        if cells and all(re.fullmatch(r":?-{2,}:?", c) for c in cells if c):
+            continue  # table separator row
+        if cells and not HASH_RE.search(stripped):
+            header = cells  # a table header (or a row without hashes)
+        elif not cells:
+            header = None
+        for m in HASH_RE.finditer(line):
+            tok = m.group(1)
+            kind = HASH_KIND[len(tok)]
+            label, role = "", None
+            if cells and header:
+                # Which column is this token in?
+                col = line[:m.start()].count("|") - (1 if stripped.startswith("|") else 0)
+                if 0 <= col < len(header):
+                    label = header[col]
+                    role = _role(label, len(label))
+            near = " ".join(lines[max(0, ln - 1):ln + 1])
+            if not _label_kind(label + " " + line + " " + near, len(tok)):
+                if not (kind == "crc32" and line[max(0, m.start() - 1):m.start()] == "`"
+                        and re.search(r"[A-Fa-f]", tok) and re.search(r"\d", tok)):
+                    continue  # unlabeled hex (dates, commit ids, ...)
+            if role is None:
+                role = _role(line, m.start()) or _role(near, len(near))
+            out.append({"kind": kind, "value": tok.upper() if kind == "crc32" else tok.lower(), "role": role, "line": ln})
+    return out
+
+
+def rom_info_from_notes(text: str, src_crc: str | None, dst_crc: str | None) -> dict:
+    """Hashes / name of the required (source) and resulting (target) ROM found in text."""
+    hs = find_hashes(text)
+    lines = text.splitlines()
+    res: dict = {"source": {}, "target": {}}
+    # Anchor on CRCs we already trust (from the BPS): other hashes on the same line belong to the same ROM.
+    anchors = {}
+    for h in hs:
+        if h["kind"] == "crc32" and h["value"] in (src_crc, dst_crc):
+            anchors[h["line"]] = "source" if h["value"] == src_crc else "target"
+    if src_crc or dst_crc:
+        # Only trust notes about this patch: drop hashes for other ROMs listed in the same file.
+        known = {c for c in (src_crc, dst_crc) if c}
+        if not anchors and any(h["kind"] == "crc32" for h in hs) and not any(h["value"] in known for h in hs):
+            return res | {"mismatch": sorted({h["value"] for h in hs if h["kind"] == "crc32"})}
+    for h in hs:
+        role = h["role"]
+        if anchors:
+            dist, near_role = min((abs(h["line"] - ln), r) for ln, r in anchors.items())
+            if h["line"] in anchors:
+                role = anchors[h["line"]] if h["kind"] == "crc32" else (role or anchors[h["line"]])
+            elif dist <= 3:
+                role = role or near_role
+            else:
+                continue  # far from every line about this patch's ROMs: some other ROM
+        if role in ("source", "target"):
+            res[role].setdefault(h["kind"], set()).add(h["value"])
+    out: dict = {"source": {}, "target": {}}
+    for role in ("source", "target"):
+        for kind, vals in res[role].items():
+            if len(vals) == 1:  # ambiguous values are dropped
+                out[role][kind] = next(iter(vals))
+    # A No-Intro style name of the original ROM, preferably on/near an anchored line.
+    name_lines = [ln for ln, r in anchors.items() if r == "source"] or range(len(lines))
+    for ln in name_lines:
+        for k in (ln, ln - 1, ln + 1, ln - 2, ln + 2, ln - 3, ln + 3) if anchors else (ln,):
+            if 0 <= k < len(lines):
+                m = ROM_NAME_RE.search(lines[k])
+                if m:
+                    name = re.sub(r"^[\s:>\-–*#]+", "", m.group(1)).strip()
+                    name = re.sub(r"^(?:[A-Za-z]+\s+){0,3}?(?:rom|file|game|name|cartridge)\s*(?:name)?\s*[:=]\s*", "", name, flags=re.I)
+                    out["source"]["name"] = name
+                    break
+        if "name" in out["source"]:
+            break
+    return out
+
+
 # --------------------------------------------------------------------- heuristics
 
 LANG_WORDS = {
@@ -243,59 +361,178 @@ LANG_WORDS = {
     "es": ["spanish", "español", "espanol", "castellano"],
     "fr": ["french", "français", "francais"],
     "de": ["german", "deutsch"],
-    "pt": ["portuguese", "português", "portugues", "pt-br", "ptbr"],
+    "pt": ["portuguese", "português", "portugues", "pt-br"],
     "zh": ["chinese", "中文"],
     "ko": ["korean"],
     "ru": ["russian"],
 }
-LANG_CODES = {"en": "en|eng", "it": "it|ita", "es": "es|esp|spa", "fr": "fr|fra|fre", "de": "de|deu|ger",
-              "pt": "pt|por|ptbr|pt-br", "zh": "zh|chi|chs|cht", "ko": "ko|kor", "ru": "ru|rus"}
-LANG_3 = {"eng": "en", "ita": "it", "esp": "es", "spa": "es", "fra": "fr", "fre": "fr", "deu": "de", "ger": "de",
-          "por": "pt", "ptbr": "pt", "rus": "ru", "kor": "ko", "chs": "zh", "cht": "zh"}
+LANG_CODE = {"en": "en", "eng": "en", "it": "it", "ita": "it", "es": "es", "esp": "es", "spa": "es", "fr": "fr",
+             "fra": "fr", "fre": "fr", "de": "de", "deu": "de", "ger": "de", "pt": "pt", "por": "pt", "ptbr": "pt",
+             "ru": "ru", "rus": "ru", "ko": "ko", "kor": "ko", "zh": "zh", "chs": "zh", "cht": "zh"}
 
 
 def guess_language(texts: list[str], default: str | None) -> str | None:
-    blob = " ".join(t for t in texts if t).lower()
+    raw = " ".join(t for t in texts if t)
+    blob = raw.lower()
+    # 1. Translation tags: "T-En", "[T+Ita]", "T-Es v0.2".
+    m = re.search(r"(?<![a-z])t[-+](" + "|".join(LANG_CODE) + r")(?![a-z])", blob)
+    if m:
+        return LANG_CODE[m.group(1)]
+    # 2. Language words.
     for code, words in LANG_WORDS.items():
         if any(re.search(rf"(?<![a-z]){re.escape(w)}(?![a-z])", blob) for w in words):
             return code
-    # Bracketed tags: "[T-En]", "(ITA)", "[T+Eng v1.2]". Bare two-letter words are
-    # ignored because they occur in game titles ("Densha de Go!").
-    for code, alts in LANG_CODES.items():
-        if re.search(rf"[\[(](?:t[-+])?(?:{alts})(?![a-z])[^\])]*[\])]", blob):
-            return code
-    # Three-letter codes set off by separators: "Game_ITA.bps", "Game - ESP.ips".
-    m = re.search(r"(?:^|[_\-\s.])(" + "|".join(LANG_3) + r")(?=$|[_\-\s.)\]])", blob)
+    # 3. Upper-case codes set off by separators: "Chocobo_EN_v1.1", "Game-ITA.ips", "(ES)".
+    #    Case-sensitive on purpose: lower-case "de"/"it" are ordinary words in titles.
+    m = re.search(r"(?:^|[_\-.\s\[(])(EN|ENG|IT|ITA|ES|ESP|FR|FRA|DE|GER|PT|PTBR|RU)(?=$|[_\-.\s\])])", raw)
     if m:
-        return LANG_3[m.group(1)]
+        return LANG_CODE[m.group(1).lower()]
     return default
 
 
-VERSION_RES = [
-    re.compile(r"(?<![a-z0-9])v(?:er(?:sion)?)?[ ._-]?(\d+(?:\.\d+){0,3}[a-z]?)(?![\d.])", re.I),
-    re.compile(r"(?<![\d.])(\d+\.\d+(?:\.\d+){0,2})(?![\d.])"),
-]
+VERSION_RE = re.compile(r"(?<![a-z0-9])v(?:er(?:sion)?)?[ ._-]?(\d+(?:\.\d+){0,3}[a-z]?)(?!\d|\.\d)", re.I)
+VERSION_RE2 = re.compile(r"(?<![\d.])(\d+\.\d+(?:\.\d+){0,2})(?!\d|\.\d)")
 
 
-def guess_version(texts: list[str]) -> str | None:
-    for rx in VERSION_RES:
+def strip_ext(t: str) -> str:
+    return re.sub(r"\.(bps|ips|zip|7z)$", "", t, flags=re.I)
+
+
+def guess_version(texts: list[str | None]) -> str | None:
+    for rx in (VERSION_RE, VERSION_RE2):
         for t in texts:
             if t:
-                m = rx.search(t)
+                m = rx.search(strip_ext(t))
                 if m:
                     return m.group(1)
     return None
 
 
-def clean_title(text: str | None) -> str | None:
+def version_key(v: str | None) -> tuple:
+    return tuple(int(x) if x.isdigit() else x for x in re.findall(r"\d+|[a-z]+", (v or "").lower()))
+
+
+def natural(s: str) -> tuple:
+    return tuple((0, int(x)) if x.isdigit() else (1, x) for x in re.findall(r"\d+|\D+", s.lower()))
+
+
+PLATFORMS = [
+    ("saturn", r"saturn"), ("psx", r"\bps1\b|\bpsx\b|playstation"), ("nds", r"nintendo ds|\bnds\b|^ds$"),
+    ("gba", r"\bgba\b|game boy advance"), ("pce", r"pc[- ]?engine|\bpce\b|turbografx"),
+    ("wonderswan_color", r"wonderswan colou?r|\bwsc\b|swancrystal"), ("wonderswan", r"wonderswan|\bws\b"),
+]
+
+
+def platform_from_text(t: str | None) -> str | None:
+    if not t:
+        return None
+    low = t.lower()
+    for name, rx in PLATFORMS:
+        if re.search(rx, low):
+            return name
+    return None
+
+
+GENERIC_TITLE = re.compile(r"^\s*(test(ing)?|latest|release|patch(es)?|beta|alpha|builds?|files?|v?\d[\d.]*)\b", re.I)
+
+
+def parse_release_name(name: str | None) -> tuple[str | None, str | None, bool]:
+    """'[Release] Title (Platform) - … v1.0 (superseded by …)' -> (title, platform, superseded)."""
+    if not name:
+        return None, None, False
+    s = name.strip()
+    tag = None
+    m = re.match(r"^\[([^\]]*)\]\s*", s)
+    if m:
+        tag, s = m.group(1), s[m.end():]
+    superseded = bool(re.search(r"\(superseded\b", s, re.I))
+    title = re.split(r"\s+[-–—]\s+", s, maxsplit=1)[0].strip()
+    plat = platform_from_text(tag)
+    pm = re.search(r"\(([^()]*)\)\s*$", title)
+    if pm and platform_from_text(pm.group(1)):
+        plat = plat or platform_from_text(pm.group(1))
+        title = title[:pm.start()].strip()
+    plat = plat or platform_from_text(s)
+    title = VERSION_RE.sub("", title).strip(" -–—:")
+    if not title or GENERIC_TITLE.match(title):
+        title = None
+    return title, plat, superseded
+
+
+NOISE_WORDS = (r"wonderswan|colou?r|english|translation|translated|patch(es)?|ai|gpt|rom|fix|ws|wsc|cumulative|"
+               r"incremental|from|jp|en|test|release|final|bps|ips|t[-+]\w+")
+
+
+def clean_name(text: str | None) -> str | None:
+    """A readable game name from a file or repository name."""
     if not text:
         return None
-    t = re.sub(r"\.(bps|ips|zip|7z)$", "", text, flags=re.I)
-    t = VERSION_RES[0].sub("", t)
-    t = re.sub(r"[\[(][^\])]*(?:t[-+]|eng|english|patch|translation)[^\])]*[\])]", "", t, flags=re.I)
-    t = re.sub(r"\b(english|translation|patch|release|ai|bps|ips)\b", "", t, flags=re.I)
-    t = re.sub(r"[\s_\-–—:|]+$", "", re.sub(r"^[\s_\-–—:|]+", "", re.sub(r"\s{2,}", " ", t)))
-    return t.strip() or None
+    t = strip_ext(text)
+    t = re.sub(r"\[[^\]]*\]|\((?:Japan|J|Rev[^)]*|En|debug)\)", " ", t, flags=re.I)
+    t = VERSION_RE.sub(" ", t)
+    t = re.sub(r"[._]+", " ", t)
+    t = re.sub(r"(?<=[A-Za-z0-9])-(?=[A-Za-z0-9])", " ", t)
+    t = re.sub(rf"(?<![A-Za-z])({NOISE_WORDS})(?![A-Za-z])", " ", t, flags=re.I)
+    t = re.sub(r"\b(HF|QA|RC|MANT|S|Phase)\d+\w*", " ", t)
+    t = re.sub(r"\s{2,}", " ", t).strip(" -–—:")
+    return t or None
+
+
+def describe(e: dict, notes: str, default_lang: str | None) -> None:
+    """Fill the descriptive fields of an entry from its file, origin and notes."""
+    o = e["origin"]
+    fname = e["file_name"]
+    if e["format"] == "ips":  # IPS has no checksums: anything here came from notes/overrides last time
+        e["source_crc32"] = e["target_crc32"] = None
+    title, plat, superseded = parse_release_name(o.get("release_name"))
+    repo_name = o["source"].split("/", 1)[1]
+    e["variant"] = Path(fname).stem
+    if o["kind"] == "release_asset":
+        vtexts = [o.get("asset_name"), fname, o.get("archive_member"), o.get("release_name"), o.get("release_tag")]
+    else:
+        vtexts = [fname, o.get("repo_path")]
+    e["version"] = guess_version(vtexts)
+    e["language"] = guess_language([fname, o.get("archive_member"), o.get("asset_name"), o.get("release_name"),
+                                    o.get("release_tag"), o.get("repo_path"), repo_name], default_lang)
+    e["superseded"] = superseded
+
+    # Platform: the release name first, then any other name, then the ROM size.
+    plat = plat or platform_from_text(" ".join(filter(None, [o.get("asset_name"), fname, repo_name])))
+    size = e.get("source_size") or e.get("target_size")
+    if size and size > MAX_WS_ROM:
+        plat = plat if plat and not plat.startswith("wonderswan") else "other"
+    elif plat is None and size and size & (size - 1) == 0 and size >= 128 * 1024:
+        plat = "wonderswan"
+    e["platform"] = plat
+
+    # Required / produced ROM.
+    info = rom_info_from_notes(notes, e.get("source_crc32"), e.get("target_crc32")) if notes else {"source": {}, "target": {}}
+    src = {"crc32": e.get("source_crc32"), "size": e.get("source_size"), "crc32_from": "bps" if e.get("source_crc32") else None}
+    dst = {"crc32": e.get("target_crc32"), "size": e.get("target_size"), "crc32_from": "bps" if e.get("target_crc32") else None}
+    for rom, found in ((src, info["source"]), (dst, info["target"])):
+        if not rom["crc32"] and found.get("crc32"):
+            rom["crc32"], rom["crc32_from"] = found["crc32"], "notes"
+        elif rom["crc32"] and found.get("crc32") and found["crc32"] != rom["crc32"]:
+            rom["notes_crc32_mismatch"] = found["crc32"]  # notes describe another revision: ignore them
+            continue
+        for k in ("md5", "sha1", "sha256", "name"):
+            if found.get(k):
+                rom[k] = found[k]
+    if info.get("mismatch"):
+        src["notes_other_crc32"] = info["mismatch"]
+    if not title:
+        # No release title: the No-Intro name in the notes, else the repository / file name.
+        rom_name = re.sub(r"\s*\((?:Japan|J|Asia|Rev[^)]*|En|[A-Z][a-z]+(?:,\s*[A-Z][a-z]+)*)\)|\.(?:wsc|ws|pc2)$", "",
+                          src.get("name") or "").strip() or None
+        if o["kind"] == "repo_file":
+            title = rom_name or clean_name(repo_name) or clean_name(fname)
+        else:
+            title = rom_name or clean_name(fname)
+    e["game"] = title
+    e["source_rom"] = {k: v for k, v in src.items() if v is not None}
+    e["target_rom"] = {k: v for k, v in dst.items() if v is not None}
+    e["source_crc32"] = src["crc32"]
+    e["target_crc32"] = dst["crc32"]
 
 
 # ------------------------------------------------------------------------ storage
@@ -304,8 +541,7 @@ SAFE = re.compile(r"[^A-Za-z0-9._ ()\[\]&+,!'-]")
 
 
 def safe(part: str) -> str:
-    part = SAFE.sub("_", part).strip(" .") or "_"
-    return part[:120]
+    return (SAFE.sub("_", part).strip(" .") or "_")[:120]
 
 
 def raw_url(rel: str) -> str:
@@ -335,10 +571,10 @@ def load_json(p: Path, default):
         return default
 
 
-def make_entries(found, origin: dict, texts: list[str], default_lang, rel_dir: Path, taken: dict, seen_sha: set) -> list[dict]:
+def make_entries(found, origin: dict, rel_dir: Path, taken: dict, seen_sha: set) -> list[dict]:
     entries = []
     for fname, member, data in found:
-        info = parse_patch(fname, data)
+        info = parse_patch(data)
         if not info:
             log(f"  ! not a valid BPS/IPS: {fname}")
             continue
@@ -347,52 +583,79 @@ def make_entries(found, origin: dict, texts: list[str], default_lang, rel_dir: P
             continue
         seen_sha.add(sha)
         rel = store(rel_dir, fname, data, sha, taken)
-        name_texts = [fname, member or "", *texts]
         entries.append({
-            "id": sha[:16],
-            "file_name": fname,
-            "path": rel,
-            "url": raw_url(rel),
-            "size": len(data),
-            "sha256": sha,
-            "patch_crc32": crc32(data),
-            "game": clean_title(origin.get("release_name")) or clean_title(origin.get("release_tag"))
-                    or clean_title(Path(fname).stem),
-            "variant": Path(fname).stem,
-            "version": guess_version([origin.get("release_name"), origin.get("release_tag"), fname, member]),
-            "language": guess_language(name_texts, default_lang),
-            **info,
-            "origin": {**origin, "archive_member": member},
+            "id": sha[:16], "file_name": fname, "path": rel, "url": raw_url(rel),
+            "size": len(data), "sha256": sha, "patch_crc32": crc32(data),
+            **info, "origin": {**origin, "archive_member": member},
         })
     return entries
 
 
-def crawl_repo(full: str, default_lang, state_items: dict, old_by_key: dict, taken: dict) -> tuple[list[dict], dict]:
+def readme_notes(full: str, tree_nodes: list[dict], cache: dict) -> callable:
+    """Return f(repo_path) -> text of the README files in that folder and its parents (closest first)."""
+    readmes = {}
+    for n in tree_nodes:
+        p = n.get("path", "")
+        if n.get("type") == "blob" and re.fullmatch(r"(?:.*/)?readme(?:\.[a-z]+)?", p, re.I) and n.get("size", 0) < 512 * 1024:
+            readmes.setdefault(str(Path(p).parent), []).append(n)
+
+    def text(d: str) -> str:
+        parts = []
+        for n in readmes.get(d, []):
+            if n["sha"] not in cache:
+                try:
+                    cache[n["sha"]] = http_get(f"{API}/repos/{full}/git/blobs/{n['sha']}",
+                                               accept="application/vnd.github.raw")[0].decode("utf-8", "replace")
+                except Exception as e:  # noqa: BLE001
+                    log(f"  ! README {n['path']}: {e}")
+                    cache[n["sha"]] = ""
+            parts.append(cache[n["sha"]])
+        return "\n".join(parts)
+
+    def for_path(p: str) -> str:
+        d, out = Path(p).parent, []
+        while True:
+            out.append(text(str(d)))
+            if str(d) == ".":
+                break
+            d = d.parent
+        return "\n\n".join(x for x in out if x)
+
+    return for_path
+
+
+def crawl_repo(full: str, src: dict, state_items: dict, old_by_key: dict, taken: dict, notes: dict) -> tuple[list[dict], dict]:
     """Return (entries, new state items) for one repository. Raises on API failure."""
     meta = api(f"/repos/{full}")
     owner, repo = full.split("/")
     branch = meta.get("default_branch") or "main"
+    exclude = re.compile(src.get("exclude_paths", DEFAULT_EXCLUDE_PATHS), re.I)
     entries, items = [], {}
 
-    def reuse_or(key, build):
+    def reuse_or(key, build, note_text):
         cached = old_by_key.get(key, [])  # [] = processed before, held no valid patch
-        if key in state_items and all((ROOT / e["path"]).exists() for e in cached):
-            for e in cached:
-                taken[e["path"]] = e["sha256"]
+        if key in state_items and all(e.get("path") is None or (ROOT / e["path"]).exists() for e in cached) \
+                and not any(e.get("path") is None and e.get("platform") in ALLOWED for e in cached):
+            got = [json.loads(json.dumps(e)) for e in cached]
+            for e in got:
+                if e.get("path"):
+                    taken[e["path"]] = e["sha256"]
             items[key] = state_items[key]
-            entries.extend(cached)
-            return
-        new = build()
-        items[key] = {"entries": [e["sha256"] for e in new]}
-        for e in new:
-            e["origin"]["key"] = key
-        entries.extend(new)
+        else:
+            got = build()
+            items[key] = {"entries": [e["sha256"] for e in got]}
+            for e in got:
+                e["origin"]["key"] = key
+        for e in got:
+            notes[id(e)] = note_text
+        entries.extend(got)
 
     for rel in api_list(f"/repos/{full}/releases"):
         if rel.get("draft"):
             continue
         tag = rel.get("tag_name") or str(rel["id"])
         seen_sha: set = set()
+        body = rel.get("body") or ""
         for asset in sorted(rel.get("assets", []), key=lambda a: not a["name"].lower().endswith(PATCH_EXT)):
             if not asset["name"].lower().endswith(PATCH_EXT + ARCHIVE_EXT):
                 continue
@@ -414,42 +677,35 @@ def crawl_repo(full: str, default_lang, state_items: dict, old_by_key: dict, tak
                 found = extract_patches(asset["name"], data)
                 if not found:
                     log("    (no .bps/.ips inside)")
-                return make_entries(found, origin, [rel.get("name"), tag, asset["name"]], default_lang,
-                                    Path(safe(owner)) / safe(repo) / safe(tag), taken, seen_sha)
+                return make_entries(found, origin, Path(safe(owner)) / safe(repo) / safe(tag), taken, seen_sha)
 
-            reuse_or(key, build)
+            reuse_or(key, build, body)
 
     tree = api(f"/repos/{full}/git/trees/{urllib.parse.quote(branch)}?recursive=1")
     if tree.get("truncated"):
         log(f"  ! {full}: file tree truncated by the API; some committed files may be missed")
-    commit_sha = tree.get("sha")
-    for node in tree.get("tree", []):
-        p = node.get("path", "")
-        if node.get("type") != "blob" or not p.lower().endswith(PATCH_EXT + ARCHIVE_EXT):
-            continue
-        if node.get("size", 0) > MAX_DOWNLOAD:
-            continue
+    nodes = tree.get("tree", [])
+    patch_nodes = [n for n in nodes if n.get("type") == "blob"
+                   and n.get("path", "").lower().endswith(PATCH_EXT + ARCHIVE_EXT)
+                   and n.get("size", 0) <= MAX_DOWNLOAD and not exclude.search(n["path"])]
+    readme_for = readme_notes(full, nodes, {}) if patch_nodes else None
+    for node in patch_nodes:
+        p = node["path"]
         key = f"blob:{full}:{node['sha']}:{p}"
         origin = {
             "source": full, "source_url": meta["html_url"], "kind": "repo_file", "branch": branch,
             "repo_path": p, "file_url": f"{meta['html_url']}/blob/{branch}/{urllib.parse.quote(p)}",
-            "release_tag": None, "release_name": None, "tree_sha": commit_sha,
+            "release_tag": None, "release_name": None,
         }
 
         def build(node=node, origin=origin, p=p):
             log(f"  ↓ {full} (repo) {p}")
             data, _ = http_get(f"{API}/repos/{full}/git/blobs/{node['sha']}", accept="application/vnd.github.raw")
-            found = extract_patches(p, data)
             parent = Path(p).parent
-            texts = [p, *parent.parts]
-            for e in (made := make_entries(found, origin, texts, default_lang,
-                                           Path(safe(owner)) / safe(repo) / "_files" / Path(*map(safe, parent.parts)),
-                                           taken, set())):
-                if not e["game"] or e["game"] == clean_title(e["variant"]):
-                    e["game"] = clean_title(parent.name) or e["game"]
-            return made
+            return make_entries(extract_patches(p, data), origin,
+                                Path(safe(owner)) / safe(repo) / "_files" / Path(*map(safe, parent.parts)), taken, set())
 
-        reuse_or(key, build)
+        reuse_or(key, build, readme_for(p))
     return entries, items
 
 
@@ -460,85 +716,156 @@ def expand_sources(sources: list[dict]) -> list[tuple[str, dict]]:
             repos.append((s["repo"], s))
         elif s["type"] == "user":
             for r in api_list(f"/users/{s['user']}/repos?type=owner&sort=full_name"):
-                if r.get("fork"):
-                    continue
-                repos.append((r["full_name"], s))
+                if not r.get("fork"):
+                    repos.append((r["full_name"], s))
     return repos
 
 
+def finalize(entries: list[dict], platforms: list) -> tuple[list[dict], list[dict]]:
+    """Split by platform, flag duplicates and the latest version of each game."""
+    kept, excluded = [], []
+    for e in entries:
+        if e.get("platform") in platforms:
+            e.pop("excluded", None)
+            kept.append(e)
+        else:
+            e["excluded"] = f"platform {e.get('platform')}"
+            e["path"] = e["url"] = None
+            excluded.append(e)
+
+    # Identical files in one source: keep the release asset / the shortest path, mark the others.
+    by_sha: dict = {}
+    for e in kept:
+        by_sha.setdefault((e["origin"]["source"], e["sha256"]), []).append(e)
+    for group in by_sha.values():
+        group.sort(key=lambda e: (e["origin"]["kind"] != "release_asset", len(e["path"]), e["path"]))
+        for e in group:
+            e["duplicate_of"] = None
+        for e in group[1:]:
+            e["duplicate_of"] = group[0]["id"]
+
+    # Latest: per source and original ROM, highest version that is not superseded.
+    groups: dict = {}
+    for e in kept:
+        if e.get("duplicate_of"):
+            e["latest"] = False
+            continue
+        groups.setdefault((e["origin"]["source"], e.get("source_crc32") or e.get("game")), []).append(e)
+
+    def rank(e):
+        o = e["origin"]
+        return (not e.get("superseded"), not o.get("prerelease"), version_key(e.get("version")), o.get("published_at") or "",
+                natural(e.get("variant") or "") if o["kind"] == "repo_file" else ())
+
+    for group in groups.values():
+        best = max(rank(e) for e in group)
+        for e in group:
+            e["latest"] = rank(e) == best
+    return kept, excluded
+
+
+ENTRY_ORDER = ["id", "game", "variant", "version", "language", "platform", "latest", "superseded", "duplicate_of",
+               "format", "source_crc32", "target_crc32", "source_rom", "target_rom", "file_name", "path", "url",
+               "size", "sha256", "patch_crc32"]
+
+
+def ordered(e: dict) -> dict:
+    return {**{k: e[k] for k in ENTRY_ORDER if k in e}, **{k: v for k, v in e.items() if k not in ENTRY_ORDER}}
+
+
 def main() -> int:
-    sources = load_json(SOURCES_JSON, {}).get("sources", [])
+    cfg = load_json(SOURCES_JSON, {})
+    sources = cfg.get("sources", [])
+    platforms = cfg.get("platforms", DEFAULT_PLATFORMS)
+    ALLOWED[:] = platforms
     overrides = {k: v for k, v in load_json(OVERRIDES_JSON, {}).items() if not k.startswith("_")}
     state = load_json(STATE_JSON, {"items": {}})
     old_index = load_json(INDEX_JSON, {"entries": []})
-    old_entries = old_index.get("entries", [])
+    old_all = old_index.get("entries", []) + old_index.get("excluded", [])
     old_by_key: dict[str, list] = {}
-    for e in old_entries:
+    for e in old_all:
         old_by_key.setdefault(e["origin"].get("key", ""), []).append(e)
-    first_seen = {(e["sha256"], e["origin"].get("key")): e.get("first_seen") for e in old_entries}
+    first_seen = {(e["sha256"], e["origin"].get("key")): e.get("first_seen") for e in old_all}
 
     taken: dict = {}
+    notes: dict = {}
+    frozen: set = set()  # entries of sources that failed this run: keep their old description
     entries, items, failed, crawled = [], {}, [], []
     try:
         repos = expand_sources(sources)
     except Exception as e:  # noqa: BLE001
         log(f"! cannot list sources: {e}")
         return 1
+    src_of = {}
     for full, src in repos:
         log(f"== {full}")
+        src_of[full] = src
         prev_items = {k: v for k, v in state.get("items", {}).items() if k.split(":")[1] == full}
         try:
-            got, its = crawl_repo(full, src.get("default_language"), prev_items, old_by_key, taken)
+            got, its = crawl_repo(full, src, prev_items, old_by_key, taken, notes)
         except Exception as e:  # noqa: BLE001 - keep the previous data for this source
             log(f"! {full} failed: {e}; keeping previous data")
             failed.append(full)
-            entries.extend(x for x in old_entries if x["origin"]["source"] == full)
-            items.update(prev_items)
-            for x in old_entries:
-                if x["origin"]["source"] == full:
+            prev = [json.loads(json.dumps(x)) for x in old_all if x["origin"]["source"] == full]
+            for x in prev:
+                frozen.add(id(x))
+                if x.get("path"):
                     taken[x["path"]] = x["sha256"]
+            entries.extend(prev)
+            items.update(prev_items)
             continue
         crawled.append(full)
         log(f"   {len(got)} patch(es)")
         entries.extend(got)
         items.update(its)
 
-    # Sources removed from sources.json are dropped on purpose.
     today = dt.date.today().isoformat()
     for e in entries:
+        if id(e) not in frozen:
+            describe(e, notes.get(id(e), ""), src_of.get(e["origin"]["source"], {}).get("default_language"))
         e["first_seen"] = first_seen.get((e["sha256"], e["origin"].get("key"))) or e.get("first_seen") or today
         if e["sha256"] in overrides:
             e.update({k: v for k, v in overrides[e["sha256"]].items() if k not in ("sha256", "path", "url")})
-    entries.sort(key=lambda e: ((e.get("game") or "").lower(), e["origin"]["source"].lower(),
-                                e.get("version") or "", e["file_name"].lower()))
+    kept, excluded = finalize(entries, platforms)
+    sort_key = lambda e: ((e.get("game") or "").lower(), e["origin"]["source"].lower(),  # noqa: E731
+                          version_key(e.get("version")), natural(e["file_name"]))
+    kept = [ordered(e) for e in sorted(kept, key=sort_key)]
+    excluded = [ordered(e) for e in sorted(excluded, key=sort_key)]
+    for e in excluded:
+        log(f"  · excluded ({e['excluded']}): {e['origin']['source']} {e['file_name']}")
 
     # Remove files no longer referenced (only under patches/).
-    keep = {e["path"] for e in entries}
+    keep = {e["path"] for e in kept}
     for f in sorted(PATCH_DIR.rglob("*"), reverse=True) if PATCH_DIR.exists() else []:
         rel = f.relative_to(ROOT).as_posix()
         if f.is_file() and rel not in keep:
-            log(f"- removing {rel} (gone upstream)")
+            log(f"- removing {rel}")
             f.unlink()
         elif f.is_dir() and not any(f.iterdir()):
             f.rmdir()
 
-    changed = json.dumps(entries, sort_keys=True) != json.dumps(old_entries, sort_keys=True)
+    old_cmp = old_index.get("entries", []), old_index.get("excluded", [])
+    changed = json.dumps([kept, excluded], sort_keys=True) != json.dumps(list(old_cmp), sort_keys=True) \
+        or old_index.get("schema") != SCHEMA
     index = {
         "schema": SCHEMA,
         "repository": SELF_REPO,
         "generated_at": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
         if changed or "generated_at" not in old_index else old_index["generated_at"],
         "sources": [s for s, _ in repos],
-        "count": len(entries),
-        "entries": entries,
+        "platforms": platforms,
+        "count": len(kept),
+        "entries": kept,
+        "excluded": excluded,
     }
     INDEX_JSON.write_text(json.dumps(index, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     STATE_JSON.write_text(json.dumps({"items": dict(sorted(items.items()))}, indent=1) + "\n", encoding="utf-8")
-    write_csv(entries)
+    write_csv(kept)
     write_md(index)
 
     summary = (f"Sources: {len(repos)} repos ({len(crawled)} ok, {len(failed)} failed). "
-               f"Patches: {len(entries)}. Changed: {changed}.")
+               f"Patches: {len(kept)} ({sum(1 for e in kept if e.get('latest'))} latest, "
+               f"{sum(1 for e in kept if e.get('duplicate_of'))} duplicates), {len(excluded)} excluded. Changed: {changed}.")
     log(summary)
     if os.environ.get("GITHUB_STEP_SUMMARY"):
         with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as fh:
@@ -546,9 +873,11 @@ def main() -> int:
     return 0 if not failed or crawled else 1
 
 
-CSV_COLS = ["game", "variant", "version", "language", "format", "source_crc32", "target_crc32", "source_size",
-            "target_size", "patch_crc32", "sha256", "file_name", "path", "url", "source", "kind", "release_tag",
-            "release_name", "asset_name", "archive_member", "repo_path", "release_url", "first_seen"]
+CSV_COLS = ["id", "game", "variant", "version", "language", "platform", "latest", "superseded", "duplicate_of",
+            "format", "source_crc32", "source_md5", "source_sha1", "source_sha256", "source_rom_name", "source_size",
+            "target_crc32", "target_sha1", "target_size", "patch_crc32", "sha256", "file_name", "path", "url",
+            "source", "kind", "release_tag", "release_name", "asset_name", "archive_member", "repo_path",
+            "release_url", "file_url", "first_seen"]
 
 
 def write_csv(entries):
@@ -556,24 +885,30 @@ def write_csv(entries):
         w = csv.writer(fh)
         w.writerow(CSV_COLS)
         for e in entries:
-            o = e["origin"]
-            w.writerow([e.get(c) if c in e else o.get(c) for c in CSV_COLS])
+            o, s, t = e["origin"], e.get("source_rom", {}), e.get("target_rom", {})
+            row = {**o, **e, "source_md5": s.get("md5"), "source_sha1": s.get("sha1"), "source_sha256": s.get("sha256"),
+                   "source_rom_name": s.get("name"), "target_sha1": t.get("sha1")}
+            w.writerow([row.get(c) for c in CSV_COLS])
 
 
 def write_md(index):
-    rows = ["| Game | Variant | Ver. | Lang | Fmt | Original CRC32 | Patched CRC32 | Source |",
+    cell = lambda v: (str(v) if v not in (None, "") else "—").replace("|", "\\|")  # noqa: E731
+    rows = ["| Game | Variant | Ver. | Lang | Fmt | Original ROM CRC32 | Patched CRC32 | Source |",
             "| --- | --- | --- | --- | --- | --- | --- | --- |"]
-    for e in index["entries"]:
+    shown = [e for e in index["entries"] if not e.get("duplicate_of")]
+    for e in shown:
         o = e["origin"]
         where = o.get("release_url") or o.get("file_url") or o["source_url"]
-        cell = lambda v: (str(v) if v not in (None, "") else "—").replace("|", "\\|")  # noqa: E731
-        rows.append(f"| {cell(e.get('game'))} | [{cell(e['variant'])}]({urllib.parse.quote(e['path'])}) | "
+        star = " ★" if e.get("latest") else ""
+        note = "" if e.get("source_rom", {}).get("crc32_from") != "notes" else " (notes)"
+        rows.append(f"| {cell(e.get('game'))} | [{cell(e['variant'])}]({urllib.parse.quote(e['path'])}){star} | "
                     f"{cell(e.get('version'))} | {cell(e.get('language'))} | {e['format'].upper()} | "
-                    f"`{cell(e.get('source_crc32'))}` | `{cell(e.get('target_crc32'))}` | "
+                    f"`{cell(e.get('source_crc32'))}`{note} | `{cell(e.get('target_crc32'))}` | "
                     f"[{cell(o['source'])}]({where}) |")
     PATCHES_MD.write_text(
         "# Patch catalog\n\n"
-        f"Generated by `scripts/crawl.py` — {index['count']} patches, last change {index['generated_at']}.\n"
+        f"Generated by `scripts/crawl.py` — {len(shown)} patches ({index['count']} files incl. duplicates), "
+        f"last change {index['generated_at']}. ★ = latest version from that source.\n"
         "Machine-readable versions: [`index.json`](index.json), [`index.csv`](index.csv).\n\n"
         + "\n".join(rows) + "\n", encoding="utf-8")
 

@@ -1,5 +1,6 @@
 {
-  "_comment": "Sources crawled daily by scripts/crawl.py. type=repo crawls one repository; type=user crawls every public, non-fork repository of a user. default_language is used when nothing in the file/release name says otherwise.",
+  "_comment": "Sources crawled daily by scripts/crawl.py. type=repo crawls one repository; type=user crawls every public, non-fork repository of a user. default_language is used when nothing in the names says otherwise. exclude_paths (optional, per source) is a regex of committed paths to skip; by default vendor/, fixtures/, tests/ and similar folders are skipped. platforms lists the platforms kept (null = unknown); patches for other systems are listed under 'excluded' in index.json but not stored.",
+  "platforms": ["wonderswan", "wonderswan_color", null],
   "sources": [
     { "type": "repo", "repo": "mariovirgili/WonderSwanColor-AI_Translation", "default_language": "en" },
     { "type": "repo", "repo": "PokemonGoDB/wonderswan-english-patches", "default_language": "en" },

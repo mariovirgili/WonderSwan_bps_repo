@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/**'
+      - 'tests/**'
       - 'sources.json'
       - 'overrides.json'
       - '.github/workflows/crawl.yml'
@@ -30,6 +31,8 @@ jobs:
           python-version: '3.12'
       - name: Install 7z support
         run: pip install py7zr==1.1.4
+      - name: Offline tests
+        run: python tests/test_crawl.py > /dev/null
       - name: Crawl sources
         env:
           GITHUB_TOKEN: ${{ github.token }}
