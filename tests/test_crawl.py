@@ -133,8 +133,16 @@ def api_list(path):
     return releases.get("/".join(path.split("/")[2:4]), [])
 
 
+DAT = {"Bandai%20-%20WonderSwan.dat": """clrmamepro (\n\tname "x"\n)\n\ngame (\n\tname "Densha de Go! 2 (Japan)"\n\trom ( name "Densha de Go! 2 (Japan).ws" size 4194304 crc 33333333 md5 0cc175b9c0f1b6a831c399e269772661 sha1 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab )\n)\ngame (\n\tname "Hanafuda (Japan)"\n\trom ( name "Hanafuda (Japan).ws" size 1048576 crc 12345678 )\n)\ngame (\n\tname "Untranslated Game (Japan)"\n\trom ( name "Untranslated Game (Japan).ws" size 524288 crc 0000AAAA )\n)\n""",
+       "Bandai%20-%20WonderSwan%20Color.dat": """game (\n\tname "One Piece - Grand Battle (Japan)"\n\trom ( name "One Piece - Grand Battle (Japan).wsc" size 4194304 crc F8A1DD2B )\n)\n"""}
+
+
 def http_get(url, accept=None, auth=True):
     downloads.append(url)
+    for k, v in DAT.items():
+        if url.endswith(k):
+            downloads.pop()
+            return v.encode(), {}
     if "/releases/assets/" in url:
         return assets[int(url.rsplit("/", 1)[1])], {}
     if "/git/blobs/" in url:
@@ -207,6 +215,13 @@ check(f["patches"][0]["variant"] == "patch_ITA" and f["patches"][0]["url"].start
 f = json.loads((work / "lookup/crc32/44444444.json").read_text())
 check(f["produced_by"] and f["patches"][0]["variant"].startswith("Densha_de_Go_2_EN_v0.4.21"), "patched ROM: what made it + incremental patches for it")
 check(not (work / "lookup/crc32/55555555.json").exists(), "excluded platforms not in the lookup")
+tl = (work / "TITLES.md").read_text()
+check("| WonderSwan | 3 | 1 (+1 ⚠️ another dump) |" in tl and "| WonderSwan Color | 1 | 1 |" in tl, "titles page: counts per system")
+check(any(l.startswith("| ✅ | **Densha de Go! 2 (Japan)**") for l in tl.splitlines()), "titles page: exact-ROM match marked ✅")
+check(any(l.startswith("| ⚠️ | **Hanafuda (Japan)**") and "0BADF00D" in l for l in tl.splitlines()), "titles page: same title, other dump marked ⚠️ with its CRC32")
+check(any(l.startswith("|  | Untranslated Game (Japan) | `0000AAAA` | — |") for l in tl.splitlines()), "titles page: untranslated titles listed too")
+check("no-intro" not in tl.lower() and "libretro" not in tl.lower(), "titles page does not name where the list comes from")
+check("Densha de Go! 2 (Japan).ws" in json.loads((work / "lookup/crc32/33333333.json").read_text())["names"], "lookup names include the catalogued ROM name")
 n1 = len(downloads)
 
 downloads.clear()

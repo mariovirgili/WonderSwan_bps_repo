@@ -57,6 +57,13 @@ SOURCES_JSON = ROOT / "sources.json"
 OVERRIDES_JSON = ROOT / "overrides.json"
 ROMS_JSON = ROOT / "roms.json"
 LOOKUP_DIR = ROOT / "lookup"
+TITLES_JSON = ROOT / "titles.json"
+TITLES_MD = ROOT / "TITLES.md"
+# Complete lists of released titles (name, size, CRC32, MD5, SHA-1), refreshed every run.
+TITLE_LISTS = [
+    ("wonderswan", "WonderSwan", "https://raw.githubusercontent.com/libretro/libretro-database/master/metadat/no-intro/Bandai%20-%20WonderSwan.dat"),
+    ("wonderswan_color", "WonderSwan Color", "https://raw.githubusercontent.com/libretro/libretro-database/master/metadat/no-intro/Bandai%20-%20WonderSwan%20Color.dat"),
+]
 
 API = "https://api.github.com"
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
@@ -953,7 +960,9 @@ def main() -> int:
     STATE_JSON.write_text(json.dumps({"items": dict(sorted(items.items()))}, indent=1) + "\n", encoding="utf-8")
     write_csv(kept)
     write_md(index)
-    write_lookup(kept)
+    titles = load_titles()
+    write_lookup(kept, titles)
+    write_titles(kept, titles, index)
 
     summary = (f"Sources: {len(repos)} repos ({len(crawled)} ok, {len(failed)} failed). "
                f"Patches: {len(kept)} ({sum(1 for e in kept if e.get('latest'))} latest, "
@@ -968,7 +977,152 @@ def main() -> int:
 HASH_KINDS = ("crc32", "md5", "sha1", "sha256")
 
 
-def write_lookup(entries: list[dict]) -> None:
+GAME_RE = re.compile(r'^game \(\s*\n(.*?)^\)', re.S | re.M)
+TITLE_ROM_RE = re.compile(r'rom \( name "((?:[^"\\]|\\.)*)" size (\d+) crc ([0-9A-Fa-f]{8})(?: md5 ([0-9A-Fa-f]{32}))?(?: sha1 ([0-9A-Fa-f]{40}))?')
+
+
+def parse_title_list(text: str, system: str) -> list[dict]:
+    out = []
+    for m in GAME_RE.finditer(text):
+        body = m.group(1)
+        name = re.search(r'^\s*name "((?:[^"\\]|\\.)*)"', body, re.M)
+        rom = TITLE_ROM_RE.search(body)
+        if not (name and rom):
+            continue
+        out.append({"system": system, "name": name.group(1), "rom": rom.group(1), "size": int(rom.group(2)),
+                    "crc32": rom.group(3).upper(), "md5": (rom.group(4) or "").lower() or None,
+                    "sha1": (rom.group(5) or "").lower() or None})
+    return out
+
+
+def load_titles() -> list[dict]:
+    """Every released title per system. Falls back to the copy in titles.json if a list cannot be fetched."""
+    previous = load_json(TITLES_JSON, {"titles": []}).get("titles", [])
+    titles = []
+    for system, label, url in TITLE_LISTS:
+        try:
+            data, _ = http_get(url, accept="text/plain", auth=False)
+            got = parse_title_list(data.decode("utf-8", "replace"), system)
+            if not got:
+                raise ValueError("empty list")
+            log(f"Title list {label}: {len(got)} titles")
+        except Exception as e:  # noqa: BLE001 - keep the last good list
+            got = [t for t in previous if t["system"] == system]
+            log(f"! title list {label} unavailable ({e}); using the saved copy ({len(got)} titles)")
+        titles.extend(got)
+    titles.sort(key=lambda t: (t["system"], t["name"].lower()))
+    TITLES_JSON.write_text(json.dumps({"schema": 1, "titles": titles}, indent=1, ensure_ascii=False) + "\n",
+                           encoding="utf-8")
+    return titles
+
+
+LANG_NAMES = {"en": "English", "ja": "Japanese", "it": "Italian", "es": "Spanish", "fr": "French", "de": "German",
+              "pt": "Portuguese", "ru": "Russian", "zh": "Chinese", "ko": "Korean"}
+
+
+def title_key(name: str | None) -> str:
+    return re.sub(r"\s+", " ", re.sub(r"\.(wsc|ws|pc2)$", "", (name or "").strip(), flags=re.I)).lower()
+
+
+def title_patches(entries: list[dict], titles: list[dict]) -> tuple[dict, dict, list]:
+    """Patches per title: (exact ROM by CRC32/SHA-1/MD5, same title but another dump by ROM name, the rest)."""
+    by_crc = {t["crc32"]: t for t in titles}
+    by_name = {title_key(t["name"]): t for t in titles}
+    by_sha1 = {t["sha1"]: t for t in titles if t.get("sha1")}
+    by_md5 = {t["md5"]: t for t in titles if t.get("md5")}
+    found: dict[str, list] = {}
+    others: dict[str, list] = {}
+    for e in entries:
+        if e.get("duplicate_of") or e.get("requires_patched_rom"):
+            continue
+        src = e.get("source_rom") or {}
+        t = by_crc.get(e.get("source_crc32") or "") or by_sha1.get(src.get("sha1") or "") or by_md5.get(src.get("md5") or "")
+        if t:
+            found.setdefault(t["crc32"], []).append(e)
+        elif e.get("source_crc32"):
+            others.setdefault(e["source_crc32"], []).append(e)
+    # Same title, different dump: the ROM name given with the patch matches a title exactly.
+    other_dump: dict[str, list] = {}
+    for crc, ps in list(others.items()):
+        names = {title_key((p.get("source_rom") or {}).get("name")) for p in ps} - {""}
+        hits = {by_name[n]["crc32"] for n in names if n in by_name}
+        if len(hits) == 1:
+            other_dump.setdefault(hits.pop(), []).extend(ps)
+            del others[crc]
+    return found, other_dump, sorted(others.items(), key=lambda kv: (kv[1][0].get("game") or "").lower())
+
+
+def patch_summary(patches: list[dict]) -> str:
+    """'English: [mariovirgili v0.9.1](…) · [Gand46 v5.0.0](…)' - newest version of each author."""
+    best: dict = {}
+    for e in patches:
+        author = e["origin"]["source"].split("/")[0]
+        lang = e.get("language")
+        key = (lang, author)
+        rank = (bool(e.get("latest")), not e.get("superseded"), version_key(e.get("version")))
+        if key not in best or rank > best[key][0]:
+            best[key] = (rank, e)
+    langs: dict = {}
+    for (lang, author), (_, e) in sorted(best.items(), key=lambda kv: (kv[0][0] or "~", kv[0][1].lower() != "mariovirgili",
+                                                                      kv[0][1].lower())):
+        o = e["origin"]
+        url = o.get("release_url") or o.get("file_url") or o.get("source_url")
+        label = author + (f" v{e['version']}" if e.get("version") else "")
+        langs.setdefault(LANG_NAMES.get(lang, lang or "Language not stated"), []).append(f"[{label}]({url})")
+    return "<br>".join(f"**{lang}**: " + " · ".join(links) for lang, links in langs.items())
+
+
+def write_titles(entries: list[dict], titles: list[dict], index: dict) -> None:
+    md = lambda t: t.replace("|", "\\|")  # noqa: E731
+    found, other_dump, others = title_patches(entries, titles)
+
+    def cell(t):
+        parts = []
+        if t["crc32"] in found:
+            parts.append(patch_summary(found[t["crc32"]]))
+        if t["crc32"] in other_dump:
+            crcs = ", ".join(f"`{c}`" for c in sorted({p["source_crc32"] for p in other_dump[t["crc32"]]}))
+            parts.append(f"⚠️ for another dump of this title (ROM CRC32 {crcs}): " + patch_summary(other_dump[t["crc32"]]))
+        return "<br>".join(parts) or "—"
+
+    def mark(t):
+        return "✅" if t["crc32"] in found else "⚠️" if t["crc32"] in other_dump else ""
+    lines = ["# WonderSwan & WonderSwan Color games", "",
+             "Every released WonderSwan and WonderSwan Color title, and the translation patches available for it in "
+             "this repository. ✅ = at least one patch is made for that exact ROM (matched by CRC32), so check the "
+             "revision in brackets; ⚠️ = a patch exists for this title but for another dump of it (different CRC32), "
+             "named in the notes. The page is regenerated automatically every time new patches "
+             "are collected; the patches can be applied on the fly in the "
+             "[WonderSwan AI/MTL Tester](https://mariovirgili.github.io/wonderswan-web/).", ""]
+    lines += ["| System | Titles | With a translation patch |", "| --- | ---: | ---: |"]
+    for system, label, _ in TITLE_LISTS:
+        ts = [t for t in titles if t["system"] == system]
+        n_ok = sum(1 for t in ts if t["crc32"] in found)
+        n_alt = sum(1 for t in ts if t["crc32"] in other_dump and t["crc32"] not in found)
+        lines.append(f"| {label} | {len(ts)} | {n_ok}" + (f" (+{n_alt} ⚠️ another dump)" if n_alt else "") + " |")
+    lines += ["", f"Last change to the patch catalog: {index['generated_at'][:10]}.", ""]
+    translated = [t for t in titles if t["crc32"] in found or t["crc32"] in other_dump]
+    lines += [f"## Titles with translation patches ({len(translated)})", "",
+              "| | Title | System | Patches (newest version of each author) |", "| :---: | --- | --- | --- |"]
+    labels = {s: lab for s, lab, _ in TITLE_LISTS}
+    for t in sorted(translated, key=lambda t: t["name"].lower()):
+        lines.append(f"| {mark(t)} | {md(t['name'])} | {labels[t['system']]} | {cell(t)} |")
+    for system, label, _ in TITLE_LISTS:
+        ts = [t for t in titles if t["system"] == system]
+        lines += ["", f"## {label} ({len(ts)} titles)", "", "| | Title | CRC32 | Translation patches |", "| :---: | --- | --- | --- |"]
+        for t in ts:
+            m = mark(t)
+            lines.append(f"| {m} | {'**' + md(t['name']) + '**' if m else md(t['name'])} | `{t['crc32']}` | {cell(t)} |")
+    if others:
+        lines += ["", f"## Other ROM versions with patches ({len(others)})", "",
+                  "Patches made for a ROM that is not in the lists above (another dump, revision or a modified ROM).", "",
+                  "| Game | ROM CRC32 | Patches |", "| --- | --- | --- |"]
+        for crc, ps in others:
+            lines.append(f"| {md(ps[0].get('game') or ps[0]['variant'])} | `{crc}` | {patch_summary(ps)} |")
+    TITLES_MD.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def write_lookup(entries: list[dict], titles: list[dict] | None = None) -> None:
     """roms.json + lookup/<kind>/<hash>.json: from any hash of a ROM to the patches that take it as input.
 
     Keyed by the ROM a patch *needs* (source_rom). Each file also lists the patches that *produce* that ROM, so an
@@ -1013,8 +1167,16 @@ def write_lookup(entries: list[dict]) -> None:
                        for x in version_key(b.get("version"))], b.get("game") or "", b["variant"] or "")
     by_kind: dict[str, dict] = {k: {} for k in HASH_KINDS}
     out_roms = {}
+    title_by_crc = {t["crc32"]: t for t in titles or []}
     for crc in sorted(roms):
         r = roms[crc]
+        t = title_by_crc.get(crc)
+        if t:  # the catalogued name and hashes of that exact ROM
+            r["names"].add(t["rom"])
+            r["size"] = r["size"] or t["size"]
+            for k in ("md5", "sha1"):
+                if t.get(k) and not r[k]:
+                    r[k].add(t[k])
         clean = {"crc32": crc, "size": r["size"]}
         for k in ("md5", "sha1", "sha256"):
             if len(r[k]) == 1:  # conflicting values from different notes are left out

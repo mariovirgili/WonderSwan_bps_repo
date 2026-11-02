@@ -39,7 +39,7 @@ jobs:
         run: python scripts/crawl.py
       - name: Commit changes
         run: |
-          git add -A patches lookup index.json index.csv PATCHES.md state.json roms.json
+          git add -A patches lookup index.json index.csv PATCHES.md state.json roms.json titles.json TITLES.md
           if git diff --cached --quiet; then
             echo "No changes."
             exit 0
