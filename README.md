@@ -103,6 +103,14 @@ lookup/sha1/<40 hex>.json   lookup/md5/<32 hex>.json   lookup/sha256/<64 hex>.js
 
 A 404 means no patch is known for that ROM. CRC32 file names are upper case, the others lower case.
 
+## License
+
+The crawler and its tests (`scripts/`, `tests/`, the workflow) are free software under the **GNU General Public
+License v2** ([`LICENSE`](LICENSE)). The license does **not** cover the patches in `patches/`: each one belongs to its
+author and is mirrored here only so that tools such as the
+[WonderSwan AI/MTL Tester](https://github.com/mariovirgili/wonderswan-web) can find it; the catalog files
+(`index.json`, `roms.json`, `lookup/`) are generated data describing them.
+
 ## Credits
 
 Every patch belongs to its author and is mirrored with a link to where it was published (`origin` in the index,

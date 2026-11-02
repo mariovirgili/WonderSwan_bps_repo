@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: GPL-2.0-only
 """Mirror WonderSwan .bps/.ips translation patches from GitHub sources.
 
 For every source in sources.json the crawler looks at

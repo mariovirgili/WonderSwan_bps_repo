@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: GPL-2.0-only
 # Offline test of scripts/crawl.py against a mocked GitHub API (needs py7zr). Run: python tests/test_crawl.py
 import importlib.util, io, json, shutil, sys, tempfile, zipfile, zlib
 from pathlib import Path
