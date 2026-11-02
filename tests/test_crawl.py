@@ -197,6 +197,15 @@ check(c.parse_release_name("[Release] X - Card of Fate (WonderSwan Color) - Engl
       == ("X - Card of Fate", "wonderswan_color"), "title with ' - ' inside")
 check(c.guess_language(["lode-runner-se-ja-1.0.bps", None, "x.zip", "[Release] Lode Runner - AI English translation"], "en") == "ja"
       and c.guess_language(["densha-de-go-en-1.0.bps"], None) == "en", "edition language from hyphenated stems")
+roms = json.loads((work / "roms.json").read_text())
+gb = roms["by_crc32"]["F8A1DD2B"]
+check([p["variant"] for p in gb["patches"]][0] == "grand-battle-v1.3" and len(gb["patches"]) == 2, "roms.json: patches for a ROM, latest first")
+check(roms["by_sha1"]["da39a3ee5e6b4b0d3255bfef95601890afd80709"] == "ABCD1234", "roms.json: SHA-1 -> CRC32 key")
+f = json.loads((work / "lookup/sha1/da39a3ee5e6b4b0d3255bfef95601890afd80709.json").read_text())
+check(f["patches"][0]["variant"] == "patch_ITA" and f["patches"][0]["url"].startswith("https://raw.githubusercontent.com/"), "lookup/sha1/<hash>.json")
+f = json.loads((work / "lookup/crc32/44444444.json").read_text())
+check(f["produced_by"] and f["patches"][0]["variant"].startswith("Densha_de_Go_2_EN_v0.4.21"), "patched ROM: what made it + incremental patches for it")
+check(not (work / "lookup/crc32/55555555.json").exists(), "excluded platforms not in the lookup")
 n1 = len(downloads)
 
 downloads.clear()

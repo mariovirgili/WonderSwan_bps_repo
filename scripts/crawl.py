@@ -54,6 +54,8 @@ PATCHES_MD = ROOT / "PATCHES.md"
 STATE_JSON = ROOT / "state.json"
 SOURCES_JSON = ROOT / "sources.json"
 OVERRIDES_JSON = ROOT / "overrides.json"
+ROMS_JSON = ROOT / "roms.json"
+LOOKUP_DIR = ROOT / "lookup"
 
 API = "https://api.github.com"
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
@@ -944,6 +946,7 @@ def main() -> int:
     STATE_JSON.write_text(json.dumps({"items": dict(sorted(items.items()))}, indent=1) + "\n", encoding="utf-8")
     write_csv(kept)
     write_md(index)
+    write_lookup(kept)
 
     summary = (f"Sources: {len(repos)} repos ({len(crawled)} ok, {len(failed)} failed). "
                f"Patches: {len(kept)} ({sum(1 for e in kept if e.get('latest'))} latest, "
@@ -953,6 +956,93 @@ def main() -> int:
         with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as fh:
             fh.write(f"### Patch crawl\n\n{summary}\n\n" + (f"Failed: {', '.join(failed)}\n" if failed else ""))
     return 0 if not failed or crawled else 1
+
+
+HASH_KINDS = ("crc32", "md5", "sha1", "sha256")
+
+
+def write_lookup(entries: list[dict]) -> None:
+    """roms.json + lookup/<kind>/<hash>.json: from any hash of a ROM to the patches that take it as input.
+
+    Keyed by the ROM a patch *needs* (source_rom). Each file also lists the patches that *produce* that ROM, so an
+    already-patched ROM is recognised too (and incremental patches are found from it).
+    """
+    roms: dict[str, dict] = {}
+
+    def rom(crc: str) -> dict:
+        return roms.setdefault(crc, {"crc32": crc, "size": None, "md5": set(), "sha1": set(), "sha256": set(),
+                                     "names": set(), "patches": [], "produced_by": []})
+
+    def brief(e: dict) -> dict:
+        o = e["origin"]
+        return {k: v for k, v in {
+            "id": e["id"], "game": e.get("game"), "variant": e.get("variant"), "version": e.get("version"),
+            "language": e.get("language"), "platform": e.get("platform"), "latest": e.get("latest"),
+            "superseded": e.get("superseded"), "format": e["format"],
+            "requires_patched_rom": e.get("requires_patched_rom") or None,
+            "target_crc32": e.get("target_crc32"), "target_size": e.get("target_size"),
+            "url": e["url"], "sha256": e["sha256"], "size": e["size"], "source": o["source"],
+            "page": o.get("release_url") or o.get("file_url"),
+        }.items() if v is not None}
+
+    for e in entries:
+        if e.get("duplicate_of"):
+            continue
+        for side, bucket in (("source", "patches"), ("target", "produced_by")):
+            info = e.get(f"{side}_rom") or {}
+            crc = info.get("crc32")
+            if not crc:
+                continue
+            r = rom(crc)
+            r["size"] = r["size"] or info.get("size")
+            for k in ("md5", "sha1", "sha256"):
+                if info.get(k):
+                    r[k].add(info[k])
+            if info.get("name"):
+                r["names"].add(info["name"])
+            r[bucket].append(brief(e))
+
+    order = lambda b: (not b.get("latest"), b.get("superseded", False), [-x if isinstance(x, int) else 0  # noqa: E731
+                       for x in version_key(b.get("version"))], b.get("game") or "", b["variant"] or "")
+    by_kind: dict[str, dict] = {k: {} for k in HASH_KINDS}
+    out_roms = {}
+    for crc in sorted(roms):
+        r = roms[crc]
+        clean = {"crc32": crc, "size": r["size"]}
+        for k in ("md5", "sha1", "sha256"):
+            if len(r[k]) == 1:  # conflicting values from different notes are left out
+                clean[k] = next(iter(r[k]))
+        clean["names"] = sorted(r["names"])
+        clean["patches"] = sorted(r["patches"], key=order)
+        clean["produced_by"] = sorted(r["produced_by"], key=order)
+        out_roms[crc] = clean
+        for k in HASH_KINDS:
+            if clean.get(k):
+                by_kind[k][clean[k]] = crc
+
+    ROMS_JSON.write_text(json.dumps({
+        "schema": 1,
+        "about": "ROM hash -> patches. by_crc32 is keyed by the CRC32 of the ROM a patch needs (patches) or produces "
+                 "(produced_by). by_md5 / by_sha1 / by_sha256 map those hashes to the CRC32 key.",
+        "by_crc32": out_roms,
+        **{f"by_{k}": dict(sorted(v.items())) for k, v in by_kind.items() if k != "crc32"},
+    }, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    # One small file per hash, so a client fetches only what it needs (404 = no patch for that ROM).
+    wanted = {}
+    for crc, r in out_roms.items():
+        for k in HASH_KINDS:
+            if r.get(k):
+                key = r[k].upper() if k == "crc32" else r[k].lower()
+                wanted[LOOKUP_DIR / k / f"{key}.json"] = json.dumps({"schema": 1, "query": {k: key}, **r},
+                                                                     indent=1, ensure_ascii=False) + "\n"
+    for f in list(LOOKUP_DIR.rglob("*.json")) if LOOKUP_DIR.exists() else []:
+        if f not in wanted:
+            f.unlink()
+    for f, text in wanted.items():
+        f.parent.mkdir(parents=True, exist_ok=True)
+        if not f.exists() or f.read_text(encoding="utf-8") != text:
+            f.write_text(text, encoding="utf-8")
 
 
 CSV_COLS = ["id", "game", "variant", "version", "language", "platform", "latest", "superseded", "duplicate_of",

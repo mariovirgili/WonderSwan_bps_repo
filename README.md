@@ -87,6 +87,22 @@ cross-origin requests).
 Anything can be corrected by hand in [`overrides.json`](overrides.json), keyed by the patch `sha256`; overrides
 survive every crawl.
 
+## Looking a ROM up
+
+[`roms.json`](roms.json) maps every known ROM to its patches. `by_crc32` is keyed by the CRC32 of the ROM a patch
+needs; each record has the ROM size, any MD5 / SHA-1 / SHA-256 and No-Intro names found, the `patches` that take that
+ROM as input (latest first) and the patches that *produce* it (`produced_by`, so an already-patched ROM is recognised
+and its incremental updates are found). `by_md5`, `by_sha1` and `by_sha256` map those hashes to the CRC32 key.
+
+The same records are split into small files, so a client downloads only the one it needs:
+
+```
+lookup/crc32/F8A1DD2B.json
+lookup/sha1/<40 hex>.json   lookup/md5/<32 hex>.json   lookup/sha256/<64 hex>.json
+```
+
+A 404 means no patch is known for that ROM. CRC32 file names are upper case, the others lower case.
+
 ## Credits
 
 Every patch belongs to its author and is mirrored with a link to where it was published (`origin` in the index,
