@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "49F5C61E"
+ },
+ "crc32": "49F5C61E",
+ "size": 2097152,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "fd9f6b274dc71826",
+   "game": "Blue Wing Blitz",
+   "variant": "Blue Wing Blitz [T-En v0.9.1]",
+   "version": "0.9.1",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "49F5C61E",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BlueWing_0.9.1/Blue%20Wing%20Blitz%20%5BT-En%20v0.9.1%5D.bps",
+   "sha256": "fd9f6b274dc718266249f88235d69fc2b6de0118db834f3eb25b03bcd7dae046",
+   "size": 51385,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BlueWing_0.9.1"
+  }
+ ]
+}

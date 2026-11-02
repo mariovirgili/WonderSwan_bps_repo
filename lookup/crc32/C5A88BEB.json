@@ -1,0 +1,29 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "C5A88BEB"
+ },
+ "crc32": "C5A88BEB",
+ "size": 2097152,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "fd55b623cb24b9b8",
+   "game": "NGE",
+   "variant": "NGE",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "C5A88BEB",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Test/NGE.bps",
+   "sha256": "fd55b623cb24b9b8902184ba4f48aa204b5e865777cf331d34d118569cc25b8c",
+   "size": 149916,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test"
+  }
+ ]
+}

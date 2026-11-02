@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "3A0657FD"
+ },
+ "crc32": "3A0657FD",
+ "size": 2097152,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "91870ecf03fa6c14",
+   "game": "SD Gundam: Operation U.C.",
+   "variant": "SD.Gundam.-.Operation.U.C.T-En.v0.9.1",
+   "version": "0.9.1",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": false,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "3A0657FD",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/v0.9.1/SD.Gundam.-.Operation.U.C.T-En.v0.9.1.bps",
+   "sha256": "91870ecf03fa6c1482651bb3f0c6df382b68fdc9efd4c148291e97f4e0633766",
+   "size": 91650,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9.1"
+  }
+ ]
+}

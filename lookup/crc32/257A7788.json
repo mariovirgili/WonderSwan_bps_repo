@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "257A7788"
+ },
+ "crc32": "257A7788",
+ "size": 4194304,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "9125e54795d6f2ab",
+   "game": "Digital Monster: D-Project",
+   "variant": "Digital.Monster.-.D-Project.T-En.v0.9",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": false,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "257A7788",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/D-Project_v0.9/Digital.Monster.-.D-Project.T-En.v0.9.bps",
+   "sha256": "9125e54795d6f2abdcd7382292fc383dd6221b922165b55e0c3d4b09cb351841",
+   "size": 160297,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/D-Project_v0.9"
+  }
+ ]
+}

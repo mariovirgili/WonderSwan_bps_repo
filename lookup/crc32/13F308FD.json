@@ -1,0 +1,103 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "13F308FD"
+ },
+ "crc32": "13F308FD",
+ "size": 8388608,
+ "names": [],
+ "patches": [
+  {
+   "id": "3dd3cddebb367eba",
+   "game": "Front Mission",
+   "variant": "v034_TEST_from_v033",
+   "version": "034",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "requires_patched_rom": true,
+   "target_crc32": "4F3553A1",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/_files/history/v034/patches/v034_TEST_from_v033.bps",
+   "sha256": "3dd3cddebb367eba05246105f9269c4fd8ae617ef31635d144d93f04a95953c1",
+   "size": 4811,
+   "source": "Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT",
+   "page": "https://github.com/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/blob/main/history/v034/patches/v034_TEST_from_v033.bps"
+  },
+  {
+   "id": "9263df4d3248ab88",
+   "game": "Front Mission",
+   "variant": "v034_TEST_from_v033",
+   "version": "034",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "ips",
+   "requires_patched_rom": true,
+   "target_crc32": "4F3553A1",
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/_files/history/v034/patches/v034_TEST_from_v033.ips",
+   "sha256": "9263df4d3248ab88e60a3217b7903a528a1589977ea0c44c0c0d58e69de0991a",
+   "size": 5642,
+   "source": "Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT",
+   "page": "https://github.com/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/blob/main/history/v034/patches/v034_TEST_from_v033.ips"
+  }
+ ],
+ "produced_by": [
+  {
+   "id": "485c219c5094f4d3",
+   "game": "Front Mission",
+   "variant": "v033_TEST_from_v032",
+   "version": "033",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "13F308FD",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/_files/history/v034/history/v033/patches/v033_TEST_from_v032.bps",
+   "sha256": "485c219c5094f4d3dd0773947897d6db5d848af440939ac3e46799e2c7828b34",
+   "size": 514,
+   "source": "Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT",
+   "page": "https://github.com/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/blob/main/history/v034/history/v033/patches/v033_TEST_from_v032.bps"
+  },
+  {
+   "id": "13377d188f5d0a67",
+   "game": "Front Mission",
+   "variant": "v033_TEST_from_v032",
+   "version": "033",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "ips",
+   "target_crc32": "13F308FD",
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/_files/history/v034/history/v033/patches/v033_TEST_from_v032.ips",
+   "sha256": "13377d188f5d0a67f07d78c671a603fe350653da4433a2440a06f51cb0a4577d",
+   "size": 518,
+   "source": "Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT",
+   "page": "https://github.com/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/blob/main/history/v034/history/v033/patches/v033_TEST_from_v032.ips"
+  },
+  {
+   "id": "0004cfa31908146c",
+   "game": "Front Mission",
+   "variant": "v033_TEST_from_clean",
+   "version": "033",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": false,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "13F308FD",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/_files/history/v034/history/v033/patches/v033_TEST_from_clean.bps",
+   "sha256": "0004cfa31908146cbab3038d9b0210d6d777c6b927348e2df88d23c1d18c3eb4",
+   "size": 152568,
+   "source": "Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT",
+   "page": "https://github.com/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/blob/main/history/v034/history/v033/patches/v033_TEST_from_clean.bps"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "5A5EE34A"
+ },
+ "crc32": "5A5EE34A",
+ "size": 8388608,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "1b8610909f815bf0",
+   "game": "Riviera: The Promised Land",
+   "variant": "Riviera - Yakusoku no Chi Riviera [T-En v0.9]",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": false,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "5A5EE34A",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Riviera_0.9/Riviera%20-%20Yakusoku%20no%20Chi%20Riviera%20%5BT-En%20v0.9%5D.bps",
+   "sha256": "1b8610909f815bf062a5268eebeded7d72523e85c221d7e55f55d0fc1cc091c3",
+   "size": 648472,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9"
+  }
+ ]
+}

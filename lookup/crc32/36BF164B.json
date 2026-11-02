@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "36BF164B"
+ },
+ "crc32": "36BF164B",
+ "size": 524288,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "573290295993f1cf",
+   "game": "Gomoku Narabe & Reversi: Touryuumon",
+   "variant": "gomoku-reversi-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "36BF164B",
+   "target_size": 524288,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gomoku-reversi-v1.0/gomoku-reversi-en-1.0.bps",
+   "sha256": "573290295993f1cf1d1277ec9ec0d7d41efc29a53faab05c1dbebc530d51510d",
+   "size": 68259,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gomoku-reversi-v1.0"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "A10DA837"
+ },
+ "crc32": "A10DA837",
+ "size": 8388608,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "9d82d04718fd68d8",
+   "game": "One Piece: Grand Battle Swan Colosseum",
+   "variant": "grand-battle-en-1.2",
+   "version": "1.2",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": false,
+   "superseded": true,
+   "format": "bps",
+   "target_crc32": "A10DA837",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/grand-battle-v1.2/grand-battle-en-1.2.bps",
+   "sha256": "9d82d04718fd68d853e427dcf58539b05dad8aacc97080e62780957fcefbb6b6",
+   "size": 75836,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/grand-battle-v1.2"
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "E407CABF"
+ },
+ "crc32": "E407CABF",
+ "size": 524288,
+ "names": [
+  "Lode Runner for WonderSwan (Japan)"
+ ],
+ "patches": [
+  {
+   "id": "5a39ab4b7576f410",
+   "game": "Lode Runner for WonderSwan",
+   "variant": "lode-runner-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "A88BABE0",
+   "target_size": 524288,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/lode-runner-v1.0/lode-runner-en-1.0.bps",
+   "sha256": "5a39ab4b7576f410eb1f487406bb3c034812372c8a5def5957ebae467bfdc3fc",
+   "size": 85306,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0"
+  },
+  {
+   "id": "8b7cf03818fe4094",
+   "game": "Lode Runner for WonderSwan",
+   "variant": "lode-runner-se-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "2EEB7D2A",
+   "target_size": 524288,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/lode-runner-v1.0/lode-runner-se-en-1.0.bps",
+   "sha256": "8b7cf03818fe4094de9f3664c76ba8c964bf1bfd01094f417cae9ad53051e5db",
+   "size": 114683,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0"
+  },
+  {
+   "id": "e94b62981d54efcc",
+   "game": "Lode Runner for WonderSwan",
+   "variant": "lode-runner-se-ja-1.0",
+   "version": "1.0",
+   "language": "ja",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "1425CEDE",
+   "target_size": 524288,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/lode-runner-v1.0/lode-runner-se-ja-1.0.bps",
+   "sha256": "e94b62981d54efcc7d928230c223abb9c1a482af5d306a2ba4b6cd5f3a4a4971",
+   "size": 38920,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0"
+  }
+ ],
+ "produced_by": []
+}

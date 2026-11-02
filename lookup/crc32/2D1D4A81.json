@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "2D1D4A81"
+ },
+ "crc32": "2D1D4A81",
+ "size": 4194304,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "5a2d3d115f5f0917",
+   "game": "Cardcaptor Sakura: Sakura to Fushigi na Clow Card",
+   "variant": "Cardcaptor Sakura [T-Es v0.2 Color]",
+   "version": "0.2",
+   "language": "es",
+   "platform": "wonderswan",
+   "latest": false,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "2D1D4A81",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/CCS_ES/Cardcaptor%20Sakura%20%5BT-Es%20v0.2%20Color%5D.bps",
+   "sha256": "5a2d3d115f5f0917241607752d0fcf69232c093a6fffda9901c61db9535e9941",
+   "size": 384049,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/CCS_ES"
+  }
+ ]
+}

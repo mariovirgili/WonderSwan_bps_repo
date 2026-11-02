@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "40EC6A1D"
+ },
+ "crc32": "40EC6A1D",
+ "size": 1048576,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "d2543bc0fd6f5917",
+   "game": "Tane o Maku Tori: The Bird Who Sowed Seeds",
+   "variant": "tane-o-maku-tori-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "40EC6A1D",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/tane-o-maku-tori-v1.0/tane-o-maku-tori-en-1.0.bps",
+   "sha256": "d2543bc0fd6f5917dc1b75ab3b0a738adaef9694e137bc7f96cfbb78333c86c1",
+   "size": 174712,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tane-o-maku-tori-v1.0"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "sha256": "885eb8268ad8594c1ee5e229db22b0f639da5498a22f262e0d4c0884a1401b51"
+ },
+ "crc32": "80D995EA",
+ "size": 2097152,
+ "sha256": "885eb8268ad8594c1ee5e229db22b0f639da5498a22f262e0d4c0884a1401b51",
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "4cf805bc7c94ab22",
+   "game": "MakaiMura EEPROM",
+   "variant": "Makaimura_EN_US_Phase4S_CUMULATIVE_FROM_JP",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": false,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "80D995EA",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/Gand46/MakaiMura-EEPROM-Wonderswan-English-Translation-AI_GPT-/_files/reference/Makaimura_EN_US_Phase4S_CUMULATIVE_FROM_JP.bps",
+   "sha256": "4cf805bc7c94ab22407b6414f15116b88fa9b55c94421c791d13969f32b7722a",
+   "size": 21732,
+   "source": "Gand46/MakaiMura-EEPROM-Wonderswan-English-Translation-AI_GPT-",
+   "page": "https://github.com/Gand46/MakaiMura-EEPROM-Wonderswan-English-Translation-AI_GPT-/blob/main/reference/Makaimura_EN_US_Phase4S_CUMULATIVE_FROM_JP.bps"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "AD5D5163"
+ },
+ "crc32": "AD5D5163",
+ "size": 8388608,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "c0fdbb599175713f",
+   "game": "From TV Animation One Piece: Niji no Shima Densetsu",
+   "variant": "one-piece-niji-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "AD5D5163",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/one-piece-niji-v1.0/one-piece-niji-en-1.0.bps",
+   "sha256": "c0fdbb599175713fa6dcee69d0601f4dc4a130c3c17a38d0ff72b00db66742a7",
+   "size": 926880,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/one-piece-niji-v1.0"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "59351D40"
+ },
+ "crc32": "59351D40",
+ "size": 8388608,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "7384e3474a8ca8a4",
+   "game": "Ring Infinity",
+   "variant": "ring-infinity-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": false,
+   "superseded": true,
+   "format": "bps",
+   "target_crc32": "59351D40",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/ring-infinity-v1.0/ring-infinity-en-1.0.bps",
+   "sha256": "7384e3474a8ca8a4b344bfb5733f4666a5aac32eeb2b7abb2bb3077bbe9501a3",
+   "size": 541057,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/ring-infinity-v1.0"
+  }
+ ]
+}

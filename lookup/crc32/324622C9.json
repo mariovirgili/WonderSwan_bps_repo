@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "324622C9"
+ },
+ "crc32": "324622C9",
+ "size": 16777216,
+ "names": [
+  "Beatmania for WonderSwan (Japan)"
+ ],
+ "patches": [
+  {
+   "id": "9a4e0fb20b984c4c",
+   "game": "beatmania for WonderSwan",
+   "variant": "beatmania-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "513EE998",
+   "target_size": 16777216,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/beatmania-v1.0/beatmania-en-1.0.bps",
+   "sha256": "9a4e0fb20b984c4c35da131c26e4e74fb55665ee399692bc25cfc17d8652b3f6",
+   "size": 29602,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/beatmania-v1.0"
+  }
+ ],
+ "produced_by": []
+}

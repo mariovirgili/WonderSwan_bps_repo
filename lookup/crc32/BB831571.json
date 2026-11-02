@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "BB831571"
+ },
+ "crc32": "BB831571",
+ "size": 4194304,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "c2dbe83f65efb66c",
+   "game": "Densha de Go 2",
+   "variant": "Densha_de_Go_2_EN_v0.4.18_EDITORIAL_TEST_CUMULATIVE",
+   "version": "0.4.18",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": false,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "BB831571",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/_files/audit3/build/editorial_v0418/Densha_de_Go_2_EN_v0.4.18_EDITORIAL_TEST_CUMULATIVE.bps",
+   "sha256": "c2dbe83f65efb66c756203f8aa76f37b2c787e101124f282e0201214942239ea",
+   "size": 167845,
+   "source": "Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT",
+   "page": "https://github.com/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/blob/main/audit3/build/editorial_v0418/Densha_de_Go_2_EN_v0.4.18_EDITORIAL_TEST_CUMULATIVE.bps"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "2AA1F3E8"
+ },
+ "crc32": "2AA1F3E8",
+ "size": 2097152,
+ "sha256": "8f58e49ab4e509ff26e3b43e0c793755898be0d8b570de3ddc8437324d366c8f",
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "1e0ffa2a2733f4c2",
+   "game": "Blue Wing Blitz",
+   "variant": "Blue_Wing_Blitz_EN_Phase50_v5.0.0-test.1",
+   "version": "5.0.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "2AA1F3E8",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/Gand46/BlueWingBlitz-Wonderswan-English-Translation-AI_GPT/_files/patch/Blue_Wing_Blitz_EN_Phase50_v5.0.0-test.1.bps",
+   "sha256": "1e0ffa2a2733f4c28fb15ec829bb5acfd68174b173b5768b6f6cb7c92653bd28",
+   "size": 44846,
+   "source": "Gand46/BlueWingBlitz-Wonderswan-English-Translation-AI_GPT",
+   "page": "https://github.com/Gand46/BlueWingBlitz-Wonderswan-English-Translation-AI_GPT/blob/main/patch/Blue_Wing_Blitz_EN_Phase50_v5.0.0-test.1.bps"
+  }
+ ]
+}

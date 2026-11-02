@@ -1,0 +1,29 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "87FB2F93"
+ },
+ "crc32": "87FB2F93",
+ "size": 4194304,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "a4ad6ed74ab407d4",
+   "game": "Star Hearts: Hoshi to Daichi no Shisha",
+   "variant": "StarHearts_EN_F38_CUMULATIVE_FROM_JP",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": false,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "87FB2F93",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/Gand46/StarHearts-Wonderswan-English-Translation-AI_GPT/_files/patches/F38/StarHearts_EN_F38_CUMULATIVE_FROM_JP.bps",
+   "sha256": "a4ad6ed74ab407d4c0c99f5c75f10e2610a2772ce3daa16189ad6790887a7b0d",
+   "size": 652341,
+   "source": "Gand46/StarHearts-Wonderswan-English-Translation-AI_GPT",
+   "page": "https://github.com/Gand46/StarHearts-Wonderswan-English-Translation-AI_GPT/blob/main/patches/F38/StarHearts_EN_F38_CUMULATIVE_FROM_JP.bps"
+  }
+ ]
+}

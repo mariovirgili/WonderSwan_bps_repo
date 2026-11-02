@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "6A88E21E"
+ },
+ "crc32": "6A88E21E",
+ "size": 2097152,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "febca5ba0f810da6",
+   "game": "MobileWonderGate",
+   "variant": "mobile-wondergate-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "6A88E21E",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/mobile-wondergate-v1.0/mobile-wondergate-en-1.0.bps",
+   "sha256": "febca5ba0f810da6fab821cd55348f334c9ef47417e9b4b5d8d87ef55f70dfb5",
+   "size": 4421,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/mobile-wondergate-v1.0"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "8892AE15"
+ },
+ "crc32": "8892AE15",
+ "size": 8388608,
+ "sha1": "02428d6a2af4bf84b84321b336db98c8b718b347",
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "c8a960ea1dca403c",
+   "game": "Star Hearts: Hoshi to Daichi no Shisha",
+   "variant": "star-hearts-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": false,
+   "superseded": true,
+   "format": "bps",
+   "target_crc32": "8892AE15",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/star-hearts-v1.0/star-hearts-en-1.0.bps",
+   "sha256": "c8a960ea1dca403c09d1592818bbb2f809f7767ed72ad6a0c4fe28e4c5c87340",
+   "size": 1052413,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/star-hearts-v1.0"
+  }
+ ]
+}

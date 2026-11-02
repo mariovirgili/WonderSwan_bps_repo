@@ -1,0 +1,31 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "9427f4a6c9b6de37c205249149c11cc7ee1259ce"
+ },
+ "crc32": "9ADAFACD",
+ "size": 4194304,
+ "sha1": "9427f4a6c9b6de37c205249149c11cc7ee1259ce",
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "14089efad00f8662",
+   "game": "Kidou Senshi Gundam Vol. 1: Side 7",
+   "variant": "gundam-vol1-side7-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": false,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "9ADAFACD",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gundam-vol1-side7-v1.0/gundam-vol1-side7-en-1.0.bps",
+   "sha256": "14089efad00f866251e4a004b885ce64c9d8bdccc3461aeda7ad73d0a9a76ed2",
+   "size": 150071,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol1-side7-v1.0"
+  }
+ ]
+}

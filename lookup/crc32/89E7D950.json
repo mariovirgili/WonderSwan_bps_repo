@@ -1,0 +1,50 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "89E7D950"
+ },
+ "crc32": "89E7D950",
+ "size": 1048576,
+ "names": [
+  "Dokodemo Hamster (Japan)"
+ ],
+ "patches": [
+  {
+   "id": "a669d0bb8379c829",
+   "game": "Dokodemo Hamster",
+   "variant": "dokodemo-hamster-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "F67C5588",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/dokodemo-hamster-v1.0/dokodemo-hamster-en-1.0.bps",
+   "sha256": "a669d0bb8379c829ec027379f1b796ac8d4da3663e0ca4a1083f0747933a4337",
+   "size": 84938,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dokodemo-hamster-v1.0"
+  },
+  {
+   "id": "4f7a33ce48fe1f89",
+   "game": "Dokodemo Hamster",
+   "variant": "dokodemo-hamster-en-long-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "22F04AF5",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/dokodemo-hamster-v1.0/dokodemo-hamster-en-long-1.0.bps",
+   "sha256": "4f7a33ce48fe1f8959a55ebc0bc9d5e84661d2e20d7ef0a1c0a171b95c9eafd3",
+   "size": 85411,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dokodemo-hamster-v1.0"
+  }
+ ],
+ "produced_by": []
+}

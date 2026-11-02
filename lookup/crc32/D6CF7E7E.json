@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "D6CF7E7E"
+ },
+ "crc32": "D6CF7E7E",
+ "size": 8388608,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "cd69e3981c232ed5",
+   "game": "SD Gundam G Generation: Gather Beat 1 & 2",
+   "variant": "gather-beat-gb2-en-stagesel-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": false,
+   "superseded": true,
+   "format": "bps",
+   "target_crc32": "D6CF7E7E",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gather-beat-v1.0/gather-beat-gb2-en-stagesel-1.0.bps",
+   "sha256": "cd69e3981c232ed5b517af3bb4d5385634f85f6473dd29d032a32a912098e459",
+   "size": 958734,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-v1.0"
+  }
+ ]
+}

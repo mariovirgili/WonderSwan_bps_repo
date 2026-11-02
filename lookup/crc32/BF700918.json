@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "BF700918"
+ },
+ "crc32": "BF700918",
+ "size": 1048576,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "286f6470852e7707",
+   "game": "Fishing Freaks: Bass Rise for WonderSwan",
+   "variant": "fishing-freaks-en-1.1",
+   "version": "1.1",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "BF700918",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/fishing-freaks-v1.1/fishing-freaks-en-1.1.bps",
+   "sha256": "286f6470852e7707e7f5b46a8e1bb7246ecb331b02e68d65b5a04ab0ef971d2a",
+   "size": 52916,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/fishing-freaks-v1.1"
+  }
+ ]
+}

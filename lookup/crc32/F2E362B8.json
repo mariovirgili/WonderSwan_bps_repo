@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "F2E362B8"
+ },
+ "crc32": "F2E362B8",
+ "size": 1048576,
+ "names": [
+  "From TV Animation One Piece - Mezase Kaizoku Ou! (Japan)"
+ ],
+ "patches": [
+  {
+   "id": "80ce054754ca621d",
+   "game": "From TV Animation One Piece: Mezase Kaizoku Ou!",
+   "variant": "kaizoku-ou-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "30F6CAAF",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/kaizoku-ou-v1.0/kaizoku-ou-en-1.0.bps",
+   "sha256": "80ce054754ca621db9437501203cdac9a30366b147d688fe3725254d49ce5a65",
+   "size": 273705,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/kaizoku-ou-v1.0"
+  }
+ ],
+ "produced_by": []
+}

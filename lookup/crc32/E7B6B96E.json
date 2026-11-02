@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "E7B6B96E"
+ },
+ "crc32": "E7B6B96E",
+ "size": 4194304,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "f851c3374a43f396",
+   "game": "Bakusou Dekotora Densetsu for WonderSwan",
+   "variant": "dekotora-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": false,
+   "superseded": true,
+   "format": "bps",
+   "target_crc32": "E7B6B96E",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/dekotora-v1.0/dekotora-en-1.0.bps",
+   "sha256": "f851c3374a43f3964b3d0488ca621ad4f5124e7efbfd030b16524e567aa25474",
+   "size": 131409,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dekotora-v1.0"
+  }
+ ]
+}

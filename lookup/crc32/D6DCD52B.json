@@ -1,0 +1,31 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "D6DCD52B"
+ },
+ "crc32": "D6DCD52B",
+ "size": 2097152,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "f69ee474103edcff",
+   "game": "Chocobo no Fushigi na Dungeon Mysterious Dungeon",
+   "variant": "Chocobo_EN_v1.1_HF15_TEST_JP_CCAA4853",
+   "version": "1.1",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": false,
+   "superseded": false,
+   "format": "bps",
+   "requires_patched_rom": true,
+   "target_crc32": "D6DCD52B",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/Gand46/Chocobo_no_Fushigi_na_Dungeon_Mysterious_Dungeon_WS_AI_ROM-FIX-/_files/patches/Chocobo_EN_v1.1_HF15_TEST_JP_CCAA4853.bps",
+   "sha256": "f69ee474103edcff58396272b293748d45db2d68da0f83ffdbde3fbfa0f26c67",
+   "size": 138991,
+   "source": "Gand46/Chocobo_no_Fushigi_na_Dungeon_Mysterious_Dungeon_WS_AI_ROM-FIX-",
+   "page": "https://github.com/Gand46/Chocobo_no_Fushigi_na_Dungeon_Mysterious_Dungeon_WS_AI_ROM-FIX-/blob/main/patches/Chocobo_EN_v1.1_HF15_TEST_JP_CCAA4853.bps"
+  }
+ ]
+}

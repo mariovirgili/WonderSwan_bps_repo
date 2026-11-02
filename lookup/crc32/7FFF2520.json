@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "7FFF2520"
+ },
+ "crc32": "7FFF2520",
+ "size": 1048576,
+ "names": [],
+ "patches": [
+  {
+   "id": "84e38abf4f4b2a8f",
+   "game": "Chou Aniki: Otoko no Tamafuda",
+   "variant": "Chou Aniki - Otoko no Tamafuda [T-En v0.9]",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "5DDD9353",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/ChouAniki_0.9/Chou%20Aniki%20-%20Otoko%20no%20Tamafuda%20%5BT-En%20v0.9%5D.bps",
+   "sha256": "84e38abf4f4b2a8fffb5480bfb4d11c5d88a646c57dfae4bb60ac5a880cdde3b",
+   "size": 162494,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ChouAniki_0.9"
+  }
+ ],
+ "produced_by": []
+}

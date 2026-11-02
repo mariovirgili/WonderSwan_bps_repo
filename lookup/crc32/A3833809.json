@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "A3833809"
+ },
+ "crc32": "A3833809",
+ "size": 8388608,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "c70c704ddd0f9e67",
+   "game": "Riviera",
+   "variant": "Riviera_EN_v0.116_S463_RC7_CUMULATIVE_FROM_JP",
+   "version": "0.116",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": false,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "A3833809",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/Gand46/Riviera-Wonderswan-English-Translation-AI_GPT/_files/patches/Riviera_EN_v0.116_S463_RC7_CUMULATIVE_FROM_JP.bps",
+   "sha256": "c70c704ddd0f9e67646ea4bcb67c38be725648b1893b55b540ff07f0f37ade0f",
+   "size": 287713,
+   "source": "Gand46/Riviera-Wonderswan-English-Translation-AI_GPT",
+   "page": "https://github.com/Gand46/Riviera-Wonderswan-English-Translation-AI_GPT/blob/main/patches/Riviera_EN_v0.116_S463_RC7_CUMULATIVE_FROM_JP.bps"
+  }
+ ]
+}

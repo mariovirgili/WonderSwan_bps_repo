@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "A8ACDDA0"
+ },
+ "crc32": "A8ACDDA0",
+ "size": 4194304,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "09a6abc4979b4eb5",
+   "game": "Densha de Go!",
+   "variant": "densha-de-go-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "A8ACDDA0",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/densha-de-go-v1.0/densha-de-go-en-1.0.bps",
+   "sha256": "09a6abc4979b4eb5d75751a85bf6722d33891864437ea073e860633ae06dd8d7",
+   "size": 29606,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/densha-de-go-v1.0"
+  }
+ ]
+}

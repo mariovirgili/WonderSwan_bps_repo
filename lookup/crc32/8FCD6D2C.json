@@ -1,0 +1,50 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "8FCD6D2C"
+ },
+ "crc32": "8FCD6D2C",
+ "size": 524288,
+ "names": [
+  "Glocal Hexcite (Japan)"
+ ],
+ "patches": [
+  {
+   "id": "86a49e909fd57651",
+   "game": "Glocal Hexcite",
+   "variant": "glocal-hexcite-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "F0738013",
+   "target_size": 524288,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/glocal-hexcite-v1.0/glocal-hexcite-en-1.0.bps",
+   "sha256": "86a49e909fd576510059ddd19b8364e6b02310e5d4d1092843bdebb0a9c34b04",
+   "size": 29930,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/glocal-hexcite-v1.0"
+  },
+  {
+   "id": "df1a76adc2dafb51",
+   "game": "Glocal Hexcite",
+   "variant": "glocal-hexcite-en-special-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "887AD11F",
+   "target_size": 524288,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/glocal-hexcite-v1.0/glocal-hexcite-en-special-1.0.bps",
+   "sha256": "df1a76adc2dafb51b7e7f100f12617d8ae6bd1ae799fc86a9d1cf5f0e60cfb18",
+   "size": 30062,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/glocal-hexcite-v1.0"
+  }
+ ],
+ "produced_by": []
+}

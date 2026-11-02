@@ -1,0 +1,31 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "40E63922"
+ },
+ "crc32": "40E63922",
+ "size": 8388608,
+ "sha1": "e03332ebbd3fed88084bc96030c65a9b531e6ed1",
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "8fd77e3a02642a0a",
+   "game": "Kidou Senshi Gundam Vol. 2: Jaburo",
+   "variant": "gundam-vol2-jaburo-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": false,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "40E63922",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gundam-vol2-jaburo-v1.0/gundam-vol2-jaburo-en-1.0.bps",
+   "sha256": "8fd77e3a02642a0a97502c2568509947b86add2aba7b8305577ab7137bc61a25",
+   "size": 210557,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol2-jaburo-v1.0"
+  }
+ ]
+}

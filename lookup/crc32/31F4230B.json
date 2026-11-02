@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "31F4230B"
+ },
+ "crc32": "31F4230B",
+ "size": 4194304,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "10a5c1a30fcd2282",
+   "game": "Digimon Tamers: Brave Tamer",
+   "variant": "Digimon.Tamers.-.Brave.Tamer.T-En.Syldra.based.v0.9.1",
+   "version": "0.9.1",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": false,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "31F4230B",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Digimon-tamers_v0.9/Digimon.Tamers.-.Brave.Tamer.T-En.Syldra.based.v0.9.1.bps",
+   "sha256": "10a5c1a30fcd228269d5f806b3b2d70b9010cc90ca478676bdb698c848429dab",
+   "size": 267762,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Digimon-tamers_v0.9"
+  }
+ ]
+}

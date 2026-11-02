@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "86F9B687"
+ },
+ "crc32": "86F9B687",
+ "size": 4194304,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "68686bc3f77dee38",
+   "game": "Digimon Card Game Ver. WonderSwan Color (Digital Monster Card Game)",
+   "variant": "Digital Monster Card Game - Ver. WonderSwan Color [T-En v0.9.2]",
+   "version": "0.9.2",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": false,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "86F9B687",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/v0.9/Digital%20Monster%20Card%20Game%20-%20Ver.%20WonderSwan%20Color%20%5BT-En%20v0.9.2%5D.bps",
+   "sha256": "68686bc3f77dee38d02c66bff0c8de05df37ea81062e315526f9159754f3b23d",
+   "size": 404334,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9"
+  }
+ ]
+}

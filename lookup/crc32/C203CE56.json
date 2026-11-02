@@ -1,0 +1,29 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "C203CE56"
+ },
+ "crc32": "C203CE56",
+ "size": 4194304,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "01210be2d2571db6",
+   "game": "Rockman EXE N1 Battle ChipControl",
+   "variant": "Rockman_N1_English_QA09_MANT04",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": false,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "C203CE56",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/Gand46/Rockman-EXE-N1-Battle-ChipControl-Wonderswan-English-Translation-AI_GPT/_files/maintenance/mant04-patches/Rockman_N1_English_QA09_MANT04.bps",
+   "sha256": "01210be2d2571db66387e48b06f1e6176fe257f1af4e7ee044848e655c3ff69c",
+   "size": 151514,
+   "source": "Gand46/Rockman-EXE-N1-Battle-ChipControl-Wonderswan-English-Translation-AI_GPT",
+   "page": "https://github.com/Gand46/Rockman-EXE-N1-Battle-ChipControl-Wonderswan-English-Translation-AI_GPT/blob/main/maintenance/mant04-patches/Rockman_N1_English_QA09_MANT04.bps"
+  }
+ ]
+}

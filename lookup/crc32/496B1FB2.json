@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "496B1FB2"
+ },
+ "crc32": "496B1FB2",
+ "size": 524288,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "822f7152e2d9becd",
+   "game": "Hanafuda Shiyouyo",
+   "variant": "hanafuda-shiyouyo-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "496B1FB2",
+   "target_size": 524288,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/hanafuda-shiyouyo-v1.0/hanafuda-shiyouyo-en-1.0.bps",
+   "sha256": "822f7152e2d9becd91bc87b68b3bc47e8ce79b4d1fc638117c0bfbec3b115dbd",
+   "size": 27102,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/hanafuda-shiyouyo-v1.0"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "887AD11F"
+ },
+ "crc32": "887AD11F",
+ "size": 524288,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "df1a76adc2dafb51",
+   "game": "Glocal Hexcite",
+   "variant": "glocal-hexcite-en-special-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "887AD11F",
+   "target_size": 524288,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/glocal-hexcite-v1.0/glocal-hexcite-en-special-1.0.bps",
+   "sha256": "df1a76adc2dafb51b7e7f100f12617d8ae6bd1ae799fc86a9d1cf5f0e60cfb18",
+   "size": 30062,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/glocal-hexcite-v1.0"
+  }
+ ]
+}

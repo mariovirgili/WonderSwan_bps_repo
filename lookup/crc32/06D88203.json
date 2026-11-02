@@ -1,0 +1,47 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "06D88203"
+ },
+ "crc32": "06D88203",
+ "size": 4194304,
+ "names": [],
+ "patches": [
+  {
+   "id": "615c627599ef70ea",
+   "game": "Densha de Go 2",
+   "variant": "Densha_de_Go_2_EN_v0.4.17_from_v0.4.16_INCREMENTAL",
+   "version": "0.4.17",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "D58F0E5B",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/_files/densha/patches/Densha_de_Go_2_EN_v0.4.17_from_v0.4.16_INCREMENTAL.bps",
+   "sha256": "615c627599ef70ea935359a22119fbc169c4036c9a0b52b6658fc4109ebdab20",
+   "size": 1081,
+   "source": "Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT",
+   "page": "https://github.com/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/blob/main/densha/patches/Densha_de_Go_2_EN_v0.4.17_from_v0.4.16_INCREMENTAL.bps"
+  },
+  {
+   "id": "635b55902eb629d8",
+   "game": "Densha de Go 2",
+   "variant": "Densha_de_Go_2_EN_v0.4.17_from_v0.4.16_INCREMENTAL",
+   "version": "0.4.17",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "ips",
+   "target_crc32": "D58F0E5B",
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/_files/densha/patches/Densha_de_Go_2_EN_v0.4.17_from_v0.4.16_INCREMENTAL.ips",
+   "sha256": "635b55902eb629d8b98fa475b09c080712b3f9c1aa3dc1cd30d131e46ec0f15c",
+   "size": 1181,
+   "source": "Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT",
+   "page": "https://github.com/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/blob/main/densha/patches/Densha_de_Go_2_EN_v0.4.17_from_v0.4.16_INCREMENTAL.ips"
+  }
+ ],
+ "produced_by": []
+}

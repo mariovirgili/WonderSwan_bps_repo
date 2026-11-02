@@ -1,0 +1,30 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "D5D67A36"
+ },
+ "crc32": "D5D67A36",
+ "size": 4194304,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "accc06bac2ba7745",
+   "game": "Final Fantasy IV",
+   "variant": "Final Fantasy IV [T-En v0.9] (debug)",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": false,
+   "superseded": false,
+   "format": "bps",
+   "target_crc32": "D5D67A36",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFIV/Final%20Fantasy%20IV%20%5BT-En%20v0.9%5D%20%28debug%29.bps",
+   "sha256": "accc06bac2ba7745fed01a3280604e237c52407042623171216debeab55ff033",
+   "size": 177910,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV"
+  }
+ ]
+}
