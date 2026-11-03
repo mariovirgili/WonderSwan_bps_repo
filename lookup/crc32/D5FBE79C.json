@@ -18,13 +18,15 @@
    "latest": false,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "F1F4D41F",
    "target_crc32": "D5FBE79C",
    "target_size": 4194304,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Digimon-tamers_v0.9/Digimon%20Tamers%20-%20Brave%20Tamer%20%5BT-En%20v0.9%5D.bps",
    "sha256": "9e0af6abc106f540e3e896e7b31668eeaa4758b2b5feb3ec7ba688c4ebe5591a",
    "size": 219844,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Digimon-tamers_v0.9"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Digimon-tamers_v0.9",
+   "notes": "**Digimon Tamers: Brave Tamer** is a 2001 Bandai RPG for the WonderSwan Color that never left Japan. You play as Ryo Akiyama, the \"legendary Tamer\" of the WonderSwan games. He wakes up with no memory in ENIAC's world, next to his partner Monodramon, while Millenniummon attacks the past through black crevasses. The story goes through the worlds of the Adventure, Adventure 02 and Tamers kids, with card slashes, plug-ins, P-Factors and the Radar Chart.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **only with AI** (Claude), **for personal use**. I'm sharing it as it is for anyone who wants to play it, but it must **never be uploaded to romhacking sites** (romhacking.net and similar). It isn't worthy of them: it isn't a real fan translation, and it doesn't belong there.\n\n**What's translated**\n\n* All the dialogue (about 3,000 messages): the story, every NPC, the tutorials, the shops, Jijimon's Lab, the Otamamon Inn and the Digimon quiz show, with a new variable-width font.\n* Battles: every battle message, including the Digimon and technique names inserted into them, the EXP and BIT results, and the command menus.\n* All 310 Digimon names, every technique, item, P-Factor and card name, and the 289 card descriptions.\n* Menus: title menu, field menu, and the Status, Plug-in, P-Factor and Radar Chart screens.\n* Name entry, with a new English keyboard.\n* Jijimon's name chain game, adapted to English names.\n* Graphics: the \"Brave Tamer\" subtitle …"
   }
  ]
 }

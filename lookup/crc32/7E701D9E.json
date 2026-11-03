@@ -18,13 +18,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "F246A68E",
    "target_crc32": "7E701D9E",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/fire-pro-v1.0/fire-pro-en-1.0.bps",
    "sha256": "0aa24805577d4f1207dc42d3db37c42153b44f9a4298f32ac56c6db05665024c",
    "size": 176934,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/fire-pro-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/fire-pro-v1.0",
+   "notes": "**Fire Pro Wrestling for WonderSwan** (ファイヤープロレスリング for WonderSwan) is Human Entertainment's handheld entry in the Fire Pro series, released in 2000 by Kaga Tech for the original (monochrome) WonderSwan and only in Japan. It plays like the other Fire Pro games, with timing-based grapples and a roster of 132 wrestlers who are thinly veiled parodies of 1990s stars. Its main mode, **Master of Ring**, makes you the promoter: you book shows venue by venue, pick title matches and five bouts, play or watch them, and are judged on the matchmaking, the match quality and the attendance. There are also single matches, one-night tournaments, round-robin leagues, team elimination matches, a wrestler editor (looks, moves, stats and CPU logic) and link-cable trading. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* Every menu, prompt and message of every mode: Master of Ring (with its Free mode), One Night Match, One Night Tournament, Open League, Elimination Match, Edit, Network Battle and Options.\n* All 132 wrestler names, their profiles and about 860 move …"
   }
  ]
 }

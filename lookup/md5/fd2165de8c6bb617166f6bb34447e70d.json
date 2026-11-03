@@ -22,13 +22,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "70AA800E",
    "target_crc32": "B05CECF4",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/hxh-ishi-v1.1/hxh-ishi-en-1.1.bps",
    "sha256": "6e2d6db15b07c1c01086898bccac4356547ebd84b3dcac71a78d0743e0f9569e",
    "size": 487462,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/hxh-ishi-v1.1"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/hxh-ishi-v1.1",
+   "notes": "**Hunter x Hunter: Ishi o Tsugu Mono** (ハンター×ハンター 意志を継ぐ者, \"Heir to the Will\") is Bandai's 2000 RPG for the original (monochrome) WonderSwan, released only in Japan. It's set after the Heavens Arena arc of Yoshihiro Togashi's manga: Gon, now a licensed Hunter, sets out with Killua to find his father Ging. At Dolle Harbor an information broker sells them a cyber mobile that once belonged to Ging, and from there you travel to around 28 towns by boat, airship and train. You take on jobs (\"episodes\") for friends and strangers, look things up on the mobile's cyber page, fight with Nen, earn Jenny and collect the symbol codes that unlock the mobile's secret. Kurapika, Leorio, Hisoka, Illumi, Kite, Satotz, Wing, Hanzo, Ponzu, Menchi and many more turn up along the way. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: about 3,000 messages (140,000 Japanese characters): the story and every episode, every town's people, battles, choices, mini-games and both versions of the ending.\n* The cyber page (the in-game encyclopedia): 431 entries on …"
   }
  ],
  "produced_by": []

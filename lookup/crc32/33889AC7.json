@@ -19,13 +19,15 @@
    "latest": false,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "A9F5BF54",
    "target_crc32": "33889AC7",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gundam-vol3-a-baoa-qu-v1.0/gundam-vol3-a-baoa-qu-en-1.0.bps",
    "sha256": "32f3c08ffeb7c7313b0e00e3c3003dbf45961d4977a968224130d2420b24f5e0",
    "size": 212260,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol3-a-baoa-qu-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol3-a-baoa-qu-v1.0",
+   "notes": "**Kidou Senshi Gundam Vol. 3: A Baoa Qu** (機動戦士ガンダム Vol.3 -A BAOA QU-, \"Mobile Suit Gundam Vol. 3: A Baoa Qu\") is Bandai's 2002 game for the WonderSwan Color, released only in Japan, and the last of three cartridges that retell the 1979 anime *Mobile Suit Gundam*. It covers episodes 31-43: the White Base back in space, Solomon, Lalah Sune and the Elmeth, and the final battle at A Baoa Qu. Each episode is told in story scenes, with mobile-suit battles in between; a new game can carry over Amuro's skill from the earlier volumes.\n\nThis patch translates it into English. Vol. 1, Vol. 2 and Vol. 3 each have their own patch and their own page.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: every story scene and narration, the battle chatter and radio calls, the battle report comments, the tips, the epilogue and the staff credits.\n* Every menu and prompt: the map and destination prompts, the event list, saving, quitting and continuing.\n* Everything drawn as a picture: the episode title cards, the battle report panel, the carry-over panel, the event list header and the …"
   }
  ]
 }

@@ -18,13 +18,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "F8A1DD2B",
    "target_crc32": "F3DB0917",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/grand-battle-v1.3/grand-battle-en-1.3.bps",
    "sha256": "017aeb1d166d60aa4ccb8a347a9c0e0ef5ea16a491018e3a8dd729c217ccd594",
    "size": 75926,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/grand-battle-v1.3"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/grand-battle-v1.3",
+   "notes": "**From TV Animation One Piece: Grand Battle Swan Colosseum** is Bandai and Dimps' 2002 fighting game for the WonderSwan Color, released only in Japan. It covers the story up to the Alabasta saga: Twin Capes, Whisky Peak, Little Garden, Drum Island, then Alabasta. In Event Battle each of the 13 fighters takes on seven opponents across seven stages, with a short exchange before every fight. Most of them replay a moment from the series, and a few are \"what if\" match-ups that never happened in canon. Along the way there's a Kung-fu Dugong bonus round, a final showdown with Crocodile in the underground temple, and 60 wanted posters to collect, each with its own effect.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call and played the build before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* All the game's text: every Event Battle scene, all 13 endings, the battle call-outs, the wanted posters and their effects, and the Luffy vs Crocodile finale.\n* Graphics: the title menu, banners, buttons, settings, the Continue screen, the poster screen, the character name tags on select and VS screens, stage names, …"
   }
  ]
 }

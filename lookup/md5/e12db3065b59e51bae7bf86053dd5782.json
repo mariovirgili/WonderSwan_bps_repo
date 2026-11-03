@@ -22,13 +22,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "301436AC",
    "target_crc32": "4883A851",
    "target_size": 2097152,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/sennou-millennium-v1.0/sennou-millennium-en-1.0.bps",
    "sha256": "40912bbb3f5d76e6eeb17520fe20829160df9179a66523615c0153b29727c82e",
    "size": 235610,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/sennou-millennium-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/sennou-millennium-v1.0",
+   "notes": "**Sennou Millennium** (線脳 MILLENNIUM) is Bandai's 2000 puzzle game for the original (monochrome) WonderSwan, played with the console held upright and released only in Japan. In its world, creatures of living energy called Senknow battle at the Senknow Stadium. You drop pieces of circuit-like line into a field and clear them by linking their lines, closing loops and setting off chains; in battle, every clear sends attack pieces onto your opponent's field, and your partner Senknow lends you a special move. It has a story mode against nine Senknow, Endless Link, Senknow-Do (400 set puzzles in four courses with ranks and certificates), two-player link-cable battles, and a hidden WonderGate mode that once sent scores to Bandai's online ranking.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* Every word in this game is a picture, and every one of them was redrawn: the mode menu, the story's opening and the opponents' introductions, partner select, the attack target menu, the results and records, the Senknow File cards, the battle banners (WIN! / …"
   },
   {
    "id": "b1ea6c586fdb23d5",
@@ -40,13 +42,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "301436AC",
    "target_crc32": "C6995751",
    "target_size": 2097152,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/sennou-millennium-v1.0/sennou-millennium-en-special-1.0.bps",
    "sha256": "b1ea6c586fdb23d5135afd1bc127417befb278552d60f163761c021f007ff460",
    "size": 235756,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/sennou-millennium-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/sennou-millennium-v1.0",
+   "notes": "**Sennou Millennium** (線脳 MILLENNIUM) is Bandai's 2000 puzzle game for the original (monochrome) WonderSwan, played with the console held upright and released only in Japan. In its world, creatures of living energy called Senknow battle at the Senknow Stadium. You drop pieces of circuit-like line into a field and clear them by linking their lines, closing loops and setting off chains; in battle, every clear sends attack pieces onto your opponent's field, and your partner Senknow lends you a special move. It has a story mode against nine Senknow, Endless Link, Senknow-Do (400 set puzzles in four courses with ranks and certificates), two-player link-cable battles, and a hidden WonderGate mode that once sent scores to Bandai's online ranking.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* Every word in this game is a picture, and every one of them was redrawn: the mode menu, the story's opening and the opponents' introductions, partner select, the attack target menu, the results and records, the Senknow File cards, the battle banners (WIN! / …"
   }
  ],
  "produced_by": []

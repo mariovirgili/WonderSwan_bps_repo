@@ -19,13 +19,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "6CD1411E",
    "target_crc32": "36BF164B",
    "target_size": 524288,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gomoku-reversi-v1.0/gomoku-reversi-en-1.0.bps",
    "sha256": "573290295993f1cf1d1277ec9ec0d7d41efc29a53faab05c1dbebc530d51510d",
    "size": 68259,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gomoku-reversi-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gomoku-reversi-v1.0",
+   "notes": "**Gomoku Narabe & Reversi: Touryuumon** (五目並べ&リバーシ 登龍門) is a 2000 WonderSwan (monochrome) board-game cartridge by Sammy, released only in Japan. It holds two classic games against the computer: **Gomoku** (five in a row on a 15x15 board, with free rules or tournament **Renju** rules, where Black is barred from overlines, double threes and double fours and can start from any of the 24 standard Renju openings) and **Reversi** (with six starting layouts). Each has three levels, a Free Match, a Tournament against nine computer opponents in a row with an ending for clearing it, and a 2P Match over the link cable. *Touryuumon* (登龍門, the \"dragon gate\") means a gateway to success. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\nEvery word in this game is a picture, so everything was redrawn in English:\n\n* The title logo (GOMOKU & REVERSI over TORYUMON) and the menu logo drawn in stones.\n* The main menu (Free Match, Tournament, 2P Match, Settings), Match Setup (rules, level, side, Renju opening, Reversi layout) and Settings.\n* All 24 Renju opening names and …"
   }
  ],
  "produced_by": []

@@ -19,13 +19,15 @@
    "latest": false,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "39A1391A",
    "target_crc32": "40E63922",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gundam-vol2-jaburo-v1.0/gundam-vol2-jaburo-en-1.0.bps",
    "sha256": "8fd77e3a02642a0a97502c2568509947b86add2aba7b8305577ab7137bc61a25",
    "size": 210557,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol2-jaburo-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol2-jaburo-v1.0",
+   "notes": "**Kidou Senshi Gundam Vol. 2: Jaburo** (機動戦士ガンダム Vol.2 〜JABURO〜, \"Mobile Suit Gundam Vol. 2: Jaburo\") is Bandai's 2001 game for the WonderSwan Color, released only in Japan, and the second of three cartridges that retell the 1979 anime *Mobile Suit Gundam*. It covers episodes 13-30: Amuro's reunion with his mother, Ramba Ral and the Black Tri-Stars, the battle of Odessa and the attack on the Federation's headquarters at Jaburo. Each episode is told in story scenes, with mobile-suit battles in between; a new game can carry over Amuro's skill from Vol. 1.\n\nThis patch translates it into English. Vol. 1, Vol. 2 and Vol. 3 each have their own patch and their own page.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: every story scene and narration, the battle chatter and radio calls, the battle report comments, the tips, the game-over lines, the ending and the staff credits.\n* Every menu and prompt: the map and destination prompts, the event lists, saving, quitting and continuing.\n* Everything drawn as a picture: the episode title cards, the battle report panel, the …"
   }
  ]
 }

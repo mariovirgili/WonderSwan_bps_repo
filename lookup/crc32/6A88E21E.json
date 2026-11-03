@@ -18,13 +18,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "80DE367D",
    "target_crc32": "6A88E21E",
    "target_size": 2097152,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/mobile-wondergate-v1.0/mobile-wondergate-en-1.0.bps",
    "sha256": "febca5ba0f810da6fab821cd55348f334c9ef47417e9b4b5d8d87ef55f70dfb5",
    "size": 4421,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/mobile-wondergate-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/mobile-wondergate-v1.0",
+   "notes": "**MobileWonderGate** (モバイルワンダーゲート) is the cartridge Bandai sold with the Mobile WonderGate adapter on 14 July 2000, for the original (monochrome) WonderSwan, only in Japan. The adapter put a WonderSwan online through an NTT DoCoMo mobile phone, and this cartridge is its toolkit: a web browser for DoCoMo's mopera service, an e-mail program with an address book, and a downloader for small games that then run from the main menu. Bandai's online services closed between 2001 and 2003, and mopera's dial-up service at the end of 2004. This patch translates the cartridge into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The browser: toolbar labels, settings (images, text encoding, page width, image size, home page, dial-up number, connection settings), bookmarks, URL entry, forms, downloads and every status message.\n* The mailer: inbox and outbox, reading (Subject, Date, From, To), writing, replying and forwarding, sending and receiving, mail settings and the automatic mail setup.\n* The address book.\n* The on-screen keyboard's labels and the kana-to-kanji conversion messages.\n* …"
   }
  ]
 }

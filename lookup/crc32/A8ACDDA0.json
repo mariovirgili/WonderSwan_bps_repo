@@ -18,13 +18,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "B62E5DD0",
    "target_crc32": "A8ACDDA0",
    "target_size": 4194304,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/densha-de-go-v1.0/densha-de-go-en-1.0.bps",
    "sha256": "09a6abc4979b4eb5d75751a85bf6722d33891864437ea073e860633ae06dd8d7",
    "size": 29606,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/densha-de-go-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/densha-de-go-v1.0",
+   "notes": "**Densha de Go!** (電車でGO!) is Taito's train-driving simulator for the original (monochrome) WonderSwan, released only in Japan. You're the driver: keep to the timetable to the second, obey the signals and speed limits, and stop the train on each platform's mark, while your conductor grades every stop. There are four lines: the San'in Main Line (Easy), and the Keihin-Tohoku, Tokaido and Yamanote lines (Hard).\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\nThe game has no text font at all: every word on screen is a picture. All of these were redrawn in English:\n\n* The line select screen (line names and Easy / Hard badges), the departure board, and the route strips with JR's own English station names, written sideways under each stop.\n* The driving screen: every HUD label, the cab signal, trackside signs (Sound Horn, Slow Ahead, Slow Zone, Uphill, Downhill, Level...), and run messages (Depart!, Pull Forward, ATS Brake, Missed Stop, Time Up!...).\n* All 27 of the conductor's speech bubbles, the results screen, the continue screen (DRIVE ON?), the pause menu (Continue / Quit) and the …"
   }
  ]
 }

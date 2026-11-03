@@ -18,13 +18,15 @@
    "latest": false,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "7F3A14C0",
    "target_crc32": "2D1D4A81",
    "target_size": 4194304,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/CCS_ES/Cardcaptor%20Sakura%20%5BT-Es%20v0.2%20Color%5D.bps",
    "sha256": "5a2d3d115f5f0917241607752d0fcf69232c093a6fffda9901c61db9535e9941",
    "size": 384049,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/CCS_ES"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/CCS_ES",
+   "notes": "**Cardcaptor Sakura - Sakura to Fushigi na Clow Card** (\"Sakura and the Mysterious Clow Cards\") is Bandai's 1999 Cardcaptor Sakura game for the WonderSwan, released only in Japan. It follows the first season of the anime: Sakura Kinomoto opens a strange book in her father's study, the Clow Cards scatter all over Tomoeda, and Kero, the Beast of the Seal, makes her a Cardcaptor. Week after week you plan Sakura's days, spend Sundays with her friends and family, and capture the Clow Cards in battles where the cards themselves are your weapons.\n\nHere is the game in **Spanish from Spain**, in two versions with the same text: black and white (WonderSwan and WonderSwan Color) and Color (in colour on the WonderSwan Color). English version will be done by Hilltop Works.\n\n> **Please read:** this translation was made **only with AI**, as a personal project. I'm sharing it as it is for personal use, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n****Download:** HERE**\n\n**How it was made (double AI check)**\n\n1. Claude translated the whole game from the Japanese.\n2. ChatGPT reviewed all 9,042 lines against the Japanese and flagged doubtful lines and open choices.\n3. Claude checked ChatGPT's review again line by line before applying it (some proposals were rewritten or shortened to fit the screen), and the open choices (terms and names) were decided by me, waiting for a …"
   }
  ]
 }

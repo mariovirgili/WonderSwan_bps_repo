@@ -22,13 +22,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "66B617D5",
    "target_crc32": "9955C0E1",
    "target_size": 4194304,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/X-Card_0.9/X%20-%20Card%20of%20Fate%20%5BT-En%20v0.9%5D.bps",
    "sha256": "1363fdfcd60d7b4453f1670252872b527306de83e69c18d5b443babadf3708a5",
    "size": 697179,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/X-Card_0.9"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/X-Card_0.9",
+   "notes": "**X - Card of Fate** is Bandai's 2002 card battle game for the WonderSwan Color, based on the TV anime of CLAMP's *X* and released only in Japan. Kamui Shiro has come back to Tokyo and the end of the world is close: the Dragons of Heaven, the Seven Seals, protect the kekkai of Tokyo, while the Dragons of Earth, the Seven Angels, want to destroy them. You pick one of fourteen characters from either side, follow their story across the 23 wards of Tokyo, talk with the others, fight card battles and win new cards among the 256 of the game.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI** (Claude), as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The story of every character: the main scenes, the conversations on the Tokyo map, the scenes before and after the battles, and all the endings.\n* The battle messages: attacks, damage, card effects, RAP and SET, combo names and character quotes.\n* The 256 cards: names, types and texts, and the card detail screen.\n* Graphics: credits, character select, the name cards of the 14 characters, card name boxes, battle and exchange message boxes, save/load screen, the kekkai gauge label, options menu, training menu (Simulation Of Beast), the PtoP (link) screen and link …"
   }
  ],
  "produced_by": []

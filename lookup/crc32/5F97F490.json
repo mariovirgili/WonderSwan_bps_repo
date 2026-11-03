@@ -18,13 +18,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "F699D6D1",
    "target_crc32": "5F97F490",
    "target_size": 4194304,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFIV/Final%20Fantasy%20IV%20%5BT-En%20v0.9.1%5D%20%28debug%29.bps",
    "sha256": "2186644586c621cd336d8bd00a7913c566c3e30c3536ae1d72634d48f7802c71",
    "size": 167025,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV",
+   "notes": "**Final Fantasy IV** for the WonderSwan Color is Square's 2002 version of the classic, released only in Japan. Cecil, Dark Knight and captain of Baron's Red Wings, begins to doubt the king he serves, and sets out on the journey that will make him a Paladin.\n\nThis patch translates it into English.\n\n**Download:** [link]\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\n* **Claude** translated it directly from the Japanese text of the WonderSwan Color version. It is a new translation, not the SNES, GBA or Pixel Remaster script pasted in.\n* **ChatGPT** then reviewed it line by line (meaning, tone and official names), and Claude applied the accepted corrections to the ROM.\n\n> **About the names:** names and terms follow the **official English localization by Square Enix**: the **Pixel Remaster** first, then the GBA/PSP versions (Cecil, Kain, Rosa, Rydia, Edward, Yang, Palom, Porom, Edge, FuSoYa, Golbez, Red Wings, Land of Summons, Elemental Lords, Lunar Whale, Manor of Prayers...). Some of them don't match a literal reading of the Japanese (for example ギルバート is \"Edward\"). **This is intentional:** they are Square Enix's choices, not mine. Only terms with no official English were translated from the …"
   }
  ]
 }

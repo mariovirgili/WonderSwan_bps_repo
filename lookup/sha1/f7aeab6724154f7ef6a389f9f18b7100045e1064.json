@@ -22,13 +22,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "D7A12BD5",
    "target_crc32": "5F6A6550",
    "target_size": 4194304,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Petit2_v0.9/Guilty%20Gear%20Petit%202%20%5BT-En%20v0.9%5D.bps",
    "sha256": "df7d403b23e3cf77b4f57b44904dff0438648b13535207a1ccf1016c9403f75b",
    "size": 98387,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Petit2_v0.9"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Petit2_v0.9",
+   "notes": "**Guilty Gear Petit 2** is Arc System Works' 2001 pocket-sized Guilty Gear fighter for the WonderSwan Color, released only in Japan. Super-deformed versions of the Guilty Gear X cast, a Story Mode with a short tale for every character, VS, Survival, Time Attack and Training, and Dizzy, Necro and Undine waiting at the end of every Survival run with tips, combos and secrets.\n\nThe menus were already in English, but all the story, the fight quotes, the win messages, the Survival talks and the Training command lists were in Japanese. This patch translates them.\n\n> **Please read:** this translation was made **entirely with AI** (Claude), as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* Story Mode for all 18 characters: prologues, the dialogue before and after the final stage, and the epilogues (Sol, Ky, May, Millia, Potemkin, Jam, Fanny, Axl, Chipp, Zato-1, Anji, Faust, Testament, Johnny, and the hidden GG Sol, GG Ky, GG May and GG Millia).\n* All 324 win messages (every winner against every opponent) and all 72 fight quotes.\n* The 33 Survival results talks with Dizzy, Necro and Undine (tips, recommended combos, the secret password).\n* The password screen messages.\n* The Training command lists (normal and simple input) and the moves shown on each character's …"
   }
  ],
  "produced_by": []

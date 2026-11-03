@@ -18,13 +18,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "B25A0635",
    "target_crc32": "1E355E65",
    "target_size": 4194304,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/buffers-evolution-v1.0/buffers-evolution-en-wondergate-1.0.bps",
    "sha256": "8dccb7287e23eca365477aa31e59600dacb467f0014445c9bd5941bceeac8514",
    "size": 2423,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/buffers-evolution-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/buffers-evolution-v1.0",
+   "notes": "**Buffers Evolution** is Bandai's 1999 side-scrolling racing action game for the original (monochrome) WonderSwan, released only in Japan (December 1999). You pick a beast-like \"Buffer\" type and an item, then run, jump and slide through ENDURO courses against the clock, or clear S.S. arenas of enemies; RECORD mode keeps your best times, and a hidden WONDERGATE mode once uploaded them through Bandai's Mobile WonderGate phone adapter for national rankings and contests.\n\nAlmost the whole game was already in English: the menus, the races, the results, the records, the trophies and the staff roll. The only Japanese is the WonderGate error box (error number and message). It is the first thing anyone sees in the hidden mode today, because without an adapter the connection always fails. This patch translates it.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The WonderGate error box:** the \"Error No.\" header and all four messages the game can show: \"Check the WonderGate connection or battery.\" (error 001, what you get without an adapter), \"Check the phone connection.\" (003), \"See …"
   }
  ]
 }

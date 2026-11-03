@@ -22,13 +22,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "324622C9",
    "target_crc32": "513EE998",
    "target_size": 16777216,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/beatmania-v1.0/beatmania-en-1.0.bps",
    "sha256": "9a4e0fb20b984c4c35da131c26e4e74fb55665ee399692bc25cfc17d8652b3f6",
    "size": 29602,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/beatmania-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/beatmania-v1.0",
+   "notes": "**beatmania for WonderSwan** is Konami's 1999 port of the arcade DJ rhythm game, for the original (monochrome) WonderSwan, released only in Japan. You hold the console sideways and scratch and key your way through club tracks. Almost everything in it is already in English: menus, options, song info, results, name entry, records and the staff roll. The one exception is Practice mode, where DJ KONAMI coaches you in Japanese subtitles through the tutorial and two practice songs, then challenges you to a DJ battle.\n\nThis patch translates those 77 subtitle lines into English. Nothing else in the game changes. Let's be honest: this isn't a big one. Konami already did the heavy lifting by writing the rest of the game in English. If Grand Battle was a full set, this is a quick scratch. But if DJ KONAMI has been yelling at you in Japanese since 1999, now you'll know what he was saying.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call and played Practice mode before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* All 77 of DJ KONAMI's lines: the Practice-mode tutorial, both practice songs, and the DJ battle challenge with its three verdicts.\n* Kept …"
   }
  ],
  "produced_by": []

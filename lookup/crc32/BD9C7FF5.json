@@ -18,13 +18,15 @@
    "latest": false,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "62CB398B",
    "target_crc32": "BD9C7FF5",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Riviera_0.9/Riviera%20-%20Yakusoku%20no%20Chi%20Riviera%20%5BT-En%20v0.9.3%5D.bps",
    "sha256": "aa149b6b5a884fc0001ec06001139827750f062c8b511bcd26845a2336115bf6",
    "size": 710608,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9",
+   "notes": "**Riviera - Yakusoku no Chi Riviera** is Sting's 2002 RPG for the WonderSwan Color, published by Bandai and released only in Japan. Most people know it from the later Game Boy Advance and PSP remakes, but it started on the WonderSwan Color. A thousand years after Ragnarok, the war between the gods of Asgard and the demons of Utgard, the Seven Magi send two Grim Angels, Ein and Ledah, to the island of Riviera to unleash Retribution, the hidden power of the gods, because the demons seem to be coming back. Ein loses his memory, wakes up in Elendia, a village of sprites, and goes on with Rose, his familiar, and the girls he meets there: Fia, Lina, Serene and Cierra.\n\nThis patch translates the WonderSwan Color original into English.\n\nv0.9.8 is another bug-fix update from u/LuminousCheshire  who replayed Chapter 2 with v0.9.7: thank you again for the reports, screenshots and saves!\n\nDownload FILE\n\n> **Please read:** this translation was made **entirely with AI** (Claude), as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: the story scenes of the eight chapters, the conversations, the narration, the chapter recaps that scroll at the end of a chapter, the field triggers (everything you can look at or do while exploring), the events and their …"
   }
  ]
 }

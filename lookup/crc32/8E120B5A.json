@@ -22,13 +22,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "8E120B5A",
    "target_crc32": "7F92316E",
    "target_size": 4194304,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/OnePiece_0.9/From.TV.Animation.One.Piece.-.Chopper.no.Daibouken.T-En.v0.9.bps",
    "sha256": "b6e7348ea27887acf8b16276bc73b2bf2b70bc042e864a85ba911c81fffe6d06",
    "size": 175176,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePiece_0.9"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePiece_0.9",
+   "notes": "**From TV Animation One Piece: Chopper no Daibouken** (\"Chopper's Big Adventure\") is a 2003 Bandai action RPG for the WonderSwan Color that never left Japan. Chopper gets separated from the Straw Hats on an island where the villagers have been turned into animals. You explore the plains, a volcano, a cave and a temple, mix medicine from what you find, meet the crew in the village, and eat Rumble Balls to clear the Rumble Stages with Brain Point, Walk Point, Arm Point and Guard Point.\n\nThis patch translates it into English.\n\n**Download:** See attachment\n\n> **Please read:** this translation was made **entirely with AI** (Claude), as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: the opening, the village and its animal villagers, the crew's talks, every dungeon event, Fang and Raccoon, Azuki, Edamame and Daizu, and the ending.\n* Robin's tutorials and the \"How to Play\" pages of the Rumble Stages.\n* Menus: field menu (Items, Mix, Settings, Map), item actions, mixing, settings, dungeon map, save/load, village menus (Move, Talk, shop, crew), system messages and Yes/No questions.\n* All 256 item names and descriptions.\n* Graphics: title copyright, title menu (New Game / Continue / Resume), status labels, Yes/No boxes, the RUMBLE STAGE / SUCCESS / …"
   }
  ],
  "produced_by": []

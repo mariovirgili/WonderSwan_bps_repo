@@ -22,13 +22,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "4D21A347",
    "target_crc32": "5DC527DC",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gather-beat-2-v1.2/gather-beat-gb2-en-1.2.bps",
    "sha256": "c89e661790099fcb886582eaf5c1317f452031c2e393c694e42d01ad5574a8d1",
    "size": 959391,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-2-v1.2"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-2-v1.2",
+   "notes": "**SD Gundam G Generation: Gather Beat 2** (SDガンダム Gジェネレーション ギャザービート2) is Bandai's 2001 G Generation strategy game for the WonderSwan Color, released only in Japan. You command a mixed force of mobile suits and ships from across the Gundam series on grid maps, replaying battles from Mobile Suit Gundam, The 08th MS Team, 0083, Zeta, ZZ, Char's Counterattack, Victory, G Gundam, Gundam Wing, Gundam X, Turn A and more. Pilots fire ID commands (special abilities with their own speech), between stages you manage the Backstage (buying, developing and modifying units, assigning pilots), and the game adds an encyclopedia of characters and mobile suits, adventure scenes, two endings and unit trading over the link cable. This patch translates it into English. (The first Gather Beat has its own patch and release.)\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* All story, map and battle dialogue, ID and battle speech, the adventure scenes, menus and names, the encyclopedia (684 entries), and the narration of both endings.\n* Link cable: the Unit Trade screens and messages.\n* WonderGate: the shop …"
   },
   {
    "id": "7329ef9478cd2620",
@@ -40,13 +42,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "4D21A347",
    "target_crc32": "EBA90D51",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gather-beat-2-v1.2/gather-beat-gb2-en-stagesel-1.2.bps",
    "sha256": "7329ef9478cd262077012355967522cd7cc411f40f9b20e851587a507dddb2b0",
    "size": 959457,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-2-v1.2"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-2-v1.2",
+   "notes": "**SD Gundam G Generation: Gather Beat 2** (SDガンダム Gジェネレーション ギャザービート2) is Bandai's 2001 G Generation strategy game for the WonderSwan Color, released only in Japan. You command a mixed force of mobile suits and ships from across the Gundam series on grid maps, replaying battles from Mobile Suit Gundam, The 08th MS Team, 0083, Zeta, ZZ, Char's Counterattack, Victory, G Gundam, Gundam Wing, Gundam X, Turn A and more. Pilots fire ID commands (special abilities with their own speech), between stages you manage the Backstage (buying, developing and modifying units, assigning pilots), and the game adds an encyclopedia of characters and mobile suits, adventure scenes, two endings and unit trading over the link cable. This patch translates it into English. (The first Gather Beat has its own patch and release.)\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* All story, map and battle dialogue, ID and battle speech, the adventure scenes, menus and names, the encyclopedia (684 entries), and the narration of both endings.\n* Link cable: the Unit Trade screens and messages.\n* WonderGate: the shop …"
   },
   {
    "id": "54267d855a641ae6",
@@ -58,13 +62,15 @@
    "latest": false,
    "superseded": true,
    "format": "bps",
+   "source_crc32": "4D21A347",
    "target_crc32": "3BEC73CC",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gather-beat-2-v1.1/gather-beat-gb2-en-1.1.bps",
    "sha256": "54267d855a641ae6389d3606f7762c0755b32a61de618aad4382b320593bfcba",
    "size": 959139,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-2-v1.1"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-2-v1.1",
+   "notes": "**SD Gundam G Generation: Gather Beat 2** (SDガンダム Gジェネレーション ギャザービート2) is Bandai's 2001 G Generation strategy game for the WonderSwan Color, released only in Japan. You command a mixed force of mobile suits and ships from across the Gundam series on grid maps, replaying battles from Mobile Suit Gundam, The 08th MS Team, 0083, Zeta, ZZ, Char's Counterattack, Victory, G Gundam, Gundam Wing, Gundam X, Turn A and more. Pilots fire ID commands (special abilities with their own speech), between stages you manage the Backstage (buying, developing and modifying units, assigning pilots), and the game adds an encyclopedia of characters and mobile suits, adventure scenes, two endings and unit trading over the link cable. This patch translates it into English. (The first Gather Beat has its own patch and release.)\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* All story, map and battle dialogue, ID and battle speech, the adventure scenes, menus and names, the encyclopedia (684 entries), and the narration of both endings.\n* Link cable: the Unit Trade screens and messages.\n* WonderGate: the shop …"
   },
   {
    "id": "3d4757f481ed1049",
@@ -76,13 +82,15 @@
    "latest": false,
    "superseded": true,
    "format": "bps",
+   "source_crc32": "4D21A347",
    "target_crc32": "FFA851B8",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gather-beat-2-v1.1/gather-beat-gb2-en-stagesel-1.1.bps",
    "sha256": "3d4757f481ed1049948178fe12cde0237dbd1783d4c6e305e4c7f383f352672d",
    "size": 959205,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-2-v1.1"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-2-v1.1",
+   "notes": "**SD Gundam G Generation: Gather Beat 2** (SDガンダム Gジェネレーション ギャザービート2) is Bandai's 2001 G Generation strategy game for the WonderSwan Color, released only in Japan. You command a mixed force of mobile suits and ships from across the Gundam series on grid maps, replaying battles from Mobile Suit Gundam, The 08th MS Team, 0083, Zeta, ZZ, Char's Counterattack, Victory, G Gundam, Gundam Wing, Gundam X, Turn A and more. Pilots fire ID commands (special abilities with their own speech), between stages you manage the Backstage (buying, developing and modifying units, assigning pilots), and the game adds an encyclopedia of characters and mobile suits, adventure scenes, two endings and unit trading over the link cable. This patch translates it into English. (The first Gather Beat has its own patch and release.)\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* All story, map and battle dialogue, ID and battle speech, the adventure scenes, menus and names, the encyclopedia (684 entries), and the narration of both endings.\n* Link cable: the Unit Trade screens and messages.\n* WonderGate: the shop …"
   },
   {
    "id": "4bb0c13571478e62",
@@ -94,13 +102,15 @@
    "latest": false,
    "superseded": true,
    "format": "bps",
+   "source_crc32": "4D21A347",
    "target_crc32": "58494E5B",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gather-beat-v1.0/gather-beat-gb2-en-1.0.bps",
    "sha256": "4bb0c13571478e628aa5a65e57fac69e853e55b3699c17096d31cf0a0d0d6637",
    "size": 958668,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-v1.0",
+   "notes": "**SD Gundam G Generation: Gather Beat** (SDガンダム Gジェネレーション ギャザービート, WonderSwan, 2000) and **Gather Beat 2** (ギャザービート2, WonderSwan Color, 2001) are Bandai's handheld G Generation strategy games, released only in Japan. You command a mixed force of mobile suits and ships from across the Gundam series on grid maps, replaying battles from Mobile Suit Gundam, The 08th MS Team, 0083, Zeta, ZZ, Char's Counterattack, G Gundam, Gundam Wing, Gundam X, Turn A and more. Pilots fire ID commands (special abilities with their own speech), and between stages you manage the Backstage: buying units, developing and modifying machines, assigning pilots. Gather Beat 2 adds an encyclopedia of characters and mobile suits, adventure scenes and two endings. This patch translates both games into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Gather Beat:** all stage and battle dialogue, ID commands and their speech, menus, unit, pilot and weapon names, the Backstage menus, the stage objectives, the prologue and the ending narration. Pictures redrawn in English: the Backstage bars, the Pilot tab, the …"
   },
   {
    "id": "cd69e3981c232ed5",
@@ -112,13 +122,15 @@
    "latest": false,
    "superseded": true,
    "format": "bps",
+   "source_crc32": "4D21A347",
    "target_crc32": "D6CF7E7E",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gather-beat-v1.0/gather-beat-gb2-en-stagesel-1.0.bps",
    "sha256": "cd69e3981c232ed5b517af3bb4d5385634f85f6473dd29d032a32a912098e459",
    "size": 958734,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-v1.0",
+   "notes": "**SD Gundam G Generation: Gather Beat** (SDガンダム Gジェネレーション ギャザービート, WonderSwan, 2000) and **Gather Beat 2** (ギャザービート2, WonderSwan Color, 2001) are Bandai's handheld G Generation strategy games, released only in Japan. You command a mixed force of mobile suits and ships from across the Gundam series on grid maps, replaying battles from Mobile Suit Gundam, The 08th MS Team, 0083, Zeta, ZZ, Char's Counterattack, G Gundam, Gundam Wing, Gundam X, Turn A and more. Pilots fire ID commands (special abilities with their own speech), and between stages you manage the Backstage: buying units, developing and modifying machines, assigning pilots. Gather Beat 2 adds an encyclopedia of characters and mobile suits, adventure scenes and two endings. This patch translates both games into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Gather Beat:** all stage and battle dialogue, ID commands and their speech, menus, unit, pilot and weapon names, the Backstage menus, the stage objectives, the prologue and the ending narration. Pictures redrawn in English: the Backstage bars, the Pilot tab, the …"
   }
  ],
  "produced_by": []

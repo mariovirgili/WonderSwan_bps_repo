@@ -22,13 +22,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "9750BC2A",
    "target_crc32": "48DC741F",
    "target_size": 2097152,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Petit_0.9/Guilty%20Gear%20Petit%20%5BT-En%20v0.9%5D.bps",
    "sha256": "8de0cbfba6751a1025884b496f12ff9985c741a913443af3e3d2910831133782",
    "size": 26826,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Petit_0.9"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Petit_0.9",
+   "notes": "**Guilty Gear Petit** is the first of Sammy and Arc System Works' pocket-sized Guilty Gear fighters for the WonderSwan Color (2001), released only in Japan. Super-deformed Sol, Ky, May, Millia, Potemkin and Jam, plus the brand-new nurse Fanny and GG Millia, with a Story Mode for every character, VS over the link cable, Time Attack and Training.\n\nThe menus were already in English, but the whole story, the fight quotes, the win messages and the Training command lists were in Japanese. This patch translates them. It goes well with the Guilty Gear Petit 2 patch I posted before.\n\n> **Please read:** this translation was made **entirely with AI** (Claude), as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* Story Mode for all 8 characters: prologues, the dialogue before and after the final stage, and the epilogues (Sol, Ky, May, Millia, Potemkin, Jam, Fanny and GG Millia).\n* All 64 win messages (every winner against every opponent) and all 32 fight quotes.\n* The Training command lists of every character.\n* VS mode: Fanny's link battle messages (the question, \"waiting for the link\" and the link error). They're pictures in the original, so they were redrawn.\n* A few typos in the original English menus (\"CHARACTOR\", \"PERSENTAGE\", \"TENTION MAX\", \"EXECTIVE DIRECTOR\"). The …"
   }
  ],
  "produced_by": []

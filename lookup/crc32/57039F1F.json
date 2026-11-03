@@ -18,13 +18,15 @@
    "latest": false,
    "superseded": true,
    "format": "bps",
+   "source_crc32": "A1FB16FC",
    "target_crc32": "57039F1F",
    "target_size": 1048576,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/fishing-freaks-v1.0/fishing-freaks-en-1.0.bps",
    "sha256": "aef10baef45aca85ec99776d7530b98c0c75cebbc67da7bc7e3396620ab3ff98",
    "size": 52565,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/fishing-freaks-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/fishing-freaks-v1.0",
+   "notes": "> **Superseded by v1.1.** v1.1 adds a Ranking code for online leaderboards under the fish password; the translation is otherwise the same. Use v1.1 unless you need this exact version (patched ROM CRC32 57039F1F).\n\n**Fishing Freaks: Bass Rise for WonderSwan** (フィッシングフリークス バスライズ for WonderSwan) is Bec's 2000 bass-fishing game for the original (monochrome) WonderSwan, released only in Japan and played holding the console vertically. You pick a lake (a farm pond, Kasumigaura, Lake Biwa, Lake Ikehara, Lake Hibara), a season and a time of day, fill your lure box from 16 lure types in several colours, choose tackle and a rig, then cast, work the lure, set the hook and fight the fish. Lecture Mode has a guide who tips you on lures, colours and spots as you fish; Free Mode has free fishing and three tournament types (Most Weight, Biggest Fish, Most Fish) of three rounds each against 20 rival anglers, with prize lures; win all three for the ending. There's also a Lure Manual, a catch log, a link battle for two consoles, and a hidden sound test.\n\nIts text is a normal 12x12 text engine plus a lot of words drawn as pictures (menus, lure and fish names, place names, headers). This patch translates both.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to …"
   }
  ]
 }

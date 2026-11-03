@@ -18,13 +18,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "62CB398B",
    "target_crc32": "B1856A05",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Test/Riv0.9.9.bps",
    "sha256": "d2c2a65a9d02b06dee91d3a89a98cb4d6a7370eae2b57e4c046593423a463db7",
    "size": 688764,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test",
+   "notes": "Test site, nothing to see here...."
   }
  ]
 }

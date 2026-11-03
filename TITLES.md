@@ -7,7 +7,7 @@ Every released WonderSwan and WonderSwan Color title, and the translation patche
 | WonderSwan | 219 | 29 (+4 ⚠️ another dump) |
 | WonderSwan Color | 229 | 27 |
 
-Last change to the patch catalog: 2026-11-02.
+Last change to the patch catalog: 2026-11-03.
 
 ## Titles with translation patches (60)
 

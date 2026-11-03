@@ -18,13 +18,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "9C98D97D",
    "target_crc32": "204CD622",
    "target_size": 4194304,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Petit1_v0.9/Romancing%20SaGa%20%5BT-En%20v0.9.1%5D.bps",
    "sha256": "c56cba1ce248b54d0995c965b9ff2938941f795fa7ef0cb18b9876993b732893",
    "size": 281571,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Petit1_v0.9"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Petit1_v0.9",
+   "notes": "**Romancing SaGa** (WonderSwan Color) - **English translation patch v0.9.1** (new translation from the Japanese)\n\nRomancing SaGa for the WonderSwan Color is Square's 2001 remake of the first Romancing SaGa, released only in Japan. Eight heroes (Albert, Gray, Jamil, Aisha, Claudia, Sif, Barbara and Hawke), a free scenario system where you go wherever you like, and the war against Saruin, the dark god sealed away a thousand years ago by the hero Mirsa and the ten Destiny Stones. It came out a few years before Minstrel Song, with remade graphics, a world map and new scenes.\n\nThis patch translates it into English.\n\n**Download:** Work in progress\n\n**How to patch**\n\nApply the BPS to your dumped Japanese ROM \"Romancing Sa-Ga\" (CRC32 9C98D97D) with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 204CD622. It's a WonderSwan Color game, so keep the .wsc extension. You must provide your own copy of the original Japanese game to apply it.\n\n**What's new in v0.9.1**\n\n* The whole text (event script, menus, database) was **translated again from scratch, directly from the Japanese**, and so were all the monster and place names, including the ones drawn in the graphics (battle labels and world map).\n* How it was made: **Claude** translated it from the Japanese, the result was cross-checked line by line against **DeepL**, then reviewed by **ChatGPT** for meaning and official names, and the final corrections were applied to the ROM by Claude.\n* Names now follow the **official …"
   }
  ]
 }

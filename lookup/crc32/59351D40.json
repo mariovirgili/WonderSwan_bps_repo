@@ -18,13 +18,15 @@
    "latest": false,
    "superseded": true,
    "format": "bps",
+   "source_crc32": "14ADBD4B",
    "target_crc32": "59351D40",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/ring-infinity-v1.0/ring-infinity-en-1.0.bps",
    "sha256": "7384e3474a8ca8a4b344bfb5733f4666a5aac32eeb2b7abb2bb3077bbe9501a3",
    "size": 541057,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/ring-infinity-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/ring-infinity-v1.0",
+   "notes": "**Superseded by v1.1**, which fixes a few small translation errors.\n\n**Ring Infinity** (リング∞) is a horror sound novel for the WonderSwan, made by MeGAS and released by Bandai with Kadokawa Shoten in Japan in 2000. It continues Koji Suzuki's *Ring*: in the year 2000, Sadako Yamamura's curse spreads again through a videotape passed around a high school, a cursed web page born when that tape reached the Internet, and a nightmare that spreads by being told. Each page shows a photograph above a few lines of prose; read, make the choices (some of them against the clock), and follow three linked stories to their endings, then around the loop that gives the game its ∞. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: every page of narration and dialogue (over 4,200 pages) and every choice of the three stories (the main story, Arisawa's story and the Oshima story), with all their endings.\n* Nishio's additional scenario and the 31 mails from a fellow player, both delivered over WonderGate in 2000 but stored on the cartridge.\n* The title …"
   }
  ]
 }

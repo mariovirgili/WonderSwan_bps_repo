@@ -18,13 +18,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "0C9CB12C",
    "target_crc32": "16998248",
    "target_size": 1048576,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gunpey-ex-v1.0/gunpey-ex-en-1.0.bps",
    "sha256": "dbb2eccea2cbca7ca28fee9366ab8ea518e4c994d3c277456e0fd10fbd914280",
    "size": 15060,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gunpey-ex-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gunpey-ex-v1.0",
+   "notes": "**GunPey EX** is the WonderSwan Color sequel to GunPey, the puzzle game named after the WonderSwan's designer Gunpei Yokoi, released by Bandai only in Japan in December 2000. You swap panels up and down a grid to join their line pieces into paths that run from one side to the other, which clears them. It has five single-player modes (Endless, Stage, Puzzle, Time Attack and Free), two-player link-cable battles, and a national ranking through Bandai's Mobile WonderGate phone adapter.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\nThe game itself was already in English. Everything Japanese in it is a picture, and every one of those pictures is redrawn:\n\n* **WonderGate:** the prompt before connecting, all four error messages (check the adapter or batteries, check the phone, connection lost, see the manual), and the three Japanese lines on the five national ranking screens: YOUR RANK, the rank line (\"0021 OF 7526\", reordered so your rank comes first) and NATIONAL TOP 3.\n* **WonderGate OPTION:** the three Japanese keys on the phone keypad (OK, C and a …"
   }
  ]
 }

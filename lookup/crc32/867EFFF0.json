@@ -17,6 +17,7 @@
    "latest": false,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "1F10CA75",
    "target_crc32": "867EFFF0",
    "target_size": 4194304,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/Gand46/Rockman-EXE-N1-Battle-ChipControl-Wonderswan-English-Translation-AI_GPT/_files/patches/chip-control/Rockman_N1_English_QA09_ChipControl_RC6_MANT05_EXPERIMENTAL.bps",

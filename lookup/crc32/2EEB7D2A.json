@@ -18,13 +18,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "E407CABF",
    "target_crc32": "2EEB7D2A",
    "target_size": 524288,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/lode-runner-v1.0/lode-runner-se-en-1.0.bps",
    "sha256": "8b7cf03818fe4094de9f3664c76ba8c964bf1bfd01094f417cae9ad53051e5db",
    "size": 114683,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0",
+   "notes": "**Lode Runner for WonderSwan** is Banpresto's version of the classic dig-and-collect puzzle game, developed by Aisystem Tokyo and released only in Japan in 2000 for the original (monochrome) WonderSwan. You run, climb and dig holes to trap the guards while you collect every pile of gold. Story Mode follows a diver who finds a lost golden kingdom under the sea. There's also Select Mode, the original Lode Runner maps, a map editor with two save slots, map trading over the link cable (Data I/O), and DOWN LOAD, which fetched new stages through Bandai's Mobile WonderGate phone adapter.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything on screen:** the menus and prompts, the map editor, Data I/O, Option (viewing and deleting save data), the chapter tally, the phone-number keypad, and the WonderGate download screens with all 21 error messages. The game has no text font: every Japanese word is a picture, and the English is lettered into the same places.\n* **Story:** all five chapters and the ending, for both heroes. The male hero (俺) is blunt …"
   }
  ]
 }

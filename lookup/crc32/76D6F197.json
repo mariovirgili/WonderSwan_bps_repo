@@ -18,13 +18,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "00137E86",
    "target_crc32": "76D6F197",
    "target_size": 1048576,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/goraku-ou-tango-v1.0/goraku-ou-tango-en-1.0.bps",
    "sha256": "bf0652525887b01b9744a9d25a42ea9c110f6e976698163ee07b8d2a1d821cbd",
    "size": 42920,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/goraku-ou-tango-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/goraku-ou-tango-v1.0",
+   "notes": "**Goraku Ou Tango!** (語楽王TANGO!) is Mebius's 1999 word puzzle for the original (monochrome) WonderSwan, published by Bandai and released only in Japan. Each puzzle gives you a category (home appliances, Japanese castles, rainbow colours...) and a 6x6 board of scattered letter blocks. Slide the blocks one square at a time to spell the category's words across or down, then clear them; clear every block to win. Words cross and share blocks, so the order you clear them in matters. A short adventure ties it together: Shingo, a Japanese boy on a homestay in America, sets off with the archaeologist Professor McManan's spoiled daughter Milly and his assistant Ian to search seven ruins for crystal plates and rescue the missing professor. The title is a pun: 娯楽王 \"king of fun\" written with 語 \"word\".\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole story (the opening, the thieves, the crystal tablet, the villain Ornandez and the ending), in a new proportional English font.\n* Menus and messages: the title menu, file select and file delete, the pause and item menus, the bonus card screen, …"
   }
  ]
 }

@@ -19,13 +19,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "08C0247B",
    "target_crc32": "19AC67B5",
    "target_size": 4194304,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gundam-vol1-side7-v1.1/gundam-vol1-side7-en-1.1.bps",
    "sha256": "c147a871e3d6048e83a494ee661ea07099a18e1567b5d4ebb7a00f2a8dfc416e",
    "size": 153419,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol1-side7-v1.1"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol1-side7-v1.1",
+   "notes": "**Kidou Senshi Gundam Vol. 1: Side 7** (機動戦士ガンダム Vol.1 〜SIDE7〜, \"Mobile Suit Gundam Vol. 1: Side 7\") is Bandai's 2001 game for the WonderSwan Color, released only in Japan, and the first of three cartridges that retell the 1979 anime *Mobile Suit Gundam*. This one covers episodes 1-12: Zeon's raid on Side 7, Amuro Ray climbing into the Gundam, the White Base's flight to Earth and the fight with Garma Zabi. Each episode is told in story scenes, with mobile-suit battles in between, and the crew's trust in Amuro rises and falls with how he fights.\n\nThis patch translates it into English. Vol. 1, Vol. 2 and Vol. 3 each have their own patch and their own page.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: every story scene and narration, the prologue, the battle chatter and the mission briefings, the ending and the staff credits.\n* Every menu and prompt: the episode select and its maps, weapon help, saving and continuing.\n* Everything drawn as a picture: the title logo (MOBILE SUIT GUNDAM), the 12 episode title cards, the battle labels (commands, weapons and Amuro's …"
   }
  ]
 }

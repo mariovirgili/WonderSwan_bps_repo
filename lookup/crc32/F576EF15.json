@@ -19,6 +19,7 @@
    "superseded": false,
    "format": "bps",
    "requires_patched_rom": true,
+   "source_crc32": "CCAA4853",
    "target_crc32": "F576EF15",
    "target_size": 2097152,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/Gand46/Chocobo_no_Fushigi_na_Dungeon_Mysterious_Dungeon_WS_AI_ROM-FIX-/_files/patches/historical/Chocobo_EN_v1.1_HF1_TEST_JP_CCAA4853.bps",

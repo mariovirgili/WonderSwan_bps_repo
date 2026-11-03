@@ -18,13 +18,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "0E40829C",
    "target_crc32": "FD75CE60",
    "target_size": 4194304,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/D-Project_v0.9/Digital%20Monster%20-%20D-Project%20%5BT-En%20v0.9.1%5D.bps",
    "sha256": "c0a59c764b5445373a5a4e781ca8535af09c67ea38fff5a68098acf4582a9609",
    "size": 160297,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/D-Project_v0.9"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/D-Project_v0.9",
+   "notes": "**Digital Monster: D-Project** is a 2002 Bandai Digimon raising and adventure game for the WonderSwan Color that never left Japan. The game you just bought has been \"hacked\": its data is being erased, and Ophanimon pulls you inside to repair it. You hatch Digimon with the Egg Machine, raise them, walk the broken areas of the Digital World, fight with up to three partners, and restore the lost land by bringing new Digimon to life. It also links with the Pendulum and D-Power toys of the time.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI** (Claude), as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Reference guide**\n\nTerms, area names and menu names follow **\"WSC Digimon D-project ENG Guide\" by DigiKidult**, an English guide translated from his Chinese one: https://docs.google.com/spreadsheets/d/1FWjNVGwpuqjQgj14EFWB6HkTaJqRKSe6x0xbiW-z2aw/htmlview\n\nMany thanks to DigiKidult. Keep the guide open while you play: it has the egg codes, item codes, Digivolution requirements and the story route.\n\n**What's translated**\n\n* The whole script: the \"hacked\" opening and the data erasure, Ophanimon, every story event, the Sovereigns, the villains and the ending.\n* Menus: field menu (Items, Digimon, Call Back, Map, Save), items and …"
   }
  ]
 }

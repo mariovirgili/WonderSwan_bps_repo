@@ -18,13 +18,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "F2E362B8",
    "target_crc32": "30F6CAAF",
    "target_size": 2097152,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/kaizoku-ou-v1.0/kaizoku-ou-en-1.0.bps",
    "sha256": "80ce054754ca621db9437501203cdac9a30366b147d688fe3725254d49ce5a65",
    "size": 273705,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/kaizoku-ou-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/kaizoku-ou-v1.0",
+   "notes": "**From TV Animation One Piece: Mezase Kaizoku Ou!** (From TV animation ワンピース めざせ海賊王!, \"Aim to be King of the Pirates!\") is Bandai's 2000 One Piece game for the original (monochrome) WonderSwan, released only in Japan. It is a board game on the sea: you lay route cards to sail Luffy's ship across each chapter's map, recruit crewmates, fight the villains of the early story (Alvida, Morgan, Buggy, Kuro, Krieg, Arlong) and pick up items and treasure on the way, over six chapters from Romance Dawn to Loguetown plus an Extra stage. Up to four players can share one WonderSwan in the multiplayer board game, and there is a Strongest Pirate Tournament (build a three-member crew and fight the CPU crews), Carddass Hyper Battle (a card game for 2-4 players with the system turned sideways), three mini-games (the Baratie eating contest, a cannon battle against the Marines, and Mihawk), and link-cable crew trading. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole story (about 3,100 text boxes over the seven chapters and the Extra stage), the chapter …"
   }
  ]
 }

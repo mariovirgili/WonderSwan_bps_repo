@@ -22,13 +22,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "425EB893",
    "target_crc32": "34A7D483",
    "target_size": 1048576,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/anchorz-field-v1.0/anchorz-field-en-1.0.bps",
    "sha256": "553c45b988f1cdc382354f780eb8b234252b5d7db1a0da184cfcae05efdca300",
    "size": 45977,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/anchorz-field-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/anchorz-field-v1.0",
+   "notes": "**Anchorz Field** (アンカーズフィールド) is Sammy's 1999 turn-based territory game for the original (monochrome) WonderSwan, released only in Japan. Each side fires anchors from its Anchor Machine; an anchor drags a line behind it, and if the third shot of your turn lands back in your own territory, everything the lines enclose becomes yours. The first side to hold the target share of the field (usually 40% or 50%) wins. You're the newest member of Sharvan's national Anchorz team, coached by a soldier adviser and a gruff commanding officer, taking on rival nations one field at a time, and eventually a mysterious enemy from a new continent.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* All 843 of the game's text strings: the campaign, the adviser's and commander's battle dialogue, every rival crew, the rules and tutorials, menus, lists, anchor and machine descriptions, results and options.\n* The five illustrated intro story pages, re-set in English.\n* Graphics: the list screen's Sort button and the FIRE!! sound effect in the intro are redrawn.\n* Left as in the original: the katakana above the …"
   }
  ],
  "produced_by": []

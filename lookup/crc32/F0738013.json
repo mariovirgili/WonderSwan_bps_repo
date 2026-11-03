@@ -18,13 +18,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "8FCD6D2C",
    "target_crc32": "F0738013",
    "target_size": 524288,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/glocal-hexcite-v1.0/glocal-hexcite-en-1.0.bps",
    "sha256": "86a49e909fd576510059ddd19b8364e6b02310e5d4d1092843bdebb0a9c34b04",
    "size": 29930,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/glocal-hexcite-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/glocal-hexcite-v1.0",
+   "notes": "**Glocal Hexcite** (グローカルヘキサイト) is the 2000 WonderSwan (monochrome) version of *Hexcite*, the tile-placing board game by Gu Inc. / GAJIN, published by SUCCESS and released only in Japan. Two players take turns placing triangles, diamonds, trapezoids and hexagons on a board of seven hexagons: every edge your piece touches scores 5 points, filling the last space of an outer hexagon wins a 10- or 30-point bonus, and pieces you can't place cost you points at the end. This version adds a cast of animals: the Hexer Gang, five rivals you beat one by one, Arara the koala with 50 puzzle problems and titles to earn, and Powan the dog, who teaches the rules. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* Everything the game writes in its font: the menus and their settings, the Hexer Gang's dialogue (introductions, rematches, reactions after every round and match, their \"thinking\" chatter, and both endings), Arara's puzzle mode (class introductions, the puzzle headers, ten \"correct!\" lines, all 50 hints and the titles), Powan's two rules tutorials, the help …"
   }
  ]
 }

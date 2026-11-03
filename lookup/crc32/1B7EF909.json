@@ -18,13 +18,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "D7A0AB74",
    "target_crc32": "1B7EF909",
    "target_size": 4194304,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/another-heaven-v1.0/another-heaven-en-1.0.bps",
    "sha256": "26b5868e748c602a24eaa14e6eb148e73c0342cf99e0c4535b5a1f0554eee351",
    "size": 680784,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/another-heaven-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/another-heaven-v1.0",
+   "notes": "**Another Heaven ~memory of those days~** (アナザヘヴン 〜memory of those days〜) is a horror sound novel for the WonderSwan Color by Omega Micott and D's Garage 21, licensed by Bandai and released only in Japan in December 2000. It is a tie-in to Joji Iida's film *Another Heaven* (2000): while the film's \"Mad Cook\" murders shake Tokyo, a second killer, the Pyromaniac, starts burning men from the inside out. You are Koichiro Hasegawa, a young police sergeant teamed with his old classmate, Lieutenant Natsuko Nishitani, and between crime scenes you trade e-mail on your phone with a crime-buff informant and with Makoto, a shy friend from a mailing list. Read the story, answer the mails, make the choices, and follow its many routes and endings on the route chart. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: every page of narration and dialogue (over 6,000 pages), the 223 e-mails on the phone, all 103 choices, every route and ending, the prologue, the attract demo and the Bonus scenario.\n* Speaker names, the \"Day\" cards, the chapter names …"
   }
  ]
 }

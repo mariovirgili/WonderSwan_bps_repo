@@ -18,13 +18,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "14ADBD4B",
    "target_crc32": "3E655169",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/ring-infinity-v1.1/ring-infinity-en-1.1.bps",
    "sha256": "f21562dd0d7f929aa831963bafd1519abb5db0105b1ea13856ad4cf298e3cdeb",
    "size": 541070,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/ring-infinity-v1.1"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/ring-infinity-v1.1",
+   "notes": "v1.1: we identified and fixed a few small translation errors.\n\nApply `ring-infinity-en-1.1.bps` (or the special edition, `ring-infinity-en-special-1.1.bps`) to \"Ring Infinity (Japan)\" (CRC32 14ADBD4B). Result: CRC32 3E655169 (special edition BC3C951B). Details on the game page."
   }
  ]
 }

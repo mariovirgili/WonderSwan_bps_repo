@@ -17,13 +17,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "EE8B3230",
    "target_crc32": "3630A09A",
    "target_size": 2097152,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Test/GnG_Colour_Trainer.bps",
    "sha256": "6e849ff37deae7a999a86d2a6b4a15e0c8b1f1f0bce800ce23b5c7c70ce5f6b7",
    "size": 1774,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test",
+   "notes": "Test site, nothing to see here...."
   }
  ]
 }

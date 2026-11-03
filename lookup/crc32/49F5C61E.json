@@ -18,13 +18,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "99027238",
    "target_crc32": "49F5C61E",
    "target_size": 2097152,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BlueWing_0.9.1/Blue%20Wing%20Blitz%20%5BT-En%20v0.9.1%5D.bps",
    "sha256": "fd9f6b274dc718266249f88235d69fc2b6de0118db834f3eb25b03bcd7dae046",
    "size": 51385,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BlueWing_0.9.1"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BlueWing_0.9.1",
+   "notes": "**Blue Wing Blitz** is Square's 2001 strategy game for the WonderSwan Color, released only in Japan. The world is ruled by Ordia, an island floating high above the clouds, whose airships keep the nations of the land in line. In the Esk Republic, the young pilots of the Tadaga Village Guardians take to the sky and carry the fight all the way up to Ordia. Turn-based moves on a hex map, dogfights and bombing runs, an airship as your base, and a squad of pilots and aircraft to build up between missions.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI** (Claude), as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole story: the opening, every event scene between missions, the airship and base conversations, the final chapter and the ending.\n* Every mission briefing, the win and lose conditions, the messages shown on the map during missions and the stage results.\n* The training flight (tutorial).\n* The air battle screen: maneuvers, weapons, enemy ace quotes, hit and damage messages.\n* The base: factory, aircraft setup, the data room (aircraft profiles, model numbers, weapons and items with descriptions), crew advice, airship upgrades and aircraft mods.\n* Map menus, save/load, name entry (Latin letters …"
   }
  ]
 }

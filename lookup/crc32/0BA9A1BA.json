@@ -18,13 +18,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "84A46949",
    "target_crc32": "0BA9A1BA",
    "target_size": 4194304,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Test/Digimon.Tamers.-.Digimon.Medley.T-En.v0.9.bps",
    "sha256": "a805471859c5fb77f640e1b064c5db45c05154ede9303860727393da213c4822",
    "size": 316762,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test",
+   "notes": "Test site, nothing to see here...."
   }
  ]
 }

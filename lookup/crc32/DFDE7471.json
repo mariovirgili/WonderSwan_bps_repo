@@ -18,6 +18,7 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "AF9D8F42",
    "target_crc32": "DFDE7471",
    "target_size": 4194304,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/_files/patches/Densha_de_Go_2_EN_v0.4.20_OPTIONS_FONT_CUMULATIVE.bps",

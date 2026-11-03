@@ -22,13 +22,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "CE2F1A1D",
    "target_crc32": "53CEAD54",
    "target_size": 1048576,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/final-lap-2000-v1.0/final-lap-2000-en-1.0.bps",
    "sha256": "7a2bbdc42de4cc96fe4b624b492936617275f5c2ea8feeb9eccec605e4a94959",
    "size": 48957,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/final-lap-2000-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/final-lap-2000-v1.0",
+   "notes": "**Final Lap 2000** (ファイナルラップ2000) is Namco's 2000 Formula racer for the original (monochrome) WonderSwan, published with Bandai and released only in Japan (March 2000). It brings the arcade Final Lap series to a handheld: an Arcade mode against the clock, a World Tour season of 15 rounds plus a special round, Time Trial, a course editor, and link-cable racing and course swapping with a second WonderSwan.\n\nMost of the game was already in English: the menus, the race screens, the results, the rankings and the staff credits. The Japanese was hidden in pictures: the Arcade entry screen everyone sees, the course-exchange messages, the link-play error, a hidden online-ranking menu, and billboards beside the tracks. This patch translates all of it.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Arcade entry screen**, the 15-second \"now accepting entries\" countdown before every Arcade race: NOW ACCEPTING ENTRIES / TIME LEFT 15 SEC, in the game's own lettering.\n* **Course Edit > Exchange** (swapping a course over the link cable): all four messages, including the ones you see without a cable …"
   },
   {
    "id": "afcbe4dc43a9a786",
@@ -40,13 +42,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "CE2F1A1D",
    "target_crc32": "3BA04D6B",
    "target_size": 1048576,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/final-lap-2000-v1.0/final-lap-2000-en-wondergate-1.0.bps",
    "sha256": "afcbe4dc43a9a786d121c82e695dafbaec67acbff984ff197c91f69deddcca09",
    "size": 48963,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/final-lap-2000-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/final-lap-2000-v1.0",
+   "notes": "**Final Lap 2000** (ファイナルラップ2000) is Namco's 2000 Formula racer for the original (monochrome) WonderSwan, published with Bandai and released only in Japan (March 2000). It brings the arcade Final Lap series to a handheld: an Arcade mode against the clock, a World Tour season of 15 rounds plus a special round, Time Trial, a course editor, and link-cable racing and course swapping with a second WonderSwan.\n\nMost of the game was already in English: the menus, the race screens, the results, the rankings and the staff credits. The Japanese was hidden in pictures: the Arcade entry screen everyone sees, the course-exchange messages, the link-play error, a hidden online-ranking menu, and billboards beside the tracks. This patch translates all of it.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Arcade entry screen**, the 15-second \"now accepting entries\" countdown before every Arcade race: NOW ACCEPTING ENTRIES / TIME LEFT 15 SEC, in the game's own lettering.\n* **Course Edit > Exchange** (swapping a course over the link cable): all four messages, including the ones you see without a cable …"
   }
  ],
  "produced_by": []

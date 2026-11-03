@@ -22,13 +22,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "427056C4",
    "target_crc32": "AD5D5163",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/one-piece-niji-v1.0/one-piece-niji-en-1.0.bps",
    "sha256": "c0fdbb599175713fa6dcee69d0601f4dc4a130c3c17a38d0ff72b00db66742a7",
    "size": 926880,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/one-piece-niji-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/one-piece-niji-v1.0",
+   "notes": "**From TV Animation One Piece: Niji no Shima Densetsu** (From TV animation ワンピース 虹の島伝説, \"Legend of Rainbow Island\") is Bandai's 2001 One Piece RPG for the WonderSwan Color, released only in Japan. You play a new hero (DIAS by default), an orphaned 12-year-old street peddler in Loguetown who fights with a boomerang and wears his late father's pendant, the Proof of the Sea Folk. He joins the Straw Hats and Atori, a girl who carries the Proof of the King, to search for the legendary Rainbow Island. The voyage follows the manga through Reverse Mountain, Laboon and Whisky Peak (where Vivi and Karoo join), then sails on to the game's own islands: Silver Arrow, Royale Sun, Great Ground, Festa Circle and Rainbow Island itself. On the way you explore towns and islands, fight turn-based battles with a party of three, chat with the crew on deck to earn and engrave Marks of Friendship (the skills of the battle system), and check the wanted posters of the crews you run into. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script, over 11,000 lines: …"
   },
   {
    "id": "cc690d0cd1c3dcdd",
@@ -40,13 +42,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "427056C4",
    "target_crc32": "42912FF4",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/one-piece-niji-v1.0/one-piece-niji-en-special-1.0.bps",
    "sha256": "cc690d0cd1c3dcdd4c584f088319a40cf2c57e4944579fa6c63e0db04f3bcd4f",
    "size": 927000,
    "source": "PokemonGoDB/wonderswan-english-patches",
-   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/one-piece-niji-v1.0"
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/one-piece-niji-v1.0",
+   "notes": "**From TV Animation One Piece: Niji no Shima Densetsu** (From TV animation ワンピース 虹の島伝説, \"Legend of Rainbow Island\") is Bandai's 2001 One Piece RPG for the WonderSwan Color, released only in Japan. You play a new hero (DIAS by default), an orphaned 12-year-old street peddler in Loguetown who fights with a boomerang and wears his late father's pendant, the Proof of the Sea Folk. He joins the Straw Hats and Atori, a girl who carries the Proof of the King, to search for the legendary Rainbow Island. The voyage follows the manga through Reverse Mountain, Laboon and Whisky Peak (where Vivi and Karoo join), then sails on to the game's own islands: Silver Arrow, Royale Sun, Great Ground, Festa Circle and Rainbow Island itself. On the way you explore towns and islands, fight turn-based battles with a party of three, chat with the crew on deck to earn and engrave Marks of Friendship (the skills of the battle system), and check the wanted posters of the crews you run into. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script, over 11,000 lines: …"
   }
  ],
  "produced_by": []

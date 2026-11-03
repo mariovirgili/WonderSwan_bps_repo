@@ -18,13 +18,15 @@
    "latest": false,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "1E760C41",
    "target_crc32": "87D18020",
    "target_size": 4194304,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/v0.9/Digital%20Monster%20Card%20Game%20-%20Ver.%20WonderSwan%20Color%20%5BT-En%20v0.9%5D.bps",
    "sha256": "25be469a2894be7eb44bd36b4b07dceb04beea14c578a57ab1df94e8e851ad16",
    "size": 403973,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9",
+   "notes": "**Digital Monster Card Game - Ver. WonderSwan Color** is a 2002 Bandai card battle game for the WonderSwan Color that never left Japan. It's built around the Digimon Card Game of that era, with the Digimon Tamers cast (plus guests from Adventure and 02). You meet Takato, Rika, Henry and the others around town and in the Digital World, battle them in card tournaments, collect 211 cards and build your own decks.\n\nThis patch translates it into English.\n\n**What's translated**\n\n* The whole story mode (about 800 text boxes), with a new variable-width font.\n* Every card: names, attacks, special/support ability texts, option card effects, and the Digimon profiles in the gallery.\n* The tutorial (9 lessons), the in-battle help bar and prompts, and the speech bubbles of all 14 opponents.\n* Battle screens: phase banners, turn order, card panels (level, type, attribute, option category and timing), the info bar, the guard bar and digivolve overlays.\n* All menus: Deck Edit, Auto Edit, Copy/Rename/Delete Deck, Card Gallery, Card Install, Options, and the Network screens (Net Battle, Card Trade, Recipe Trade).\n* Graphics with Japanese text, redrawn by hand: screen headers, the big card name graphics, type/attribute labels, map plates, deck view labels and every popup.\n* The name entry keyboard now opens on the ABC page.\n\nNames follow the English dub (Takato, Rika, Henry, T.K., Davis, Gallantmon, Beelzemon, MegaGargomon, Omnimon...). Attack names come from the dubs, or from official Bandai …"
   }
  ]
 }

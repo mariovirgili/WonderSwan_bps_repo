@@ -18,13 +18,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "14ADBD4B",
    "target_crc32": "856731B3",
    "target_size": 4194304,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/RingInfinity/Ring%20Infinity%20%28Japan%29%20%5BWonderGate%20unlock%5D.bps",
    "sha256": "b51463a1f41eedcf25a9e5c9e2f98e76410b63edcf0786dc2b667c0cd9b21aed",
    "size": 123,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/RingInfinity"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/RingInfinity",
+   "notes": "**Ring Infinity** is a horror sound novel released only in Japan by Kadokawa Shoten and Bandai for the WonderSwan in August 2000. It is set in the world of Koji Suzuki's *Ring*: a rumour about a cursed video that kills whoever watches it exactly one week later, students dying of heart failure, e-mail pals, a \"cursed homepage\" and the shadow of Sadako Yamamura. You read the story and pick what to say and do; your choices open different branches and endings over three chapters.\n\nThis patch translates it into English.\n\n**What is translated**\n\n- The whole story (about 4,300 screens of text), the choices, the menus, the save/delete dialogs and the staff roll labels.\n- The Japanese original shows the text vertically; the English is shown in horizontal lines with a new variable-width font, in the same window under the pictures.\n- Text drawn as pictures: the WonderGate dialogs (\"Connect?\", \"Connection failed.\"...) and the Japanese inside some scene pictures (the \"Suicide Diary\" web page, the mail program, a scream).\n- **WonderGate unlock:** the Mobile WonderGate service is long gone, but its content is in the game. The patch unlocks it: \"Bonus scenarios\" (an extra scenario, a different take on the first chapter) and \"Read mail\" (31 mails from other players, shown one after another each time you open it) appear in the title menu.\n- Names follow the official English editions of the Ring novels (Kodansha): Sadako Yamamura (never \"Samara\"), Shizuko Yamamura, Izu Oshima. Other names in …"
   }
  ]
 }

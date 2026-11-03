@@ -21,13 +21,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "7FFF2520",
    "target_crc32": "5DDD9353",
    "target_size": 1048576,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/ChouAniki_0.9/Chou%20Aniki%20-%20Otoko%20no%20Tamafuda%20%5BT-En%20v0.9%5D.bps",
    "sha256": "84e38abf4f4b2a8fffb5480bfb4d11c5d88a646c57dfae4bb60ac5a880cdde3b",
    "size": 162494,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ChouAniki_0.9"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ChouAniki_0.9",
+   "notes": "**Chou Aniki: Otoko no Tamafuda** (\"Man's Soul Cards\") is Masaya's 2000 card battle game for the WonderSwan, a spin-off of the Cho Aniki series, released only in Japan. Two years after Botei Bill was beaten, the Builder System is at peace again, until the Mighty Comet City Empire comes along its orbit to feed on the Aniki of every planet and steal their Protein. You pick your Aniki, travel from planet to planet, talk with the locals, build a 40-card deck and fight card battles with Protein, Love, World and Move cards. Yes, it is exactly as strange as it sounds.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI** (Claude and ChatGPT), as a personal project.\nI'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The story: the opening crawl, every conversation in the towns and on the planets, the scenes before and after the battles, the ending and the staff roll.\n* The battles: menus, all the messages (draws, Protein, damage, counters, bad status), the geta toss, the battle quotes of every character, win and lose messages.\n* The cards: names, info texts and short effects of the 200+ cards, and the card pictures with kanji (Sweat, Meat shield, Weapon, Throw).\n* The menus: game mode select, character select and profiles, field menu, …"
   }
  ],
  "produced_by": []

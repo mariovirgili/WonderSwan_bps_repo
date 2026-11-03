@@ -18,6 +18,7 @@
    "latest": false,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "00B31FBB",
    "target_crc32": "41BBECC4",
    "target_size": 2097152,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/Gand46/MakaiMura-EEPROM-Wonderswan-English-Translation-AI_GPT-/_files/eeprom-mod/original-jp/patches/Makaimura_Phase4_1E_r2_CUMULATIVO_ORIGINAL.bps",

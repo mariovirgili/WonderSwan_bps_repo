@@ -18,13 +18,15 @@
    "latest": false,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "F0ACDA5C",
    "target_crc32": "F50CD9E7",
    "target_size": 2097152,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/v0.9.1/SD%20Gundam%20-%20Operation%20U.C.%20%5BT-En%20v0.9%5D.bps",
    "sha256": "a8602c3030339574ea0e0f1151f0591108de92034b698f53c5eb9faf2b735952",
    "size": 92467,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9.1"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9.1",
+   "notes": "**SD Gundam: Operation U.C.** is a 2002 Bandai game for the WonderSwan Color that never left Japan. You play through the Universal Century with super-deformed mobile suits, across four story parts (Mobile Suit Gundam, Zeta Gundam, Gundam ZZ and Char's Counterattack) and 34 stages. There are 108 units, plus VS and Survival modes.\n\nThis patch translates it into English.\n\n**What's translated**\n\n* Story: all 39 story pages of the four parts, drawn by a new renderer with a variable-width font. Names stay highlighted in orange like in the original.\n* Stage title cards: all 34 episode titles (\"Atmospheric Entry\", \"Garma Strikes Out\", \"A Cosmic Glow\", \"Space Fortress A Baoa Qu\"...), redrawn in the original gradient style.\n* Menus: Mode Select (U.C. Mode, Continue, VS. Mode, Survival Mode, G Generation Pocket), the U.C. Mode series and play modes, VS/Survival headers, Stage Select (Land / Air / Space / Water) and Player 1 / Player 2 / Computer select.\n* All 108 unit names and the series lists.\n* The Continue? Yes/No screen, the G Generation Pocket link messages, and the unlock screens (\"A new mode was added!\", \"A new unit was added!\", CONGRATULATIONS!).\n* The title screen copyright line.\n\n**How to patch**\n\nApply the BPS to the Japanese ROM \"SD Gundam - Operation U.C. (Japan)\" (CRC32 F0ACDA5C) with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 F50CD9E7. It's a WonderSwan Color game, so keep the .wsc extension.\n\n**Download:** see attachment\n\n**Known issues**\n\n* Unit …"
   }
  ]
 }

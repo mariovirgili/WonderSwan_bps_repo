@@ -18,13 +18,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "9F6E3F8D",
    "target_crc32": "3C9812AC",
    "target_size": 4194304,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/v0.9.2/Meitantei%20Conan%20-%20Yuugure%20no%20Koujo%20%5BT-En%20v0.9.6%5D.bps",
    "sha256": "052bf7bb2eb729a512d865c06a5c15833ee3567ba1923cf7beaf646b51efaef9",
    "size": 549924,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9.2"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9.2",
+   "notes": "**Meitantei Conan: Yuugure no Koujo** (\"Princess of Twilight\") is a 2001 Bandai adventure game for the WonderSwan Color that never left Japan. You play as Conan with the Detective Boys, collect clues in the Detective Note, test theories with the O-X Tool, and there is also the \"Conan Notebook\", a small organizer with a calendar, friend profiles and a school timetable.\n\nThis patch translates it into English.\n\n**What's translated**\n\n* The whole script: story, all scenarios, the Puzzle Club logic puzzles, GRAY CAT / data-link chats, credits. It uses a variable-width font.\n* Detective Note, testimonies/hints, O-X Tool clues, item boxes, map location names, menus, save/erase dialogs, character database, card fortunes.\n* Name entry and registration: the labels and buttons are graphics, so I redrew them by hand. The keyboard now opens in ABC mode. Names typed in capitals show up in normal case in the story (\"CONAN\" becomes \"Conan\").\n* Conan Notebook: I redrew the menu labels, the JAN-DEC month plates, weekdays, buttons, the Stamp Select window, Friend Data, Timetable and Favorites pages in the original palettes.\n* The default cast and profiles are romanized.\n\n**How to patch**\n\nApply the BPS to the Japanese ROM (CRC32 9F6E3F8D) with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 CBC9077E. Play it in WonderSwan **Color** mode (keep the .wsc extension): the redrawn graphics only cover the color mode.\n\n**Download:** see attachment\n\n**Known issues**\n\n* A few graphics …"
   }
  ]
 }

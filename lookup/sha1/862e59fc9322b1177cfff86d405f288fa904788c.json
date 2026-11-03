@@ -22,13 +22,15 @@
    "latest": true,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "62CB398B",
    "target_crc32": "B1856A05",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Test/Riv0.9.9.bps",
    "sha256": "d2c2a65a9d02b06dee91d3a89a98cb4d6a7370eae2b57e4c046593423a463db7",
    "size": 688764,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test",
+   "notes": "Test site, nothing to see here...."
   },
   {
    "id": "1b8610909f815bf0",
@@ -40,13 +42,15 @@
    "latest": false,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "62CB398B",
    "target_crc32": "5A5EE34A",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Riviera_0.9/Riviera%20-%20Yakusoku%20no%20Chi%20Riviera%20%5BT-En%20v0.9%5D.bps",
    "sha256": "1b8610909f815bf062a5268eebeded7d72523e85c221d7e55f55d0fc1cc091c3",
    "size": 648472,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9",
+   "notes": "**Riviera - Yakusoku no Chi Riviera** is Sting's 2002 RPG for the WonderSwan Color, published by Bandai and released only in Japan. Most people know it from the later Game Boy Advance and PSP remakes, but it started on the WonderSwan Color. A thousand years after Ragnarok, the war between the gods of Asgard and the demons of Utgard, the Seven Magi send two Grim Angels, Ein and Ledah, to the island of Riviera to unleash Retribution, the hidden power of the gods, because the demons seem to be coming back. Ein loses his memory, wakes up in Elendia, a village of sprites, and goes on with Rose, his familiar, and the girls he meets there: Fia, Lina, Serene and Cierra.\n\nThis patch translates the WonderSwan Color original into English.\n\nv0.9.8 is another bug-fix update from u/LuminousCheshire  who replayed Chapter 2 with v0.9.7: thank you again for the reports, screenshots and saves!\n\nDownload FILE\n\n> **Please read:** this translation was made **entirely with AI** (Claude), as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: the story scenes of the eight chapters, the conversations, the narration, the chapter recaps that scroll at the end of a chapter, the field triggers (everything you can look at or do while exploring), the events and their …"
   },
   {
    "id": "06566acf74b5db1b",
@@ -58,13 +62,15 @@
    "latest": false,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "62CB398B",
    "target_crc32": "3ECE7405",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Riviera_0.9/Riviera%20-%20Yakusoku%20no%20Chi%20Riviera%20%5BT-En%20v0.9.8%5D.bps",
    "sha256": "06566acf74b5db1befd2194dd339bf73aec81ee4b224d35b4ed6335fc4bed20c",
    "size": 711581,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9",
+   "notes": "**Riviera - Yakusoku no Chi Riviera** is Sting's 2002 RPG for the WonderSwan Color, published by Bandai and released only in Japan. Most people know it from the later Game Boy Advance and PSP remakes, but it started on the WonderSwan Color. A thousand years after Ragnarok, the war between the gods of Asgard and the demons of Utgard, the Seven Magi send two Grim Angels, Ein and Ledah, to the island of Riviera to unleash Retribution, the hidden power of the gods, because the demons seem to be coming back. Ein loses his memory, wakes up in Elendia, a village of sprites, and goes on with Rose, his familiar, and the girls he meets there: Fia, Lina, Serene and Cierra.\n\nThis patch translates the WonderSwan Color original into English.\n\nv0.9.8 is another bug-fix update from u/LuminousCheshire  who replayed Chapter 2 with v0.9.7: thank you again for the reports, screenshots and saves!\n\nDownload FILE\n\n> **Please read:** this translation was made **entirely with AI** (Claude), as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: the story scenes of the eight chapters, the conversations, the narration, the chapter recaps that scroll at the end of a chapter, the field triggers (everything you can look at or do while exploring), the events and their …"
   },
   {
    "id": "975b1f93d81bdbbf",
@@ -76,13 +82,15 @@
    "latest": false,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "62CB398B",
    "target_crc32": "179CF58B",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Riviera_0.9/Riviera%20-%20Yakusoku%20no%20Chi%20Riviera%20%5BT-En%20v0.9.7%5D.bps",
    "sha256": "975b1f93d81bdbbfa8afb4949c9089122e4739ded7bfb29f5c379053ee9d15a1",
    "size": 710049,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9",
+   "notes": "**Riviera - Yakusoku no Chi Riviera** is Sting's 2002 RPG for the WonderSwan Color, published by Bandai and released only in Japan. Most people know it from the later Game Boy Advance and PSP remakes, but it started on the WonderSwan Color. A thousand years after Ragnarok, the war between the gods of Asgard and the demons of Utgard, the Seven Magi send two Grim Angels, Ein and Ledah, to the island of Riviera to unleash Retribution, the hidden power of the gods, because the demons seem to be coming back. Ein loses his memory, wakes up in Elendia, a village of sprites, and goes on with Rose, his familiar, and the girls he meets there: Fia, Lina, Serene and Cierra.\n\nThis patch translates the WonderSwan Color original into English.\n\nv0.9.8 is another bug-fix update from u/LuminousCheshire  who replayed Chapter 2 with v0.9.7: thank you again for the reports, screenshots and saves!\n\nDownload FILE\n\n> **Please read:** this translation was made **entirely with AI** (Claude), as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: the story scenes of the eight chapters, the conversations, the narration, the chapter recaps that scroll at the end of a chapter, the field triggers (everything you can look at or do while exploring), the events and their …"
   },
   {
    "id": "343789ff10fb3b0f",
@@ -94,13 +102,15 @@
    "latest": false,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "62CB398B",
    "target_crc32": "652E571D",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Riviera_0.9/Riviera%20-%20Yakusoku%20no%20Chi%20Riviera%20%5BT-En%20v0.9.6%5D.bps",
    "sha256": "343789ff10fb3b0f1d91670abdf1684d729f62ddbe6ae8db981134c5482342e3",
    "size": 687191,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9",
+   "notes": "**Riviera - Yakusoku no Chi Riviera** is Sting's 2002 RPG for the WonderSwan Color, published by Bandai and released only in Japan. Most people know it from the later Game Boy Advance and PSP remakes, but it started on the WonderSwan Color. A thousand years after Ragnarok, the war between the gods of Asgard and the demons of Utgard, the Seven Magi send two Grim Angels, Ein and Ledah, to the island of Riviera to unleash Retribution, the hidden power of the gods, because the demons seem to be coming back. Ein loses his memory, wakes up in Elendia, a village of sprites, and goes on with Rose, his familiar, and the girls he meets there: Fia, Lina, Serene and Cierra.\n\nThis patch translates the WonderSwan Color original into English.\n\nv0.9.8 is another bug-fix update from u/LuminousCheshire  who replayed Chapter 2 with v0.9.7: thank you again for the reports, screenshots and saves!\n\nDownload FILE\n\n> **Please read:** this translation was made **entirely with AI** (Claude), as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: the story scenes of the eight chapters, the conversations, the narration, the chapter recaps that scroll at the end of a chapter, the field triggers (everything you can look at or do while exploring), the events and their …"
   },
   {
    "id": "2963ac993769cc17",
@@ -112,13 +122,15 @@
    "latest": false,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "62CB398B",
    "target_crc32": "0B8DAAA4",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Riviera_0.9/Riviera%20-%20Yakusoku%20no%20Chi%20Riviera%20%5BT-En%20v0.9.5%5D.bps",
    "sha256": "2963ac993769cc17ea57f7e464511f4d2659482225fc34211e8ff0f5d0bafe50",
    "size": 687185,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9",
+   "notes": "**Riviera - Yakusoku no Chi Riviera** is Sting's 2002 RPG for the WonderSwan Color, published by Bandai and released only in Japan. Most people know it from the later Game Boy Advance and PSP remakes, but it started on the WonderSwan Color. A thousand years after Ragnarok, the war between the gods of Asgard and the demons of Utgard, the Seven Magi send two Grim Angels, Ein and Ledah, to the island of Riviera to unleash Retribution, the hidden power of the gods, because the demons seem to be coming back. Ein loses his memory, wakes up in Elendia, a village of sprites, and goes on with Rose, his familiar, and the girls he meets there: Fia, Lina, Serene and Cierra.\n\nThis patch translates the WonderSwan Color original into English.\n\nv0.9.8 is another bug-fix update from u/LuminousCheshire  who replayed Chapter 2 with v0.9.7: thank you again for the reports, screenshots and saves!\n\nDownload FILE\n\n> **Please read:** this translation was made **entirely with AI** (Claude), as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: the story scenes of the eight chapters, the conversations, the narration, the chapter recaps that scroll at the end of a chapter, the field triggers (everything you can look at or do while exploring), the events and their …"
   },
   {
    "id": "2bce0c28de24b6b9",
@@ -130,13 +142,15 @@
    "latest": false,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "62CB398B",
    "target_crc32": "B1478AA6",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Riviera_0.9/Riviera%20-%20Yakusoku%20no%20Chi%20Riviera%20%5BT-En%20v0.9.4%5D.bps",
    "sha256": "2bce0c28de24b6b9a8ffe18f8f09ddcaee8599b710ba0dab3a3c6ccb2185746b",
    "size": 710505,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9",
+   "notes": "**Riviera - Yakusoku no Chi Riviera** is Sting's 2002 RPG for the WonderSwan Color, published by Bandai and released only in Japan. Most people know it from the later Game Boy Advance and PSP remakes, but it started on the WonderSwan Color. A thousand years after Ragnarok, the war between the gods of Asgard and the demons of Utgard, the Seven Magi send two Grim Angels, Ein and Ledah, to the island of Riviera to unleash Retribution, the hidden power of the gods, because the demons seem to be coming back. Ein loses his memory, wakes up in Elendia, a village of sprites, and goes on with Rose, his familiar, and the girls he meets there: Fia, Lina, Serene and Cierra.\n\nThis patch translates the WonderSwan Color original into English.\n\nv0.9.8 is another bug-fix update from u/LuminousCheshire  who replayed Chapter 2 with v0.9.7: thank you again for the reports, screenshots and saves!\n\nDownload FILE\n\n> **Please read:** this translation was made **entirely with AI** (Claude), as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: the story scenes of the eight chapters, the conversations, the narration, the chapter recaps that scroll at the end of a chapter, the field triggers (everything you can look at or do while exploring), the events and their …"
   },
   {
    "id": "aa149b6b5a884fc0",
@@ -148,13 +162,15 @@
    "latest": false,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "62CB398B",
    "target_crc32": "BD9C7FF5",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Riviera_0.9/Riviera%20-%20Yakusoku%20no%20Chi%20Riviera%20%5BT-En%20v0.9.3%5D.bps",
    "sha256": "aa149b6b5a884fc0001ec06001139827750f062c8b511bcd26845a2336115bf6",
    "size": 710608,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9",
+   "notes": "**Riviera - Yakusoku no Chi Riviera** is Sting's 2002 RPG for the WonderSwan Color, published by Bandai and released only in Japan. Most people know it from the later Game Boy Advance and PSP remakes, but it started on the WonderSwan Color. A thousand years after Ragnarok, the war between the gods of Asgard and the demons of Utgard, the Seven Magi send two Grim Angels, Ein and Ledah, to the island of Riviera to unleash Retribution, the hidden power of the gods, because the demons seem to be coming back. Ein loses his memory, wakes up in Elendia, a village of sprites, and goes on with Rose, his familiar, and the girls he meets there: Fia, Lina, Serene and Cierra.\n\nThis patch translates the WonderSwan Color original into English.\n\nv0.9.8 is another bug-fix update from u/LuminousCheshire  who replayed Chapter 2 with v0.9.7: thank you again for the reports, screenshots and saves!\n\nDownload FILE\n\n> **Please read:** this translation was made **entirely with AI** (Claude), as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: the story scenes of the eight chapters, the conversations, the narration, the chapter recaps that scroll at the end of a chapter, the field triggers (everything you can look at or do while exploring), the events and their …"
   },
   {
    "id": "dc5b610fd1fa6275",
@@ -166,13 +182,15 @@
    "latest": false,
    "superseded": false,
    "format": "bps",
+   "source_crc32": "62CB398B",
    "target_crc32": "FDDD23E5",
    "target_size": 8388608,
    "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Riviera_0.9/Riviera%20-%20Yakusoku%20no%20Chi%20Riviera%20%5BT-En%20v0.9.2%5D.bps",
    "sha256": "dc5b610fd1fa6275e1574685a5a34dd06a6e9ed298eea5ac7a3572bb43faac18",
    "size": 675502,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9"
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9",
+   "notes": "**Riviera - Yakusoku no Chi Riviera** is Sting's 2002 RPG for the WonderSwan Color, published by Bandai and released only in Japan. Most people know it from the later Game Boy Advance and PSP remakes, but it started on the WonderSwan Color. A thousand years after Ragnarok, the war between the gods of Asgard and the demons of Utgard, the Seven Magi send two Grim Angels, Ein and Ledah, to the island of Riviera to unleash Retribution, the hidden power of the gods, because the demons seem to be coming back. Ein loses his memory, wakes up in Elendia, a village of sprites, and goes on with Rose, his familiar, and the girls he meets there: Fia, Lina, Serene and Cierra.\n\nThis patch translates the WonderSwan Color original into English.\n\nv0.9.8 is another bug-fix update from u/LuminousCheshire  who replayed Chapter 2 with v0.9.7: thank you again for the reports, screenshots and saves!\n\nDownload FILE\n\n> **Please read:** this translation was made **entirely with AI** (Claude), as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: the story scenes of the eight chapters, the conversations, the narration, the chapter recaps that scroll at the end of a chapter, the field triggers (everything you can look at or do while exploring), the events and their …"
   }
  ],
  "produced_by": []
