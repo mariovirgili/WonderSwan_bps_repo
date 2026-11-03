@@ -215,6 +215,12 @@ check(f["patches"][0]["variant"] == "patch_ITA" and f["patches"][0]["url"].start
 f = json.loads((work / "lookup/crc32/44444444.json").read_text())
 check(f["produced_by"] and f["patches"][0]["variant"].startswith("Densha_de_Go_2_EN_v0.4.21"), "patched ROM: what made it + incremental patches for it")
 check(not (work / "lookup/crc32/55555555.json").exists(), "excluded platforms not in the lookup")
+f = json.loads((work / "lookup/crc32/ABCD1234.json").read_text())
+note = f["patches"][0].get("notes", "")
+check(f["patches"][0].get("source_crc32") == "ABCD1234" and note.startswith("Apply to **Gioco Bello (Japan).wsc**") and "\n\n" in note,
+      "lookup entries carry the original ROM's CRC32 and the release notes")
+check(c.clean_notes("a ![img](x.png) [link](https://y) <b>bold</b>\r\n\n\n\nend") == "a  link bold\n\nend"
+      and c.clean_notes("w " * 1000).endswith(" …") and len(c.clean_notes("w " * 1000)) <= c.NOTES_MAX + 2, "release notes cleaned and trimmed")
 tl = (work / "TITLES.md").read_text()
 check("| WonderSwan | 3 | 1 (+1 ⚠️ another dump) |" in tl and "| WonderSwan Color | 1 | 1 |" in tl, "titles page: counts per system")
 check(any(l.startswith("| ✅ | **Densha de Go! 2 (Japan)**") for l in tl.splitlines()), "titles page: exact-ROM match marked ✅")

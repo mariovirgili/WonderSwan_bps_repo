@@ -867,6 +867,19 @@ ENTRY_ORDER = ["id", "game", "variant", "version", "language", "platform", "late
                "size", "sha256", "patch_crc32"]
 
 
+NOTES_MAX = 1500
+
+
+def clean_notes(text: str) -> str:
+    """Release notes as short plain text for the emulator's patch dialog: no images, HTML tags or link targets."""
+    t = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", text or "")          # images
+    t = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", t)               # [text](url) -> text
+    t = re.sub(r"<[^>]+>", "", t)                                   # HTML tags
+    t = re.sub(r"[ \t]+\n", "\n", t.replace("\r\n", "\n"))
+    t = re.sub(r"\n{3,}", "\n\n", t).strip()
+    return t if len(t) <= NOTES_MAX else t[:NOTES_MAX].rsplit(" ", 1)[0] + " …"
+
+
 def ordered(e: dict) -> dict:
     return {**{k: e[k] for k in ENTRY_ORDER if k in e}, **{k: v for k, v in e.items() if k not in ENTRY_ORDER}}
 
@@ -922,6 +935,12 @@ def main() -> int:
         if id(e) not in frozen:
             describe(e, notes.get(id(e), ""), src_of.get(e["origin"]["source"], {}).get("default_language"))
         e["first_seen"] = first_seen.get((e["sha256"], e["origin"].get("key"))) or e.get("first_seen") or today
+        if id(e) not in frozen and e["origin"].get("kind") == "release_asset":
+            note = clean_notes(notes.get(id(e), ""))
+            if note:
+                e["origin"]["release_notes"] = note
+            else:
+                e["origin"].pop("release_notes", None)
         if e["sha256"] in overrides:
             e.update({k: v for k, v in overrides[e["sha256"]].items() if k not in ("sha256", "path", "url")})
     kept, excluded = finalize(entries, platforms)
@@ -1141,9 +1160,11 @@ def write_lookup(entries: list[dict], titles: list[dict] | None = None) -> None:
             "language": e.get("language"), "platform": e.get("platform"), "latest": e.get("latest"),
             "superseded": e.get("superseded"), "format": e["format"],
             "requires_patched_rom": e.get("requires_patched_rom") or None,
+            "source_crc32": e.get("source_crc32"),
             "target_crc32": e.get("target_crc32"), "target_size": e.get("target_size"),
             "url": e["url"], "sha256": e["sha256"], "size": e["size"], "source": o["source"],
             "page": o.get("release_url") or o.get("file_url"),
+            "notes": o.get("release_notes"),
         }.items() if v is not None}
 
     for e in entries:
