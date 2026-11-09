@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/logo.png" alt="WonderSwan Translation Project" width="700"></p>
+
 # WonderSwan_bps_repo
 
 Mirror of WonderSwan / WonderSwan Color translation patches (`.bps` and `.ips`, English and other languages),
