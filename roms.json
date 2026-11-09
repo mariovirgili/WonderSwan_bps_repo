@@ -35,6 +35,34 @@
    ],
    "produced_by": []
   },
+  "009E038F": {
+   "crc32": "009E038F",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "d3c18404ac81a12e",
+     "game": "Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de",
+     "variant": "Gensou.Maden.Saiyuuki.Retribution.-.Hi.no.Ataru.Basho.de.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "446E2581",
+     "target_crc32": "009E038F",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/GensouMaden_0.9/Gensou.Maden.Saiyuuki.Retribution.-.Hi.no.Ataru.Basho.de.EN.v0.9.bps",
+     "sha256": "d3c18404ac81a12e92bbc05643599e1b3f1b3a7529369a2c5af626f474bc4bea",
+     "size": 122846,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/GensouMaden_0.9",
+     "notes": "**Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de** is a 2000 board and management game for the WonderSwan Color, based on Kazuya Minekura's *Saiyuki*. It was released only in Japan.\n\nSanzo's party has lost the Three Aspects' credit card and ran up a bill eating and fighting at an inn. To pay it off, they run festival food stalls for the four sisters who own the inn: Meifan, Loran, Liyi and Xiao. You pick a sister, roll dice on a town board, place signs that bring customers to the stalls, meet lucky and unlucky events and play Blackjack, until the debt is paid.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (Japan) (Rev 2).wsc* (2 MB, CRC32 446E2581) with Floating IPS, beat or ROM Patcher JS. The result is CRC32 009E038F; keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (EN v0.9).bps\" \"Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (Japan) (Rev 2).wsc\" \"Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (EN v0.9).wsc\"\n\nYou must provide your own copy of the original Japanese game to apply …"
+    }
+   ]
+  },
   "00B31FBB": {
    "crc32": "00B31FBB",
    "size": 2097152,
@@ -185,6 +213,39 @@
     }
    ]
   },
+  "067238D1": {
+   "crc32": "067238D1",
+   "size": 2097152,
+   "md5": "7209acaa3415a4f179ac17fd574453a6",
+   "sha1": "5384f9974c66e5e26129a4709976de0bb1ae1f17",
+   "names": [
+    "Dragon Ball (Japan)",
+    "Dragon Ball (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "27af3ec6372196ea",
+     "game": "Dragon Ball",
+     "variant": "Dragon.Ball.T-En.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "067238D1",
+     "target_crc32": "D0C03404",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DragonBall_0.9/Dragon.Ball.T-En.v0.9.bps",
+     "sha256": "27af3ec6372196ea5deec23d77c04ac864feb7d13f021fdc8acab2523c5028c0",
+     "size": 517105,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DragonBall_0.9",
+     "notes": "**Dragon Ball** is Bandai's 2003 WonderSwan Color game, released only in Japan. It retells the first Dragon Ball saga, from Goku meeting Bulma to King Piccolo, as a board game: you move along the map with cards, meet the characters of the series, and fight with a card system where stars, move types and numbers decide who hits. Master Roshi, Korin and Mr. Popo train you in the rules.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Dragon Ball (Japan)* (2 MB, CRC32 067238D1) with Floating IPS, beat or ROM Patcher JS. Result: 4 MB, CRC32 D0C03404. Keep the .wsc extension.\n\nYou must provide your own copy of the original Japanese game to apply it.\n\n**How it was made**\n\n* **Claude** found the game's one-byte text encoding, its message tables and its text renderer, extracted all 2,466 messages (story, battles, card training, menus, names, places, commands, staff roll) and translated everything directly from the Japanese. Names follow the anime's English dub.\n* **Claude** also did all the ROM hacking: an English font with two letters in each 8-pixel cell (all capitals, for readability), automatic line breaks and pages, names and numbers …"
+    }
+   ],
+   "produced_by": []
+  },
   "06D88203": {
    "crc32": "06D88203",
    "size": 4194304,
@@ -229,6 +290,34 @@
     }
    ],
    "produced_by": []
+  },
+  "06E84F5E": {
+   "crc32": "06E84F5E",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "19f7718b49573fe9",
+     "game": "Kaze no Klonoa: Moonlight Museum",
+     "variant": "Kaze.no.Klonoa.-.Moonlight.Museum.Japan.4.colours.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": false,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "80C6EF12",
+     "target_crc32": "06E84F5E",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Klonoa_MM_0.9/Kaze.no.Klonoa.-.Moonlight.Museum.Japan.4.colours.EN.v0.9.bps",
+     "sha256": "19f7718b49573fe960c9c1a59ad36146321ff210bcc62c5c4708fc411f414cfa",
+     "size": 109385,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Klonoa_MM_0.9",
+     "notes": "This release contains two editions:\n\n* **4-colour edition v0.9** (normal and ALL CAPS): the translated game in the WonderSwan Color 4-colour mode.\n* **16-colour edition (beta, TEST v39, English v0.8)**: every Vision repainted in the 16-colour mode, 4 MB ROM.\n\nKlonoa's only WonderSwan adventure, *Kaze no Klonoa: Moonlight Museum* (Namco, 1999), was a black-and-white game. This patch turns it into a **WonderSwan Color game** and adds a **brand-new English translation**.\n\nThe translation was made **from scratch**, directly from the Japanese ROM. An English fan translation of this game already exists. This is an independent new translation that does not use or reuse any of that existing work.\n\nThe colorization, the translation and the ROM hacking were done entirely by Claude (Anthropic's AI); /u/Gio-74 only did the final check. It is an AI-only project made for personal use and shared here as is.\n\n### What's in it\n\n**Colorization (4 colours per palette, WonderSwan Color mode)**\n- Each of the 30 Visions has its own colour set. The palettes follow *Klonoa: Empire of Dreams* (GBA): Klonoa with a blue cap, white gloves and a navy body, pink hearts, a deeper blue sky.\n- Tiles that the original game draws with several palettes were matched across tile borders, so objects don't break into coloured blocks.\n- The HUD bar has one uniform background colour.\n- The namco logo at start-up is shown in red.\n- Menus, story scenes and the staff roll use one soft blue tint.\n\n**English …"
+    }
+   ]
   },
   "08C0247B": {
    "crc32": "08C0247B",
@@ -347,12 +436,12 @@
    "produced_by": [
     {
      "id": "a805471859c5fb77",
-     "game": "Digimon Tamers - Digimon Medley",
+     "game": "Digimon Tamers: Digimon Medley",
      "variant": "Digimon.Tamers.-.Digimon.Medley.T-En.v0.9",
      "version": "0.9",
      "language": "en",
      "platform": "wonderswan",
-     "latest": true,
+     "latest": false,
      "superseded": false,
      "format": "bps",
      "source_crc32": "84A46949",
@@ -482,23 +571,23 @@
      "page": "https://github.com/Gand46/StarHearts-Wonderswan-English-Translation-AI_GPT/blob/main/patches/F37/StarHearts_EN_phase13BG_F37_CUMULATIVE_FROM_JP.bps"
     },
     {
-     "id": "dbe13d64e82c7dfb",
+     "id": "308fda32e60d4f2b",
      "game": "Star Hearts: Hoshi to Daichi no Shisha",
-     "variant": "star-hearts-en-1.1",
-     "version": "1.1",
+     "variant": "star-hearts-en-1.2",
+     "version": "1.2",
      "language": "en",
      "platform": "wonderswan_color",
      "latest": true,
      "superseded": false,
      "format": "bps",
      "source_crc32": "138D1018",
-     "target_crc32": "C2F3CCBD",
+     "target_crc32": "DCAAFE90",
      "target_size": 8388608,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/star-hearts-v1.1/star-hearts-en-1.1.bps",
-     "sha256": "dbe13d64e82c7dfb22e358e5d8592a7f87d93fc2c2789c973f659a47aef78863",
-     "size": 1053509,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/star-hearts-v1.2/star-hearts-en-1.2.bps",
+     "sha256": "308fda32e60d4f2b9c089152119325369d3a6075f75f26559f565c569c8d4655",
+     "size": 1054346,
      "source": "PokemonGoDB/wonderswan-english-patches",
-     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/star-hearts-v1.1",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/star-hearts-v1.2",
      "notes": "**Star Hearts: Hoshi to Daichi no Shisha** (スターハーツ ～星と大地の使者～, \"Star Hearts: Messenger of the Stars and the Earth\") is Bandai's 2001 action RPG for the WonderSwan Color, released only in Japan. You play the child of Inde Village's chief, sent out on the day you come of age to free the land's spirits and fairies from the Evil Emperor Zorg. It is a top-down adventure with magic, animal abilities, weapon \"Arts\", charms you fit to your gear, a pet that hatches from a meteorite egg and fights other players' pets over the link cable, and an online bazaar on Bandai's WonderGate service.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: every story event, the fairy and creature scenes, the narrated prologue and the ending.\n* Every menu: magic, animal abilities, weapons and armor with their charms, Talismans, Amulets, equipment items, key items, events, status, the fairy list, the Arts list, options and the e-Pet screen; item, spell and Arts names and descriptions; shops and the smith.\n* Everything drawn as a picture: the title, the …"
     },
     {
@@ -554,6 +643,26 @@
      "size": 649180,
      "source": "Gand46/StarHearts-Wonderswan-English-Translation-AI_GPT",
      "page": "https://github.com/Gand46/StarHearts-Wonderswan-English-Translation-AI_GPT/blob/main/qa/history/F36/reference_patch/StarHearts_EN_phase13BG_F36_CUMULATIVE_FROM_JP.bps"
+    },
+    {
+     "id": "dbe13d64e82c7dfb",
+     "game": "Star Hearts: Hoshi to Daichi no Shisha",
+     "variant": "star-hearts-en-1.1",
+     "version": "1.1",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": false,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "138D1018",
+     "target_crc32": "C2F3CCBD",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/star-hearts-v1.1/star-hearts-en-1.1.bps",
+     "sha256": "dbe13d64e82c7dfb22e358e5d8592a7f87d93fc2c2789c973f659a47aef78863",
+     "size": 1053509,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/star-hearts-v1.1",
+     "notes": "**Star Hearts: Hoshi to Daichi no Shisha** (スターハーツ ～星と大地の使者～, \"Star Hearts: Messenger of the Stars and the Earth\") is Bandai's 2001 action RPG for the WonderSwan Color, released only in Japan. You play the child of Inde Village's chief, sent out on the day you come of age to free the land's spirits and fairies from the Evil Emperor Zorg. It is a top-down adventure with magic, animal abilities, weapon \"Arts\", charms you fit to your gear, a pet that hatches from a meteorite egg and fights other players' pets over the link cable, and an online bazaar on Bandai's WonderGate service.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: every story event, the fairy and creature scenes, the narrated prologue and the ending.\n* Every menu: magic, animal abilities, weapons and armor with their charms, Talismans, Amulets, equipment items, key items, events, status, the fairy list, the Arts list, options and the e-Pet screen; item, spell and Arts names and descriptions; shops and the smith.\n* Everything drawn as a picture: the title, the …"
     },
     {
      "id": "c8a960ea1dca403c",
@@ -1834,6 +1943,39 @@
     }
    ]
   },
+  "31E09BED": {
+   "crc32": "31E09BED",
+   "size": 4194304,
+   "md5": "6c1b75de270e7e96df161833a5522b7d",
+   "sha1": "2e3f221d6965f53b29586d2019ee81dec6d1ac30",
+   "names": [
+    "Hanjuku Hero - Ah, Sekai yo Hanjuku Nare...!! (Japan) (Rev 1)",
+    "Hanjuku Hero - Ah, Sekai yo Hanjuku Nare...!! (Japan) (Rev 1).wsc"
+   ],
+   "patches": [
+    {
+     "id": "d9d86b04d9630bff",
+     "game": "Hanjuku Hero: Ah, Sekai yo Hanjuku Nare...!!",
+     "variant": "Hanjuku.Hero.-.Ah.Sekai.yo.Hanjuku.Nare.T-En.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "31E09BED",
+     "target_crc32": "8084D4AF",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/HanjukuHero_0.9/Hanjuku.Hero.-.Ah.Sekai.yo.Hanjuku.Nare.T-En.v0.9.bps",
+     "sha256": "d9d86b04d9630bffec83ab330d4e4cc1c24c850ee72020ea09927c610c2d7541",
+     "size": 220324,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HanjukuHero_0.9",
+     "notes": "**Hanjuku Hero: Ah, Sekai yo Hanjuku Nare...!!** is Square's 2002 WonderSwan Color remake of Hanjuku Hero (\"Soft-Boiled Hero\"), released only in Japan. You are the young lord of Almamoon: you manage castles, money and troops, hire generals and send them into real-time battles, where Egg Monsters hatched from magic eggs turn the fight. It is a comedy from start to finish: puns, parodies and a Minister who never stops complaining.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Hanjuku Hero - Ah, Sekai yo Hanjuku Nare...!! (Japan) (Rev 1)* (4 MB, CRC32 31E09BED) with Floating IPS, beat or ROM Patcher JS. Result: 4 MB, CRC32 8084D4AF. Keep the .wsc extension.\n\nYou must provide your own copy of the original Japanese game to apply it.\n\n**How it was made**\n\n* **Claude** found the game's font, text routine and script interpreter, extracted the whole script (3,876 lines: story, battles, menus, generals, Egg Monsters, trump cards, items, castles, the staff roll) and translated everything directly from the Japanese, rewriting the puns as English puns. Names and terms follow the complete English fan translation of the Super Famicom …"
+    }
+   ],
+   "produced_by": []
+  },
   "31F0D8F8": {
    "crc32": "31F0D8F8",
    "size": 1048576,
@@ -1946,6 +2088,34 @@
      "size": 649180,
      "source": "Gand46/StarHearts-Wonderswan-English-Translation-AI_GPT",
      "page": "https://github.com/Gand46/StarHearts-Wonderswan-English-Translation-AI_GPT/blob/main/qa/history/F36/reference_patch/StarHearts_EN_phase13BG_F36_CUMULATIVE_FROM_JP.bps"
+    }
+   ]
+  },
+  "33054FE3": {
+   "crc32": "33054FE3",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "20c69fbb5e3395f2",
+     "game": "Digimon Tamers: Digimon Medley",
+     "variant": "Digimon.Tamers.-.Digimon.Medley.EN.v0.9.2",
+     "version": "0.9.2",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "84A46949",
+     "target_crc32": "33054FE3",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DigimonMedley_0.9.2/Digimon.Tamers.-.Digimon.Medley.EN.v0.9.2.bps",
+     "sha256": "20c69fbb5e3395f2d4d1db941eabb73af3303e07e4f2345276f1d159eeb99af0",
+     "size": 332165,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DigimonMedley_0.9.2",
+     "notes": "**Digimon Tamers: Digimon Medley** is Bandai's 2001 Digimon game for the WonderSwan Color, released only in Japan. Impmon has kidnapped Calumon, and Takato, Rika or Henry chase him with their partner through the stories of Digimon Adventure and Digimon Adventure 02, episode by episode, teaming up with the kids of those series. Battles are short minigames.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\n* **Claude** found the game's text formats in the ROM, extracted every Japanese text (3,483 entries) and translated it directly from the Japanese of the WonderSwan Color game, keeping the same meaning and tone.\n* **ChatGPT** reviewed it line by line against the Japanese (meaning, tone, names, English) and proposed 30 changes; **Claude** checked every suggestion again against the Japanese and the game and applied 23 of them.\n* For v0.9.2, **ChatGPT** reviewed the whole script again against the Japanese, in 25 blocks; **Claude** checked each suggestion and updated 126 dialogue texts.\n* **Claude** also did all the ROM hacking (text engine, font, text insertion, graphics) and the emulator tests; /u/Gio-74 did only a final check.\n\n**Tools**\n\n* Claude (Anthropic): …"
     }
    ]
   },
@@ -2265,13 +2435,53 @@
    ],
    "patches": [
     {
+     "id": "daa25201265df953",
+     "game": "Bakusou Dekotora Densetsu for WonderSwan",
+     "variant": "dekotora-en-1.2",
+     "version": "1.2",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "392DD813",
+     "target_crc32": "53BF9C12",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/dekotora-v1.2/dekotora-en-1.2.bps",
+     "sha256": "daa25201265df953e9d4c60c93b377f506e9fb8a5baac42eb834e782ae3e2a0b",
+     "size": 138077,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dekotora-v1.2",
+     "notes": "**Bakusou Dekotora Densetsu for WonderSwan** (爆走デコトラ伝説) is KID and Kaga Tech's 1999 trucking-and-racing game about *dekotora*, Japan's lit-up, chrome-covered decorated trucks, released only in Japan for the original (monochrome) WonderSwan. You play a young trucker who left his hometown girlfriend Yukie with a promise: he'll become Japan's No. 1 trucker and come back for her. You haul cargo between 20 cities, race rival truckers over the CB radio for their parts and their money (BP), climb a ladder of expressway bosses all the way to Hokkaido, and tune and decorate your truck. Along the way you meet six women, and at the end you choose where to go. It's earnest, corny, hot-blooded melodrama with plenty of trash talk, and nobody in it is subtle. That's the charm.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script, about 4,900 lines: the story, every rival trucker's challenge and taunts, the six women's stories and the endings, jobs and cargo, shops, parts, and the CB radio chatter.\n* Menus, the name entry (an English letter grid), race HUD labels and the song lines shown …"
+    },
+    {
+     "id": "ac061cfda65dd061",
+     "game": "Bakusou Dekotora Densetsu for WonderSwan",
+     "variant": "dekotora-en-special-1.2",
+     "version": "1.2",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "392DD813",
+     "target_crc32": "7B5D5B73",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/dekotora-v1.2/dekotora-en-special-1.2.bps",
+     "sha256": "ac061cfda65dd0618c2698da7ab70f8f465ee4f7850610176a26a93a264d8a10",
+     "size": 138109,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dekotora-v1.2",
+     "notes": "**Bakusou Dekotora Densetsu for WonderSwan** (爆走デコトラ伝説) is KID and Kaga Tech's 1999 trucking-and-racing game about *dekotora*, Japan's lit-up, chrome-covered decorated trucks, released only in Japan for the original (monochrome) WonderSwan. You play a young trucker who left his hometown girlfriend Yukie with a promise: he'll become Japan's No. 1 trucker and come back for her. You haul cargo between 20 cities, race rival truckers over the CB radio for their parts and their money (BP), climb a ladder of expressway bosses all the way to Hokkaido, and tune and decorate your truck. Along the way you meet six women, and at the end you choose where to go. It's earnest, corny, hot-blooded melodrama with plenty of trash talk, and nobody in it is subtle. That's the charm.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script, about 4,900 lines: the story, every rival trucker's challenge and taunts, the six women's stories and the endings, jobs and cargo, shops, parts, and the CB radio chatter.\n* Menus, the name entry (an English letter grid), race HUD labels and the song lines shown …"
+    },
+    {
      "id": "15a50c2585c7ce18",
      "game": "Bakusou Dekotora Densetsu for WonderSwan",
      "variant": "dekotora-en-1.1",
      "version": "1.1",
      "language": "en",
      "platform": "wonderswan",
-     "latest": true,
+     "latest": false,
      "superseded": false,
      "format": "bps",
      "source_crc32": "392DD813",
@@ -2291,7 +2501,7 @@
      "version": "1.1",
      "language": "en",
      "platform": "wonderswan",
-     "latest": true,
+     "latest": false,
      "superseded": false,
      "format": "bps",
      "source_crc32": "392DD813",
@@ -2877,6 +3087,94 @@
     }
    ]
   },
+  "446E2581": {
+   "crc32": "446E2581",
+   "size": 2097152,
+   "md5": "cdbcacff7dd0348beffb1e228592e2e1",
+   "sha1": "adbe6e38a0bc6a2d19da64a444071977b771f14f",
+   "names": [
+    "Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (Japan) (Rev 2).wsc"
+   ],
+   "patches": [
+    {
+     "id": "d3c18404ac81a12e",
+     "game": "Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de",
+     "variant": "Gensou.Maden.Saiyuuki.Retribution.-.Hi.no.Ataru.Basho.de.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "446E2581",
+     "target_crc32": "009E038F",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/GensouMaden_0.9/Gensou.Maden.Saiyuuki.Retribution.-.Hi.no.Ataru.Basho.de.EN.v0.9.bps",
+     "sha256": "d3c18404ac81a12e92bbc05643599e1b3f1b3a7529369a2c5af626f474bc4bea",
+     "size": 122846,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/GensouMaden_0.9",
+     "notes": "**Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de** is a 2000 board and management game for the WonderSwan Color, based on Kazuya Minekura's *Saiyuki*. It was released only in Japan.\n\nSanzo's party has lost the Three Aspects' credit card and ran up a bill eating and fighting at an inn. To pay it off, they run festival food stalls for the four sisters who own the inn: Meifan, Loran, Liyi and Xiao. You pick a sister, roll dice on a town board, place signs that bring customers to the stalls, meet lucky and unlucky events and play Blackjack, until the debt is paid.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (Japan) (Rev 2).wsc* (2 MB, CRC32 446E2581) with Floating IPS, beat or ROM Patcher JS. The result is CRC32 009E038F; keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (EN v0.9).bps\" \"Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (Japan) (Rev 2).wsc\" \"Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (EN v0.9).wsc\"\n\nYou must provide your own copy of the original Japanese game to apply …"
+    }
+   ],
+   "produced_by": []
+  },
+  "45966D6B": {
+   "crc32": "45966D6B",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "a5e3a04db3d1f025",
+     "game": "Giren no Yabou Tokubetsu Hen: Aoki Hoshi no Hasha",
+     "variant": "Giren.no.Yabou.-.Aoki.Hoshi.no.Hasha.English.v0.9.ALL.CAPS",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "D4061551",
+     "target_crc32": "45966D6B",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Giren_0.9/Giren.no.Yabou.-.Aoki.Hoshi.no.Hasha.English.v0.9.ALL.CAPS.bps",
+     "sha256": "a5e3a04db3d1f0256c269026258e30e4dfec56312f976d1b4a12f1163b4a428e",
+     "size": 414357,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Giren_0.9",
+     "notes": "Gihren's Greed on the WonderSwan Color is now playable in English. Pick Garma Zabi or M'Quve, lead the Earth Attack Force through the One Year War, win the Staff Meeting debates against your rival commanders, and fight it out on the tactical battle maps.\n\nThis translation was made only with AI, for personal use, and is shared as is. Please don't upload it to romhacking sites: it's not worthy of them, since it's an AI translation and not a human one.\n\n**Screenshots** (gallery, in order)\n\n1. Opening narration\n2. Character select\n3. Gihren's briefing\n4. Strategy Phase banner\n5. Federation turn: \"Planning\"\n6. A proposal to the Staff Meeting\n7. Staff Meeting opinion list (Views / Zeal / Clout)\n8. Debate pop-up: \"STIR!\"\n9. Vote: \"VOTE / PASS\"\n10. Main command menu (Talks / Military / Propose / Intel)\n11. Unit formation (Main / Unformed, R M F grid)\n12. Talks: request for reinforcements\n13. Sortie: \"Battle Area\"\n14. Tactical battle unit menu (Move / Attack / Seize / Form / Status)\n15. Battle summary (VS screen)\n16. Battle result: \"DEFENSE WON\"\n17. Intel: weapon data and terrain aptitude\n18. Ending narration\n19. Epilogue\n20. Staff credits\n\n**What's translated**\n\n* The whole script: about 18,800 lines (opening narration, briefings, every Staff Meeting proposal and debate, events, endings, staff credits).\n* All menus, commands, stats, ranks, character, mobile suit, ship and weapon names, and proposal titles.\n* Graphics: character select, Strategy Phase and faction banners and headers, …"
+    }
+   ]
+  },
+  "45BA9049": {
+   "crc32": "45BA9049",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "fd43eaf7508cf75e",
+     "game": "Tetsujin 28 Gou",
+     "variant": "Tetsujin.28.Gou.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "6F304DCA",
+     "target_crc32": "45BA9049",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Tetsujin28_0.9/Tetsujin.28.Gou.EN.v0.9.bps",
+     "sha256": "fd43eaf7508cf75e353763d2e8d967d84b86fbcd0dc26d71b8d9221581bdb1a1",
+     "size": 97228,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Tetsujin28_0.9",
+     "notes": "**Tetsujin 28 Gou** is a 1999 WonderSwan game by MegaHouse based on Mitsuteru Yokoyama's Tetsujin 28 (known in the West as Gigantor). It was released only in Japan.\n\nYoung detective Shotaro Kaneda inherits the giant robot built by his late father. With Dr. Shikishima and Chief Otsuka he learns to pilot Tetsujin by remote control and takes on a string of robot crimes, from runaway express trains to an underground Robot Empire. Battles are fought with button combinations on the remote.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Tetsujin 28 Gou (Japan).ws* (4 MB, CRC32 6F304DCA) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB, CRC32 45BA9049; keep the .ws extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Tetsujin 28 Gou (EN v0.9).bps\" \"Tetsujin 28 Gou (Japan).ws\" \"Tetsujin 28 Gou (EN v0.9).ws\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**What is translated**\n\n* The whole script, 242 messages: story, tutorials, every case, choices and save messages.\n* The title menu buttons (NEW GAME / …"
+    }
+   ]
+  },
   "4883A851": {
    "crc32": "4883A851",
    "size": 2097152,
@@ -2997,7 +3295,7 @@
    "produced_by": [
     {
      "id": "1ae7933065bc0246",
-     "game": "Densha de Go 2",
+     "game": "Densha de Go! 2",
      "variant": "Densha_de_Go_2_EN_v0.4.19_ORIGINAL_TITLE_CUMULATIVE",
      "version": "0.4.19",
      "language": "en",
@@ -3491,6 +3789,34 @@
     }
    ]
   },
+  "53BF9C12": {
+   "crc32": "53BF9C12",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "daa25201265df953",
+     "game": "Bakusou Dekotora Densetsu for WonderSwan",
+     "variant": "dekotora-en-1.2",
+     "version": "1.2",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "392DD813",
+     "target_crc32": "53BF9C12",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/dekotora-v1.2/dekotora-en-1.2.bps",
+     "sha256": "daa25201265df953e9d4c60c93b377f506e9fb8a5baac42eb834e782ae3e2a0b",
+     "size": 138077,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dekotora-v1.2",
+     "notes": "**Bakusou Dekotora Densetsu for WonderSwan** (爆走デコトラ伝説) is KID and Kaga Tech's 1999 trucking-and-racing game about *dekotora*, Japan's lit-up, chrome-covered decorated trucks, released only in Japan for the original (monochrome) WonderSwan. You play a young trucker who left his hometown girlfriend Yukie with a promise: he'll become Japan's No. 1 trucker and come back for her. You haul cargo between 20 cities, race rival truckers over the CB radio for their parts and their money (BP), climb a ladder of expressway bosses all the way to Hokkaido, and tune and decorate your truck. Along the way you meet six women, and at the end you choose where to go. It's earnest, corny, hot-blooded melodrama with plenty of trash talk, and nobody in it is subtle. That's the charm.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script, about 4,900 lines: the story, every rival trucker's challenge and taunts, the six women's stories and the endings, jobs and cargo, shops, parts, and the CB radio chatter.\n* Menus, the name entry (an English letter grid), race HUD labels and the song lines shown …"
+    }
+   ]
+  },
   "53CEAD54": {
    "crc32": "53CEAD54",
    "size": 1048576,
@@ -3556,13 +3882,33 @@
    ],
    "patches": [
     {
+     "id": "07f0aa76490978a9",
+     "game": "Chou Denki Card Battle: Youfu Makai",
+     "variant": "youfu-makai-en-1.1",
+     "version": "1.1",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "56E2C069",
+     "target_crc32": "93B9E8EC",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/youfu-makai-v1.1/youfu-makai-en-1.1.bps",
+     "sha256": "07f0aa76490978a9edf6856a241a7d76cf9ca19dab7439b411f63cf143ac1322",
+     "size": 734829,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.1",
+     "notes": "**Chou Denki Card Battle: Youfu Makai** (超伝奇カードバトル 妖符魔界) is a 1999 card battle game from Kobunsha and Kappa Games for the original (monochrome) WonderSwan, released only in Japan. The scenario is by Hideyuki Kikuchi (*Vampire Hunter D*, *Demon City Shinjuku*) and the art by Ayami Kojima. It's set in Kikuchi's Demon City Shinjuku, and its story runs in three parts, told as illustrated pages of prose between battles with Demon Cards. You build a 30-card deck, lay cards on a field where each card's arrows set the direction it attacks, and win by covering the field with your own cards.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole story, all three parts (Crimson Lotus, Cursed Cards, Fusion), as horizontal English prose in place of the vertical Japanese.\n* Every card name, and the descriptions of all 200 cards in the Card Craft card view (press the Y pad left or right on the deck screen).\n* The menus (Scenario, Those in the Way, Worthy Rival, Card Craft...), the deck rules, the battle screens, and the save and erase prompts.\n* Graphics: the title logo becomes YOUFU MAKAI with …"
+    },
+    {
      "id": "49cd0e809434ff7a",
      "game": "Chou Denki Card Battle: Youfu Makai",
      "variant": "youfu-makai-en-1.0",
      "version": "1.0",
      "language": "en",
      "platform": "wonderswan",
-     "latest": true,
+     "latest": false,
      "superseded": false,
      "format": "bps",
      "source_crc32": "56E2C069",
@@ -3633,6 +3979,39 @@
      "notes": "**Final Fantasy IV** for the WonderSwan Color is Square's 2002 version of the classic, released only in Japan. Cecil, Dark Knight and captain of Baron's Red Wings, begins to doubt the king he serves, and sets out on the journey that will make him a Paladin.\n\nThis patch translates it into English.\n\n**Download:** [link]\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\n* **Claude** translated it directly from the Japanese text of the WonderSwan Color version. It is a new translation, not the SNES, GBA or Pixel Remaster script pasted in.\n* **ChatGPT** then reviewed it line by line (meaning, tone and official names), and Claude applied the accepted corrections to the ROM.\n\n> **About the names:** names and terms follow the **official English localization by Square Enix**: the **Pixel Remaster** first, then the GBA/PSP versions (Cecil, Kain, Rosa, Rydia, Edward, Yang, Palom, Porom, Edge, FuSoYa, Golbez, Red Wings, Land of Summons, Elemental Lords, Lunar Whale, Manor of Prayers...). Some of them don't match a literal reading of the Japanese (for example ギルバート is \"Edward\"). **This is intentional:** they are Square Enix's choices, not mine. Only terms with no official English were translated from the …"
     }
    ]
+  },
+  "5793BDDA": {
+   "crc32": "5793BDDA",
+   "size": 4194304,
+   "md5": "9f612c697b72b2d5e87776edd95de077",
+   "sha1": "dd1878279a6667fb66dd1ac44a2cdb9a5acbe415",
+   "names": [
+    "Uchuu Senkan Yamato (Japan)",
+    "Uchuu Senkan Yamato (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "b9a22f1617470bb4",
+     "game": "Uchuu Senkan Yamato",
+     "variant": "Uchuu.Senkan.Yamato.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "5793BDDA",
+     "target_crc32": "ECB9D7B5",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/UchuuSenkanYamato_0.9/Uchuu.Senkan.Yamato.EN.v0.9.bps",
+     "sha256": "b9a22f1617470bb46f0fb8322996914de999875cc496c789a512b2dfe137f8b1",
+     "size": 444453,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/UchuuSenkanYamato_0.9",
+     "notes": "**Uchuu Senkan Yamato** is Bandai's 2001 Space Battleship Yamato game for the WonderSwan Color. It was released only in Japan. The game follows the Yamato's voyage from the dying Earth to Iscandar, as in the original anime: story scenes with Kodai, Okita, Yuki and the crew alternate with turn-based battles on hex maps against the Gamilas fleets.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Uchuu Senkan Yamato (Japan)* (4 MB, CRC32 5793BDDA) with Floating IPS, beat or ROM Patcher JS. The result is CRC32 ECB9D7B5. Keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Uchuu Senkan Yamato (EN v0.9).bps\" \"Uchuu Senkan Yamato (Japan).wsc\" \"Uchuu Senkan Yamato (EN v0.9).wsc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\n**How it was made**\n\n* **Claude** found the game's script interpreter and message blocks. It extracted all 1,489 messages (8,865 pages) and 846 menu strings, names and labels, and translated everything directly from the Japanese. Names follow the original Japanese series: Kodai, Yuki, Okita, Desslar, Gamilas, Iscandar.\n* **Claude** also did all the ROM …"
+    }
+   ],
+   "produced_by": []
   },
   "5795C7E3": {
    "crc32": "5795C7E3",
@@ -4216,6 +4595,38 @@
    ],
    "produced_by": []
   },
+  "62D419CD": {
+   "crc32": "62D419CD",
+   "size": 4194304,
+   "md5": "694042e6f8eaa2423693c0a9bba8aef0",
+   "sha1": "211e051db3fd4d7ae1ea143e043f87cfbcec5f1c",
+   "names": [
+    "Macross - True Love Song (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "e53ad6c54ec898d2",
+     "game": "Macross - True Love Song",
+     "variant": "Macross.-.True.Love.Song.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "62D419CD",
+     "target_crc32": "ED5AEB47",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MacrossTLS_0.9/Macross.-.True.Love.Song.EN.v0.9.bps",
+     "sha256": "e53ad6c54ec898d242b4453c1d4da41accb0369abac85624993b38a4969323b5",
+     "size": 318616,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MacrossTLS_0.9",
+     "notes": "**Macross - True Love Song** is a 2000 WonderSwan game by Upstar, published by Layup. It was released only in Japan.\n\nIn 2043 the colony ship Odin IV is flung into deep space by a fold accident. Trainee pilot Reiji Starling is drafted early into the Gray Wolves squadron. Each week you plan his schedule: simulator drills in Fighter, GERWALK and Battroid modes, workouts, patrols against the Zentradi, and free days around the ship with Mio, Elena and Mana. It's part dating sim, part Valkyrie battle game, with several endings.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Macross - True Love Song (Japan).ws* (4 MB, CRC32 62D419CD) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB, CRC32 ED5AEB47; keep the .ws extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Macross - True Love Song (EN v0.9).bps\" \"Macross - True Love Song (Japan).ws\" \"Macross - True Love Song (EN v0.9).ws\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**What is translated**\n\n* The whole script: 4,980 text boxes (story, dates, …"
+    }
+   ],
+   "produced_by": []
+  },
   "63BC5043": {
    "crc32": "63BC5043",
    "size": 1048576,
@@ -4333,6 +4744,34 @@
     }
    ]
   },
+  "6BF51472": {
+   "crc32": "6BF51472",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "cded6a6d99af3879",
+     "game": "Kaze no Klonoa: Moonlight Museum",
+     "variant": "Kaze.no.Klonoa.-.Moonlight.Museum.Japan.4.colours.EN.v0.9.ALL.CAPS",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": false,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "80C6EF12",
+     "target_crc32": "6BF51472",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Klonoa_MM_0.9/Kaze.no.Klonoa.-.Moonlight.Museum.Japan.4.colours.EN.v0.9.ALL.CAPS.bps",
+     "sha256": "cded6a6d99af38795ff47eacf7decbc3cf1b1f511e18c92a988630b4587ffcb4",
+     "size": 111607,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Klonoa_MM_0.9",
+     "notes": "This release contains two editions:\n\n* **4-colour edition v0.9** (normal and ALL CAPS): the translated game in the WonderSwan Color 4-colour mode.\n* **16-colour edition (beta, TEST v39, English v0.8)**: every Vision repainted in the 16-colour mode, 4 MB ROM.\n\nKlonoa's only WonderSwan adventure, *Kaze no Klonoa: Moonlight Museum* (Namco, 1999), was a black-and-white game. This patch turns it into a **WonderSwan Color game** and adds a **brand-new English translation**.\n\nThe translation was made **from scratch**, directly from the Japanese ROM. An English fan translation of this game already exists. This is an independent new translation that does not use or reuse any of that existing work.\n\nThe colorization, the translation and the ROM hacking were done entirely by Claude (Anthropic's AI); /u/Gio-74 only did the final check. It is an AI-only project made for personal use and shared here as is.\n\n### What's in it\n\n**Colorization (4 colours per palette, WonderSwan Color mode)**\n- Each of the 30 Visions has its own colour set. The palettes follow *Klonoa: Empire of Dreams* (GBA): Klonoa with a blue cap, white gloves and a navy body, pink hearts, a deeper blue sky.\n- Tiles that the original game draws with several palettes were matched across tile borders, so objects don't break into coloured blocks.\n- The HUD bar has one uniform background colour.\n- The namco logo at start-up is shown in red.\n- Menus, story scenes and the staff roll use one soft blue tint.\n\n**English …"
+    }
+   ]
+  },
   "6CD1411E": {
    "crc32": "6CD1411E",
    "size": 524288,
@@ -4359,6 +4798,38 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gomoku-reversi-v1.0",
      "notes": "**Gomoku Narabe & Reversi: Touryuumon** (五目並べ&リバーシ 登龍門) is a 2000 WonderSwan (monochrome) board-game cartridge by Sammy, released only in Japan. It holds two classic games against the computer: **Gomoku** (five in a row on a 15x15 board, with free rules or tournament **Renju** rules, where Black is barred from overlines, double threes and double fours and can start from any of the 24 standard Renju openings) and **Reversi** (with six starting layouts). Each has three levels, a Free Match, a Tournament against nine computer opponents in a row with an ending for clearing it, and a 2P Match over the link cable. *Touryuumon* (登龍門, the \"dragon gate\") means a gateway to success. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\nEvery word in this game is a picture, so everything was redrawn in English:\n\n* The title logo (GOMOKU & REVERSI over TORYUMON) and the menu logo drawn in stones.\n* The main menu (Free Match, Tournament, 2P Match, Settings), Match Setup (rules, level, side, Renju opening, Reversi layout) and Settings.\n* All 24 Renju opening names and …"
+    }
+   ],
+   "produced_by": []
+  },
+  "6F304DCA": {
+   "crc32": "6F304DCA",
+   "size": 4194304,
+   "md5": "8b8ea655dbea4a3152b300126556404c",
+   "sha1": "65c4c6aaa36328bba5d56419af59af5d3420ed78",
+   "names": [
+    "Tetsujin 28 Gou (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "fd43eaf7508cf75e",
+     "game": "Tetsujin 28 Gou",
+     "variant": "Tetsujin.28.Gou.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "6F304DCA",
+     "target_crc32": "45BA9049",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Tetsujin28_0.9/Tetsujin.28.Gou.EN.v0.9.bps",
+     "sha256": "fd43eaf7508cf75e353763d2e8d967d84b86fbcd0dc26d71b8d9221581bdb1a1",
+     "size": 97228,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Tetsujin28_0.9",
+     "notes": "**Tetsujin 28 Gou** is a 1999 WonderSwan game by MegaHouse based on Mitsuteru Yokoyama's Tetsujin 28 (known in the West as Gigantor). It was released only in Japan.\n\nYoung detective Shotaro Kaneda inherits the giant robot built by his late father. With Dr. Shikishima and Chief Otsuka he learns to pilot Tetsujin by remote control and takes on a string of robot crimes, from runaway express trains to an underground Robot Empire. Battles are fought with button combinations on the remote.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Tetsujin 28 Gou (Japan).ws* (4 MB, CRC32 6F304DCA) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB, CRC32 45BA9049; keep the .ws extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Tetsujin 28 Gou (EN v0.9).bps\" \"Tetsujin 28 Gou (Japan).ws\" \"Tetsujin 28 Gou (EN v0.9).ws\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**What is translated**\n\n* The whole script, 242 messages: story, tutorials, every case, choices and save messages.\n* The title menu buttons (NEW GAME / …"
     }
    ],
    "produced_by": []
@@ -4408,6 +4879,34 @@
     }
    ]
   },
+  "702EB1E3": {
+   "crc32": "702EB1E3",
+   "size": 8388608,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "ad1bdc0d6d68121f",
+     "game": "SD Gundam G Generation - Mono-Eye Gundams",
+     "variant": "SD.Gundam.G.Generation.-.Mono-Eye.Gundams.EN.v0.9.1",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "A3ECC9AC",
+     "target_crc32": "702EB1E3",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MonoEyeGundams_0.9.1/SD.Gundam.G.Generation.-.Mono-Eye.Gundams.EN.v0.9.1.bps",
+     "sha256": "ad1bdc0d6d68121ffbb834a2d400f9c30d0879bc724dc1e97989b616e6d9d448",
+     "size": 557890,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MonoEyeGundams_0.9.1",
+     "notes": "**SD Gundam G Generation: Mono-Eye Gundams** is a 2002 WonderSwan Color strategy game by Bandai. It was released only in Japan.\n\nSig Wedner, a young Zeon pilot of the Vrahd Squadron, fights from the end of the One Year War to the Gryps War, in the game's own story of Serein Experi and Ein Lewi, while the battles mix units and pilots from the whole Gundam series (0079, 0080, 0083, Zeta, ZZ, Char's Counterattack, G, W, X, Turn A, Crossbone and more).\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *SD Gundam G Generation - Mono-Eye Gundams (Japan) (Rev 2).wsc* (8 MB, CRC32 A3ECC9AC) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB, CRC32 702EB1E3; keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"SD Gundam G Generation - Mono-Eye Gundams (EN v0.9.1).bps\" \"SD Gundam G Generation - Mono-Eye Gundams (Japan) (Rev 2).wsc\" \"SD Gundam G Generation - Mono-Eye Gundams (EN v0.9.1).wsc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**What is translated**\n\n* The whole story script: 10,350 …"
+    }
+   ]
+  },
   "70AA800E": {
    "crc32": "70AA800E",
    "size": 4194304,
@@ -4440,6 +4939,62 @@
     }
    ],
    "produced_by": []
+  },
+  "72AFDE86": {
+   "crc32": "72AFDE86",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "880bb03a36a54f5a",
+     "game": "Namco Super Wars",
+     "variant": "Namco.Super.Wars.T-En.v0.9.1.All.Caps",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "8CE4652F",
+     "target_crc32": "72AFDE86",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/NamcoSuperWars_0.9.1/Namco.Super.Wars.T-En.v0.9.1.All.Caps.bps",
+     "sha256": "880bb03a36a54f5a7dc9b09db9c4c7ad7e32cb598dde9a04dbeca59bf0df4004",
+     "size": 347325,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/NamcoSuperWars_0.9.1",
+     "notes": "**Namco Super Wars** is Bandai's 2002 tactical RPG for the WonderSwan Color, released only in Japan. It's a crossover of classic Namco games: a hero chosen by the goddess Gajes travels through the Tepota Arch to the worlds of Valkyrie, The Tower of Druaga, Dragon Spirit, Dragon Valor, Genpei Toma Den and more, recruiting their heroes (Valkyrie, Gil, Ki, Amul, Clovis, Kagekiyo, Bravoman, Wonder Momo, Mappy, Dig Dug, Pac-Man...) to close the Gate of the Great Calamity.\n\nThis patch translates it into English. There are two editions with the same translation: the normal one (mixed case) and an **All Caps** edition, where every text, from dialogue to menus and battle messages, is in capitals.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps of the edition you prefer to *Namco Super Wars (Japan)* (2 MB, CRC32 8CE4652F) with Floating IPS, beat or ROM Patcher JS. Result: 4 MB, CRC32 9A5A3C21 (normal) or 72AFDE86 (All Caps). Keep the .wsc extension.\n\nYou must provide your own copy of the original Japanese game to apply it.\n\n**How it was made**\n\n* **Claude** read the game's font to build the character table, found the message engine and extracted the whole script (459 messages, …"
+    }
+   ]
+  },
+  "72BAE9AE": {
+   "crc32": "72BAE9AE",
+   "size": 1048576,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "4199048fcd75a719",
+     "game": "Puzzle Bobble",
+     "variant": "Puzzle.Bobble.Japan.T-En.v0.9.5.16.colours",
+     "version": "0.9.5.16",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "F504CD84",
+     "target_crc32": "72BAE9AE",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/PuzzleBobble_0.9.5/Puzzle.Bobble.Japan.T-En.v0.9.5.16.colours.bps",
+     "sha256": "4199048fcd75a719f2903d1b29e063bf8ab78ed4fd1e12fa8ead29198bc79307",
+     "size": 320767,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuzzleBobble_0.9.5",
+     "notes": "**Puzzle Bobble** is Sunsoft's 1999 port of Taito's bubble shooter for the original black-and-white WonderSwan, released only in Japan. It has 1 Player rounds, Versus (computer or link cable), an endless Challenge mode, records and options.\n\nThis patch translates all of its menus and screens into English **and turns it into a WonderSwan Color game**, in two versions:\n\n* **16 colours:** the whole game runs in the console's 16-colour mode: the title logo, Bub (green) and Bob (blue), the character portraits (every Versus opponent in its own colours) and the game over screen are recoloured in the style of the arcade game, the Taito logo follows the official one, the playfield gets a carved stone frame and a dark blue checkerboard with soft shadows, the menus a tiled blue background, the ROUND box a maroon panel with a gold frame, and during play every bubble has its own colour (with a light spot and a soft shadow).\n* **4 colours:** every screen is in colour, but the game keeps its original four shades per palette: bubbles share one hue and are told apart by their patterns, closer to the original art.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the two .bps files to *Puzzle …"
+    }
+   ]
   },
   "76D6F197": {
    "crc32": "76D6F197",
@@ -4570,6 +5125,34 @@
      "size": 31015,
      "source": "Gand46/MakaiMura-EEPROM-Wonderswan-English-Translation-AI_GPT-",
      "page": "https://github.com/Gand46/MakaiMura-EEPROM-Wonderswan-English-Translation-AI_GPT-/blob/main/eeprom-mod/hf20-compatible/patches/Makaimura_HF20_EEPROM_v1_FROM_JP.bps"
+    }
+   ]
+  },
+  "7B5D5B73": {
+   "crc32": "7B5D5B73",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "ac061cfda65dd061",
+     "game": "Bakusou Dekotora Densetsu for WonderSwan",
+     "variant": "dekotora-en-special-1.2",
+     "version": "1.2",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "392DD813",
+     "target_crc32": "7B5D5B73",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/dekotora-v1.2/dekotora-en-special-1.2.bps",
+     "sha256": "ac061cfda65dd0618c2698da7ab70f8f465ee4f7850610176a26a93a264d8a10",
+     "size": 138109,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dekotora-v1.2",
+     "notes": "**Bakusou Dekotora Densetsu for WonderSwan** (爆走デコトラ伝説) is KID and Kaga Tech's 1999 trucking-and-racing game about *dekotora*, Japan's lit-up, chrome-covered decorated trucks, released only in Japan for the original (monochrome) WonderSwan. You play a young trucker who left his hometown girlfriend Yukie with a promise: he'll become Japan's No. 1 trucker and come back for her. You haul cargo between 20 cities, race rival truckers over the CB radio for their parts and their money (BP), climb a ladder of expressway bosses all the way to Hokkaido, and tune and decorate your truck. Along the way you meet six women, and at the end you choose where to go. It's earnest, corny, hot-blooded melodrama with plenty of trash talk, and nobody in it is subtle. That's the charm.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script, about 4,900 lines: the story, every rival trucker's challenge and taunts, the six women's stories and the endings, jobs and cargo, shops, parts, and the CB radio chatter.\n* Menus, the name entry (an English letter grid), race HUD labels and the song lines shown …"
     }
    ]
   },
@@ -4781,6 +5364,107 @@
    ],
    "produced_by": []
   },
+  "8084D4AF": {
+   "crc32": "8084D4AF",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "d9d86b04d9630bff",
+     "game": "Hanjuku Hero: Ah, Sekai yo Hanjuku Nare...!!",
+     "variant": "Hanjuku.Hero.-.Ah.Sekai.yo.Hanjuku.Nare.T-En.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "31E09BED",
+     "target_crc32": "8084D4AF",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/HanjukuHero_0.9/Hanjuku.Hero.-.Ah.Sekai.yo.Hanjuku.Nare.T-En.v0.9.bps",
+     "sha256": "d9d86b04d9630bffec83ab330d4e4cc1c24c850ee72020ea09927c610c2d7541",
+     "size": 220324,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HanjukuHero_0.9",
+     "notes": "**Hanjuku Hero: Ah, Sekai yo Hanjuku Nare...!!** is Square's 2002 WonderSwan Color remake of Hanjuku Hero (\"Soft-Boiled Hero\"), released only in Japan. You are the young lord of Almamoon: you manage castles, money and troops, hire generals and send them into real-time battles, where Egg Monsters hatched from magic eggs turn the fight. It is a comedy from start to finish: puns, parodies and a Minister who never stops complaining.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Hanjuku Hero - Ah, Sekai yo Hanjuku Nare...!! (Japan) (Rev 1)* (4 MB, CRC32 31E09BED) with Floating IPS, beat or ROM Patcher JS. Result: 4 MB, CRC32 8084D4AF. Keep the .wsc extension.\n\nYou must provide your own copy of the original Japanese game to apply it.\n\n**How it was made**\n\n* **Claude** found the game's font, text routine and script interpreter, extracted the whole script (3,876 lines: story, battles, menus, generals, Egg Monsters, trump cards, items, castles, the staff roll) and translated everything directly from the Japanese, rewriting the puns as English puns. Names and terms follow the complete English fan translation of the Super Famicom …"
+    }
+   ]
+  },
+  "80C6EF12": {
+   "crc32": "80C6EF12",
+   "size": 1048576,
+   "md5": "5e907dd88b3cfb2855a18fb1bf689860",
+   "sha1": "207a3ceb9a09eabca6e455deeb7035e7e04c9795",
+   "names": [
+    "Kaze no Klonoa - Moonlight Museum (Japan).ws",
+    "Kaze no Klonoa: Moonlight Museum (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "728b1299aec5f1b0",
+     "game": "Kaze no Klonoa: Moonlight Museum",
+     "variant": "Kaze.no.Klonoa.-.Moonlight.Museum.Japan.16.colours.TEST.v39.4MB.EN.v0.8",
+     "version": "39.4M",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "80C6EF12",
+     "target_crc32": "9DA4DC24",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Klonoa_MM_0.9/Kaze.no.Klonoa.-.Moonlight.Museum.Japan.16.colours.TEST.v39.4MB.EN.v0.8.bps",
+     "sha256": "728b1299aec5f1b04f9f4fafb52ce044394f094823866958d109ac69d5fe127d",
+     "size": 1175947,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Klonoa_MM_0.9",
+     "notes": "This release contains two editions:\n\n* **4-colour edition v0.9** (normal and ALL CAPS): the translated game in the WonderSwan Color 4-colour mode.\n* **16-colour edition (beta, TEST v39, English v0.8)**: every Vision repainted in the 16-colour mode, 4 MB ROM.\n\nKlonoa's only WonderSwan adventure, *Kaze no Klonoa: Moonlight Museum* (Namco, 1999), was a black-and-white game. This patch turns it into a **WonderSwan Color game** and adds a **brand-new English translation**.\n\nThe translation was made **from scratch**, directly from the Japanese ROM. An English fan translation of this game already exists. This is an independent new translation that does not use or reuse any of that existing work.\n\nThe colorization, the translation and the ROM hacking were done entirely by Claude (Anthropic's AI); /u/Gio-74 only did the final check. It is an AI-only project made for personal use and shared here as is.\n\n### What's in it\n\n**Colorization (4 colours per palette, WonderSwan Color mode)**\n- Each of the 30 Visions has its own colour set. The palettes follow *Klonoa: Empire of Dreams* (GBA): Klonoa with a blue cap, white gloves and a navy body, pink hearts, a deeper blue sky.\n- Tiles that the original game draws with several palettes were matched across tile borders, so objects don't break into coloured blocks.\n- The HUD bar has one uniform background colour.\n- The namco logo at start-up is shown in red.\n- Menus, story scenes and the staff roll use one soft blue tint.\n\n**English …"
+    },
+    {
+     "id": "19f7718b49573fe9",
+     "game": "Kaze no Klonoa: Moonlight Museum",
+     "variant": "Kaze.no.Klonoa.-.Moonlight.Museum.Japan.4.colours.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": false,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "80C6EF12",
+     "target_crc32": "06E84F5E",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Klonoa_MM_0.9/Kaze.no.Klonoa.-.Moonlight.Museum.Japan.4.colours.EN.v0.9.bps",
+     "sha256": "19f7718b49573fe960c9c1a59ad36146321ff210bcc62c5c4708fc411f414cfa",
+     "size": 109385,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Klonoa_MM_0.9",
+     "notes": "This release contains two editions:\n\n* **4-colour edition v0.9** (normal and ALL CAPS): the translated game in the WonderSwan Color 4-colour mode.\n* **16-colour edition (beta, TEST v39, English v0.8)**: every Vision repainted in the 16-colour mode, 4 MB ROM.\n\nKlonoa's only WonderSwan adventure, *Kaze no Klonoa: Moonlight Museum* (Namco, 1999), was a black-and-white game. This patch turns it into a **WonderSwan Color game** and adds a **brand-new English translation**.\n\nThe translation was made **from scratch**, directly from the Japanese ROM. An English fan translation of this game already exists. This is an independent new translation that does not use or reuse any of that existing work.\n\nThe colorization, the translation and the ROM hacking were done entirely by Claude (Anthropic's AI); /u/Gio-74 only did the final check. It is an AI-only project made for personal use and shared here as is.\n\n### What's in it\n\n**Colorization (4 colours per palette, WonderSwan Color mode)**\n- Each of the 30 Visions has its own colour set. The palettes follow *Klonoa: Empire of Dreams* (GBA): Klonoa with a blue cap, white gloves and a navy body, pink hearts, a deeper blue sky.\n- Tiles that the original game draws with several palettes were matched across tile borders, so objects don't break into coloured blocks.\n- The HUD bar has one uniform background colour.\n- The namco logo at start-up is shown in red.\n- Menus, story scenes and the staff roll use one soft blue tint.\n\n**English …"
+    },
+    {
+     "id": "cded6a6d99af3879",
+     "game": "Kaze no Klonoa: Moonlight Museum",
+     "variant": "Kaze.no.Klonoa.-.Moonlight.Museum.Japan.4.colours.EN.v0.9.ALL.CAPS",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": false,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "80C6EF12",
+     "target_crc32": "6BF51472",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Klonoa_MM_0.9/Kaze.no.Klonoa.-.Moonlight.Museum.Japan.4.colours.EN.v0.9.ALL.CAPS.bps",
+     "sha256": "cded6a6d99af38795ff47eacf7decbc3cf1b1f511e18c92a988630b4587ffcb4",
+     "size": 111607,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Klonoa_MM_0.9",
+     "notes": "This release contains two editions:\n\n* **4-colour edition v0.9** (normal and ALL CAPS): the translated game in the WonderSwan Color 4-colour mode.\n* **16-colour edition (beta, TEST v39, English v0.8)**: every Vision repainted in the 16-colour mode, 4 MB ROM.\n\nKlonoa's only WonderSwan adventure, *Kaze no Klonoa: Moonlight Museum* (Namco, 1999), was a black-and-white game. This patch turns it into a **WonderSwan Color game** and adds a **brand-new English translation**.\n\nThe translation was made **from scratch**, directly from the Japanese ROM. An English fan translation of this game already exists. This is an independent new translation that does not use or reuse any of that existing work.\n\nThe colorization, the translation and the ROM hacking were done entirely by Claude (Anthropic's AI); /u/Gio-74 only did the final check. It is an AI-only project made for personal use and shared here as is.\n\n### What's in it\n\n**Colorization (4 colours per palette, WonderSwan Color mode)**\n- Each of the 30 Visions has its own colour set. The palettes follow *Klonoa: Empire of Dreams* (GBA): Klonoa with a blue cap, white gloves and a navy body, pink hearts, a deeper blue sky.\n- Tiles that the original game draws with several palettes were matched across tile borders, so objects don't break into coloured blocks.\n- The HUD bar has one uniform background colour.\n- The namco logo at start-up is shown in red.\n- Menus, story scenes and the staff roll use one soft blue tint.\n\n**English …"
+    }
+   ],
+   "produced_by": []
+  },
   "80D995EA": {
    "crc32": "80D995EA",
    "size": 2097152,
@@ -4854,7 +5538,7 @@
      "version": "1.1",
      "language": "en",
      "platform": "wonderswan",
-     "latest": true,
+     "latest": false,
      "superseded": false,
      "format": "bps",
      "source_crc32": "392DD813",
@@ -4869,23 +5553,72 @@
     }
    ]
   },
+  "84588AC8": {
+   "crc32": "84588AC8",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "cf023cfc693b8484",
+     "game": "Final Fantasy II",
+     "variant": "Final.Fantasy.II.T-En.v0.9.2.Big.Caps",
+     "version": "0.9.2",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "F09E752F",
+     "target_crc32": "84588AC8",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFII_0.9.2/Final.Fantasy.II.T-En.v0.9.2.Big.Caps.bps",
+     "sha256": "cf023cfc693b84849f5e050e5a23b1e110279568692f28a5d2b14274c365211d",
+     "size": 157256,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFII_0.9.2",
+     "notes": "**Final Fantasy II** for the WonderSwan Color is Square's 2001 remake of the second Final Fantasy, released only in Japan. The Palamecian Empire has summoned monsters from the Underworld to conquer the world, and Firion, Maria and Guy, who lost their parents when the Empire attacked Fynn, join Princess Hilda's rebels.\n\n**Why a new translation?**\nThe WonderSwan Color Final Fantasy II was never released outside Japan. The only English patch for it so far, RPGOne’s “Stage 1” v0.97 from 2002, was never finished. Its script was adapted from Neo Demiforce’s translation of the NES version rather than translated from this one, the intro was left in Japanese, and its own readme lists the battle menus and the shop Yes/No as not displaying correctly. The planned full “Stage 2” never came out. The official English releases (Origins, Dawn of Souls, PSP, Pixel Remaster) are other remakes, and each adapts the script and the names differently: the same town is Altair, the same spell is Life or something else, depending on which version you played.\n\nSo this translation starts again from the Japanese text of the WonderSwan Color ROM, and the whole game is in English: dialogue, keywords, menus, battle text, the demo captions and the graphics. For names, the rule is simple.\nSquare Enix’s official English is kept wherever it matches the Japanese (Firion, Maria, Guy, Minwu, Hilda, Palamecia, Wild Rose, Mythril...). Where every English release changed the name, the form faithful to the Japanese is …"
+    }
+   ]
+  },
   "84A46949": {
    "crc32": "84A46949",
    "size": 4194304,
    "md5": "367e9ef3630061fdf91a2110911611a7",
    "sha1": "6c5a2dc7e231ebd278fe22bb7f01b1a7cc3785d6",
    "names": [
+    "Digimon Tamers - Digimon Medley (Japan) (Rev 1)",
     "Digimon Tamers - Digimon Medley (Japan) (Rev 1).wsc"
    ],
    "patches": [
     {
+     "id": "20c69fbb5e3395f2",
+     "game": "Digimon Tamers: Digimon Medley",
+     "variant": "Digimon.Tamers.-.Digimon.Medley.EN.v0.9.2",
+     "version": "0.9.2",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "84A46949",
+     "target_crc32": "33054FE3",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DigimonMedley_0.9.2/Digimon.Tamers.-.Digimon.Medley.EN.v0.9.2.bps",
+     "sha256": "20c69fbb5e3395f2d4d1db941eabb73af3303e07e4f2345276f1d159eeb99af0",
+     "size": 332165,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DigimonMedley_0.9.2",
+     "notes": "**Digimon Tamers: Digimon Medley** is Bandai's 2001 Digimon game for the WonderSwan Color, released only in Japan. Impmon has kidnapped Calumon, and Takato, Rika or Henry chase him with their partner through the stories of Digimon Adventure and Digimon Adventure 02, episode by episode, teaming up with the kids of those series. Battles are short minigames.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\n* **Claude** found the game's text formats in the ROM, extracted every Japanese text (3,483 entries) and translated it directly from the Japanese of the WonderSwan Color game, keeping the same meaning and tone.\n* **ChatGPT** reviewed it line by line against the Japanese (meaning, tone, names, English) and proposed 30 changes; **Claude** checked every suggestion again against the Japanese and the game and applied 23 of them.\n* For v0.9.2, **ChatGPT** reviewed the whole script again against the Japanese, in 25 blocks; **Claude** checked each suggestion and updated 126 dialogue texts.\n* **Claude** also did all the ROM hacking (text engine, font, text insertion, graphics) and the emulator tests; /u/Gio-74 did only a final check.\n\n**Tools**\n\n* Claude (Anthropic): …"
+    },
+    {
      "id": "a805471859c5fb77",
-     "game": "Digimon Tamers - Digimon Medley",
+     "game": "Digimon Tamers: Digimon Medley",
      "variant": "Digimon.Tamers.-.Digimon.Medley.T-En.v0.9",
      "version": "0.9",
      "language": "en",
      "platform": "wonderswan",
-     "latest": true,
+     "latest": false,
      "superseded": false,
      "format": "bps",
      "source_crc32": "84A46949",
@@ -4928,6 +5661,59 @@
      "notes": "**Ring Infinity** is a horror sound novel released only in Japan by Kadokawa Shoten and Bandai for the WonderSwan in August 2000. It is set in the world of Koji Suzuki's *Ring*: a rumour about a cursed video that kills whoever watches it exactly one week later, students dying of heart failure, e-mail pals, a \"cursed homepage\" and the shadow of Sadako Yamamura. You read the story and pick what to say and do; your choices open different branches and endings over three chapters.\n\nThis patch translates it into English.\n\n**What is translated**\n\n- The whole story (about 4,300 screens of text), the choices, the menus, the save/delete dialogs and the staff roll labels.\n- The Japanese original shows the text vertically; the English is shown in horizontal lines with a new variable-width font, in the same window under the pictures.\n- Text drawn as pictures: the WonderGate dialogs (\"Connect?\", \"Connection failed.\"...) and the Japanese inside some scene pictures (the \"Suicide Diary\" web page, the mail program, a scream).\n- **WonderGate unlock:** the Mobile WonderGate service is long gone, but its content is in the game. The patch unlocks it: \"Bonus scenarios\" (an extra scenario, a different take on the first chapter) and \"Read mail\" (31 mails from other players, shown one after another each time you open it) appear in the title menu.\n- Names follow the official English editions of the Ring novels (Kodansha): Sadako Yamamura (never \"Samara\"), Shizuko Yamamura, Izu Oshima. Other names in …"
     }
    ]
+  },
+  "8655269E": {
+   "crc32": "8655269E",
+   "size": 1048576,
+   "md5": "496100bcd73fbfa39e473c6ddee190b2",
+   "sha1": "4a756dab81e0101475dc2e5494270f3df7dac1e6",
+   "names": [
+    "Side Pocket for WonderSwan (Japan)",
+    "Side Pocket for WonderSwan (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "fa75b0234972c56f",
+     "game": "Side Pocket for WonderSwan",
+     "variant": "Side.Pocket.for.WonderSwan.Color.EN.v0.9.1",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "8655269E",
+     "target_crc32": "B6B60B95",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SidePocket_0.9.1/Side.Pocket.for.WonderSwan.Color.EN.v0.9.1.bps",
+     "sha256": "fa75b0234972c56f54c613a723a75d6c2de54e5c42977773d84f05730e42db57",
+     "size": 1135869,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SidePocket_0.9.1",
+     "notes": "**Side Pocket for WonderSwan** is Data East's 1999 pool game for the WonderSwan. It was released only in Japan, and only in black and white. It has three modes:\n\n* **Hustler:** pick one of four players and win a tournament against the others and a pro. Every player has their own lines and ending.\n* **Versus:** nine ball or Pocket Game.\n* **Technique:** shows how spin moves the ball.\n\nThis release has two patches for the same Japanese ROM:\n\n* **English v0.9.1**, black and white like the original. It fixes the menu labels' shadows, which kept the shape of the Japanese words.\n* **English v0.9.1 Color**, a 16-colour version for the WonderSwan Color and SwanCrystal. It colours the green felt and wooden rails, and gives each ball its own colour. The title, menus, character select, every portrait and the dialogue screens are in colour too, as are results and continue, the endings, the technique screen and the table banners. Gameplay is unchanged.\n\n> **Please read:** this translation and the colour version were made **entirely with AI**, as a personal project. They are shared as they are for anyone who wants to play, but they must **never be uploaded to romhacking sites** (romhacking.net and the like). They aren't up to the standard of a real fan translation and don't belong there.\n\n**Images**\n\n**How to patch**\n\nApply a .bps to *Side Pocket for WonderSwan (Japan)* (1 MB, CRC32 8655269E) with Floating IPS, beat or ROM Patcher JS.\n\n* English v0.9.1: the result is CRC32 8C660676. Keep …"
+    },
+    {
+     "id": "8e46872e1f48c3f0",
+     "game": "Side Pocket for WonderSwan",
+     "variant": "Side.Pocket.for.WonderSwan.EN.v0.9.1",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "8655269E",
+     "target_crc32": "8C660676",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SidePocket_0.9.1/Side.Pocket.for.WonderSwan.EN.v0.9.1.bps",
+     "sha256": "8e46872e1f48c3f0ea7b6600388b4d31c388c288b9bfa91a48e13d61b0894670",
+     "size": 24296,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SidePocket_0.9.1",
+     "notes": "**Side Pocket for WonderSwan** is Data East's 1999 pool game for the WonderSwan. It was released only in Japan, and only in black and white. It has three modes:\n\n* **Hustler:** pick one of four players and win a tournament against the others and a pro. Every player has their own lines and ending.\n* **Versus:** nine ball or Pocket Game.\n* **Technique:** shows how spin moves the ball.\n\nThis release has two patches for the same Japanese ROM:\n\n* **English v0.9.1**, black and white like the original. It fixes the menu labels' shadows, which kept the shape of the Japanese words.\n* **English v0.9.1 Color**, a 16-colour version for the WonderSwan Color and SwanCrystal. It colours the green felt and wooden rails, and gives each ball its own colour. The title, menus, character select, every portrait and the dialogue screens are in colour too, as are results and continue, the endings, the technique screen and the table banners. Gameplay is unchanged.\n\n> **Please read:** this translation and the colour version were made **entirely with AI**, as a personal project. They are shared as they are for anyone who wants to play, but they must **never be uploaded to romhacking sites** (romhacking.net and the like). They aren't up to the standard of a real fan translation and don't belong there.\n\n**Images**\n\n**How to patch**\n\nApply a .bps to *Side Pocket for WonderSwan (Japan)* (1 MB, CRC32 8655269E) with Floating IPS, beat or ROM Patcher JS.\n\n* English v0.9.1: the result is CRC32 8C660676. Keep …"
+    }
+   ],
+   "produced_by": []
   },
   "867EFFF0": {
    "crc32": "867EFFF0",
@@ -5147,6 +5933,87 @@
    ],
    "produced_by": []
   },
+  "8C660676": {
+   "crc32": "8C660676",
+   "size": 1048576,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "8e46872e1f48c3f0",
+     "game": "Side Pocket for WonderSwan",
+     "variant": "Side.Pocket.for.WonderSwan.EN.v0.9.1",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "8655269E",
+     "target_crc32": "8C660676",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SidePocket_0.9.1/Side.Pocket.for.WonderSwan.EN.v0.9.1.bps",
+     "sha256": "8e46872e1f48c3f0ea7b6600388b4d31c388c288b9bfa91a48e13d61b0894670",
+     "size": 24296,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SidePocket_0.9.1",
+     "notes": "**Side Pocket for WonderSwan** is Data East's 1999 pool game for the WonderSwan. It was released only in Japan, and only in black and white. It has three modes:\n\n* **Hustler:** pick one of four players and win a tournament against the others and a pro. Every player has their own lines and ending.\n* **Versus:** nine ball or Pocket Game.\n* **Technique:** shows how spin moves the ball.\n\nThis release has two patches for the same Japanese ROM:\n\n* **English v0.9.1**, black and white like the original. It fixes the menu labels' shadows, which kept the shape of the Japanese words.\n* **English v0.9.1 Color**, a 16-colour version for the WonderSwan Color and SwanCrystal. It colours the green felt and wooden rails, and gives each ball its own colour. The title, menus, character select, every portrait and the dialogue screens are in colour too, as are results and continue, the endings, the technique screen and the table banners. Gameplay is unchanged.\n\n> **Please read:** this translation and the colour version were made **entirely with AI**, as a personal project. They are shared as they are for anyone who wants to play, but they must **never be uploaded to romhacking sites** (romhacking.net and the like). They aren't up to the standard of a real fan translation and don't belong there.\n\n**Images**\n\n**How to patch**\n\nApply a .bps to *Side Pocket for WonderSwan (Japan)* (1 MB, CRC32 8655269E) with Floating IPS, beat or ROM Patcher JS.\n\n* English v0.9.1: the result is CRC32 8C660676. Keep …"
+    }
+   ]
+  },
+  "8CE4652F": {
+   "crc32": "8CE4652F",
+   "size": 2097152,
+   "md5": "4180034fe25dbc97ddd0d7e3adf83e3b",
+   "sha1": "c48569fd0a46ab7b7ceafeb5698be90420cd4fbe",
+   "names": [
+    "Namco Super Wars (Japan)",
+    "Namco Super Wars (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "440accd68d94f4b2",
+     "game": "Namco Super Wars",
+     "variant": "Namco.Super.Wars.T-En.v0.9.1",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "8CE4652F",
+     "target_crc32": "9A5A3C21",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/NamcoSuperWars_0.9.1/Namco.Super.Wars.T-En.v0.9.1.bps",
+     "sha256": "440accd68d94f4b29931bce56579b2550ce7469b85e93761d63fc5b29b78d3f1",
+     "size": 346676,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/NamcoSuperWars_0.9.1",
+     "notes": "**Namco Super Wars** is Bandai's 2002 tactical RPG for the WonderSwan Color, released only in Japan. It's a crossover of classic Namco games: a hero chosen by the goddess Gajes travels through the Tepota Arch to the worlds of Valkyrie, The Tower of Druaga, Dragon Spirit, Dragon Valor, Genpei Toma Den and more, recruiting their heroes (Valkyrie, Gil, Ki, Amul, Clovis, Kagekiyo, Bravoman, Wonder Momo, Mappy, Dig Dug, Pac-Man...) to close the Gate of the Great Calamity.\n\nThis patch translates it into English. There are two editions with the same translation: the normal one (mixed case) and an **All Caps** edition, where every text, from dialogue to menus and battle messages, is in capitals.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps of the edition you prefer to *Namco Super Wars (Japan)* (2 MB, CRC32 8CE4652F) with Floating IPS, beat or ROM Patcher JS. Result: 4 MB, CRC32 9A5A3C21 (normal) or 72AFDE86 (All Caps). Keep the .wsc extension.\n\nYou must provide your own copy of the original Japanese game to apply it.\n\n**How it was made**\n\n* **Claude** read the game's font to build the character table, found the message engine and extracted the whole script (459 messages, …"
+    },
+    {
+     "id": "880bb03a36a54f5a",
+     "game": "Namco Super Wars",
+     "variant": "Namco.Super.Wars.T-En.v0.9.1.All.Caps",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "8CE4652F",
+     "target_crc32": "72AFDE86",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/NamcoSuperWars_0.9.1/Namco.Super.Wars.T-En.v0.9.1.All.Caps.bps",
+     "sha256": "880bb03a36a54f5a7dc9b09db9c4c7ad7e32cb598dde9a04dbeca59bf0df4004",
+     "size": 347325,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/NamcoSuperWars_0.9.1",
+     "notes": "**Namco Super Wars** is Bandai's 2002 tactical RPG for the WonderSwan Color, released only in Japan. It's a crossover of classic Namco games: a hero chosen by the goddess Gajes travels through the Tepota Arch to the worlds of Valkyrie, The Tower of Druaga, Dragon Spirit, Dragon Valor, Genpei Toma Den and more, recruiting their heroes (Valkyrie, Gil, Ki, Amul, Clovis, Kagekiyo, Bravoman, Wonder Momo, Mappy, Dig Dug, Pac-Man...) to close the Gate of the Great Calamity.\n\nThis patch translates it into English. There are two editions with the same translation: the normal one (mixed case) and an **All Caps** edition, where every text, from dialogue to menus and battle messages, is in capitals.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps of the edition you prefer to *Namco Super Wars (Japan)* (2 MB, CRC32 8CE4652F) with Floating IPS, beat or ROM Patcher JS. Result: 4 MB, CRC32 9A5A3C21 (normal) or 72AFDE86 (All Caps). Keep the .wsc extension.\n\nYou must provide your own copy of the original Japanese game to apply it.\n\n**How it was made**\n\n* **Claude** read the game's font to build the character table, found the message engine and extracted the whole script (459 messages, …"
+    }
+   ],
+   "produced_by": []
+  },
   "8E027330": {
    "crc32": "8E027330",
    "size": 524288,
@@ -5316,6 +6183,34 @@
     }
    ]
   },
+  "93B9E8EC": {
+   "crc32": "93B9E8EC",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "07f0aa76490978a9",
+     "game": "Chou Denki Card Battle: Youfu Makai",
+     "variant": "youfu-makai-en-1.1",
+     "version": "1.1",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "56E2C069",
+     "target_crc32": "93B9E8EC",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/youfu-makai-v1.1/youfu-makai-en-1.1.bps",
+     "sha256": "07f0aa76490978a9edf6856a241a7d76cf9ca19dab7439b411f63cf143ac1322",
+     "size": 734829,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.1",
+     "notes": "**Chou Denki Card Battle: Youfu Makai** (超伝奇カードバトル 妖符魔界) is a 1999 card battle game from Kobunsha and Kappa Games for the original (monochrome) WonderSwan, released only in Japan. The scenario is by Hideyuki Kikuchi (*Vampire Hunter D*, *Demon City Shinjuku*) and the art by Ayami Kojima. It's set in Kikuchi's Demon City Shinjuku, and its story runs in three parts, told as illustrated pages of prose between battles with Demon Cards. You build a 30-card deck, lay cards on a field where each card's arrows set the direction it attacks, and win by covering the field with your own cards.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole story, all three parts (Crimson Lotus, Cursed Cards, Fusion), as horizontal English prose in place of the vertical Japanese.\n* Every card name, and the descriptions of all 200 cards in the Card Craft card view (press the Y pad left or right on the deck screen).\n* The menus (Scenario, Those in the Way, Worthy Rival, Card Craft...), the deck rules, the battle screens, and the save and erase prompts.\n* Graphics: the title logo becomes YOUFU MAKAI with …"
+    }
+   ]
+  },
   "96EA3728": {
    "crc32": "96EA3728",
    "size": 8388608,
@@ -5475,6 +6370,34 @@
     }
    ]
   },
+  "9A5A3C21": {
+   "crc32": "9A5A3C21",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "440accd68d94f4b2",
+     "game": "Namco Super Wars",
+     "variant": "Namco.Super.Wars.T-En.v0.9.1",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "8CE4652F",
+     "target_crc32": "9A5A3C21",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/NamcoSuperWars_0.9.1/Namco.Super.Wars.T-En.v0.9.1.bps",
+     "sha256": "440accd68d94f4b29931bce56579b2550ce7469b85e93761d63fc5b29b78d3f1",
+     "size": 346676,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/NamcoSuperWars_0.9.1",
+     "notes": "**Namco Super Wars** is Bandai's 2002 tactical RPG for the WonderSwan Color, released only in Japan. It's a crossover of classic Namco games: a hero chosen by the goddess Gajes travels through the Tepota Arch to the worlds of Valkyrie, The Tower of Druaga, Dragon Spirit, Dragon Valor, Genpei Toma Den and more, recruiting their heroes (Valkyrie, Gil, Ki, Amul, Clovis, Kagekiyo, Bravoman, Wonder Momo, Mappy, Dig Dug, Pac-Man...) to close the Gate of the Great Calamity.\n\nThis patch translates it into English. There are two editions with the same translation: the normal one (mixed case) and an **All Caps** edition, where every text, from dialogue to menus and battle messages, is in capitals.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps of the edition you prefer to *Namco Super Wars (Japan)* (2 MB, CRC32 8CE4652F) with Floating IPS, beat or ROM Patcher JS. Result: 4 MB, CRC32 9A5A3C21 (normal) or 72AFDE86 (All Caps). Keep the .wsc extension.\n\nYou must provide your own copy of the original Japanese game to apply it.\n\n**How it was made**\n\n* **Claude** read the game's font to build the character table, found the message engine and extracted the whole script (459 messages, …"
+    }
+   ]
+  },
   "9ADAFACD": {
    "crc32": "9ADAFACD",
    "size": 4194304,
@@ -5501,6 +6424,34 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol1-side7-v1.0",
      "notes": "**Kidou Senshi Gundam Vol. 1: Side 7** (機動戦士ガンダム Vol.1 〜SIDE7〜, \"Mobile Suit Gundam Vol. 1: Side 7\") is Bandai's 2001 game for the WonderSwan Color, released only in Japan, and the first of three cartridges that retell the 1979 anime *Mobile Suit Gundam*. This one covers episodes 1-12: Zeon's raid on Side 7, Amuro Ray climbing into the Gundam, the White Base's flight to Earth and the fight with Garma Zabi. Each episode is told in story scenes, with mobile-suit battles in between, and the crew's trust in Amuro rises and falls with how he fights.\n\nThis patch translates it into English. Vol. 1, Vol. 2 and Vol. 3 each have their own patch and their own page.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: every story scene and narration, the prologue, the battle chatter and the mission briefings, the ending and the staff credits.\n* Every menu and prompt: the episode select and its maps, weapon help, saving and continuing.\n* Everything drawn as a picture: the 12 episode title cards, the battle labels (commands, weapons and Amuro's mood) and the results screen after each …"
+    }
+   ]
+  },
+  "9BEE9428": {
+   "crc32": "9BEE9428",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "0630e7259aecba2a",
+     "game": "Final Lap Special - GT & Formula Machine",
+     "variant": "Final.Lap.Special.-.GT.Formula.Machine.T-En.v0.9.1",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "B07E6A56",
+     "target_crc32": "9BEE9428",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FinalLapSpecial_0.9.1/Final.Lap.Special.-.GT.Formula.Machine.T-En.v0.9.1.bps",
+     "sha256": "0630e7259aecba2a2faf01e9a756e5b0901b9c4505b8b7bd1783dec73130e650",
+     "size": 7297,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FinalLapSpecial_0.9.1",
+     "notes": "**Final Lap Special - GT & Formula Machine** is Namco's 2001 racing game for the WonderSwan Color, released only in Japan: Formula and GT championships, time attack, a car shop, a garage with your records and a two-player VS mode over the link cable.\n\nAlmost all of the game is already in English. The Japanese text is in the VS mode screens, and this patch translates it. It also adds a **CHEATS** entry to the mode select.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\nClaude did each part of the work; /u/Gio-74 did only a final check.\n\n1. **Finding the Japanese**: Claude played every mode in an emulator and found that the game is already in English except for a few VS mode screens.\n2. **Finding the graphics**: that text is not stored as text but as full-screen pictures (8x8 tiles plus a tile map). Claude located each picture in the ROM by its map header and by checking which tile offset gives a clean image.\n3. **Translating and redrawing**: Claude translated the messages from the Japanese and redrew them in English, in the same colours, then packed the tiles again in the same place, so nothing else in the game moves.\n4. **The CHEATS entry**: Claude disassembled the mode select code, added a …"
     }
    ]
   },
@@ -5561,6 +6512,62 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-v1.1",
      "notes": "**SD Gundam G Generation: Gather Beat** (SDガンダム Gジェネレーション ギャザービート) is Bandai's 2000 G Generation strategy game for the WonderSwan, released only in Japan. You command a mixed force of mobile suits and ships from across the Gundam series on grid maps, replaying battles from Mobile Suit Gundam, The 08th MS Team, 0083, Zeta, ZZ, Char's Counterattack, G Gundam, Gundam Wing, Gundam X, Turn A and more. Pilots fire ID commands (special abilities with their own speech), and between stages you manage the Backstage: buying units, developing and modifying machines, assigning pilots. Two players can fight each other over the link cable. This patch translates it into English. (Gather Beat 2 has its own patch and release.)\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* All stage and battle dialogue, ID commands and their speech, menus, unit, pilot and weapon names, the Backstage menus, the stage objectives, the prologue and the ending narration.\n* Link-cable battles: map select, turn and battle menus, the defender's Fight / Evade / Guard choice and the result messages.\n* WonderGate: the shop …"
+    }
+   ]
+  },
+  "9DA4DC24": {
+   "crc32": "9DA4DC24",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "728b1299aec5f1b0",
+     "game": "Kaze no Klonoa: Moonlight Museum",
+     "variant": "Kaze.no.Klonoa.-.Moonlight.Museum.Japan.16.colours.TEST.v39.4MB.EN.v0.8",
+     "version": "39.4M",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "80C6EF12",
+     "target_crc32": "9DA4DC24",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Klonoa_MM_0.9/Kaze.no.Klonoa.-.Moonlight.Museum.Japan.16.colours.TEST.v39.4MB.EN.v0.8.bps",
+     "sha256": "728b1299aec5f1b04f9f4fafb52ce044394f094823866958d109ac69d5fe127d",
+     "size": 1175947,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Klonoa_MM_0.9",
+     "notes": "This release contains two editions:\n\n* **4-colour edition v0.9** (normal and ALL CAPS): the translated game in the WonderSwan Color 4-colour mode.\n* **16-colour edition (beta, TEST v39, English v0.8)**: every Vision repainted in the 16-colour mode, 4 MB ROM.\n\nKlonoa's only WonderSwan adventure, *Kaze no Klonoa: Moonlight Museum* (Namco, 1999), was a black-and-white game. This patch turns it into a **WonderSwan Color game** and adds a **brand-new English translation**.\n\nThe translation was made **from scratch**, directly from the Japanese ROM. An English fan translation of this game already exists. This is an independent new translation that does not use or reuse any of that existing work.\n\nThe colorization, the translation and the ROM hacking were done entirely by Claude (Anthropic's AI); /u/Gio-74 only did the final check. It is an AI-only project made for personal use and shared here as is.\n\n### What's in it\n\n**Colorization (4 colours per palette, WonderSwan Color mode)**\n- Each of the 30 Visions has its own colour set. The palettes follow *Klonoa: Empire of Dreams* (GBA): Klonoa with a blue cap, white gloves and a navy body, pink hearts, a deeper blue sky.\n- Tiles that the original game draws with several palettes were matched across tile borders, so objects don't break into coloured blocks.\n- The HUD bar has one uniform background colour.\n- The namco logo at start-up is shown in red.\n- Menus, story scenes and the staff roll use one soft blue tint.\n\n**English …"
+    }
+   ]
+  },
+  "9DCDEC95": {
+   "crc32": "9DCDEC95",
+   "size": 1048576,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "5dba28c3cacaa5a7",
+     "game": "Puzzle Bobble",
+     "variant": "Puzzle.Bobble.Japan.T-En.v0.9.5.4.colours",
+     "version": "0.9.5.4",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": false,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "F504CD84",
+     "target_crc32": "9DCDEC95",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/PuzzleBobble_0.9.5/Puzzle.Bobble.Japan.T-En.v0.9.5.4.colours.bps",
+     "sha256": "5dba28c3cacaa5a7c484e8fcfec4b143962b0f9735408437dbce38a90496f6b4",
+     "size": 26070,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuzzleBobble_0.9.5",
+     "notes": "**Puzzle Bobble** is Sunsoft's 1999 port of Taito's bubble shooter for the original black-and-white WonderSwan, released only in Japan. It has 1 Player rounds, Versus (computer or link cable), an endless Challenge mode, records and options.\n\nThis patch translates all of its menus and screens into English **and turns it into a WonderSwan Color game**, in two versions:\n\n* **16 colours:** the whole game runs in the console's 16-colour mode: the title logo, Bub (green) and Bob (blue), the character portraits (every Versus opponent in its own colours) and the game over screen are recoloured in the style of the arcade game, the Taito logo follows the official one, the playfield gets a carved stone frame and a dark blue checkerboard with soft shadows, the menus a tiled blue background, the ROUND box a maroon panel with a gold frame, and during play every bubble has its own colour (with a light spot and a soft shadow).\n* **4 colours:** every screen is in colour, but the game keeps its original four shades per palette: bubbles share one hue and are told apart by their patterns, closer to the original art.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the two .bps files to *Puzzle …"
     }
    ]
   },
@@ -5892,6 +6899,38 @@
      "page": "https://github.com/Gand46/Riviera-Wonderswan-English-Translation-AI_GPT/blob/main/patches/Riviera_EN_v0.116_S463_RC7_CUMULATIVE_FROM_JP.bps"
     }
    ]
+  },
+  "A3ECC9AC": {
+   "crc32": "A3ECC9AC",
+   "size": 8388608,
+   "md5": "c1cb619ec3a596366a324da1f8957985",
+   "sha1": "1f7c28d9d575b260d973f8526ecadda834032149",
+   "names": [
+    "SD Gundam G Generation - Mono-Eye Gundams (Japan) (Rev 2).wsc"
+   ],
+   "patches": [
+    {
+     "id": "ad1bdc0d6d68121f",
+     "game": "SD Gundam G Generation - Mono-Eye Gundams",
+     "variant": "SD.Gundam.G.Generation.-.Mono-Eye.Gundams.EN.v0.9.1",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "A3ECC9AC",
+     "target_crc32": "702EB1E3",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MonoEyeGundams_0.9.1/SD.Gundam.G.Generation.-.Mono-Eye.Gundams.EN.v0.9.1.bps",
+     "sha256": "ad1bdc0d6d68121ffbb834a2d400f9c30d0879bc724dc1e97989b616e6d9d448",
+     "size": 557890,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MonoEyeGundams_0.9.1",
+     "notes": "**SD Gundam G Generation: Mono-Eye Gundams** is a 2002 WonderSwan Color strategy game by Bandai. It was released only in Japan.\n\nSig Wedner, a young Zeon pilot of the Vrahd Squadron, fights from the end of the One Year War to the Gryps War, in the game's own story of Serein Experi and Ein Lewi, while the battles mix units and pilots from the whole Gundam series (0079, 0080, 0083, Zeta, ZZ, Char's Counterattack, G, W, X, Turn A, Crossbone and more).\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *SD Gundam G Generation - Mono-Eye Gundams (Japan) (Rev 2).wsc* (8 MB, CRC32 A3ECC9AC) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB, CRC32 702EB1E3; keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"SD Gundam G Generation - Mono-Eye Gundams (EN v0.9.1).bps\" \"SD Gundam G Generation - Mono-Eye Gundams (Japan) (Rev 2).wsc\" \"SD Gundam G Generation - Mono-Eye Gundams (EN v0.9.1).wsc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**What is translated**\n\n* The whole story script: 10,350 …"
+    }
+   ],
+   "produced_by": []
   },
   "A53C9190": {
    "crc32": "A53C9190",
@@ -6322,8 +7361,28 @@
    ],
    "patches": [
     {
+     "id": "20344f71561bb880",
+     "game": "Densha de Go! 2",
+     "variant": "Densha.de.Go.2.EN.v0.9.1",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "AF9D8F42",
+     "target_crc32": "CB01825F",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DenshaDeGo2_0.9.1/Densha.de.Go.2.EN.v0.9.1.bps",
+     "sha256": "20344f71561bb880ea9090da45aa34dcd6c4d11feefe2003dda06744e3dea6bb",
+     "size": 46695,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DenshaDeGo2_0.9.1",
+     "notes": "**Densha de Go! 2** is Taito's 1999 train-driving game, ported to the WonderSwan by CyberFront. It was released only in Japan. You drive the Hokuhoku Line, the Akita Shinkansen, the Osaka Loop Line and the Keihin-Tohoku Line, keeping to the timetable, the signals and the speed limits, and stopping on the mark.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Densha de Go! 2 (Japan).ws* (4 MB, CRC32 AF9D8F42) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB, CRC32 CB01825F; keep the .ws extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Densha de Go! 2 (EN v0.9.1).bps\" \"Densha de Go! 2 (Japan).ws\" \"Densha de Go! 2 (EN v0.9.1).ws\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**What is translated**\n\n* Station events (Depart / Stop at / Pass + station) on every route.\n* Driving messages and penalties, and the conductor's tips.\n* The HUD: signal aspects, sign labels, next-station time, distance.\n* Route select, the departure board and the route maps.\n* Pause menu, options, continue and game over …"
+    },
+    {
      "id": "1c4910264190aca3",
-     "game": "Densha de Go 2",
+     "game": "Densha de Go! 2",
      "variant": "Densha_de_Go_2_EN_v0.4.20_OPTIONS_FONT_CUMULATIVE",
      "version": "0.4.20",
      "language": "en",
@@ -6342,7 +7401,7 @@
     },
     {
      "id": "1ae7933065bc0246",
-     "game": "Densha de Go 2",
+     "game": "Densha de Go! 2",
      "variant": "Densha_de_Go_2_EN_v0.4.19_ORIGINAL_TITLE_CUMULATIVE",
      "version": "0.4.19",
      "language": "en",
@@ -6361,7 +7420,7 @@
     },
     {
      "id": "c2dbe83f65efb66c",
-     "game": "Densha de Go 2",
+     "game": "Densha de Go! 2",
      "variant": "Densha_de_Go_2_EN_v0.4.18_EDITORIAL_TEST_CUMULATIVE",
      "version": "0.4.18",
      "language": "en",
@@ -6380,7 +7439,7 @@
     },
     {
      "id": "c74d4d4dd1f72a23",
-     "game": "Densha de Go 2",
+     "game": "Densha de Go! 2",
      "variant": "Densha_de_Go_2_EN_v0.4.17_CUMULATIVE",
      "version": "0.4.17",
      "language": "en",
@@ -6399,7 +7458,7 @@
     },
     {
      "id": "06c0aeca5870c48a",
-     "game": "Densha de Go 2",
+     "game": "Densha de Go! 2",
      "variant": "Densha_de_Go_2_EN_v0.4.17_CUMULATIVE",
      "version": "0.4.17",
      "language": "en",
@@ -6445,6 +7504,39 @@
      "notes": "**Hunter x Hunter: Ishi o Tsugu Mono** (ハンター×ハンター 意志を継ぐ者, \"Heir to the Will\") is Bandai's 2000 RPG for the original (monochrome) WonderSwan, released only in Japan. It's set after the Heavens Arena arc of Yoshihiro Togashi's manga: Gon, now a licensed Hunter, sets out with Killua to find his father Ging. At Dolle Harbor an information broker sells them a cyber mobile that once belonged to Ging, and from there you travel to around 28 towns by boat, airship and train. You take on jobs (\"episodes\") for friends and strangers, look things up on the mobile's cyber page, fight with Nen, earn Jenny and collect the symbol codes that unlock the mobile's secret. Kurapika, Leorio, Hisoka, Illumi, Kite, Satotz, Wing, Hanzo, Ponzu, Menchi and many more turn up along the way. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: about 3,000 messages (140,000 Japanese characters): the story and every episode, every town's people, battles, choices, mini-games and both versions of the ending.\n* The cyber page (the in-game encyclopedia): 431 entries on …"
     }
    ]
+  },
+  "B07E6A56": {
+   "crc32": "B07E6A56",
+   "size": 4194304,
+   "md5": "0870f205e8a0148cc75d642f00558057",
+   "sha1": "4c3f092b095bdb0afdaf8d32d4c54b4d6c209c96",
+   "names": [
+    "Final Lap Special - GT & Formula Machine (Japan)",
+    "Final Lap Special - GT & Formula Machine (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "0630e7259aecba2a",
+     "game": "Final Lap Special - GT & Formula Machine",
+     "variant": "Final.Lap.Special.-.GT.Formula.Machine.T-En.v0.9.1",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "B07E6A56",
+     "target_crc32": "9BEE9428",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FinalLapSpecial_0.9.1/Final.Lap.Special.-.GT.Formula.Machine.T-En.v0.9.1.bps",
+     "sha256": "0630e7259aecba2a2faf01e9a756e5b0901b9c4505b8b7bd1783dec73130e650",
+     "size": 7297,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FinalLapSpecial_0.9.1",
+     "notes": "**Final Lap Special - GT & Formula Machine** is Namco's 2001 racing game for the WonderSwan Color, released only in Japan: Formula and GT championships, time attack, a car shop, a garage with your records and a two-player VS mode over the link cable.\n\nAlmost all of the game is already in English. The Japanese text is in the VS mode screens, and this patch translates it. It also adds a **CHEATS** entry to the mode select.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\nClaude did each part of the work; /u/Gio-74 did only a final check.\n\n1. **Finding the Japanese**: Claude played every mode in an emulator and found that the game is already in English except for a few VS mode screens.\n2. **Finding the graphics**: that text is not stored as text but as full-screen pictures (8x8 tiles plus a tile map). Claude located each picture in the ROM by its map header and by checking which tile offset gives a clean image.\n3. **Translating and redrawing**: Claude translated the messages from the Japanese and redrew them in English, in the same colours, then packed the tiles again in the same place, so nothing else in the game moves.\n4. **The CHEATS entry**: Claude disassembled the mode select code, added a …"
+    }
+   ],
+   "produced_by": []
   },
   "B1478AA6": {
    "crc32": "B1478AA6",
@@ -6501,6 +7593,38 @@
      "notes": "Test site, nothing to see here...."
     }
    ]
+  },
+  "B18CDC0D": {
+   "crc32": "B18CDC0D",
+   "size": 4194304,
+   "md5": "cb58db877b8adfce59f2e34cc4224d8b",
+   "sha1": "99d9d7f951ae589059f34e76aea7489ae4cd79f1",
+   "names": [
+    "Alchemist Marie & Elie - Futari no Atelier (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "3889dab5b24445ab",
+     "game": "Alchemist Marie & Elie: Futari no Atelier",
+     "variant": "Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.2",
+     "version": "0.9.2",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "B18CDC0D",
+     "target_crc32": "F886A276",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/AtelierMarieElie_0.9.2/Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.2.bps",
+     "sha256": "3889dab5b24445ab7720c65de09b8cb4a66e424af396080fcce0e7cc27f13440",
+     "size": 480206,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/AtelierMarieElie_0.9.2",
+     "notes": "*Marie & Elie: Futari no Atelier* is Gust's 2001 Atelier game for the WonderSwan Color, released only in Japan. Marie (Marlone), now a full-fledged alchemist, and Elie (Elfir Traum), the girl she once saved, open an atelier together in Salburg. Thieves have stolen everything Elie owned, and Fuehren from Kentnis asks the two of them to create something nobody has ever seen: the Primordial Flame. You have three years to synthesize items, take quests at the Sky Tavern, gather ingredients with adventurers, hold tea parties and meet the cast of both Atelier Marie and Atelier Elie.\n\nThis patch translates it into English.\n\n**What is translated**\n\n- The whole script: 2,643 messages (story events, town talk, quests, tea parties, gathering trips, battles, the endings, the item and character encyclopedia, the composer's comments in the music room, the staff roll).\n- Item and equipment names, all the menus and system strings.\n- The speaker nameplates (redrawn in English) and the item names painted on the item cards.\n- A new variable-width font for all the text; the dialogue is re-wrapped and paged automatically.\n- Names follow Koei Tecmo's official English releases of Atelier Marie where they exist (Marlone/Marie, Salburg, Ingrid, Schea Donnerstag, Enderk Yard, Kreis Kuehl, Ruven Filnir, Mu Seqstanse, Sky Tavern, Meister Rank...). The others were romanized from the Japanese.\n\n**Images**\n\n**How to patch**\n\nApply the .bps patch to the original Japanese ROM *Alchemist Marie & Elie - Futari …"
+    }
+   ],
+   "produced_by": []
   },
   "B1CAEC06": {
    "crc32": "B1CAEC06",
@@ -6641,6 +7765,34 @@
    ],
    "produced_by": []
   },
+  "B6B60B95": {
+   "crc32": "B6B60B95",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "fa75b0234972c56f",
+     "game": "Side Pocket for WonderSwan",
+     "variant": "Side.Pocket.for.WonderSwan.Color.EN.v0.9.1",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "8655269E",
+     "target_crc32": "B6B60B95",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SidePocket_0.9.1/Side.Pocket.for.WonderSwan.Color.EN.v0.9.1.bps",
+     "sha256": "fa75b0234972c56f54c613a723a75d6c2de54e5c42977773d84f05730e42db57",
+     "size": 1135869,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SidePocket_0.9.1",
+     "notes": "**Side Pocket for WonderSwan** is Data East's 1999 pool game for the WonderSwan. It was released only in Japan, and only in black and white. It has three modes:\n\n* **Hustler:** pick one of four players and win a tournament against the others and a pro. Every player has their own lines and ending.\n* **Versus:** nine ball or Pocket Game.\n* **Technique:** shows how spin moves the ball.\n\nThis release has two patches for the same Japanese ROM:\n\n* **English v0.9.1**, black and white like the original. It fixes the menu labels' shadows, which kept the shape of the Japanese words.\n* **English v0.9.1 Color**, a 16-colour version for the WonderSwan Color and SwanCrystal. It colours the green felt and wooden rails, and gives each ball its own colour. The title, menus, character select, every portrait and the dialogue screens are in colour too, as are results and continue, the endings, the technique screen and the table banners. Gameplay is unchanged.\n\n> **Please read:** this translation and the colour version were made **entirely with AI**, as a personal project. They are shared as they are for anyone who wants to play, but they must **never be uploaded to romhacking sites** (romhacking.net and the like). They aren't up to the standard of a real fan translation and don't belong there.\n\n**Images**\n\n**How to patch**\n\nApply a .bps to *Side Pocket for WonderSwan (Japan)* (1 MB, CRC32 8655269E) with Floating IPS, beat or ROM Patcher JS.\n\n* English v0.9.1: the result is CRC32 8C660676. Keep …"
+    }
+   ]
+  },
   "B7243E88": {
    "crc32": "B7243E88",
    "size": 4194304,
@@ -6710,7 +7862,7 @@
    "produced_by": [
     {
      "id": "c2dbe83f65efb66c",
-     "game": "Densha de Go 2",
+     "game": "Densha de Go! 2",
      "variant": "Densha_de_Go_2_EN_v0.4.18_EDITORIAL_TEST_CUMULATIVE",
      "version": "0.4.18",
      "language": "en",
@@ -6852,7 +8004,7 @@
    "patches": [
     {
      "id": "fd55b623cb24b9b8",
-     "game": "NGE",
+     "game": "Neon Genesis Evangelion: Shito Ikusei",
      "variant": "NGE",
      "language": "en",
      "platform": "wonderswan",
@@ -6871,6 +8023,34 @@
     }
    ],
    "produced_by": []
+  },
+  "C0AA9945": {
+   "crc32": "C0AA9945",
+   "size": 8388608,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "b80117138f35ee56",
+     "game": "Arc the Lad: Kijin Fukkatsu",
+     "variant": "Arc.the.Lad.-.Kijin.Fukkatsu.T-En.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "E2317345",
+     "target_crc32": "C0AA9945",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/ArcTheLad_0.9/Arc.the.Lad.-.Kijin.Fukkatsu.T-En.v0.9.bps",
+     "sha256": "b80117138f35ee561bb93dd57b54495be72e13e2401f61604eb76a58c2b214dc",
+     "size": 256488,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ArcTheLad_0.9",
+     "notes": "**Arc the Lad: Kijin Fukkatsu** is Bandai's 2002 Arc the Lad for the WonderSwan Color, released only in Japan. In the land of Jihata, the young Hunter Elc takes jobs from the Hunters' Guild, until he meets Finia, a girl who came from another time, and the machine Grolgarde and the army of MMM threaten the world again.\n\nThis patch translates it into English. The dialogue is shown in capitals, which read better on the WonderSwan screen.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n> **About the other translation project:** this game was listed as \"in progress\" by another translator. It was not possible to contact him: he hasn't posted any updates since 2021 and hasn't logged in to romhacking.net since 2024 (a private message there could not even be delivered, his inbox is full). The project is therefore considered abandoned.\n\n**How it was made**\n\nClaude did each part of the work; /u/Gio-74 did only a final check.\n\n1. **Text**: Claude found the game's text tables and its character table in the ROM and extracted every Japanese text (5,857 entries: dialogue, menus, names, descriptions, battle quotes, diaries).\n2. **Translation**: Claude translated everything directly from the Japanese of this game, keeping the meaning …"
+    }
+   ]
   },
   "C18E3896": {
    "crc32": "C18E3896",
@@ -6940,7 +8120,7 @@
      "version": "1.1",
      "language": "en",
      "platform": "wonderswan_color",
-     "latest": true,
+     "latest": false,
      "superseded": false,
      "format": "bps",
      "source_crc32": "138D1018",
@@ -6963,7 +8143,7 @@
    "produced_by": [
     {
      "id": "fd55b623cb24b9b8",
-     "game": "NGE",
+     "game": "Neon Genesis Evangelion: Shito Ikusei",
      "variant": "NGE",
      "language": "en",
      "platform": "wonderswan",
@@ -7010,6 +8190,34 @@
     }
    ]
   },
+  "C8F5E947": {
+   "crc32": "C8F5E947",
+   "size": 524288,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "875da275de45cca6",
+     "game": "Bishoujo Senshi Sailor Moon S",
+     "variant": "Bishoujo.Senshi.Sailor.Moon.S.Japan.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "FE7374D2",
+     "target_crc32": "C8F5E947",
+     "target_size": 524288,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SailorMoonS_GG_0.9/Bishoujo.Senshi.Sailor.Moon.S.Japan.EN.v0.9.bps",
+     "sha256": "875da275de45cca686b3e15ac28e98fa5f7d094d88ad4aaf913bb280b80c42e1",
+     "size": 25061,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SailorMoonS_GG_0.9",
+     "notes": "This is an English translation patch for the Japanese Game Gear game *Bishoujo Senshi Sailor Moon S* (Bandai, 1995).\n\nThe patch was made only with AI, for personal use, and is shared here as-is. Claude (Anthropic) did all the work: ROM analysis, translation, graphics and tools. /u/Gio-74 only did a final check. Please don't upload it to romhacking sites; it isn't worthy of them.\n\n**Note:** a complete human translation by filler & Supper already exists, and it's the recommended one if it works for you. This patch is an independent alternative. It also keeps the ROM at 512 KB, so it runs on **GGSWAN** on the WonderSwan.\n\n**What's translated**\n- Main menu, speech bubble and mini-game menu\n- All mini-game instructions and bonus-game messages\n- Quiz World: every question and answer\n- Ending lines\n- Title banners, Rei's fortune screens and the password screen label\n\nText is ALL CAPS. Names follow the current official English dub (Viz): Usagi, Chibiusa, Rei, Ami, Makoto, Minako, Haruka, Michiru, Tuxedo Mask, Death Busters, Holy Grail, Sailor Guardians.\n\n**How it was made**\n1. Claude analysed the ROM with a small Game Gear emulator it wrote in Python. It found the text engine, the tile compression (an RLE split into two byte streams) and the quiz pointer tables.\n2. Claude translated the full script from the Japanese.\n3. ChatGPT did a full semantic review of every line against the Japanese, in blocks.\n4. Claude checked and applied the corrections and rebuilt the ROM.\n\nTo fit the …"
+    }
+   ]
+  },
   "C9C1EC3A": {
    "crc32": "C9C1EC3A",
    "size": 4194304,
@@ -7038,6 +8246,34 @@
     }
    ]
   },
+  "CB01825F": {
+   "crc32": "CB01825F",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "20344f71561bb880",
+     "game": "Densha de Go! 2",
+     "variant": "Densha.de.Go.2.EN.v0.9.1",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "AF9D8F42",
+     "target_crc32": "CB01825F",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DenshaDeGo2_0.9.1/Densha.de.Go.2.EN.v0.9.1.bps",
+     "sha256": "20344f71561bb880ea9090da45aa34dcd6c4d11feefe2003dda06744e3dea6bb",
+     "size": 46695,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DenshaDeGo2_0.9.1",
+     "notes": "**Densha de Go! 2** is Taito's 1999 train-driving game, ported to the WonderSwan by CyberFront. It was released only in Japan. You drive the Hokuhoku Line, the Akita Shinkansen, the Osaka Loop Line and the Keihin-Tohoku Line, keeping to the timetable, the signals and the speed limits, and stopping on the mark.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Densha de Go! 2 (Japan).ws* (4 MB, CRC32 AF9D8F42) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB, CRC32 CB01825F; keep the .ws extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Densha de Go! 2 (EN v0.9.1).bps\" \"Densha de Go! 2 (Japan).ws\" \"Densha de Go! 2 (EN v0.9.1).ws\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**What is translated**\n\n* Station events (Depart / Stop at / Pass + station) on every route.\n* Driving messages and penalties, and the conductor's tips.\n* The HUD: signal aspects, sign labels, next-station time, distance.\n* Route select, the departure board and the route maps.\n* Pause menu, options, continue and game over …"
+    }
+   ]
+  },
   "CB5FACF7": {
    "crc32": "CB5FACF7",
    "size": 4194304,
@@ -7051,7 +8287,7 @@
      "version": "1.0",
      "language": "en",
      "platform": "wonderswan",
-     "latest": true,
+     "latest": false,
      "superseded": false,
      "format": "bps",
      "source_crc32": "56E2C069",
@@ -7473,6 +8709,119 @@
    ],
    "produced_by": []
   },
+  "D0B20C5A": {
+   "crc32": "D0B20C5A",
+   "size": 4194304,
+   "md5": "12a59977999dcf7baebd79c81ab8f5a7",
+   "sha1": "2da2a9bcff4813abcb5b2c88095258d89a575378",
+   "names": [
+    "Hunter X Hunter - Sorezore no Ketsui (Japan)",
+    "Hunter X Hunter - Sorezore no Ketsui (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "704d53a78c41e73c",
+     "game": "Hunter X Hunter: Sorezore no Ketsui",
+     "variant": "Hunter.X.Hunter.-.Sorezore.no.Ketsui.T-En.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "D0B20C5A",
+     "target_crc32": "F5CA2439",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/HxH_SorezoreNoKetsui_0.9/Hunter.X.Hunter.-.Sorezore.no.Ketsui.T-En.v0.9.bps",
+     "sha256": "704d53a78c41e73cd2c1763c5426c18abb00feb59dfd88abcc31e790e5846d04",
+     "size": 2020495,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HxH_SorezoreNoKetsui_0.9",
+     "notes": "**Hunter X Hunter: Sorezore no Ketsui** (\"Each One's Determination\") is Bandai's 2001 adventure for the WonderSwan Color, released only in Japan. It covers the months between the Zoldyck estate and the Yorknew reunion with four routes: Gon and Killua at Heavens Arena (Wing, Zushi, Nen training, Whale Island), Kurapika looking for bodyguard work, Leorio, and Hisoka. You explore with menu commands and fight Nen battles.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Hunter X Hunter - Sorezore no Ketsui (Japan)* (4 MB, CRC32 D0B20C5A) with Floating IPS, beat or ROM Patcher JS. Result: 8 MB, CRC32 F5CA2439. Keep the .wsc extension.\n\nYou must provide your own copy of the original Japanese game to apply it.\n\n**How it was made**\n\n* **Claude** read the game's font to build the character table (511 characters, kanji transcribed one by one), found the message engine and extracted the whole script (about 3,960 messages), then translated everything directly from the Japanese, with the names and Nen terms of the Viz manga and the 2011 dub.\n* **Claude** also did all the ROM hacking: the ROM was expanded to 8 MB, with a new variable-width …"
+    }
+   ],
+   "produced_by": []
+  },
+  "D0C03404": {
+   "crc32": "D0C03404",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "27af3ec6372196ea",
+     "game": "Dragon Ball",
+     "variant": "Dragon.Ball.T-En.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "067238D1",
+     "target_crc32": "D0C03404",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DragonBall_0.9/Dragon.Ball.T-En.v0.9.bps",
+     "sha256": "27af3ec6372196ea5deec23d77c04ac864feb7d13f021fdc8acab2523c5028c0",
+     "size": 517105,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DragonBall_0.9",
+     "notes": "**Dragon Ball** is Bandai's 2003 WonderSwan Color game, released only in Japan. It retells the first Dragon Ball saga, from Goku meeting Bulma to King Piccolo, as a board game: you move along the map with cards, meet the characters of the series, and fight with a card system where stars, move types and numbers decide who hits. Master Roshi, Korin and Mr. Popo train you in the rules.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Dragon Ball (Japan)* (2 MB, CRC32 067238D1) with Floating IPS, beat or ROM Patcher JS. Result: 4 MB, CRC32 D0C03404. Keep the .wsc extension.\n\nYou must provide your own copy of the original Japanese game to apply it.\n\n**How it was made**\n\n* **Claude** found the game's one-byte text encoding, its message tables and its text renderer, extracted all 2,466 messages (story, battles, card training, menus, names, places, commands, staff roll) and translated everything directly from the Japanese. Names follow the anime's English dub.\n* **Claude** also did all the ROM hacking: an English font with two letters in each 8-pixel cell (all capitals, for readability), automatic line breaks and pages, names and numbers …"
+    }
+   ]
+  },
+  "D4061551": {
+   "crc32": "D4061551",
+   "size": 4194304,
+   "md5": "399e48a3347c378554de65848f1f496c",
+   "sha1": "20b671bc14a8ab6373deecc641479d09658ac21f",
+   "names": [
+    "Kidou Senshi Gundam - Giren no Yabou - Tokubetsu Hen - Aoki Hoshi no Hasha (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "7b63d807bdba5610",
+     "game": "Giren no Yabou Tokubetsu Hen: Aoki Hoshi no Hasha",
+     "variant": "Giren.no.Yabou.-.Aoki.Hoshi.no.Hasha.English.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "D4061551",
+     "target_crc32": "F92996CB",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Giren_0.9/Giren.no.Yabou.-.Aoki.Hoshi.no.Hasha.English.v0.9.bps",
+     "sha256": "7b63d807bdba56108ebe2551c1c9e84b8dca797f2f283fddc9b7ba271ecba05d",
+     "size": 436982,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Giren_0.9",
+     "notes": "Gihren's Greed on the WonderSwan Color is now playable in English. Pick Garma Zabi or M'Quve, lead the Earth Attack Force through the One Year War, win the Staff Meeting debates against your rival commanders, and fight it out on the tactical battle maps.\n\nThis translation was made only with AI, for personal use, and is shared as is. Please don't upload it to romhacking sites: it's not worthy of them, since it's an AI translation and not a human one.\n\n**Screenshots** (gallery, in order)\n\n1. Opening narration\n2. Character select\n3. Gihren's briefing\n4. Strategy Phase banner\n5. Federation turn: \"Planning\"\n6. A proposal to the Staff Meeting\n7. Staff Meeting opinion list (Views / Zeal / Clout)\n8. Debate pop-up: \"STIR!\"\n9. Vote: \"VOTE / PASS\"\n10. Main command menu (Talks / Military / Propose / Intel)\n11. Unit formation (Main / Unformed, R M F grid)\n12. Talks: request for reinforcements\n13. Sortie: \"Battle Area\"\n14. Tactical battle unit menu (Move / Attack / Seize / Form / Status)\n15. Battle summary (VS screen)\n16. Battle result: \"DEFENSE WON\"\n17. Intel: weapon data and terrain aptitude\n18. Ending narration\n19. Epilogue\n20. Staff credits\n\n**What's translated**\n\n* The whole script: about 18,800 lines (opening narration, briefings, every Staff Meeting proposal and debate, events, endings, staff credits).\n* All menus, commands, stats, ranks, character, mobile suit, ship and weapon names, and proposal titles.\n* Graphics: character select, Strategy Phase and faction banners and headers, …"
+    },
+    {
+     "id": "a5e3a04db3d1f025",
+     "game": "Giren no Yabou Tokubetsu Hen: Aoki Hoshi no Hasha",
+     "variant": "Giren.no.Yabou.-.Aoki.Hoshi.no.Hasha.English.v0.9.ALL.CAPS",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "D4061551",
+     "target_crc32": "45966D6B",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Giren_0.9/Giren.no.Yabou.-.Aoki.Hoshi.no.Hasha.English.v0.9.ALL.CAPS.bps",
+     "sha256": "a5e3a04db3d1f0256c269026258e30e4dfec56312f976d1b4a12f1163b4a428e",
+     "size": 414357,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Giren_0.9",
+     "notes": "Gihren's Greed on the WonderSwan Color is now playable in English. Pick Garma Zabi or M'Quve, lead the Earth Attack Force through the One Year War, win the Staff Meeting debates against your rival commanders, and fight it out on the tactical battle maps.\n\nThis translation was made only with AI, for personal use, and is shared as is. Please don't upload it to romhacking sites: it's not worthy of them, since it's an AI translation and not a human one.\n\n**Screenshots** (gallery, in order)\n\n1. Opening narration\n2. Character select\n3. Gihren's briefing\n4. Strategy Phase banner\n5. Federation turn: \"Planning\"\n6. A proposal to the Staff Meeting\n7. Staff Meeting opinion list (Views / Zeal / Clout)\n8. Debate pop-up: \"STIR!\"\n9. Vote: \"VOTE / PASS\"\n10. Main command menu (Talks / Military / Propose / Intel)\n11. Unit formation (Main / Unformed, R M F grid)\n12. Talks: request for reinforcements\n13. Sortie: \"Battle Area\"\n14. Tactical battle unit menu (Move / Attack / Seize / Form / Status)\n15. Battle summary (VS screen)\n16. Battle result: \"DEFENSE WON\"\n17. Intel: weapon data and terrain aptitude\n18. Ending narration\n19. Epilogue\n20. Staff credits\n\n**What's translated**\n\n* The whole script: about 18,800 lines (opening narration, briefings, every Staff Meeting proposal and debate, events, endings, staff credits).\n* All menus, commands, stats, ranks, character, mobile suit, ship and weapon names, and proposal titles.\n* Graphics: character select, Strategy Phase and faction banners and headers, …"
+    }
+   ],
+   "produced_by": []
+  },
   "D58F0E5B": {
    "crc32": "D58F0E5B",
    "size": 4194304,
@@ -7518,7 +8867,7 @@
     },
     {
      "id": "c74d4d4dd1f72a23",
-     "game": "Densha de Go 2",
+     "game": "Densha de Go! 2",
      "variant": "Densha_de_Go_2_EN_v0.4.17_CUMULATIVE",
      "version": "0.4.17",
      "language": "en",
@@ -7537,7 +8886,7 @@
     },
     {
      "id": "06c0aeca5870c48a",
-     "game": "Densha de Go 2",
+     "game": "Densha de Go! 2",
      "variant": "Densha_de_Go_2_EN_v0.4.17_CUMULATIVE",
      "version": "0.4.17",
      "language": "en",
@@ -7761,6 +9110,35 @@
    ],
    "produced_by": []
   },
+  "DCAAFE90": {
+   "crc32": "DCAAFE90",
+   "size": 8388608,
+   "sha1": "a1e24771dbc388af98781e894fc064fadd83517b",
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "308fda32e60d4f2b",
+     "game": "Star Hearts: Hoshi to Daichi no Shisha",
+     "variant": "star-hearts-en-1.2",
+     "version": "1.2",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "138D1018",
+     "target_crc32": "DCAAFE90",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/star-hearts-v1.2/star-hearts-en-1.2.bps",
+     "sha256": "308fda32e60d4f2b9c089152119325369d3a6075f75f26559f565c569c8d4655",
+     "size": 1054346,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/star-hearts-v1.2",
+     "notes": "**Star Hearts: Hoshi to Daichi no Shisha** (スターハーツ ～星と大地の使者～, \"Star Hearts: Messenger of the Stars and the Earth\") is Bandai's 2001 action RPG for the WonderSwan Color, released only in Japan. You play the child of Inde Village's chief, sent out on the day you come of age to free the land's spirits and fairies from the Evil Emperor Zorg. It is a top-down adventure with magic, animal abilities, weapon \"Arts\", charms you fit to your gear, a pet that hatches from a meteorite egg and fights other players' pets over the link cable, and an online bazaar on Bandai's WonderGate service.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: every story event, the fairy and creature scenes, the narrated prologue and the ending.\n* Every menu: magic, animal abilities, weapons and armor with their charms, Talismans, Amulets, equipment items, key items, events, status, the fairy list, the Arts list, options and the e-Pet screen; item, spell and Arts names and descriptions; shops and the smith.\n* Everything drawn as a picture: the title, the …"
+    }
+   ]
+  },
   "DCB0185E": {
    "crc32": "DCB0185E",
    "size": 4194304,
@@ -7774,7 +9152,7 @@
      "version": "1.1",
      "language": "en",
      "platform": "wonderswan",
-     "latest": true,
+     "latest": false,
      "superseded": false,
      "format": "bps",
      "source_crc32": "392DD813",
@@ -7797,7 +9175,7 @@
    "produced_by": [
     {
      "id": "1c4910264190aca3",
-     "game": "Densha de Go 2",
+     "game": "Densha de Go! 2",
      "variant": "Densha_de_Go_2_EN_v0.4.20_OPTIONS_FONT_CUMULATIVE",
      "version": "0.4.20",
      "language": "en",
@@ -7815,6 +9193,39 @@
      "page": "https://github.com/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/blob/main/patches/Densha_de_Go_2_EN_v0.4.20_OPTIONS_FONT_CUMULATIVE.bps"
     }
    ]
+  },
+  "E2317345": {
+   "crc32": "E2317345",
+   "size": 8388608,
+   "md5": "7a1023850bddb3b9547a9be8075da01d",
+   "sha1": "68981c05d8118d4189100eed462ee6639328dc59",
+   "names": [
+    "Arc the Lad - Kishin Fukkatsu (Japan)",
+    "Arc the Lad - Kishin Fukkatsu (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "b80117138f35ee56",
+     "game": "Arc the Lad: Kijin Fukkatsu",
+     "variant": "Arc.the.Lad.-.Kijin.Fukkatsu.T-En.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "E2317345",
+     "target_crc32": "C0AA9945",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/ArcTheLad_0.9/Arc.the.Lad.-.Kijin.Fukkatsu.T-En.v0.9.bps",
+     "sha256": "b80117138f35ee561bb93dd57b54495be72e13e2401f61604eb76a58c2b214dc",
+     "size": 256488,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ArcTheLad_0.9",
+     "notes": "**Arc the Lad: Kijin Fukkatsu** is Bandai's 2002 Arc the Lad for the WonderSwan Color, released only in Japan. In the land of Jihata, the young Hunter Elc takes jobs from the Hunters' Guild, until he meets Finia, a girl who came from another time, and the machine Grolgarde and the army of MMM threaten the world again.\n\nThis patch translates it into English. The dialogue is shown in capitals, which read better on the WonderSwan screen.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n> **About the other translation project:** this game was listed as \"in progress\" by another translator. It was not possible to contact him: he hasn't posted any updates since 2021 and hasn't logged in to romhacking.net since 2024 (a private message there could not even be delivered, his inbox is full). The project is therefore considered abandoned.\n\n**How it was made**\n\nClaude did each part of the work; /u/Gio-74 did only a final check.\n\n1. **Text**: Claude found the game's text tables and its character table in the ROM and extracted every Japanese text (5,857 entries: dialogue, menus, names, descriptions, battle quotes, diaries).\n2. **Translation**: Claude translated everything directly from the Japanese of this game, keeping the meaning …"
+    }
+   ],
+   "produced_by": []
   },
   "E245AF80": {
    "crc32": "E245AF80",
@@ -8242,6 +9653,62 @@
     }
    ]
   },
+  "ECB9D7B5": {
+   "crc32": "ECB9D7B5",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "b9a22f1617470bb4",
+     "game": "Uchuu Senkan Yamato",
+     "variant": "Uchuu.Senkan.Yamato.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "5793BDDA",
+     "target_crc32": "ECB9D7B5",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/UchuuSenkanYamato_0.9/Uchuu.Senkan.Yamato.EN.v0.9.bps",
+     "sha256": "b9a22f1617470bb46f0fb8322996914de999875cc496c789a512b2dfe137f8b1",
+     "size": 444453,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/UchuuSenkanYamato_0.9",
+     "notes": "**Uchuu Senkan Yamato** is Bandai's 2001 Space Battleship Yamato game for the WonderSwan Color. It was released only in Japan. The game follows the Yamato's voyage from the dying Earth to Iscandar, as in the original anime: story scenes with Kodai, Okita, Yuki and the crew alternate with turn-based battles on hex maps against the Gamilas fleets.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Uchuu Senkan Yamato (Japan)* (4 MB, CRC32 5793BDDA) with Floating IPS, beat or ROM Patcher JS. The result is CRC32 ECB9D7B5. Keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Uchuu Senkan Yamato (EN v0.9).bps\" \"Uchuu Senkan Yamato (Japan).wsc\" \"Uchuu Senkan Yamato (EN v0.9).wsc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\n**How it was made**\n\n* **Claude** found the game's script interpreter and message blocks. It extracted all 1,489 messages (8,865 pages) and 846 menu strings, names and labels, and translated everything directly from the Japanese. Names follow the original Japanese series: Kodai, Yuki, Okita, Desslar, Gamilas, Iscandar.\n* **Claude** also did all the ROM …"
+    }
+   ]
+  },
+  "ED5AEB47": {
+   "crc32": "ED5AEB47",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "e53ad6c54ec898d2",
+     "game": "Macross - True Love Song",
+     "variant": "Macross.-.True.Love.Song.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "62D419CD",
+     "target_crc32": "ED5AEB47",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MacrossTLS_0.9/Macross.-.True.Love.Song.EN.v0.9.bps",
+     "sha256": "e53ad6c54ec898d242b4453c1d4da41accb0369abac85624993b38a4969323b5",
+     "size": 318616,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MacrossTLS_0.9",
+     "notes": "**Macross - True Love Song** is a 2000 WonderSwan game by Upstar, published by Layup. It was released only in Japan.\n\nIn 2043 the colony ship Odin IV is flung into deep space by a fold accident. Trainee pilot Reiji Starling is drafted early into the Gray Wolves squadron. Each week you plan his schedule: simulator drills in Fighter, GERWALK and Battroid modes, workouts, patrols against the Zentradi, and free days around the ship with Mio, Elena and Mana. It's part dating sim, part Valkyrie battle game, with several endings.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Macross - True Love Song (Japan).ws* (4 MB, CRC32 62D419CD) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB, CRC32 ED5AEB47; keep the .ws extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Macross - True Love Song (EN v0.9).bps\" \"Macross - True Love Song (Japan).ws\" \"Macross - True Love Song (EN v0.9).ws\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**What is translated**\n\n* The whole script: 4,980 text boxes (story, dates, …"
+    }
+   ]
+  },
   "EE8B3230": {
    "crc32": "EE8B3230",
    "size": 2097152,
@@ -8296,6 +9763,59 @@
      "notes": "**Glocal Hexcite** (グローカルヘキサイト) is the 2000 WonderSwan (monochrome) version of *Hexcite*, the tile-placing board game by Gu Inc. / GAJIN, published by SUCCESS and released only in Japan. Two players take turns placing triangles, diamonds, trapezoids and hexagons on a board of seven hexagons: every edge your piece touches scores 5 points, filling the last space of an outer hexagon wins a 10- or 30-point bonus, and pieces you can't place cost you points at the end. This version adds a cast of animals: the Hexer Gang, five rivals you beat one by one, Arara the koala with 50 puzzle problems and titles to earn, and Powan the dog, who teaches the rules. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* Everything the game writes in its font: the menus and their settings, the Hexer Gang's dialogue (introductions, rematches, reactions after every round and match, their \"thinking\" chatter, and both endings), Arara's puzzle mode (class introductions, the puzzle headers, ten \"correct!\" lines, all 50 hints and the titles), Powan's two rules tutorials, the help …"
     }
    ]
+  },
+  "F09E752F": {
+   "crc32": "F09E752F",
+   "size": 4194304,
+   "md5": "e03e666452651e82eb5734a9d684802a",
+   "sha1": "959321e3b971516e38a4cbf95b0fc3efc0b0a825",
+   "names": [
+    "Final Fantasy II (Japan)",
+    "Final Fantasy II (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "a6be18feca96de93",
+     "game": "Final Fantasy II",
+     "variant": "Final.Fantasy.II.T-En.v0.9.2",
+     "version": "0.9.2",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "F09E752F",
+     "target_crc32": "F1EF50C6",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFII_0.9.2/Final.Fantasy.II.T-En.v0.9.2.bps",
+     "sha256": "a6be18feca96de9318dce318df03ba9c283bd92f0827efbc5376fcfcfae85c83",
+     "size": 156077,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFII_0.9.2",
+     "notes": "**Final Fantasy II** for the WonderSwan Color is Square's 2001 remake of the second Final Fantasy, released only in Japan. The Palamecian Empire has summoned monsters from the Underworld to conquer the world, and Firion, Maria and Guy, who lost their parents when the Empire attacked Fynn, join Princess Hilda's rebels.\n\n**Why a new translation?**\nThe WonderSwan Color Final Fantasy II was never released outside Japan. The only English patch for it so far, RPGOne’s “Stage 1” v0.97 from 2002, was never finished. Its script was adapted from Neo Demiforce’s translation of the NES version rather than translated from this one, the intro was left in Japanese, and its own readme lists the battle menus and the shop Yes/No as not displaying correctly. The planned full “Stage 2” never came out. The official English releases (Origins, Dawn of Souls, PSP, Pixel Remaster) are other remakes, and each adapts the script and the names differently: the same town is Altair, the same spell is Life or something else, depending on which version you played.\n\nSo this translation starts again from the Japanese text of the WonderSwan Color ROM, and the whole game is in English: dialogue, keywords, menus, battle text, the demo captions and the graphics. For names, the rule is simple.\nSquare Enix’s official English is kept wherever it matches the Japanese (Firion, Maria, Guy, Minwu, Hilda, Palamecia, Wild Rose, Mythril...). Where every English release changed the name, the form faithful to the Japanese is …"
+    },
+    {
+     "id": "cf023cfc693b8484",
+     "game": "Final Fantasy II",
+     "variant": "Final.Fantasy.II.T-En.v0.9.2.Big.Caps",
+     "version": "0.9.2",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "F09E752F",
+     "target_crc32": "84588AC8",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFII_0.9.2/Final.Fantasy.II.T-En.v0.9.2.Big.Caps.bps",
+     "sha256": "cf023cfc693b84849f5e050e5a23b1e110279568692f28a5d2b14274c365211d",
+     "size": 157256,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFII_0.9.2",
+     "notes": "**Final Fantasy II** for the WonderSwan Color is Square's 2001 remake of the second Final Fantasy, released only in Japan. The Palamecian Empire has summoned monsters from the Underworld to conquer the world, and Firion, Maria and Guy, who lost their parents when the Empire attacked Fynn, join Princess Hilda's rebels.\n\n**Why a new translation?**\nThe WonderSwan Color Final Fantasy II was never released outside Japan. The only English patch for it so far, RPGOne’s “Stage 1” v0.97 from 2002, was never finished. Its script was adapted from Neo Demiforce’s translation of the NES version rather than translated from this one, the intro was left in Japanese, and its own readme lists the battle menus and the shop Yes/No as not displaying correctly. The planned full “Stage 2” never came out. The official English releases (Origins, Dawn of Souls, PSP, Pixel Remaster) are other remakes, and each adapts the script and the names differently: the same town is Altair, the same spell is Life or something else, depending on which version you played.\n\nSo this translation starts again from the Japanese text of the WonderSwan Color ROM, and the whole game is in English: dialogue, keywords, menus, battle text, the demo captions and the graphics. For names, the rule is simple.\nSquare Enix’s official English is kept wherever it matches the Japanese (Firion, Maria, Guy, Minwu, Hilda, Palamecia, Wild Rose, Mythril...). Where every English release changed the name, the form faithful to the Japanese is …"
+    }
+   ],
+   "produced_by": []
   },
   "F0ACDA5C": {
    "crc32": "F0ACDA5C",
@@ -8370,6 +9890,34 @@
     }
    ],
    "produced_by": []
+  },
+  "F1EF50C6": {
+   "crc32": "F1EF50C6",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "a6be18feca96de93",
+     "game": "Final Fantasy II",
+     "variant": "Final.Fantasy.II.T-En.v0.9.2",
+     "version": "0.9.2",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "F09E752F",
+     "target_crc32": "F1EF50C6",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFII_0.9.2/Final.Fantasy.II.T-En.v0.9.2.bps",
+     "sha256": "a6be18feca96de9318dce318df03ba9c283bd92f0827efbc5376fcfcfae85c83",
+     "size": 156077,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFII_0.9.2",
+     "notes": "**Final Fantasy II** for the WonderSwan Color is Square's 2001 remake of the second Final Fantasy, released only in Japan. The Palamecian Empire has summoned monsters from the Underworld to conquer the world, and Firion, Maria and Guy, who lost their parents when the Empire attacked Fynn, join Princess Hilda's rebels.\n\n**Why a new translation?**\nThe WonderSwan Color Final Fantasy II was never released outside Japan. The only English patch for it so far, RPGOne’s “Stage 1” v0.97 from 2002, was never finished. Its script was adapted from Neo Demiforce’s translation of the NES version rather than translated from this one, the intro was left in Japanese, and its own readme lists the battle menus and the shop Yes/No as not displaying correctly. The planned full “Stage 2” never came out. The official English releases (Origins, Dawn of Souls, PSP, Pixel Remaster) are other remakes, and each adapts the script and the names differently: the same town is Altair, the same spell is Life or something else, depending on which version you played.\n\nSo this translation starts again from the Japanese text of the WonderSwan Color ROM, and the whole game is in English: dialogue, keywords, menus, battle text, the demo captions and the graphics. For names, the rule is simple.\nSquare Enix’s official English is kept wherever it matches the Japanese (Firion, Maria, Guy, Minwu, Hilda, Palamecia, Wild Rose, Mythril...). Where every English release changed the name, the form faithful to the Japanese is …"
+    }
+   ]
   },
   "F1F4D41F": {
    "crc32": "F1F4D41F",
@@ -8606,6 +10154,58 @@
     }
    ]
   },
+  "F504CD84": {
+   "crc32": "F504CD84",
+   "size": 1048576,
+   "md5": "cf5e9f022baadd1ed9b0a9e88b503e95",
+   "sha1": "fdb8e9f37a4b097350b7c5b1b8ee381ca51dc0b6",
+   "names": [
+    "Puzzle Bobble (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "4199048fcd75a719",
+     "game": "Puzzle Bobble",
+     "variant": "Puzzle.Bobble.Japan.T-En.v0.9.5.16.colours",
+     "version": "0.9.5.16",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "F504CD84",
+     "target_crc32": "72BAE9AE",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/PuzzleBobble_0.9.5/Puzzle.Bobble.Japan.T-En.v0.9.5.16.colours.bps",
+     "sha256": "4199048fcd75a719f2903d1b29e063bf8ab78ed4fd1e12fa8ead29198bc79307",
+     "size": 320767,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuzzleBobble_0.9.5",
+     "notes": "**Puzzle Bobble** is Sunsoft's 1999 port of Taito's bubble shooter for the original black-and-white WonderSwan, released only in Japan. It has 1 Player rounds, Versus (computer or link cable), an endless Challenge mode, records and options.\n\nThis patch translates all of its menus and screens into English **and turns it into a WonderSwan Color game**, in two versions:\n\n* **16 colours:** the whole game runs in the console's 16-colour mode: the title logo, Bub (green) and Bob (blue), the character portraits (every Versus opponent in its own colours) and the game over screen are recoloured in the style of the arcade game, the Taito logo follows the official one, the playfield gets a carved stone frame and a dark blue checkerboard with soft shadows, the menus a tiled blue background, the ROUND box a maroon panel with a gold frame, and during play every bubble has its own colour (with a light spot and a soft shadow).\n* **4 colours:** every screen is in colour, but the game keeps its original four shades per palette: bubbles share one hue and are told apart by their patterns, closer to the original art.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the two .bps files to *Puzzle …"
+    },
+    {
+     "id": "5dba28c3cacaa5a7",
+     "game": "Puzzle Bobble",
+     "variant": "Puzzle.Bobble.Japan.T-En.v0.9.5.4.colours",
+     "version": "0.9.5.4",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": false,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "F504CD84",
+     "target_crc32": "9DCDEC95",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/PuzzleBobble_0.9.5/Puzzle.Bobble.Japan.T-En.v0.9.5.4.colours.bps",
+     "sha256": "5dba28c3cacaa5a7c484e8fcfec4b143962b0f9735408437dbce38a90496f6b4",
+     "size": 26070,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuzzleBobble_0.9.5",
+     "notes": "**Puzzle Bobble** is Sunsoft's 1999 port of Taito's bubble shooter for the original black-and-white WonderSwan, released only in Japan. It has 1 Player rounds, Versus (computer or link cable), an endless Challenge mode, records and options.\n\nThis patch translates all of its menus and screens into English **and turns it into a WonderSwan Color game**, in two versions:\n\n* **16 colours:** the whole game runs in the console's 16-colour mode: the title logo, Bub (green) and Bob (blue), the character portraits (every Versus opponent in its own colours) and the game over screen are recoloured in the style of the arcade game, the Taito logo follows the official one, the playfield gets a carved stone frame and a dark blue checkerboard with soft shadows, the menus a tiled blue background, the ROUND box a maroon panel with a gold frame, and during play every bubble has its own colour (with a light spot and a soft shadow).\n* **4 colours:** every screen is in colour, but the game keeps its original four shades per palette: bubbles share one hue and are told apart by their patterns, closer to the original art.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the two .bps files to *Puzzle …"
+    }
+   ],
+   "produced_by": []
+  },
   "F50CD9E7": {
    "crc32": "F50CD9E7",
    "size": 2097152,
@@ -8659,6 +10259,34 @@
      "size": 127241,
      "source": "Gand46/Chocobo_no_Fushigi_na_Dungeon_Mysterious_Dungeon_WS_AI_ROM-FIX-",
      "page": "https://github.com/Gand46/Chocobo_no_Fushigi_na_Dungeon_Mysterious_Dungeon_WS_AI_ROM-FIX-/blob/main/patches/historical/Chocobo_EN_v1.1_HF1_TEST_JP_CCAA4853.bps"
+    }
+   ]
+  },
+  "F5CA2439": {
+   "crc32": "F5CA2439",
+   "size": 8388608,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "704d53a78c41e73c",
+     "game": "Hunter X Hunter: Sorezore no Ketsui",
+     "variant": "Hunter.X.Hunter.-.Sorezore.no.Ketsui.T-En.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "D0B20C5A",
+     "target_crc32": "F5CA2439",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/HxH_SorezoreNoKetsui_0.9/Hunter.X.Hunter.-.Sorezore.no.Ketsui.T-En.v0.9.bps",
+     "sha256": "704d53a78c41e73cd2c1763c5426c18abb00feb59dfd88abcc31e790e5846d04",
+     "size": 2020495,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HxH_SorezoreNoKetsui_0.9",
+     "notes": "**Hunter X Hunter: Sorezore no Ketsui** (\"Each One's Determination\") is Bandai's 2001 adventure for the WonderSwan Color, released only in Japan. It covers the months between the Zoldyck estate and the Yorknew reunion with four routes: Gon and Killua at Heavens Arena (Wing, Zushi, Nen training, Whale Island), Kurapika looking for bodyguard work, Leorio, and Hisoka. You explore with menu commands and fight Nen battles.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Hunter X Hunter - Sorezore no Ketsui (Japan)* (4 MB, CRC32 D0B20C5A) with Floating IPS, beat or ROM Patcher JS. Result: 8 MB, CRC32 F5CA2439. Keep the .wsc extension.\n\nYou must provide your own copy of the original Japanese game to apply it.\n\n**How it was made**\n\n* **Claude** read the game's font to build the character table (511 characters, kanji transcribed one by one), found the message engine and extracted the whole script (about 3,960 messages), then translated everything directly from the Japanese, with the names and Nen terms of the Viz manga and the 2011 dub.\n* **Claude** also did all the ROM hacking: the ROM was expanded to 8 MB, with a new variable-width …"
     }
    ]
   },
@@ -8811,6 +10439,34 @@
     }
    ]
   },
+  "F886A276": {
+   "crc32": "F886A276",
+   "size": 8388608,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "3889dab5b24445ab",
+     "game": "Alchemist Marie & Elie: Futari no Atelier",
+     "variant": "Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.2",
+     "version": "0.9.2",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "B18CDC0D",
+     "target_crc32": "F886A276",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/AtelierMarieElie_0.9.2/Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.2.bps",
+     "sha256": "3889dab5b24445ab7720c65de09b8cb4a66e424af396080fcce0e7cc27f13440",
+     "size": 480206,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/AtelierMarieElie_0.9.2",
+     "notes": "*Marie & Elie: Futari no Atelier* is Gust's 2001 Atelier game for the WonderSwan Color, released only in Japan. Marie (Marlone), now a full-fledged alchemist, and Elie (Elfir Traum), the girl she once saved, open an atelier together in Salburg. Thieves have stolen everything Elie owned, and Fuehren from Kentnis asks the two of them to create something nobody has ever seen: the Primordial Flame. You have three years to synthesize items, take quests at the Sky Tavern, gather ingredients with adventurers, hold tea parties and meet the cast of both Atelier Marie and Atelier Elie.\n\nThis patch translates it into English.\n\n**What is translated**\n\n- The whole script: 2,643 messages (story events, town talk, quests, tea parties, gathering trips, battles, the endings, the item and character encyclopedia, the composer's comments in the music room, the staff roll).\n- Item and equipment names, all the menus and system strings.\n- The speaker nameplates (redrawn in English) and the item names painted on the item cards.\n- A new variable-width font for all the text; the dialogue is re-wrapped and paged automatically.\n- Names follow Koei Tecmo's official English releases of Atelier Marie where they exist (Marlone/Marie, Salburg, Ingrid, Schea Donnerstag, Enderk Yard, Kreis Kuehl, Ruven Filnir, Mu Seqstanse, Sky Tavern, Meister Rank...). The others were romanized from the Japanese.\n\n**Images**\n\n**How to patch**\n\nApply the .bps patch to the original Japanese ROM *Alchemist Marie & Elie - Futari …"
+    }
+   ]
+  },
   "F8A1DD2B": {
    "crc32": "F8A1DD2B",
    "size": 8388608,
@@ -8863,6 +10519,34 @@
     }
    ],
    "produced_by": []
+  },
+  "F92996CB": {
+   "crc32": "F92996CB",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "7b63d807bdba5610",
+     "game": "Giren no Yabou Tokubetsu Hen: Aoki Hoshi no Hasha",
+     "variant": "Giren.no.Yabou.-.Aoki.Hoshi.no.Hasha.English.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "D4061551",
+     "target_crc32": "F92996CB",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Giren_0.9/Giren.no.Yabou.-.Aoki.Hoshi.no.Hasha.English.v0.9.bps",
+     "sha256": "7b63d807bdba56108ebe2551c1c9e84b8dca797f2f283fddc9b7ba271ecba05d",
+     "size": 436982,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Giren_0.9",
+     "notes": "Gihren's Greed on the WonderSwan Color is now playable in English. Pick Garma Zabi or M'Quve, lead the Earth Attack Force through the One Year War, win the Staff Meeting debates against your rival commanders, and fight it out on the tactical battle maps.\n\nThis translation was made only with AI, for personal use, and is shared as is. Please don't upload it to romhacking sites: it's not worthy of them, since it's an AI translation and not a human one.\n\n**Screenshots** (gallery, in order)\n\n1. Opening narration\n2. Character select\n3. Gihren's briefing\n4. Strategy Phase banner\n5. Federation turn: \"Planning\"\n6. A proposal to the Staff Meeting\n7. Staff Meeting opinion list (Views / Zeal / Clout)\n8. Debate pop-up: \"STIR!\"\n9. Vote: \"VOTE / PASS\"\n10. Main command menu (Talks / Military / Propose / Intel)\n11. Unit formation (Main / Unformed, R M F grid)\n12. Talks: request for reinforcements\n13. Sortie: \"Battle Area\"\n14. Tactical battle unit menu (Move / Attack / Seize / Form / Status)\n15. Battle summary (VS screen)\n16. Battle result: \"DEFENSE WON\"\n17. Intel: weapon data and terrain aptitude\n18. Ending narration\n19. Epilogue\n20. Staff credits\n\n**What's translated**\n\n* The whole script: about 18,800 lines (opening narration, briefings, every Staff Meeting proposal and debate, events, endings, staff credits).\n* All menus, commands, stats, ranks, character, mobile suit, ship and weapon names, and proposal titles.\n* Graphics: character select, Strategy Phase and faction banners and headers, …"
+    }
+   ]
   },
   "FBE97403": {
    "crc32": "FBE97403",
@@ -8948,6 +10632,36 @@
     }
    ]
   },
+  "FE7374D2": {
+   "crc32": "FE7374D2",
+   "size": 524288,
+   "names": [
+    "Bishoujo Senshi Sailor Moon S (Japan)"
+   ],
+   "patches": [
+    {
+     "id": "875da275de45cca6",
+     "game": "Bishoujo Senshi Sailor Moon S",
+     "variant": "Bishoujo.Senshi.Sailor.Moon.S.Japan.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "FE7374D2",
+     "target_crc32": "C8F5E947",
+     "target_size": 524288,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SailorMoonS_GG_0.9/Bishoujo.Senshi.Sailor.Moon.S.Japan.EN.v0.9.bps",
+     "sha256": "875da275de45cca686b3e15ac28e98fa5f7d094d88ad4aaf913bb280b80c42e1",
+     "size": 25061,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SailorMoonS_GG_0.9",
+     "notes": "This is an English translation patch for the Japanese Game Gear game *Bishoujo Senshi Sailor Moon S* (Bandai, 1995).\n\nThe patch was made only with AI, for personal use, and is shared here as-is. Claude (Anthropic) did all the work: ROM analysis, translation, graphics and tools. /u/Gio-74 only did a final check. Please don't upload it to romhacking sites; it isn't worthy of them.\n\n**Note:** a complete human translation by filler & Supper already exists, and it's the recommended one if it works for you. This patch is an independent alternative. It also keeps the ROM at 512 KB, so it runs on **GGSWAN** on the WonderSwan.\n\n**What's translated**\n- Main menu, speech bubble and mini-game menu\n- All mini-game instructions and bonus-game messages\n- Quiz World: every question and answer\n- Ending lines\n- Title banners, Rei's fortune screens and the password screen label\n\nText is ALL CAPS. Names follow the current official English dub (Viz): Usagi, Chibiusa, Rei, Ami, Makoto, Minako, Haruka, Michiru, Tuxedo Mask, Death Busters, Holy Grail, Sailor Guardians.\n\n**How it was made**\n1. Claude analysed the ROM with a small Game Gear emulator it wrote in Python. It found the text engine, the tile compression (an RLE split into two byte streams) and the quiz pointer tables.\n2. Claude translated the full script from the Japanese.\n3. ChatGPT did a full semantic review of every line against the Japanese, in blocks.\n4. Claude checked and applied the corrections and rebuilt the ROM.\n\nTo fit the …"
+    }
+   ],
+   "produced_by": []
+  },
   "FF214908": {
    "crc32": "FF214908",
    "size": 8388608,
@@ -9007,7 +10721,9 @@
  },
  "by_md5": {
   "0215c4b8a395f6fcf8f5b07605eae08b": "BF8D9212",
+  "0870f205e8a0148cc75d642f00558057": "B07E6A56",
   "0eb951b486fe25f37371835be81eed75": "AA525C04",
+  "12a59977999dcf7baebd79c81ab8f5a7": "D0B20C5A",
   "12c3cca0ef52343509dda1c1fb4c1b65": "F0ACDA5C",
   "173e9d76206a88bf05696027b4d55850": "0E40829C",
   "1adacf9cb5aa3eb5839a9e2c94933348": "00137E86",
@@ -9018,23 +10734,33 @@
   "30e5f0895254ea2952f4a6a707ace47c": "D7A0AB74",
   "3584e4a63a6ae9fa546722a349f88573": "4E467626",
   "367e9ef3630061fdf91a2110911611a7": "84A46949",
+  "399e48a3347c378554de65848f1f496c": "D4061551",
   "39a4626ba187933297b3155180147778": "E4EB3AB1",
   "3e62a6b6af656fcac225cd02446acb9d": "2460B45A",
   "3f81d86b97a81ed8fb2fd90a20b94c7a": "08C0247B",
+  "4180034fe25dbc97ddd0d7e3adf83e3b": "8CE4652F",
   "41a4a0ab39c036fb4ad741f19027e443": "138D1018",
   "47d83279cbdbd91c51cb7b0063d5d3e5": "F699D6D1",
+  "496100bcd73fbfa39e473c6ddee190b2": "8655269E",
   "5432d188664bc4e5dae0fc859580cda1": "56E2C069",
   "547501367ccf6262a70d0030e68cc75e": "427056C4",
   "5883b9d0f63fe8daa9c1a2259c154466": "F1F4D41F",
+  "5e907dd88b3cfb2855a18fb1bf689860": "80C6EF12",
+  "694042e6f8eaa2423693c0a9bba8aef0": "62D419CD",
   "6c1949e0201437ed16d9182956b67b0e": "4D21A347",
+  "6c1b75de270e7e96df161833a5522b7d": "31E09BED",
   "6ec4fe6789acab4347355fcb53f10146": "9F6E3F8D",
   "6f09fc64352ba0051e724c4ae58402f4": "A193458C",
+  "7209acaa3415a4f179ac17fd574453a6": "067238D1",
   "7528a5de5924896d152920b1eaf8fd5d": "425EB893",
+  "7a1023850bddb3b9547a9be8075da01d": "E2317345",
   "7b2180e38b4720ce711768a73c33c9df": "B62E5DD0",
   "7fa6a3034b8c03fca0b756fb5526ce62": "F8A1DD2B",
+  "8b8ea655dbea4a3152b300126556404c": "6F304DCA",
   "95b2632395ce85fc5f0cdb762e665136": "39A1391A",
   "9b15b2236cae605f7bc3bea3859fdd36": "B25A0635",
   "9bfcf86bf65c9fdae4a0f88fadafd0d8": "2F9E2560",
+  "9f612c697b72b2d5e87776edd95de077": "5793BDDA",
   "a466797b353d610f43a0f030cec721c1": "CE2F1A1D",
   "a4862ef07e13231ae429a98ef667a74a": "9C98D97D",
   "b1832d4e48ba931adbfaf2ed35314fe0": "62CB398B",
@@ -9044,11 +10770,16 @@
   "bb9f130931b2b7d1f646f44d1667ad63": "7F3A14C0",
   "be0f50bc4470711a31be0bd33c775ad2": "9750BC2A",
   "c17c4de6648c776b246ae83991ac3978": "1E760C41",
+  "c1cb619ec3a596366a324da1f8957985": "A3ECC9AC",
   "c21571f057d05bb01db2ece8517b121d": "A5643AA3",
   "c53a5d8c189a23b16c444c4e8ef581af": "392DD813",
+  "cb58db877b8adfce59f2e34cc4224d8b": "B18CDC0D",
+  "cdbcacff7dd0348beffb1e228592e2e1": "446E2581",
+  "cf5e9f022baadd1ed9b0a9e88b503e95": "F504CD84",
   "d902afdadf17b452621c50a1ffda2fa9": "1F10CA75",
   "da17db6b7f491510e4b284996ff0eebf": "89E7D950",
   "dd9be38cd66ffd3b526d3388c6b99b8e": "F246A68E",
+  "e03e666452651e82eb5734a9d684802a": "F09E752F",
   "e12db3065b59e51bae7bf86053dd5782": "301436AC",
   "e36650ac50df69d1832a0d496c165db2": "B7243E88",
   "e39e90944a683b9d4a996a53804826f0": "B1CAEC06",
@@ -9076,11 +10807,17 @@
   "152c4d63b1b17f2c717a43efc75d718b614f9ddc": "F0ACDA5C",
   "1eb729aa9ab0a7df6f8a3470a6fede59d7622d4a": "0C9CB12C",
   "1f42c5694a798de8ff3c68f63dfc7395be1669a5": "AA525C04",
+  "1f7c28d9d575b260d973f8526ecadda834032149": "A3ECC9AC",
+  "207a3ceb9a09eabca6e455deeb7035e7e04c9795": "80C6EF12",
+  "20b671bc14a8ab6373deecc641479d09658ac21f": "D4061551",
+  "211e051db3fd4d7ae1ea143e043f87cfbcec5f1c": "62D419CD",
   "221f48e97ec2c6d0046213956e1f36e923c0dec2": "8E120B5A",
   "2410690ad46667c52b63402df9e95fc8a75cee62": "427056C4",
   "26628eb76c16880b6faf2e706778d91a60144078": "B7243E88",
   "29e72e7f96f145a0ff56e447f577310df2ec463b": "08C0247B",
   "2b2c2a0566646156bcdde2a00b728c5b8218aa23": "138D1018",
+  "2da2a9bcff4813abcb5b2c88095258d89a575378": "D0B20C5A",
+  "2e3f221d6965f53b29586d2019ee81dec6d1ac30": "31E09BED",
   "31a718cfbcff2dab56ab9606a0b5b2dfccecbbcb": "F1F4D41F",
   "35443e2ef8a20a0ad82da1274b2768c16239dd46": "A9F5BF54",
   "35eea568f756bacf533bb9aaad7e3239ba00e411": "B25A0635",
@@ -9089,11 +10826,16 @@
   "3b62fd2841602f1077270848ab7a3aad58712ee9": "CCAA4853",
   "3c752694ab651f9a00ccd39c334a2e3ff78f5cb2": "2F9E2560",
   "3d5a1ed77e721908eb1145aaedef17c0ee6355ae": "89E7D950",
+  "4a756dab81e0101475dc2e5494270f3df7dac1e6": "8655269E",
+  "4c3f092b095bdb0afdaf8d32d4c54b4d6c209c96": "B07E6A56",
+  "5384f9974c66e5e26129a4709976de0bb1ae1f17": "067238D1",
   "544e76133fa53fc0ae5e00e3465b9cf634f14fd0": "324622C9",
   "57b4278fc5812f52413ca65f45225922d4f2ec3d": "70AA800E",
   "5e5db8b066e1b41c5c12a2d4ffa97b73ed6c3f03": "E4EB3AB1",
   "5eaeab859e5f647fac354dad285a311387ea126b": "00B31FBB",
   "5f3b81c2f7459b602fecb621d288cf4ddf5e640f": "19AC67B5",
+  "65c4c6aaa36328bba5d56419af59af5d3420ed78": "6F304DCA",
+  "68981c05d8118d4189100eed462ee6639328dc59": "E2317345",
   "6b3146e8c5b5ea51a7bed47d8afbc607d6f91051": "E245AF80",
   "6c5a2dc7e231ebd278fe22bb7f01b1a7cc3785d6": "84A46949",
   "6d707e88c85d1b5ef708631e709668006a9ee244": "F699D6D1",
@@ -9104,20 +10846,26 @@
   "862e59fc9322b1177cfff86d405f288fa904788c": "62CB398B",
   "92d4a6ff6f2b1152d8935025f38f910155e5d709": "80DE367D",
   "9427f4a6c9b6de37c205249149c11cc7ee1259ce": "9ADAFACD",
+  "959321e3b971516e38a4cbf95b0fc3efc0b0a825": "F09E752F",
   "9622c65c939f05a9dfae288919ec5bd15c348f14": "A5643AA3",
   "9896d93c97381dc06b6f044de6c9bd112ca0c94b": "14ADBD4B",
   "99c831c27c478064e3d3fa8f9f089cc28f0e946f": "F2E362B8",
+  "99d9d7f951ae589059f34e76aea7489ae4cd79f1": "B18CDC0D",
   "9b4786adca7b83fe66a9d4b9fd4ffaf32abe7656": "1F10CA75",
+  "a1e24771dbc388af98781e894fc064fadd83517b": "DCAAFE90",
   "a8f8d3efc9b2d5741081e05f517d746ee5437f87": "2460B45A",
+  "adbe6e38a0bc6a2d19da64a444071977b771f14f": "446E2581",
   "ae31488cee1c91f383efbe3083b4abec092dda36": "BF8D9212",
   "af3fe9da3f5ee0f5a7b06b0440223db88fcb3bf2": "00137E86",
   "c07f776ac4374b648d1a49efd9d6fcd0db2ac1fa": "AF9D8F42",
   "c1ab4e24f261615ca59f937b866fcf7047b67796": "66B617D5",
   "c4436a59fd830ba6af2d63462f71e1ab1cfa3212": "56E2C069",
+  "c48569fd0a46ab7b7ceafeb5698be90420cd4fbe": "8CE4652F",
   "caf4a8de853ded732b2a72619acf2784eeceafc7": "D7A0AB74",
   "cbf6455e89b20a000b6121e5c485be1a20d1f726": "A193458C",
   "cfcb14be6d2f1dbffdfcefb8c8d83b4f39bc102b": "CE2F1A1D",
   "d3da0ae529c6f78162682141154a95879f288ca7": "B62E5DD0",
+  "dd1878279a6667fb66dd1ac44a2cdb9a5acbe415": "5793BDDA",
   "df1a794f7e3992b1e1e9de14141b607746202202": "39A1391A",
   "e03332ebbd3fed88084bc96030c65a9b531e6ed1": "40E63922",
   "e31bfa54cbf539a9d28090b372d8e669a93c3e28": "1E760C41",
@@ -9127,7 +10875,8 @@
   "f7aeab6724154f7ef6a389f9f18b7100045e1064": "D7A12BD5",
   "f8f077da30f227f3793e97c7f1d656559f08b9d4": "A1FB16FC",
   "fb8d0f4e58a4192989ec71eb6e392d182aaa3eec": "35361250",
-  "fbb745b016cc710ff6f82ec3091a181415d8de61": "F246A68E"
+  "fbb745b016cc710ff6f82ec3091a181415d8de61": "F246A68E",
+  "fdb8e9f37a4b097350b7c5b1b8ee381ca51dc0b6": "F504CD84"
  },
  "by_sha256": {
   "38fd168a8cefa4ed80db42eed9f720e42da5b8f71d551c707520b24060c14728": "CCAA4853",

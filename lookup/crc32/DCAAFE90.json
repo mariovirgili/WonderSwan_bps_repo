@@ -1,0 +1,33 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "DCAAFE90"
+ },
+ "crc32": "DCAAFE90",
+ "size": 8388608,
+ "sha1": "a1e24771dbc388af98781e894fc064fadd83517b",
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "308fda32e60d4f2b",
+   "game": "Star Hearts: Hoshi to Daichi no Shisha",
+   "variant": "star-hearts-en-1.2",
+   "version": "1.2",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "138D1018",
+   "target_crc32": "DCAAFE90",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/star-hearts-v1.2/star-hearts-en-1.2.bps",
+   "sha256": "308fda32e60d4f2b9c089152119325369d3a6075f75f26559f565c569c8d4655",
+   "size": 1054346,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/star-hearts-v1.2",
+   "notes": "**Star Hearts: Hoshi to Daichi no Shisha** (スターハーツ ～星と大地の使者～, \"Star Hearts: Messenger of the Stars and the Earth\") is Bandai's 2001 action RPG for the WonderSwan Color, released only in Japan. You play the child of Inde Village's chief, sent out on the day you come of age to free the land's spirits and fairies from the Evil Emperor Zorg. It is a top-down adventure with magic, animal abilities, weapon \"Arts\", charms you fit to your gear, a pet that hatches from a meteorite egg and fights other players' pets over the link cable, and an online bazaar on Bandai's WonderGate service.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: every story event, the fairy and creature scenes, the narrated prologue and the ending.\n* Every menu: magic, animal abilities, weapons and armor with their charms, Talismans, Amulets, equipment items, key items, events, status, the fairy list, the Arts list, options and the e-Pet screen; item, spell and Arts names and descriptions; shops and the smith.\n* Everything drawn as a picture: the title, the …"
+  }
+ ]
+}

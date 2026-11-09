@@ -1,0 +1,36 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "62D419CD"
+ },
+ "crc32": "62D419CD",
+ "size": 4194304,
+ "md5": "694042e6f8eaa2423693c0a9bba8aef0",
+ "sha1": "211e051db3fd4d7ae1ea143e043f87cfbcec5f1c",
+ "names": [
+  "Macross - True Love Song (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "e53ad6c54ec898d2",
+   "game": "Macross - True Love Song",
+   "variant": "Macross.-.True.Love.Song.EN.v0.9",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "62D419CD",
+   "target_crc32": "ED5AEB47",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MacrossTLS_0.9/Macross.-.True.Love.Song.EN.v0.9.bps",
+   "sha256": "e53ad6c54ec898d242b4453c1d4da41accb0369abac85624993b38a4969323b5",
+   "size": 318616,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MacrossTLS_0.9",
+   "notes": "**Macross - True Love Song** is a 2000 WonderSwan game by Upstar, published by Layup. It was released only in Japan.\n\nIn 2043 the colony ship Odin IV is flung into deep space by a fold accident. Trainee pilot Reiji Starling is drafted early into the Gray Wolves squadron. Each week you plan his schedule: simulator drills in Fighter, GERWALK and Battroid modes, workouts, patrols against the Zentradi, and free days around the ship with Mio, Elena and Mana. It's part dating sim, part Valkyrie battle game, with several endings.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Macross - True Love Song (Japan).ws* (4 MB, CRC32 62D419CD) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB, CRC32 ED5AEB47; keep the .ws extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Macross - True Love Song (EN v0.9).bps\" \"Macross - True Love Song (Japan).ws\" \"Macross - True Love Song (EN v0.9).ws\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**What is translated**\n\n* The whole script: 4,980 text boxes (story, dates, …"
+  }
+ ],
+ "produced_by": []
+}

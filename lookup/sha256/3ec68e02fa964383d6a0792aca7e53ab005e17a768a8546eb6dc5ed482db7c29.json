@@ -13,8 +13,28 @@
  ],
  "patches": [
   {
+   "id": "20344f71561bb880",
+   "game": "Densha de Go! 2",
+   "variant": "Densha.de.Go.2.EN.v0.9.1",
+   "version": "0.9.1",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "AF9D8F42",
+   "target_crc32": "CB01825F",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DenshaDeGo2_0.9.1/Densha.de.Go.2.EN.v0.9.1.bps",
+   "sha256": "20344f71561bb880ea9090da45aa34dcd6c4d11feefe2003dda06744e3dea6bb",
+   "size": 46695,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DenshaDeGo2_0.9.1",
+   "notes": "**Densha de Go! 2** is Taito's 1999 train-driving game, ported to the WonderSwan by CyberFront. It was released only in Japan. You drive the Hokuhoku Line, the Akita Shinkansen, the Osaka Loop Line and the Keihin-Tohoku Line, keeping to the timetable, the signals and the speed limits, and stopping on the mark.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Densha de Go! 2 (Japan).ws* (4 MB, CRC32 AF9D8F42) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB, CRC32 CB01825F; keep the .ws extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Densha de Go! 2 (EN v0.9.1).bps\" \"Densha de Go! 2 (Japan).ws\" \"Densha de Go! 2 (EN v0.9.1).ws\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**What is translated**\n\n* Station events (Depart / Stop at / Pass + station) on every route.\n* Driving messages and penalties, and the conductor's tips.\n* The HUD: signal aspects, sign labels, next-station time, distance.\n* Route select, the departure board and the route maps.\n* Pause menu, options, continue and game over …"
+  },
+  {
    "id": "1c4910264190aca3",
-   "game": "Densha de Go 2",
+   "game": "Densha de Go! 2",
    "variant": "Densha_de_Go_2_EN_v0.4.20_OPTIONS_FONT_CUMULATIVE",
    "version": "0.4.20",
    "language": "en",
@@ -33,7 +53,7 @@
   },
   {
    "id": "1ae7933065bc0246",
-   "game": "Densha de Go 2",
+   "game": "Densha de Go! 2",
    "variant": "Densha_de_Go_2_EN_v0.4.19_ORIGINAL_TITLE_CUMULATIVE",
    "version": "0.4.19",
    "language": "en",
@@ -52,7 +72,7 @@
   },
   {
    "id": "c2dbe83f65efb66c",
-   "game": "Densha de Go 2",
+   "game": "Densha de Go! 2",
    "variant": "Densha_de_Go_2_EN_v0.4.18_EDITORIAL_TEST_CUMULATIVE",
    "version": "0.4.18",
    "language": "en",
@@ -71,7 +91,7 @@
   },
   {
    "id": "c74d4d4dd1f72a23",
-   "game": "Densha de Go 2",
+   "game": "Densha de Go! 2",
    "variant": "Densha_de_Go_2_EN_v0.4.17_CUMULATIVE",
    "version": "0.4.17",
    "language": "en",
@@ -90,7 +110,7 @@
   },
   {
    "id": "06c0aeca5870c48a",
-   "game": "Densha de Go 2",
+   "game": "Densha de Go! 2",
    "variant": "Densha_de_Go_2_EN_v0.4.17_CUMULATIVE",
    "version": "0.4.17",
    "language": "en",

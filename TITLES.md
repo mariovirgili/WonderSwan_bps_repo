@@ -4,37 +4,42 @@ Every released WonderSwan and WonderSwan Color title, and the translation patche
 
 | System | Titles | With a translation patch |
 | --- | ---: | ---: |
-| WonderSwan | 219 | 29 (+4 ⚠️ another dump) |
-| WonderSwan Color | 229 | 27 |
+| WonderSwan | 219 | 34 (+4 ⚠️ another dump) |
+| WonderSwan Color | 229 | 39 |
 
-Last change to the patch catalog: 2026-11-08.
+Last change to the patch catalog: 2026-11-09.
 
-## Titles with translation patches (60)
+## Titles with translation patches (77)
 
 | | Title | System | Patches (newest version of each author) |
 | :---: | --- | --- | --- |
+| ✅ | Alchemist Marie & Elie - Futari no Atelier (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/AtelierMarieElie_0.9.2) |
 | ✅ | Anchorz Field (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/anchorz-field-v1.0) |
 | ✅ | Another Heaven - Memory of those Days (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/another-heaven-v1.0) |
-| ✅ | Bakusou Dekotora Densetsu for WonderSwan (Japan) | WonderSwan | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dekotora-v1.1) |
+| ✅ | Arc the Lad - Kishin Fukkatsu (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ArcTheLad_0.9) |
+| ✅ | Bakusou Dekotora Densetsu for WonderSwan (Japan) | WonderSwan | **English**: [PokemonGoDB v1.2](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dekotora-v1.2) |
 | ✅ | beatmania for WonderSwan (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/beatmania-v1.0) |
 | ✅ | Blue Wing Blitz (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BlueWing_0.9.1) · [Gand46 v5.0.0](https://github.com/Gand46/BlueWingBlitz-Wonderswan-English-Translation-AI_GPT/blob/main/patch/Blue_Wing_Blitz_EN_Phase50_v5.0.0-test.1.bps) |
 | ✅ | Buffers Evolution (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/buffers-evolution-v1.0) |
 | ✅ | Cardcaptor Sakura - Sakura to Fushigi na Clow Card (Japan) | WonderSwan | **Spanish**: [mariovirgili v0.2.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/CCS_ES) |
 | ✅ | Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 2) | WonderSwan | **Language not stated**: [Gand46 v1.1](https://github.com/Gand46/Chocobo_no_Fushigi_na_Dungeon_Mysterious_Dungeon_WS_AI_ROM-FIX-/blob/main/src/legacy_v1.1_original.ips) |
 | ✅ | Chou Aniki - Otoko no Tamafuda (Japan) (Rev 4) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ChouAniki_0.9) |
-| ✅ | Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.0) |
+| ✅ | Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3) | WonderSwan | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.1) |
 | ✅ | D's Garage 21 Koubo Game - Tane o Maku Tori (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tane-o-maku-tori-v1.0) |
 | ✅ | Densha de Go! (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/densha-de-go-v1.0) |
-| ✅ | Densha de Go! 2 (Japan) | WonderSwan | **English**: [Gand46 v0.4.20](https://github.com/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/blob/main/patches/Densha_de_Go_2_EN_v0.4.20_OPTIONS_FONT_CUMULATIVE.bps) |
+| ✅ | Densha de Go! 2 (Japan) | WonderSwan | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DenshaDeGo2_0.9.1) · [Gand46 v0.4.20](https://github.com/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/blob/main/patches/Densha_de_Go_2_EN_v0.4.20_OPTIONS_FONT_CUMULATIVE.bps) |
 | ✅ | Digimon Tamers - Brave Tamer (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Digimon-tamers_v0.9) |
-| ✅ | Digimon Tamers - Digimon Medley (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test) |
+| ✅ | Digimon Tamers - Digimon Medley (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DigimonMedley_0.9.2) |
 | ✅ | Digital Monster - D-Project (Japan) (Rev 2) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/D-Project_v0.9) |
 | ✅ | Digital Monster Card Game - Ver. WonderSwan Color (Japan) (Rev 2) | WonderSwan Color | **English**: [mariovirgili v0.9.3](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9) |
 | ✅ | Dokodemo Hamster (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dokodemo-hamster-v1.0) |
+| ✅ | Dragon Ball (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DragonBall_0.9) |
 | ✅ | Engacho! for WonderSwan (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/engacho-v1.0) |
 | ✅ | Final Fantasy (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFI_v0.9) |
+| ✅ | Final Fantasy II (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFII_0.9.2) |
 | ✅ | Final Fantasy IV (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV) |
 | ✅ | Final Lap 2000 (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/final-lap-2000-v1.0) |
+| ✅ | Final Lap Special - GT & Formula Machine (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FinalLapSpecial_0.9.1) |
 | ✅ | Fire Pro Wrestling for WonderSwan (Japan) (Rev 5) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/fire-pro-v1.0) |
 | ✅ | Fishing Freaks - Bass Rise for WonderSwan (Japan) | WonderSwan | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/fishing-freaks-v1.1) |
 | ✅ | From TV Animation One Piece - Chopper no Daibouken (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePiece_0.9) |
@@ -43,6 +48,7 @@ Last change to the patch catalog: 2026-11-08.
 | ✅ | From TV Animation One Piece - Niji no Shima Densetsu (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/one-piece-niji-v1.0) |
 | ✅ | Front Mission (Japan) | WonderSwan Color | **English**: [Gand46 v035](https://github.com/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/blob/main/patches/v035_TEST_from_clean.bps) |
 | ✅ | Ganso Jajamaru-kun (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/jajamaru-v1.0) |
+| ✅ | Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (Japan) (Rev 2) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/GensouMaden_0.9) |
 | ⚠️ | Glocal Hexcite (Japan) | WonderSwan | ⚠️ for another dump of this title (ROM CRC32 `8FCD6D2C`): **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/glocal-hexcite-v1.0) |
 | ⚠️ | Gomoku Narabe & Reversi - Touryuumon (Japan) | WonderSwan | ⚠️ for another dump of this title (ROM CRC32 `6CD1411E`): **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gomoku-reversi-v1.0) |
 | ✅ | Goraku Ou Tango! (Japan) (Rev 2) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/goraku-ou-tango-v1.0) |
@@ -50,17 +56,24 @@ Last change to the patch catalog: 2026-11-08.
 | ✅ | Guilty Gear Petit 2 (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Petit2_v0.9) |
 | ✅ | GunPey EX (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gunpey-ex-v1.0) |
 | ⚠️ | Hanafuda Shiyouyo (Japan) | WonderSwan | ⚠️ for another dump of this title (ROM CRC32 `8E027330`): **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/hanafuda-shiyouyo-v1.0) |
+| ✅ | Hanjuku Hero - Ah, Sekai yo Hanjuku Nare...!! (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HanjukuHero_0.9) |
 | ✅ | Harobots (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/harobots-v1.0) |
 | ✅ | Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 2) | WonderSwan | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/hxh-ishi-v1.1) |
+| ✅ | Hunter X Hunter - Sorezore no Ketsui (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HxH_SorezoreNoKetsui_0.9) |
+| ✅ | Kaze no Klonoa - Moonlight Museum (Japan) | WonderSwan | **English**: [mariovirgili v39.4M](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Klonoa_MM_0.9) |
+| ✅ | Kidou Senshi Gundam - Giren no Yabou - Tokubetsu Hen - Aoki Hoshi no Hasha (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Giren_0.9) |
 | ✅ | Kidou Senshi Gundam Vol. 1 - Side 7 (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol1-side7-v1.1) |
 | ✅ | Kidou Senshi Gundam Vol. 2 - Jaburo (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol2-jaburo-v1.1) |
 | ✅ | Kidou Senshi Gundam Vol. 3 - A Baoa Qu (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol3-a-baoa-qu-v1.1) |
 | ⚠️ | Lode Runner for WonderSwan (Japan) | WonderSwan | ⚠️ for another dump of this title (ROM CRC32 `E407CABF`): **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0)<br>**Japanese**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0) |
+| ✅ | Macross - True Love Song (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MacrossTLS_0.9) |
 | ✅ | Makaimura for WonderSwan (Japan) | WonderSwan | **English**: [Gand46 v1](https://github.com/Gand46/MakaiMura-EEPROM-Wonderswan-English-Translation-AI_GPT-/blob/main/eeprom-mod/hf20-compatible/patches/Makaimura_HF20_EEPROM_v1_FROM_JP.bps) |
 | ✅ | Meitantei Conan - Yuugure no Oujo (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.6](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9.2) |
 | ✅ | MobileWonderGate (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/mobile-wondergate-v1.0) |
+| ✅ | Namco Super Wars (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/NamcoSuperWars_0.9.1) |
 | ✅ | Neon Genesis Evangelion - Shito Ikusei (Japan) | WonderSwan | **English**: [mariovirgili](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test) |
 | ✅ | Pocket Fighter (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/pocket-fighter-v1.0) |
+| ✅ | Puzzle Bobble (Japan) | WonderSwan | **English**: [mariovirgili v0.9.5.16](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuzzleBobble_0.9.5) |
 | ✅ | Ring Infinity (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/RingInfinity) · [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/ring-infinity-v1.1) |
 | ✅ | Riviera - Yakusoku no Chi Riviera (Japan) | WonderSwan Color | **English**: [Gand46 v0110](https://github.com/Gand46/Riviera-Wonderswan-English-Translation-AI_GPT/blob/main/sources/Riviera_S457_FULL_SOURCE/patches/Riviera_CLEAN_JP_to_v0110_S457_cumulative.bps) |
 | ✅ | Riviera - Yakusoku no Chi Riviera (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test) |
@@ -69,9 +82,13 @@ Last change to the patch catalog: 2026-11-08.
 | ✅ | SD Gundam - Operation U.C. (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9.1) |
 | ✅ | SD Gundam G Generation - Gather Beat (Japan) | WonderSwan | **English**: [PokemonGoDB v1.2](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-v1.2) |
 | ✅ | SD Gundam G Generation - Gather Beat 2 (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.3](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-2-v1.3) |
+| ✅ | SD Gundam G Generation - Mono-Eye Gundams (Japan) (Rev 2) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MonoEyeGundams_0.9.1) |
 | ✅ | Sennou Millennium (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/sennou-millennium-v1.0) |
-| ✅ | Star Hearts - Hoshi to Daichi no Shisha (Japan) | WonderSwan Color | **English**: [Gand46](https://github.com/Gand46/StarHearts-Wonderswan-English-Translation-AI_GPT/blob/main/patches/F37/StarHearts_EN_phase13BG_F37_CUMULATIVE_FROM_JP.bps) · [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/star-hearts-v1.1) |
+| ✅ | Side Pocket for WonderSwan (Japan) | WonderSwan | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SidePocket_0.9.1) |
+| ✅ | Star Hearts - Hoshi to Daichi no Shisha (Japan) | WonderSwan Color | **English**: [Gand46](https://github.com/Gand46/StarHearts-Wonderswan-English-Translation-AI_GPT/blob/main/patches/F37/StarHearts_EN_phase13BG_F37_CUMULATIVE_FROM_JP.bps) · [PokemonGoDB v1.2](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/star-hearts-v1.2) |
 | ✅ | Tare Panda no GunPey (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tare-panda-gunpey-v1.0) |
+| ✅ | Tetsujin 28 Gou (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Tetsujin28_0.9) |
+| ✅ | Uchuu Senkan Yamato (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/UchuuSenkanYamato_0.9) |
 | ✅ | X - Card of Fate (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/X-Card_0.9) |
 
 ## WonderSwan (219 titles)
@@ -89,7 +106,7 @@ Last change to the patch catalog: 2026-11-08.
 |  | Atakshii (World) (Ja) (WonderWitch) | `23392AB9` | — |
 |  | Atodashi (World) (WonderWitch) | `1630D75E` | — |
 |  | B.A.F. (World) (Proto) (WonderWitch) | `EEFB1773` | — |
-| ✅ | **Bakusou Dekotora Densetsu for WonderSwan (Japan)** | `392DD813` | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dekotora-v1.1) |
+| ✅ | **Bakusou Dekotora Densetsu for WonderSwan (Japan)** | `392DD813` | **English**: [PokemonGoDB v1.2](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dekotora-v1.2) |
 |  | Ball and Block (World) (WonderWitch) | `1E87BE36` | — |
 |  | Balloon (World) (WonderWitch) | `CEAEB5D3` | — |
 |  | Battle Mosquito (World) (Ja) (WonderWitch) | `B4790749` | — |
@@ -108,7 +125,7 @@ Last change to the patch catalog: 2026-11-08.
 | ✅ | **Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 2)** | `CCAA4853` | **Language not stated**: [Gand46 v1.1](https://github.com/Gand46/Chocobo_no_Fushigi_na_Dungeon_Mysterious_Dungeon_WS_AI_ROM-FIX-/blob/main/src/legacy_v1.1_original.ips) |
 |  | Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 3) | `AA53971D` | — |
 | ✅ | **Chou Aniki - Otoko no Tamafuda (Japan) (Rev 4)** | `7FFF2520` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ChouAniki_0.9) |
-| ✅ | **Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3)** | `56E2C069` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.0) |
+| ✅ | **Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3)** | `56E2C069` | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.1) |
 |  | Chuuka Taisen (World) (WonderWitch) | `D53161B2` | — |
 |  | Clock Tower for WonderSwan (Japan) (Rev 1) | `4E8909D1` | — |
 |  | Crazy Climber (Japan) | `0CB57376` | — |
@@ -117,7 +134,7 @@ Last change to the patch catalog: 2026-11-08.
 |  | Datchuchu (World) (Ja) (WonderWitch) | `6B73ECED` | — |
 |  | Denkou Keijiki (World) (Ja) (WonderWitch) | `78516E13` | — |
 | ✅ | **Densha de Go! (Japan) (Rev 1)** | `B62E5DD0` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/densha-de-go-v1.0) |
-| ✅ | **Densha de Go! 2 (Japan)** | `AF9D8F42` | **English**: [Gand46 v0.4.20](https://github.com/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/blob/main/patches/Densha_de_Go_2_EN_v0.4.20_OPTIONS_FONT_CUMULATIVE.bps) |
+| ✅ | **Densha de Go! 2 (Japan)** | `AF9D8F42` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DenshaDeGo2_0.9.1) · [Gand46 v0.4.20](https://github.com/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/blob/main/patches/Densha_de_Go_2_EN_v0.4.20_OPTIONS_FONT_CUMULATIVE.bps) |
 |  | Dexten (World) (WonderWitch) | `F343326E` | — |
 |  | Digimon - Ver. WonderSwan (Hong Kong) (En) | `94EA6FFC` | — |
 |  | Digimon Adventure - Anode Tamer (Japan) | `FC6946F0` | — |
@@ -163,7 +180,7 @@ Last change to the patch catalog: 2026-11-08.
 |  | Jump on Step (World) (WonderWitch) | `54705B16` | — |
 |  | Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan) | `4D103236` | — |
 |  | Kana (World) (Ja) (WonderWitch) | `B048E00B` | — |
-|  | Kaze no Klonoa - Moonlight Museum (Japan) | `80C6EF12` | — |
+| ✅ | **Kaze no Klonoa - Moonlight Museum (Japan)** | `80C6EF12` | **English**: [mariovirgili v39.4M](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Klonoa_MM_0.9) |
 |  | Keiba Yosou Shien Soft - Yosou Shinkaron (Japan) | `517F962E` | — |
 |  | Kirin Editor + Kuro Pad (World) (Ja) (WonderWitch) | `0B006D79` | — |
 |  | Kiss Communication (World) (Ja) (WonderWitch) | `ACC09417` | — |
@@ -176,7 +193,7 @@ Last change to the patch catalog: 2026-11-08.
 |  | LNPUT (World) (Ja) (WonderWitch) | `17A5DBA3` | — |
 | ⚠️ | **Lode Runner for WonderSwan (Japan)** | `21279E82` | ⚠️ for another dump of this title (ROM CRC32 `E407CABF`): **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0)<br>**Japanese**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0) |
 |  | Mac the Speed Shooter (World) (Proto) (WonderWitch) | `C7493525` | — |
-|  | Macross - True Love Song (Japan) | `62D419CD` | — |
+| ✅ | **Macross - True Love Song (Japan)** | `62D419CD` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MacrossTLS_0.9) |
 |  | Magical Drop for WonderSwan (Japan) | `637ADA93` | — |
 |  | Mahjong Touryuumon (Japan) (Rev 1) | `C2ED122E` | — |
 |  | Mahjong Touryuumon (Japan) (Rev 3) | `E7E7FD4C` | — |
@@ -219,7 +236,7 @@ Last change to the patch catalog: 2026-11-08.
 |  | Puchipuchi (World) (WonderWitch) | `79C048F7` | — |
 |  | Pudding Maker (World) (WonderWitch) | `F3BCB194` | — |
 |  | Puyo Puyo Tsuu (Japan) | `5A41A7BA` | — |
-|  | Puzzle Bobble (Japan) | `F504CD84` | — |
+| ✅ | **Puzzle Bobble (Japan)** | `F504CD84` | **English**: [mariovirgili v0.9.5.16](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuzzleBobble_0.9.5) |
 |  | Radius Theta (World) (WonderWitch) | `21398F12` | — |
 |  | Rainbow Islands - Putty's Party (Japan) | `8F8608AD` | — |
 |  | Renda Machine (World) (Ja) (WonderWitch) | `7B9A755E` | — |
@@ -242,7 +259,7 @@ Last change to the patch catalog: 2026-11-08.
 |  | Shanghai Pocket (Japan) | `1C489351` | — |
 |  | Shin Nihon Pro Wrestling - Toukon Retsuden (Japan) (Rev 1) | `5B76F901` | — |
 |  | Shougi Touryuumon (Japan) | `3AD194EB` | — |
-|  | Side Pocket for WonderSwan (Japan) | `8655269E` | — |
+| ✅ | **Side Pocket for WonderSwan (Japan)** | `8655269E` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SidePocket_0.9.1) |
 |  | Slipull (World) (WonderWitch) | `2B122933` | — |
 |  | Slipull Lite (World) (Proto) (WonderWitch) | `EDBDAED6` | — |
 |  | Slither Link (Japan) | `352A570D` | — |
@@ -265,7 +282,7 @@ Last change to the patch catalog: 2026-11-08.
 |  | Tenori-on (Japan) (En) | `6FE79BB1` | — |
 |  | Terrors (Japan) | `EF5B6B82` | — |
 |  | Testarossa (World) (WonderWitch) | `D291B29B` | — |
-|  | Tetsujin 28 Gou (Japan) | `6F304DCA` | — |
+| ✅ | **Tetsujin 28 Gou (Japan)** | `6F304DCA` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Tetsujin28_0.9) |
 |  | Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan) | `7DA6ACB9` | — |
 |  | Tokyo Majin Gakuen - Fuju Houroku (Japan) | `91117D1B` | — |
 |  | Trap Trap (World) (Ja) (WonderWitch) | `2DF069A1` | — |
@@ -304,9 +321,9 @@ Last change to the patch catalog: 2026-11-08.
 | :---: | --- | --- | --- |
 |  | 3D Othello (World) (Ja) (WonderWitch) | `A6A6EC51` | — |
 |  | 4 Koma TV (World) (Ja) (WonderWitch) | `B0A64ACE` | — |
-|  | Alchemist Marie & Elie - Futari no Atelier (Japan) | `B18CDC0D` | — |
+| ✅ | **Alchemist Marie & Elie - Futari no Atelier (Japan)** | `B18CDC0D` | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/AtelierMarieElie_0.9.2) |
 | ✅ | **Another Heaven - Memory of those Days (Japan)** | `D7A0AB74` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/another-heaven-v1.0) |
-|  | Arc the Lad - Kishin Fukkatsu (Japan) | `E2317345` | — |
+| ✅ | **Arc the Lad - Kishin Fukkatsu (Japan)** | `E2317345` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ArcTheLad_0.9) |
 |  | Arial (World) (v0.21) (Proto) (WonderWitch) | `37F78F4B` | — |
 |  | Artisan (World) (WonderWitch) | `4567FB44` | — |
 |  | Arubi (World) (Ja) (v0.08) (Proto) (WonderWitch) | `758299F9` | — |
@@ -345,7 +362,7 @@ Last change to the patch catalog: 2026-11-08.
 |  | Digimon Tamers - Battle Spirit Ver. 1.5 (Japan) | `6CAAD4A2` | — |
 | ✅ | **Digimon Tamers - Brave Tamer (Japan) (Rev 1)** | `F1F4D41F` | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Digimon-tamers_v0.9) |
 |  | Digimon Tamers - Digimon Medley (Japan) | `FA92418D` | — |
-| ✅ | **Digimon Tamers - Digimon Medley (Japan) (Rev 1)** | `84A46949` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test) |
+| ✅ | **Digimon Tamers - Digimon Medley (Japan) (Rev 1)** | `84A46949` | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DigimonMedley_0.9.2) |
 |  | Digital Monster - D-Project (Japan) | `FAAEFBCB` | — |
 |  | Digital Monster - D-Project (Japan) (Rev 1) | `BD83B82D` | — |
 | ✅ | **Digital Monster - D-Project (Japan) (Rev 2)** | `0E40829C` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/D-Project_v0.9) |
@@ -353,14 +370,14 @@ Last change to the patch catalog: 2026-11-08.
 | ✅ | **Digital Monster Card Game - Ver. WonderSwan Color (Japan) (Rev 2)** | `1E760C41` | **English**: [mariovirgili v0.9.3](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9) |
 |  | Dokodemo Hamster 3 - Odekake Saffron (Japan) (Rev 2) | `93E19F13` | — |
 |  | Doukyuu Tantei Oke Solo (World) (Ja) (WonderWitch) | `65334388` | — |
-|  | Dragon Ball (Japan) | `067238D1` | — |
+| ✅ | **Dragon Ball (Japan)** | `067238D1` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DragonBall_0.9) |
 |  | Es=Loss Zero Side (World) (Ja) (WonderWitch) | `2B2835B3` | — |
 |  | Evil Dragon (World) (WonderWitch) | `AE2864D9` | — |
 |  | Features (World) (WonderWitch) | `3C995A4B` | — |
 | ✅ | **Final Fantasy (Japan)** | `B7243E88` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFI_v0.9) |
-|  | Final Fantasy II (Japan) | `F09E752F` | — |
+| ✅ | **Final Fantasy II (Japan)** | `F09E752F` | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFII_0.9.2) |
 | ✅ | **Final Fantasy IV (Japan)** | `F699D6D1` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV) |
-|  | Final Lap Special - GT & Formula Machine (Japan) | `B07E6A56` | — |
+| ✅ | **Final Lap Special - GT & Formula Machine (Japan)** | `B07E6A56` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FinalLapSpecial_0.9.1) |
 |  | Flash Koibito-kun (Japan) | `69D8D433` | — |
 |  | Flash Masta Firmware (World) | `C071D240` | — |
 |  | Flash Masta Firmware (World) | `AABCE377` | — |
@@ -375,7 +392,7 @@ Last change to the patch catalog: 2026-11-08.
 | ✅ | **Front Mission (Japan)** | `2F9E2560` | **English**: [Gand46 v035](https://github.com/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/blob/main/patches/v035_TEST_from_clean.bps) |
 |  | Gansaku Shuu Watch (World) (Ja) (WonderWitch) | `C9C7BA79` | — |
 |  | Gekitou! Crash Gear Turbo - Gear Champion League (Japan) | `8A8B827C` | — |
-|  | Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (Japan) (Rev 2) | `446E2581` | — |
+| ✅ | **Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (Japan) (Rev 2)** | `446E2581` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/GensouMaden_0.9) |
 |  | Golden Axe (Japan) | `BC944A98` | — |
 |  | GPS TOOL for WonderSwan (World) (Ja) (WonderWitch) | `982F57F7` | — |
 |  | Gransta Chronicle (Japan) | `AF24F95C` | — |
@@ -384,7 +401,7 @@ Last change to the patch catalog: 2026-11-08.
 | ✅ | **GunPey EX (Japan)** | `0C9CB12C` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gunpey-ex-v1.0) |
 |  | Guruguru Ringuru (World) (WonderWitch) | `11DB7BE0` | — |
 |  | Hanabi (World) (Proto) (WonderWitch) | `C2F1A2EE` | — |
-|  | Hanjuku Hero - Ah, Sekai yo Hanjuku Nare...!! (Japan) (Rev 1) | `31E09BED` | — |
+| ✅ | **Hanjuku Hero - Ah, Sekai yo Hanjuku Nare...!! (Japan) (Rev 1)** | `31E09BED` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HanjukuHero_0.9) |
 |  | Hashire! Taiboku! (World) (v0.5) (Proto) (WonderWitch) | `6498F0B2` | — |
 |  | Hataraku Chocobo (Japan) | `7A29E9A6` | — |
 |  | Hebi (World) (Ja) (WonderWitch) | `11A3209E` | — |
@@ -396,7 +413,7 @@ Last change to the patch catalog: 2026-11-08.
 |  | Hunter X Hunter - Greed Island (Japan) | `A487B7A8` | — |
 |  | Hunter X Hunter - Greed Island (Japan) (Rev 1) | `130AF567` | — |
 |  | Hunter X Hunter - Michibikareshi Mono (Japan) | `9402BCA9` | — |
-|  | Hunter X Hunter - Sorezore no Ketsui (Japan) | `D0B20C5A` | — |
+| ✅ | **Hunter X Hunter - Sorezore no Ketsui (Japan)** | `D0B20C5A` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HxH_SorezoreNoKetsui_0.9) |
 |  | Hurry Up! (World) (WonderWitch) | `84CA6856` | — |
 |  | Ice Cream Shop (World) (WonderWitch) | `5E383EC0` | — |
 |  | Illusion Garden (World) (Ja) (WonderWitch) | `1FBD22DD` | — |
@@ -412,7 +429,7 @@ Last change to the patch catalog: 2026-11-08.
 |  | Kaikon (World) (Ja) (WonderWitch) | `F3E39740` | — |
 |  | Kanain (World) (Ja) (WonderWitch) | `0B24A1CD` | — |
 |  | Kasanegasane (World) (Ja) (WonderWitch) | `EFA0D4B1` | — |
-|  | Kidou Senshi Gundam - Giren no Yabou - Tokubetsu Hen - Aoki Hoshi no Hasha (Japan) | `D4061551` | — |
+| ✅ | **Kidou Senshi Gundam - Giren no Yabou - Tokubetsu Hen - Aoki Hoshi no Hasha (Japan)** | `D4061551` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Giren_0.9) |
 |  | Kidou Senshi Gundam SEED (Japan) | `BCE15137` | — |
 | ✅ | **Kidou Senshi Gundam Vol. 1 - Side 7 (Japan)** | `08C0247B` | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol1-side7-v1.1) |
 | ✅ | **Kidou Senshi Gundam Vol. 2 - Jaburo (Japan)** | `39A1391A` | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol2-jaburo-v1.1) |
@@ -437,7 +454,7 @@ Last change to the patch catalog: 2026-11-08.
 |  | Moverang (World) (WonderWitch) | `16566668` | — |
 |  | Mr. Driller (Japan) | `5555D95C` | — |
 |  | Multi-BoaRD (World) (WonderWitch) | `196FD1CE` | — |
-|  | Namco Super Wars (Japan) | `8CE4652F` | — |
+| ✅ | **Namco Super Wars (Japan)** | `8CE4652F` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/NamcoSuperWars_0.9.1) |
 |  | Nametry (World) (v1.00) (WonderWitch) (WWGP2001) | `23F6215D` | — |
 |  | Nametry (World) (v1.01) (WonderWitch) | `6B87A331` | — |
 |  | Naruto - Konoha Ninpouchou (Japan) | `71556E6A` | — |
@@ -486,7 +503,7 @@ Last change to the patch catalog: 2026-11-08.
 |  | SD Gundam Eiyuu Den - Musha Densetsu (Japan) | `18ECFFB8` | — |
 | ✅ | **SD Gundam G Generation - Gather Beat 2 (Japan)** | `4D21A347` | **English**: [PokemonGoDB v1.3](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-2-v1.3) |
 |  | SD Gundam G Generation - Mono-Eye Gundams (Japan) | `6ACA1F04` | — |
-|  | SD Gundam G Generation - Mono-Eye Gundams (Japan) (Rev 2) | `A3ECC9AC` | — |
+| ✅ | **SD Gundam G Generation - Mono-Eye Gundams (Japan) (Rev 2)** | `A3ECC9AC` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MonoEyeGundams_0.9.1) |
 |  | Self Produce (World) (Proto) (WonderWitch) | `F1F0A499` | — |
 |  | Senkaiden Ni - TV Animation Senkaiden Houshin Engi Yori (Japan) | `9F35D00F` | — |
 |  | Shaman King - Asu e no Ishi (Japan) | `6C029674` | — |
@@ -494,7 +511,7 @@ Last change to the patch catalog: 2026-11-08.
 |  | Shokaku 80186 (World) (WonderWitch) | `E58EF5CB` | — |
 |  | Solfege (World) (WonderWitch) | `9EF5C2C9` | — |
 |  | Sorobang (Japan) (Rev 1) | `0E467D97` | — |
-| ✅ | **Star Hearts - Hoshi to Daichi no Shisha (Japan)** | `138D1018` | **English**: [Gand46](https://github.com/Gand46/StarHearts-Wonderswan-English-Translation-AI_GPT/blob/main/patches/F37/StarHearts_EN_phase13BG_F37_CUMULATIVE_FROM_JP.bps) · [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/star-hearts-v1.1) |
+| ✅ | **Star Hearts - Hoshi to Daichi no Shisha (Japan)** | `138D1018` | **English**: [Gand46](https://github.com/Gand46/StarHearts-Wonderswan-English-Translation-AI_GPT/blob/main/patches/F37/StarHearts_EN_phase13BG_F37_CUMULATIVE_FROM_JP.bps) · [PokemonGoDB v1.2](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/star-hearts-v1.2) |
 |  | Star Hearts - Hoshi to Daichi no Shisha - Taikenban (Japan) (Not For Sale) | `9874E9A2` | — |
 |  | Star Ochi (World) (WonderWitch) | `0CE861D4` | — |
 |  | Starlight Waltz (World) (Proto) (WonderWitch) | `B7E179D9` | — |
@@ -510,7 +527,7 @@ Last change to the patch catalog: 2026-11-08.
 |  | Tetris (Japan) | `7B0CAEA9` | — |
 |  | Tonde Stone (World) (WonderWitch) | `BEA730C6` | — |
 |  | Tonpuusou (Japan) | `47659B2C` | — |
-|  | Uchuu Senkan Yamato (Japan) | `5793BDDA` | — |
+| ✅ | **Uchuu Senkan Yamato (Japan)** | `5793BDDA` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/UchuuSenkanYamato_0.9) |
 |  | Ultraman - Hikari no Kuni no Shisha (Japan) | `DE2208AB` | — |
 |  | UnderBabel (Main Data) (World) (Ja) (WonderWitch) | `776D961C` | — |
 |  | UnderBabel (Supporting Data) (World) (Ja) (WonderWitch) | `F0B5886C` | — |
@@ -532,12 +549,13 @@ Last change to the patch catalog: 2026-11-08.
 |  | Yuuki Paint (World) (v1.01) (WonderWitch) (WWGP2001) | `B560F389` | — |
 |  | Yuuki Paint (World) (v1.20) (WonderWitch) | `21FA994C` | — |
 
-## Other ROM versions with patches (3)
+## Other ROM versions with patches (4)
 
 Patches made for a ROM that is not in the lists above (another dump, revision or a modified ROM).
 
 | Game | ROM CRC32 | Patches |
 | --- | --- | --- |
+| Bishoujo Senshi Sailor Moon S | `FE7374D2` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SailorMoonS_GG_0.9) |
 | Densha de Go 2 | `06D88203` | **English**: [Gand46 v0.4.17](https://github.com/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/blob/main/densha/patches/Densha_de_Go_2_EN_v0.4.17_from_v0.4.16_INCREMENTAL.bps) |
 | Front Mission | `A6C6E19B` | **English**: [Gand46 v033](https://github.com/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/blob/main/history/v034/history/v033/patches/v033_TEST_from_v032.bps) |
 | GnG Trainer | `EE8B3230` | **English**: [mariovirgili](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test) |

@@ -1,0 +1,36 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "B18CDC0D"
+ },
+ "crc32": "B18CDC0D",
+ "size": 4194304,
+ "md5": "cb58db877b8adfce59f2e34cc4224d8b",
+ "sha1": "99d9d7f951ae589059f34e76aea7489ae4cd79f1",
+ "names": [
+  "Alchemist Marie & Elie - Futari no Atelier (Japan).wsc"
+ ],
+ "patches": [
+  {
+   "id": "3889dab5b24445ab",
+   "game": "Alchemist Marie & Elie: Futari no Atelier",
+   "variant": "Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.2",
+   "version": "0.9.2",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "B18CDC0D",
+   "target_crc32": "F886A276",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/AtelierMarieElie_0.9.2/Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.2.bps",
+   "sha256": "3889dab5b24445ab7720c65de09b8cb4a66e424af396080fcce0e7cc27f13440",
+   "size": 480206,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/AtelierMarieElie_0.9.2",
+   "notes": "*Marie & Elie: Futari no Atelier* is Gust's 2001 Atelier game for the WonderSwan Color, released only in Japan. Marie (Marlone), now a full-fledged alchemist, and Elie (Elfir Traum), the girl she once saved, open an atelier together in Salburg. Thieves have stolen everything Elie owned, and Fuehren from Kentnis asks the two of them to create something nobody has ever seen: the Primordial Flame. You have three years to synthesize items, take quests at the Sky Tavern, gather ingredients with adventurers, hold tea parties and meet the cast of both Atelier Marie and Atelier Elie.\n\nThis patch translates it into English.\n\n**What is translated**\n\n- The whole script: 2,643 messages (story events, town talk, quests, tea parties, gathering trips, battles, the endings, the item and character encyclopedia, the composer's comments in the music room, the staff roll).\n- Item and equipment names, all the menus and system strings.\n- The speaker nameplates (redrawn in English) and the item names painted on the item cards.\n- A new variable-width font for all the text; the dialogue is re-wrapped and paged automatically.\n- Names follow Koei Tecmo's official English releases of Atelier Marie where they exist (Marlone/Marie, Salburg, Ingrid, Schea Donnerstag, Enderk Yard, Kreis Kuehl, Ruven Filnir, Mu Seqstanse, Sky Tavern, Meister Rank...). The others were romanized from the Japanese.\n\n**Images**\n\n**How to patch**\n\nApply the .bps patch to the original Japanese ROM *Alchemist Marie & Elie - Futari …"
+  }
+ ],
+ "produced_by": []
+}

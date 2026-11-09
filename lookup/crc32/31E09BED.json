@@ -1,0 +1,37 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "31E09BED"
+ },
+ "crc32": "31E09BED",
+ "size": 4194304,
+ "md5": "6c1b75de270e7e96df161833a5522b7d",
+ "sha1": "2e3f221d6965f53b29586d2019ee81dec6d1ac30",
+ "names": [
+  "Hanjuku Hero - Ah, Sekai yo Hanjuku Nare...!! (Japan) (Rev 1)",
+  "Hanjuku Hero - Ah, Sekai yo Hanjuku Nare...!! (Japan) (Rev 1).wsc"
+ ],
+ "patches": [
+  {
+   "id": "d9d86b04d9630bff",
+   "game": "Hanjuku Hero: Ah, Sekai yo Hanjuku Nare...!!",
+   "variant": "Hanjuku.Hero.-.Ah.Sekai.yo.Hanjuku.Nare.T-En.v0.9",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "31E09BED",
+   "target_crc32": "8084D4AF",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/HanjukuHero_0.9/Hanjuku.Hero.-.Ah.Sekai.yo.Hanjuku.Nare.T-En.v0.9.bps",
+   "sha256": "d9d86b04d9630bffec83ab330d4e4cc1c24c850ee72020ea09927c610c2d7541",
+   "size": 220324,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HanjukuHero_0.9",
+   "notes": "**Hanjuku Hero: Ah, Sekai yo Hanjuku Nare...!!** is Square's 2002 WonderSwan Color remake of Hanjuku Hero (\"Soft-Boiled Hero\"), released only in Japan. You are the young lord of Almamoon: you manage castles, money and troops, hire generals and send them into real-time battles, where Egg Monsters hatched from magic eggs turn the fight. It is a comedy from start to finish: puns, parodies and a Minister who never stops complaining.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Hanjuku Hero - Ah, Sekai yo Hanjuku Nare...!! (Japan) (Rev 1)* (4 MB, CRC32 31E09BED) with Floating IPS, beat or ROM Patcher JS. Result: 4 MB, CRC32 8084D4AF. Keep the .wsc extension.\n\nYou must provide your own copy of the original Japanese game to apply it.\n\n**How it was made**\n\n* **Claude** found the game's font, text routine and script interpreter, extracted the whole script (3,876 lines: story, battles, menus, generals, Egg Monsters, trump cards, items, castles, the staff roll) and translated everything directly from the Japanese, rewriting the puns as English puns. Names and terms follow the complete English fan translation of the Super Famicom …"
+  }
+ ],
+ "produced_by": []
+}

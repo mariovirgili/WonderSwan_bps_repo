@@ -1,0 +1,37 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "4c3f092b095bdb0afdaf8d32d4c54b4d6c209c96"
+ },
+ "crc32": "B07E6A56",
+ "size": 4194304,
+ "md5": "0870f205e8a0148cc75d642f00558057",
+ "sha1": "4c3f092b095bdb0afdaf8d32d4c54b4d6c209c96",
+ "names": [
+  "Final Lap Special - GT & Formula Machine (Japan)",
+  "Final Lap Special - GT & Formula Machine (Japan).wsc"
+ ],
+ "patches": [
+  {
+   "id": "0630e7259aecba2a",
+   "game": "Final Lap Special - GT & Formula Machine",
+   "variant": "Final.Lap.Special.-.GT.Formula.Machine.T-En.v0.9.1",
+   "version": "0.9.1",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "B07E6A56",
+   "target_crc32": "9BEE9428",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FinalLapSpecial_0.9.1/Final.Lap.Special.-.GT.Formula.Machine.T-En.v0.9.1.bps",
+   "sha256": "0630e7259aecba2a2faf01e9a756e5b0901b9c4505b8b7bd1783dec73130e650",
+   "size": 7297,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FinalLapSpecial_0.9.1",
+   "notes": "**Final Lap Special - GT & Formula Machine** is Namco's 2001 racing game for the WonderSwan Color, released only in Japan: Formula and GT championships, time attack, a car shop, a garage with your records and a two-player VS mode over the link cable.\n\nAlmost all of the game is already in English. The Japanese text is in the VS mode screens, and this patch translates it. It also adds a **CHEATS** entry to the mode select.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\nClaude did each part of the work; /u/Gio-74 did only a final check.\n\n1. **Finding the Japanese**: Claude played every mode in an emulator and found that the game is already in English except for a few VS mode screens.\n2. **Finding the graphics**: that text is not stored as text but as full-screen pictures (8x8 tiles plus a tile map). Claude located each picture in the ROM by its map header and by checking which tile offset gives a clean image.\n3. **Translating and redrawing**: Claude translated the messages from the Japanese and redrew them in English, in the same colours, then packed the tiles again in the same place, so nothing else in the game moves.\n4. **The CHEATS entry**: Claude disassembled the mode select code, added a …"
+  }
+ ],
+ "produced_by": []
+}

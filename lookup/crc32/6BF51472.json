@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "6BF51472"
+ },
+ "crc32": "6BF51472",
+ "size": 2097152,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "cded6a6d99af3879",
+   "game": "Kaze no Klonoa: Moonlight Museum",
+   "variant": "Kaze.no.Klonoa.-.Moonlight.Museum.Japan.4.colours.EN.v0.9.ALL.CAPS",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": false,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "80C6EF12",
+   "target_crc32": "6BF51472",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Klonoa_MM_0.9/Kaze.no.Klonoa.-.Moonlight.Museum.Japan.4.colours.EN.v0.9.ALL.CAPS.bps",
+   "sha256": "cded6a6d99af38795ff47eacf7decbc3cf1b1f511e18c92a988630b4587ffcb4",
+   "size": 111607,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Klonoa_MM_0.9",
+   "notes": "This release contains two editions:\n\n* **4-colour edition v0.9** (normal and ALL CAPS): the translated game in the WonderSwan Color 4-colour mode.\n* **16-colour edition (beta, TEST v39, English v0.8)**: every Vision repainted in the 16-colour mode, 4 MB ROM.\n\nKlonoa's only WonderSwan adventure, *Kaze no Klonoa: Moonlight Museum* (Namco, 1999), was a black-and-white game. This patch turns it into a **WonderSwan Color game** and adds a **brand-new English translation**.\n\nThe translation was made **from scratch**, directly from the Japanese ROM. An English fan translation of this game already exists. This is an independent new translation that does not use or reuse any of that existing work.\n\nThe colorization, the translation and the ROM hacking were done entirely by Claude (Anthropic's AI); /u/Gio-74 only did the final check. It is an AI-only project made for personal use and shared here as is.\n\n### What's in it\n\n**Colorization (4 colours per palette, WonderSwan Color mode)**\n- Each of the 30 Visions has its own colour set. The palettes follow *Klonoa: Empire of Dreams* (GBA): Klonoa with a blue cap, white gloves and a navy body, pink hearts, a deeper blue sky.\n- Tiles that the original game draws with several palettes were matched across tile borders, so objects don't break into coloured blocks.\n- The HUD bar has one uniform background colour.\n- The namco logo at start-up is shown in red.\n- Menus, story scenes and the staff roll use one soft blue tint.\n\n**English …"
+  }
+ ]
+}

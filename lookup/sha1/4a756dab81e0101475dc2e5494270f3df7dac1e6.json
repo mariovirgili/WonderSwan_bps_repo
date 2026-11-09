@@ -1,0 +1,57 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "4a756dab81e0101475dc2e5494270f3df7dac1e6"
+ },
+ "crc32": "8655269E",
+ "size": 1048576,
+ "md5": "496100bcd73fbfa39e473c6ddee190b2",
+ "sha1": "4a756dab81e0101475dc2e5494270f3df7dac1e6",
+ "names": [
+  "Side Pocket for WonderSwan (Japan)",
+  "Side Pocket for WonderSwan (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "fa75b0234972c56f",
+   "game": "Side Pocket for WonderSwan",
+   "variant": "Side.Pocket.for.WonderSwan.Color.EN.v0.9.1",
+   "version": "0.9.1",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "8655269E",
+   "target_crc32": "B6B60B95",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SidePocket_0.9.1/Side.Pocket.for.WonderSwan.Color.EN.v0.9.1.bps",
+   "sha256": "fa75b0234972c56f54c613a723a75d6c2de54e5c42977773d84f05730e42db57",
+   "size": 1135869,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SidePocket_0.9.1",
+   "notes": "**Side Pocket for WonderSwan** is Data East's 1999 pool game for the WonderSwan. It was released only in Japan, and only in black and white. It has three modes:\n\n* **Hustler:** pick one of four players and win a tournament against the others and a pro. Every player has their own lines and ending.\n* **Versus:** nine ball or Pocket Game.\n* **Technique:** shows how spin moves the ball.\n\nThis release has two patches for the same Japanese ROM:\n\n* **English v0.9.1**, black and white like the original. It fixes the menu labels' shadows, which kept the shape of the Japanese words.\n* **English v0.9.1 Color**, a 16-colour version for the WonderSwan Color and SwanCrystal. It colours the green felt and wooden rails, and gives each ball its own colour. The title, menus, character select, every portrait and the dialogue screens are in colour too, as are results and continue, the endings, the technique screen and the table banners. Gameplay is unchanged.\n\n> **Please read:** this translation and the colour version were made **entirely with AI**, as a personal project. They are shared as they are for anyone who wants to play, but they must **never be uploaded to romhacking sites** (romhacking.net and the like). They aren't up to the standard of a real fan translation and don't belong there.\n\n**Images**\n\n**How to patch**\n\nApply a .bps to *Side Pocket for WonderSwan (Japan)* (1 MB, CRC32 8655269E) with Floating IPS, beat or ROM Patcher JS.\n\n* English v0.9.1: the result is CRC32 8C660676. Keep …"
+  },
+  {
+   "id": "8e46872e1f48c3f0",
+   "game": "Side Pocket for WonderSwan",
+   "variant": "Side.Pocket.for.WonderSwan.EN.v0.9.1",
+   "version": "0.9.1",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "8655269E",
+   "target_crc32": "8C660676",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SidePocket_0.9.1/Side.Pocket.for.WonderSwan.EN.v0.9.1.bps",
+   "sha256": "8e46872e1f48c3f0ea7b6600388b4d31c388c288b9bfa91a48e13d61b0894670",
+   "size": 24296,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SidePocket_0.9.1",
+   "notes": "**Side Pocket for WonderSwan** is Data East's 1999 pool game for the WonderSwan. It was released only in Japan, and only in black and white. It has three modes:\n\n* **Hustler:** pick one of four players and win a tournament against the others and a pro. Every player has their own lines and ending.\n* **Versus:** nine ball or Pocket Game.\n* **Technique:** shows how spin moves the ball.\n\nThis release has two patches for the same Japanese ROM:\n\n* **English v0.9.1**, black and white like the original. It fixes the menu labels' shadows, which kept the shape of the Japanese words.\n* **English v0.9.1 Color**, a 16-colour version for the WonderSwan Color and SwanCrystal. It colours the green felt and wooden rails, and gives each ball its own colour. The title, menus, character select, every portrait and the dialogue screens are in colour too, as are results and continue, the endings, the technique screen and the table banners. Gameplay is unchanged.\n\n> **Please read:** this translation and the colour version were made **entirely with AI**, as a personal project. They are shared as they are for anyone who wants to play, but they must **never be uploaded to romhacking sites** (romhacking.net and the like). They aren't up to the standard of a real fan translation and don't belong there.\n\n**Images**\n\n**How to patch**\n\nApply a .bps to *Side Pocket for WonderSwan (Japan)* (1 MB, CRC32 8655269E) with Floating IPS, beat or ROM Patcher JS.\n\n* English v0.9.1: the result is CRC32 8C660676. Keep …"
+  }
+ ],
+ "produced_by": []
+}

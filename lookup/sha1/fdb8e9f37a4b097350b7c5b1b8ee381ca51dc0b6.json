@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "fdb8e9f37a4b097350b7c5b1b8ee381ca51dc0b6"
+ },
+ "crc32": "F504CD84",
+ "size": 1048576,
+ "md5": "cf5e9f022baadd1ed9b0a9e88b503e95",
+ "sha1": "fdb8e9f37a4b097350b7c5b1b8ee381ca51dc0b6",
+ "names": [
+  "Puzzle Bobble (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "4199048fcd75a719",
+   "game": "Puzzle Bobble",
+   "variant": "Puzzle.Bobble.Japan.T-En.v0.9.5.16.colours",
+   "version": "0.9.5.16",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "F504CD84",
+   "target_crc32": "72BAE9AE",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/PuzzleBobble_0.9.5/Puzzle.Bobble.Japan.T-En.v0.9.5.16.colours.bps",
+   "sha256": "4199048fcd75a719f2903d1b29e063bf8ab78ed4fd1e12fa8ead29198bc79307",
+   "size": 320767,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuzzleBobble_0.9.5",
+   "notes": "**Puzzle Bobble** is Sunsoft's 1999 port of Taito's bubble shooter for the original black-and-white WonderSwan, released only in Japan. It has 1 Player rounds, Versus (computer or link cable), an endless Challenge mode, records and options.\n\nThis patch translates all of its menus and screens into English **and turns it into a WonderSwan Color game**, in two versions:\n\n* **16 colours:** the whole game runs in the console's 16-colour mode: the title logo, Bub (green) and Bob (blue), the character portraits (every Versus opponent in its own colours) and the game over screen are recoloured in the style of the arcade game, the Taito logo follows the official one, the playfield gets a carved stone frame and a dark blue checkerboard with soft shadows, the menus a tiled blue background, the ROUND box a maroon panel with a gold frame, and during play every bubble has its own colour (with a light spot and a soft shadow).\n* **4 colours:** every screen is in colour, but the game keeps its original four shades per palette: bubbles share one hue and are told apart by their patterns, closer to the original art.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the two .bps files to *Puzzle …"
+  },
+  {
+   "id": "5dba28c3cacaa5a7",
+   "game": "Puzzle Bobble",
+   "variant": "Puzzle.Bobble.Japan.T-En.v0.9.5.4.colours",
+   "version": "0.9.5.4",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": false,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "F504CD84",
+   "target_crc32": "9DCDEC95",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/PuzzleBobble_0.9.5/Puzzle.Bobble.Japan.T-En.v0.9.5.4.colours.bps",
+   "sha256": "5dba28c3cacaa5a7c484e8fcfec4b143962b0f9735408437dbce38a90496f6b4",
+   "size": 26070,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuzzleBobble_0.9.5",
+   "notes": "**Puzzle Bobble** is Sunsoft's 1999 port of Taito's bubble shooter for the original black-and-white WonderSwan, released only in Japan. It has 1 Player rounds, Versus (computer or link cable), an endless Challenge mode, records and options.\n\nThis patch translates all of its menus and screens into English **and turns it into a WonderSwan Color game**, in two versions:\n\n* **16 colours:** the whole game runs in the console's 16-colour mode: the title logo, Bub (green) and Bob (blue), the character portraits (every Versus opponent in its own colours) and the game over screen are recoloured in the style of the arcade game, the Taito logo follows the official one, the playfield gets a carved stone frame and a dark blue checkerboard with soft shadows, the menus a tiled blue background, the ROUND box a maroon panel with a gold frame, and during play every bubble has its own colour (with a light spot and a soft shadow).\n* **4 colours:** every screen is in colour, but the game keeps its original four shades per palette: bubbles share one hue and are told apart by their patterns, closer to the original art.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the two .bps files to *Puzzle …"
+  }
+ ],
+ "produced_by": []
+}

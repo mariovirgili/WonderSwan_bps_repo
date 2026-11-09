@@ -1,0 +1,57 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "959321e3b971516e38a4cbf95b0fc3efc0b0a825"
+ },
+ "crc32": "F09E752F",
+ "size": 4194304,
+ "md5": "e03e666452651e82eb5734a9d684802a",
+ "sha1": "959321e3b971516e38a4cbf95b0fc3efc0b0a825",
+ "names": [
+  "Final Fantasy II (Japan)",
+  "Final Fantasy II (Japan).wsc"
+ ],
+ "patches": [
+  {
+   "id": "a6be18feca96de93",
+   "game": "Final Fantasy II",
+   "variant": "Final.Fantasy.II.T-En.v0.9.2",
+   "version": "0.9.2",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "F09E752F",
+   "target_crc32": "F1EF50C6",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFII_0.9.2/Final.Fantasy.II.T-En.v0.9.2.bps",
+   "sha256": "a6be18feca96de9318dce318df03ba9c283bd92f0827efbc5376fcfcfae85c83",
+   "size": 156077,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFII_0.9.2",
+   "notes": "**Final Fantasy II** for the WonderSwan Color is Square's 2001 remake of the second Final Fantasy, released only in Japan. The Palamecian Empire has summoned monsters from the Underworld to conquer the world, and Firion, Maria and Guy, who lost their parents when the Empire attacked Fynn, join Princess Hilda's rebels.\n\n**Why a new translation?**\nThe WonderSwan Color Final Fantasy II was never released outside Japan. The only English patch for it so far, RPGOne’s “Stage 1” v0.97 from 2002, was never finished. Its script was adapted from Neo Demiforce’s translation of the NES version rather than translated from this one, the intro was left in Japanese, and its own readme lists the battle menus and the shop Yes/No as not displaying correctly. The planned full “Stage 2” never came out. The official English releases (Origins, Dawn of Souls, PSP, Pixel Remaster) are other remakes, and each adapts the script and the names differently: the same town is Altair, the same spell is Life or something else, depending on which version you played.\n\nSo this translation starts again from the Japanese text of the WonderSwan Color ROM, and the whole game is in English: dialogue, keywords, menus, battle text, the demo captions and the graphics. For names, the rule is simple.\nSquare Enix’s official English is kept wherever it matches the Japanese (Firion, Maria, Guy, Minwu, Hilda, Palamecia, Wild Rose, Mythril...). Where every English release changed the name, the form faithful to the Japanese is …"
+  },
+  {
+   "id": "cf023cfc693b8484",
+   "game": "Final Fantasy II",
+   "variant": "Final.Fantasy.II.T-En.v0.9.2.Big.Caps",
+   "version": "0.9.2",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "F09E752F",
+   "target_crc32": "84588AC8",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFII_0.9.2/Final.Fantasy.II.T-En.v0.9.2.Big.Caps.bps",
+   "sha256": "cf023cfc693b84849f5e050e5a23b1e110279568692f28a5d2b14274c365211d",
+   "size": 157256,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFII_0.9.2",
+   "notes": "**Final Fantasy II** for the WonderSwan Color is Square's 2001 remake of the second Final Fantasy, released only in Japan. The Palamecian Empire has summoned monsters from the Underworld to conquer the world, and Firion, Maria and Guy, who lost their parents when the Empire attacked Fynn, join Princess Hilda's rebels.\n\n**Why a new translation?**\nThe WonderSwan Color Final Fantasy II was never released outside Japan. The only English patch for it so far, RPGOne’s “Stage 1” v0.97 from 2002, was never finished. Its script was adapted from Neo Demiforce’s translation of the NES version rather than translated from this one, the intro was left in Japanese, and its own readme lists the battle menus and the shop Yes/No as not displaying correctly. The planned full “Stage 2” never came out. The official English releases (Origins, Dawn of Souls, PSP, Pixel Remaster) are other remakes, and each adapts the script and the names differently: the same town is Altair, the same spell is Life or something else, depending on which version you played.\n\nSo this translation starts again from the Japanese text of the WonderSwan Color ROM, and the whole game is in English: dialogue, keywords, menus, battle text, the demo captions and the graphics. For names, the rule is simple.\nSquare Enix’s official English is kept wherever it matches the Japanese (Firion, Maria, Guy, Minwu, Hilda, Palamecia, Wild Rose, Mythril...). Where every English release changed the name, the form faithful to the Japanese is …"
+  }
+ ],
+ "produced_by": []
+}

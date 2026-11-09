@@ -502,6 +502,35 @@
     "684b515f7e869b0fd7a48c52da814f4fbaa0cf04ba6a86c9b98947c8a82e3a88"
    ]
   },
+  "asset:PokemonGoDB/wonderswan-english-patches:725794743:2026-11-09T01:22:53Z:120178": {
+   "entries": []
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:725794747:2026-11-09T01:22:53Z:138077": {
+   "entries": [
+    "daa25201265df953e9d4c60c93b377f506e9fb8a5baac42eb834e782ae3e2a0b"
+   ]
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:725794754:2026-11-09T01:22:53Z:138109": {
+   "entries": [
+    "ac061cfda65dd0618c2698da7ab70f8f465ee4f7850610176a26a93a264d8a10"
+   ]
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:726095952:2026-11-09T03:34:04Z:107814": {
+   "entries": []
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:726095954:2026-11-09T03:34:04Z:734829": {
+   "entries": [
+    "07f0aa76490978a9edf6856a241a7d76cf9ca19dab7439b411f63cf143ac1322"
+   ]
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:726315624:2026-11-09T05:12:22Z:1054346": {
+   "entries": [
+    "308fda32e60d4f2b9c089152119325369d3a6075f75f26559f565c569c8d4655"
+   ]
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:726315625:2026-11-09T05:12:21Z:220898": {
+   "entries": []
+  },
   "asset:mariovirgili/WonderSwanColor-AI_Translation:598779217:2026-09-29T17:21:38Z:176856": {
    "entries": [
     "7052719ae50c224335854e0bbefb3d52c4e9e30686ad86e8126504014a44281f"
@@ -765,11 +794,6 @@
     "d93cc3dfb71405ae40a9376a00789314ca39080c0a5c9f1c49aef0a2ccfc7acf"
    ]
   },
-  "asset:mariovirgili/WonderSwanColor-AI_Translation:651533589:2026-10-17T20:35:33Z:2528903": {
-   "entries": [
-    "2b26bb94eb354b3597b158475b5fbfe33ee0e10c9e02be8f80cb76f2eaca77d0"
-   ]
-  },
   "asset:mariovirgili/WonderSwanColor-AI_Translation:657451381:2026-10-19T21:12:45Z:391973": {
    "entries": [
     "06566acf74b5db1befd2194dd339bf73aec81ee4b224d35b4ed6335fc4bed20c"
@@ -789,6 +813,209 @@
    "entries": [
     "d2c2a65a9d02b06dee91d3a89a98cb4d6a7370eae2b57e4c046593423a463db7"
    ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725368972:2026-11-08T22:16:26Z:256488": {
+   "entries": [
+    "b80117138f35ee561bb93dd57b54495be72e13e2401f61604eb76a58c2b214dc"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725369013:2026-11-08T22:16:27Z:314640": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725374031:2026-11-08T22:18:25Z:480206": {
+   "entries": [
+    "3889dab5b24445ab7720c65de09b8cb4a66e424af396080fcce0e7cc27f13440"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725374044:2026-11-08T22:18:26Z:266389": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725377819:2026-11-08T22:20:07Z:46695": {
+   "entries": [
+    "20344f71561bb880ea9090da45aa34dcd6c4d11feefe2003dda06744e3dea6bb"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725377828:2026-11-08T22:20:08Z:27632": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725379503:2026-11-08T22:20:47Z:332165": {
+   "entries": [
+    "20c69fbb5e3395f2d4d1db941eabb73af3303e07e4f2345276f1d159eeb99af0"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725379523:2026-11-08T22:20:48Z:192333": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725381338:2026-11-08T22:21:40Z:517105": {
+   "entries": [
+    "27af3ec6372196ea5deec23d77c04ac864feb7d13f021fdc8acab2523c5028c0"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725381352:2026-11-08T22:21:40Z:104117": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725385937:2026-11-08T22:23:40Z:149916": {
+   "entries": [
+    "fd55b623cb24b9b8902184ba4f48aa204b5e865777cf331d34d118569cc25b8c"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725385959:2026-11-08T22:23:41Z:493067": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725387541:2026-11-08T22:24:24Z:156077": {
+   "entries": [
+    "a6be18feca96de9318dce318df03ba9c283bd92f0827efbc5376fcfcfae85c83"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725387563:2026-11-08T22:24:24Z:157256": {
+   "entries": [
+    "cf023cfc693b84849f5e050e5a23b1e110279568692f28a5d2b14274c365211d"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725387581:2026-11-08T22:24:24Z:123915": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725389086:2026-11-08T22:25:02Z:7297": {
+   "entries": [
+    "0630e7259aecba2a2faf01e9a756e5b0901b9c4505b8b7bd1783dec73130e650"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725389102:2026-11-08T22:25:03Z:50236": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725390589:2026-11-08T22:25:41Z:122846": {
+   "entries": [
+    "d3c18404ac81a12e92bbc05643599e1b3f1b3a7529369a2c5af626f474bc4bea"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725390609:2026-11-08T22:25:41Z:104682": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725392733:2026-11-08T22:26:35Z:436982": {
+   "entries": [
+    "7b63d807bdba56108ebe2551c1c9e84b8dca797f2f283fddc9b7ba271ecba05d"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725392754:2026-11-08T22:26:35Z:414357": {
+   "entries": [
+    "a5e3a04db3d1f0256c269026258e30e4dfec56312f976d1b4a12f1163b4a428e"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725392770:2026-11-08T22:26:35Z:105765": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725396370:2026-11-08T22:28:11Z:220324": {
+   "entries": [
+    "d9d86b04d9630bffec83ab330d4e4cc1c24c850ee72020ea09927c610c2d7541"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725396388:2026-11-08T22:28:12Z:26728": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725398614:2026-11-08T22:29:08Z:2020495": {
+   "entries": [
+    "704d53a78c41e73cd2c1763c5426c18abb00feb59dfd88abcc31e790e5846d04"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725400647:2026-11-08T22:30:04Z:318616": {
+   "entries": [
+    "e53ad6c54ec898d242b4453c1d4da41accb0369abac85624993b38a4969323b5"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725400656:2026-11-08T22:30:05Z:210449": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725402489:2026-11-08T22:30:48Z:97228": {
+   "entries": [
+    "fd43eaf7508cf75e353763d2e8d967d84b86fbcd0dc26d71b8d9221581bdb1a1"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725402507:2026-11-08T22:30:48Z:55231": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725405557:2026-11-08T22:32:05Z:346676": {
+   "entries": [
+    "440accd68d94f4b29931bce56579b2550ce7469b85e93761d63fc5b29b78d3f1"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725405615:2026-11-08T22:32:06Z:347325": {
+   "entries": [
+    "880bb03a36a54f5a7dc9b09db9c4c7ad7e32cb598dde9a04dbeca59bf0df4004"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725405629:2026-11-08T22:32:06Z:157184": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725408900:2026-11-08T22:33:30Z:320767": {
+   "entries": [
+    "4199048fcd75a719f2903d1b29e063bf8ab78ed4fd1e12fa8ead29198bc79307"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725408941:2026-11-08T22:33:30Z:26070": {
+   "entries": [
+    "5dba28c3cacaa5a7c484e8fcfec4b143962b0f9735408437dbce38a90496f6b4"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725408962:2026-11-08T22:33:31Z:64637": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725410749:2026-11-08T22:34:16Z:25061": {
+   "entries": [
+    "875da275de45cca686b3e15ac28e98fa5f7d094d88ad4aaf913bb280b80c42e1"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725410762:2026-11-08T22:34:16Z:22170": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725415304:2026-11-08T22:36:14Z:109385": {
+   "entries": [
+    "19f7718b49573fe960c9c1a59ad36146321ff210bcc62c5c4708fc411f414cfa"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725415317:2026-11-08T22:36:15Z:111607": {
+   "entries": [
+    "cded6a6d99af38795ff47eacf7decbc3cf1b1f511e18c92a988630b4587ffcb4"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725415331:2026-11-08T22:36:15Z:1175947": {
+   "entries": [
+    "728b1299aec5f1b04f9f4fafb52ce044394f094823866958d109ac69d5fe127d"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725415357:2026-11-08T22:36:16Z:173557": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725415396:2026-11-08T22:36:17Z:294838": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725417503:2026-11-08T22:37:20Z:557890": {
+   "entries": [
+    "ad1bdc0d6d68121ffbb834a2d400f9c30d0879bc724dc1e97989b616e6d9d448"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725417528:2026-11-08T22:37:20Z:37627": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725419410:2026-11-08T22:38:14Z:1135869": {
+   "entries": [
+    "fa75b0234972c56f54c613a723a75d6c2de54e5c42977773d84f05730e42db57"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725419426:2026-11-08T22:38:15Z:24296": {
+   "entries": [
+    "8e46872e1f48c3f0ea7b6600388b4d31c388c288b9bfa91a48e13d61b0894670"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725419437:2026-11-08T22:38:15Z:113336": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725421473:2026-11-08T22:39:17Z:444453": {
+   "entries": [
+    "b9a22f1617470bb46f0fb8322996914de999875cc496c789a512b2dfe137f8b1"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:725421480:2026-11-08T22:39:18Z:425425": {
+   "entries": []
   },
   "blob:Gand46/BlueWingBlitz-Wonderswan-English-Translation-AI_GPT:1ba4d77bf8f71be12be042beec307d9d1103b015:patch/Blue_Wing_Blitz_EN_Phase50_v5.0.0-test.1.bps": {
    "entries": [

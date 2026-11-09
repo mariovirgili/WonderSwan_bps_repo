@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "D4061551"
+ },
+ "crc32": "D4061551",
+ "size": 4194304,
+ "md5": "399e48a3347c378554de65848f1f496c",
+ "sha1": "20b671bc14a8ab6373deecc641479d09658ac21f",
+ "names": [
+  "Kidou Senshi Gundam - Giren no Yabou - Tokubetsu Hen - Aoki Hoshi no Hasha (Japan).wsc"
+ ],
+ "patches": [
+  {
+   "id": "7b63d807bdba5610",
+   "game": "Giren no Yabou Tokubetsu Hen: Aoki Hoshi no Hasha",
+   "variant": "Giren.no.Yabou.-.Aoki.Hoshi.no.Hasha.English.v0.9",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "D4061551",
+   "target_crc32": "F92996CB",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Giren_0.9/Giren.no.Yabou.-.Aoki.Hoshi.no.Hasha.English.v0.9.bps",
+   "sha256": "7b63d807bdba56108ebe2551c1c9e84b8dca797f2f283fddc9b7ba271ecba05d",
+   "size": 436982,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Giren_0.9",
+   "notes": "Gihren's Greed on the WonderSwan Color is now playable in English. Pick Garma Zabi or M'Quve, lead the Earth Attack Force through the One Year War, win the Staff Meeting debates against your rival commanders, and fight it out on the tactical battle maps.\n\nThis translation was made only with AI, for personal use, and is shared as is. Please don't upload it to romhacking sites: it's not worthy of them, since it's an AI translation and not a human one.\n\n**Screenshots** (gallery, in order)\n\n1. Opening narration\n2. Character select\n3. Gihren's briefing\n4. Strategy Phase banner\n5. Federation turn: \"Planning\"\n6. A proposal to the Staff Meeting\n7. Staff Meeting opinion list (Views / Zeal / Clout)\n8. Debate pop-up: \"STIR!\"\n9. Vote: \"VOTE / PASS\"\n10. Main command menu (Talks / Military / Propose / Intel)\n11. Unit formation (Main / Unformed, R M F grid)\n12. Talks: request for reinforcements\n13. Sortie: \"Battle Area\"\n14. Tactical battle unit menu (Move / Attack / Seize / Form / Status)\n15. Battle summary (VS screen)\n16. Battle result: \"DEFENSE WON\"\n17. Intel: weapon data and terrain aptitude\n18. Ending narration\n19. Epilogue\n20. Staff credits\n\n**What's translated**\n\n* The whole script: about 18,800 lines (opening narration, briefings, every Staff Meeting proposal and debate, events, endings, staff credits).\n* All menus, commands, stats, ranks, character, mobile suit, ship and weapon names, and proposal titles.\n* Graphics: character select, Strategy Phase and faction banners and headers, …"
+  },
+  {
+   "id": "a5e3a04db3d1f025",
+   "game": "Giren no Yabou Tokubetsu Hen: Aoki Hoshi no Hasha",
+   "variant": "Giren.no.Yabou.-.Aoki.Hoshi.no.Hasha.English.v0.9.ALL.CAPS",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "D4061551",
+   "target_crc32": "45966D6B",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Giren_0.9/Giren.no.Yabou.-.Aoki.Hoshi.no.Hasha.English.v0.9.ALL.CAPS.bps",
+   "sha256": "a5e3a04db3d1f0256c269026258e30e4dfec56312f976d1b4a12f1163b4a428e",
+   "size": 414357,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Giren_0.9",
+   "notes": "Gihren's Greed on the WonderSwan Color is now playable in English. Pick Garma Zabi or M'Quve, lead the Earth Attack Force through the One Year War, win the Staff Meeting debates against your rival commanders, and fight it out on the tactical battle maps.\n\nThis translation was made only with AI, for personal use, and is shared as is. Please don't upload it to romhacking sites: it's not worthy of them, since it's an AI translation and not a human one.\n\n**Screenshots** (gallery, in order)\n\n1. Opening narration\n2. Character select\n3. Gihren's briefing\n4. Strategy Phase banner\n5. Federation turn: \"Planning\"\n6. A proposal to the Staff Meeting\n7. Staff Meeting opinion list (Views / Zeal / Clout)\n8. Debate pop-up: \"STIR!\"\n9. Vote: \"VOTE / PASS\"\n10. Main command menu (Talks / Military / Propose / Intel)\n11. Unit formation (Main / Unformed, R M F grid)\n12. Talks: request for reinforcements\n13. Sortie: \"Battle Area\"\n14. Tactical battle unit menu (Move / Attack / Seize / Form / Status)\n15. Battle summary (VS screen)\n16. Battle result: \"DEFENSE WON\"\n17. Intel: weapon data and terrain aptitude\n18. Ending narration\n19. Epilogue\n20. Staff credits\n\n**What's translated**\n\n* The whole script: about 18,800 lines (opening narration, briefings, every Staff Meeting proposal and debate, events, endings, staff credits).\n* All menus, commands, stats, ranks, character, mobile suit, ship and weapon names, and proposal titles.\n* Graphics: character select, Strategy Phase and faction banners and headers, …"
+  }
+ ],
+ "produced_by": []
+}

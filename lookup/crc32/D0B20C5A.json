@@ -1,0 +1,37 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "D0B20C5A"
+ },
+ "crc32": "D0B20C5A",
+ "size": 4194304,
+ "md5": "12a59977999dcf7baebd79c81ab8f5a7",
+ "sha1": "2da2a9bcff4813abcb5b2c88095258d89a575378",
+ "names": [
+  "Hunter X Hunter - Sorezore no Ketsui (Japan)",
+  "Hunter X Hunter - Sorezore no Ketsui (Japan).wsc"
+ ],
+ "patches": [
+  {
+   "id": "704d53a78c41e73c",
+   "game": "Hunter X Hunter: Sorezore no Ketsui",
+   "variant": "Hunter.X.Hunter.-.Sorezore.no.Ketsui.T-En.v0.9",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "D0B20C5A",
+   "target_crc32": "F5CA2439",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/HxH_SorezoreNoKetsui_0.9/Hunter.X.Hunter.-.Sorezore.no.Ketsui.T-En.v0.9.bps",
+   "sha256": "704d53a78c41e73cd2c1763c5426c18abb00feb59dfd88abcc31e790e5846d04",
+   "size": 2020495,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HxH_SorezoreNoKetsui_0.9",
+   "notes": "**Hunter X Hunter: Sorezore no Ketsui** (\"Each One's Determination\") is Bandai's 2001 adventure for the WonderSwan Color, released only in Japan. It covers the months between the Zoldyck estate and the Yorknew reunion with four routes: Gon and Killua at Heavens Arena (Wing, Zushi, Nen training, Whale Island), Kurapika looking for bodyguard work, Leorio, and Hisoka. You explore with menu commands and fight Nen battles.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Hunter X Hunter - Sorezore no Ketsui (Japan)* (4 MB, CRC32 D0B20C5A) with Floating IPS, beat or ROM Patcher JS. Result: 8 MB, CRC32 F5CA2439. Keep the .wsc extension.\n\nYou must provide your own copy of the original Japanese game to apply it.\n\n**How it was made**\n\n* **Claude** read the game's font to build the character table (511 characters, kanji transcribed one by one), found the message engine and extracted the whole script (about 3,960 messages), then translated everything directly from the Japanese, with the names and Nen terms of the Viz manga and the 2011 dub.\n* **Claude** also did all the ROM hacking: the ROM was expanded to 8 MB, with a new variable-width …"
+  }
+ ],
+ "produced_by": []
+}

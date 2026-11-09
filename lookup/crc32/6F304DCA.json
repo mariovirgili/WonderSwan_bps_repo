@@ -1,0 +1,36 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "6F304DCA"
+ },
+ "crc32": "6F304DCA",
+ "size": 4194304,
+ "md5": "8b8ea655dbea4a3152b300126556404c",
+ "sha1": "65c4c6aaa36328bba5d56419af59af5d3420ed78",
+ "names": [
+  "Tetsujin 28 Gou (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "fd43eaf7508cf75e",
+   "game": "Tetsujin 28 Gou",
+   "variant": "Tetsujin.28.Gou.EN.v0.9",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "6F304DCA",
+   "target_crc32": "45BA9049",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Tetsujin28_0.9/Tetsujin.28.Gou.EN.v0.9.bps",
+   "sha256": "fd43eaf7508cf75e353763d2e8d967d84b86fbcd0dc26d71b8d9221581bdb1a1",
+   "size": 97228,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Tetsujin28_0.9",
+   "notes": "**Tetsujin 28 Gou** is a 1999 WonderSwan game by MegaHouse based on Mitsuteru Yokoyama's Tetsujin 28 (known in the West as Gigantor). It was released only in Japan.\n\nYoung detective Shotaro Kaneda inherits the giant robot built by his late father. With Dr. Shikishima and Chief Otsuka he learns to pilot Tetsujin by remote control and takes on a string of robot crimes, from runaway express trains to an underground Robot Empire. Battles are fought with button combinations on the remote.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Tetsujin 28 Gou (Japan).ws* (4 MB, CRC32 6F304DCA) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB, CRC32 45BA9049; keep the .ws extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Tetsujin 28 Gou (EN v0.9).bps\" \"Tetsujin 28 Gou (Japan).ws\" \"Tetsujin 28 Gou (EN v0.9).ws\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**What is translated**\n\n* The whole script, 242 messages: story, tutorials, every case, choices and save messages.\n* The title menu buttons (NEW GAME / …"
+  }
+ ],
+ "produced_by": []
+}

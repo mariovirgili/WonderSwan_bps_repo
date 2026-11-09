@@ -1,0 +1,57 @@
+{
+ "schema": 1,
+ "query": {
+  "md5": "4180034fe25dbc97ddd0d7e3adf83e3b"
+ },
+ "crc32": "8CE4652F",
+ "size": 2097152,
+ "md5": "4180034fe25dbc97ddd0d7e3adf83e3b",
+ "sha1": "c48569fd0a46ab7b7ceafeb5698be90420cd4fbe",
+ "names": [
+  "Namco Super Wars (Japan)",
+  "Namco Super Wars (Japan).wsc"
+ ],
+ "patches": [
+  {
+   "id": "440accd68d94f4b2",
+   "game": "Namco Super Wars",
+   "variant": "Namco.Super.Wars.T-En.v0.9.1",
+   "version": "0.9.1",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "8CE4652F",
+   "target_crc32": "9A5A3C21",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/NamcoSuperWars_0.9.1/Namco.Super.Wars.T-En.v0.9.1.bps",
+   "sha256": "440accd68d94f4b29931bce56579b2550ce7469b85e93761d63fc5b29b78d3f1",
+   "size": 346676,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/NamcoSuperWars_0.9.1",
+   "notes": "**Namco Super Wars** is Bandai's 2002 tactical RPG for the WonderSwan Color, released only in Japan. It's a crossover of classic Namco games: a hero chosen by the goddess Gajes travels through the Tepota Arch to the worlds of Valkyrie, The Tower of Druaga, Dragon Spirit, Dragon Valor, Genpei Toma Den and more, recruiting their heroes (Valkyrie, Gil, Ki, Amul, Clovis, Kagekiyo, Bravoman, Wonder Momo, Mappy, Dig Dug, Pac-Man...) to close the Gate of the Great Calamity.\n\nThis patch translates it into English. There are two editions with the same translation: the normal one (mixed case) and an **All Caps** edition, where every text, from dialogue to menus and battle messages, is in capitals.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps of the edition you prefer to *Namco Super Wars (Japan)* (2 MB, CRC32 8CE4652F) with Floating IPS, beat or ROM Patcher JS. Result: 4 MB, CRC32 9A5A3C21 (normal) or 72AFDE86 (All Caps). Keep the .wsc extension.\n\nYou must provide your own copy of the original Japanese game to apply it.\n\n**How it was made**\n\n* **Claude** read the game's font to build the character table, found the message engine and extracted the whole script (459 messages, …"
+  },
+  {
+   "id": "880bb03a36a54f5a",
+   "game": "Namco Super Wars",
+   "variant": "Namco.Super.Wars.T-En.v0.9.1.All.Caps",
+   "version": "0.9.1",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "8CE4652F",
+   "target_crc32": "72AFDE86",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/NamcoSuperWars_0.9.1/Namco.Super.Wars.T-En.v0.9.1.All.Caps.bps",
+   "sha256": "880bb03a36a54f5a7dc9b09db9c4c7ad7e32cb598dde9a04dbeca59bf0df4004",
+   "size": 347325,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/NamcoSuperWars_0.9.1",
+   "notes": "**Namco Super Wars** is Bandai's 2002 tactical RPG for the WonderSwan Color, released only in Japan. It's a crossover of classic Namco games: a hero chosen by the goddess Gajes travels through the Tepota Arch to the worlds of Valkyrie, The Tower of Druaga, Dragon Spirit, Dragon Valor, Genpei Toma Den and more, recruiting their heroes (Valkyrie, Gil, Ki, Amul, Clovis, Kagekiyo, Bravoman, Wonder Momo, Mappy, Dig Dug, Pac-Man...) to close the Gate of the Great Calamity.\n\nThis patch translates it into English. There are two editions with the same translation: the normal one (mixed case) and an **All Caps** edition, where every text, from dialogue to menus and battle messages, is in capitals.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps of the edition you prefer to *Namco Super Wars (Japan)* (2 MB, CRC32 8CE4652F) with Floating IPS, beat or ROM Patcher JS. Result: 4 MB, CRC32 9A5A3C21 (normal) or 72AFDE86 (All Caps). Keep the .wsc extension.\n\nYou must provide your own copy of the original Japanese game to apply it.\n\n**How it was made**\n\n* **Claude** read the game's font to build the character table, found the message engine and extracted the whole script (459 messages, …"
+  }
+ ],
+ "produced_by": []
+}

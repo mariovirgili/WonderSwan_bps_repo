@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "C0AA9945"
+ },
+ "crc32": "C0AA9945",
+ "size": 8388608,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "b80117138f35ee56",
+   "game": "Arc the Lad: Kijin Fukkatsu",
+   "variant": "Arc.the.Lad.-.Kijin.Fukkatsu.T-En.v0.9",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "E2317345",
+   "target_crc32": "C0AA9945",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/ArcTheLad_0.9/Arc.the.Lad.-.Kijin.Fukkatsu.T-En.v0.9.bps",
+   "sha256": "b80117138f35ee561bb93dd57b54495be72e13e2401f61604eb76a58c2b214dc",
+   "size": 256488,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ArcTheLad_0.9",
+   "notes": "**Arc the Lad: Kijin Fukkatsu** is Bandai's 2002 Arc the Lad for the WonderSwan Color, released only in Japan. In the land of Jihata, the young Hunter Elc takes jobs from the Hunters' Guild, until he meets Finia, a girl who came from another time, and the machine Grolgarde and the army of MMM threaten the world again.\n\nThis patch translates it into English. The dialogue is shown in capitals, which read better on the WonderSwan screen.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n> **About the other translation project:** this game was listed as \"in progress\" by another translator. It was not possible to contact him: he hasn't posted any updates since 2021 and hasn't logged in to romhacking.net since 2024 (a private message there could not even be delivered, his inbox is full). The project is therefore considered abandoned.\n\n**How it was made**\n\nClaude did each part of the work; /u/Gio-74 did only a final check.\n\n1. **Text**: Claude found the game's text tables and its character table in the ROM and extracted every Japanese text (5,857 entries: dialogue, menus, names, descriptions, battle quotes, diaries).\n2. **Translation**: Claude translated everything directly from the Japanese of this game, keeping the meaning …"
+  }
+ ]
+}

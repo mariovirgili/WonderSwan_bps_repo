@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "C8F5E947"
+ },
+ "crc32": "C8F5E947",
+ "size": 524288,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "875da275de45cca6",
+   "game": "Bishoujo Senshi Sailor Moon S",
+   "variant": "Bishoujo.Senshi.Sailor.Moon.S.Japan.EN.v0.9",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "FE7374D2",
+   "target_crc32": "C8F5E947",
+   "target_size": 524288,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SailorMoonS_GG_0.9/Bishoujo.Senshi.Sailor.Moon.S.Japan.EN.v0.9.bps",
+   "sha256": "875da275de45cca686b3e15ac28e98fa5f7d094d88ad4aaf913bb280b80c42e1",
+   "size": 25061,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SailorMoonS_GG_0.9",
+   "notes": "This is an English translation patch for the Japanese Game Gear game *Bishoujo Senshi Sailor Moon S* (Bandai, 1995).\n\nThe patch was made only with AI, for personal use, and is shared here as-is. Claude (Anthropic) did all the work: ROM analysis, translation, graphics and tools. /u/Gio-74 only did a final check. Please don't upload it to romhacking sites; it isn't worthy of them.\n\n**Note:** a complete human translation by filler & Supper already exists, and it's the recommended one if it works for you. This patch is an independent alternative. It also keeps the ROM at 512 KB, so it runs on **GGSWAN** on the WonderSwan.\n\n**What's translated**\n- Main menu, speech bubble and mini-game menu\n- All mini-game instructions and bonus-game messages\n- Quiz World: every question and answer\n- Ending lines\n- Title banners, Rei's fortune screens and the password screen label\n\nText is ALL CAPS. Names follow the current official English dub (Viz): Usagi, Chibiusa, Rei, Ami, Makoto, Minako, Haruka, Michiru, Tuxedo Mask, Death Busters, Holy Grail, Sailor Guardians.\n\n**How it was made**\n1. Claude analysed the ROM with a small Game Gear emulator it wrote in Python. It found the text engine, the tile compression (an RLE split into two byte streams) and the quiz pointer tables.\n2. Claude translated the full script from the Japanese.\n3. ChatGPT did a full semantic review of every line against the Japanese, in blocks.\n4. Claude checked and applied the corrections and rebuilt the ROM.\n\nTo fit the …"
+  }
+ ]
+}

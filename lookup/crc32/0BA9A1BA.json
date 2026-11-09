@@ -10,12 +10,12 @@
  "produced_by": [
   {
    "id": "a805471859c5fb77",
-   "game": "Digimon Tamers - Digimon Medley",
+   "game": "Digimon Tamers: Digimon Medley",
    "variant": "Digimon.Tamers.-.Digimon.Medley.T-En.v0.9",
    "version": "0.9",
    "language": "en",
    "platform": "wonderswan",
-   "latest": true,
+   "latest": false,
    "superseded": false,
    "format": "bps",
    "source_crc32": "84A46949",

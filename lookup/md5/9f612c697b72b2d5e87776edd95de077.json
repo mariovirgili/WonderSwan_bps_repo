@@ -1,0 +1,37 @@
+{
+ "schema": 1,
+ "query": {
+  "md5": "9f612c697b72b2d5e87776edd95de077"
+ },
+ "crc32": "5793BDDA",
+ "size": 4194304,
+ "md5": "9f612c697b72b2d5e87776edd95de077",
+ "sha1": "dd1878279a6667fb66dd1ac44a2cdb9a5acbe415",
+ "names": [
+  "Uchuu Senkan Yamato (Japan)",
+  "Uchuu Senkan Yamato (Japan).wsc"
+ ],
+ "patches": [
+  {
+   "id": "b9a22f1617470bb4",
+   "game": "Uchuu Senkan Yamato",
+   "variant": "Uchuu.Senkan.Yamato.EN.v0.9",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "5793BDDA",
+   "target_crc32": "ECB9D7B5",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/UchuuSenkanYamato_0.9/Uchuu.Senkan.Yamato.EN.v0.9.bps",
+   "sha256": "b9a22f1617470bb46f0fb8322996914de999875cc496c789a512b2dfe137f8b1",
+   "size": 444453,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/UchuuSenkanYamato_0.9",
+   "notes": "**Uchuu Senkan Yamato** is Bandai's 2001 Space Battleship Yamato game for the WonderSwan Color. It was released only in Japan. The game follows the Yamato's voyage from the dying Earth to Iscandar, as in the original anime: story scenes with Kodai, Okita, Yuki and the crew alternate with turn-based battles on hex maps against the Gamilas fleets.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Uchuu Senkan Yamato (Japan)* (4 MB, CRC32 5793BDDA) with Floating IPS, beat or ROM Patcher JS. The result is CRC32 ECB9D7B5. Keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Uchuu Senkan Yamato (EN v0.9).bps\" \"Uchuu Senkan Yamato (Japan).wsc\" \"Uchuu Senkan Yamato (EN v0.9).wsc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\n**How it was made**\n\n* **Claude** found the game's script interpreter and message blocks. It extracted all 1,489 messages (8,865 pages) and 846 menu strings, names and labels, and translated everything directly from the Japanese. Names follow the original Japanese series: Kodai, Yuki, Okita, Desslar, Gamilas, Iscandar.\n* **Claude** also did all the ROM …"
+  }
+ ],
+ "produced_by": []
+}

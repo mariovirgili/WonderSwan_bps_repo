@@ -1,0 +1,36 @@
+{
+ "schema": 1,
+ "query": {
+  "md5": "cdbcacff7dd0348beffb1e228592e2e1"
+ },
+ "crc32": "446E2581",
+ "size": 2097152,
+ "md5": "cdbcacff7dd0348beffb1e228592e2e1",
+ "sha1": "adbe6e38a0bc6a2d19da64a444071977b771f14f",
+ "names": [
+  "Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (Japan) (Rev 2).wsc"
+ ],
+ "patches": [
+  {
+   "id": "d3c18404ac81a12e",
+   "game": "Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de",
+   "variant": "Gensou.Maden.Saiyuuki.Retribution.-.Hi.no.Ataru.Basho.de.EN.v0.9",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "446E2581",
+   "target_crc32": "009E038F",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/GensouMaden_0.9/Gensou.Maden.Saiyuuki.Retribution.-.Hi.no.Ataru.Basho.de.EN.v0.9.bps",
+   "sha256": "d3c18404ac81a12e92bbc05643599e1b3f1b3a7529369a2c5af626f474bc4bea",
+   "size": 122846,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/GensouMaden_0.9",
+   "notes": "**Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de** is a 2000 board and management game for the WonderSwan Color, based on Kazuya Minekura's *Saiyuki*. It was released only in Japan.\n\nSanzo's party has lost the Three Aspects' credit card and ran up a bill eating and fighting at an inn. To pay it off, they run festival food stalls for the four sisters who own the inn: Meifan, Loran, Liyi and Xiao. You pick a sister, roll dice on a town board, place signs that bring customers to the stalls, meet lucky and unlucky events and play Blackjack, until the debt is paid.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (Japan) (Rev 2).wsc* (2 MB, CRC32 446E2581) with Floating IPS, beat or ROM Patcher JS. The result is CRC32 009E038F; keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (EN v0.9).bps\" \"Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (Japan) (Rev 2).wsc\" \"Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (EN v0.9).wsc\"\n\nYou must provide your own copy of the original Japanese game to apply …"
+  }
+ ],
+ "produced_by": []
+}
