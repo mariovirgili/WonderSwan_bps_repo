@@ -4,18 +4,18 @@ Every released WonderSwan and WonderSwan Color title, and the translation patche
 
 | System | Titles | With a translation patch |
 | --- | ---: | ---: |
-| WonderSwan | 219 | 34 (+4 ⚠️ another dump) |
-| WonderSwan Color | 229 | 39 |
+| WonderSwan | 219 | 35 (+4 ⚠️ another dump) |
+| WonderSwan Color | 229 | 40 |
 
-Last change to the patch catalog: 2026-11-09.
+Last change to the patch catalog: 2026-11-10.
 
-## Titles with translation patches (77)
+## Titles with translation patches (79)
 
 | | Title | System | Patches (newest version of each author) |
 | :---: | --- | --- | --- |
 | ✅ | Alchemist Marie & Elie - Futari no Atelier (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/AtelierMarieElie_0.9.2) |
 | ✅ | Anchorz Field (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/anchorz-field-v1.0) |
-| ✅ | Another Heaven - Memory of those Days (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/another-heaven-v1.0) |
+| ✅ | Another Heaven - Memory of those Days (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/another-heaven-v1.1) |
 | ✅ | Arc the Lad - Kishin Fukkatsu (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ArcTheLad_0.9) |
 | ✅ | Bakusou Dekotora Densetsu for WonderSwan (Japan) | WonderSwan | **English**: [PokemonGoDB v1.2](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dekotora-v1.2) |
 | ✅ | beatmania for WonderSwan (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/beatmania-v1.0) |
@@ -60,6 +60,7 @@ Last change to the patch catalog: 2026-11-09.
 | ✅ | Harobots (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/harobots-v1.0) |
 | ✅ | Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 2) | WonderSwan | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/hxh-ishi-v1.1) |
 | ✅ | Hunter X Hunter - Sorezore no Ketsui (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HxH_SorezoreNoKetsui_0.9) |
+| ✅ | Judgement Silversword - Rebirth Edition (Japan) (Rev 5C21) | WonderSwan Color | **English**: [mariovirgili v2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/JSS_Arrange_2.7) |
 | ✅ | Kaze no Klonoa - Moonlight Museum (Japan) | WonderSwan | **English**: [mariovirgili v39.4M](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Klonoa_MM_0.9) |
 | ✅ | Kidou Senshi Gundam - Giren no Yabou - Tokubetsu Hen - Aoki Hoshi no Hasha (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Giren_0.9) |
 | ✅ | Kidou Senshi Gundam Vol. 1 - Side 7 (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol1-side7-v1.1) |
@@ -88,6 +89,7 @@ Last change to the patch catalog: 2026-11-09.
 | ✅ | Star Hearts - Hoshi to Daichi no Shisha (Japan) | WonderSwan Color | **English**: [Gand46](https://github.com/Gand46/StarHearts-Wonderswan-English-Translation-AI_GPT/blob/main/patches/F37/StarHearts_EN_phase13BG_F37_CUMULATIVE_FROM_JP.bps) · [PokemonGoDB v1.2](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/star-hearts-v1.2) |
 | ✅ | Tare Panda no GunPey (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tare-panda-gunpey-v1.0) |
 | ✅ | Tetsujin 28 Gou (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Tetsujin28_0.9) |
+| ✅ | Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BokanDensetsu_0.9) |
 | ✅ | Uchuu Senkan Yamato (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/UchuuSenkanYamato_0.9) |
 | ✅ | X - Card of Fate (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/X-Card_0.9) |
 
@@ -283,7 +285,7 @@ Last change to the patch catalog: 2026-11-09.
 |  | Terrors (Japan) | `EF5B6B82` | — |
 |  | Testarossa (World) (WonderWitch) | `D291B29B` | — |
 | ✅ | **Tetsujin 28 Gou (Japan)** | `6F304DCA` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Tetsujin28_0.9) |
-|  | Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan) | `7DA6ACB9` | — |
+| ✅ | **Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan)** | `7DA6ACB9` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BokanDensetsu_0.9) |
 |  | Tokyo Majin Gakuen - Fuju Houroku (Japan) | `91117D1B` | — |
 |  | Trap Trap (World) (Ja) (WonderWitch) | `2DF069A1` | — |
 |  | Triangle (World) (WonderWitch) | `8E1EF5C6` | — |
@@ -322,7 +324,7 @@ Last change to the patch catalog: 2026-11-09.
 |  | 3D Othello (World) (Ja) (WonderWitch) | `A6A6EC51` | — |
 |  | 4 Koma TV (World) (Ja) (WonderWitch) | `B0A64ACE` | — |
 | ✅ | **Alchemist Marie & Elie - Futari no Atelier (Japan)** | `B18CDC0D` | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/AtelierMarieElie_0.9.2) |
-| ✅ | **Another Heaven - Memory of those Days (Japan)** | `D7A0AB74` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/another-heaven-v1.0) |
+| ✅ | **Another Heaven - Memory of those Days (Japan)** | `D7A0AB74` | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/another-heaven-v1.1) |
 | ✅ | **Arc the Lad - Kishin Fukkatsu (Japan)** | `E2317345` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ArcTheLad_0.9) |
 |  | Arial (World) (v0.21) (Proto) (WonderWitch) | `37F78F4B` | — |
 |  | Artisan (World) (WonderWitch) | `4567FB44` | — |
@@ -424,7 +426,7 @@ Last change to the patch catalog: 2026-11-09.
 |  | Isomon - Get Oh No!! (World) (Ja) (WonderWitch) | `3884DD9F` | — |
 |  | Judgement Silversword (World) (Ja) (WonderWitch) | `B2DFE2B6` | — |
 |  | Judgement Silversword - Rebirth Edition (Japan) (Rev 4321) | `AA13E9DE` | — |
-|  | Judgement Silversword - Rebirth Edition (Japan) (Rev 5C21) | `85C4C9A1` | — |
+| ✅ | **Judgement Silversword - Rebirth Edition (Japan) (Rev 5C21)** | `85C4C9A1` | **English**: [mariovirgili v2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/JSS_Arrange_2.7) |
 |  | Juicy Crew (World) (WonderWitch) | `858AC811` | — |
 |  | Kaikon (World) (Ja) (WonderWitch) | `F3E39740` | — |
 |  | Kanain (World) (Ja) (WonderWitch) | `0B24A1CD` | — |

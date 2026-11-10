@@ -15,7 +15,7 @@
    "version": "1.0",
    "language": "en",
    "platform": "wonderswan_color",
-   "latest": true,
+   "latest": false,
    "superseded": false,
    "format": "bps",
    "source_crc32": "D7A0AB74",

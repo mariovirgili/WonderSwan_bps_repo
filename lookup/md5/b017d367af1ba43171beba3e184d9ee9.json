@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "query": {
+  "md5": "b017d367af1ba43171beba3e184d9ee9"
+ },
+ "crc32": "85C4C9A1",
+ "size": 2097152,
+ "md5": "b017d367af1ba43171beba3e184d9ee9",
+ "sha1": "58c691cb31f96eea5689693fd23768d02e8b133f",
+ "names": [
+  "Judgement Silversword - Rebirth Edition (Japan) (Rev 5C21).wsc"
+ ],
+ "patches": [
+  {
+   "id": "b0f09290b00c7644",
+   "game": "Judgement Silversword",
+   "variant": "JSS_Arrange_v2_7",
+   "version": "2",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "85C4C9A1",
+   "target_crc32": "E357D462",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/JSS_Arrange_2.7/JSS_Arrange_v2_7.bps",
+   "sha256": "b0f09290b00c7644c450b6217ecf1595854ba273c7f2aae99520d5e9e3812226",
+   "size": 114735,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/JSS_Arrange_2.7",
+   "notes": "A visual remix of the WonderSwan Color vertical shmup *Judgement Silversword – Rebirth Edition*.\nOne patch gives you **both editions in a single ROM** with a boot menu: the untouched **Normal Edition** and the new **Arrange Edition**. Gameplay, hitboxes, stage scripts and music are the same as the original in both.\n\nPatch by **/u/Gio-74**, ROM hacking and tools by Claude (Anthropic).\n\n---\n\n## What's new in the Arrange Edition\n\n**Backgrounds**\n- Stage 1: a solar corona instead of the Earth, fading into space\n- Stage 4: an icy moon with jagged rocky cliff edges, and an asteroid field instead of the Moon\n- Stage 5: Saturn instead of the gas giant, with soft edges\n- Final stage: a temple-mosaic floor, a nebula sky and a Doré-style backdrop for the final boss\n\n**Sprites, in a biomechanical \"organic mecha\" style**\n- A new player ship: an organic mecha with a green visor, armoured shoulders and arm cannons. It has 6 animation frames (banking and thrusters), and the lives icon in the HUD matches it.\n- **Every enemy redrawn**: wasps, beetle walkers and their rolled-up shells, claw fighters, moths, manta bombers, horned cruisers, a grey bio-robot, spore orbs that turn and open their eye, bone blades, a scythe mantis and spore missiles.\n- **Bosses redesigned**:\n  - MAGNIFICENCE is now a carapace-and-bone colossus.\n  - The Saturn battleship is a bone-white manta dreadnought.\n  - The MIRROR SHIELD judge carries an eye of flesh and bone.\n- New sprite palettes: emerald enemies, and crimson …"
+  },
+  {
+   "id": "848d238cf799dcf2",
+   "game": "Judgement Silversword",
+   "variant": "JSS_Normal+Arrange_v2_7",
+   "version": "2",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "85C4C9A1",
+   "target_crc32": "1A50FABF",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/JSS_Arrange_2.7/JSS_Normal%2BArrange_v2_7.bps",
+   "sha256": "848d238cf799dcf2682364a5dec1a127c186cdafe8eeb737057c4c6dc16ff22a",
+   "size": 509105,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/JSS_Arrange_2.7",
+   "notes": "A visual remix of the WonderSwan Color vertical shmup *Judgement Silversword – Rebirth Edition*.\nOne patch gives you **both editions in a single ROM** with a boot menu: the untouched **Normal Edition** and the new **Arrange Edition**. Gameplay, hitboxes, stage scripts and music are the same as the original in both.\n\nPatch by **/u/Gio-74**, ROM hacking and tools by Claude (Anthropic).\n\n---\n\n## What's new in the Arrange Edition\n\n**Backgrounds**\n- Stage 1: a solar corona instead of the Earth, fading into space\n- Stage 4: an icy moon with jagged rocky cliff edges, and an asteroid field instead of the Moon\n- Stage 5: Saturn instead of the gas giant, with soft edges\n- Final stage: a temple-mosaic floor, a nebula sky and a Doré-style backdrop for the final boss\n\n**Sprites, in a biomechanical \"organic mecha\" style**\n- A new player ship: an organic mecha with a green visor, armoured shoulders and arm cannons. It has 6 animation frames (banking and thrusters), and the lives icon in the HUD matches it.\n- **Every enemy redrawn**: wasps, beetle walkers and their rolled-up shells, claw fighters, moths, manta bombers, horned cruisers, a grey bio-robot, spore orbs that turn and open their eye, bone blades, a scythe mantis and spore missiles.\n- **Bosses redesigned**:\n  - MAGNIFICENCE is now a carapace-and-bone colossus.\n  - The Saturn battleship is a bone-white manta dreadnought.\n  - The MIRROR SHIELD judge carries an eye of flesh and bone.\n- New sprite palettes: emerald enemies, and crimson …"
+  }
+ ],
+ "produced_by": []
+}

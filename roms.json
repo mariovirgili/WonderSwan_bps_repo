@@ -1063,6 +1063,36 @@
     }
    ]
   },
+  "1A50FABF": {
+   "crc32": "1A50FABF",
+   "size": 2097152,
+   "md5": "aa46ad69657bedf13ebd524959b23c86",
+   "sha1": "897ceb34d685fcd501f0c15b9c9ec5dd6c6b88ab",
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "848d238cf799dcf2",
+     "game": "Judgement Silversword",
+     "variant": "JSS_Normal+Arrange_v2_7",
+     "version": "2",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "85C4C9A1",
+     "target_crc32": "1A50FABF",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/JSS_Arrange_2.7/JSS_Normal%2BArrange_v2_7.bps",
+     "sha256": "848d238cf799dcf2682364a5dec1a127c186cdafe8eeb737057c4c6dc16ff22a",
+     "size": 509105,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/JSS_Arrange_2.7",
+     "notes": "A visual remix of the WonderSwan Color vertical shmup *Judgement Silversword – Rebirth Edition*.\nOne patch gives you **both editions in a single ROM** with a boot menu: the untouched **Normal Edition** and the new **Arrange Edition**. Gameplay, hitboxes, stage scripts and music are the same as the original in both.\n\nPatch by **/u/Gio-74**, ROM hacking and tools by Claude (Anthropic).\n\n---\n\n## What's new in the Arrange Edition\n\n**Backgrounds**\n- Stage 1: a solar corona instead of the Earth, fading into space\n- Stage 4: an icy moon with jagged rocky cliff edges, and an asteroid field instead of the Moon\n- Stage 5: Saturn instead of the gas giant, with soft edges\n- Final stage: a temple-mosaic floor, a nebula sky and a Doré-style backdrop for the final boss\n\n**Sprites, in a biomechanical \"organic mecha\" style**\n- A new player ship: an organic mecha with a green visor, armoured shoulders and arm cannons. It has 6 animation frames (banking and thrusters), and the lives icon in the HUD matches it.\n- **Every enemy redrawn**: wasps, beetle walkers and their rolled-up shells, claw fighters, moths, manta bombers, horned cruisers, a grey bio-robot, spore orbs that turn and open their eye, bone blades, a scythe mantis and spore missiles.\n- **Bosses redesigned**:\n  - MAGNIFICENCE is now a carapace-and-bone colossus.\n  - The Saturn battleship is a bone-white manta dreadnought.\n  - The MIRROR SHIELD judge carries an eye of flesh and bone.\n- New sprite palettes: emerald enemies, and crimson …"
+    }
+   ]
+  },
   "1B7EF909": {
    "crc32": "1B7EF909",
    "size": 4194304,
@@ -1076,7 +1106,7 @@
      "version": "1.0",
      "language": "en",
      "platform": "wonderswan_color",
-     "latest": true,
+     "latest": false,
      "superseded": false,
      "format": "bps",
      "source_crc32": "D7A0AB74",
@@ -4802,6 +4832,35 @@
    ],
    "produced_by": []
   },
+  "6E0D789C": {
+   "crc32": "6E0D789C",
+   "size": 4194304,
+   "sha1": "0974ad97e90f9782aadb2231cdba86147c0dc9dd",
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "c36711dfe5592767",
+     "game": "Another Heaven: Memory of those Days",
+     "variant": "another-heaven-en-1.1",
+     "version": "1.1",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "D7A0AB74",
+     "target_crc32": "6E0D789C",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/another-heaven-v1.1/another-heaven-en-1.1.bps",
+     "sha256": "c36711dfe55927678fe93aa1b37db4b9d1796154944135dc715a814e560503bb",
+     "size": 689076,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/another-heaven-v1.1",
+     "notes": "**Another Heaven ~memory of those days~** (アナザヘヴン 〜memory of those days〜) is a horror sound novel for the WonderSwan Color by Omega Micott and D's Garage 21, licensed by Bandai and released only in Japan in December 2000. It is a tie-in to Joji Iida's film *Another Heaven* (2000): while the film's \"Mad Cook\" murders shake Tokyo, a second killer, the Pyromaniac, starts burning men from the inside out. You are Koichiro Hasegawa, a young police sergeant teamed with his old classmate, Lieutenant Natsuko Nishitani, and between crime scenes you trade e-mail on your phone with a crime-buff informant and with Makoto, a shy friend from a mailing list. Read the story, answer the mails, make the choices, and follow its many routes and endings on the route chart. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: every page of narration and dialogue (over 6,000 pages), the 223 e-mails on the phone, all 103 choices, every route and ending, the prologue, the attract demo and the Bonus scenario.\n* Speaker names, the \"Day\" cards, the chapter names …"
+    }
+   ]
+  },
   "6F304DCA": {
    "crc32": "6F304DCA",
    "size": 4194304,
@@ -5155,6 +5214,38 @@
      "notes": "**Bakusou Dekotora Densetsu for WonderSwan** (爆走デコトラ伝説) is KID and Kaga Tech's 1999 trucking-and-racing game about *dekotora*, Japan's lit-up, chrome-covered decorated trucks, released only in Japan for the original (monochrome) WonderSwan. You play a young trucker who left his hometown girlfriend Yukie with a promise: he'll become Japan's No. 1 trucker and come back for her. You haul cargo between 20 cities, race rival truckers over the CB radio for their parts and their money (BP), climb a ladder of expressway bosses all the way to Hokkaido, and tune and decorate your truck. Along the way you meet six women, and at the end you choose where to go. It's earnest, corny, hot-blooded melodrama with plenty of trash talk, and nobody in it is subtle. That's the charm.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script, about 4,900 lines: the story, every rival trucker's challenge and taunts, the six women's stories and the endings, jobs and cargo, shops, parts, and the CB radio chatter.\n* Menus, the name entry (an English letter grid), race HUD labels and the song lines shown …"
     }
    ]
+  },
+  "7DA6ACB9": {
+   "crc32": "7DA6ACB9",
+   "size": 1048576,
+   "md5": "9a41ed23b82a090ec4508d3725e19f9b",
+   "sha1": "ad77d2e8429d5ed926d514d926050086f4edbeee",
+   "names": [
+    "Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "c181c7d3c468f6f8",
+     "game": "Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo",
+     "variant": "Time.Bokan.Series.-.Bokan.Densetsu.-.Buta.mo.Odaterya.Doronboo.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "7DA6ACB9",
+     "target_crc32": "D4C0A5C5",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BokanDensetsu_0.9/Time.Bokan.Series.-.Bokan.Densetsu.-.Buta.mo.Odaterya.Doronboo.EN.v0.9.bps",
+     "sha256": "c181c7d3c468f6f8eee1635dde7018acf3df63eae1aee5324d8211278eb33fcb",
+     "size": 211014,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BokanDensetsu_0.9",
+     "notes": "**Bokan Densetsu - Buta mo Odaterya Doronboo** is a 2000 WonderSwan game by Banpresto starring the Doronbo Gang from Tatsunoko's Time Bokan series: Doronjo, Boyacky and Tonzura. It was released only in Japan.\n\nTheir boss Dokurobei sends them through time and space after the T-Parts, the keys to the Earth-Buyer Gold. Each chapter parodies a Time Bokan show (Time Bokan, Yatterman, Zenderman, Otasukeman, Yattodetaman, Ippatsuman, Itadakiman). The trio runs a crooked business to raise funds, builds and customizes a mecha, explores, and battles the heroes' robots, until the inevitable punishment.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps to *Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan).ws* (1 MB, CRC32 7DA6ACB9) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB, CRC32 D4C0A5C5; keep the .ws extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (EN v0.9).bps\" \"Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan).ws\" \"Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (EN v0.9).ws\"\n\nYou must provide your own copy of the original Japanese game …"
+    }
+   ],
+   "produced_by": []
   },
   "7E701D9E": {
    "crc32": "7E701D9E",
@@ -5661,6 +5752,58 @@
      "notes": "**Ring Infinity** is a horror sound novel released only in Japan by Kadokawa Shoten and Bandai for the WonderSwan in August 2000. It is set in the world of Koji Suzuki's *Ring*: a rumour about a cursed video that kills whoever watches it exactly one week later, students dying of heart failure, e-mail pals, a \"cursed homepage\" and the shadow of Sadako Yamamura. You read the story and pick what to say and do; your choices open different branches and endings over three chapters.\n\nThis patch translates it into English.\n\n**What is translated**\n\n- The whole story (about 4,300 screens of text), the choices, the menus, the save/delete dialogs and the staff roll labels.\n- The Japanese original shows the text vertically; the English is shown in horizontal lines with a new variable-width font, in the same window under the pictures.\n- Text drawn as pictures: the WonderGate dialogs (\"Connect?\", \"Connection failed.\"...) and the Japanese inside some scene pictures (the \"Suicide Diary\" web page, the mail program, a scream).\n- **WonderGate unlock:** the Mobile WonderGate service is long gone, but its content is in the game. The patch unlocks it: \"Bonus scenarios\" (an extra scenario, a different take on the first chapter) and \"Read mail\" (31 mails from other players, shown one after another each time you open it) appear in the title menu.\n- Names follow the official English editions of the Ring novels (Kodansha): Sadako Yamamura (never \"Samara\"), Shizuko Yamamura, Izu Oshima. Other names in …"
     }
    ]
+  },
+  "85C4C9A1": {
+   "crc32": "85C4C9A1",
+   "size": 2097152,
+   "md5": "b017d367af1ba43171beba3e184d9ee9",
+   "sha1": "58c691cb31f96eea5689693fd23768d02e8b133f",
+   "names": [
+    "Judgement Silversword - Rebirth Edition (Japan) (Rev 5C21).wsc"
+   ],
+   "patches": [
+    {
+     "id": "b0f09290b00c7644",
+     "game": "Judgement Silversword",
+     "variant": "JSS_Arrange_v2_7",
+     "version": "2",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "85C4C9A1",
+     "target_crc32": "E357D462",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/JSS_Arrange_2.7/JSS_Arrange_v2_7.bps",
+     "sha256": "b0f09290b00c7644c450b6217ecf1595854ba273c7f2aae99520d5e9e3812226",
+     "size": 114735,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/JSS_Arrange_2.7",
+     "notes": "A visual remix of the WonderSwan Color vertical shmup *Judgement Silversword – Rebirth Edition*.\nOne patch gives you **both editions in a single ROM** with a boot menu: the untouched **Normal Edition** and the new **Arrange Edition**. Gameplay, hitboxes, stage scripts and music are the same as the original in both.\n\nPatch by **/u/Gio-74**, ROM hacking and tools by Claude (Anthropic).\n\n---\n\n## What's new in the Arrange Edition\n\n**Backgrounds**\n- Stage 1: a solar corona instead of the Earth, fading into space\n- Stage 4: an icy moon with jagged rocky cliff edges, and an asteroid field instead of the Moon\n- Stage 5: Saturn instead of the gas giant, with soft edges\n- Final stage: a temple-mosaic floor, a nebula sky and a Doré-style backdrop for the final boss\n\n**Sprites, in a biomechanical \"organic mecha\" style**\n- A new player ship: an organic mecha with a green visor, armoured shoulders and arm cannons. It has 6 animation frames (banking and thrusters), and the lives icon in the HUD matches it.\n- **Every enemy redrawn**: wasps, beetle walkers and their rolled-up shells, claw fighters, moths, manta bombers, horned cruisers, a grey bio-robot, spore orbs that turn and open their eye, bone blades, a scythe mantis and spore missiles.\n- **Bosses redesigned**:\n  - MAGNIFICENCE is now a carapace-and-bone colossus.\n  - The Saturn battleship is a bone-white manta dreadnought.\n  - The MIRROR SHIELD judge carries an eye of flesh and bone.\n- New sprite palettes: emerald enemies, and crimson …"
+    },
+    {
+     "id": "848d238cf799dcf2",
+     "game": "Judgement Silversword",
+     "variant": "JSS_Normal+Arrange_v2_7",
+     "version": "2",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "85C4C9A1",
+     "target_crc32": "1A50FABF",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/JSS_Arrange_2.7/JSS_Normal%2BArrange_v2_7.bps",
+     "sha256": "848d238cf799dcf2682364a5dec1a127c186cdafe8eeb737057c4c6dc16ff22a",
+     "size": 509105,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/JSS_Arrange_2.7",
+     "notes": "A visual remix of the WonderSwan Color vertical shmup *Judgement Silversword – Rebirth Edition*.\nOne patch gives you **both editions in a single ROM** with a boot menu: the untouched **Normal Edition** and the new **Arrange Edition**. Gameplay, hitboxes, stage scripts and music are the same as the original in both.\n\nPatch by **/u/Gio-74**, ROM hacking and tools by Claude (Anthropic).\n\n---\n\n## What's new in the Arrange Edition\n\n**Backgrounds**\n- Stage 1: a solar corona instead of the Earth, fading into space\n- Stage 4: an icy moon with jagged rocky cliff edges, and an asteroid field instead of the Moon\n- Stage 5: Saturn instead of the gas giant, with soft edges\n- Final stage: a temple-mosaic floor, a nebula sky and a Doré-style backdrop for the final boss\n\n**Sprites, in a biomechanical \"organic mecha\" style**\n- A new player ship: an organic mecha with a green visor, armoured shoulders and arm cannons. It has 6 animation frames (banking and thrusters), and the lives icon in the HUD matches it.\n- **Every enemy redrawn**: wasps, beetle walkers and their rolled-up shells, claw fighters, moths, manta bombers, horned cruisers, a grey bio-robot, spore orbs that turn and open their eye, bone blades, a scythe mantis and spore missiles.\n- **Bosses redesigned**:\n  - MAGNIFICENCE is now a carapace-and-bone colossus.\n  - The Saturn battleship is a bone-white manta dreadnought.\n  - The MIRROR SHIELD judge carries an eye of flesh and bone.\n- New sprite palettes: emerald enemies, and crimson …"
+    }
+   ],
+   "produced_by": []
   },
   "8655269E": {
    "crc32": "8655269E",
@@ -8822,6 +8965,34 @@
    ],
    "produced_by": []
   },
+  "D4C0A5C5": {
+   "crc32": "D4C0A5C5",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "c181c7d3c468f6f8",
+     "game": "Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo",
+     "variant": "Time.Bokan.Series.-.Bokan.Densetsu.-.Buta.mo.Odaterya.Doronboo.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "7DA6ACB9",
+     "target_crc32": "D4C0A5C5",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BokanDensetsu_0.9/Time.Bokan.Series.-.Bokan.Densetsu.-.Buta.mo.Odaterya.Doronboo.EN.v0.9.bps",
+     "sha256": "c181c7d3c468f6f8eee1635dde7018acf3df63eae1aee5324d8211278eb33fcb",
+     "size": 211014,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BokanDensetsu_0.9",
+     "notes": "**Bokan Densetsu - Buta mo Odaterya Doronboo** is a 2000 WonderSwan game by Banpresto starring the Doronbo Gang from Tatsunoko's Time Bokan series: Doronjo, Boyacky and Tonzura. It was released only in Japan.\n\nTheir boss Dokurobei sends them through time and space after the T-Parts, the keys to the Earth-Buyer Gold. Each chapter parodies a Time Bokan show (Time Bokan, Yatterman, Zenderman, Otasukeman, Yattodetaman, Ippatsuman, Itadakiman). The trio runs a crooked business to raise funds, builds and customizes a mecha, explores, and battles the heroes' robots, until the inevitable punishment.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps to *Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan).ws* (1 MB, CRC32 7DA6ACB9) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB, CRC32 D4C0A5C5; keep the .ws extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (EN v0.9).bps\" \"Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan).ws\" \"Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (EN v0.9).ws\"\n\nYou must provide your own copy of the original Japanese game …"
+    }
+   ]
+  },
   "D58F0E5B": {
    "crc32": "D58F0E5B",
    "size": 4194304,
@@ -9055,13 +9226,33 @@
    ],
    "patches": [
     {
+     "id": "c36711dfe5592767",
+     "game": "Another Heaven: Memory of those Days",
+     "variant": "another-heaven-en-1.1",
+     "version": "1.1",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "D7A0AB74",
+     "target_crc32": "6E0D789C",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/another-heaven-v1.1/another-heaven-en-1.1.bps",
+     "sha256": "c36711dfe55927678fe93aa1b37db4b9d1796154944135dc715a814e560503bb",
+     "size": 689076,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/another-heaven-v1.1",
+     "notes": "**Another Heaven ~memory of those days~** (アナザヘヴン 〜memory of those days〜) is a horror sound novel for the WonderSwan Color by Omega Micott and D's Garage 21, licensed by Bandai and released only in Japan in December 2000. It is a tie-in to Joji Iida's film *Another Heaven* (2000): while the film's \"Mad Cook\" murders shake Tokyo, a second killer, the Pyromaniac, starts burning men from the inside out. You are Koichiro Hasegawa, a young police sergeant teamed with his old classmate, Lieutenant Natsuko Nishitani, and between crime scenes you trade e-mail on your phone with a crime-buff informant and with Makoto, a shy friend from a mailing list. Read the story, answer the mails, make the choices, and follow its many routes and endings on the route chart. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: every page of narration and dialogue (over 6,000 pages), the 223 e-mails on the phone, all 103 choices, every route and ending, the prologue, the attract demo and the Bonus scenario.\n* Speaker names, the \"Day\" cards, the chapter names …"
+    },
+    {
      "id": "26b5868e748c602a",
      "game": "Another Heaven: Memory of those Days",
      "variant": "another-heaven-en-1.0",
      "version": "1.0",
      "language": "en",
      "platform": "wonderswan_color",
-     "latest": true,
+     "latest": false,
      "superseded": false,
      "format": "bps",
      "source_crc32": "D7A0AB74",
@@ -9253,6 +9444,36 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol3-a-baoa-qu-v1.1",
      "notes": "**Kidou Senshi Gundam Vol. 3: A Baoa Qu** (機動戦士ガンダム Vol.3 -A BAOA QU-, \"Mobile Suit Gundam Vol. 3: A Baoa Qu\") is Bandai's 2002 game for the WonderSwan Color, released only in Japan, and the last of three cartridges that retell the 1979 anime *Mobile Suit Gundam*. It covers episodes 31-43: the White Base back in space, Solomon, Lalah Sune and the Elmeth, and the final battle at A Baoa Qu. Each episode is told in story scenes, with mobile-suit battles in between; a new game can carry over Amuro's skill from the earlier volumes.\n\nThis patch translates it into English. Vol. 1, Vol. 2 and Vol. 3 each have their own patch and their own page.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: every story scene and narration, the battle chatter and radio calls, the battle report comments, the tips, the epilogue and the staff credits.\n* Every menu and prompt: the map and destination prompts, the event list, saving, quitting and continuing.\n* Everything drawn as a picture: the title logo (MOBILE SUIT GUNDAM), the episode title cards, the battle report panel, the carry-over …"
+    }
+   ]
+  },
+  "E357D462": {
+   "crc32": "E357D462",
+   "size": 2097152,
+   "md5": "5a571edf5e34793c68a69bdc9dd328e5",
+   "sha1": "35b46edc3ca3e5d8cf5626bdf480fa3ea6c2d9e2",
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "b0f09290b00c7644",
+     "game": "Judgement Silversword",
+     "variant": "JSS_Arrange_v2_7",
+     "version": "2",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "85C4C9A1",
+     "target_crc32": "E357D462",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/JSS_Arrange_2.7/JSS_Arrange_v2_7.bps",
+     "sha256": "b0f09290b00c7644c450b6217ecf1595854ba273c7f2aae99520d5e9e3812226",
+     "size": 114735,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/JSS_Arrange_2.7",
+     "notes": "A visual remix of the WonderSwan Color vertical shmup *Judgement Silversword – Rebirth Edition*.\nOne patch gives you **both editions in a single ROM** with a boot menu: the untouched **Normal Edition** and the new **Arrange Edition**. Gameplay, hitboxes, stage scripts and music are the same as the original in both.\n\nPatch by **/u/Gio-74**, ROM hacking and tools by Claude (Anthropic).\n\n---\n\n## What's new in the Arrange Edition\n\n**Backgrounds**\n- Stage 1: a solar corona instead of the Earth, fading into space\n- Stage 4: an icy moon with jagged rocky cliff edges, and an asteroid field instead of the Moon\n- Stage 5: Saturn instead of the gas giant, with soft edges\n- Final stage: a temple-mosaic floor, a nebula sky and a Doré-style backdrop for the final boss\n\n**Sprites, in a biomechanical \"organic mecha\" style**\n- A new player ship: an organic mecha with a green visor, armoured shoulders and arm cannons. It has 6 animation frames (banking and thrusters), and the lives icon in the HUD matches it.\n- **Every enemy redrawn**: wasps, beetle walkers and their rolled-up shells, claw fighters, moths, manta bombers, horned cruisers, a grey bio-robot, spore orbs that turn and open their eye, bone blades, a scythe mantis and spore missiles.\n- **Bosses redesigned**:\n  - MAGNIFICENCE is now a carapace-and-bone colossus.\n  - The Saturn battleship is a bone-white manta dreadnought.\n  - The MIRROR SHIELD judge carries an eye of flesh and bone.\n- New sprite palettes: emerald enemies, and crimson …"
     }
    ]
   },
@@ -10745,6 +10966,7 @@
   "5432d188664bc4e5dae0fc859580cda1": "56E2C069",
   "547501367ccf6262a70d0030e68cc75e": "427056C4",
   "5883b9d0f63fe8daa9c1a2259c154466": "F1F4D41F",
+  "5a571edf5e34793c68a69bdc9dd328e5": "E357D462",
   "5e907dd88b3cfb2855a18fb1bf689860": "80C6EF12",
   "694042e6f8eaa2423693c0a9bba8aef0": "62D419CD",
   "6c1949e0201437ed16d9182956b67b0e": "4D21A347",
@@ -10758,11 +10980,14 @@
   "7fa6a3034b8c03fca0b756fb5526ce62": "F8A1DD2B",
   "8b8ea655dbea4a3152b300126556404c": "6F304DCA",
   "95b2632395ce85fc5f0cdb762e665136": "39A1391A",
+  "9a41ed23b82a090ec4508d3725e19f9b": "7DA6ACB9",
   "9b15b2236cae605f7bc3bea3859fdd36": "B25A0635",
   "9bfcf86bf65c9fdae4a0f88fadafd0d8": "2F9E2560",
   "9f612c697b72b2d5e87776edd95de077": "5793BDDA",
   "a466797b353d610f43a0f030cec721c1": "CE2F1A1D",
   "a4862ef07e13231ae429a98ef667a74a": "9C98D97D",
+  "aa46ad69657bedf13ebd524959b23c86": "1A50FABF",
+  "b017d367af1ba43171beba3e184d9ee9": "85C4C9A1",
   "b1832d4e48ba931adbfaf2ed35314fe0": "62CB398B",
   "b1b20bb24be3767ab5bfcfca54b51c54": "80DE367D",
   "b7f9c3d80b83178ba192297ea755d066": "0C9CB12C",
@@ -10803,6 +11028,7 @@
   "02428d6a2af4bf84b84321b336db98c8b718b347": "8892AE15",
   "06447c248afce04c4f4a1c3b5f7a4ab6f383c94b": "425EB893",
   "06fcc9aad3ae478db6eed27621af4f56a6488a67": "9C98D97D",
+  "0974ad97e90f9782aadb2231cdba86147c0dc9dd": "6E0D789C",
   "0a765180c8f35f5e1123939e25d284aec1a7bc8f": "C2F3CCBD",
   "152c4d63b1b17f2c717a43efc75d718b614f9ddc": "F0ACDA5C",
   "1eb729aa9ab0a7df6f8a3470a6fede59d7622d4a": "0C9CB12C",
@@ -10820,6 +11046,7 @@
   "2e3f221d6965f53b29586d2019ee81dec6d1ac30": "31E09BED",
   "31a718cfbcff2dab56ab9606a0b5b2dfccecbbcb": "F1F4D41F",
   "35443e2ef8a20a0ad82da1274b2768c16239dd46": "A9F5BF54",
+  "35b46edc3ca3e5d8cf5626bdf480fa3ea6c2d9e2": "E357D462",
   "35eea568f756bacf533bb9aaad7e3239ba00e411": "B25A0635",
   "36d8bc2ce7920d940943358d48f056f81055ab34": "9F6E3F8D",
   "39e9a897b681b2c326b052827d7c534f22290286": "7F3A14C0",
@@ -10831,6 +11058,7 @@
   "5384f9974c66e5e26129a4709976de0bb1ae1f17": "067238D1",
   "544e76133fa53fc0ae5e00e3465b9cf634f14fd0": "324622C9",
   "57b4278fc5812f52413ca65f45225922d4f2ec3d": "70AA800E",
+  "58c691cb31f96eea5689693fd23768d02e8b133f": "85C4C9A1",
   "5e5db8b066e1b41c5c12a2d4ffa97b73ed6c3f03": "E4EB3AB1",
   "5eaeab859e5f647fac354dad285a311387ea126b": "00B31FBB",
   "5f3b81c2f7459b602fecb621d288cf4ddf5e640f": "19AC67B5",
@@ -10844,6 +11072,7 @@
   "821bb81917445b63ac663c706ab4ce27de28543f": "392DD813",
   "83e190af2e25fbb3e93b1d5835c52fe6f1d279ce": "B1CAEC06",
   "862e59fc9322b1177cfff86d405f288fa904788c": "62CB398B",
+  "897ceb34d685fcd501f0c15b9c9ec5dd6c6b88ab": "1A50FABF",
   "92d4a6ff6f2b1152d8935025f38f910155e5d709": "80DE367D",
   "9427f4a6c9b6de37c205249149c11cc7ee1259ce": "9ADAFACD",
   "959321e3b971516e38a4cbf95b0fc3efc0b0a825": "F09E752F",
@@ -10854,6 +11083,7 @@
   "9b4786adca7b83fe66a9d4b9fd4ffaf32abe7656": "1F10CA75",
   "a1e24771dbc388af98781e894fc064fadd83517b": "DCAAFE90",
   "a8f8d3efc9b2d5741081e05f517d746ee5437f87": "2460B45A",
+  "ad77d2e8429d5ed926d514d926050086f4edbeee": "7DA6ACB9",
   "adbe6e38a0bc6a2d19da64a444071977b771f14f": "446E2581",
   "ae31488cee1c91f383efbe3083b4abec092dda36": "BF8D9212",
   "af3fe9da3f5ee0f5a7b06b0440223db88fcb3bf2": "00137E86",
