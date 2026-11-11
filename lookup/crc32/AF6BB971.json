@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "AF6BB971"
+ },
+ "crc32": "AF6BB971",
+ "size": 2097152,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "ea6b45e0463e6c21",
+   "game": "Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo",
+   "variant": "Time.Bokan.Series.-.Bokan.Densetsu.-.Buta.mo.Odaterya.Doronboo.EN.v0.9.2",
+   "version": "0.9.2",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "7DA6ACB9",
+   "target_crc32": "AF6BB971",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BokanDensetsu_0.9/Time.Bokan.Series.-.Bokan.Densetsu.-.Buta.mo.Odaterya.Doronboo.EN.v0.9.2.bps",
+   "sha256": "ea6b45e0463e6c21fc81dee0f8d4291802b96c5f4f6264d5fa51d044b1e672d1",
+   "size": 211537,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BokanDensetsu_0.9",
+   "notes": "**Bokan Densetsu - Buta mo Odaterya Doronboo** is a 2000 WonderSwan game by Banpresto starring the Doronbo Gang from Tatsunoko's Time Bokan series: Doronjo, Boyacky and Tonzura. It was released only in Japan.\n\nTheir boss Dokurobei sends them through time and space after the T-Parts, the keys to the Earth-Buyer Gold. Each chapter parodies a Time Bokan show (Time Bokan, Yatterman, Zenderman, Otasukeman, Yattodetaman, Ippatsuman, Itadakiman). The trio runs a crooked business to raise funds, builds and customizes a mecha, explores, and battles the heroes' robots, until the inevitable punishment.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps to *Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan).ws* (1 MB, CRC32 7DA6ACB9) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB, CRC32 AF6BB971; keep the .ws extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (EN v0.9.2).bps\" \"Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan).ws\" \"Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (EN v0.9.2).ws\"\n\nYou must provide your own copy of the original Japanese …"
+  }
+ ]
+}

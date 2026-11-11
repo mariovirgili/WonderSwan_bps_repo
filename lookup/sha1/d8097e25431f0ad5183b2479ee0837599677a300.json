@@ -1,0 +1,36 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "d8097e25431f0ad5183b2479ee0837599677a300"
+ },
+ "crc32": "18ECFFB8",
+ "size": 4194304,
+ "md5": "18267bcb9d31ffb6711f5464f6ab8077",
+ "sha1": "d8097e25431f0ad5183b2479ee0837599677a300",
+ "names": [
+  "SD Gundam Eiyuu Den - Musha Densetsu (Japan).wsc"
+ ],
+ "patches": [
+  {
+   "id": "313ffcf0fa4e307f",
+   "game": "SD Gundam Eiyuu Den - Musha Densetsu",
+   "variant": "SD.Gundam.Eiyuu.Den.-.Musha.Densetsu.EN.v0.9",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "18ECFFB8",
+   "target_crc32": "EFB9B834",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MushaDensetsu_0.9/SD.Gundam.Eiyuu.Den.-.Musha.Densetsu.EN.v0.9.bps",
+   "sha256": "313ffcf0fa4e307f93d279e06b2bb4b2aac806c982abf409aa2c624be5b1299f",
+   "size": 1652044,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MushaDensetsu_0.9",
+   "notes": "**SD Gundam Eiyuu Den: Musha Densetsu** is a 2001 WonderSwan Color RPG by Bandai. It was released only in Japan.\n\nMusha Gundam and the samurai of Ark face the invasion of King Zard and his generals, with knights from Lacroa at their side.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps to *SD Gundam Eiyuu Den - Musha Densetsu (Japan).wsc* (4 MB, CRC32 18ECFFB8) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB, CRC32 EFB9B834; keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"SD Gundam Eiyuu Den - Musha Densetsu (EN v0.9).bps\" \"SD Gundam Eiyuu Den - Musha Densetsu (Japan).wsc\" \"SD Gundam Eiyuu Den - Musha Densetsu (EN v0.9).wsc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**What is translated**\n\n* The whole script: 1,582 messages (1,402 unique), credits included.\n* Unit, skill and item names, item descriptions, battle messages and quotes, link and trade texts, status and menu texts.\n* A new font of letter pairs: each 16-pixel cell of the original renderer shows two characters.\n* Graphics: …"
+  }
+ ],
+ "produced_by": []
+}

@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "98F85403"
+ },
+ "crc32": "98F85403",
+ "size": 8388608,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "115c1a6bb7a27e76",
+   "game": "SD Gundam Eiyuu Den - Kishi Densetsu",
+   "variant": "SD.Gundam.Eiyuu.Den.-.Kishi.Densetsu.EN.v0.9",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "C60E5162",
+   "target_crc32": "98F85403",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/KishiDensetsu_0.9/SD.Gundam.Eiyuu.Den.-.Kishi.Densetsu.EN.v0.9.bps",
+   "sha256": "115c1a6bb7a27e76510b61a53492c1fb877270caa33a468640adea8b1a09a1da",
+   "size": 1706251,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/KishiDensetsu_0.9",
+   "notes": "**SD Gundam Eiyuu Den: Kishi Densetsu** is a 2001 WonderSwan Color RPG by Bandai. It was released only in Japan.\n\nMine, the young pilot of Knight Gundam, and the knights of Lacroa face the invasion of Zard and its Western Big Four.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps to *SD Gundam Eiyuu Den - Kishi Densetsu (Japan).wsc* (4 MB, CRC32 C60E5162) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB, CRC32 98F85403; keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"SD Gundam Eiyuu Den - Kishi Densetsu (EN v0.9).bps\" \"SD Gundam Eiyuu Den - Kishi Densetsu (Japan).wsc\" \"SD Gundam Eiyuu Den - Kishi Densetsu (EN v0.9).wsc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**What is translated**\n\n* The whole script: 1,722 messages (1,545 unique), credits included.\n* Unit, skill and item names, item descriptions, battle messages and quotes, link and trade texts, status and menu texts.\n* A new font of letter pairs: each 16-pixel cell of the original renderer shows two characters.\n* Graphics: the title …"
+  }
+ ]
+}

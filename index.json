@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "repository": "mariovirgili/WonderSwan_bps_repo",
-  "generated_at": "2026-11-10T12:44:59+00:00",
+  "generated_at": "2026-11-11T11:57:26+00:00",
   "sources": [
     "mariovirgili/WonderSwanColor-AI_Translation",
     "PokemonGoDB/wonderswan-english-patches",
@@ -32,13 +32,13 @@
     "wonderswan_color",
     null
   ],
-  "count": 222,
+  "count": 224,
   "entries": [
     {
-      "id": "3889dab5b24445ab",
+      "id": "bff7fafe89d606b2",
       "game": "Alchemist Marie & Elie: Futari no Atelier",
-      "variant": "Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.2",
-      "version": "0.9.2",
+      "variant": "Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.3",
+      "version": "0.9.3",
       "language": "en",
       "platform": "wonderswan_color",
       "latest": true,
@@ -48,7 +48,7 @@
       "requires_patch_ids": null,
       "format": "bps",
       "source_crc32": "B18CDC0D",
-      "target_crc32": "F886A276",
+      "target_crc32": "A269B762",
       "source_rom": {
         "crc32": "B18CDC0D",
         "size": 4194304,
@@ -56,19 +56,19 @@
         "name": "Alchemist Marie & Elie - Futari no Atelier (Japan).wsc"
       },
       "target_rom": {
-        "crc32": "F886A276",
+        "crc32": "A269B762",
         "size": 8388608,
         "crc32_from": "bps"
       },
-      "file_name": "Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.2.bps",
-      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/AtelierMarieElie_0.9.2/Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.2.bps",
-      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/AtelierMarieElie_0.9.2/Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.2.bps",
+      "file_name": "Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.3.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/AtelierMarieElie_0.9.2/Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.3.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/AtelierMarieElie_0.9.2/Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.3.bps",
       "size": 480206,
-      "sha256": "3889dab5b24445ab7720c65de09b8cb4a66e424af396080fcce0e7cc27f13440",
+      "sha256": "bff7fafe89d606b2b655d3abfe801e8aca0b851fbad61ac056377eaf2b6f74d5",
       "patch_crc32": "2144DF1C",
       "source_size": 4194304,
       "target_size": 8388608,
-      "patch_crc32_footer": "B2190586",
+      "patch_crc32_footer": "DA915E9B",
       "patch_checksum_ok": true,
       "bps_metadata": null,
       "origin": {
@@ -76,17 +76,17 @@
         "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
         "kind": "release_asset",
         "release_tag": "AtelierMarieElie_0.9.2",
-        "release_name": "[WonderSwan Color] Alchemist Marie & Elie: Futari no Atelier – English translation patch v0.9.2 (AI-made, personal project)",
+        "release_name": "[WonderSwan Color] Alchemist Marie & Elie: Futari no Atelier – English translation patch v0.9.3 (AI-made, personal project)",
         "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/AtelierMarieElie_0.9.2",
         "published_at": "2026-11-08T22:18:49Z",
         "prerelease": false,
-        "asset_name": "Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.2.bps",
-        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/AtelierMarieElie_0.9.2/Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.2.bps",
+        "asset_name": "Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.3.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/AtelierMarieElie_0.9.2/Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.3.bps",
         "archive_member": null,
-        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:725374031:2026-11-08T22:18:25Z:480206",
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:734659496:2026-11-11T07:57:29Z:480206",
         "release_notes": "*Marie & Elie: Futari no Atelier* is Gust's 2001 Atelier game for the WonderSwan Color, released only in Japan. Marie (Marlone), now a full-fledged alchemist, and Elie (Elfir Traum), the girl she once saved, open an atelier together in Salburg. Thieves have stolen everything Elie owned, and Fuehren from Kentnis asks the two of them to create something nobody has ever seen: the Primordial Flame. You have three years to synthesize items, take quests at the Sky Tavern, gather ingredients with adventurers, hold tea parties and meet the cast of both Atelier Marie and Atelier Elie.\n\nThis patch translates it into English.\n\n**What is translated**\n\n- The whole script: 2,643 messages (story events, town talk, quests, tea parties, gathering trips, battles, the endings, the item and character encyclopedia, the composer's comments in the music room, the staff roll).\n- Item and equipment names, all the menus and system strings.\n- The speaker nameplates (redrawn in English) and the item names painted on the item cards.\n- A new variable-width font for all the text; the dialogue is re-wrapped and paged automatically.\n- Names follow Koei Tecmo's official English releases of Atelier Marie where they exist (Marlone/Marie, Salburg, Ingrid, Schea Donnerstag, Enderk Yard, Kreis Kuehl, Ruven Filnir, Mu Seqstanse, Sky Tavern, Meister Rank...). The others were romanized from the Japanese.\n\n**Images**\n\n**How to patch**\n\nApply the .bps patch to the original Japanese ROM *Alchemist Marie & Elie - Futari …"
       },
-      "first_seen": "2026-11-09"
+      "first_seen": "2026-11-11"
     },
     {
       "id": "553c45b988f1cdc3",
@@ -10045,6 +10045,114 @@
       "first_seen": "2026-11-02"
     },
     {
+      "id": "115c1a6bb7a27e76",
+      "game": "SD Gundam Eiyuu Den - Kishi Densetsu",
+      "variant": "SD.Gundam.Eiyuu.Den.-.Kishi.Densetsu.EN.v0.9",
+      "version": "0.9",
+      "language": "en",
+      "platform": "wonderswan_color",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "C60E5162",
+      "target_crc32": "98F85403",
+      "source_rom": {
+        "crc32": "C60E5162",
+        "size": 4194304,
+        "crc32_from": "bps",
+        "name": "SD Gundam Eiyuu Den - Kishi Densetsu (Japan).wsc"
+      },
+      "target_rom": {
+        "crc32": "98F85403",
+        "size": 8388608,
+        "crc32_from": "bps"
+      },
+      "file_name": "SD.Gundam.Eiyuu.Den.-.Kishi.Densetsu.EN.v0.9.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/KishiDensetsu_0.9/SD.Gundam.Eiyuu.Den.-.Kishi.Densetsu.EN.v0.9.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/KishiDensetsu_0.9/SD.Gundam.Eiyuu.Den.-.Kishi.Densetsu.EN.v0.9.bps",
+      "size": 1706251,
+      "sha256": "115c1a6bb7a27e76510b61a53492c1fb877270caa33a468640adea8b1a09a1da",
+      "patch_crc32": "2144DF1C",
+      "source_size": 4194304,
+      "target_size": 8388608,
+      "patch_crc32_footer": "1F278FA9",
+      "patch_checksum_ok": true,
+      "bps_metadata": null,
+      "origin": {
+        "source": "mariovirgili/WonderSwanColor-AI_Translation",
+        "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
+        "kind": "release_asset",
+        "release_tag": "KishiDensetsu_0.9",
+        "release_name": "[Release] SD Gundam Eiyuu Den - Kishi Densetsu (WonderSwan Color) - English v0.9",
+        "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/KishiDensetsu_0.9",
+        "published_at": "2026-11-11T07:21:00Z",
+        "prerelease": false,
+        "asset_name": "SD.Gundam.Eiyuu.Den.-.Kishi.Densetsu.EN.v0.9.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/KishiDensetsu_0.9/SD.Gundam.Eiyuu.Den.-.Kishi.Densetsu.EN.v0.9.bps",
+        "archive_member": null,
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:734556825:2026-11-11T07:20:33Z:1706251",
+        "release_notes": "**SD Gundam Eiyuu Den: Kishi Densetsu** is a 2001 WonderSwan Color RPG by Bandai. It was released only in Japan.\n\nMine, the young pilot of Knight Gundam, and the knights of Lacroa face the invasion of Zard and its Western Big Four.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps to *SD Gundam Eiyuu Den - Kishi Densetsu (Japan).wsc* (4 MB, CRC32 C60E5162) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB, CRC32 98F85403; keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"SD Gundam Eiyuu Den - Kishi Densetsu (EN v0.9).bps\" \"SD Gundam Eiyuu Den - Kishi Densetsu (Japan).wsc\" \"SD Gundam Eiyuu Den - Kishi Densetsu (EN v0.9).wsc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**What is translated**\n\n* The whole script: 1,722 messages (1,545 unique), credits included.\n* Unit, skill and item names, item descriptions, battle messages and quotes, link and trade texts, status and menu texts.\n* A new font of letter pairs: each 16-pixel cell of the original renderer shows two characters.\n* Graphics: the title …"
+      },
+      "first_seen": "2026-11-11"
+    },
+    {
+      "id": "313ffcf0fa4e307f",
+      "game": "SD Gundam Eiyuu Den - Musha Densetsu",
+      "variant": "SD.Gundam.Eiyuu.Den.-.Musha.Densetsu.EN.v0.9",
+      "version": "0.9",
+      "language": "en",
+      "platform": "wonderswan_color",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "18ECFFB8",
+      "target_crc32": "EFB9B834",
+      "source_rom": {
+        "crc32": "18ECFFB8",
+        "size": 4194304,
+        "crc32_from": "bps",
+        "name": "SD Gundam Eiyuu Den - Musha Densetsu (Japan).wsc"
+      },
+      "target_rom": {
+        "crc32": "EFB9B834",
+        "size": 8388608,
+        "crc32_from": "bps"
+      },
+      "file_name": "SD.Gundam.Eiyuu.Den.-.Musha.Densetsu.EN.v0.9.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/MushaDensetsu_0.9/SD.Gundam.Eiyuu.Den.-.Musha.Densetsu.EN.v0.9.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MushaDensetsu_0.9/SD.Gundam.Eiyuu.Den.-.Musha.Densetsu.EN.v0.9.bps",
+      "size": 1652044,
+      "sha256": "313ffcf0fa4e307f93d279e06b2bb4b2aac806c982abf409aa2c624be5b1299f",
+      "patch_crc32": "2144DF1C",
+      "source_size": 4194304,
+      "target_size": 8388608,
+      "patch_crc32_footer": "A28E883E",
+      "patch_checksum_ok": true,
+      "bps_metadata": null,
+      "origin": {
+        "source": "mariovirgili/WonderSwanColor-AI_Translation",
+        "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
+        "kind": "release_asset",
+        "release_tag": "MushaDensetsu_0.9",
+        "release_name": "[Release] SD Gundam Eiyuu Den - Musha Densetsu (WonderSwan Color) - English v0.9",
+        "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MushaDensetsu_0.9",
+        "published_at": "2026-11-11T06:35:20Z",
+        "prerelease": false,
+        "asset_name": "SD.Gundam.Eiyuu.Den.-.Musha.Densetsu.EN.v0.9.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/MushaDensetsu_0.9/SD.Gundam.Eiyuu.Den.-.Musha.Densetsu.EN.v0.9.bps",
+        "archive_member": null,
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:734431524:2026-11-11T06:34:52Z:1652044",
+        "release_notes": "**SD Gundam Eiyuu Den: Musha Densetsu** is a 2001 WonderSwan Color RPG by Bandai. It was released only in Japan.\n\nMusha Gundam and the samurai of Ark face the invasion of King Zard and his generals, with knights from Lacroa at their side.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps to *SD Gundam Eiyuu Den - Musha Densetsu (Japan).wsc* (4 MB, CRC32 18ECFFB8) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB, CRC32 EFB9B834; keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"SD Gundam Eiyuu Den - Musha Densetsu (EN v0.9).bps\" \"SD Gundam Eiyuu Den - Musha Densetsu (Japan).wsc\" \"SD Gundam Eiyuu Den - Musha Densetsu (EN v0.9).wsc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**What is translated**\n\n* The whole script: 1,582 messages (1,402 unique), credits included.\n* Unit, skill and item names, item descriptions, battle messages and quotes, link and trade texts, status and menu texts.\n* A new font of letter pairs: each 16-pixel cell of the original renderer shows two characters.\n* Graphics: …"
+      },
+      "first_seen": "2026-11-11"
+    },
+    {
       "id": "ad1bdc0d6d68121f",
       "game": "SD Gundam G Generation - Mono-Eye Gundams",
       "variant": "SD.Gundam.G.Generation.-.Mono-Eye.Gundams.EN.v0.9.1",
@@ -11776,10 +11884,10 @@
       "first_seen": "2026-11-09"
     },
     {
-      "id": "c181c7d3c468f6f8",
+      "id": "ea6b45e0463e6c21",
       "game": "Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo",
-      "variant": "Time.Bokan.Series.-.Bokan.Densetsu.-.Buta.mo.Odaterya.Doronboo.EN.v0.9",
-      "version": "0.9",
+      "variant": "Time.Bokan.Series.-.Bokan.Densetsu.-.Buta.mo.Odaterya.Doronboo.EN.v0.9.2",
+      "version": "0.9.2",
       "language": "en",
       "platform": "wonderswan",
       "latest": true,
@@ -11789,7 +11897,7 @@
       "requires_patch_ids": null,
       "format": "bps",
       "source_crc32": "7DA6ACB9",
-      "target_crc32": "D4C0A5C5",
+      "target_crc32": "AF6BB971",
       "source_rom": {
         "crc32": "7DA6ACB9",
         "size": 1048576,
@@ -11797,19 +11905,19 @@
         "name": "Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan).ws"
       },
       "target_rom": {
-        "crc32": "D4C0A5C5",
+        "crc32": "AF6BB971",
         "size": 2097152,
         "crc32_from": "bps"
       },
-      "file_name": "Time.Bokan.Series.-.Bokan.Densetsu.-.Buta.mo.Odaterya.Doronboo.EN.v0.9.bps",
-      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/BokanDensetsu_0.9/Time.Bokan.Series.-.Bokan.Densetsu.-.Buta.mo.Odaterya.Doronboo.EN.v0.9.bps",
-      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BokanDensetsu_0.9/Time.Bokan.Series.-.Bokan.Densetsu.-.Buta.mo.Odaterya.Doronboo.EN.v0.9.bps",
-      "size": 211014,
-      "sha256": "c181c7d3c468f6f8eee1635dde7018acf3df63eae1aee5324d8211278eb33fcb",
+      "file_name": "Time.Bokan.Series.-.Bokan.Densetsu.-.Buta.mo.Odaterya.Doronboo.EN.v0.9.2.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/BokanDensetsu_0.9/Time.Bokan.Series.-.Bokan.Densetsu.-.Buta.mo.Odaterya.Doronboo.EN.v0.9.2.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BokanDensetsu_0.9/Time.Bokan.Series.-.Bokan.Densetsu.-.Buta.mo.Odaterya.Doronboo.EN.v0.9.2.bps",
+      "size": 211537,
+      "sha256": "ea6b45e0463e6c21fc81dee0f8d4291802b96c5f4f6264d5fa51d044b1e672d1",
       "patch_crc32": "2144DF1C",
       "source_size": 1048576,
       "target_size": 2097152,
-      "patch_crc32_footer": "D27A5B66",
+      "patch_crc32_footer": "5C4F1B61",
       "patch_checksum_ok": true,
       "bps_metadata": null,
       "origin": {
@@ -11817,17 +11925,17 @@
         "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
         "kind": "release_asset",
         "release_tag": "BokanDensetsu_0.9",
-        "release_name": "[Release] Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (WonderSwan) - English v0.9",
+        "release_name": "[Release] Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (WonderSwan) - English v0.9.2",
         "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BokanDensetsu_0.9",
         "published_at": "2026-11-09T19:13:59Z",
         "prerelease": false,
-        "asset_name": "Time.Bokan.Series.-.Bokan.Densetsu.-.Buta.mo.Odaterya.Doronboo.EN.v0.9.bps",
-        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/BokanDensetsu_0.9/Time.Bokan.Series.-.Bokan.Densetsu.-.Buta.mo.Odaterya.Doronboo.EN.v0.9.bps",
+        "asset_name": "Time.Bokan.Series.-.Bokan.Densetsu.-.Buta.mo.Odaterya.Doronboo.EN.v0.9.2.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/BokanDensetsu_0.9/Time.Bokan.Series.-.Bokan.Densetsu.-.Buta.mo.Odaterya.Doronboo.EN.v0.9.2.bps",
         "archive_member": null,
-        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:728639357:2026-11-09T19:10:57Z:211014",
-        "release_notes": "**Bokan Densetsu - Buta mo Odaterya Doronboo** is a 2000 WonderSwan game by Banpresto starring the Doronbo Gang from Tatsunoko's Time Bokan series: Doronjo, Boyacky and Tonzura. It was released only in Japan.\n\nTheir boss Dokurobei sends them through time and space after the T-Parts, the keys to the Earth-Buyer Gold. Each chapter parodies a Time Bokan show (Time Bokan, Yatterman, Zenderman, Otasukeman, Yattodetaman, Ippatsuman, Itadakiman). The trio runs a crooked business to raise funds, builds and customizes a mecha, explores, and battles the heroes' robots, until the inevitable punishment.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps to *Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan).ws* (1 MB, CRC32 7DA6ACB9) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB, CRC32 D4C0A5C5; keep the .ws extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (EN v0.9).bps\" \"Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan).ws\" \"Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (EN v0.9).ws\"\n\nYou must provide your own copy of the original Japanese game …"
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:734768103:2026-11-11T08:36:16Z:211537",
+        "release_notes": "**Bokan Densetsu - Buta mo Odaterya Doronboo** is a 2000 WonderSwan game by Banpresto starring the Doronbo Gang from Tatsunoko's Time Bokan series: Doronjo, Boyacky and Tonzura. It was released only in Japan.\n\nTheir boss Dokurobei sends them through time and space after the T-Parts, the keys to the Earth-Buyer Gold. Each chapter parodies a Time Bokan show (Time Bokan, Yatterman, Zenderman, Otasukeman, Yattodetaman, Ippatsuman, Itadakiman). The trio runs a crooked business to raise funds, builds and customizes a mecha, explores, and battles the heroes' robots, until the inevitable punishment.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps to *Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan).ws* (1 MB, CRC32 7DA6ACB9) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB, CRC32 AF6BB971; keep the .ws extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (EN v0.9.2).bps\" \"Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan).ws\" \"Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (EN v0.9.2).ws\"\n\nYou must provide your own copy of the original Japanese …"
       },
-      "first_seen": "2026-11-10"
+      "first_seen": "2026-11-11"
     },
     {
       "id": "b9a22f1617470bb4",
