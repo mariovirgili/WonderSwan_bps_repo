@@ -62,7 +62,7 @@ IPS1, IPS2 = ips(), ips(1)
 assets = {
     1: P1, 6: P1old,
     2: zipb({"Ring Infinity v1.1/ring-infinity.bps": P2, "Ring Infinity v1.1/ring-infinity-special.bps": P2s, "README.txt": b"x"}),
-    3: zipb({"FF4 [T-En v0.9].bps": P3}), 4: sevenz({"Gioco (ITA)/patch_ITA.ips": IPS1}), 5: b"not a patch at all", 7: PSX,
+    3: zipb({"FF4 [T-En v0.9].bps": P3}), 8: P3, 4: sevenz({"Gioco (ITA)/patch_ITA.ips": IPS1}), 5: b"not a patch at all", 7: PSX,
 }
 ROMNOTE = """Apply to **Gioco Bello (Japan).wsc**
 
@@ -80,6 +80,8 @@ releases = {
          "body": "Original ROM: Final Fantasy IV (Japan).wsc\nCRC32: 11111111\nSHA-1: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n",
          "assets": [{"id": 3, "name": "Final.Fantasy.IV.T-En.v0.9.zip", "size": len(assets[3]), "updated_at": "t1"},
                     {"id": 5, "name": "broken.bps", "size": 18, "updated_at": "t1"}]},
+        {"id": 12, "tag_name": "Test", "name": "Testing .bps", "html_url": "https://x/r/test", "published_at": "2026-10-02T00:00:00Z",
+         "assets": [{"id": 8, "name": "FF4test.bps", "size": len(P3), "updated_at": "t1"}]},
         {"id": 11, "tag_name": "PS1-DigiPocket2", "name": "[Release] Pocket Digimon World: Wind Battle Disc (PS1) – English translation patch v0.9",
          "html_url": "https://x/r/psx", "assets": [{"id": 7, "name": "pdw.bps", "size": len(PSX), "updated_at": "t1"}]}],
     "PokemonGoDB/wonderswan-english-patches": [
@@ -186,6 +188,10 @@ dk = next(e for e in d if not e["duplicate_of"])
 check(dk["game"] == "Densha de Go 2" and dk["language"] == "en" and dk["version"] == "0.4.20", "repo-file name/lang/version")
 check(dk["source_crc32"] == "33333333" and dk["source_rom"]["notes_crc32_mismatch"] == "AF9D8F42"
       and "md5" not in dk["source_rom"], "README about another ROM revision: BPS wins, mismatch flagged, its hashes ignored")
+ff = [e for e in idx["entries"] if e["sha256"] == E["FF4 [T-En v0.9]"]["sha256"]]
+check(len(ff) == 2 and not E["FF4 [T-En v0.9]"]["duplicate_of"] and E["FF4 [T-En v0.9]"]["latest"]
+      and next(e for e in ff if e["origin"]["release_tag"] == "Test")["duplicate_of"],
+      "identical file in a real release and a 'Testing' release: the real release is kept")
 h = E["Hanafuda_EN"]
 check(h["source_crc32"] == "0BADF00D" and h["source_rom"]["name"] == "Hanafuda (Japan).ws", "IPS: CRC32 + name from README next to the file")
 check(not any("someone_else" in e["file_name"] for e in idx["entries"] + idx["excluded"]), "vendor/ folders skipped")

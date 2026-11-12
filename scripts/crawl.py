@@ -831,12 +831,17 @@ def finalize(entries: list[dict], platforms: list) -> tuple[list[dict], list[dic
     for e in entries:
         e.pop("_game_from", None)
 
-    # Identical files in one source: keep the release asset / the shortest path, mark the others.
+    # Identical files in one source: keep the release asset of a real release (not a "Testing" / "Latest"
+    # release with a generic name), then the shortest path; mark the others.
+    def generic_release(e):
+        o = e["origin"]
+        return o["kind"] == "release_asset" and bool(GENERIC_TITLE.match(o.get("release_name") or o.get("release_tag") or ""))
+
     by_sha: dict = {}
     for e in kept:
         by_sha.setdefault((e["origin"]["source"], e["sha256"]), []).append(e)
     for group in by_sha.values():
-        group.sort(key=lambda e: (e["origin"]["kind"] != "release_asset", len(e["path"]), e["path"]))
+        group.sort(key=lambda e: (e["origin"]["kind"] != "release_asset", generic_release(e), len(e["path"]), e["path"]))
         for e in group:
             e["duplicate_of"] = None
         for e in group[1:]:
