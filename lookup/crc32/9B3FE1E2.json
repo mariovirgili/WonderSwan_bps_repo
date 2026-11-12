@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "9B3FE1E2"
+ },
+ "crc32": "9B3FE1E2",
+ "size": 8388608,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "d5e977d20ec91048",
+   "game": "SD Gundam G Generation - Mono-Eye Gundams",
+   "variant": "SD.Gundam.G.Generation.-.Mono-Eye.Gundams.EN.v0.9.2",
+   "version": "0.9.2",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "A3ECC9AC",
+   "target_crc32": "9B3FE1E2",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MonoEyeGundams_0.9.1/SD.Gundam.G.Generation.-.Mono-Eye.Gundams.EN.v0.9.2.bps",
+   "sha256": "d5e977d20ec9104871a9efbd3b286aea1f80d5ed5cd9ad9ce8bd7aaae643505d",
+   "size": 583965,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MonoEyeGundams_0.9.1",
+   "notes": "**SD Gundam G Generation: Mono-Eye Gundams** is a 2002 WonderSwan Color strategy game by Bandai. It was released only in Japan.\n\nSig Wedner, a young Zeon pilot of the Vrahd Squadron, fights from the end of the One Year War to the Gryps War, in the game's own story of Serein Experi and Ein Lewi, while the battles mix units and pilots from the whole Gundam series (0079, 0080, 0083, Zeta, ZZ, Char's Counterattack, G, W, X, Turn A, Crossbone and more).\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *SD Gundam G Generation - Mono-Eye Gundams (Japan) (Rev 2).wsc* (8 MB, CRC32 A3ECC9AC) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB, CRC32 9B3FE1E2; keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"SD Gundam G Generation - Mono-Eye Gundams (EN v0.9.2).bps\" \"SD Gundam G Generation - Mono-Eye Gundams (Japan) (Rev 2).wsc\" \"SD Gundam G Generation - Mono-Eye Gundams (EN v0.9.2).wsc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**Gigan hack edition**\n\nThe same translation with the …"
+  }
+ ]
+}

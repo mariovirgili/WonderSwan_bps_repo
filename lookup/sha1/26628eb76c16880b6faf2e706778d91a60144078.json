@@ -8,29 +8,48 @@
  "md5": "e36650ac50df69d1832a0d496c165db2",
  "sha1": "26628eb76c16880b6faf2e706778d91a60144078",
  "names": [
-  "Final Fantasy (Japan)",
   "Final Fantasy (Japan).wsc"
  ],
  "patches": [
   {
-   "id": "d93cc3dfb71405ae",
+   "id": "babaa4b45f3bcb7b",
    "game": "Final Fantasy",
-   "variant": "Final Fantasy [T-En v0.9]",
-   "version": "0.9",
+   "variant": "Final.Fantasy.T-En.v0.9.2",
+   "version": "0.9.2",
    "language": "en",
    "platform": "wonderswan_color",
    "latest": true,
    "superseded": false,
    "format": "bps",
    "source_crc32": "B7243E88",
-   "target_crc32": "2A10A14C",
+   "target_crc32": "57205A6D",
    "target_size": 4194304,
-   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFI_v0.9/Final%20Fantasy%20%5BT-En%20v0.9%5D.bps",
-   "sha256": "d93cc3dfb71405ae40a9376a00789314ca39080c0a5c9f1c49aef0a2ccfc7acf",
-   "size": 113322,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFI_v0.9/Final.Fantasy.T-En.v0.9.2.bps",
+   "sha256": "babaa4b45f3bcb7b7c6f2d169ae942f01cb114c2b106e1edd4697d6eb7cb5b18",
+   "size": 117798,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
    "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFI_v0.9",
-   "notes": "**Why a new translation?**\nThe WonderSwan Color Final Fantasy was never released outside Japan. The only English patch for it so far is Kalas’s v0.91 from 2002, which was never finished. The game has had several official English releases since, but all of them are other remakes (PS1 Origins, GBA Dawn of Souls, PSP, Pixel Remaster), and each one adapted the script and renamed things in its own way. The NES version itself has a different set of names again. Copying any of those scripts would have meant choosing one of these adaptations and stitching it onto text it was never written for.\n\nSo this translation starts again from the Japanese text of the WonderSwan Color ROM, and the whole game is translated: dialogue, menus, battle text, the opening narration and the graphics. Names follow the official Japanese names of this version, written in English, with no Western renames. Some will look unfamiliar if you grew up with the NES version (Lukahn, Onlak, the Lufeinians...).\nThis is intentional: they are what the Japanese text says, chosen by comparing several glossaries and a human vote.\n\n_______________________________________\n\n**Final Fantasy** for the WonderSwan Color is Square's 2000 remake of the very first Final Fantasy, released only in Japan. The world is shrouded in darkness, and four Warriors of Light arrive in the kingdom of Cornelia, each holding a darkened Crystal.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with …"
+   "notes": "**Final Fantasy** for the WonderSwan Color is Square's 2000 remake of the very first Final Fantasy, released only in Japan. The world is shrouded in darkness, and four Warriors of Light arrive in the kingdom of Cornelia, each holding a darkened Crystal.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Why a new translation?**\n\nThe WonderSwan Color Final Fantasy was never released outside Japan. The only English patch for it so far is Kalas's v0.91 from 2002, which was never finished. The game has had several official English releases since, but all of them are other remakes (PS1 Origins, GBA Dawn of Souls, PSP, Pixel Remaster), and each one adapted the script and renamed things in its own way. The NES version has a different set of names again.\n\nSo this translation starts again from the Japanese text of the WonderSwan Color ROM, and the whole game is translated: dialogue, menus, battle text, the opening narration and the graphics.\n\n> **About the names:** names follow the **official Japanese names of this version**, written in English, with no Western renames: Lukahn, Sarah, Matoya, Garland, Onlak, Gaia, Melmond, Port Pravoka, Crescent Lake, the Lufeinians, Lich, Marilith, Kraken, …"
+  },
+  {
+   "id": "c45be3946ad8786d",
+   "game": "Final Fantasy",
+   "variant": "Final.Fantasy.T-En.v0.9.2.Big.Caps",
+   "version": "0.9.2",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "B7243E88",
+   "target_crc32": "18DAFCE0",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFI_v0.9/Final.Fantasy.T-En.v0.9.2.Big.Caps.bps",
+   "sha256": "c45be3946ad8786de56c38709093915976256d57104b45ba02e426bb6bf3628f",
+   "size": 119847,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFI_v0.9",
+   "notes": "**Final Fantasy** for the WonderSwan Color is Square's 2000 remake of the very first Final Fantasy, released only in Japan. The world is shrouded in darkness, and four Warriors of Light arrive in the kingdom of Cornelia, each holding a darkened Crystal.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Why a new translation?**\n\nThe WonderSwan Color Final Fantasy was never released outside Japan. The only English patch for it so far is Kalas's v0.91 from 2002, which was never finished. The game has had several official English releases since, but all of them are other remakes (PS1 Origins, GBA Dawn of Souls, PSP, Pixel Remaster), and each one adapted the script and renamed things in its own way. The NES version has a different set of names again.\n\nSo this translation starts again from the Japanese text of the WonderSwan Color ROM, and the whole game is translated: dialogue, menus, battle text, the opening narration and the graphics.\n\n> **About the names:** names follow the **official Japanese names of this version**, written in English, with no Western renames: Lukahn, Sarah, Matoya, Garland, Onlak, Gaia, Melmond, Port Pravoka, Crescent Lake, the Lufeinians, Lich, Marilith, Kraken, …"
   }
  ],
  "produced_by": []

@@ -5,11 +5,11 @@ Every released WonderSwan and WonderSwan Color title, and the translation patche
 | System | Titles | With a translation patch |
 | --- | ---: | ---: |
 | WonderSwan | 219 | 35 (+4 ⚠️ another dump) |
-| WonderSwan Color | 229 | 42 |
+| WonderSwan Color | 229 | 43 |
 
-Last change to the patch catalog: 2026-11-11.
+Last change to the patch catalog: 2026-11-12.
 
-## Titles with translation patches (81)
+## Titles with translation patches (82)
 
 | | Title | System | Patches (newest version of each author) |
 | :---: | --- | --- | --- |
@@ -35,7 +35,7 @@ Last change to the patch catalog: 2026-11-11.
 | ✅ | Dokodemo Hamster (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dokodemo-hamster-v1.0) |
 | ✅ | Dragon Ball (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DragonBall_0.9) |
 | ✅ | Engacho! for WonderSwan (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/engacho-v1.0) |
-| ✅ | Final Fantasy (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFI_v0.9) |
+| ✅ | Final Fantasy (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFI_v0.9) |
 | ✅ | Final Fantasy II (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFII_0.9.2) |
 | ✅ | Final Fantasy IV (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV) |
 | ✅ | Final Lap 2000 (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/final-lap-2000-v1.0) |
@@ -80,12 +80,13 @@ Last change to the patch catalog: 2026-11-11.
 | ✅ | Riviera - Yakusoku no Chi Riviera (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test) |
 | ✅ | Rockman EXE - N1 Battle (Japan) (Rev 1) | WonderSwan Color | **English**: [Gand46](https://github.com/Gand46/Rockman-EXE-N1-Battle-ChipControl-Wonderswan-English-Translation-AI_GPT/blob/main/patches/qa09/Rockman_N1_English_QA09_MANT05.bps) |
 | ✅ | Romancing Sa-Ga (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Petit1_v0.9) |
+| ✅ | Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9) |
 | ✅ | SD Gundam - Operation U.C. (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9.1) |
 | ✅ | SD Gundam Eiyuu Den - Kishi Densetsu (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/KishiDensetsu_0.9) |
 | ✅ | SD Gundam Eiyuu Den - Musha Densetsu (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MushaDensetsu_0.9) |
 | ✅ | SD Gundam G Generation - Gather Beat (Japan) | WonderSwan | **English**: [PokemonGoDB v1.2](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-v1.2) |
 | ✅ | SD Gundam G Generation - Gather Beat 2 (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.3](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-2-v1.3) |
-| ✅ | SD Gundam G Generation - Mono-Eye Gundams (Japan) (Rev 2) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MonoEyeGundams_0.9.1) |
+| ✅ | SD Gundam G Generation - Mono-Eye Gundams (Japan) (Rev 2) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MonoEyeGundams_0.9.1) |
 | ✅ | Sennou Millennium (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/sennou-millennium-v1.0) |
 | ✅ | Side Pocket for WonderSwan (Japan) | WonderSwan | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SidePocket_0.9.1) |
 | ✅ | Star Hearts - Hoshi to Daichi no Shisha (Japan) | WonderSwan Color | **English**: [Gand46](https://github.com/Gand46/StarHearts-Wonderswan-English-Translation-AI_GPT/blob/main/patches/F37/StarHearts_EN_phase13BG_F37_CUMULATIVE_FROM_JP.bps) · [PokemonGoDB v1.2](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/star-hearts-v1.2) |
@@ -378,7 +379,7 @@ Last change to the patch catalog: 2026-11-11.
 |  | Es=Loss Zero Side (World) (Ja) (WonderWitch) | `2B2835B3` | — |
 |  | Evil Dragon (World) (WonderWitch) | `AE2864D9` | — |
 |  | Features (World) (WonderWitch) | `3C995A4B` | — |
-| ✅ | **Final Fantasy (Japan)** | `B7243E88` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFI_v0.9) |
+| ✅ | **Final Fantasy (Japan)** | `B7243E88` | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFI_v0.9) |
 | ✅ | **Final Fantasy II (Japan)** | `F09E752F` | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFII_0.9.2) |
 | ✅ | **Final Fantasy IV (Japan)** | `F699D6D1` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV) |
 | ✅ | **Final Lap Special - GT & Formula Machine (Japan)** | `B07E6A56` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FinalLapSpecial_0.9.1) |
@@ -498,7 +499,7 @@ Last change to the patch catalog: 2026-11-11.
 |  | Rockman EXE WS (Japan) | `658C4B98` | — |
 | ✅ | **Romancing Sa-Ga (Japan)** | `9C98D97D` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Petit1_v0.9) |
 |  | RUN=DIM - Return to Earth (Japan) | `15C4552E` | — |
-|  | Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan) | `6E8A792D` | — |
+| ✅ | **Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan)** | `6E8A792D` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9) |
 |  | Samegame for WSC (World) (WonderWitch) | `50DB2635` | — |
 |  | Samoner (World) (Ja) (WonderWitch) | `C59BF216` | — |
 |  | Satori - WonderSwan Remix (World) (WonderWitch) | `4C85FCAA` | — |
@@ -507,7 +508,7 @@ Last change to the patch catalog: 2026-11-11.
 | ✅ | **SD Gundam Eiyuu Den - Musha Densetsu (Japan)** | `18ECFFB8` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MushaDensetsu_0.9) |
 | ✅ | **SD Gundam G Generation - Gather Beat 2 (Japan)** | `4D21A347` | **English**: [PokemonGoDB v1.3](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-2-v1.3) |
 |  | SD Gundam G Generation - Mono-Eye Gundams (Japan) | `6ACA1F04` | — |
-| ✅ | **SD Gundam G Generation - Mono-Eye Gundams (Japan) (Rev 2)** | `A3ECC9AC` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MonoEyeGundams_0.9.1) |
+| ✅ | **SD Gundam G Generation - Mono-Eye Gundams (Japan) (Rev 2)** | `A3ECC9AC` | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MonoEyeGundams_0.9.1) |
 |  | Self Produce (World) (Proto) (WonderWitch) | `F1F0A499` | — |
 |  | Senkaiden Ni - TV Animation Senkaiden Houshin Engi Yori (Japan) | `9F35D00F` | — |
 |  | Shaman King - Asu e no Ishi (Japan) | `6C029674` | — |
