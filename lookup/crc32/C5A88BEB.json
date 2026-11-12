@@ -11,7 +11,8 @@
   {
    "id": "fd55b623cb24b9b8",
    "game": "Neon Genesis Evangelion: Shito Ikusei",
-   "variant": "NGE",
+   "variant": "Neon.Genesis.Evangelion.-.Shito.Ikusei.Japan.T-En.v0.9.1",
+   "version": "0.9.1",
    "language": "en",
    "platform": "wonderswan",
    "latest": true,
@@ -20,12 +21,12 @@
    "source_crc32": "BF8D9212",
    "target_crc32": "C5A88BEB",
    "target_size": 2097152,
-   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Test/NGE.bps",
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Evangelion_ShitoIkusei_0.9.1/Neon.Genesis.Evangelion.-.Shito.Ikusei.Japan.T-En.v0.9.1.bps",
    "sha256": "fd55b623cb24b9b8902184ba4f48aa204b5e865777cf331d34d118569cc25b8c",
    "size": 149916,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
-   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test",
-   "notes": "Test site, nothing to see here...."
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Evangelion_ShitoIkusei_0.9.1",
+   "notes": "**Neon Genesis Evangelion: Shito Ikusei** (\"Angel Raising\") is Bandai's 1999 WonderSwan game, released only in Japan. It's a virtual pet with an Evangelion twist: as Ryoji Kaji, you secretly raise an Angel that starts as an embryo of Adam. You feed it energy, change its LCL, train its AT Field and give it items, and the stats you build decide what it grows into. In between, you walk around Tokyo-3 and the GeoFront, talk with the NERV staff and the kids, collect items, and finally send your Angel against the Evangelions of Shinji, Rei and Asuka. A card game and a free battle mode are unlocked along the way.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI** (Claude), as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n- The whole script: 1,305 messages (story, operators, events, the raising tutorial, random talk, the card game).\n- Menus and data: item names and descriptions, places of the Guide menu, Angel names, growth stages (Adam, Larva, Intermediate, Cocoon, Adult), the data-list messages.\n- The MAGI Archive (the encyclopedia): all 23 entries.\n- Graphics: boot screens (copyright, \"Produced by\", \"Supervised by\", \"Original Angel Design\"), title subtitle and title menu, the command labels of the main …"
   }
  ]
 }

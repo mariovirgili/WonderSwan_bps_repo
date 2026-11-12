@@ -75,12 +75,12 @@ Last change to the patch catalog: 2026-11-12.
 | ✅ | Meitantei Conan - Yuugure no Oujo (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.6](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9.2) |
 | ✅ | MobileWonderGate (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/mobile-wondergate-v1.0) |
 | ✅ | Namco Super Wars (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/NamcoSuperWars_0.9.1) |
-| ✅ | Neon Genesis Evangelion - Shito Ikusei (Japan) | WonderSwan | **English**: [mariovirgili](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test) |
+| ✅ | Neon Genesis Evangelion - Shito Ikusei (Japan) | WonderSwan | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Evangelion_ShitoIkusei_0.9.1) |
 | ✅ | Pocket Fighter (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/pocket-fighter-v1.0) |
 | ✅ | Puzzle Bobble (Japan) | WonderSwan | **English**: [mariovirgili v0.9.5.16](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuzzleBobble_0.9.5) |
 | ✅ | Ring Infinity (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/RingInfinity) · [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/ring-infinity-v1.1) |
 | ✅ | Riviera - Yakusoku no Chi Riviera (Japan) | WonderSwan Color | **English**: [Gand46 v0110](https://github.com/Gand46/Riviera-Wonderswan-English-Translation-AI_GPT/blob/main/sources/Riviera_S457_FULL_SOURCE/patches/Riviera_CLEAN_JP_to_v0110_S457_cumulative.bps) |
-| ✅ | Riviera - Yakusoku no Chi Riviera (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test) |
+| ✅ | Riviera - Yakusoku no Chi Riviera (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9) |
 | ✅ | Rockman EXE - N1 Battle (Japan) (Rev 1) | WonderSwan Color | **English**: [Gand46](https://github.com/Gand46/Rockman-EXE-N1-Battle-ChipControl-Wonderswan-English-Translation-AI_GPT/blob/main/patches/qa09/Rockman_N1_English_QA09_MANT05.bps) |
 | ✅ | Romancing Sa-Ga (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Petit1_v0.9) |
 | ✅ | Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9) |
@@ -220,7 +220,7 @@ Last change to the patch catalog: 2026-11-12.
 |  | Morita Shougi for WonderSwan (Japan) | `D675C265` | — |
 |  | Mr. Oha no Ko Bouken - Sai Shuushou Saraba Aishi no Shooting (World) (Ja) (WonderWitch) | `EF104E2F` | — |
 |  | Nazo Ou Pocket (Japan) | `4ED8820C` | — |
-| ✅ | **Neon Genesis Evangelion - Shito Ikusei (Japan)** | `BF8D9212` | **English**: [mariovirgili](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test) |
+| ✅ | **Neon Genesis Evangelion - Shito Ikusei (Japan)** | `BF8D9212` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Evangelion_ShitoIkusei_0.9.1) |
 |  | Nice On (Japan) (Rev 1) | `B5DBCF12` | — |
 |  | Nigero! (World) (WonderWitch) | `CBD54885` | — |
 |  | Nihon Pro Mahjong Renmei Kounin - Tetsuman (Japan) (Rev 2) | `44B3E67C` | — |
@@ -497,7 +497,7 @@ Last change to the patch catalog: 2026-11-12.
 |  | Rhyme Rider Kerorican (Japan) | `60706555` | — |
 |  | Rhythmin (World) (Ja) (WonderWitch) | `78A07676` | — |
 | ✅ | **Riviera - Yakusoku no Chi Riviera (Japan)** | `2460B45A` | **English**: [Gand46 v0110](https://github.com/Gand46/Riviera-Wonderswan-English-Translation-AI_GPT/blob/main/sources/Riviera_S457_FULL_SOURCE/patches/Riviera_CLEAN_JP_to_v0110_S457_cumulative.bps) |
-| ✅ | **Riviera - Yakusoku no Chi Riviera (Japan) (Rev 1)** | `62CB398B` | **English**: [mariovirgili v0.9.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test) |
+| ✅ | **Riviera - Yakusoku no Chi Riviera (Japan) (Rev 1)** | `62CB398B` | **English**: [mariovirgili v0.9.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9) |
 | ✅ | **Rockman EXE - N1 Battle (Japan) (Rev 1)** | `1F10CA75` | **English**: [Gand46](https://github.com/Gand46/Rockman-EXE-N1-Battle-ChipControl-Wonderswan-English-Translation-AI_GPT/blob/main/patches/qa09/Rockman_N1_English_QA09_MANT05.bps) |
 |  | Rockman EXE WS (Japan) | `658C4B98` | — |
 | ✅ | **Romancing Sa-Ga (Japan)** | `9C98D97D` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Petit1_v0.9) |
