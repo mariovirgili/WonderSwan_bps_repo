@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "88CFF1A6"
+ },
+ "crc32": "88CFF1A6",
+ "size": 4194304,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "cfc7872d7fdd6da5",
+   "game": "Digital Partner",
+   "variant": "digital-partner-en-1.8",
+   "version": "1.8",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "B5E675AE",
+   "target_crc32": "88CFF1A6",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/digital-partner-v1.8/digital-partner-en-1.8.bps",
+   "sha256": "cfc7872d7fdd6da5a11687af1e5e856880a7d7eec2ca6ee4ca84a8240a5d020a",
+   "size": 664045,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/digital-partner-v1.8",
+   "notes": "**Digimon Adventure 02: Digital Partner** (デジタルパートナー) is a Bandai game from 2000, released only in Japan for the original (monochrome) WonderSwan. It's a virtual-pet game with RPG parts, based on the Digimon Adventure 02 anime. Gennai greets you on File Island and gives you a limited time, measured by an eclipse clock that starts at 478 minutes, to teach words to the partner Digimon. You talk to them, bring one to your room and teach it words, and battle with those words: in the Japanese game a battle follows the rules of shiritori (each word starts with the last kana of the previous one). When the clock reaches zero, one of the partners sees you off, and the game has 34 different endings.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The story:** all 4,820 story strings: Gennai's introduction, the File Island tour, the partners' and visitors' talk, the word-teaching conversations, the farewells and the endings. Digimon, places and attacks use the names of the English dub.\n* **Menus and screens:** the room and field menus, status screen, …"
+  }
+ ]
+}

@@ -4,12 +4,12 @@ Every released WonderSwan and WonderSwan Color title, and the translation patche
 
 | System | Titles | With a translation patch |
 | --- | ---: | ---: |
-| WonderSwan | 219 | 35 (+4 ⚠️ another dump) |
-| WonderSwan Color | 229 | 43 |
+| WonderSwan | 219 | 36 (+5 ⚠️ another dump) |
+| WonderSwan Color | 229 | 43 (+1 ⚠️ another dump) |
 
 Last change to the patch catalog: 2026-11-12.
 
-## Titles with translation patches (82)
+## Titles with translation patches (85)
 
 | | Title | System | Patches (newest version of each author) |
 | :---: | --- | --- | --- |
@@ -17,6 +17,7 @@ Last change to the patch catalog: 2026-11-12.
 | ✅ | Anchorz Field (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/anchorz-field-v1.0) |
 | ✅ | Another Heaven - Memory of those Days (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/another-heaven-v1.1) |
 | ✅ | Arc the Lad - Kishin Fukkatsu (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ArcTheLad_0.9) |
+| ⚠️ | Armored Unit (Japan) | WonderSwan | ⚠️ for another dump of this title (ROM CRC32 `C11639AF`): **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/armored-unit-v1.0) |
 | ✅ | Bakusou Dekotora Densetsu for WonderSwan (Japan) | WonderSwan | **English**: [PokemonGoDB v1.2](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dekotora-v1.2) |
 | ✅ | beatmania for WonderSwan (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/beatmania-v1.0) |
 | ✅ | Blue Wing Blitz (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BlueWing_0.9.1) · [Gand46 v5.0.0](https://github.com/Gand46/BlueWingBlitz-Wonderswan-English-Translation-AI_GPT/blob/main/patch/Blue_Wing_Blitz_EN_Phase50_v5.0.0-test.1.bps) |
@@ -28,10 +29,12 @@ Last change to the patch catalog: 2026-11-12.
 | ✅ | D's Garage 21 Koubo Game - Tane o Maku Tori (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tane-o-maku-tori-v1.0) |
 | ✅ | Densha de Go! (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/densha-de-go-v1.0) |
 | ✅ | Densha de Go! 2 (Japan) | WonderSwan | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DenshaDeGo2_0.9.1) · [Gand46 v0.4.20](https://github.com/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/blob/main/patches/Densha_de_Go_2_EN_v0.4.20_OPTIONS_FONT_CUMULATIVE.bps) |
+| ⚠️ | Dicing Knight. (Japan) | WonderSwan Color | ⚠️ for another dump of this title (ROM CRC32 `D28DC930`): **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dicing-knight-v1.1) |
 | ✅ | Digimon Tamers - Brave Tamer (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Digimon-tamers_v0.9) |
 | ✅ | Digimon Tamers - Digimon Medley (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DigimonMedley_0.9.2) |
 | ✅ | Digital Monster - D-Project (Japan) (Rev 2) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/D-Project_v0.9) |
 | ✅ | Digital Monster Card Game - Ver. WonderSwan Color (Japan) (Rev 2) | WonderSwan Color | **English**: [mariovirgili v0.9.3](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9) |
+| ✅ | Digital Partner (Japan) | WonderSwan | **English**: [PokemonGoDB v1.8](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/digital-partner-v1.8) |
 | ✅ | Dokodemo Hamster (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dokodemo-hamster-v1.0) |
 | ✅ | Dragon Ball (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DragonBall_0.9) |
 | ✅ | Engacho! for WonderSwan (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/engacho-v1.0) |
@@ -107,7 +110,7 @@ Last change to the patch catalog: 2026-11-12.
 |  | 7 Days Left (World) (Ja) (v1.00) (WonderWitch) (WWGP2002) | `ABD2BD16` | — |
 |  | 7 Days Left (World) (Ja) (v1.01) (WonderWitch) | `553B1D62` | — |
 | ✅ | **Anchorz Field (Japan)** | `425EB893` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/anchorz-field-v1.0) |
-|  | Armored Unit (Japan) | `04366D92` | — |
+| ⚠️ | **Armored Unit (Japan)** | `04366D92` | ⚠️ for another dump of this title (ROM CRC32 `C11639AF`): **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/armored-unit-v1.0) |
 |  | Atakshii (World) (Ja) (WonderWitch) | `23392AB9` | — |
 |  | Atodashi (World) (WonderWitch) | `1630D75E` | — |
 |  | B.A.F. (World) (Proto) (WonderWitch) | `EEFB1773` | — |
@@ -149,7 +152,7 @@ Last change to the patch catalog: 2026-11-12.
 |  | Digimon Adventure 02 - Tag Tamers (Japan) (Rev 1) | `6EDEDAF8` | — |
 |  | Digimon Adventure Campaign (Japan) (Limited Version) | `7E03E8DA` | — |
 |  | Digital Monster - Ver. WonderSwan (Japan) (Rev 1) | `AB59DE2E` | — |
-|  | Digital Partner (Japan) | `B5E675AE` | — |
+| ✅ | **Digital Partner (Japan)** | `B5E675AE` | **English**: [PokemonGoDB v1.8](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/digital-partner-v1.8) |
 |  | Disc Upper (World) (WonderWitch) | `3FFF34BA` | — |
 | ✅ | **Dokodemo Hamster (Japan)** | `89E7D950` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dokodemo-hamster-v1.0) |
 |  | Dolls (World) (Ja) (WonderWitch) | `C3E6DEFE` | — |
@@ -358,7 +361,7 @@ Last change to the patch catalog: 2026-11-12.
 |  | Darkhero Figment - Doris Edition (World) (Ja) (WonderWitch) | `B518B51C` | — |
 |  | Darkhero Figment 2 (World) (Ja) (WonderWitch) | `3951D2D0` | — |
 |  | Dicing Knight (Japan) (En) | `D451AD81` | — |
-|  | Dicing Knight. (Japan) | `1887389C` | — |
+| ⚠️ | **Dicing Knight. (Japan)** | `1887389C` | ⚠️ for another dump of this title (ROM CRC32 `D28DC930`): **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dicing-knight-v1.1) |
 |  | Digimon - Anode Tamer & Cathode Tamer - Veedramon Version (Hong Kong) (En) | `77689273` | — |
 |  | Digimon - Anode Tamer & Cathode Tamer - Veedramon Version (Korea) (En) | `7B2A02E3` | — |
 |  | Digimon Adventure 02 - D1 Tamers (Japan) | `4D28637E` | — |

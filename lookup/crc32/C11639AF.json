@@ -1,0 +1,34 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "C11639AF"
+ },
+ "crc32": "C11639AF",
+ "size": 524288,
+ "names": [
+  "Armored Unit (Japan)"
+ ],
+ "patches": [
+  {
+   "id": "5555b10da3f68c9d",
+   "game": "Armored Unit",
+   "variant": "armored-unit-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "C11639AF",
+   "target_crc32": "B2D98B01",
+   "target_size": 524288,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/armored-unit-v1.0/armored-unit-en-1.0.bps",
+   "sha256": "5555b10da3f68c9d6dde9d2a9d5265e81625f915581a937352a8aa80063ae3f1",
+   "size": 36645,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/armored-unit-v1.0",
+   "notes": "**Armored Unit** (アーマードユニット) is a turn-based space-combat game from Sammy, released in Japan in 1999 for the original (monochrome) WonderSwan. You pilot an AU (Armored Unit, a mech) on a grid, search for hidden enemy AUs and fire your weapons. Story mode has 16 stages: an allied fleet fights a rebel army that is building an ultimate weapon, with briefings between stages. There are also Trial mode, a two-player Duel mode over the link cable, and a Tune Up screen for equipment. The menus and HUD were already in English in the original; the story and status messages were not.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Story:** all 40 briefings and result comments, each speaker with a voice of their own: the calm fleet commander, a rough and cheerful fellow pilot, a polite but frank mechanic, a crisp bridge operator and the arrogant rebel leader. Briefings are typed faster than before so that a page takes about as long to read as the Japanese one did.\n* **Battle status line:** all 48 messages (for example \"Pick a command\", \"Took 1 damage!\", …"
+  }
+ ],
+ "produced_by": []
+}

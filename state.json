@@ -539,6 +539,35 @@
     "c36711dfe55927678fe93aa1b37db4b9d1796154944135dc715a814e560503bb"
    ]
   },
+  "asset:PokemonGoDB/wonderswan-english-patches:739863150:2026-11-12T14:49:30Z:4684": {
+   "entries": [
+    "44bd7e82a10195b9eb13f73ee5ceaaf76df0e97a9407d10d77f217c827757e52"
+   ]
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:739863153:2026-11-12T14:49:30Z:62487": {
+   "entries": []
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:740626398:2026-11-12T18:35:00Z:83404": {
+   "entries": []
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:740626402:2026-11-12T18:35:00Z:36645": {
+   "entries": [
+    "5555b10da3f68c9d6dde9d2a9d5265e81625f915581a937352a8aa80063ae3f1"
+   ]
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:740632543:2026-11-12T18:37:08Z:668885": {
+   "entries": [
+    "9e3c259a4b404e5a4011d6a79901dd3f4d210b7a5e2282802517577248c2838e"
+   ]
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:740632548:2026-11-12T18:37:09Z:664045": {
+   "entries": [
+    "cfc7872d7fdd6da5a11687af1e5e856880a7d7eec2ca6ee4ca84a8240a5d020a"
+   ]
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:740632551:2026-11-12T18:37:08Z:117476": {
+   "entries": []
+  },
   "asset:mariovirgili/WonderSwanColor-AI_Translation:598779217:2026-09-29T17:21:38Z:176856": {
    "entries": [
     "7052719ae50c224335854e0bbefb3d52c4e9e30686ad86e8126504014a44281f"
@@ -1093,6 +1122,11 @@
   },
   "asset:mariovirgili/WonderSwanColor-AI_Translation:737312500:2026-11-11T23:41:33Z:46728": {
    "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:740706647:2026-11-12T19:00:27Z:3239786": {
+   "entries": [
+    "d2c2a65a9d02b06dee91d3a89a98cb4d6a7370eae2b57e4c046593423a463db7"
+   ]
   },
   "blob:Gand46/BlueWingBlitz-Wonderswan-English-Translation-AI_GPT:1ba4d77bf8f71be12be042beec307d9d1103b015:patch/Blue_Wing_Blitz_EN_Phase50_v5.0.0-test.1.bps": {
    "entries": [

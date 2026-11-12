@@ -1,0 +1,34 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "D28DC930"
+ },
+ "crc32": "D28DC930",
+ "size": 524288,
+ "names": [
+  "Dicing Knight. (Japan)"
+ ],
+ "patches": [
+  {
+   "id": "44bd7e82a10195b9",
+   "game": "Dicing Knight.",
+   "variant": "dicing-knight-en-1.1",
+   "version": "1.1",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "D28DC930",
+   "target_crc32": "3CFAF6B3",
+   "target_size": 524288,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/dicing-knight-v1.1/dicing-knight-en-1.1.bps",
+   "sha256": "44bd7e82a10195b9eb13f73ee5ceaaf76df0e97a9407d10d77f217c827757e52",
+   "size": 4684,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dicing-knight-v1.1",
+   "notes": "**Dicing Knight.** (賽目騎士遊戯) is an action roguelike by Platine Dispositif. It began as a winner of the WonderWitch programming contest and was released on cartridge in Japan in 2002 for the WonderSwan Color. You guide a hungry knight through randomly built dungeon floors, rolling dice to attack and watching your food.\n\nNearly all of the game is already in English: the menus, the item names and the messages. What is Japanese is four captions drawn as pictures. This patch puts those into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The intro caption:** \"This is the story of a hungry knight and an endless dream.\"\n* **The party-join message** when Princess R'lyeh gets up and looks at you. The original parodies a famous RPG recruitment line, and the English follows that formula: \"She looks at you as if she wants to join you!\"\n* **The bonus-dungeon ending caption** (\"Good work! (lol)\").\n* **The lockout screen** a black-and-white WonderSwan shows: \"This is only for WonderSwan Color or SwanCrystal!\"\n* **One fix to the game's own English:** DEFFENCE UP is now DEFENSE UP.\n* **File …"
+  }
+ ],
+ "produced_by": []
+}
