@@ -569,34 +569,6 @@
    ],
    "produced_by": []
   },
-  "0D1AB044": {
-   "crc32": "0D1AB044",
-   "size": 2097152,
-   "names": [],
-   "patches": [],
-   "produced_by": [
-    {
-     "id": "a60c09602b46a420",
-     "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
-     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9",
-     "version": "0.9",
-     "language": "en",
-     "platform": "wonderswan_color",
-     "latest": true,
-     "superseded": false,
-     "format": "bps",
-     "source_crc32": "6E8A792D",
-     "target_crc32": "0D1AB044",
-     "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_0.9/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.bps",
-     "sha256": "a60c09602b46a420b7ed03449f65dbf1c72fef253126c8aa2ed60af8570160e1",
-     "size": 75578,
-     "source": "mariovirgili/WonderSwanColor-AI_Translation",
-     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9",
-     "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai. It remakes the 1987 Famicom game *Saint Seiya: Ougon Densetsu* and was released only in Japan. Seiya comes back from Greece with the Pegasus Cloth. He fights in the Galaxian Wars and against the Black Saints and the Silver Saints, then climbs the Twelve Temples of the Sanctuary to save Athena. The game mixes side-scrolling exploration with command battles powered by your Cosmo.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Another translation already exists**\n\nAn earlier English translation of this game, made with Codex by Retroviews (v1.0, October 2026), is available on RetroGameTalk: https://retrogametalk.com/threads/saint-seiya-ougon-densetsuhen-perfect-edition-ai-assisted-translation.71478/\n\nThis translation was made by mistake: that one was not listed in the Translations section or on The Repo, so it was not found before the work started.\n\n**Differences between the two versions**\n\nThe two were compared line by line, and in an emulator with the same inputs.\n\n* *Script:* about 2,040 lines are translated in both, and 623 of them match apart from punctuation. The others say the same things in different words, with the same …"
-    }
-   ]
-  },
   "0E40829C": {
    "crc32": "0E40829C",
    "size": 4194304,
@@ -1112,6 +1084,34 @@
     }
    ],
    "produced_by": []
+  },
+  "155FF8F4": {
+   "crc32": "155FF8F4",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "d477dd15e35e6029",
+     "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
+     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.1",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "6E8A792D",
+     "target_crc32": "155FF8F4",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_0.9/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.1.bps",
+     "sha256": "d477dd15e35e6029d3c81c566f673bc47476a5a7289927207b35231a7ccfe8c0",
+     "size": 75578,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9",
+     "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai. It remakes the 1987 Famicom game *Saint Seiya: Ougon Densetsu* and was released only in Japan. Seiya comes back from Greece with the Pegasus Cloth. He fights in the Galaxian Wars and against the Black Saints and the Silver Saints, then climbs the Twelve Temples of the Sanctuary to save Athena. The game mixes side-scrolling exploration with command battles powered by your Cosmo.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Another translation already exists**\n\nAn earlier English translation of this game, made with Codex by Retroviews (v1.0, October 2026), is available on RetroGameTalk: https://retrogametalk.com/threads/saint-seiya-ougon-densetsuhen-perfect-edition-ai-assisted-translation.71478/\n\nThis translation was made by mistake: that one was not listed in the Translations section or on The Repo, so it was not found before the work started.\n\n**Differences between the two versions**\n\nThe two were compared line by line, and in an emulator with the same inputs.\n\n* *Script:* about 2,040 lines are translated in both, and 623 of them match apart from punctuation. The others say the same things in different words, with the same …"
+    }
+   ]
   },
   "15EC0324": {
    "crc32": "15EC0324",
@@ -5501,6 +5501,34 @@
     }
    ]
   },
+  "67211528": {
+   "crc32": "67211528",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "9ff5c5ed665611f4",
+     "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
+     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.1.ALL.CAPS",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "6E8A792D",
+     "target_crc32": "67211528",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_0.9/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.1.ALL.CAPS.bps",
+     "sha256": "9ff5c5ed665611f41ca0c9c6ce49c4519192382610313d31f4796b3c8c3e1f9c",
+     "size": 75566,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9",
+     "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai. It remakes the 1987 Famicom game *Saint Seiya: Ougon Densetsu* and was released only in Japan. Seiya comes back from Greece with the Pegasus Cloth. He fights in the Galaxian Wars and against the Black Saints and the Silver Saints, then climbs the Twelve Temples of the Sanctuary to save Athena. The game mixes side-scrolling exploration with command battles powered by your Cosmo.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Another translation already exists**\n\nAn earlier English translation of this game, made with Codex by Retroviews (v1.0, October 2026), is available on RetroGameTalk: https://retrogametalk.com/threads/saint-seiya-ougon-densetsuhen-perfect-edition-ai-assisted-translation.71478/\n\nThis translation was made by mistake: that one was not listed in the Translations section or on The Repo, so it was not found before the work started.\n\n**Differences between the two versions**\n\nThe two were compared line by line, and in an emulator with the same inputs.\n\n* *Script:* about 2,040 lines are translated in both, and 623 of them match apart from punctuation. The others say the same things in different words, with the same …"
+    }
+   ]
+  },
   "6A88E21E": {
    "crc32": "6A88E21E",
    "size": 2097152,
@@ -5626,40 +5654,40 @@
    ],
    "patches": [
     {
-     "id": "a60c09602b46a420",
+     "id": "d477dd15e35e6029",
      "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
-     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9",
-     "version": "0.9",
+     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.1",
+     "version": "0.9.1",
      "language": "en",
      "platform": "wonderswan_color",
      "latest": true,
      "superseded": false,
      "format": "bps",
      "source_crc32": "6E8A792D",
-     "target_crc32": "0D1AB044",
+     "target_crc32": "155FF8F4",
      "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_0.9/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.bps",
-     "sha256": "a60c09602b46a420b7ed03449f65dbf1c72fef253126c8aa2ed60af8570160e1",
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_0.9/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.1.bps",
+     "sha256": "d477dd15e35e6029d3c81c566f673bc47476a5a7289927207b35231a7ccfe8c0",
      "size": 75578,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9",
      "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai. It remakes the 1987 Famicom game *Saint Seiya: Ougon Densetsu* and was released only in Japan. Seiya comes back from Greece with the Pegasus Cloth. He fights in the Galaxian Wars and against the Black Saints and the Silver Saints, then climbs the Twelve Temples of the Sanctuary to save Athena. The game mixes side-scrolling exploration with command battles powered by your Cosmo.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Another translation already exists**\n\nAn earlier English translation of this game, made with Codex by Retroviews (v1.0, October 2026), is available on RetroGameTalk: https://retrogametalk.com/threads/saint-seiya-ougon-densetsuhen-perfect-edition-ai-assisted-translation.71478/\n\nThis translation was made by mistake: that one was not listed in the Translations section or on The Repo, so it was not found before the work started.\n\n**Differences between the two versions**\n\nThe two were compared line by line, and in an emulator with the same inputs.\n\n* *Script:* about 2,040 lines are translated in both, and 623 of them match apart from punctuation. The others say the same things in different words, with the same …"
     },
     {
-     "id": "455bfbeb86002a56",
+     "id": "9ff5c5ed665611f4",
      "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
-     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.ALL.CAPS",
-     "version": "0.9",
+     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.1.ALL.CAPS",
+     "version": "0.9.1",
      "language": "en",
      "platform": "wonderswan_color",
      "latest": true,
      "superseded": false,
      "format": "bps",
      "source_crc32": "6E8A792D",
-     "target_crc32": "7360B683",
+     "target_crc32": "67211528",
      "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_0.9/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.ALL.CAPS.bps",
-     "sha256": "455bfbeb86002a56dbdbdbad97582a6ef4fa835204e7c74fc0468e06c094f2d3",
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_0.9/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.1.ALL.CAPS.bps",
+     "sha256": "9ff5c5ed665611f41ca0c9c6ce49c4519192382610313d31f4796b3c8c3e1f9c",
      "size": 75566,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9",
@@ -5831,34 +5859,6 @@
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuzzleBobble_0.9.5",
      "notes": "**Puzzle Bobble** is Sunsoft's 1999 port of Taito's bubble shooter for the original black-and-white WonderSwan, released only in Japan. It has 1 Player rounds, Versus (computer or link cable), an endless Challenge mode, records and options.\n\nThis patch translates all of its menus and screens into English **and turns it into a WonderSwan Color game**, in two versions:\n\n* **16 colours:** the whole game runs in the console's 16-colour mode: the title logo, Bub (green) and Bob (blue), the character portraits (every Versus opponent in its own colours) and the game over screen are recoloured in the style of the arcade game, the Taito logo follows the official one, the playfield gets a carved stone frame and a dark blue checkerboard with soft shadows, the menus a tiled blue background, the ROUND box a maroon panel with a gold frame, and during play every bubble has its own colour (with a light spot and a soft shadow).\n* **4 colours:** every screen is in colour, but the game keeps its original four shades per palette: bubbles share one hue and are told apart by their patterns, closer to the original art.\n\nA third patch, **Black and White**, only translates the game: it stays a black-and-white WonderSwan game with its original graphics and shades, for those who prefer the original look or play on a black-and-white WonderSwan. It has the same translation and the same Records and 1UP fixes as the colour versions.\n\n> **Please read:** this translation was made **entirely with AI**, as a …"
-    }
-   ]
-  },
-  "7360B683": {
-   "crc32": "7360B683",
-   "size": 2097152,
-   "names": [],
-   "patches": [],
-   "produced_by": [
-    {
-     "id": "455bfbeb86002a56",
-     "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
-     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.ALL.CAPS",
-     "version": "0.9",
-     "language": "en",
-     "platform": "wonderswan_color",
-     "latest": true,
-     "superseded": false,
-     "format": "bps",
-     "source_crc32": "6E8A792D",
-     "target_crc32": "7360B683",
-     "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_0.9/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.ALL.CAPS.bps",
-     "sha256": "455bfbeb86002a56dbdbdbad97582a6ef4fa835204e7c74fc0468e06c094f2d3",
-     "size": 75566,
-     "source": "mariovirgili/WonderSwanColor-AI_Translation",
-     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9",
-     "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai. It remakes the 1987 Famicom game *Saint Seiya: Ougon Densetsu* and was released only in Japan. Seiya comes back from Greece with the Pegasus Cloth. He fights in the Galaxian Wars and against the Black Saints and the Silver Saints, then climbs the Twelve Temples of the Sanctuary to save Athena. The game mixes side-scrolling exploration with command battles powered by your Cosmo.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Another translation already exists**\n\nAn earlier English translation of this game, made with Codex by Retroviews (v1.0, October 2026), is available on RetroGameTalk: https://retrogametalk.com/threads/saint-seiya-ougon-densetsuhen-perfect-edition-ai-assisted-translation.71478/\n\nThis translation was made by mistake: that one was not listed in the Translations section or on The Repo, so it was not found before the work started.\n\n**Differences between the two versions**\n\nThe two were compared line by line, and in an emulator with the same inputs.\n\n* *Script:* about 2,040 lines are translated in both, and 623 of them match apart from punctuation. The others say the same things in different words, with the same …"
     }
    ]
   },
