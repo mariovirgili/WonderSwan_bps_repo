@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "637ADA93"
+ },
+ "crc32": "637ADA93",
+ "size": 1048576,
+ "md5": "f98cbebf4a06794aa74636e7a6285ace",
+ "sha1": "a25944969068ee495254f94c2c48dfffcb66ce8d",
+ "names": [
+  "Magical Drop for WonderSwan (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "f8ad1c8656ca8cf2",
+   "game": "Magical Drop for WonderSwan",
+   "variant": "Magical.Drop.for.WonderSwan.EN.v0.9",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "637ADA93",
+   "target_crc32": "A4AE5611",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.bps",
+   "sha256": "f8ad1c8656ca8cf26558befdb7aaf07d6d8cab4127af0dfbd7a9fbaa1f4c7439",
+   "size": 564225,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MagicalDrop_0.9",
+   "notes": "**Magical Drop for WonderSwan** is the 1999 WonderSwan version of Data East's falling-ball puzzle game, published by Bandai and released only in Japan. Grab the coloured drops at the bottom of the field and throw them back up to clear three or more of a colour; chains send drops to the opponent. The cast are the Magical Drop tarot characters (Justice, Star, Moon, Devil, Empress, Chariot, Fool...). Besides Story, Endless and the link-cable Versus mode, this version has a whole tarot fortune-telling mode.\n\nThe translation comes in two versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades.\n* **Colour** (new): the game turned into a WonderSwan Color game. Every object keeps its original four shades and gets its own four colours: the drops are red, blue, green and yellow as in the arcade games, each of the ten characters has its own portrait colours in matches and in the story dialogues, and the title, the menus, the player select, the story scenes, the playfield, the endless rank screen and every screen of the fortune mode are coloured. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and …"
+  },
+  {
+   "id": "9b7fb1c040f87344",
+   "game": "Magical Drop for WonderSwan",
+   "variant": "Magical.Drop.for.WonderSwan.EN.v0.9.Colour",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "637ADA93",
+   "target_crc32": "3E319733",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.Colour.bps",
+   "sha256": "9b7fb1c040f873441de28387f1810b47eec46562e87a8be760df8876704f4efd",
+   "size": 567821,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MagicalDrop_0.9",
+   "notes": "**Magical Drop for WonderSwan** is the 1999 WonderSwan version of Data East's falling-ball puzzle game, published by Bandai and released only in Japan. Grab the coloured drops at the bottom of the field and throw them back up to clear three or more of a colour; chains send drops to the opponent. The cast are the Magical Drop tarot characters (Justice, Star, Moon, Devil, Empress, Chariot, Fool...). Besides Story, Endless and the link-cable Versus mode, this version has a whole tarot fortune-telling mode.\n\nThe translation comes in two versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades.\n* **Colour** (new): the game turned into a WonderSwan Color game. Every object keeps its original four shades and gets its own four colours: the drops are red, blue, green and yellow as in the arcade games, each of the ten characters has its own portrait colours in matches and in the story dialogues, and the title, the menus, the player select, the story scenes, the playfield, the endless rank screen and every screen of the fortune mode are coloured. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and …"
+  }
+ ],
+ "produced_by": []
+}

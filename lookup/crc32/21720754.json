@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "21720754"
+ },
+ "crc32": "21720754",
+ "size": 4194304,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "020e75b24326a673",
+   "game": "Dragon Ball",
+   "variant": "Dragon.Ball.T-En.v0.9.1",
+   "version": "0.9.1",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "067238D1",
+   "target_crc32": "21720754",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DragonBall_0.9/Dragon.Ball.T-En.v0.9.1.bps",
+   "sha256": "020e75b24326a673ba4d2889bc711bae48bb403bab7ad91b7b355e97cf5ee4a3",
+   "size": 517156,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DragonBall_0.9",
+   "notes": "**Dragon Ball** is Bandai's 2003 WonderSwan Color game, released only in Japan. It retells the first Dragon Ball saga, from Goku meeting Bulma to King Piccolo, as a board game: you move along the map with cards, meet the characters of the series, and fight with a card system where stars, move types and numbers decide who hits. Master Roshi, Korin and Mr. Popo train you in the rules.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**v0.9.1 fixes (v0.9 left, v0.9.1 right)**\n\n**How to patch**\n\nApply the .bps to *Dragon Ball (Japan)* (2 MB, CRC32 067238D1) with Floating IPS, beat or ROM Patcher JS. Result: 4 MB, CRC32 21720754. Keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Dragon.Ball.T-En.v0.9.1.bps\" \"Dragon Ball (Japan).wsc\" \"Dragon Ball (Japan) [T-En v0.9.1].wsc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**How it was made**\n\n* **Claude** found the game's one-byte text encoding, its message tables and its text renderer, extracted all 2,466 messages (story, battles, card …"
+  }
+ ]
+}

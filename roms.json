@@ -224,24 +224,24 @@
    ],
    "patches": [
     {
-     "id": "27af3ec6372196ea",
+     "id": "020e75b24326a673",
      "game": "Dragon Ball",
-     "variant": "Dragon.Ball.T-En.v0.9",
-     "version": "0.9",
+     "variant": "Dragon.Ball.T-En.v0.9.1",
+     "version": "0.9.1",
      "language": "en",
      "platform": "wonderswan_color",
      "latest": true,
      "superseded": false,
      "format": "bps",
      "source_crc32": "067238D1",
-     "target_crc32": "D0C03404",
+     "target_crc32": "21720754",
      "target_size": 4194304,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DragonBall_0.9/Dragon.Ball.T-En.v0.9.bps",
-     "sha256": "27af3ec6372196ea5deec23d77c04ac864feb7d13f021fdc8acab2523c5028c0",
-     "size": 517105,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DragonBall_0.9/Dragon.Ball.T-En.v0.9.1.bps",
+     "sha256": "020e75b24326a673ba4d2889bc711bae48bb403bab7ad91b7b355e97cf5ee4a3",
+     "size": 517156,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DragonBall_0.9",
-     "notes": "**Dragon Ball** is Bandai's 2003 WonderSwan Color game, released only in Japan. It retells the first Dragon Ball saga, from Goku meeting Bulma to King Piccolo, as a board game: you move along the map with cards, meet the characters of the series, and fight with a card system where stars, move types and numbers decide who hits. Master Roshi, Korin and Mr. Popo train you in the rules.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Dragon Ball (Japan)* (2 MB, CRC32 067238D1) with Floating IPS, beat or ROM Patcher JS. Result: 4 MB, CRC32 D0C03404. Keep the .wsc extension.\n\nYou must provide your own copy of the original Japanese game to apply it.\n\n**How it was made**\n\n* **Claude** found the game's one-byte text encoding, its message tables and its text renderer, extracted all 2,466 messages (story, battles, card training, menus, names, places, commands, staff roll) and translated everything directly from the Japanese. Names follow the anime's English dub.\n* **Claude** also did all the ROM hacking: an English font with two letters in each 8-pixel cell (all capitals, for readability), automatic line breaks and pages, names and numbers …"
+     "notes": "**Dragon Ball** is Bandai's 2003 WonderSwan Color game, released only in Japan. It retells the first Dragon Ball saga, from Goku meeting Bulma to King Piccolo, as a board game: you move along the map with cards, meet the characters of the series, and fight with a card system where stars, move types and numbers decide who hits. Master Roshi, Korin and Mr. Popo train you in the rules.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**v0.9.1 fixes (v0.9 left, v0.9.1 right)**\n\n**How to patch**\n\nApply the .bps to *Dragon Ball (Japan)* (2 MB, CRC32 067238D1) with Floating IPS, beat or ROM Patcher JS. Result: 4 MB, CRC32 21720754. Keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Dragon.Ball.T-En.v0.9.1.bps\" \"Dragon Ball (Japan).wsc\" \"Dragon Ball (Japan) [T-En v0.9.1].wsc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**How it was made**\n\n* **Claude** found the game's one-byte text encoding, its message tables and its text renderer, extracted all 2,466 messages (story, battles, card …"
     }
    ],
    "produced_by": []
@@ -1062,34 +1062,6 @@
     }
    ]
   },
-  "18DAFCE0": {
-   "crc32": "18DAFCE0",
-   "size": 4194304,
-   "names": [],
-   "patches": [],
-   "produced_by": [
-    {
-     "id": "c45be3946ad8786d",
-     "game": "Final Fantasy",
-     "variant": "Final.Fantasy.T-En.v0.9.2.Big.Caps",
-     "version": "0.9.2",
-     "language": "en",
-     "platform": "wonderswan_color",
-     "latest": true,
-     "superseded": false,
-     "format": "bps",
-     "source_crc32": "B7243E88",
-     "target_crc32": "18DAFCE0",
-     "target_size": 4194304,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFI_v0.9/Final.Fantasy.T-En.v0.9.2.Big.Caps.bps",
-     "sha256": "c45be3946ad8786de56c38709093915976256d57104b45ba02e426bb6bf3628f",
-     "size": 119847,
-     "source": "mariovirgili/WonderSwanColor-AI_Translation",
-     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFI_v0.9",
-     "notes": "**Final Fantasy** for the WonderSwan Color is Square's 2000 remake of the very first Final Fantasy, released only in Japan. The world is shrouded in darkness, and four Warriors of Light arrive in the kingdom of Cornelia, each holding a darkened Crystal.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Why a new translation?**\n\nThe WonderSwan Color Final Fantasy was never released outside Japan. The only English patch for it so far is Kalas's v0.91 from 2002, which was never finished. The game has had several official English releases since, but all of them are other remakes (PS1 Origins, GBA Dawn of Souls, PSP, Pixel Remaster), and each one adapted the script and renamed things in its own way. The NES version has a different set of names again.\n\nSo this translation starts again from the Japanese text of the WonderSwan Color ROM, and the whole game is translated: dialogue, menus, battle text, the opening narration and the graphics.\n\n> **About the names:** names follow the **official Japanese names of this version**, written in English, with no Western renames: Lukahn, Sarah, Matoya, Garland, Onlak, Gaia, Melmond, Port Pravoka, Crescent Lake, the Lufeinians, Lich, Marilith, Kraken, …"
-    }
-   ]
-  },
   "18ECFFB8": {
    "crc32": "18ECFFB8",
    "size": 4194304,
@@ -1535,6 +1507,34 @@
     }
    ]
   },
+  "21720754": {
+   "crc32": "21720754",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "020e75b24326a673",
+     "game": "Dragon Ball",
+     "variant": "Dragon.Ball.T-En.v0.9.1",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "067238D1",
+     "target_crc32": "21720754",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DragonBall_0.9/Dragon.Ball.T-En.v0.9.1.bps",
+     "sha256": "020e75b24326a673ba4d2889bc711bae48bb403bab7ad91b7b355e97cf5ee4a3",
+     "size": 517156,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DragonBall_0.9",
+     "notes": "**Dragon Ball** is Bandai's 2003 WonderSwan Color game, released only in Japan. It retells the first Dragon Ball saga, from Goku meeting Bulma to King Piccolo, as a board game: you move along the map with cards, meet the characters of the series, and fight with a card system where stars, move types and numbers decide who hits. Master Roshi, Korin and Mr. Popo train you in the rules.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**v0.9.1 fixes (v0.9 left, v0.9.1 right)**\n\n**How to patch**\n\nApply the .bps to *Dragon Ball (Japan)* (2 MB, CRC32 067238D1) with Floating IPS, beat or ROM Patcher JS. Result: 4 MB, CRC32 21720754. Keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Dragon.Ball.T-En.v0.9.1.bps\" \"Dragon Ball (Japan).wsc\" \"Dragon Ball (Japan) [T-En v0.9.1].wsc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**How it was made**\n\n* **Claude** found the game's one-byte text encoding, its message tables and its text renderer, extracted all 2,466 messages (story, battles, card …"
+    }
+   ]
+  },
   "22F04AF5": {
    "crc32": "22F04AF5",
    "size": 1048576,
@@ -1705,6 +1705,39 @@
      "notes": "**Digital Monster: D-Project** is a 2002 Bandai Digimon raising and adventure game for the WonderSwan Color that never left Japan. The game you just bought has been \"hacked\": its data is being erased, and Ophanimon pulls you inside to repair it. You hatch Digimon with the Egg Machine, raise them, walk the broken areas of the Digital World, fight with up to three partners, and restore the lost land by bringing new Digimon to life. It also links with the Pendulum and D-Power toys of the time.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI** (Claude), as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Reference guide**\n\nTerms, area names and menu names follow **\"WSC Digimon D-project ENG Guide\" by DigiKidult**, an English guide translated from his Chinese one: https://docs.google.com/spreadsheets/d/1FWjNVGwpuqjQgj14EFWB6HkTaJqRKSe6x0xbiW-z2aw/htmlview\n\nMany thanks to DigiKidult. Keep the guide open while you play: it has the egg codes, item codes, Digivolution requirements and the story route.\n\n**What's translated**\n\n* The whole script: the \"hacked\" opening and the data erasure, Ophanimon, every story event, the Sovereigns, the villains and the ending.\n* Menus: field menu (Items, Digimon, Call Back, Map, Save), items and …"
     }
    ]
+  },
+  "27B3CC18": {
+   "crc32": "27B3CC18",
+   "size": 2097152,
+   "md5": "f647a51827915109d1bc6a05c076eda4",
+   "sha1": "e212bba4fac51bbfcf440966da0e67b1686dcfc5",
+   "names": [
+    "Chaos Gear - Michibikareshi Mono (Japan)",
+    "Chaos Gear - Michibikareshi Mono (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "a4441ef7209dd38b",
+     "game": "Chaos Gear: Michibikareshi Mono",
+     "variant": "chaos-gear-en-1.3",
+     "version": "1.3",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "27B3CC18",
+     "target_crc32": "66BDB34A",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/chaos-gear-v1.3/chaos-gear-en-1.3.bps",
+     "sha256": "a4441ef7209dd38bdbe761e53bae5a8433c41bcc7884ccca00380738fb990e56",
+     "size": 144137,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/chaos-gear-v1.3",
+     "notes": "**Chaos Gear: Michibikareshi Mono** (カオスギア 導かれし者) is a strategy game from Bandai, released in Japan in 1999 for the original (monochrome) WonderSwan. You play a Chaos Gainer, a being summoned into a world where four powers (the Empire, the Mana Kingdom, the Gaia tribes and the Eleal Brigade) fight over castles and over chaos gear, the substance only Chaos Gainers can produce. You build up your main tower and its facilities, plan, hire units and deploy them, collect cards in a Binder, and send your army into battle on the map.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Messages:** the story, the opening poem, battle shouts and quotes, and the game's system messages, in the game's own message boxes. Names you enter are inserted into messages.\n* **Names:** card names, unit names, weapon names and the names of facilities and castles.\n* **Menus:** the command menu reads Build / Plan / Hire / Deploy (the game's keiryaku command is called Plan everywhere), and the facility, Binder and phase menus are in English too.\n* **Pictures and label …"
+    }
+   ],
+   "produced_by": []
   },
   "2AA1F3E8": {
    "crc32": "2AA1F3E8",
@@ -2235,6 +2268,34 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol3-a-baoa-qu-v1.0",
      "notes": "**Kidou Senshi Gundam Vol. 3: A Baoa Qu** (機動戦士ガンダム Vol.3 -A BAOA QU-, \"Mobile Suit Gundam Vol. 3: A Baoa Qu\") is Bandai's 2002 game for the WonderSwan Color, released only in Japan, and the last of three cartridges that retell the 1979 anime *Mobile Suit Gundam*. It covers episodes 31-43: the White Base back in space, Solomon, Lalah Sune and the Elmeth, and the final battle at A Baoa Qu. Each episode is told in story scenes, with mobile-suit battles in between; a new game can carry over Amuro's skill from the earlier volumes.\n\nThis patch translates it into English. Vol. 1, Vol. 2 and Vol. 3 each have their own patch and their own page.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: every story scene and narration, the battle chatter and radio calls, the battle report comments, the tips, the epilogue and the staff credits.\n* Every menu and prompt: the map and destination prompts, the event list, saving, quitting and continuing.\n* Everything drawn as a picture: the episode title cards, the battle report panel, the carry-over panel, the event list header and the …"
+    }
+   ]
+  },
+  "34766ABA": {
+   "crc32": "34766ABA",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "fc367e283580e28f",
+     "game": "Wild Card",
+     "variant": "wild-card-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "D9401F0A",
+     "target_crc32": "34766ABA",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/wild-card-v1.0/wild-card-en-debug-1.0.bps",
+     "sha256": "fc367e283580e28f38481c96b3589b30a9acd94a92394dff370931a339e9d404",
+     "size": 133323,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wild-card-v1.0",
+     "notes": "**Wild Card** (ワイルドカード) is a card-driven adventure game from Square, released in Japan on 29 March 2001 for the WonderSwan Color. Characters, scenarios, terrain, monsters, spells, items and events are all cards, and the field screen is also the battle screen. A comet appears over the Kingdom of Alan and everyone starts hunting the Star Fragments. An opening quiz picks one of nine heroes, and the game has seven stages made of short scenarios.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the opening quiz and each hero's opening, the title and file menus, name entry, the towns and taverns, all seven stages with their events, the card battles (menus, HUD, results, status messages), the shops, the Album, the link-cable card trade, both endings, the staff roll and the game-over screens. The game stores 4,820 text units and all of them are covered.\n* **Card names:** all 930 are translated. A name has to fit 16 letters in the game's own label, so 51 are shortened (for example \"Salamander Breath\" is shown as …"
     }
    ]
   },
@@ -2893,6 +2954,34 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dicing-knight-v1.1",
      "notes": "**Dicing Knight.** (賽目騎士遊戯) is an action roguelike by Platine Dispositif. It began as a winner of the WonderWitch programming contest and was released on cartridge in Japan in 2002 for the WonderSwan Color. You guide a hungry knight through randomly built dungeon floors, rolling dice to attack and watching your food.\n\nNearly all of the game is already in English: the menus, the item names and the messages. What is Japanese is four captions drawn as pictures. This patch puts those into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The intro caption:** \"This is the story of a hungry knight and an endless dream.\"\n* **The party-join message** when Princess R'lyeh gets up and looks at you. The original parodies a famous RPG recruitment line, and the English follows that formula: \"She looks at you as if she wants to join you!\"\n* **The bonus-dungeon ending caption** (\"Good work! (lol)\").\n* **The lockout screen** a black-and-white WonderSwan shows: \"This is only for WonderSwan Color or SwanCrystal!\"\n* **One fix to the game's own English:** DEFFENCE UP is now DEFENSE UP.\n* **File …"
+    }
+   ]
+  },
+  "3E319733": {
+   "crc32": "3E319733",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "9b7fb1c040f87344",
+     "game": "Magical Drop for WonderSwan",
+     "variant": "Magical.Drop.for.WonderSwan.EN.v0.9.Colour",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "637ADA93",
+     "target_crc32": "3E319733",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.Colour.bps",
+     "sha256": "9b7fb1c040f873441de28387f1810b47eec46562e87a8be760df8876704f4efd",
+     "size": 567821,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MagicalDrop_0.9",
+     "notes": "**Magical Drop for WonderSwan** is the 1999 WonderSwan version of Data East's falling-ball puzzle game, published by Bandai and released only in Japan. Grab the coloured drops at the bottom of the field and throw them back up to clear three or more of a colour; chains send drops to the opponent. The cast are the Magical Drop tarot characters (Justice, Star, Moon, Devil, Empress, Chariot, Fool...). Besides Story, Endless and the link-cable Versus mode, this version has a whole tarot fortune-telling mode.\n\nThe translation comes in two versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades.\n* **Colour** (new): the game turned into a WonderSwan Color game. Every object keeps its original four shades and gets its own four colours: the drops are red, blue, green and yellow as in the arcade games, each of the ten characters has its own portrait colours in matches and in the story dialogues, and the title, the menus, the player select, the story scenes, the playfield, the endless rank screen and every screen of the fortune mode are coloured. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and …"
     }
    ]
   },
@@ -4070,34 +4159,6 @@
     }
    ]
   },
-  "57205A6D": {
-   "crc32": "57205A6D",
-   "size": 4194304,
-   "names": [],
-   "patches": [],
-   "produced_by": [
-    {
-     "id": "babaa4b45f3bcb7b",
-     "game": "Final Fantasy",
-     "variant": "Final.Fantasy.T-En.v0.9.2",
-     "version": "0.9.2",
-     "language": "en",
-     "platform": "wonderswan_color",
-     "latest": true,
-     "superseded": false,
-     "format": "bps",
-     "source_crc32": "B7243E88",
-     "target_crc32": "57205A6D",
-     "target_size": 4194304,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFI_v0.9/Final.Fantasy.T-En.v0.9.2.bps",
-     "sha256": "babaa4b45f3bcb7b7c6f2d169ae942f01cb114c2b106e1edd4697d6eb7cb5b18",
-     "size": 117798,
-     "source": "mariovirgili/WonderSwanColor-AI_Translation",
-     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFI_v0.9",
-     "notes": "**Final Fantasy** for the WonderSwan Color is Square's 2000 remake of the very first Final Fantasy, released only in Japan. The world is shrouded in darkness, and four Warriors of Light arrive in the kingdom of Cornelia, each holding a darkened Crystal.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Why a new translation?**\n\nThe WonderSwan Color Final Fantasy was never released outside Japan. The only English patch for it so far is Kalas's v0.91 from 2002, which was never finished. The game has had several official English releases since, but all of them are other remakes (PS1 Origins, GBA Dawn of Souls, PSP, Pixel Remaster), and each one adapted the script and renamed things in its own way. The NES version has a different set of names again.\n\nSo this translation starts again from the Japanese text of the WonderSwan Color ROM, and the whole game is translated: dialogue, menus, battle text, the opening narration and the graphics.\n\n> **About the names:** names follow the **official Japanese names of this version**, written in English, with no Western renames: Lukahn, Sarah, Matoya, Garland, Onlak, Gaia, Melmond, Port Pravoka, Crescent Lake, the Lufeinians, Lich, Marilith, Kraken, …"
-    }
-   ]
-  },
   "5791A7C3": {
    "crc32": "5791A7C3",
    "size": 4194304,
@@ -4520,6 +4581,34 @@
     }
    ]
   },
+  "62C1D3B4": {
+   "crc32": "62C1D3B4",
+   "size": 1048576,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "a8b35350f699512f",
+     "game": "Puzzle Bobble",
+     "variant": "Puzzle.Bobble.Japan.T-En.v0.9.5.Black.and.White",
+     "version": "0.9.5",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": false,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "F504CD84",
+     "target_crc32": "62C1D3B4",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/PuzzleBobble_0.9.5/Puzzle.Bobble.Japan.T-En.v0.9.5.Black.and.White.bps",
+     "sha256": "a8b35350f699512f91c2df84c08a504579a6c96de267801a6899d1d4aabb894a",
+     "size": 19594,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuzzleBobble_0.9.5",
+     "notes": "**Puzzle Bobble** is Sunsoft's 1999 port of Taito's bubble shooter for the original black-and-white WonderSwan, released only in Japan. It has 1 Player rounds, Versus (computer or link cable), an endless Challenge mode, records and options.\n\nThis patch translates all of its menus and screens into English **and turns it into a WonderSwan Color game**, in two versions:\n\n* **16 colours:** the whole game runs in the console's 16-colour mode: the title logo, Bub (green) and Bob (blue), the character portraits (every Versus opponent in its own colours) and the game over screen are recoloured in the style of the arcade game, the Taito logo follows the official one, the playfield gets a carved stone frame and a dark blue checkerboard with soft shadows, the menus a tiled blue background, the ROUND box a maroon panel with a gold frame, and during play every bubble has its own colour (with a light spot and a soft shadow).\n* **4 colours:** every screen is in colour, but the game keeps its original four shades per palette: bubbles share one hue and are told apart by their patterns, closer to the original art.\n\nA third patch, **Black and White**, only translates the game: it stays a black-and-white WonderSwan game with its original graphics and shades, for those who prefer the original look or play on a black-and-white WonderSwan. It has the same translation and the same Records and 1UP fixes as the colour versions.\n\n> **Please read:** this translation was made **entirely with AI**, as a …"
+    }
+   ]
+  },
   "62C6550A": {
    "crc32": "62C6550A",
    "size": 2097152,
@@ -4773,6 +4862,58 @@
    ],
    "produced_by": []
   },
+  "637ADA93": {
+   "crc32": "637ADA93",
+   "size": 1048576,
+   "md5": "f98cbebf4a06794aa74636e7a6285ace",
+   "sha1": "a25944969068ee495254f94c2c48dfffcb66ce8d",
+   "names": [
+    "Magical Drop for WonderSwan (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "f8ad1c8656ca8cf2",
+     "game": "Magical Drop for WonderSwan",
+     "variant": "Magical.Drop.for.WonderSwan.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "637ADA93",
+     "target_crc32": "A4AE5611",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.bps",
+     "sha256": "f8ad1c8656ca8cf26558befdb7aaf07d6d8cab4127af0dfbd7a9fbaa1f4c7439",
+     "size": 564225,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MagicalDrop_0.9",
+     "notes": "**Magical Drop for WonderSwan** is the 1999 WonderSwan version of Data East's falling-ball puzzle game, published by Bandai and released only in Japan. Grab the coloured drops at the bottom of the field and throw them back up to clear three or more of a colour; chains send drops to the opponent. The cast are the Magical Drop tarot characters (Justice, Star, Moon, Devil, Empress, Chariot, Fool...). Besides Story, Endless and the link-cable Versus mode, this version has a whole tarot fortune-telling mode.\n\nThe translation comes in two versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades.\n* **Colour** (new): the game turned into a WonderSwan Color game. Every object keeps its original four shades and gets its own four colours: the drops are red, blue, green and yellow as in the arcade games, each of the ten characters has its own portrait colours in matches and in the story dialogues, and the title, the menus, the player select, the story scenes, the playfield, the endless rank screen and every screen of the fortune mode are coloured. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and …"
+    },
+    {
+     "id": "9b7fb1c040f87344",
+     "game": "Magical Drop for WonderSwan",
+     "variant": "Magical.Drop.for.WonderSwan.EN.v0.9.Colour",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "637ADA93",
+     "target_crc32": "3E319733",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.Colour.bps",
+     "sha256": "9b7fb1c040f873441de28387f1810b47eec46562e87a8be760df8876704f4efd",
+     "size": 567821,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MagicalDrop_0.9",
+     "notes": "**Magical Drop for WonderSwan** is the 1999 WonderSwan version of Data East's falling-ball puzzle game, published by Bandai and released only in Japan. Grab the coloured drops at the bottom of the field and throw them back up to clear three or more of a colour; chains send drops to the opponent. The cast are the Magical Drop tarot characters (Justice, Star, Moon, Devil, Empress, Chariot, Fool...). Besides Story, Endless and the link-cable Versus mode, this version has a whole tarot fortune-telling mode.\n\nThe translation comes in two versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades.\n* **Colour** (new): the game turned into a WonderSwan Color game. Every object keeps its original four shades and gets its own four colours: the drops are red, blue, green and yellow as in the arcade games, each of the ten characters has its own portrait colours in matches and in the story dialogues, and the title, the menus, the player select, the story scenes, the playfield, the endless rank screen and every screen of the fortune mode are coloured. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and …"
+    }
+   ],
+   "produced_by": []
+  },
   "63BC5043": {
    "crc32": "63BC5043",
    "size": 1048576,
@@ -4861,6 +5002,34 @@
     }
    ],
    "produced_by": []
+  },
+  "66BDB34A": {
+   "crc32": "66BDB34A",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "a4441ef7209dd38b",
+     "game": "Chaos Gear: Michibikareshi Mono",
+     "variant": "chaos-gear-en-1.3",
+     "version": "1.3",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "27B3CC18",
+     "target_crc32": "66BDB34A",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/chaos-gear-v1.3/chaos-gear-en-1.3.bps",
+     "sha256": "a4441ef7209dd38bdbe761e53bae5a8433c41bcc7884ccca00380738fb990e56",
+     "size": 144137,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/chaos-gear-v1.3",
+     "notes": "**Chaos Gear: Michibikareshi Mono** (カオスギア 導かれし者) is a strategy game from Bandai, released in Japan in 1999 for the original (monochrome) WonderSwan. You play a Chaos Gainer, a being summoned into a world where four powers (the Empire, the Mana Kingdom, the Gaia tribes and the Eleal Brigade) fight over castles and over chaos gear, the substance only Chaos Gainers can produce. You build up your main tower and its facilities, plan, hire units and deploy them, collect cards in a Binder, and send your army into battle on the map.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Messages:** the story, the opening poem, battle shouts and quotes, and the game's system messages, in the game's own message boxes. Names you enter are inserted into messages.\n* **Names:** card names, unit names, weapon names and the names of facilities and castles.\n* **Menus:** the command menu reads Build / Plan / Hire / Deploy (the game's keiryaku command is called Plan everywhere), and the facility, Binder and phase menus are in English too.\n* **Pictures and label …"
+    }
+   ]
   },
   "6A88E21E": {
    "crc32": "6A88E21E",
@@ -5191,7 +5360,7 @@
      "size": 320767,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuzzleBobble_0.9.5",
-     "notes": "**Puzzle Bobble** is Sunsoft's 1999 port of Taito's bubble shooter for the original black-and-white WonderSwan, released only in Japan. It has 1 Player rounds, Versus (computer or link cable), an endless Challenge mode, records and options.\n\nThis patch translates all of its menus and screens into English **and turns it into a WonderSwan Color game**, in two versions:\n\n* **16 colours:** the whole game runs in the console's 16-colour mode: the title logo, Bub (green) and Bob (blue), the character portraits (every Versus opponent in its own colours) and the game over screen are recoloured in the style of the arcade game, the Taito logo follows the official one, the playfield gets a carved stone frame and a dark blue checkerboard with soft shadows, the menus a tiled blue background, the ROUND box a maroon panel with a gold frame, and during play every bubble has its own colour (with a light spot and a soft shadow).\n* **4 colours:** every screen is in colour, but the game keeps its original four shades per palette: bubbles share one hue and are told apart by their patterns, closer to the original art.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the two .bps files to *Puzzle …"
+     "notes": "**Puzzle Bobble** is Sunsoft's 1999 port of Taito's bubble shooter for the original black-and-white WonderSwan, released only in Japan. It has 1 Player rounds, Versus (computer or link cable), an endless Challenge mode, records and options.\n\nThis patch translates all of its menus and screens into English **and turns it into a WonderSwan Color game**, in two versions:\n\n* **16 colours:** the whole game runs in the console's 16-colour mode: the title logo, Bub (green) and Bob (blue), the character portraits (every Versus opponent in its own colours) and the game over screen are recoloured in the style of the arcade game, the Taito logo follows the official one, the playfield gets a carved stone frame and a dark blue checkerboard with soft shadows, the menus a tiled blue background, the ROUND box a maroon panel with a gold frame, and during play every bubble has its own colour (with a light spot and a soft shadow).\n* **4 colours:** every screen is in colour, but the game keeps its original four shades per palette: bubbles share one hue and are told apart by their patterns, closer to the original art.\n\nA third patch, **Black and White**, only translates the game: it stays a black-and-white WonderSwan game with its original graphics and shades, for those who prefer the original look or play on a black-and-white WonderSwan. It has the same translation and the same Records and 1UP fixes as the colour versions.\n\n> **Please read:** this translation was made **entirely with AI**, as a …"
     }
    ]
   },
@@ -5453,6 +5622,26 @@
     "Cardcaptor Sakura - Sakura to Fushigi na Clow Card (Japan).ws"
    ],
    "patches": [
+    {
+     "id": "6afb3b8b1c8c3560",
+     "game": "Cardcaptor Sakura: Sakura to Fushigi na Clow Card",
+     "variant": "cardcaptor-sakura-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "7F3A14C0",
+     "target_crc32": "C11D3CEA",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/cardcaptor-sakura-v1.0/cardcaptor-sakura-en-1.0.bps",
+     "sha256": "6afb3b8b1c8c356024f3cf2e3fe7bf77324aa301300f7e0b3b47f63341533d26",
+     "size": 367419,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/cardcaptor-sakura-v1.0",
+     "notes": "**Cardcaptor Sakura: Sakura to Fushigi na Clow Card** (カードキャプターさくら さくらとふしぎなクロウカード) is a game from Bandai, released in Japan in 1999 for the original (monochrome) WonderSwan. It follows the first anime season, with Sakura in grade 4, and wraps it in a weekly life sim: each week you plan lessons and activities with Kero, go out to visit friends, shop, help at home or write the diary, and raise your friends' affinity. The story walks through the Clow Cards in roughly the order of the anime, up to Earthy, Yue and the Final Judgment, and the cards are caught in turn-based battles. There is also a link-cable deck mode.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Story:** all 6,915 story texts, including the Hoe? and Hanyaan catchphrases and the Clow Card chants.\n* **Menus and messages:** all menus, the weekly planner, shop and weekly results, battle messages and card descriptions, and Kero's data screens.\n* **Pictures that contain text:** the title subtitle and start prompt, date cards, profile cards, weekend menu icons, battle command labels …"
+    },
     {
      "id": "8e57c37f9bd6f40d",
      "game": "Cardcaptor Sakura: Sakura to Fushigi na Clow Card",
@@ -6522,6 +6711,34 @@
     }
    ]
   },
+  "913B4BEF": {
+   "crc32": "913B4BEF",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "ca57a9218c340293",
+     "game": "Final Fantasy",
+     "variant": "Final.Fantasy.T-En.v0.9.3",
+     "version": "0.9.3",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "B7243E88",
+     "target_crc32": "913B4BEF",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFI_v0.9/Final.Fantasy.T-En.v0.9.3.bps",
+     "sha256": "ca57a9218c3402933bf85b913bb5735b2283acb95b348ba5fece3fe3d6313bbb",
+     "size": 118166,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFI_v0.9",
+     "notes": "**Final Fantasy** for the WonderSwan Color is Square's 2000 remake of the very first Final Fantasy, released only in Japan. The world is shrouded in darkness, and four Warriors of Light arrive in the kingdom of Cornelia, each holding a darkened Crystal.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Why a new translation?**\n\nThe WonderSwan Color Final Fantasy was never released outside Japan. The only English patch for it so far is Kalas's v0.91 from 2002, which was never finished. The game has had several official English releases since, but all of them are other remakes (PS1 Origins, GBA Dawn of Souls, PSP, Pixel Remaster), and each one adapted the script and renamed things in its own way. The NES version has a different set of names again.\n\nSo this translation starts again from the Japanese text of the WonderSwan Color ROM, and the whole game is translated: dialogue, menus, battle text, the opening narration and the graphics.\n\n> **About the names:** names follow the **official Japanese names of this version**, written in English, with no Western renames: Lukahn, Sarah, Matoya, Garland, Onlak, Gaia, Melmond, Port Pravoka, Crescent Lake, the Lufeinians, Lich, Marilith, Kraken, …"
+    }
+   ]
+  },
   "93B9E8EC": {
    "crc32": "93B9E8EC",
    "size": 4194304,
@@ -6962,7 +7179,7 @@
      "size": 26070,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuzzleBobble_0.9.5",
-     "notes": "**Puzzle Bobble** is Sunsoft's 1999 port of Taito's bubble shooter for the original black-and-white WonderSwan, released only in Japan. It has 1 Player rounds, Versus (computer or link cable), an endless Challenge mode, records and options.\n\nThis patch translates all of its menus and screens into English **and turns it into a WonderSwan Color game**, in two versions:\n\n* **16 colours:** the whole game runs in the console's 16-colour mode: the title logo, Bub (green) and Bob (blue), the character portraits (every Versus opponent in its own colours) and the game over screen are recoloured in the style of the arcade game, the Taito logo follows the official one, the playfield gets a carved stone frame and a dark blue checkerboard with soft shadows, the menus a tiled blue background, the ROUND box a maroon panel with a gold frame, and during play every bubble has its own colour (with a light spot and a soft shadow).\n* **4 colours:** every screen is in colour, but the game keeps its original four shades per palette: bubbles share one hue and are told apart by their patterns, closer to the original art.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the two .bps files to *Puzzle …"
+     "notes": "**Puzzle Bobble** is Sunsoft's 1999 port of Taito's bubble shooter for the original black-and-white WonderSwan, released only in Japan. It has 1 Player rounds, Versus (computer or link cable), an endless Challenge mode, records and options.\n\nThis patch translates all of its menus and screens into English **and turns it into a WonderSwan Color game**, in two versions:\n\n* **16 colours:** the whole game runs in the console's 16-colour mode: the title logo, Bub (green) and Bob (blue), the character portraits (every Versus opponent in its own colours) and the game over screen are recoloured in the style of the arcade game, the Taito logo follows the official one, the playfield gets a carved stone frame and a dark blue checkerboard with soft shadows, the menus a tiled blue background, the ROUND box a maroon panel with a gold frame, and during play every bubble has its own colour (with a light spot and a soft shadow).\n* **4 colours:** every screen is in colour, but the game keeps its original four shades per palette: bubbles share one hue and are told apart by their patterns, closer to the original art.\n\nA third patch, **Black and White**, only translates the game: it stays a black-and-white WonderSwan game with its original graphics and shades, for those who prefer the original look or play on a black-and-white WonderSwan. It has the same translation and the same Records and 1UP fixes as the colour versions.\n\n> **Please read:** this translation was made **entirely with AI**, as a …"
     }
    ]
   },
@@ -7374,6 +7591,34 @@
     }
    ],
    "produced_by": []
+  },
+  "A4AE5611": {
+   "crc32": "A4AE5611",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "f8ad1c8656ca8cf2",
+     "game": "Magical Drop for WonderSwan",
+     "variant": "Magical.Drop.for.WonderSwan.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "637ADA93",
+     "target_crc32": "A4AE5611",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.bps",
+     "sha256": "f8ad1c8656ca8cf26558befdb7aaf07d6d8cab4127af0dfbd7a9fbaa1f4c7439",
+     "size": 564225,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MagicalDrop_0.9",
+     "notes": "**Magical Drop for WonderSwan** is the 1999 WonderSwan version of Data East's falling-ball puzzle game, published by Bandai and released only in Japan. Grab the coloured drops at the bottom of the field and throw them back up to clear three or more of a colour; chains send drops to the opponent. The cast are the Magical Drop tarot characters (Justice, Star, Moon, Devil, Empress, Chariot, Fool...). Besides Story, Endless and the link-cable Versus mode, this version has a whole tarot fortune-telling mode.\n\nThe translation comes in two versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades.\n* **Colour** (new): the game turned into a WonderSwan Color game. Every object keeps its original four shades and gets its own four colours: the drops are red, blue, green and yellow as in the arcade games, each of the ten characters has its own portrait colours in matches and in the story dialogues, and the title, the menus, the player select, the story scenes, the playfield, the endless rank screen and every screen of the fortune mode are coloured. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and …"
+    }
+   ]
   },
   "A53C9190": {
    "crc32": "A53C9190",
@@ -8383,41 +8628,41 @@
    ],
    "patches": [
     {
-     "id": "babaa4b45f3bcb7b",
+     "id": "ca57a9218c340293",
      "game": "Final Fantasy",
-     "variant": "Final.Fantasy.T-En.v0.9.2",
-     "version": "0.9.2",
+     "variant": "Final.Fantasy.T-En.v0.9.3",
+     "version": "0.9.3",
      "language": "en",
      "platform": "wonderswan_color",
      "latest": true,
      "superseded": false,
      "format": "bps",
      "source_crc32": "B7243E88",
-     "target_crc32": "57205A6D",
+     "target_crc32": "913B4BEF",
      "target_size": 4194304,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFI_v0.9/Final.Fantasy.T-En.v0.9.2.bps",
-     "sha256": "babaa4b45f3bcb7b7c6f2d169ae942f01cb114c2b106e1edd4697d6eb7cb5b18",
-     "size": 117798,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFI_v0.9/Final.Fantasy.T-En.v0.9.3.bps",
+     "sha256": "ca57a9218c3402933bf85b913bb5735b2283acb95b348ba5fece3fe3d6313bbb",
+     "size": 118166,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFI_v0.9",
      "notes": "**Final Fantasy** for the WonderSwan Color is Square's 2000 remake of the very first Final Fantasy, released only in Japan. The world is shrouded in darkness, and four Warriors of Light arrive in the kingdom of Cornelia, each holding a darkened Crystal.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Why a new translation?**\n\nThe WonderSwan Color Final Fantasy was never released outside Japan. The only English patch for it so far is Kalas's v0.91 from 2002, which was never finished. The game has had several official English releases since, but all of them are other remakes (PS1 Origins, GBA Dawn of Souls, PSP, Pixel Remaster), and each one adapted the script and renamed things in its own way. The NES version has a different set of names again.\n\nSo this translation starts again from the Japanese text of the WonderSwan Color ROM, and the whole game is translated: dialogue, menus, battle text, the opening narration and the graphics.\n\n> **About the names:** names follow the **official Japanese names of this version**, written in English, with no Western renames: Lukahn, Sarah, Matoya, Garland, Onlak, Gaia, Melmond, Port Pravoka, Crescent Lake, the Lufeinians, Lich, Marilith, Kraken, …"
     },
     {
-     "id": "c45be3946ad8786d",
+     "id": "866bdf748ccd7ec3",
      "game": "Final Fantasy",
-     "variant": "Final.Fantasy.T-En.v0.9.2.Big.Caps",
-     "version": "0.9.2",
+     "variant": "Final.Fantasy.T-En.v0.9.3.Big.Caps",
+     "version": "0.9.3",
      "language": "en",
      "platform": "wonderswan_color",
      "latest": true,
      "superseded": false,
      "format": "bps",
      "source_crc32": "B7243E88",
-     "target_crc32": "18DAFCE0",
+     "target_crc32": "D3C3A333",
      "target_size": 4194304,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFI_v0.9/Final.Fantasy.T-En.v0.9.2.Big.Caps.bps",
-     "sha256": "c45be3946ad8786de56c38709093915976256d57104b45ba02e426bb6bf3628f",
-     "size": 119847,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFI_v0.9/Final.Fantasy.T-En.v0.9.3.Big.Caps.bps",
+     "sha256": "866bdf748ccd7ec30d38a898bae5a6abc32ab5a40495f1923c0d4af8936a0fde",
+     "size": 119917,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFI_v0.9",
      "notes": "**Final Fantasy** for the WonderSwan Color is Square's 2000 remake of the very first Final Fantasy, released only in Japan. The world is shrouded in darkness, and four Warriors of Light arrive in the kingdom of Cornelia, each holding a darkened Crystal.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Why a new translation?**\n\nThe WonderSwan Color Final Fantasy was never released outside Japan. The only English patch for it so far is Kalas's v0.91 from 2002, which was never finished. The game has had several official English releases since, but all of them are other remakes (PS1 Origins, GBA Dawn of Souls, PSP, Pixel Remaster), and each one adapted the script and renamed things in its own way. The NES version has a different set of names again.\n\nSo this translation starts again from the Japanese text of the WonderSwan Color ROM, and the whole game is translated: dialogue, menus, battle text, the opening narration and the graphics.\n\n> **About the names:** names follow the **official Japanese names of this version**, written in English, with no Western renames: Lukahn, Sarah, Matoya, Garland, Onlak, Gaia, Melmond, Port Pravoka, Crescent Lake, the Lufeinians, Lich, Marilith, Kraken, …"
@@ -8710,6 +8955,34 @@
     }
    ],
    "produced_by": []
+  },
+  "C11D3CEA": {
+   "crc32": "C11D3CEA",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "6afb3b8b1c8c3560",
+     "game": "Cardcaptor Sakura: Sakura to Fushigi na Clow Card",
+     "variant": "cardcaptor-sakura-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "7F3A14C0",
+     "target_crc32": "C11D3CEA",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/cardcaptor-sakura-v1.0/cardcaptor-sakura-en-1.0.bps",
+     "sha256": "6afb3b8b1c8c356024f3cf2e3fe7bf77324aa301300f7e0b3b47f63341533d26",
+     "size": 367419,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/cardcaptor-sakura-v1.0",
+     "notes": "**Cardcaptor Sakura: Sakura to Fushigi na Clow Card** (カードキャプターさくら さくらとふしぎなクロウカード) is a game from Bandai, released in Japan in 1999 for the original (monochrome) WonderSwan. It follows the first anime season, with Sakura in grade 4, and wraps it in a weekly life sim: each week you plan lessons and activities with Kero, go out to visit friends, shop, help at home or write the diary, and raise your friends' affinity. The story walks through the Clow Cards in roughly the order of the anime, up to Earthy, Yue and the Final Judgment, and the cards are caught in turn-based battles. There is also a link-cable deck mode.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Story:** all 6,915 story texts, including the Hoe? and Hanyaan catchphrases and the Clow Card chants.\n* **Menus and messages:** all menus, the weekly planner, shop and weekly results, battle messages and card descriptions, and Kero's data screens.\n* **Pictures that contain text:** the title subtitle and start prompt, date cards, profile cards, weekend menu icons, battle command labels …"
+    }
+   ]
   },
   "C18E3896": {
    "crc32": "C18E3896",
@@ -9434,34 +9707,6 @@
    ],
    "produced_by": []
   },
-  "D0C03404": {
-   "crc32": "D0C03404",
-   "size": 4194304,
-   "names": [],
-   "patches": [],
-   "produced_by": [
-    {
-     "id": "27af3ec6372196ea",
-     "game": "Dragon Ball",
-     "variant": "Dragon.Ball.T-En.v0.9",
-     "version": "0.9",
-     "language": "en",
-     "platform": "wonderswan_color",
-     "latest": true,
-     "superseded": false,
-     "format": "bps",
-     "source_crc32": "067238D1",
-     "target_crc32": "D0C03404",
-     "target_size": 4194304,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DragonBall_0.9/Dragon.Ball.T-En.v0.9.bps",
-     "sha256": "27af3ec6372196ea5deec23d77c04ac864feb7d13f021fdc8acab2523c5028c0",
-     "size": 517105,
-     "source": "mariovirgili/WonderSwanColor-AI_Translation",
-     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DragonBall_0.9",
-     "notes": "**Dragon Ball** is Bandai's 2003 WonderSwan Color game, released only in Japan. It retells the first Dragon Ball saga, from Goku meeting Bulma to King Piccolo, as a board game: you move along the map with cards, meet the characters of the series, and fight with a card system where stars, move types and numbers decide who hits. Master Roshi, Korin and Mr. Popo train you in the rules.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Dragon Ball (Japan)* (2 MB, CRC32 067238D1) with Floating IPS, beat or ROM Patcher JS. Result: 4 MB, CRC32 D0C03404. Keep the .wsc extension.\n\nYou must provide your own copy of the original Japanese game to apply it.\n\n**How it was made**\n\n* **Claude** found the game's one-byte text encoding, its message tables and its text renderer, extracted all 2,466 messages (story, battles, card training, menus, names, places, commands, staff roll) and translated everything directly from the Japanese. Names follow the anime's English dub.\n* **Claude** also did all the ROM hacking: an English font with two letters in each 8-pixel cell (all capitals, for readability), automatic line breaks and pages, names and numbers …"
-    }
-   ]
-  },
   "D28DC930": {
    "crc32": "D28DC930",
    "size": 524288,
@@ -9491,6 +9736,34 @@
     }
    ],
    "produced_by": []
+  },
+  "D3C3A333": {
+   "crc32": "D3C3A333",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "866bdf748ccd7ec3",
+     "game": "Final Fantasy",
+     "variant": "Final.Fantasy.T-En.v0.9.3.Big.Caps",
+     "version": "0.9.3",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "B7243E88",
+     "target_crc32": "D3C3A333",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFI_v0.9/Final.Fantasy.T-En.v0.9.3.Big.Caps.bps",
+     "sha256": "866bdf748ccd7ec30d38a898bae5a6abc32ab5a40495f1923c0d4af8936a0fde",
+     "size": 119917,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFI_v0.9",
+     "notes": "**Final Fantasy** for the WonderSwan Color is Square's 2000 remake of the very first Final Fantasy, released only in Japan. The world is shrouded in darkness, and four Warriors of Light arrive in the kingdom of Cornelia, each holding a darkened Crystal.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Why a new translation?**\n\nThe WonderSwan Color Final Fantasy was never released outside Japan. The only English patch for it so far is Kalas's v0.91 from 2002, which was never finished. The game has had several official English releases since, but all of them are other remakes (PS1 Origins, GBA Dawn of Souls, PSP, Pixel Remaster), and each one adapted the script and renamed things in its own way. The NES version has a different set of names again.\n\nSo this translation starts again from the Japanese text of the WonderSwan Color ROM, and the whole game is translated: dialogue, menus, battle text, the opening narration and the graphics.\n\n> **About the names:** names follow the **official Japanese names of this version**, written in English, with no Western renames: Lukahn, Sarah, Matoya, Garland, Onlak, Gaia, Melmond, Port Pravoka, Crescent Lake, the Lufeinians, Lich, Marilith, Kraken, …"
+    }
+   ]
   },
   "D4061551": {
    "crc32": "D4061551",
@@ -9852,6 +10125,58 @@
    ],
    "produced_by": []
   },
+  "D9401F0A": {
+   "crc32": "D9401F0A",
+   "size": 2097152,
+   "md5": "3da84c8d458cb9ef07b923dadb209990",
+   "sha1": "ea878a485a20abd5251065fd66e82d9d8b8a669d",
+   "names": [
+    "Wild Card (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "e855855628568c68",
+     "game": "Wild Card",
+     "variant": "wild-card-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "D9401F0A",
+     "target_crc32": "DCB75E51",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/wild-card-v1.0/wild-card-en-1.0.bps",
+     "sha256": "e855855628568c6815b86b7041ecc403eebaf0b33618b360dbbce2f1fb7d24e7",
+     "size": 133320,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wild-card-v1.0",
+     "notes": "**Wild Card** (ワイルドカード) is a card-driven adventure game from Square, released in Japan on 29 March 2001 for the WonderSwan Color. Characters, scenarios, terrain, monsters, spells, items and events are all cards, and the field screen is also the battle screen. A comet appears over the Kingdom of Alan and everyone starts hunting the Star Fragments. An opening quiz picks one of nine heroes, and the game has seven stages made of short scenarios.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the opening quiz and each hero's opening, the title and file menus, name entry, the towns and taverns, all seven stages with their events, the card battles (menus, HUD, results, status messages), the shops, the Album, the link-cable card trade, both endings, the staff roll and the game-over screens. The game stores 4,820 text units and all of them are covered.\n* **Card names:** all 930 are translated. A name has to fit 16 letters in the game's own label, so 51 are shortened (for example \"Salamander Breath\" is shown as …"
+    },
+    {
+     "id": "fc367e283580e28f",
+     "game": "Wild Card",
+     "variant": "wild-card-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "D9401F0A",
+     "target_crc32": "34766ABA",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/wild-card-v1.0/wild-card-en-debug-1.0.bps",
+     "sha256": "fc367e283580e28f38481c96b3589b30a9acd94a92394dff370931a339e9d404",
+     "size": 133323,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wild-card-v1.0",
+     "notes": "**Wild Card** (ワイルドカード) is a card-driven adventure game from Square, released in Japan on 29 March 2001 for the WonderSwan Color. Characters, scenarios, terrain, monsters, spells, items and events are all cards, and the field screen is also the battle screen. A comet appears over the Kingdom of Alan and everyone starts hunting the Star Fragments. An opening quiz picks one of nine heroes, and the game has seven stages made of short scenarios.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the opening quiz and each hero's opening, the title and file menus, name entry, the towns and taverns, all seven stages with their events, the card battles (menus, HUD, results, status messages), the shops, the Album, the link-cable card trade, both endings, the staff roll and the game-over screens. The game stores 4,820 text units and all of them are covered.\n* **Card names:** all 930 are translated. A name has to fit 16 letters in the game's own label, so 51 are shortened (for example \"Salamander Breath\" is shown as …"
+    }
+   ],
+   "produced_by": []
+  },
   "DCAAFE90": {
    "crc32": "DCAAFE90",
    "size": 8388608,
@@ -9906,6 +10231,34 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dekotora-v1.1",
      "notes": "**Bakusou Dekotora Densetsu for WonderSwan** (爆走デコトラ伝説) is KID and Kaga Tech's 1999 trucking-and-racing game about *dekotora*, Japan's lit-up, chrome-covered decorated trucks, released only in Japan for the original (monochrome) WonderSwan. You play a young trucker who left his hometown girlfriend Yukie with a promise: he'll become Japan's No. 1 trucker and come back for her. You haul cargo between 20 cities, race rival truckers over the CB radio for their parts and their money (BP), climb a ladder of expressway bosses all the way to Hokkaido, and tune and decorate your truck. Along the way you meet six women, and at the end you choose where to go. It's earnest, corny, hot-blooded melodrama with plenty of trash talk, and nobody in it is subtle. That's the charm.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script, about 4,900 lines: the story, every rival trucker's challenge and taunts, the six women's stories and the endings, jobs and cargo, shops, parts, and the CB radio chatter.\n* Menus, the name entry (an English letter grid), race HUD labels and song captions, …"
+    }
+   ]
+  },
+  "DCB75E51": {
+   "crc32": "DCB75E51",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "e855855628568c68",
+     "game": "Wild Card",
+     "variant": "wild-card-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "D9401F0A",
+     "target_crc32": "DCB75E51",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/wild-card-v1.0/wild-card-en-1.0.bps",
+     "sha256": "e855855628568c6815b86b7041ecc403eebaf0b33618b360dbbce2f1fb7d24e7",
+     "size": 133320,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wild-card-v1.0",
+     "notes": "**Wild Card** (ワイルドカード) is a card-driven adventure game from Square, released in Japan on 29 March 2001 for the WonderSwan Color. Characters, scenarios, terrain, monsters, spells, items and events are all cards, and the field screen is also the battle screen. A comet appears over the Kingdom of Alan and everyone starts hunting the Star Fragments. An opening quiz picks one of nine heroes, and the game has seven stages made of short scenarios.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the opening quiz and each hero's opening, the title and file menus, name entry, the towns and taverns, all seven stages with their events, the card battles (menus, HUD, results, status messages), the shops, the Album, the link-cable card trade, both endings, the staff roll and the game-over screens. The game stores 4,820 text units and all of them are covered.\n* **Card names:** all 930 are translated. A name has to fit 16 letters in the game's own label, so 51 are shortened (for example \"Salamander Breath\" is shown as …"
     }
    ]
   },
@@ -10981,7 +11334,27 @@
      "size": 320767,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuzzleBobble_0.9.5",
-     "notes": "**Puzzle Bobble** is Sunsoft's 1999 port of Taito's bubble shooter for the original black-and-white WonderSwan, released only in Japan. It has 1 Player rounds, Versus (computer or link cable), an endless Challenge mode, records and options.\n\nThis patch translates all of its menus and screens into English **and turns it into a WonderSwan Color game**, in two versions:\n\n* **16 colours:** the whole game runs in the console's 16-colour mode: the title logo, Bub (green) and Bob (blue), the character portraits (every Versus opponent in its own colours) and the game over screen are recoloured in the style of the arcade game, the Taito logo follows the official one, the playfield gets a carved stone frame and a dark blue checkerboard with soft shadows, the menus a tiled blue background, the ROUND box a maroon panel with a gold frame, and during play every bubble has its own colour (with a light spot and a soft shadow).\n* **4 colours:** every screen is in colour, but the game keeps its original four shades per palette: bubbles share one hue and are told apart by their patterns, closer to the original art.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the two .bps files to *Puzzle …"
+     "notes": "**Puzzle Bobble** is Sunsoft's 1999 port of Taito's bubble shooter for the original black-and-white WonderSwan, released only in Japan. It has 1 Player rounds, Versus (computer or link cable), an endless Challenge mode, records and options.\n\nThis patch translates all of its menus and screens into English **and turns it into a WonderSwan Color game**, in two versions:\n\n* **16 colours:** the whole game runs in the console's 16-colour mode: the title logo, Bub (green) and Bob (blue), the character portraits (every Versus opponent in its own colours) and the game over screen are recoloured in the style of the arcade game, the Taito logo follows the official one, the playfield gets a carved stone frame and a dark blue checkerboard with soft shadows, the menus a tiled blue background, the ROUND box a maroon panel with a gold frame, and during play every bubble has its own colour (with a light spot and a soft shadow).\n* **4 colours:** every screen is in colour, but the game keeps its original four shades per palette: bubbles share one hue and are told apart by their patterns, closer to the original art.\n\nA third patch, **Black and White**, only translates the game: it stays a black-and-white WonderSwan game with its original graphics and shades, for those who prefer the original look or play on a black-and-white WonderSwan. It has the same translation and the same Records and 1UP fixes as the colour versions.\n\n> **Please read:** this translation was made **entirely with AI**, as a …"
+    },
+    {
+     "id": "a8b35350f699512f",
+     "game": "Puzzle Bobble",
+     "variant": "Puzzle.Bobble.Japan.T-En.v0.9.5.Black.and.White",
+     "version": "0.9.5",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": false,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "F504CD84",
+     "target_crc32": "62C1D3B4",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/PuzzleBobble_0.9.5/Puzzle.Bobble.Japan.T-En.v0.9.5.Black.and.White.bps",
+     "sha256": "a8b35350f699512f91c2df84c08a504579a6c96de267801a6899d1d4aabb894a",
+     "size": 19594,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuzzleBobble_0.9.5",
+     "notes": "**Puzzle Bobble** is Sunsoft's 1999 port of Taito's bubble shooter for the original black-and-white WonderSwan, released only in Japan. It has 1 Player rounds, Versus (computer or link cable), an endless Challenge mode, records and options.\n\nThis patch translates all of its menus and screens into English **and turns it into a WonderSwan Color game**, in two versions:\n\n* **16 colours:** the whole game runs in the console's 16-colour mode: the title logo, Bub (green) and Bob (blue), the character portraits (every Versus opponent in its own colours) and the game over screen are recoloured in the style of the arcade game, the Taito logo follows the official one, the playfield gets a carved stone frame and a dark blue checkerboard with soft shadows, the menus a tiled blue background, the ROUND box a maroon panel with a gold frame, and during play every bubble has its own colour (with a light spot and a soft shadow).\n* **4 colours:** every screen is in colour, but the game keeps its original four shades per palette: bubbles share one hue and are told apart by their patterns, closer to the original art.\n\nA third patch, **Black and White**, only translates the game: it stays a black-and-white WonderSwan game with its original graphics and shades, for those who prefer the original look or play on a black-and-white WonderSwan. It has the same translation and the same Records and 1UP fixes as the colour versions.\n\n> **Please read:** this translation was made **entirely with AI**, as a …"
     },
     {
      "id": "5dba28c3cacaa5a7",
@@ -11001,7 +11374,7 @@
      "size": 26070,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuzzleBobble_0.9.5",
-     "notes": "**Puzzle Bobble** is Sunsoft's 1999 port of Taito's bubble shooter for the original black-and-white WonderSwan, released only in Japan. It has 1 Player rounds, Versus (computer or link cable), an endless Challenge mode, records and options.\n\nThis patch translates all of its menus and screens into English **and turns it into a WonderSwan Color game**, in two versions:\n\n* **16 colours:** the whole game runs in the console's 16-colour mode: the title logo, Bub (green) and Bob (blue), the character portraits (every Versus opponent in its own colours) and the game over screen are recoloured in the style of the arcade game, the Taito logo follows the official one, the playfield gets a carved stone frame and a dark blue checkerboard with soft shadows, the menus a tiled blue background, the ROUND box a maroon panel with a gold frame, and during play every bubble has its own colour (with a light spot and a soft shadow).\n* **4 colours:** every screen is in colour, but the game keeps its original four shades per palette: bubbles share one hue and are told apart by their patterns, closer to the original art.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the two .bps files to *Puzzle …"
+     "notes": "**Puzzle Bobble** is Sunsoft's 1999 port of Taito's bubble shooter for the original black-and-white WonderSwan, released only in Japan. It has 1 Player rounds, Versus (computer or link cable), an endless Challenge mode, records and options.\n\nThis patch translates all of its menus and screens into English **and turns it into a WonderSwan Color game**, in two versions:\n\n* **16 colours:** the whole game runs in the console's 16-colour mode: the title logo, Bub (green) and Bob (blue), the character portraits (every Versus opponent in its own colours) and the game over screen are recoloured in the style of the arcade game, the Taito logo follows the official one, the playfield gets a carved stone frame and a dark blue checkerboard with soft shadows, the menus a tiled blue background, the ROUND box a maroon panel with a gold frame, and during play every bubble has its own colour (with a light spot and a soft shadow).\n* **4 colours:** every screen is in colour, but the game keeps its original four shades per palette: bubbles share one hue and are told apart by their patterns, closer to the original art.\n\nA third patch, **Black and White**, only translates the game: it stays a black-and-white WonderSwan game with its original graphics and shades, for those who prefer the original look or play on a black-and-white WonderSwan. It has the same translation and the same Records and 1UP fixes as the colour versions.\n\n> **Please read:** this translation was made **entirely with AI**, as a …"
     }
    ],
    "produced_by": []
@@ -11510,6 +11883,7 @@
   "3944c5d21434e5836f414b319af96331": "C60E5162",
   "399e48a3347c378554de65848f1f496c": "D4061551",
   "39a4626ba187933297b3155180147778": "E4EB3AB1",
+  "3da84c8d458cb9ef07b923dadb209990": "D9401F0A",
   "3e62a6b6af656fcac225cd02446acb9d": "2460B45A",
   "3f81d86b97a81ed8fb2fd90a20b94c7a": "08C0247B",
   "4180034fe25dbc97ddd0d7e3adf83e3b": "8CE4652F",
@@ -11568,6 +11942,8 @@
   "eec79ad5bb634a90b9d020415046e921": "AF9D8F42",
   "f06beaff2703728baa8dddc0ddeb7094": "00B31FBB",
   "f19436970509e5e97b5fd96752aadb8a": "8E120B5A",
+  "f647a51827915109d1bc6a05c076eda4": "27B3CC18",
+  "f98cbebf4a06794aa74636e7a6285ace": "637ADA93",
   "fc3bf32e77a2b1f6b749242e89f35e9a": "A9F5BF54",
   "fd2165de8c6bb617166f6bb34447e70d": "70AA800E",
   "fd7f1859cb0ee0b63ccb7f36e9a3351d": "6E8A792D",
@@ -11638,6 +12014,7 @@
   "99d9d7f951ae589059f34e76aea7489ae4cd79f1": "B18CDC0D",
   "9b4786adca7b83fe66a9d4b9fd4ffaf32abe7656": "1F10CA75",
   "a1e24771dbc388af98781e894fc064fadd83517b": "DCAAFE90",
+  "a25944969068ee495254f94c2c48dfffcb66ce8d": "637ADA93",
   "a8f8d3efc9b2d5741081e05f517d746ee5437f87": "2460B45A",
   "ad77d2e8429d5ed926d514d926050086f4edbeee": "7DA6ACB9",
   "adbe6e38a0bc6a2d19da64a444071977b771f14f": "446E2581",
@@ -11656,7 +12033,9 @@
   "dd1878279a6667fb66dd1ac44a2cdb9a5acbe415": "5793BDDA",
   "df1a794f7e3992b1e1e9de14141b607746202202": "39A1391A",
   "e03332ebbd3fed88084bc96030c65a9b531e6ed1": "40E63922",
+  "e212bba4fac51bbfcf440966da0e67b1686dcfc5": "27B3CC18",
   "e31bfa54cbf539a9d28090b372d8e669a93c3e28": "1E760C41",
+  "ea878a485a20abd5251065fd66e82d9d8b8a669d": "D9401F0A",
   "eb538b82c5516fae8ce38778e41fb118aa5c830f": "7FFF2520",
   "ebd4b37ade6df717f7b637747a4d3c45a6cca037": "C60E5162",
   "f38c28a858ff27826be3f4df8d8b32012609c3b8": "43BD6D16",

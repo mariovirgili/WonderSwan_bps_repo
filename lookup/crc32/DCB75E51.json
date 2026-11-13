@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "DCB75E51"
+ },
+ "crc32": "DCB75E51",
+ "size": 2097152,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "e855855628568c68",
+   "game": "Wild Card",
+   "variant": "wild-card-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "D9401F0A",
+   "target_crc32": "DCB75E51",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/wild-card-v1.0/wild-card-en-1.0.bps",
+   "sha256": "e855855628568c6815b86b7041ecc403eebaf0b33618b360dbbce2f1fb7d24e7",
+   "size": 133320,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wild-card-v1.0",
+   "notes": "**Wild Card** (ワイルドカード) is a card-driven adventure game from Square, released in Japan on 29 March 2001 for the WonderSwan Color. Characters, scenarios, terrain, monsters, spells, items and events are all cards, and the field screen is also the battle screen. A comet appears over the Kingdom of Alan and everyone starts hunting the Star Fragments. An opening quiz picks one of nine heroes, and the game has seven stages made of short scenarios.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the opening quiz and each hero's opening, the title and file menus, name entry, the towns and taverns, all seven stages with their events, the card battles (menus, HUD, results, status messages), the shops, the Album, the link-cable card trade, both endings, the staff roll and the game-over screens. The game stores 4,820 text units and all of them are covered.\n* **Card names:** all 930 are translated. A name has to fit 16 letters in the game's own label, so 51 are shortened (for example \"Salamander Breath\" is shown as …"
+  }
+ ]
+}

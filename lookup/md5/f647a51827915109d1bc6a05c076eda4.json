@@ -1,0 +1,37 @@
+{
+ "schema": 1,
+ "query": {
+  "md5": "f647a51827915109d1bc6a05c076eda4"
+ },
+ "crc32": "27B3CC18",
+ "size": 2097152,
+ "md5": "f647a51827915109d1bc6a05c076eda4",
+ "sha1": "e212bba4fac51bbfcf440966da0e67b1686dcfc5",
+ "names": [
+  "Chaos Gear - Michibikareshi Mono (Japan)",
+  "Chaos Gear - Michibikareshi Mono (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "a4441ef7209dd38b",
+   "game": "Chaos Gear: Michibikareshi Mono",
+   "variant": "chaos-gear-en-1.3",
+   "version": "1.3",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "27B3CC18",
+   "target_crc32": "66BDB34A",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/chaos-gear-v1.3/chaos-gear-en-1.3.bps",
+   "sha256": "a4441ef7209dd38bdbe761e53bae5a8433c41bcc7884ccca00380738fb990e56",
+   "size": 144137,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/chaos-gear-v1.3",
+   "notes": "**Chaos Gear: Michibikareshi Mono** (カオスギア 導かれし者) is a strategy game from Bandai, released in Japan in 1999 for the original (monochrome) WonderSwan. You play a Chaos Gainer, a being summoned into a world where four powers (the Empire, the Mana Kingdom, the Gaia tribes and the Eleal Brigade) fight over castles and over chaos gear, the substance only Chaos Gainers can produce. You build up your main tower and its facilities, plan, hire units and deploy them, collect cards in a Binder, and send your army into battle on the map.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Messages:** the story, the opening poem, battle shouts and quotes, and the game's system messages, in the game's own message boxes. Names you enter are inserted into messages.\n* **Names:** card names, unit names, weapon names and the names of facilities and castles.\n* **Menus:** the command menu reads Build / Plan / Hire / Deploy (the game's keiryaku command is called Plan everywhere), and the facility, Binder and phase menus are in English too.\n* **Pictures and label …"
+  }
+ ],
+ "produced_by": []
+}

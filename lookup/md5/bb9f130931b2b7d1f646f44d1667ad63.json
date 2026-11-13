@@ -13,6 +13,26 @@
  ],
  "patches": [
   {
+   "id": "6afb3b8b1c8c3560",
+   "game": "Cardcaptor Sakura: Sakura to Fushigi na Clow Card",
+   "variant": "cardcaptor-sakura-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "7F3A14C0",
+   "target_crc32": "C11D3CEA",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/cardcaptor-sakura-v1.0/cardcaptor-sakura-en-1.0.bps",
+   "sha256": "6afb3b8b1c8c356024f3cf2e3fe7bf77324aa301300f7e0b3b47f63341533d26",
+   "size": 367419,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/cardcaptor-sakura-v1.0",
+   "notes": "**Cardcaptor Sakura: Sakura to Fushigi na Clow Card** (カードキャプターさくら さくらとふしぎなクロウカード) is a game from Bandai, released in Japan in 1999 for the original (monochrome) WonderSwan. It follows the first anime season, with Sakura in grade 4, and wraps it in a weekly life sim: each week you plan lessons and activities with Kero, go out to visit friends, shop, help at home or write the diary, and raise your friends' affinity. The story walks through the Clow Cards in roughly the order of the anime, up to Earthy, Yue and the Final Judgment, and the cards are caught in turn-based battles. There is also a link-cable deck mode.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Story:** all 6,915 story texts, including the Hoe? and Hanyaan catchphrases and the Clow Card chants.\n* **Menus and messages:** all menus, the weekly planner, shop and weekly results, battle messages and card descriptions, and Kero's data screens.\n* **Pictures that contain text:** the title subtitle and start prompt, date cards, profile cards, weekend menu icons, battle command labels …"
+  },
+  {
    "id": "8e57c37f9bd6f40d",
    "game": "Cardcaptor Sakura: Sakura to Fushigi na Clow Card",
    "variant": "Cardcaptor Sakura [T-Es v0.2.1 Color]",

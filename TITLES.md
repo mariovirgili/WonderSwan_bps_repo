@@ -4,12 +4,12 @@ Every released WonderSwan and WonderSwan Color title, and the translation patche
 
 | System | Titles | With a translation patch |
 | --- | ---: | ---: |
-| WonderSwan | 219 | 36 (+5 ⚠️ another dump) |
-| WonderSwan Color | 229 | 43 (+1 ⚠️ another dump) |
+| WonderSwan | 219 | 38 (+5 ⚠️ another dump) |
+| WonderSwan Color | 229 | 44 (+1 ⚠️ another dump) |
 
-Last change to the patch catalog: 2026-11-12.
+Last change to the patch catalog: 2026-11-13.
 
-## Titles with translation patches (85)
+## Titles with translation patches (88)
 
 | | Title | System | Patches (newest version of each author) |
 | :---: | --- | --- | --- |
@@ -22,7 +22,8 @@ Last change to the patch catalog: 2026-11-12.
 | ✅ | beatmania for WonderSwan (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/beatmania-v1.0) |
 | ✅ | Blue Wing Blitz (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BlueWing_0.9.1) · [Gand46 v5.0.0](https://github.com/Gand46/BlueWingBlitz-Wonderswan-English-Translation-AI_GPT/blob/main/patch/Blue_Wing_Blitz_EN_Phase50_v5.0.0-test.1.bps) |
 | ✅ | Buffers Evolution (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/buffers-evolution-v1.0) |
-| ✅ | Cardcaptor Sakura - Sakura to Fushigi na Clow Card (Japan) | WonderSwan | **Spanish**: [mariovirgili v0.2.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/CCS_ES) |
+| ✅ | Cardcaptor Sakura - Sakura to Fushigi na Clow Card (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/cardcaptor-sakura-v1.0)<br>**Spanish**: [mariovirgili v0.2.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/CCS_ES) |
+| ✅ | Chaos Gear - Michibikareshi Mono (Japan) | WonderSwan | **English**: [PokemonGoDB v1.3](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/chaos-gear-v1.3) |
 | ✅ | Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 2) | WonderSwan | **Language not stated**: [Gand46 v1.1](https://github.com/Gand46/Chocobo_no_Fushigi_na_Dungeon_Mysterious_Dungeon_WS_AI_ROM-FIX-/blob/main/src/legacy_v1.1_original.ips) |
 | ✅ | Chou Aniki - Otoko no Tamafuda (Japan) (Rev 4) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ChouAniki_0.9) |
 | ✅ | Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3) | WonderSwan | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.1) |
@@ -36,9 +37,9 @@ Last change to the patch catalog: 2026-11-12.
 | ✅ | Digital Monster Card Game - Ver. WonderSwan Color (Japan) (Rev 2) | WonderSwan Color | **English**: [mariovirgili v0.9.3](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9) |
 | ✅ | Digital Partner (Japan) | WonderSwan | **English**: [PokemonGoDB v1.8](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/digital-partner-v1.8) |
 | ✅ | Dokodemo Hamster (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dokodemo-hamster-v1.0) |
-| ✅ | Dragon Ball (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DragonBall_0.9) |
+| ✅ | Dragon Ball (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DragonBall_0.9) |
 | ✅ | Engacho! for WonderSwan (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/engacho-v1.0) |
-| ✅ | Final Fantasy (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFI_v0.9) |
+| ✅ | Final Fantasy (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.3](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFI_v0.9) |
 | ✅ | Final Fantasy II (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFII_0.9.2) |
 | ✅ | Final Fantasy IV (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV) |
 | ✅ | Final Lap 2000 (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/final-lap-2000-v1.0) |
@@ -71,6 +72,7 @@ Last change to the patch catalog: 2026-11-12.
 | ✅ | Kidou Senshi Gundam Vol. 3 - A Baoa Qu (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol3-a-baoa-qu-v1.1) |
 | ⚠️ | Lode Runner for WonderSwan (Japan) | WonderSwan | ⚠️ for another dump of this title (ROM CRC32 `E407CABF`): **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0)<br>**Japanese**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0) |
 | ✅ | Macross - True Love Song (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MacrossTLS_0.9) |
+| ✅ | Magical Drop for WonderSwan (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MagicalDrop_0.9) |
 | ✅ | Makaimura for WonderSwan (Japan) | WonderSwan | **English**: [Gand46 v1](https://github.com/Gand46/MakaiMura-EEPROM-Wonderswan-English-Translation-AI_GPT-/blob/main/eeprom-mod/hf20-compatible/patches/Makaimura_HF20_EEPROM_v1_FROM_JP.bps) |
 | ✅ | Meitantei Conan - Yuugure no Oujo (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.6](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9.2) |
 | ✅ | MobileWonderGate (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/mobile-wondergate-v1.0) |
@@ -97,6 +99,7 @@ Last change to the patch catalog: 2026-11-12.
 | ✅ | Tetsujin 28 Gou (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Tetsujin28_0.9) |
 | ✅ | Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan) | WonderSwan | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BokanDensetsu_0.9) |
 | ✅ | Uchuu Senkan Yamato (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/UchuuSenkanYamato_0.9) |
+| ✅ | Wild Card (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wild-card-v1.0) |
 | ✅ | X - Card of Fate (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/X-Card_0.9) |
 
 ## WonderSwan (219 titles)
@@ -123,11 +126,11 @@ Last change to the patch catalog: 2026-11-12.
 | ✅ | **Buffers Evolution (Japan)** | `B25A0635` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/buffers-evolution-v1.0) |
 |  | Buro (World) (WonderWitch) | `0FC80E7F` | — |
 |  | C-Man (World) (Ja) (WonderWitch) | `ADB27977` | — |
-| ✅ | **Cardcaptor Sakura - Sakura to Fushigi na Clow Card (Japan)** | `7F3A14C0` | **Spanish**: [mariovirgili v0.2.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/CCS_ES) |
+| ✅ | **Cardcaptor Sakura - Sakura to Fushigi na Clow Card (Japan)** | `7F3A14C0` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/cardcaptor-sakura-v1.0)<br>**Spanish**: [mariovirgili v0.2.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/CCS_ES) |
 |  | Castle (World) (WonderWitch) | `4AC2E602` | — |
 |  | Cave Flyer (World) (Proto 1) (WonderWitch) | `98D6FB9E` | — |
 |  | Cave Flyer (World) (Proto 2) (WonderWitch) (WWGP2001) | `AC62A425` | — |
-|  | Chaos Gear - Michibikareshi Mono (Japan) | `27B3CC18` | — |
+| ✅ | **Chaos Gear - Michibikareshi Mono (Japan)** | `27B3CC18` | **English**: [PokemonGoDB v1.3](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/chaos-gear-v1.3) |
 |  | Chikyou o Mamore Ozon-sou (World) (Ja) (Proto) (WonderWitch) | `8FE6EFF8` | — |
 |  | Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 1) | `A607A350` | — |
 | ✅ | **Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 2)** | `CCAA4853` | **Language not stated**: [Gand46 v1.1](https://github.com/Gand46/Chocobo_no_Fushigi_na_Dungeon_Mysterious_Dungeon_WS_AI_ROM-FIX-/blob/main/src/legacy_v1.1_original.ips) |
@@ -202,7 +205,7 @@ Last change to the patch catalog: 2026-11-12.
 | ⚠️ | **Lode Runner for WonderSwan (Japan)** | `21279E82` | ⚠️ for another dump of this title (ROM CRC32 `E407CABF`): **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0)<br>**Japanese**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0) |
 |  | Mac the Speed Shooter (World) (Proto) (WonderWitch) | `C7493525` | — |
 | ✅ | **Macross - True Love Song (Japan)** | `62D419CD` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MacrossTLS_0.9) |
-|  | Magical Drop for WonderSwan (Japan) | `637ADA93` | — |
+| ✅ | **Magical Drop for WonderSwan (Japan)** | `637ADA93` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MagicalDrop_0.9) |
 |  | Mahjong Touryuumon (Japan) (Rev 1) | `C2ED122E` | — |
 |  | Mahjong Touryuumon (Japan) (Rev 3) | `E7E7FD4C` | — |
 | ✅ | **Makaimura for WonderSwan (Japan)** | `00B31FBB` | **English**: [Gand46 v1](https://github.com/Gand46/MakaiMura-EEPROM-Wonderswan-English-Translation-AI_GPT-/blob/main/eeprom-mod/hf20-compatible/patches/Makaimura_HF20_EEPROM_v1_FROM_JP.bps) |
@@ -378,11 +381,11 @@ Last change to the patch catalog: 2026-11-12.
 | ✅ | **Digital Monster Card Game - Ver. WonderSwan Color (Japan) (Rev 2)** | `1E760C41` | **English**: [mariovirgili v0.9.3](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9) |
 |  | Dokodemo Hamster 3 - Odekake Saffron (Japan) (Rev 2) | `93E19F13` | — |
 |  | Doukyuu Tantei Oke Solo (World) (Ja) (WonderWitch) | `65334388` | — |
-| ✅ | **Dragon Ball (Japan)** | `067238D1` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DragonBall_0.9) |
+| ✅ | **Dragon Ball (Japan)** | `067238D1` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DragonBall_0.9) |
 |  | Es=Loss Zero Side (World) (Ja) (WonderWitch) | `2B2835B3` | — |
 |  | Evil Dragon (World) (WonderWitch) | `AE2864D9` | — |
 |  | Features (World) (WonderWitch) | `3C995A4B` | — |
-| ✅ | **Final Fantasy (Japan)** | `B7243E88` | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFI_v0.9) |
+| ✅ | **Final Fantasy (Japan)** | `B7243E88` | **English**: [mariovirgili v0.9.3](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFI_v0.9) |
 | ✅ | **Final Fantasy II (Japan)** | `F09E752F` | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFII_0.9.2) |
 | ✅ | **Final Fantasy IV (Japan)** | `F699D6D1` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV) |
 | ✅ | **Final Lap Special - GT & Formula Machine (Japan)** | `B07E6A56` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FinalLapSpecial_0.9.1) |
@@ -541,7 +544,7 @@ Last change to the patch catalog: 2026-11-12.
 |  | UnderBabel (Supporting Data) (World) (Ja) (WonderWitch) | `F0B5886C` | — |
 |  | War Cup (World) (Ja) (Proto) (WonderWitch) | `BD2A1D58` | — |
 |  | Well-being (World) (WonderWitch) | `FD6767C9` | — |
-|  | Wild Card (Japan) | `D9401F0A` | — |
+| ✅ | **Wild Card (Japan)** | `D9401F0A` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wild-card-v1.0) |
 |  | Witch Typing (World) (Ja) (WonderWitch) | `4180AB58` | — |
 |  | Witches! (World) (WonderWitch) | `8B743ABD` | — |
 |  | With You - Mitsumete Itai (Japan) | `E14E9D36` | — |
