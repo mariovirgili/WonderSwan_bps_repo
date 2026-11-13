@@ -4,16 +4,16 @@ Every released WonderSwan and WonderSwan Color title, and the translation patche
 
 | System | Titles | With a translation patch |
 | --- | ---: | ---: |
-| WonderSwan | 219 | 38 (+5 ⚠️ another dump) |
-| WonderSwan Color | 229 | 44 (+1 ⚠️ another dump) |
+| WonderSwan | 219 | 41 (+5 ⚠️ another dump) |
+| WonderSwan Color | 229 | 46 (+1 ⚠️ another dump) |
 
 Last change to the patch catalog: 2026-11-13.
 
-## Titles with translation patches (88)
+## Titles with translation patches (93)
 
 | | Title | System | Patches (newest version of each author) |
 | :---: | --- | --- | --- |
-| ✅ | Alchemist Marie & Elie - Futari no Atelier (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.3](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/AtelierMarieElie_0.9.2) |
+| ✅ | Alchemist Marie & Elie - Futari no Atelier (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.4](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/AtelierMarieElie_0.9.2) |
 | ✅ | Anchorz Field (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/anchorz-field-v1.0) |
 | ✅ | Another Heaven - Memory of those Days (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/another-heaven-v1.1) |
 | ✅ | Arc the Lad - Kishin Fukkatsu (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ArcTheLad_0.9) |
@@ -50,6 +50,8 @@ Last change to the patch catalog: 2026-11-13.
 | ✅ | From TV Animation One Piece - Grand Battle Swan Colosseum (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.3](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/grand-battle-v1.3) |
 | ✅ | From TV Animation One Piece - Mezase Kaizoku Ou! (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/kaizoku-ou-v1.0) |
 | ✅ | From TV Animation One Piece - Niji no Shima Densetsu (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/one-piece-niji-v1.0) |
+| ✅ | From TV Animation One Piece - Treasure Wars (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars_0.9) |
+| ✅ | From TV Animation One Piece - Treasure Wars 2 - Buggy Land e Youkoso (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars2_0.9) |
 | ✅ | Front Mission (Japan) | WonderSwan Color | **English**: [Gand46 v035](https://github.com/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/blob/main/patches/v035_TEST_from_clean.bps) |
 | ✅ | Ganso Jajamaru-kun (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/jajamaru-v1.0) |
 | ✅ | Gensou Maden Saiyuuki Retribution - Hi no Ataru Basho de (Japan) (Rev 2) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/GensouMaden_0.9) |
@@ -74,11 +76,14 @@ Last change to the patch catalog: 2026-11-13.
 | ✅ | Macross - True Love Song (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MacrossTLS_0.9) |
 | ✅ | Magical Drop for WonderSwan (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MagicalDrop_0.9) |
 | ✅ | Makaimura for WonderSwan (Japan) | WonderSwan | **English**: [Gand46 v1](https://github.com/Gand46/MakaiMura-EEPROM-Wonderswan-English-Translation-AI_GPT-/blob/main/eeprom-mod/hf20-compatible/patches/Makaimura_HF20_EEPROM_v1_FROM_JP.bps) |
+| ✅ | Medarot Perfect Edition - Kabuto Version (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0) |
+| ✅ | Medarot Perfect Edition - Kuwagata Version (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0) |
 | ✅ | Meitantei Conan - Yuugure no Oujo (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.6](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9.2) |
 | ✅ | MobileWonderGate (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/mobile-wondergate-v1.0) |
 | ✅ | Namco Super Wars (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/NamcoSuperWars_0.9.1) |
 | ✅ | Neon Genesis Evangelion - Shito Ikusei (Japan) | WonderSwan | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Evangelion_ShitoIkusei_0.9.1) |
 | ✅ | Pocket Fighter (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/pocket-fighter-v1.0) |
+| ✅ | Puyo Puyo Tsuu (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuyoPuyoTsuu_0.9) |
 | ✅ | Puzzle Bobble (Japan) | WonderSwan | **English**: [mariovirgili v0.9.5.16](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuzzleBobble_0.9.5) |
 | ✅ | Ring Infinity (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/RingInfinity) · [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/ring-infinity-v1.1) |
 | ✅ | Riviera - Yakusoku no Chi Riviera (Japan) | WonderSwan Color | **English**: [Gand46 v0110](https://github.com/Gand46/Riviera-Wonderswan-English-Translation-AI_GPT/blob/main/sources/Riviera_S457_FULL_SOURCE/patches/Riviera_CLEAN_JP_to_v0110_S457_cumulative.bps) |
@@ -209,8 +214,8 @@ Last change to the patch catalog: 2026-11-13.
 |  | Mahjong Touryuumon (Japan) (Rev 1) | `C2ED122E` | — |
 |  | Mahjong Touryuumon (Japan) (Rev 3) | `E7E7FD4C` | — |
 | ✅ | **Makaimura for WonderSwan (Japan)** | `00B31FBB` | **English**: [Gand46 v1](https://github.com/Gand46/MakaiMura-EEPROM-Wonderswan-English-Translation-AI_GPT-/blob/main/eeprom-mod/hf20-compatible/patches/Makaimura_HF20_EEPROM_v1_FROM_JP.bps) |
-|  | Medarot Perfect Edition - Kabuto Version (Japan) | `12FB8B28` | — |
-|  | Medarot Perfect Edition - Kuwagata Version (Japan) | `2B40745D` | — |
+| ✅ | **Medarot Perfect Edition - Kabuto Version (Japan)** | `12FB8B28` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0) |
+| ✅ | **Medarot Perfect Edition - Kuwagata Version (Japan)** | `2B40745D` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0) |
 |  | Meitantei Conan - Majutsushi no Chousenjou! (Japan) | `92FBF7FB` | — |
 |  | Meitantei Conan - Nishi no Meitantei Saidai no Kiki! (Japan) | `E226863B` | — |
 |  | Metakomi Theraphy - Nee Kiite! (Japan) | `A3EAD689` | — |
@@ -246,7 +251,7 @@ Last change to the patch catalog: 2026-11-13.
 |  | Pro Mahjong Kiwame for WonderSwan (Japan) (Rev 1) | `90F7E6D6` | — |
 |  | Puchipuchi (World) (WonderWitch) | `79C048F7` | — |
 |  | Pudding Maker (World) (WonderWitch) | `F3BCB194` | — |
-|  | Puyo Puyo Tsuu (Japan) | `5A41A7BA` | — |
+| ✅ | **Puyo Puyo Tsuu (Japan)** | `5A41A7BA` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuyoPuyoTsuu_0.9) |
 | ✅ | **Puzzle Bobble (Japan)** | `F504CD84` | **English**: [mariovirgili v0.9.5.16](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuzzleBobble_0.9.5) |
 |  | Radius Theta (World) (WonderWitch) | `21398F12` | — |
 |  | Rainbow Islands - Putty's Party (Japan) | `8F8608AD` | — |
@@ -332,7 +337,7 @@ Last change to the patch catalog: 2026-11-13.
 | :---: | --- | --- | --- |
 |  | 3D Othello (World) (Ja) (WonderWitch) | `A6A6EC51` | — |
 |  | 4 Koma TV (World) (Ja) (WonderWitch) | `B0A64ACE` | — |
-| ✅ | **Alchemist Marie & Elie - Futari no Atelier (Japan)** | `B18CDC0D` | **English**: [mariovirgili v0.9.3](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/AtelierMarieElie_0.9.2) |
+| ✅ | **Alchemist Marie & Elie - Futari no Atelier (Japan)** | `B18CDC0D` | **English**: [mariovirgili v0.9.4](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/AtelierMarieElie_0.9.2) |
 | ✅ | **Another Heaven - Memory of those Days (Japan)** | `D7A0AB74` | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/another-heaven-v1.1) |
 | ✅ | **Arc the Lad - Kishin Fukkatsu (Japan)** | `E2317345` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ArcTheLad_0.9) |
 |  | Arial (World) (v0.21) (Proto) (WonderWitch) | `37F78F4B` | — |
@@ -398,8 +403,8 @@ Last change to the patch catalog: 2026-11-13.
 |  | From TV Animation One Piece - Grand Battle Swan Colosseum (Japan) (Sample) | `23853305` | — |
 | ✅ | **From TV Animation One Piece - Niji no Shima Densetsu (Japan)** | `427056C4` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/one-piece-niji-v1.0) |
 |  | From TV Animation One Piece - Treasure Wars (Japan) | `205503C3` | — |
-|  | From TV Animation One Piece - Treasure Wars (Japan) (Rev 1) | `3DF3E34C` | — |
-|  | From TV Animation One Piece - Treasure Wars 2 - Buggy Land e Youkoso (Japan) | `0D1048F0` | — |
+| ✅ | **From TV Animation One Piece - Treasure Wars (Japan) (Rev 1)** | `3DF3E34C` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars_0.9) |
+| ✅ | **From TV Animation One Piece - Treasure Wars 2 - Buggy Land e Youkoso (Japan)** | `0D1048F0` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars2_0.9) |
 | ✅ | **Front Mission (Japan)** | `2F9E2560` | **English**: [Gand46 v035](https://github.com/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/blob/main/patches/v035_TEST_from_clean.bps) |
 |  | Gansaku Shuu Watch (World) (Ja) (WonderWitch) | `C9C7BA79` | — |
 |  | Gekitou! Crash Gear Turbo - Gear Champion League (Japan) | `8A8B827C` | — |

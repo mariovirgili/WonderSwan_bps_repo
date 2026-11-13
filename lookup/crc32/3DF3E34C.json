@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "3DF3E34C"
+ },
+ "crc32": "3DF3E34C",
+ "size": 4194304,
+ "md5": "166946565e646215816123677c7c2108",
+ "sha1": "55088795164170c24b243a1b572506f123064c0f",
+ "names": [
+  "From TV Animation One Piece - Treasure Wars (Japan) (Rev 1).wsc"
+ ],
+ "patches": [
+  {
+   "id": "02cbc9c3a8762516",
+   "game": "From TV Animation One Piece: Treasure Wars",
+   "variant": "One.Piece.-.Treasure.Wars.EN.v0.9",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "3DF3E34C",
+   "target_crc32": "85EEC653",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/OnePieceTreasureWars_0.9/One.Piece.-.Treasure.Wars.EN.v0.9.bps",
+   "sha256": "02cbc9c3a8762516bd08cbfb4820d85ebb7a41ac37993014efb0b8bcc6f190db",
+   "size": 1199612,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars_0.9",
+   "notes": "**From TV Animation One Piece: Treasure Wars** is Bandai's 2002 One Piece board game for the WonderSwan Color, released only in Japan. Luffy, Zoro, Nami, Usopp, Sanji and Chopper sail to King Cello's islands to join the \"Treasure Wars\": roll the dice, move around each island, collect hints, items and Berries, and grab the island's treasure, the Life Gem, before the Log Pose is charged. Rivals meet in quick dice-and-move battles. Story mode follows the crew over five islands, with Buggy, Alvida, Kuro, Krieg, Arlong, Smoker, Baroque Works and the game's own villain, Ritton; there are also Free, Bingo (the Bingo Book) and Teach (tutorial) modes.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nALL CAPS version:\n\n**How to patch**\n\nApply one of the patches to *From TV Animation One Piece - Treasure Wars (Japan) (Rev 1).wsc* (4 MB, CRC32 3DF3E34C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB; keep the .wsc extension.\n\n* Normal: `One.Piece.-.Treasure.Wars.EN.v0.9.bps`, CRC32 85EEC653.\n* ALL CAPS: …"
+  },
+  {
+   "id": "1064b14404717fff",
+   "game": "From TV Animation One Piece: Treasure Wars",
+   "variant": "One.Piece.-.Treasure.Wars.EN.v0.9.ALL.CAPS",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "3DF3E34C",
+   "target_crc32": "93049CDA",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/OnePieceTreasureWars_0.9/One.Piece.-.Treasure.Wars.EN.v0.9.ALL.CAPS.bps",
+   "sha256": "1064b14404717fff2edbd75e3971e7f6a78c82ee02753cb8c54b480004d8963a",
+   "size": 1199758,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars_0.9",
+   "notes": "**From TV Animation One Piece: Treasure Wars** is Bandai's 2002 One Piece board game for the WonderSwan Color, released only in Japan. Luffy, Zoro, Nami, Usopp, Sanji and Chopper sail to King Cello's islands to join the \"Treasure Wars\": roll the dice, move around each island, collect hints, items and Berries, and grab the island's treasure, the Life Gem, before the Log Pose is charged. Rivals meet in quick dice-and-move battles. Story mode follows the crew over five islands, with Buggy, Alvida, Kuro, Krieg, Arlong, Smoker, Baroque Works and the game's own villain, Ritton; there are also Free, Bingo (the Bingo Book) and Teach (tutorial) modes.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nALL CAPS version:\n\n**How to patch**\n\nApply one of the patches to *From TV Animation One Piece - Treasure Wars (Japan) (Rev 1).wsc* (4 MB, CRC32 3DF3E34C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB; keep the .wsc extension.\n\n* Normal: `One.Piece.-.Treasure.Wars.EN.v0.9.bps`, CRC32 85EEC653.\n* ALL CAPS: …"
+  }
+ ],
+ "produced_by": []
+}

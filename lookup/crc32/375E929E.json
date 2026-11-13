@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "375E929E"
+ },
+ "crc32": "375E929E",
+ "size": 2097152,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "160606a952522055",
+   "game": "Medarot Perfect Edition",
+   "variant": "medarot-kabuto-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "12FB8B28",
+   "target_crc32": "375E929E",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/medarot-v1.0/medarot-kabuto-en-1.0.bps",
+   "sha256": "160606a95252205518505504762205a0303eb318bad85d989dca07ad44df7db3",
+   "size": 165443,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0",
+   "notes": "**Medarot Perfect Edition** (メダロット パーフェクトエディション) is the WonderSwan version of Imagineer's robot-collecting RPG. The player builds a Medabot from a Medal and four parts (head, right arm, left arm, legs), fights \"Robattles\", and collects parts. It came out as two cartridges, **Kabuto Version** and **Kuwagata Version**, which differ in the starting Medal and in some of the story. This patch translates both into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**Which patch do I need?** Pick your cartridge's version, then a name edition. There are four patches:\n\n| Patch | For the ROM | Names |\n| --- | --- | --- |\n| `medarot-kabuto-en-1.0` | Kabuto Version (Japan) | English cartoon names: Medabot, Robattle, Medafighter, Rubberobo gang, Select Corps |\n| `medarot-kabuto-en-fan-1.0` | Kabuto Version (Japan) | Fan names: Medarot, Robottle, Medarotter, RoboRobo, Select Force |\n| `medarot-kuwagata-en-1.0` | Kuwagata Version (Japan) | English cartoon names |\n| `medarot-kuwagata-en-fan-1.0` | Kuwagata Version (Japan) | Fan names |\n\nThe translation is the same in both name editions; only the names of the series' …"
+  }
+ ]
+}

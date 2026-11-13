@@ -35,6 +35,34 @@
    ],
    "produced_by": []
   },
+  "00405449": {
+   "crc32": "00405449",
+   "size": 524288,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "f767a70c8a7a46ec",
+     "game": "Lode Runner for WonderSwan",
+     "variant": "lode-runner-se-en-color-0.9",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "E407CABF",
+     "target_crc32": "00405449",
+     "target_size": 524288,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/lode-runner-v1.0/lode-runner-se-en-color-0.9.bps",
+     "sha256": "f767a70c8a7a46ec05855822460ee04632dbb45282b8982559df74f8c9f2c487",
+     "size": 123077,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0",
+     "notes": "**Lode Runner for WonderSwan** is Banpresto's version of the classic dig-and-collect puzzle game, developed by Aisystem Tokyo and released only in Japan in 2000 for the original (monochrome) WonderSwan. You run, climb and dig holes to trap the guards while you collect every pile of gold. Story Mode follows a diver who finds a lost golden kingdom under the sea. There's also Select Mode, the original Lode Runner maps, a map editor with two save slots, map trading over the link cable (Data I/O), and DOWN LOAD, which fetched new stages through Bandai's Mobile WonderGate phone adapter.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything on screen:** the menus and prompts, the map editor, Data I/O, Option (viewing and deleting save data), the chapter tally, the phone-number keypad, and the WonderGate download screens with all 21 error messages. The game has no text font: every Japanese word is a picture, and the English is lettered into the same places.\n* **Story:** all five chapters and the ending, for both heroes. The male hero (俺) is blunt …"
+    }
+   ]
+  },
   "009E038F": {
    "crc32": "009E038F",
    "size": 2097152,
@@ -489,6 +517,58 @@
    ],
    "produced_by": []
   },
+  "0D1048F0": {
+   "crc32": "0D1048F0",
+   "size": 8388608,
+   "md5": "852740c38184f0dbb27ee2bdf670869a",
+   "sha1": "b7775e8f60fd62dc07f2865f8fad29a11e12dbb5",
+   "names": [
+    "From TV Animation One Piece - Treasure Wars 2 - Buggy Land e Youkoso (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "28e9689cc43ef4bb",
+     "game": "From TV Animation One Piece: Treasure Wars 2 - Welcome to Buggy Land",
+     "variant": "One.Piece.-.Treasure.Wars.2.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "0D1048F0",
+     "target_crc32": "31AF460F",
+     "target_size": 16777216,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/OnePieceTreasureWars2_0.9/One.Piece.-.Treasure.Wars.2.EN.v0.9.bps",
+     "sha256": "28e9689cc43ef4bb8df648574358cbe10006d7a2044d62b9cc591c8ca50e75f6",
+     "size": 2387084,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars2_0.9",
+     "notes": "**From TV Animation One Piece: Treasure Wars 2 - Welcome to Buggy Land** is Bandai's 2002 One Piece board game for the WonderSwan Color, released only in Japan. Buggy has opened a pirate amusement park, Buggy Land, and invites Luffy's crew and a crowd of other characters to play the \"Treasure Wars\": roll the dice across the park's attractions, collect hints, steal treasures and keys with Actions and items, and hold the treasure when the Log is full. Story mode follows the crew through the attractions up to Buggy Castle; there are also Party (up to 4 players on one Swan), Teach (tutorial), Bingo Book and Link modes.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nALL CAPS version:\n\n**How to patch**\n\nApply one of the patches to *From TV Animation One Piece - Treasure Wars 2 - Buggy Land e Youkoso (Japan).wsc* (8 MB, CRC32 0D1048F0) with Floating IPS, beat or ROM Patcher JS. The result is 16 MB; keep the .wsc extension.\n\n* Normal: `One.Piece.-.Treasure.Wars.2.EN.v0.9.bps`, CRC32 31AF460F.\n* ALL CAPS: …"
+    },
+    {
+     "id": "e3153ebac08ef272",
+     "game": "From TV Animation One Piece: Treasure Wars 2 - Welcome to Buggy Land",
+     "variant": "One.Piece.-.Treasure.Wars.2.EN.v0.9.ALL.CAPS",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "0D1048F0",
+     "target_crc32": "57BD94D9",
+     "target_size": 16777216,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/OnePieceTreasureWars2_0.9/One.Piece.-.Treasure.Wars.2.EN.v0.9.ALL.CAPS.bps",
+     "sha256": "e3153ebac08ef272e63c9b011a51f48fa44dacbd8ac73c2029b890ea9a2c2e18",
+     "size": 2387007,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars2_0.9",
+     "notes": "**From TV Animation One Piece: Treasure Wars 2 - Welcome to Buggy Land** is Bandai's 2002 One Piece board game for the WonderSwan Color, released only in Japan. Buggy has opened a pirate amusement park, Buggy Land, and invites Luffy's crew and a crowd of other characters to play the \"Treasure Wars\": roll the dice across the park's attractions, collect hints, steal treasures and keys with Actions and items, and hold the treasure when the Log is full. Story mode follows the crew through the attractions up to Buggy Castle; there are also Party (up to 4 players on one Swan), Teach (tutorial), Bingo Book and Link modes.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nALL CAPS version:\n\n**How to patch**\n\nApply one of the patches to *From TV Animation One Piece - Treasure Wars 2 - Buggy Land e Youkoso (Japan).wsc* (8 MB, CRC32 0D1048F0) with Floating IPS, beat or ROM Patcher JS. The result is 16 MB; keep the .wsc extension.\n\n* Normal: `One.Piece.-.Treasure.Wars.2.EN.v0.9.bps`, CRC32 31AF460F.\n* ALL CAPS: …"
+    }
+   ],
+   "produced_by": []
+  },
   "0D1AB044": {
    "crc32": "0D1AB044",
    "size": 2097152,
@@ -566,6 +646,59 @@
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/D-Project_v0.9",
      "notes": "**Digital Monster: D-Project** is a 2002 Bandai Digimon raising and adventure game for the WonderSwan Color that never left Japan. The game you just bought has been \"hacked\": its data is being erased, and Ophanimon pulls you inside to repair it. You hatch Digimon with the Egg Machine, raise them, walk the broken areas of the Digital World, fight with up to three partners, and restore the lost land by bringing new Digimon to life. It also links with the Pendulum and D-Power toys of the time.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI** (Claude), as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**Reference guide**\n\nTerms, area names and menu names follow **\"WSC Digimon D-project ENG Guide\" by DigiKidult**, an English guide translated from his Chinese one: https://docs.google.com/spreadsheets/d/1FWjNVGwpuqjQgj14EFWB6HkTaJqRKSe6x0xbiW-z2aw/htmlview\n\nMany thanks to DigiKidult. Keep the guide open while you play: it has the egg codes, item codes, Digivolution requirements and the story route.\n\n**What's translated**\n\n* The whole script: the \"hacked\" opening and the data erasure, Ophanimon, every story event, the Sovereigns, the villains and the ending.\n* Menus: field menu (Items, Digimon, Call Back, Map, Save), items and …"
+    }
+   ],
+   "produced_by": []
+  },
+  "12FB8B28": {
+   "crc32": "12FB8B28",
+   "size": 1048576,
+   "md5": "893ac7863337a65c919780b41bc52406",
+   "sha1": "509e5748e5efdfb56093c78ae886153dd1838215",
+   "names": [
+    "Kuwagata Version (Japan)",
+    "Medarot Perfect Edition - Kabuto Version (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "160606a952522055",
+     "game": "Medarot Perfect Edition",
+     "variant": "medarot-kabuto-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "12FB8B28",
+     "target_crc32": "375E929E",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/medarot-v1.0/medarot-kabuto-en-1.0.bps",
+     "sha256": "160606a95252205518505504762205a0303eb318bad85d989dca07ad44df7db3",
+     "size": 165443,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0",
+     "notes": "**Medarot Perfect Edition** (メダロット パーフェクトエディション) is the WonderSwan version of Imagineer's robot-collecting RPG. The player builds a Medabot from a Medal and four parts (head, right arm, left arm, legs), fights \"Robattles\", and collects parts. It came out as two cartridges, **Kabuto Version** and **Kuwagata Version**, which differ in the starting Medal and in some of the story. This patch translates both into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**Which patch do I need?** Pick your cartridge's version, then a name edition. There are four patches:\n\n| Patch | For the ROM | Names |\n| --- | --- | --- |\n| `medarot-kabuto-en-1.0` | Kabuto Version (Japan) | English cartoon names: Medabot, Robattle, Medafighter, Rubberobo gang, Select Corps |\n| `medarot-kabuto-en-fan-1.0` | Kabuto Version (Japan) | Fan names: Medarot, Robottle, Medarotter, RoboRobo, Select Force |\n| `medarot-kuwagata-en-1.0` | Kuwagata Version (Japan) | English cartoon names |\n| `medarot-kuwagata-en-fan-1.0` | Kuwagata Version (Japan) | Fan names |\n\nThe translation is the same in both name editions; only the names of the series' …"
+    },
+    {
+     "id": "04e1ce58cb2f707a",
+     "game": "Medarot Perfect Edition",
+     "variant": "medarot-kabuto-en-fan-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "12FB8B28",
+     "target_crc32": "D9CF3C8B",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/medarot-v1.0/medarot-kabuto-en-fan-1.0.bps",
+     "sha256": "04e1ce58cb2f707ab715dab832fbb04ebdf62af77757c98a27f8f5f1f3ab31d1",
+     "size": 165328,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0",
+     "notes": "**Medarot Perfect Edition** (メダロット パーフェクトエディション) is the WonderSwan version of Imagineer's robot-collecting RPG. The player builds a Medabot from a Medal and four parts (head, right arm, left arm, legs), fights \"Robattles\", and collects parts. It came out as two cartridges, **Kabuto Version** and **Kuwagata Version**, which differ in the starting Medal and in some of the story. This patch translates both into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**Which patch do I need?** Pick your cartridge's version, then a name edition. There are four patches:\n\n| Patch | For the ROM | Names |\n| --- | --- | --- |\n| `medarot-kabuto-en-1.0` | Kabuto Version (Japan) | English cartoon names: Medabot, Robattle, Medafighter, Rubberobo gang, Select Corps |\n| `medarot-kabuto-en-fan-1.0` | Kabuto Version (Japan) | Fan names: Medarot, Robottle, Medarotter, RoboRobo, Select Force |\n| `medarot-kuwagata-en-1.0` | Kuwagata Version (Japan) | English cartoon names |\n| `medarot-kuwagata-en-fan-1.0` | Kuwagata Version (Japan) | Fan names |\n\nThe translation is the same in both name editions; only the names of the series' …"
     }
    ],
    "produced_by": []
@@ -1767,6 +1900,87 @@
     }
    ]
   },
+  "2B40745D": {
+   "crc32": "2B40745D",
+   "size": 1048576,
+   "md5": "d8a29d331e9ba86609c75a4aedf9c269",
+   "sha1": "315061e4739e947175d6ad7f006498cd61a33f8c",
+   "names": [
+    "Kuwagata Version (Japan)",
+    "Medarot Perfect Edition - Kuwagata Version (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "6ccd0e1b1301802e",
+     "game": "Medarot Perfect Edition",
+     "variant": "medarot-kuwagata-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "2B40745D",
+     "target_crc32": "A10D783A",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/medarot-v1.0/medarot-kuwagata-en-1.0.bps",
+     "sha256": "6ccd0e1b1301802ed37f173a212d62045b0edc13d0e123776d1d7c485ba1af3d",
+     "size": 166418,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0",
+     "notes": "**Medarot Perfect Edition** (メダロット パーフェクトエディション) is the WonderSwan version of Imagineer's robot-collecting RPG. The player builds a Medabot from a Medal and four parts (head, right arm, left arm, legs), fights \"Robattles\", and collects parts. It came out as two cartridges, **Kabuto Version** and **Kuwagata Version**, which differ in the starting Medal and in some of the story. This patch translates both into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**Which patch do I need?** Pick your cartridge's version, then a name edition. There are four patches:\n\n| Patch | For the ROM | Names |\n| --- | --- | --- |\n| `medarot-kabuto-en-1.0` | Kabuto Version (Japan) | English cartoon names: Medabot, Robattle, Medafighter, Rubberobo gang, Select Corps |\n| `medarot-kabuto-en-fan-1.0` | Kabuto Version (Japan) | Fan names: Medarot, Robottle, Medarotter, RoboRobo, Select Force |\n| `medarot-kuwagata-en-1.0` | Kuwagata Version (Japan) | English cartoon names |\n| `medarot-kuwagata-en-fan-1.0` | Kuwagata Version (Japan) | Fan names |\n\nThe translation is the same in both name editions; only the names of the series' …"
+    },
+    {
+     "id": "63486c5c808a1809",
+     "game": "Medarot Perfect Edition",
+     "variant": "medarot-kuwagata-en-fan-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "2B40745D",
+     "target_crc32": "2C14DE6F",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/medarot-v1.0/medarot-kuwagata-en-fan-1.0.bps",
+     "sha256": "63486c5c808a18097c3944052b98b00f733c3ce2256b11faa28975ea213e9cee",
+     "size": 166291,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0",
+     "notes": "**Medarot Perfect Edition** (メダロット パーフェクトエディション) is the WonderSwan version of Imagineer's robot-collecting RPG. The player builds a Medabot from a Medal and four parts (head, right arm, left arm, legs), fights \"Robattles\", and collects parts. It came out as two cartridges, **Kabuto Version** and **Kuwagata Version**, which differ in the starting Medal and in some of the story. This patch translates both into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**Which patch do I need?** Pick your cartridge's version, then a name edition. There are four patches:\n\n| Patch | For the ROM | Names |\n| --- | --- | --- |\n| `medarot-kabuto-en-1.0` | Kabuto Version (Japan) | English cartoon names: Medabot, Robattle, Medafighter, Rubberobo gang, Select Corps |\n| `medarot-kabuto-en-fan-1.0` | Kabuto Version (Japan) | Fan names: Medarot, Robottle, Medarotter, RoboRobo, Select Force |\n| `medarot-kuwagata-en-1.0` | Kuwagata Version (Japan) | English cartoon names |\n| `medarot-kuwagata-en-fan-1.0` | Kuwagata Version (Japan) | Fan names |\n\nThe translation is the same in both name editions; only the names of the series' …"
+    }
+   ],
+   "produced_by": []
+  },
+  "2C14DE6F": {
+   "crc32": "2C14DE6F",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "63486c5c808a1809",
+     "game": "Medarot Perfect Edition",
+     "variant": "medarot-kuwagata-en-fan-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "2B40745D",
+     "target_crc32": "2C14DE6F",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/medarot-v1.0/medarot-kuwagata-en-fan-1.0.bps",
+     "sha256": "63486c5c808a18097c3944052b98b00f733c3ce2256b11faa28975ea213e9cee",
+     "size": 166291,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0",
+     "notes": "**Medarot Perfect Edition** (メダロット パーフェクトエディション) is the WonderSwan version of Imagineer's robot-collecting RPG. The player builds a Medabot from a Medal and four parts (head, right arm, left arm, legs), fights \"Robattles\", and collects parts. It came out as two cartridges, **Kabuto Version** and **Kuwagata Version**, which differ in the starting Medal and in some of the story. This patch translates both into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**Which patch do I need?** Pick your cartridge's version, then a name edition. There are four patches:\n\n| Patch | For the ROM | Names |\n| --- | --- | --- |\n| `medarot-kabuto-en-1.0` | Kabuto Version (Japan) | English cartoon names: Medabot, Robattle, Medafighter, Rubberobo gang, Select Corps |\n| `medarot-kabuto-en-fan-1.0` | Kabuto Version (Japan) | Fan names: Medarot, Robottle, Medarotter, RoboRobo, Select Force |\n| `medarot-kuwagata-en-1.0` | Kuwagata Version (Japan) | English cartoon names |\n| `medarot-kuwagata-en-fan-1.0` | Kuwagata Version (Japan) | Fan names |\n\nThe translation is the same in both name editions; only the names of the series' …"
+    }
+   ]
+  },
   "2D1D4A81": {
    "crc32": "2D1D4A81",
    "size": 4194304,
@@ -2063,6 +2277,34 @@
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/CCS_ES",
      "notes": "**Cardcaptor Sakura - Sakura to Fushigi na Clow Card** (\"Sakura and the Mysterious Clow Cards\") is Bandai's 1999 Cardcaptor Sakura game for the WonderSwan, released only in Japan. It follows the first season of the anime: Sakura Kinomoto opens a strange book in her father's study, the Clow Cards scatter all over Tomoeda, and Kero, the Beast of the Seal, makes her a Cardcaptor. Week after week you plan Sakura's days, spend Sundays with her friends and family, and capture the Clow Cards in battles where the cards themselves are your weapons.\n\nHere is the game in **Spanish from Spain**, in two versions with the same text: black and white (WonderSwan and WonderSwan Color) and Color (in colour on the WonderSwan Color). English version will be done by Hilltop Works.\n\n> **Please read:** this translation was made **only with AI**, as a personal project. I'm sharing it as it is for personal use, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n****Download:** HERE**\n\n**How it was made (double AI check)**\n\n1. Claude translated the whole game from the Japanese.\n2. ChatGPT reviewed all 9,042 lines against the Japanese and flagged doubtful lines and open choices.\n3. Claude checked ChatGPT's review again line by line before applying it (some proposals were rewritten or shortened to fit the screen), and the open choices (terms and names) were decided by me, waiting for a …"
+    }
+   ]
+  },
+  "31AF460F": {
+   "crc32": "31AF460F",
+   "size": 16777216,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "28e9689cc43ef4bb",
+     "game": "From TV Animation One Piece: Treasure Wars 2 - Welcome to Buggy Land",
+     "variant": "One.Piece.-.Treasure.Wars.2.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "0D1048F0",
+     "target_crc32": "31AF460F",
+     "target_size": 16777216,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/OnePieceTreasureWars2_0.9/One.Piece.-.Treasure.Wars.2.EN.v0.9.bps",
+     "sha256": "28e9689cc43ef4bb8df648574358cbe10006d7a2044d62b9cc591c8ca50e75f6",
+     "size": 2387084,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars2_0.9",
+     "notes": "**From TV Animation One Piece: Treasure Wars 2 - Welcome to Buggy Land** is Bandai's 2002 One Piece board game for the WonderSwan Color, released only in Japan. Buggy has opened a pirate amusement park, Buggy Land, and invites Luffy's crew and a crowd of other characters to play the \"Treasure Wars\": roll the dice across the park's attractions, collect hints, steal treasures and keys with Actions and items, and hold the treasure when the Log is full. Story mode follows the crew through the attractions up to Buggy Castle; there are also Party (up to 4 players on one Swan), Teach (tutorial), Bingo Book and Link modes.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nALL CAPS version:\n\n**How to patch**\n\nApply one of the patches to *From TV Animation One Piece - Treasure Wars 2 - Buggy Land e Youkoso (Japan).wsc* (8 MB, CRC32 0D1048F0) with Floating IPS, beat or ROM Patcher JS. The result is 16 MB; keep the .wsc extension.\n\n* Normal: `One.Piece.-.Treasure.Wars.2.EN.v0.9.bps`, CRC32 31AF460F.\n* ALL CAPS: …"
     }
    ]
   },
@@ -2488,6 +2730,34 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dekotora-v1.0",
      "notes": "**Bakusou Dekotora Densetsu for WonderSwan** (爆走デコトラ伝説) is KID and Kaga Tech's 1999 trucking-and-racing game about *dekotora*, Japan's lit-up, chrome-covered decorated trucks, released only in Japan for the original (monochrome) WonderSwan. You play a young trucker who left his hometown girlfriend Yukie with a promise: he'll become Japan's No. 1 trucker and come back for her. You haul cargo between 20 cities, race rival truckers over the CB radio for their parts and their money (BP), climb a ladder of expressway bosses all the way to Hokkaido, and tune and decorate your truck. Along the way you meet six women, and at the end you choose where to go. It's earnest, corny, hot-blooded melodrama with plenty of trash talk, and nobody in it is subtle. That's the charm.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script, about 4,900 lines: the story, every rival trucker's challenge and taunts, the six women's stories and the endings, jobs and cargo, shops, parts, and the CB radio chatter.\n* Menus, the name entry (an English letter grid), race HUD labels and song captions, …"
+    }
+   ]
+  },
+  "375E929E": {
+   "crc32": "375E929E",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "160606a952522055",
+     "game": "Medarot Perfect Edition",
+     "variant": "medarot-kabuto-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "12FB8B28",
+     "target_crc32": "375E929E",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/medarot-v1.0/medarot-kabuto-en-1.0.bps",
+     "sha256": "160606a95252205518505504762205a0303eb318bad85d989dca07ad44df7db3",
+     "size": 165443,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0",
+     "notes": "**Medarot Perfect Edition** (メダロット パーフェクトエディション) is the WonderSwan version of Imagineer's robot-collecting RPG. The player builds a Medabot from a Medal and four parts (head, right arm, left arm, legs), fights \"Robattles\", and collects parts. It came out as two cartridges, **Kabuto Version** and **Kuwagata Version**, which differ in the starting Medal and in some of the story. This patch translates both into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**Which patch do I need?** Pick your cartridge's version, then a name edition. There are four patches:\n\n| Patch | For the ROM | Names |\n| --- | --- | --- |\n| `medarot-kabuto-en-1.0` | Kabuto Version (Japan) | English cartoon names: Medabot, Robattle, Medafighter, Rubberobo gang, Select Corps |\n| `medarot-kabuto-en-fan-1.0` | Kabuto Version (Japan) | Fan names: Medarot, Robottle, Medarotter, RoboRobo, Select Force |\n| `medarot-kuwagata-en-1.0` | Kuwagata Version (Japan) | English cartoon names |\n| `medarot-kuwagata-en-fan-1.0` | Kuwagata Version (Japan) | Fan names |\n\nThe translation is the same in both name editions; only the names of the series' …"
     }
    ]
   },
@@ -2956,6 +3226,58 @@
      "notes": "**Dicing Knight.** (賽目騎士遊戯) is an action roguelike by Platine Dispositif. It began as a winner of the WonderWitch programming contest and was released on cartridge in Japan in 2002 for the WonderSwan Color. You guide a hungry knight through randomly built dungeon floors, rolling dice to attack and watching your food.\n\nNearly all of the game is already in English: the menus, the item names and the messages. What is Japanese is four captions drawn as pictures. This patch puts those into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The intro caption:** \"This is the story of a hungry knight and an endless dream.\"\n* **The party-join message** when Princess R'lyeh gets up and looks at you. The original parodies a famous RPG recruitment line, and the English follows that formula: \"She looks at you as if she wants to join you!\"\n* **The bonus-dungeon ending caption** (\"Good work! (lol)\").\n* **The lockout screen** a black-and-white WonderSwan shows: \"This is only for WonderSwan Color or SwanCrystal!\"\n* **One fix to the game's own English:** DEFFENCE UP is now DEFENSE UP.\n* **File …"
     }
    ]
+  },
+  "3DF3E34C": {
+   "crc32": "3DF3E34C",
+   "size": 4194304,
+   "md5": "166946565e646215816123677c7c2108",
+   "sha1": "55088795164170c24b243a1b572506f123064c0f",
+   "names": [
+    "From TV Animation One Piece - Treasure Wars (Japan) (Rev 1).wsc"
+   ],
+   "patches": [
+    {
+     "id": "02cbc9c3a8762516",
+     "game": "From TV Animation One Piece: Treasure Wars",
+     "variant": "One.Piece.-.Treasure.Wars.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "3DF3E34C",
+     "target_crc32": "85EEC653",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/OnePieceTreasureWars_0.9/One.Piece.-.Treasure.Wars.EN.v0.9.bps",
+     "sha256": "02cbc9c3a8762516bd08cbfb4820d85ebb7a41ac37993014efb0b8bcc6f190db",
+     "size": 1199612,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars_0.9",
+     "notes": "**From TV Animation One Piece: Treasure Wars** is Bandai's 2002 One Piece board game for the WonderSwan Color, released only in Japan. Luffy, Zoro, Nami, Usopp, Sanji and Chopper sail to King Cello's islands to join the \"Treasure Wars\": roll the dice, move around each island, collect hints, items and Berries, and grab the island's treasure, the Life Gem, before the Log Pose is charged. Rivals meet in quick dice-and-move battles. Story mode follows the crew over five islands, with Buggy, Alvida, Kuro, Krieg, Arlong, Smoker, Baroque Works and the game's own villain, Ritton; there are also Free, Bingo (the Bingo Book) and Teach (tutorial) modes.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nALL CAPS version:\n\n**How to patch**\n\nApply one of the patches to *From TV Animation One Piece - Treasure Wars (Japan) (Rev 1).wsc* (4 MB, CRC32 3DF3E34C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB; keep the .wsc extension.\n\n* Normal: `One.Piece.-.Treasure.Wars.EN.v0.9.bps`, CRC32 85EEC653.\n* ALL CAPS: …"
+    },
+    {
+     "id": "1064b14404717fff",
+     "game": "From TV Animation One Piece: Treasure Wars",
+     "variant": "One.Piece.-.Treasure.Wars.EN.v0.9.ALL.CAPS",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "3DF3E34C",
+     "target_crc32": "93049CDA",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/OnePieceTreasureWars_0.9/One.Piece.-.Treasure.Wars.EN.v0.9.ALL.CAPS.bps",
+     "sha256": "1064b14404717fff2edbd75e3971e7f6a78c82ee02753cb8c54b480004d8963a",
+     "size": 1199758,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars_0.9",
+     "notes": "**From TV Animation One Piece: Treasure Wars** is Bandai's 2002 One Piece board game for the WonderSwan Color, released only in Japan. Luffy, Zoro, Nami, Usopp, Sanji and Chopper sail to King Cello's islands to join the \"Treasure Wars\": roll the dice, move around each island, collect hints, items and Berries, and grab the island's treasure, the Life Gem, before the Log Pose is charged. Rivals meet in quick dice-and-move battles. Story mode follows the crew over five islands, with Buggy, Alvida, Kuro, Krieg, Arlong, Smoker, Baroque Works and the game's own villain, Ritton; there are also Free, Bingo (the Bingo Book) and Teach (tutorial) modes.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nALL CAPS version:\n\n**How to patch**\n\nApply one of the patches to *From TV Animation One Piece - Treasure Wars (Japan) (Rev 1).wsc* (4 MB, CRC32 3DF3E34C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB; keep the .wsc extension.\n\n* Normal: `One.Piece.-.Treasure.Wars.EN.v0.9.bps`, CRC32 85EEC653.\n* ALL CAPS: …"
+    }
+   ],
+   "produced_by": []
   },
   "3E319733": {
    "crc32": "3E319733",
@@ -4248,6 +4570,34 @@
     }
    ]
   },
+  "57BD94D9": {
+   "crc32": "57BD94D9",
+   "size": 16777216,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "e3153ebac08ef272",
+     "game": "From TV Animation One Piece: Treasure Wars 2 - Welcome to Buggy Land",
+     "variant": "One.Piece.-.Treasure.Wars.2.EN.v0.9.ALL.CAPS",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "0D1048F0",
+     "target_crc32": "57BD94D9",
+     "target_size": 16777216,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/OnePieceTreasureWars2_0.9/One.Piece.-.Treasure.Wars.2.EN.v0.9.ALL.CAPS.bps",
+     "sha256": "e3153ebac08ef272e63c9b011a51f48fa44dacbd8ac73c2029b890ea9a2c2e18",
+     "size": 2387007,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars2_0.9",
+     "notes": "**From TV Animation One Piece: Treasure Wars 2 - Welcome to Buggy Land** is Bandai's 2002 One Piece board game for the WonderSwan Color, released only in Japan. Buggy has opened a pirate amusement park, Buggy Land, and invites Luffy's crew and a crowd of other characters to play the \"Treasure Wars\": roll the dice across the park's attractions, collect hints, steal treasures and keys with Actions and items, and hold the treasure when the Log is full. Story mode follows the crew through the attractions up to Buggy Castle; there are also Party (up to 4 players on one Swan), Teach (tutorial), Bingo Book and Link modes.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nALL CAPS version:\n\n**How to patch**\n\nApply one of the patches to *From TV Animation One Piece - Treasure Wars 2 - Buggy Land e Youkoso (Japan).wsc* (8 MB, CRC32 0D1048F0) with Floating IPS, beat or ROM Patcher JS. The result is 16 MB; keep the .wsc extension.\n\n* Normal: `One.Piece.-.Treasure.Wars.2.EN.v0.9.bps`, CRC32 31AF460F.\n* ALL CAPS: …"
+    }
+   ]
+  },
   "58494E5B": {
    "crc32": "58494E5B",
    "size": 8388608,
@@ -4385,6 +4735,98 @@
     }
    ]
   },
+  "5A41A7BA": {
+   "crc32": "5A41A7BA",
+   "size": 1048576,
+   "md5": "e5394d336231c99e9c93f1f41e80a401",
+   "sha1": "d72c1221c2ce3e281a0ee288a3d079aa8e1b714b",
+   "names": [
+    "Puyo Puyo Tsuu (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "0cd16b71e83bd63a",
+     "game": "Puyo Puyo Tsuu",
+     "variant": "Puyo.Puyo.Tsuu.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "5A41A7BA",
+     "target_crc32": "F68211CF",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/PuyoPuyoTsuu_0.9/Puyo.Puyo.Tsuu.EN.v0.9.bps",
+     "sha256": "0cd16b71e83bd63a2ee75c4e8310df9cbe524885fa33573c579de0488a1079b5",
+     "size": 15031,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuyoPuyoTsuu_0.9",
+     "notes": "**Puyo Puyo Tsuu** (Puyo Puyo 2) is the 1999 WonderSwan version of Compile's puzzle classic, published by Bandai and released only in Japan. Arle climbs Satan's \"Tower\" floor by floor and beats its monsters at Puyo Puyo: link four puyo of the same colour to pop them, build chains and bury the rival under nuisance puyo. There is also Toko Puyo (endless practice), two-player link matches and a rule editor.\n\nThe translation comes in four versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades. Normal (upper and lower case) or **ALL CAPS**.\n* **Colour:** the game turned into a WonderSwan Color game, normal or ALL CAPS. The five puyo colours are green, yellow, blue, red and purple; each main screen has its own colours, and on the title, the mode and difficulty select, the Tower and the rival select every character, bean, portrait and logo letter gets its own palette. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nColour version:\n\nBlack-and-white version:\n\nALL CAPS versions:\n\n**How to patch**\n\nAll four patches go on *Puyo Puyo Tsuu (Japan).ws* (1 MB, …"
+    },
+    {
+     "id": "135ee81f6570ea31",
+     "game": "Puyo Puyo Tsuu",
+     "variant": "Puyo.Puyo.Tsuu.EN.v0.9.ALL.CAPS",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "5A41A7BA",
+     "target_crc32": "CF534EB7",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/PuyoPuyoTsuu_0.9/Puyo.Puyo.Tsuu.EN.v0.9.ALL.CAPS.bps",
+     "sha256": "135ee81f6570ea31194a8748e450e476608b4a5dafc2908d16a56aec1339361b",
+     "size": 15031,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuyoPuyoTsuu_0.9",
+     "notes": "**Puyo Puyo Tsuu** (Puyo Puyo 2) is the 1999 WonderSwan version of Compile's puzzle classic, published by Bandai and released only in Japan. Arle climbs Satan's \"Tower\" floor by floor and beats its monsters at Puyo Puyo: link four puyo of the same colour to pop them, build chains and bury the rival under nuisance puyo. There is also Toko Puyo (endless practice), two-player link matches and a rule editor.\n\nThe translation comes in four versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades. Normal (upper and lower case) or **ALL CAPS**.\n* **Colour:** the game turned into a WonderSwan Color game, normal or ALL CAPS. The five puyo colours are green, yellow, blue, red and purple; each main screen has its own colours, and on the title, the mode and difficulty select, the Tower and the rival select every character, bean, portrait and logo letter gets its own palette. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nColour version:\n\nBlack-and-white version:\n\nALL CAPS versions:\n\n**How to patch**\n\nAll four patches go on *Puyo Puyo Tsuu (Japan).ws* (1 MB, …"
+    },
+    {
+     "id": "6b0ade8348409e03",
+     "game": "Puyo Puyo Tsuu",
+     "variant": "Puyo.Puyo.Tsuu.EN.v0.9.Color",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "5A41A7BA",
+     "target_crc32": "5AC848B0",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/PuyoPuyoTsuu_0.9/Puyo.Puyo.Tsuu.EN.v0.9.Color.bps",
+     "sha256": "6b0ade8348409e03b0f23324f2760a9ebad42707d4ced1ba3aea83e1e689bfff",
+     "size": 21832,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuyoPuyoTsuu_0.9",
+     "notes": "**Puyo Puyo Tsuu** (Puyo Puyo 2) is the 1999 WonderSwan version of Compile's puzzle classic, published by Bandai and released only in Japan. Arle climbs Satan's \"Tower\" floor by floor and beats its monsters at Puyo Puyo: link four puyo of the same colour to pop them, build chains and bury the rival under nuisance puyo. There is also Toko Puyo (endless practice), two-player link matches and a rule editor.\n\nThe translation comes in four versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades. Normal (upper and lower case) or **ALL CAPS**.\n* **Colour:** the game turned into a WonderSwan Color game, normal or ALL CAPS. The five puyo colours are green, yellow, blue, red and purple; each main screen has its own colours, and on the title, the mode and difficulty select, the Tower and the rival select every character, bean, portrait and logo letter gets its own palette. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nColour version:\n\nBlack-and-white version:\n\nALL CAPS versions:\n\n**How to patch**\n\nAll four patches go on *Puyo Puyo Tsuu (Japan).ws* (1 MB, …"
+    },
+    {
+     "id": "184dae1fe7efeb25",
+     "game": "Puyo Puyo Tsuu",
+     "variant": "Puyo.Puyo.Tsuu.EN.v0.9.Color.ALL.CAPS",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "5A41A7BA",
+     "target_crc32": "85898542",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/PuyoPuyoTsuu_0.9/Puyo.Puyo.Tsuu.EN.v0.9.Color.ALL.CAPS.bps",
+     "sha256": "184dae1fe7efeb25d1af7fb695b4d44b8f5b0ec4a1f49e58f7868142327c247c",
+     "size": 21832,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuyoPuyoTsuu_0.9",
+     "notes": "**Puyo Puyo Tsuu** (Puyo Puyo 2) is the 1999 WonderSwan version of Compile's puzzle classic, published by Bandai and released only in Japan. Arle climbs Satan's \"Tower\" floor by floor and beats its monsters at Puyo Puyo: link four puyo of the same colour to pop them, build chains and bury the rival under nuisance puyo. There is also Toko Puyo (endless practice), two-player link matches and a rule editor.\n\nThe translation comes in four versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades. Normal (upper and lower case) or **ALL CAPS**.\n* **Colour:** the game turned into a WonderSwan Color game, normal or ALL CAPS. The five puyo colours are green, yellow, blue, red and purple; each main screen has its own colours, and on the title, the mode and difficulty select, the Tower and the rival select every character, bean, portrait and logo letter gets its own palette. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nColour version:\n\nBlack-and-white version:\n\nALL CAPS versions:\n\n**How to patch**\n\nAll four patches go on *Puyo Puyo Tsuu (Japan).ws* (1 MB, …"
+    }
+   ],
+   "produced_by": []
+  },
   "5A5EE34A": {
    "crc32": "5A5EE34A",
    "size": 8388608,
@@ -4410,6 +4852,34 @@
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9",
      "notes": "**Riviera - Yakusoku no Chi Riviera** is Sting's 2002 RPG for the WonderSwan Color, published by Bandai and released only in Japan. Most people know it from the later Game Boy Advance and PSP remakes, but it started on the WonderSwan Color. A thousand years after Ragnarok, the war between the gods of Asgard and the demons of Utgard, the Seven Magi send two Grim Angels, Ein and Ledah, to the island of Riviera to unleash Retribution, the hidden power of the gods, because the demons seem to be coming back. Ein loses his memory, wakes up in Elendia, a village of sprites, and goes on with Rose, his familiar, and the girls he meets there: Fia, Lina, Serene and Cierra.\n\nThis patch translates the WonderSwan Color original into English.\n\nv0.9.9 brings the bug fixes of **@shaomu0**'s Japanese patch (Riviera_fix_v6) into the English translation: thank you for the work! Claude took the patch apart, checked that every change lands on game code the translation leaves untouched and kept the free ROM space its two new routines need clear of English text.\n\n**Download:** `Riviera.-.Yakusoku.no.Chi.Riviera.T-En.v0.9.9.zip` in the attachments below (the .bps patch, the README and the full JP/EN tables). The older zips are kept for reference.\n\n> **Please read:** this translation was made **entirely with AI** (Claude), as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the …"
+    }
+   ]
+  },
+  "5AC848B0": {
+   "crc32": "5AC848B0",
+   "size": 1048576,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "6b0ade8348409e03",
+     "game": "Puyo Puyo Tsuu",
+     "variant": "Puyo.Puyo.Tsuu.EN.v0.9.Color",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "5A41A7BA",
+     "target_crc32": "5AC848B0",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/PuyoPuyoTsuu_0.9/Puyo.Puyo.Tsuu.EN.v0.9.Color.bps",
+     "sha256": "6b0ade8348409e03b0f23324f2760a9ebad42707d4ced1ba3aea83e1e689bfff",
+     "size": 21832,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuyoPuyoTsuu_0.9",
+     "notes": "**Puyo Puyo Tsuu** (Puyo Puyo 2) is the 1999 WonderSwan version of Compile's puzzle classic, published by Bandai and released only in Japan. Arle climbs Satan's \"Tower\" floor by floor and beats its monsters at Puyo Puyo: link four puyo of the same colour to pop them, build chains and bury the rival under nuisance puyo. There is also Toko Puyo (endless practice), two-player link matches and a rule editor.\n\nThe translation comes in four versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades. Normal (upper and lower case) or **ALL CAPS**.\n* **Colour:** the game turned into a WonderSwan Color game, normal or ALL CAPS. The five puyo colours are green, yellow, blue, red and purple; each main screen has its own colours, and on the title, the mode and difficulty select, the Tower and the rival select every character, bean, portrait and logo letter gets its own palette. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nColour version:\n\nBlack-and-white version:\n\nALL CAPS versions:\n\n**How to patch**\n\nAll four patches go on *Puyo Puyo Tsuu (Japan).ws* (1 MB, …"
     }
    ]
   },
@@ -6110,6 +6580,34 @@
     }
    ]
   },
+  "85898542": {
+   "crc32": "85898542",
+   "size": 1048576,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "184dae1fe7efeb25",
+     "game": "Puyo Puyo Tsuu",
+     "variant": "Puyo.Puyo.Tsuu.EN.v0.9.Color.ALL.CAPS",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "5A41A7BA",
+     "target_crc32": "85898542",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/PuyoPuyoTsuu_0.9/Puyo.Puyo.Tsuu.EN.v0.9.Color.ALL.CAPS.bps",
+     "sha256": "184dae1fe7efeb25d1af7fb695b4d44b8f5b0ec4a1f49e58f7868142327c247c",
+     "size": 21832,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuyoPuyoTsuu_0.9",
+     "notes": "**Puyo Puyo Tsuu** (Puyo Puyo 2) is the 1999 WonderSwan version of Compile's puzzle classic, published by Bandai and released only in Japan. Arle climbs Satan's \"Tower\" floor by floor and beats its monsters at Puyo Puyo: link four puyo of the same colour to pop them, build chains and bury the rival under nuisance puyo. There is also Toko Puyo (endless practice), two-player link matches and a rule editor.\n\nThe translation comes in four versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades. Normal (upper and lower case) or **ALL CAPS**.\n* **Colour:** the game turned into a WonderSwan Color game, normal or ALL CAPS. The five puyo colours are green, yellow, blue, red and purple; each main screen has its own colours, and on the title, the mode and difficulty select, the Tower and the rival select every character, bean, portrait and logo letter gets its own palette. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nColour version:\n\nBlack-and-white version:\n\nALL CAPS versions:\n\n**How to patch**\n\nAll four patches go on *Puyo Puyo Tsuu (Japan).ws* (1 MB, …"
+    }
+   ]
+  },
   "85C4C9A1": {
    "crc32": "85C4C9A1",
    "size": 2097152,
@@ -6161,6 +6659,62 @@
     }
    ],
    "produced_by": []
+  },
+  "85EEC653": {
+   "crc32": "85EEC653",
+   "size": 8388608,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "02cbc9c3a8762516",
+     "game": "From TV Animation One Piece: Treasure Wars",
+     "variant": "One.Piece.-.Treasure.Wars.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "3DF3E34C",
+     "target_crc32": "85EEC653",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/OnePieceTreasureWars_0.9/One.Piece.-.Treasure.Wars.EN.v0.9.bps",
+     "sha256": "02cbc9c3a8762516bd08cbfb4820d85ebb7a41ac37993014efb0b8bcc6f190db",
+     "size": 1199612,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars_0.9",
+     "notes": "**From TV Animation One Piece: Treasure Wars** is Bandai's 2002 One Piece board game for the WonderSwan Color, released only in Japan. Luffy, Zoro, Nami, Usopp, Sanji and Chopper sail to King Cello's islands to join the \"Treasure Wars\": roll the dice, move around each island, collect hints, items and Berries, and grab the island's treasure, the Life Gem, before the Log Pose is charged. Rivals meet in quick dice-and-move battles. Story mode follows the crew over five islands, with Buggy, Alvida, Kuro, Krieg, Arlong, Smoker, Baroque Works and the game's own villain, Ritton; there are also Free, Bingo (the Bingo Book) and Teach (tutorial) modes.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nALL CAPS version:\n\n**How to patch**\n\nApply one of the patches to *From TV Animation One Piece - Treasure Wars (Japan) (Rev 1).wsc* (4 MB, CRC32 3DF3E34C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB; keep the .wsc extension.\n\n* Normal: `One.Piece.-.Treasure.Wars.EN.v0.9.bps`, CRC32 85EEC653.\n* ALL CAPS: …"
+    }
+   ]
+  },
+  "86208283": {
+   "crc32": "86208283",
+   "size": 524288,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "f43d0552263cf8a7",
+     "game": "Lode Runner for WonderSwan",
+     "variant": "lode-runner-en-color-0.9",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "E407CABF",
+     "target_crc32": "86208283",
+     "target_size": 524288,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/lode-runner-v1.0/lode-runner-en-color-0.9.bps",
+     "sha256": "f43d0552263cf8a7d73128a6b9cc176dd28d7abc80aba7f670b1ee0b7ea72b95",
+     "size": 93477,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0",
+     "notes": "**Lode Runner for WonderSwan** is Banpresto's version of the classic dig-and-collect puzzle game, developed by Aisystem Tokyo and released only in Japan in 2000 for the original (monochrome) WonderSwan. You run, climb and dig holes to trap the guards while you collect every pile of gold. Story Mode follows a diver who finds a lost golden kingdom under the sea. There's also Select Mode, the original Lode Runner maps, a map editor with two save slots, map trading over the link cable (Data I/O), and DOWN LOAD, which fetched new stages through Bandai's Mobile WonderGate phone adapter.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything on screen:** the menus and prompts, the map editor, Data I/O, Option (viewing and deleting save data), the chapter tally, the phone-number keypad, and the WonderGate download screens with all 21 error messages. The game has no text font: every Japanese word is a picture, and the English is lettered into the same places.\n* **Story:** all five chapters and the ending, for both heroes. The male hero (俺) is blunt …"
+    }
+   ]
   },
   "8655269E": {
    "crc32": "8655269E",
@@ -6461,6 +7015,34 @@
    ],
    "produced_by": []
   },
+  "8AB014BD": {
+   "crc32": "8AB014BD",
+   "size": 8388608,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "fb49f952cc562ee5",
+     "game": "Alchemist Marie & Elie: Futari no Atelier",
+     "variant": "Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.4",
+     "version": "0.9.4",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "B18CDC0D",
+     "target_crc32": "8AB014BD",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/AtelierMarieElie_0.9.2/Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.4.bps",
+     "sha256": "fb49f952cc562ee5db2e18716adf5a43afd1b5620a477fa265ee80508a86299b",
+     "size": 480220,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/AtelierMarieElie_0.9.2",
+     "notes": "*Marie & Elie: Futari no Atelier* is Gust's 2001 Atelier game for the WonderSwan Color, released only in Japan. Marie (Marlone), now a full-fledged alchemist, and Elie (Elfir Traum), the girl she once saved, open an atelier together in Salburg. Thieves have stolen everything Elie owned, and Fuehren from Kentnis asks the two of them to create something nobody has ever seen: the Primordial Flame. You have three years to synthesize items, take quests at the Sky Tavern, gather ingredients with adventurers, hold tea parties and meet the cast of both Atelier Marie and Atelier Elie.\n\nThis patch translates it into English.\n\n**What is translated**\n\n- The whole script: 2,643 messages (story events, town talk, quests, tea parties, gathering trips, battles, the endings, the item and character encyclopedia, the composer's comments in the music room, the staff roll).\n- Item and equipment names, all the menus and system strings.\n- The speaker nameplates (redrawn in English) and the item names painted on the item cards.\n- A new variable-width font for all the text; the dialogue is re-wrapped and paged automatically.\n- Names follow Koei Tecmo's official English releases of Atelier Marie where they exist (Marlone/Marie, Salburg, Ingrid, Schea Donnerstag, Enderk Yard, Kreis Kuehl, Ruven Filnir, Mu Seqstanse, Sky Tavern, Meister Rank...). The others were romanized from the Japanese.\n\n**Images**\n\n**How to patch**\n\nApply the .bps patch to the original Japanese ROM *Alchemist Marie & Elie - Futari …"
+    }
+   ]
+  },
   "8C660676": {
    "crc32": "8C660676",
    "size": 1048576,
@@ -6736,6 +7318,34 @@
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFI_v0.9",
      "notes": "**Final Fantasy** for the WonderSwan Color is Square's 2000 remake of the very first Final Fantasy, released only in Japan. The world is shrouded in darkness, and four Warriors of Light arrive in the kingdom of Cornelia, each holding a darkened Crystal.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Why a new translation?**\n\nThe WonderSwan Color Final Fantasy was never released outside Japan. The only English patch for it so far is Kalas's v0.91 from 2002, which was never finished. The game has had several official English releases since, but all of them are other remakes (PS1 Origins, GBA Dawn of Souls, PSP, Pixel Remaster), and each one adapted the script and renamed things in its own way. The NES version has a different set of names again.\n\nSo this translation starts again from the Japanese text of the WonderSwan Color ROM, and the whole game is translated: dialogue, menus, battle text, the opening narration and the graphics.\n\n> **About the names:** names follow the **official Japanese names of this version**, written in English, with no Western renames: Lukahn, Sarah, Matoya, Garland, Onlak, Gaia, Melmond, Port Pravoka, Crescent Lake, the Lufeinians, Lich, Marilith, Kraken, …"
+    }
+   ]
+  },
+  "93049CDA": {
+   "crc32": "93049CDA",
+   "size": 8388608,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "1064b14404717fff",
+     "game": "From TV Animation One Piece: Treasure Wars",
+     "variant": "One.Piece.-.Treasure.Wars.EN.v0.9.ALL.CAPS",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "3DF3E34C",
+     "target_crc32": "93049CDA",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/OnePieceTreasureWars_0.9/One.Piece.-.Treasure.Wars.EN.v0.9.ALL.CAPS.bps",
+     "sha256": "1064b14404717fff2edbd75e3971e7f6a78c82ee02753cb8c54b480004d8963a",
+     "size": 1199758,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars_0.9",
+     "notes": "**From TV Animation One Piece: Treasure Wars** is Bandai's 2002 One Piece board game for the WonderSwan Color, released only in Japan. Luffy, Zoro, Nami, Usopp, Sanji and Chopper sail to King Cello's islands to join the \"Treasure Wars\": roll the dice, move around each island, collect hints, items and Berries, and grab the island's treasure, the Life Gem, before the Log Pose is charged. Rivals meet in quick dice-and-move battles. Story mode follows the crew over five islands, with Buggy, Alvida, Kuro, Krieg, Arlong, Smoker, Baroque Works and the game's own villain, Ritton; there are also Free, Bingo (the Bingo Book) and Teach (tutorial) modes.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nALL CAPS version:\n\n**How to patch**\n\nApply one of the patches to *From TV Animation One Piece - Treasure Wars (Japan) (Rev 1).wsc* (4 MB, CRC32 3DF3E34C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB; keep the .wsc extension.\n\n* Normal: `One.Piece.-.Treasure.Wars.EN.v0.9.bps`, CRC32 85EEC653.\n* ALL CAPS: …"
     }
    ]
   },
@@ -7295,6 +7905,34 @@
    ],
    "produced_by": []
   },
+  "A10D783A": {
+   "crc32": "A10D783A",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "6ccd0e1b1301802e",
+     "game": "Medarot Perfect Edition",
+     "variant": "medarot-kuwagata-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "2B40745D",
+     "target_crc32": "A10D783A",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/medarot-v1.0/medarot-kuwagata-en-1.0.bps",
+     "sha256": "6ccd0e1b1301802ed37f173a212d62045b0edc13d0e123776d1d7c485ba1af3d",
+     "size": 166418,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0",
+     "notes": "**Medarot Perfect Edition** (メダロット パーフェクトエディション) is the WonderSwan version of Imagineer's robot-collecting RPG. The player builds a Medabot from a Medal and four parts (head, right arm, left arm, legs), fights \"Robattles\", and collects parts. It came out as two cartridges, **Kabuto Version** and **Kuwagata Version**, which differ in the starting Medal and in some of the story. This patch translates both into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**Which patch do I need?** Pick your cartridge's version, then a name edition. There are four patches:\n\n| Patch | For the ROM | Names |\n| --- | --- | --- |\n| `medarot-kabuto-en-1.0` | Kabuto Version (Japan) | English cartoon names: Medabot, Robattle, Medafighter, Rubberobo gang, Select Corps |\n| `medarot-kabuto-en-fan-1.0` | Kabuto Version (Japan) | Fan names: Medarot, Robottle, Medarotter, RoboRobo, Select Force |\n| `medarot-kuwagata-en-1.0` | Kuwagata Version (Japan) | English cartoon names |\n| `medarot-kuwagata-en-fan-1.0` | Kuwagata Version (Japan) | Fan names |\n\nThe translation is the same in both name editions; only the names of the series' …"
+    }
+   ]
+  },
   "A10DA837": {
    "crc32": "A10DA837",
    "size": 8388608,
@@ -7482,34 +8120,6 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/pocket-fighter-v1.0",
      "notes": "**Pocket Fighter** is the WonderSwan version of Capcom's chibi fighting game (known in English as Super Gem Fighter Mini Mix), made for Bandai by Soft Machine and released only in Japan in April 2000 for the original (monochrome) WonderSwan. Twelve fighters from Street Fighter, Darkstalkers and Red Earth brawl, collect gems and level up their special moves; on top of the arcade-style story mode with an ending for every fighter, the WonderSwan version adds Point Battle, a 131-card collection with its own turn-based Card Battle mode and Card Gallery, link-cable play, and online features through Bandai's Mobile WonderGate phone adapter.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Story mode:** every opening, rival meeting and ending (36 scenes, 274 pages), and the conversations shown over the fight stages.\n* **Fights:** all 193 win quotes and the CONTINUE? hints.\n* **Cards:** the 131 card names (GET CARD and Point Battle), and every picture in Card Battle: the card plates and categories, the 77 move names, the comparison icons (INI / ATK / …"
-    }
-   ]
-  },
-  "A269B762": {
-   "crc32": "A269B762",
-   "size": 8388608,
-   "names": [],
-   "patches": [],
-   "produced_by": [
-    {
-     "id": "bff7fafe89d606b2",
-     "game": "Alchemist Marie & Elie: Futari no Atelier",
-     "variant": "Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.3",
-     "version": "0.9.3",
-     "language": "en",
-     "platform": "wonderswan_color",
-     "latest": true,
-     "superseded": false,
-     "format": "bps",
-     "source_crc32": "B18CDC0D",
-     "target_crc32": "A269B762",
-     "target_size": 8388608,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/AtelierMarieElie_0.9.2/Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.3.bps",
-     "sha256": "bff7fafe89d606b2b655d3abfe801e8aca0b851fbad61ac056377eaf2b6f74d5",
-     "size": 480206,
-     "source": "mariovirgili/WonderSwanColor-AI_Translation",
-     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/AtelierMarieElie_0.9.2",
-     "notes": "*Marie & Elie: Futari no Atelier* is Gust's 2001 Atelier game for the WonderSwan Color, released only in Japan. Marie (Marlone), now a full-fledged alchemist, and Elie (Elfir Traum), the girl she once saved, open an atelier together in Salburg. Thieves have stolen everything Elie owned, and Fuehren from Kentnis asks the two of them to create something nobody has ever seen: the Primordial Flame. You have three years to synthesize items, take quests at the Sky Tavern, gather ingredients with adventurers, hold tea parties and meet the cast of both Atelier Marie and Atelier Elie.\n\nThis patch translates it into English.\n\n**What is translated**\n\n- The whole script: 2,643 messages (story events, town talk, quests, tea parties, gathering trips, battles, the endings, the item and character encyclopedia, the composer's comments in the music room, the staff roll).\n- Item and equipment names, all the menus and system strings.\n- The speaker nameplates (redrawn in English) and the item names painted on the item cards.\n- A new variable-width font for all the text; the dialogue is re-wrapped and paged automatically.\n- Names follow Koei Tecmo's official English releases of Atelier Marie where they exist (Marlone/Marie, Salburg, Ingrid, Schea Donnerstag, Enderk Yard, Kreis Kuehl, Ruven Filnir, Mu Seqstanse, Sky Tavern, Meister Rank...). The others were romanized from the Japanese.\n\n**Images**\n\n**How to patch**\n\nApply the .bps patch to the original Japanese ROM *Alchemist Marie & Elie - Futari …"
     }
    ]
   },
@@ -8320,21 +8930,21 @@
    ],
    "patches": [
     {
-     "id": "bff7fafe89d606b2",
+     "id": "fb49f952cc562ee5",
      "game": "Alchemist Marie & Elie: Futari no Atelier",
-     "variant": "Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.3",
-     "version": "0.9.3",
+     "variant": "Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.4",
+     "version": "0.9.4",
      "language": "en",
      "platform": "wonderswan_color",
      "latest": true,
      "superseded": false,
      "format": "bps",
      "source_crc32": "B18CDC0D",
-     "target_crc32": "A269B762",
+     "target_crc32": "8AB014BD",
      "target_size": 8388608,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/AtelierMarieElie_0.9.2/Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.3.bps",
-     "sha256": "bff7fafe89d606b2b655d3abfe801e8aca0b851fbad61ac056377eaf2b6f74d5",
-     "size": 480206,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/AtelierMarieElie_0.9.2/Alchemist.Marie.Elie.-.Futari.no.Atelier.T-En.v0.9.4.bps",
+     "sha256": "fb49f952cc562ee5db2e18716adf5a43afd1b5620a477fa265ee80508a86299b",
+     "size": 480220,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/AtelierMarieElie_0.9.2",
      "notes": "*Marie & Elie: Futari no Atelier* is Gust's 2001 Atelier game for the WonderSwan Color, released only in Japan. Marie (Marlone), now a full-fledged alchemist, and Elie (Elfir Traum), the girl she once saved, open an atelier together in Salburg. Thieves have stolen everything Elie owned, and Fuehren from Kentnis asks the two of them to create something nobody has ever seen: the Primordial Flame. You have three years to synthesize items, take quests at the Sky Tavern, gather ingredients with adventurers, hold tea parties and meet the cast of both Atelier Marie and Atelier Elie.\n\nThis patch translates it into English.\n\n**What is translated**\n\n- The whole script: 2,643 messages (story events, town talk, quests, tea parties, gathering trips, battles, the endings, the item and character encyclopedia, the composer's comments in the music room, the staff roll).\n- Item and equipment names, all the menus and system strings.\n- The speaker nameplates (redrawn in English) and the item names painted on the item cards.\n- A new variable-width font for all the text; the dialogue is re-wrapped and paged automatically.\n- Names follow Koei Tecmo's official English releases of Atelier Marie where they exist (Marlone/Marie, Salburg, Ingrid, Schea Donnerstag, Enderk Yard, Kreis Kuehl, Ruven Filnir, Mu Seqstanse, Sky Tavern, Meister Rank...). The others were romanized from the Japanese.\n\n**Images**\n\n**How to patch**\n\nApply the .bps patch to the original Japanese ROM *Alchemist Marie & Elie - Futari …"
@@ -9674,6 +10284,34 @@
    ],
    "produced_by": []
   },
+  "CF534EB7": {
+   "crc32": "CF534EB7",
+   "size": 1048576,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "135ee81f6570ea31",
+     "game": "Puyo Puyo Tsuu",
+     "variant": "Puyo.Puyo.Tsuu.EN.v0.9.ALL.CAPS",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "5A41A7BA",
+     "target_crc32": "CF534EB7",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/PuyoPuyoTsuu_0.9/Puyo.Puyo.Tsuu.EN.v0.9.ALL.CAPS.bps",
+     "sha256": "135ee81f6570ea31194a8748e450e476608b4a5dafc2908d16a56aec1339361b",
+     "size": 15031,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuyoPuyoTsuu_0.9",
+     "notes": "**Puyo Puyo Tsuu** (Puyo Puyo 2) is the 1999 WonderSwan version of Compile's puzzle classic, published by Bandai and released only in Japan. Arle climbs Satan's \"Tower\" floor by floor and beats its monsters at Puyo Puyo: link four puyo of the same colour to pop them, build chains and bury the rival under nuisance puyo. There is also Toko Puyo (endless practice), two-player link matches and a rule editor.\n\nThe translation comes in four versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades. Normal (upper and lower case) or **ALL CAPS**.\n* **Colour:** the game turned into a WonderSwan Color game, normal or ALL CAPS. The five puyo colours are green, yellow, blue, red and purple; each main screen has its own colours, and on the title, the mode and difficulty select, the Tower and the rival select every character, bean, portrait and logo letter gets its own palette. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nColour version:\n\nBlack-and-white version:\n\nALL CAPS versions:\n\n**How to patch**\n\nAll four patches go on *Puyo Puyo Tsuu (Japan).ws* (1 MB, …"
+    }
+   ]
+  },
   "D0B20C5A": {
    "crc32": "D0B20C5A",
    "size": 4194304,
@@ -10177,6 +10815,34 @@
    ],
    "produced_by": []
   },
+  "D9CF3C8B": {
+   "crc32": "D9CF3C8B",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "04e1ce58cb2f707a",
+     "game": "Medarot Perfect Edition",
+     "variant": "medarot-kabuto-en-fan-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "12FB8B28",
+     "target_crc32": "D9CF3C8B",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/medarot-v1.0/medarot-kabuto-en-fan-1.0.bps",
+     "sha256": "04e1ce58cb2f707ab715dab832fbb04ebdf62af77757c98a27f8f5f1f3ab31d1",
+     "size": 165328,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0",
+     "notes": "**Medarot Perfect Edition** (メダロット パーフェクトエディション) is the WonderSwan version of Imagineer's robot-collecting RPG. The player builds a Medabot from a Medal and four parts (head, right arm, left arm, legs), fights \"Robattles\", and collects parts. It came out as two cartridges, **Kabuto Version** and **Kuwagata Version**, which differ in the starting Medal and in some of the story. This patch translates both into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**Which patch do I need?** Pick your cartridge's version, then a name edition. There are four patches:\n\n| Patch | For the ROM | Names |\n| --- | --- | --- |\n| `medarot-kabuto-en-1.0` | Kabuto Version (Japan) | English cartoon names: Medabot, Robattle, Medafighter, Rubberobo gang, Select Corps |\n| `medarot-kabuto-en-fan-1.0` | Kabuto Version (Japan) | Fan names: Medarot, Robottle, Medarotter, RoboRobo, Select Force |\n| `medarot-kuwagata-en-1.0` | Kuwagata Version (Japan) | English cartoon names |\n| `medarot-kuwagata-en-fan-1.0` | Kuwagata Version (Japan) | Fan names |\n\nThe translation is the same in both name editions; only the names of the series' …"
+    }
+   ]
+  },
   "DCAAFE90": {
    "crc32": "DCAAFE90",
    "size": 8388608,
@@ -10437,6 +11103,26 @@
      "notes": "**Lode Runner for WonderSwan** is Banpresto's version of the classic dig-and-collect puzzle game, developed by Aisystem Tokyo and released only in Japan in 2000 for the original (monochrome) WonderSwan. You run, climb and dig holes to trap the guards while you collect every pile of gold. Story Mode follows a diver who finds a lost golden kingdom under the sea. There's also Select Mode, the original Lode Runner maps, a map editor with two save slots, map trading over the link cable (Data I/O), and DOWN LOAD, which fetched new stages through Bandai's Mobile WonderGate phone adapter.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything on screen:** the menus and prompts, the map editor, Data I/O, Option (viewing and deleting save data), the chapter tally, the phone-number keypad, and the WonderGate download screens with all 21 error messages. The game has no text font: every Japanese word is a picture, and the English is lettered into the same places.\n* **Story:** all five chapters and the ending, for both heroes. The male hero (俺) is blunt …"
     },
     {
+     "id": "f43d0552263cf8a7",
+     "game": "Lode Runner for WonderSwan",
+     "variant": "lode-runner-en-color-0.9",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "E407CABF",
+     "target_crc32": "86208283",
+     "target_size": 524288,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/lode-runner-v1.0/lode-runner-en-color-0.9.bps",
+     "sha256": "f43d0552263cf8a7d73128a6b9cc176dd28d7abc80aba7f670b1ee0b7ea72b95",
+     "size": 93477,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0",
+     "notes": "**Lode Runner for WonderSwan** is Banpresto's version of the classic dig-and-collect puzzle game, developed by Aisystem Tokyo and released only in Japan in 2000 for the original (monochrome) WonderSwan. You run, climb and dig holes to trap the guards while you collect every pile of gold. Story Mode follows a diver who finds a lost golden kingdom under the sea. There's also Select Mode, the original Lode Runner maps, a map editor with two save slots, map trading over the link cable (Data I/O), and DOWN LOAD, which fetched new stages through Bandai's Mobile WonderGate phone adapter.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything on screen:** the menus and prompts, the map editor, Data I/O, Option (viewing and deleting save data), the chapter tally, the phone-number keypad, and the WonderGate download screens with all 21 error messages. The game has no text font: every Japanese word is a picture, and the English is lettered into the same places.\n* **Story:** all five chapters and the ending, for both heroes. The male hero (俺) is blunt …"
+    },
+    {
      "id": "8b7cf03818fe4094",
      "game": "Lode Runner for WonderSwan",
      "variant": "lode-runner-se-en-1.0",
@@ -10452,6 +11138,26 @@
      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/lode-runner-v1.0/lode-runner-se-en-1.0.bps",
      "sha256": "8b7cf03818fe4094de9f3664c76ba8c964bf1bfd01094f417cae9ad53051e5db",
      "size": 114683,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0",
+     "notes": "**Lode Runner for WonderSwan** is Banpresto's version of the classic dig-and-collect puzzle game, developed by Aisystem Tokyo and released only in Japan in 2000 for the original (monochrome) WonderSwan. You run, climb and dig holes to trap the guards while you collect every pile of gold. Story Mode follows a diver who finds a lost golden kingdom under the sea. There's also Select Mode, the original Lode Runner maps, a map editor with two save slots, map trading over the link cable (Data I/O), and DOWN LOAD, which fetched new stages through Bandai's Mobile WonderGate phone adapter.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything on screen:** the menus and prompts, the map editor, Data I/O, Option (viewing and deleting save data), the chapter tally, the phone-number keypad, and the WonderGate download screens with all 21 error messages. The game has no text font: every Japanese word is a picture, and the English is lettered into the same places.\n* **Story:** all five chapters and the ending, for both heroes. The male hero (俺) is blunt …"
+    },
+    {
+     "id": "f767a70c8a7a46ec",
+     "game": "Lode Runner for WonderSwan",
+     "variant": "lode-runner-se-en-color-0.9",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "E407CABF",
+     "target_crc32": "00405449",
+     "target_size": 524288,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/lode-runner-v1.0/lode-runner-se-en-color-0.9.bps",
+     "sha256": "f767a70c8a7a46ec05855822460ee04632dbb45282b8982559df74f8c9f2c487",
+     "size": 123077,
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0",
      "notes": "**Lode Runner for WonderSwan** is Banpresto's version of the classic dig-and-collect puzzle game, developed by Aisystem Tokyo and released only in Japan in 2000 for the original (monochrome) WonderSwan. You run, climb and dig holes to trap the guards while you collect every pile of gold. Story Mode follows a diver who finds a lost golden kingdom under the sea. There's also Select Mode, the original Lode Runner maps, a map editor with two save slots, map trading over the link cable (Data I/O), and DOWN LOAD, which fetched new stages through Bandai's Mobile WonderGate phone adapter.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything on screen:** the menus and prompts, the map editor, Data I/O, Option (viewing and deleting save data), the chapter tally, the phone-number keypad, and the WonderGate download screens with all 21 error messages. The game has no text font: every Japanese word is a picture, and the English is lettered into the same places.\n* **Story:** all five chapters and the ending, for both heroes. The male hero (俺) is blunt …"
@@ -11491,6 +12197,34 @@
     }
    ]
   },
+  "F68211CF": {
+   "crc32": "F68211CF",
+   "size": 1048576,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "0cd16b71e83bd63a",
+     "game": "Puyo Puyo Tsuu",
+     "variant": "Puyo.Puyo.Tsuu.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "5A41A7BA",
+     "target_crc32": "F68211CF",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/PuyoPuyoTsuu_0.9/Puyo.Puyo.Tsuu.EN.v0.9.bps",
+     "sha256": "0cd16b71e83bd63a2ee75c4e8310df9cbe524885fa33573c579de0488a1079b5",
+     "size": 15031,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuyoPuyoTsuu_0.9",
+     "notes": "**Puyo Puyo Tsuu** (Puyo Puyo 2) is the 1999 WonderSwan version of Compile's puzzle classic, published by Bandai and released only in Japan. Arle climbs Satan's \"Tower\" floor by floor and beats its monsters at Puyo Puyo: link four puyo of the same colour to pop them, build chains and bury the rival under nuisance puyo. There is also Toko Puyo (endless practice), two-player link matches and a rule editor.\n\nThe translation comes in four versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades. Normal (upper and lower case) or **ALL CAPS**.\n* **Colour:** the game turned into a WonderSwan Color game, normal or ALL CAPS. The five puyo colours are green, yellow, blue, red and purple; each main screen has its own colours, and on the title, the mode and difficulty select, the Tower and the rival select every character, bean, portrait and logo letter gets its own palette. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nColour version:\n\nBlack-and-white version:\n\nALL CAPS versions:\n\n**How to patch**\n\nAll four patches go on *Puyo Puyo Tsuu (Japan).ws* (1 MB, …"
+    }
+   ]
+  },
   "F699D6D1": {
    "crc32": "F699D6D1",
    "size": 4194304,
@@ -11870,6 +12604,7 @@
   "0eb951b486fe25f37371835be81eed75": "AA525C04",
   "12a59977999dcf7baebd79c81ab8f5a7": "D0B20C5A",
   "12c3cca0ef52343509dda1c1fb4c1b65": "F0ACDA5C",
+  "166946565e646215816123677c7c2108": "3DF3E34C",
   "173e9d76206a88bf05696027b4d55850": "0E40829C",
   "18267bcb9d31ffb6711f5464f6ab8077": "18ECFFB8",
   "1adacf9cb5aa3eb5839a9e2c94933348": "00137E86",
@@ -11906,6 +12641,8 @@
   "7a1023850bddb3b9547a9be8075da01d": "E2317345",
   "7b2180e38b4720ce711768a73c33c9df": "B62E5DD0",
   "7fa6a3034b8c03fca0b756fb5526ce62": "F8A1DD2B",
+  "852740c38184f0dbb27ee2bdf670869a": "0D1048F0",
+  "893ac7863337a65c919780b41bc52406": "12FB8B28",
   "8b8ea655dbea4a3152b300126556404c": "6F304DCA",
   "95b2632395ce85fc5f0cdb762e665136": "39A1391A",
   "9a41ed23b82a090ec4508d3725e19f9b": "7DA6ACB9",
@@ -11929,6 +12666,7 @@
   "cb58db877b8adfce59f2e34cc4224d8b": "B18CDC0D",
   "cdbcacff7dd0348beffb1e228592e2e1": "446E2581",
   "cf5e9f022baadd1ed9b0a9e88b503e95": "F504CD84",
+  "d8a29d331e9ba86609c75a4aedf9c269": "2B40745D",
   "d902afdadf17b452621c50a1ffda2fa9": "1F10CA75",
   "da17db6b7f491510e4b284996ff0eebf": "89E7D950",
   "dd9be38cd66ffd3b526d3388c6b99b8e": "F246A68E",
@@ -11936,6 +12674,7 @@
   "e12db3065b59e51bae7bf86053dd5782": "301436AC",
   "e36650ac50df69d1832a0d496c165db2": "B7243E88",
   "e39e90944a683b9d4a996a53804826f0": "B1CAEC06",
+  "e5394d336231c99e9c93f1f41e80a401": "5A41A7BA",
   "e79dddc7db77ad96c52b0b7690f8c1b1": "35361250",
   "eb3f161ea3db4ebd759c9b1346032d4f": "A1FB16FC",
   "edbc77ab0d585447d927318a6eb66c9b": "CCAA4853",
@@ -11975,6 +12714,7 @@
   "2b2c2a0566646156bcdde2a00b728c5b8218aa23": "138D1018",
   "2da2a9bcff4813abcb5b2c88095258d89a575378": "D0B20C5A",
   "2e3f221d6965f53b29586d2019ee81dec6d1ac30": "31E09BED",
+  "315061e4739e947175d6ad7f006498cd61a33f8c": "2B40745D",
   "31a718cfbcff2dab56ab9606a0b5b2dfccecbbcb": "F1F4D41F",
   "35443e2ef8a20a0ad82da1274b2768c16239dd46": "A9F5BF54",
   "35b46edc3ca3e5d8cf5626bdf480fa3ea6c2d9e2": "E357D462",
@@ -11986,8 +12726,10 @@
   "3d5a1ed77e721908eb1145aaedef17c0ee6355ae": "89E7D950",
   "4a756dab81e0101475dc2e5494270f3df7dac1e6": "8655269E",
   "4c3f092b095bdb0afdaf8d32d4c54b4d6c209c96": "B07E6A56",
+  "509e5748e5efdfb56093c78ae886153dd1838215": "12FB8B28",
   "5384f9974c66e5e26129a4709976de0bb1ae1f17": "067238D1",
   "544e76133fa53fc0ae5e00e3465b9cf634f14fd0": "324622C9",
+  "55088795164170c24b243a1b572506f123064c0f": "3DF3E34C",
   "57b4278fc5812f52413ca65f45225922d4f2ec3d": "70AA800E",
   "58c691cb31f96eea5689693fd23768d02e8b133f": "85C4C9A1",
   "5e5db8b066e1b41c5c12a2d4ffa97b73ed6c3f03": "E4EB3AB1",
@@ -12020,6 +12762,7 @@
   "adbe6e38a0bc6a2d19da64a444071977b771f14f": "446E2581",
   "ae31488cee1c91f383efbe3083b4abec092dda36": "BF8D9212",
   "af3fe9da3f5ee0f5a7b06b0440223db88fcb3bf2": "00137E86",
+  "b7775e8f60fd62dc07f2865f8fad29a11e12dbb5": "0D1048F0",
   "c07f776ac4374b648d1a49efd9d6fcd0db2ac1fa": "AF9D8F42",
   "c1ab4e24f261615ca59f937b866fcf7047b67796": "66B617D5",
   "c4436a59fd830ba6af2d63462f71e1ab1cfa3212": "56E2C069",
@@ -12029,6 +12772,7 @@
   "cbf6455e89b20a000b6121e5c485be1a20d1f726": "A193458C",
   "cfcb14be6d2f1dbffdfcefb8c8d83b4f39bc102b": "CE2F1A1D",
   "d3da0ae529c6f78162682141154a95879f288ca7": "B62E5DD0",
+  "d72c1221c2ce3e281a0ee288a3d079aa8e1b714b": "5A41A7BA",
   "d8097e25431f0ad5183b2479ee0837599677a300": "18ECFFB8",
   "dd1878279a6667fb66dd1ac44a2cdb9a5acbe415": "5793BDDA",
   "df1a794f7e3992b1e1e9de14141b607746202202": "39A1391A",

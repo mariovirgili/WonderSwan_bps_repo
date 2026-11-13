@@ -1,0 +1,57 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "315061e4739e947175d6ad7f006498cd61a33f8c"
+ },
+ "crc32": "2B40745D",
+ "size": 1048576,
+ "md5": "d8a29d331e9ba86609c75a4aedf9c269",
+ "sha1": "315061e4739e947175d6ad7f006498cd61a33f8c",
+ "names": [
+  "Kuwagata Version (Japan)",
+  "Medarot Perfect Edition - Kuwagata Version (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "6ccd0e1b1301802e",
+   "game": "Medarot Perfect Edition",
+   "variant": "medarot-kuwagata-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "2B40745D",
+   "target_crc32": "A10D783A",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/medarot-v1.0/medarot-kuwagata-en-1.0.bps",
+   "sha256": "6ccd0e1b1301802ed37f173a212d62045b0edc13d0e123776d1d7c485ba1af3d",
+   "size": 166418,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0",
+   "notes": "**Medarot Perfect Edition** (メダロット パーフェクトエディション) is the WonderSwan version of Imagineer's robot-collecting RPG. The player builds a Medabot from a Medal and four parts (head, right arm, left arm, legs), fights \"Robattles\", and collects parts. It came out as two cartridges, **Kabuto Version** and **Kuwagata Version**, which differ in the starting Medal and in some of the story. This patch translates both into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**Which patch do I need?** Pick your cartridge's version, then a name edition. There are four patches:\n\n| Patch | For the ROM | Names |\n| --- | --- | --- |\n| `medarot-kabuto-en-1.0` | Kabuto Version (Japan) | English cartoon names: Medabot, Robattle, Medafighter, Rubberobo gang, Select Corps |\n| `medarot-kabuto-en-fan-1.0` | Kabuto Version (Japan) | Fan names: Medarot, Robottle, Medarotter, RoboRobo, Select Force |\n| `medarot-kuwagata-en-1.0` | Kuwagata Version (Japan) | English cartoon names |\n| `medarot-kuwagata-en-fan-1.0` | Kuwagata Version (Japan) | Fan names |\n\nThe translation is the same in both name editions; only the names of the series' …"
+  },
+  {
+   "id": "63486c5c808a1809",
+   "game": "Medarot Perfect Edition",
+   "variant": "medarot-kuwagata-en-fan-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "2B40745D",
+   "target_crc32": "2C14DE6F",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/medarot-v1.0/medarot-kuwagata-en-fan-1.0.bps",
+   "sha256": "63486c5c808a18097c3944052b98b00f733c3ce2256b11faa28975ea213e9cee",
+   "size": 166291,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0",
+   "notes": "**Medarot Perfect Edition** (メダロット パーフェクトエディション) is the WonderSwan version of Imagineer's robot-collecting RPG. The player builds a Medabot from a Medal and four parts (head, right arm, left arm, legs), fights \"Robattles\", and collects parts. It came out as two cartridges, **Kabuto Version** and **Kuwagata Version**, which differ in the starting Medal and in some of the story. This patch translates both into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**Which patch do I need?** Pick your cartridge's version, then a name edition. There are four patches:\n\n| Patch | For the ROM | Names |\n| --- | --- | --- |\n| `medarot-kabuto-en-1.0` | Kabuto Version (Japan) | English cartoon names: Medabot, Robattle, Medafighter, Rubberobo gang, Select Corps |\n| `medarot-kabuto-en-fan-1.0` | Kabuto Version (Japan) | Fan names: Medarot, Robottle, Medarotter, RoboRobo, Select Force |\n| `medarot-kuwagata-en-1.0` | Kuwagata Version (Japan) | English cartoon names |\n| `medarot-kuwagata-en-fan-1.0` | Kuwagata Version (Japan) | Fan names |\n\nThe translation is the same in both name editions; only the names of the series' …"
+  }
+ ],
+ "produced_by": []
+}
