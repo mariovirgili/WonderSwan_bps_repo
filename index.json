@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "repository": "mariovirgili/WonderSwan_bps_repo",
-  "generated_at": "2026-11-14T18:58:31+00:00",
+  "generated_at": "2026-11-14T19:40:40+00:00",
   "sources": [
     "mariovirgili/WonderSwanColor-AI_Translation",
     "PokemonGoDB/wonderswan-english-patches",
@@ -5444,10 +5444,10 @@
       "first_seen": "2026-11-02"
     },
     {
-      "id": "1064b14404717fff",
+      "id": "7dfc08eec85c9046",
       "game": "From TV Animation One Piece: Treasure Wars",
-      "variant": "One.Piece.-.Treasure.Wars.EN.v0.9.ALL.CAPS",
-      "version": "0.9",
+      "variant": "One.Piece.-.Treasure.Wars.EN.v0.9.1.ALL.CAPS",
+      "version": "0.9.1",
       "language": "en",
       "platform": "wonderswan_color",
       "latest": true,
@@ -5457,7 +5457,7 @@
       "requires_patch_ids": null,
       "format": "bps",
       "source_crc32": "3DF3E34C",
-      "target_crc32": "93049CDA",
+      "target_crc32": "966020B5",
       "source_rom": {
         "crc32": "3DF3E34C",
         "size": 4194304,
@@ -5465,19 +5465,19 @@
         "name": "From TV Animation One Piece - Treasure Wars (Japan) (Rev 1).wsc"
       },
       "target_rom": {
-        "crc32": "93049CDA",
+        "crc32": "966020B5",
         "size": 8388608,
         "crc32_from": "bps"
       },
-      "file_name": "One.Piece.-.Treasure.Wars.EN.v0.9.ALL.CAPS.bps",
-      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/OnePieceTreasureWars_0.9/One.Piece.-.Treasure.Wars.EN.v0.9.ALL.CAPS.bps",
-      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/OnePieceTreasureWars_0.9/One.Piece.-.Treasure.Wars.EN.v0.9.ALL.CAPS.bps",
-      "size": 1199758,
-      "sha256": "1064b14404717fff2edbd75e3971e7f6a78c82ee02753cb8c54b480004d8963a",
+      "file_name": "One.Piece.-.Treasure.Wars.EN.v0.9.1.ALL.CAPS.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/OnePieceTreasureWars_0.9/One.Piece.-.Treasure.Wars.EN.v0.9.1.ALL.CAPS.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/OnePieceTreasureWars_0.9/One.Piece.-.Treasure.Wars.EN.v0.9.1.ALL.CAPS.bps",
+      "size": 1199940,
+      "sha256": "7dfc08eec85c9046fabf7ba2a0f3a395574d19aae89842941ecf6bac9a4d0bf3",
       "patch_crc32": "2144DF1C",
       "source_size": 4194304,
       "target_size": 8388608,
-      "patch_crc32_footer": "83CB6411",
+      "patch_crc32_footer": "B2E87776",
       "patch_checksum_ok": true,
       "bps_metadata": null,
       "origin": {
@@ -5485,23 +5485,23 @@
         "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
         "kind": "release_asset",
         "release_tag": "OnePieceTreasureWars_0.9",
-        "release_name": "[Release] From TV Animation One Piece: Treasure Wars (WonderSwan Color) - English v0.9 (normal and ALL CAPS)",
+        "release_name": "[Release] From TV Animation One Piece: Treasure Wars (WonderSwan Color) - English v0.9.1 (normal and ALL CAPS)",
         "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars_0.9",
         "published_at": "2026-11-13T19:00:28Z",
         "prerelease": false,
-        "asset_name": "One.Piece.-.Treasure.Wars.EN.v0.9.ALL.CAPS.bps",
-        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/OnePieceTreasureWars_0.9/One.Piece.-.Treasure.Wars.EN.v0.9.ALL.CAPS.bps",
+        "asset_name": "One.Piece.-.Treasure.Wars.EN.v0.9.1.ALL.CAPS.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/OnePieceTreasureWars_0.9/One.Piece.-.Treasure.Wars.EN.v0.9.1.ALL.CAPS.bps",
         "archive_member": null,
-        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:744811567:2026-11-13T18:59:40Z:1199758",
-        "release_notes": "**From TV Animation One Piece: Treasure Wars** is Bandai's 2002 One Piece board game for the WonderSwan Color, released only in Japan. Luffy, Zoro, Nami, Usopp, Sanji and Chopper sail to King Cello's islands to join the \"Treasure Wars\": roll the dice, move around each island, collect hints, items and Berries, and grab the island's treasure, the Life Gem, before the Log Pose is charged. Rivals meet in quick dice-and-move battles. Story mode follows the crew over five islands, with Buggy, Alvida, Kuro, Krieg, Arlong, Smoker, Baroque Works and the game's own villain, Ritton; there are also Free, Bingo (the Bingo Book) and Teach (tutorial) modes.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nALL CAPS version:\n\n**How to patch**\n\nApply one of the patches to *From TV Animation One Piece - Treasure Wars (Japan) (Rev 1).wsc* (4 MB, CRC32 3DF3E34C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB; keep the .wsc extension.\n\n* Normal: `One.Piece.-.Treasure.Wars.EN.v0.9.bps`, CRC32 85EEC653.\n* ALL CAPS: …"
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:748523988:2026-11-14T19:22:51Z:1199940",
+        "release_notes": "**From TV Animation One Piece: Treasure Wars** is Bandai's 2002 One Piece board game for the WonderSwan Color, released only in Japan. Luffy, Zoro, Nami, Usopp, Sanji and Chopper sail to King Cello's islands to join the \"Treasure Wars\": roll the dice, move around each island, collect hints, items and Berries, and grab the island's treasure, the Life Gem, before the Log Pose is charged. Rivals meet in quick dice-and-move battles. Story mode follows the crew over five islands, with Buggy, Alvida, Kuro, Krieg, Arlong, Smoker, Baroque Works and the game's own villain, Ritton; there are also Free, Bingo (the Bingo Book) and Teach (tutorial) modes.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nALL CAPS version:\n\n**How to patch**\n\nApply one of the patches to *From TV Animation One Piece - Treasure Wars (Japan) (Rev 1).wsc* (4 MB, CRC32 3DF3E34C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB; keep the .wsc extension.\n\n* Normal: `One.Piece.-.Treasure.Wars.EN.v0.9.1.bps`, CRC32 808A7A3C.\n* ALL CAPS: …"
       },
-      "first_seen": "2026-11-13"
+      "first_seen": "2026-11-14"
     },
     {
-      "id": "02cbc9c3a8762516",
+      "id": "4b8be697b29b8455",
       "game": "From TV Animation One Piece: Treasure Wars",
-      "variant": "One.Piece.-.Treasure.Wars.EN.v0.9",
-      "version": "0.9",
+      "variant": "One.Piece.-.Treasure.Wars.EN.v0.9.1",
+      "version": "0.9.1",
       "language": "en",
       "platform": "wonderswan_color",
       "latest": true,
@@ -5511,7 +5511,7 @@
       "requires_patch_ids": null,
       "format": "bps",
       "source_crc32": "3DF3E34C",
-      "target_crc32": "85EEC653",
+      "target_crc32": "808A7A3C",
       "source_rom": {
         "crc32": "3DF3E34C",
         "size": 4194304,
@@ -5519,19 +5519,19 @@
         "name": "From TV Animation One Piece - Treasure Wars (Japan) (Rev 1).wsc"
       },
       "target_rom": {
-        "crc32": "85EEC653",
+        "crc32": "808A7A3C",
         "size": 8388608,
         "crc32_from": "bps"
       },
-      "file_name": "One.Piece.-.Treasure.Wars.EN.v0.9.bps",
-      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/OnePieceTreasureWars_0.9/One.Piece.-.Treasure.Wars.EN.v0.9.bps",
-      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/OnePieceTreasureWars_0.9/One.Piece.-.Treasure.Wars.EN.v0.9.bps",
-      "size": 1199612,
-      "sha256": "02cbc9c3a8762516bd08cbfb4820d85ebb7a41ac37993014efb0b8bcc6f190db",
+      "file_name": "One.Piece.-.Treasure.Wars.EN.v0.9.1.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/OnePieceTreasureWars_0.9/One.Piece.-.Treasure.Wars.EN.v0.9.1.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/OnePieceTreasureWars_0.9/One.Piece.-.Treasure.Wars.EN.v0.9.1.bps",
+      "size": 1199794,
+      "sha256": "4b8be697b29b845557b29cceeedb8ab1c75adea0c3b5bf1d236f4a9fbe4fcbcd",
       "patch_crc32": "2144DF1C",
       "source_size": 4194304,
       "target_size": 8388608,
-      "patch_crc32_footer": "CA519640",
+      "patch_crc32_footer": "C1EE6202",
       "patch_checksum_ok": true,
       "bps_metadata": null,
       "origin": {
@@ -5539,17 +5539,17 @@
         "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
         "kind": "release_asset",
         "release_tag": "OnePieceTreasureWars_0.9",
-        "release_name": "[Release] From TV Animation One Piece: Treasure Wars (WonderSwan Color) - English v0.9 (normal and ALL CAPS)",
+        "release_name": "[Release] From TV Animation One Piece: Treasure Wars (WonderSwan Color) - English v0.9.1 (normal and ALL CAPS)",
         "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars_0.9",
         "published_at": "2026-11-13T19:00:28Z",
         "prerelease": false,
-        "asset_name": "One.Piece.-.Treasure.Wars.EN.v0.9.bps",
-        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/OnePieceTreasureWars_0.9/One.Piece.-.Treasure.Wars.EN.v0.9.bps",
+        "asset_name": "One.Piece.-.Treasure.Wars.EN.v0.9.1.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/OnePieceTreasureWars_0.9/One.Piece.-.Treasure.Wars.EN.v0.9.1.bps",
         "archive_member": null,
-        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:744811508:2026-11-13T18:59:39Z:1199612",
-        "release_notes": "**From TV Animation One Piece: Treasure Wars** is Bandai's 2002 One Piece board game for the WonderSwan Color, released only in Japan. Luffy, Zoro, Nami, Usopp, Sanji and Chopper sail to King Cello's islands to join the \"Treasure Wars\": roll the dice, move around each island, collect hints, items and Berries, and grab the island's treasure, the Life Gem, before the Log Pose is charged. Rivals meet in quick dice-and-move battles. Story mode follows the crew over five islands, with Buggy, Alvida, Kuro, Krieg, Arlong, Smoker, Baroque Works and the game's own villain, Ritton; there are also Free, Bingo (the Bingo Book) and Teach (tutorial) modes.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nALL CAPS version:\n\n**How to patch**\n\nApply one of the patches to *From TV Animation One Piece - Treasure Wars (Japan) (Rev 1).wsc* (4 MB, CRC32 3DF3E34C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB; keep the .wsc extension.\n\n* Normal: `One.Piece.-.Treasure.Wars.EN.v0.9.bps`, CRC32 85EEC653.\n* ALL CAPS: …"
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:748523916:2026-11-14T19:22:50Z:1199794",
+        "release_notes": "**From TV Animation One Piece: Treasure Wars** is Bandai's 2002 One Piece board game for the WonderSwan Color, released only in Japan. Luffy, Zoro, Nami, Usopp, Sanji and Chopper sail to King Cello's islands to join the \"Treasure Wars\": roll the dice, move around each island, collect hints, items and Berries, and grab the island's treasure, the Life Gem, before the Log Pose is charged. Rivals meet in quick dice-and-move battles. Story mode follows the crew over five islands, with Buggy, Alvida, Kuro, Krieg, Arlong, Smoker, Baroque Works and the game's own villain, Ritton; there are also Free, Bingo (the Bingo Book) and Teach (tutorial) modes.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nALL CAPS version:\n\n**How to patch**\n\nApply one of the patches to *From TV Animation One Piece - Treasure Wars (Japan) (Rev 1).wsc* (4 MB, CRC32 3DF3E34C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB; keep the .wsc extension.\n\n* Normal: `One.Piece.-.Treasure.Wars.EN.v0.9.1.bps`, CRC32 808A7A3C.\n* ALL CAPS: …"
       },
-      "first_seen": "2026-11-13"
+      "first_seen": "2026-11-14"
     },
     {
       "id": "e3153ebac08ef272",
@@ -12154,10 +12154,10 @@
       "first_seen": "2026-11-14"
     },
     {
-      "id": "115c1a6bb7a27e76",
+      "id": "68e1ec81e34ec9c0",
       "game": "SD Gundam Eiyuu Den - Kishi Densetsu",
-      "variant": "SD.Gundam.Eiyuu.Den.-.Kishi.Densetsu.EN.v0.9",
-      "version": "0.9",
+      "variant": "SD.Gundam.Eiyuu.Den.-.Kishi.Densetsu.EN.v0.9.1",
+      "version": "0.9.1",
       "language": "en",
       "platform": "wonderswan_color",
       "latest": true,
@@ -12167,7 +12167,7 @@
       "requires_patch_ids": null,
       "format": "bps",
       "source_crc32": "C60E5162",
-      "target_crc32": "98F85403",
+      "target_crc32": "BCA70F0E",
       "source_rom": {
         "crc32": "C60E5162",
         "size": 4194304,
@@ -12175,19 +12175,19 @@
         "name": "SD Gundam Eiyuu Den - Kishi Densetsu (Japan).wsc"
       },
       "target_rom": {
-        "crc32": "98F85403",
+        "crc32": "BCA70F0E",
         "size": 8388608,
         "crc32_from": "bps"
       },
-      "file_name": "SD.Gundam.Eiyuu.Den.-.Kishi.Densetsu.EN.v0.9.bps",
-      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/KishiDensetsu_0.9/SD.Gundam.Eiyuu.Den.-.Kishi.Densetsu.EN.v0.9.bps",
-      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/KishiDensetsu_0.9/SD.Gundam.Eiyuu.Den.-.Kishi.Densetsu.EN.v0.9.bps",
-      "size": 1706251,
-      "sha256": "115c1a6bb7a27e76510b61a53492c1fb877270caa33a468640adea8b1a09a1da",
+      "file_name": "SD.Gundam.Eiyuu.Den.-.Kishi.Densetsu.EN.v0.9.1.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/KishiDensetsu_0.9/SD.Gundam.Eiyuu.Den.-.Kishi.Densetsu.EN.v0.9.1.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/KishiDensetsu_0.9/SD.Gundam.Eiyuu.Den.-.Kishi.Densetsu.EN.v0.9.1.bps",
+      "size": 1714413,
+      "sha256": "68e1ec81e34ec9c00f186b6c0329bf6123edec0cb6cfd405bd0049aa1100befc",
       "patch_crc32": "2144DF1C",
       "source_size": 4194304,
       "target_size": 8388608,
-      "patch_crc32_footer": "1F278FA9",
+      "patch_crc32_footer": "4FC41452",
       "patch_checksum_ok": true,
       "bps_metadata": null,
       "origin": {
@@ -12195,17 +12195,17 @@
         "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
         "kind": "release_asset",
         "release_tag": "KishiDensetsu_0.9",
-        "release_name": "[Release] SD Gundam Eiyuu Den - Kishi Densetsu (WonderSwan Color) - English v0.9",
+        "release_name": "[Release] SD Gundam Eiyuu Den - Kishi Densetsu (WonderSwan Color) - English v0.9.1",
         "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/KishiDensetsu_0.9",
         "published_at": "2026-11-11T07:21:00Z",
         "prerelease": false,
-        "asset_name": "SD.Gundam.Eiyuu.Den.-.Kishi.Densetsu.EN.v0.9.bps",
-        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/KishiDensetsu_0.9/SD.Gundam.Eiyuu.Den.-.Kishi.Densetsu.EN.v0.9.bps",
+        "asset_name": "SD.Gundam.Eiyuu.Den.-.Kishi.Densetsu.EN.v0.9.1.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/KishiDensetsu_0.9/SD.Gundam.Eiyuu.Den.-.Kishi.Densetsu.EN.v0.9.1.bps",
         "archive_member": null,
-        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:734556825:2026-11-11T07:20:33Z:1706251",
-        "release_notes": "**SD Gundam Eiyuu Den: Kishi Densetsu** is a 2001 WonderSwan Color RPG by Bandai. It was released only in Japan.\n\nMine, the young pilot of Knight Gundam, and the knights of Lacroa face the invasion of Zard and its Western Big Four.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps to *SD Gundam Eiyuu Den - Kishi Densetsu (Japan).wsc* (4 MB, CRC32 C60E5162) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB, CRC32 98F85403; keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"SD Gundam Eiyuu Den - Kishi Densetsu (EN v0.9).bps\" \"SD Gundam Eiyuu Den - Kishi Densetsu (Japan).wsc\" \"SD Gundam Eiyuu Den - Kishi Densetsu (EN v0.9).wsc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**What is translated**\n\n* The whole script: 1,722 messages (1,545 unique), credits included.\n* Unit, skill and item names, item descriptions, battle messages and quotes, link and trade texts, status and menu texts.\n* A new font of letter pairs: each 16-pixel cell of the original renderer shows two characters.\n* Graphics: the title …"
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:748561439:2026-11-14T19:37:07Z:1714413",
+        "release_notes": "**SD Gundam Eiyuu Den: Kishi Densetsu** is a 2001 WonderSwan Color RPG by Bandai. It was released only in Japan.\n\nMine, the young pilot of Knight Gundam, and the knights of Lacroa face the invasion of Zard and its Western Big Four.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps to *SD Gundam Eiyuu Den - Kishi Densetsu (Japan).wsc* (4 MB, CRC32 C60E5162) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB, CRC32 BCA70F0E; keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"SD Gundam Eiyuu Den - Kishi Densetsu (EN v0.9.1).bps\" \"SD Gundam Eiyuu Den - Kishi Densetsu (Japan).wsc\" \"SD Gundam Eiyuu Den - Kishi Densetsu (EN v0.9.1).wsc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**What is translated**\n\n* The whole script: 1,917 messages (1,721 unique), credits included.\n* Unit, skill and item names, item descriptions, battle messages and quotes, link and trade texts, status and menu texts.\n* A new font of letter pairs: each 16-pixel cell of the original renderer shows two characters.\n* Graphics: the …"
       },
-      "first_seen": "2026-11-11"
+      "first_seen": "2026-11-14"
     },
     {
       "id": "313ffcf0fa4e307f",

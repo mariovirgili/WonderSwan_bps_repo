@@ -50,7 +50,7 @@ Last change to the patch catalog: 2026-11-14.
 | ✅ | From TV Animation One Piece - Grand Battle Swan Colosseum (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.3](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/grand-battle-v1.3) |
 | ✅ | From TV Animation One Piece - Mezase Kaizoku Ou! (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/kaizoku-ou-v1.0) |
 | ✅ | From TV Animation One Piece - Niji no Shima Densetsu (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/one-piece-niji-v1.0) |
-| ✅ | From TV Animation One Piece - Treasure Wars (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars_0.9) |
+| ✅ | From TV Animation One Piece - Treasure Wars (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars_0.9) |
 | ✅ | From TV Animation One Piece - Treasure Wars 2 - Buggy Land e Youkoso (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars2_0.9) |
 | ✅ | Front Mission (Japan) | WonderSwan Color | **English**: [Gand46 v035](https://github.com/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/blob/main/patches/v035_TEST_from_clean.bps) |
 | ✅ | Ganso Jajamaru-kun (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/jajamaru-v1.0) |
@@ -96,7 +96,7 @@ Last change to the patch catalog: 2026-11-14.
 | ✅ | Romancing Sa-Ga (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Petit1_v0.9) |
 | ✅ | Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.4](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9) |
 | ✅ | SD Gundam - Operation U.C. (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9.1) |
-| ✅ | SD Gundam Eiyuu Den - Kishi Densetsu (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/KishiDensetsu_0.9) |
+| ✅ | SD Gundam Eiyuu Den - Kishi Densetsu (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/KishiDensetsu_0.9) |
 | ✅ | SD Gundam Eiyuu Den - Musha Densetsu (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MushaDensetsu_0.9) |
 | ✅ | SD Gundam G Generation - Gather Beat (Japan) | WonderSwan | **English**: [PokemonGoDB v1.3](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-v1.3) |
 | ✅ | SD Gundam G Generation - Gather Beat 2 (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.4](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-2-v1.4) |
@@ -409,7 +409,7 @@ Last change to the patch catalog: 2026-11-14.
 |  | From TV Animation One Piece - Grand Battle Swan Colosseum (Japan) (Sample) | `23853305` | — |
 | ✅ | **From TV Animation One Piece - Niji no Shima Densetsu (Japan)** | `427056C4` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/one-piece-niji-v1.0) |
 |  | From TV Animation One Piece - Treasure Wars (Japan) | `205503C3` | — |
-| ✅ | **From TV Animation One Piece - Treasure Wars (Japan) (Rev 1)** | `3DF3E34C` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars_0.9) |
+| ✅ | **From TV Animation One Piece - Treasure Wars (Japan) (Rev 1)** | `3DF3E34C` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars_0.9) |
 | ✅ | **From TV Animation One Piece - Treasure Wars 2 - Buggy Land e Youkoso (Japan)** | `0D1048F0` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars2_0.9) |
 | ✅ | **Front Mission (Japan)** | `2F9E2560` | **English**: [Gand46 v035](https://github.com/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/blob/main/patches/v035_TEST_from_clean.bps) |
 |  | Gansaku Shuu Watch (World) (Ja) (WonderWitch) | `C9C7BA79` | — |
@@ -521,7 +521,7 @@ Last change to the patch catalog: 2026-11-14.
 |  | Samoner (World) (Ja) (WonderWitch) | `C59BF216` | — |
 |  | Satori - WonderSwan Remix (World) (WonderWitch) | `4C85FCAA` | — |
 | ✅ | **SD Gundam - Operation U.C. (Japan)** | `F0ACDA5C` | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9.1) |
-| ✅ | **SD Gundam Eiyuu Den - Kishi Densetsu (Japan)** | `C60E5162` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/KishiDensetsu_0.9) |
+| ✅ | **SD Gundam Eiyuu Den - Kishi Densetsu (Japan)** | `C60E5162` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/KishiDensetsu_0.9) |
 | ✅ | **SD Gundam Eiyuu Den - Musha Densetsu (Japan)** | `18ECFFB8` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MushaDensetsu_0.9) |
 | ✅ | **SD Gundam G Generation - Gather Beat 2 (Japan)** | `4D21A347` | **English**: [PokemonGoDB v1.4](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-2-v1.4) |
 |  | SD Gundam G Generation - Mono-Eye Gundams (Japan) | `6ACA1F04` | — |
