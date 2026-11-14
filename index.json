@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "repository": "mariovirgili/WonderSwan_bps_repo",
-  "generated_at": "2026-11-14T19:40:40+00:00",
+  "generated_at": "2026-11-14T22:57:49+00:00",
   "sources": [
     "mariovirgili/WonderSwanColor-AI_Translation",
     "PokemonGoDB/wonderswan-english-patches",
@@ -32,7 +32,7 @@
     "wonderswan_color",
     null
   ],
-  "count": 272,
+  "count": 273,
   "entries": [
     {
       "id": "fb49f952cc562ee5",
@@ -8728,10 +8728,10 @@
       "first_seen": "2026-11-09"
     },
     {
-      "id": "f8ad1c8656ca8cf2",
+      "id": "35384a12398110f2",
       "game": "Magical Drop for WonderSwan",
-      "variant": "Magical.Drop.for.WonderSwan.EN.v0.9",
-      "version": "0.9",
+      "variant": "Magical.Drop.for.WonderSwan.EN.v0.9.1",
+      "version": "0.9.1",
       "language": "en",
       "platform": "wonderswan",
       "latest": true,
@@ -8741,7 +8741,7 @@
       "requires_patch_ids": null,
       "format": "bps",
       "source_crc32": "637ADA93",
-      "target_crc32": "A4AE5611",
+      "target_crc32": "4660BF80",
       "source_rom": {
         "crc32": "637ADA93",
         "size": 1048576,
@@ -8749,19 +8749,19 @@
         "name": "Magical Drop for WonderSwan (Japan).ws"
       },
       "target_rom": {
-        "crc32": "A4AE5611",
+        "crc32": "4660BF80",
         "size": 2097152,
         "crc32_from": "bps"
       },
-      "file_name": "Magical.Drop.for.WonderSwan.EN.v0.9.bps",
-      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.bps",
-      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.bps",
-      "size": 564225,
-      "sha256": "f8ad1c8656ca8cf26558befdb7aaf07d6d8cab4127af0dfbd7a9fbaa1f4c7439",
+      "file_name": "Magical.Drop.for.WonderSwan.EN.v0.9.1.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.1.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.1.bps",
+      "size": 564768,
+      "sha256": "35384a12398110f281f0394a1e923036de6c5654c947048ef05ec621859a002f",
       "patch_crc32": "2144DF1C",
       "source_size": 1048576,
       "target_size": 2097152,
-      "patch_crc32_footer": "5E797C96",
+      "patch_crc32_footer": "17219746",
       "patch_checksum_ok": true,
       "bps_metadata": null,
       "origin": {
@@ -8769,23 +8769,23 @@
         "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
         "kind": "release_asset",
         "release_tag": "MagicalDrop_0.9",
-        "release_name": "[Release] Magical Drop for WonderSwan - English v0.9 (black-and-white and colour versions)",
+        "release_name": "[Release] Magical Drop for WonderSwan - English v0.9.1 (black-and-white and colour versions)",
         "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MagicalDrop_0.9",
         "published_at": "2026-11-12T21:14:24Z",
         "prerelease": false,
-        "asset_name": "Magical.Drop.for.WonderSwan.EN.v0.9.bps",
-        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.bps",
+        "asset_name": "Magical.Drop.for.WonderSwan.EN.v0.9.1.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.1.bps",
         "archive_member": null,
-        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:741096333:2026-11-12T21:10:23Z:564225",
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:749041398:2026-11-14T22:55:44Z:564768",
         "release_notes": "**Magical Drop for WonderSwan** is the 1999 WonderSwan version of Data East's falling-ball puzzle game, published by Bandai and released only in Japan. Grab the coloured drops at the bottom of the field and throw them back up to clear three or more of a colour; chains send drops to the opponent. The cast are the Magical Drop tarot characters (Justice, Star, Moon, Devil, Empress, Chariot, Fool...). Besides Story, Endless and the link-cable Versus mode, this version has a whole tarot fortune-telling mode.\n\nThe translation comes in two versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades.\n* **Colour** (new): the game turned into a WonderSwan Color game. Every object keeps its original four shades and gets its own four colours: the drops are red, blue, green and yellow as in the arcade games, each of the ten characters has its own portrait colours in matches and in the story dialogues, and the title, the menus, the player select, the story scenes, the playfield, the endless rank screen and every screen of the fortune mode are coloured. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and …"
       },
-      "first_seen": "2026-11-13"
+      "first_seen": "2026-11-14"
     },
     {
-      "id": "9b7fb1c040f87344",
+      "id": "7e0c7b9f7dc29623",
       "game": "Magical Drop for WonderSwan",
-      "variant": "Magical.Drop.for.WonderSwan.EN.v0.9.Colour",
-      "version": "0.9",
+      "variant": "Magical.Drop.for.WonderSwan.EN.v0.9.1.Colour",
+      "version": "0.9.1",
       "language": "en",
       "platform": "wonderswan",
       "latest": true,
@@ -8795,7 +8795,7 @@
       "requires_patch_ids": null,
       "format": "bps",
       "source_crc32": "637ADA93",
-      "target_crc32": "3E319733",
+      "target_crc32": "DCFF7EA2",
       "source_rom": {
         "crc32": "637ADA93",
         "size": 1048576,
@@ -8803,19 +8803,19 @@
         "name": "Magical Drop for WonderSwan (Japan).ws"
       },
       "target_rom": {
-        "crc32": "3E319733",
+        "crc32": "DCFF7EA2",
         "size": 2097152,
         "crc32_from": "bps"
       },
-      "file_name": "Magical.Drop.for.WonderSwan.EN.v0.9.Colour.bps",
-      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.Colour.bps",
-      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.Colour.bps",
-      "size": 567821,
-      "sha256": "9b7fb1c040f873441de28387f1810b47eec46562e87a8be760df8876704f4efd",
+      "file_name": "Magical.Drop.for.WonderSwan.EN.v0.9.1.Colour.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.1.Colour.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.1.Colour.bps",
+      "size": 568364,
+      "sha256": "7e0c7b9f7dc29623e85a5ee65aa73f9b13e697799e75ef9d71130509950898bb",
       "patch_crc32": "2144DF1C",
       "source_size": 1048576,
       "target_size": 2097152,
-      "patch_crc32_footer": "6EF0D1E8",
+      "patch_crc32_footer": "9149E5E8",
       "patch_checksum_ok": true,
       "bps_metadata": null,
       "origin": {
@@ -8823,17 +8823,17 @@
         "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
         "kind": "release_asset",
         "release_tag": "MagicalDrop_0.9",
-        "release_name": "[Release] Magical Drop for WonderSwan - English v0.9 (black-and-white and colour versions)",
+        "release_name": "[Release] Magical Drop for WonderSwan - English v0.9.1 (black-and-white and colour versions)",
         "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MagicalDrop_0.9",
         "published_at": "2026-11-12T21:14:24Z",
         "prerelease": false,
-        "asset_name": "Magical.Drop.for.WonderSwan.EN.v0.9.Colour.bps",
-        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.Colour.bps",
+        "asset_name": "Magical.Drop.for.WonderSwan.EN.v0.9.1.Colour.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.1.Colour.bps",
         "archive_member": null,
-        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:742513797:2026-11-13T06:11:21Z:567821",
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:749041520:2026-11-14T22:55:46Z:568364",
         "release_notes": "**Magical Drop for WonderSwan** is the 1999 WonderSwan version of Data East's falling-ball puzzle game, published by Bandai and released only in Japan. Grab the coloured drops at the bottom of the field and throw them back up to clear three or more of a colour; chains send drops to the opponent. The cast are the Magical Drop tarot characters (Justice, Star, Moon, Devil, Empress, Chariot, Fool...). Besides Story, Endless and the link-cable Versus mode, this version has a whole tarot fortune-telling mode.\n\nThe translation comes in two versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades.\n* **Colour** (new): the game turned into a WonderSwan Color game. Every object keeps its original four shades and gets its own four colours: the drops are red, blue, green and yellow as in the arcade games, each of the ten characters has its own portrait colours in matches and in the story dialogues, and the title, the menus, the player select, the story scenes, the playfield, the endless rank screen and every screen of the fortune mode are coloured. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and …"
       },
-      "first_seen": "2026-11-13"
+      "first_seen": "2026-11-14"
     },
     {
       "id": "3fc350fd39cd1c15",
@@ -9423,6 +9423,60 @@
         "release_notes": "**Medarot Perfect Edition** (メダロット パーフェクトエディション) is the WonderSwan version of Imagineer's robot-collecting RPG. The player builds a Medabot from a Medal and four parts (head, right arm, left arm, legs), fights \"Robattles\", and collects parts. It came out as two cartridges, **Kabuto Version** and **Kuwagata Version**, which differ in the starting Medal and in some of the story. This patch translates both into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**Which patch do I need?** Pick your cartridge's version, then a name edition. There are four patches:\n\n| Patch | For the ROM | Names |\n| --- | --- | --- |\n| `medarot-kabuto-en-1.0` | Kabuto Version (Japan) | English cartoon names: Medabot, Robattle, Medafighter, Rubberobo gang, Select Corps |\n| `medarot-kabuto-en-fan-1.0` | Kabuto Version (Japan) | Fan names: Medarot, Robottle, Medarotter, RoboRobo, Select Force |\n| `medarot-kuwagata-en-1.0` | Kuwagata Version (Japan) | English cartoon names |\n| `medarot-kuwagata-en-fan-1.0` | Kuwagata Version (Japan) | Fan names |\n\nThe translation is the same in both name editions; only the names of the series' …"
       },
       "first_seen": "2026-11-13"
+    },
+    {
+      "id": "865afa63665b19c7",
+      "game": "Memories Off Pure (Neo Geo Pocket Color)",
+      "variant": "Memories.Off.-.Pure.EN.v0.9",
+      "version": "0.9",
+      "language": "en",
+      "platform": "wonderswan",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "7F919DDE",
+      "target_crc32": "29D523D7",
+      "source_rom": {
+        "crc32": "7F919DDE",
+        "size": 1048576,
+        "crc32_from": "bps",
+        "name": "Memories Off - Pure (Japan)"
+      },
+      "target_rom": {
+        "crc32": "29D523D7",
+        "size": 1048576,
+        "crc32_from": "bps"
+      },
+      "file_name": "Memories.Off.-.Pure.EN.v0.9.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/MemoriesOffPure_0.9/Memories.Off.-.Pure.EN.v0.9.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MemoriesOffPure_0.9/Memories.Off.-.Pure.EN.v0.9.bps",
+      "size": 293022,
+      "sha256": "865afa63665b19c754a4bb1bef46e7c11ae180c05c57902b8ed02a8e71546f52",
+      "patch_crc32": "2144DF1C",
+      "source_size": 1048576,
+      "target_size": 1048576,
+      "patch_crc32_footer": "C71A0006",
+      "patch_checksum_ok": true,
+      "bps_metadata": null,
+      "origin": {
+        "source": "mariovirgili/WonderSwanColor-AI_Translation",
+        "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
+        "kind": "release_asset",
+        "release_tag": "MemoriesOffPure_0.9",
+        "release_name": "[NGPC Release] Memories Off Pure (Neo Geo Pocket Color) - English v0.9",
+        "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MemoriesOffPure_0.9",
+        "published_at": "2026-11-14T22:41:30Z",
+        "prerelease": false,
+        "asset_name": "Memories.Off.-.Pure.EN.v0.9.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/MemoriesOffPure_0.9/Memories.Off.-.Pure.EN.v0.9.bps",
+        "archive_member": null,
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:749006314:2026-11-14T22:41:01Z:293022",
+        "release_notes": "**Memories Off Pure** is a 2000 Neo Geo Pocket Color visual novel by KID, released only in Japan. It is the prequel to Memories Off: Tomoya Mikami's middle-school days with his childhood friends Ayaka Hizuki and Yue Imasaka, and Ayaka's cousin Minamo Ibuki. It is the first Neo Geo Pocket Color game in this repository.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps patch to *Memories Off - Pure (Japan).ngc* (No-Intro, 1 MB, CRC32 7F919DDE) with Floating IPS, beat or ROM Patcher JS. The result is 1 MB, CRC32 29D523D7. Keep the .ngc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Memories.Off.-.Pure.EN.v0.9.bps\" \"Memories Off - Pure (Japan).ngc\" \"Memories Off - Pure (EN v0.9).ngc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nSave files from the Japanese game don't work with the patched game: start a new game.\n\n**What is translated**\n\n* The whole script: all three routes (Ayaka, Yue, Minamo), the scenes from Ayaka's and Yue's point of view, the choices, the endings and the staff roll.\n* All menus: title menu, options, button config, save/load, CG mode, BGM mode, extras, character profiles and the attract-mode demo.\n* Graphics: the title …"
+      },
+      "first_seen": "2026-11-14"
     },
     {
       "id": "acc308cead149558",

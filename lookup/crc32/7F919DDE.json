@@ -1,0 +1,34 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "7F919DDE"
+ },
+ "crc32": "7F919DDE",
+ "size": 1048576,
+ "names": [
+  "Memories Off - Pure (Japan)"
+ ],
+ "patches": [
+  {
+   "id": "865afa63665b19c7",
+   "game": "Memories Off Pure (Neo Geo Pocket Color)",
+   "variant": "Memories.Off.-.Pure.EN.v0.9",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "7F919DDE",
+   "target_crc32": "29D523D7",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MemoriesOffPure_0.9/Memories.Off.-.Pure.EN.v0.9.bps",
+   "sha256": "865afa63665b19c754a4bb1bef46e7c11ae180c05c57902b8ed02a8e71546f52",
+   "size": 293022,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MemoriesOffPure_0.9",
+   "notes": "**Memories Off Pure** is a 2000 Neo Geo Pocket Color visual novel by KID, released only in Japan. It is the prequel to Memories Off: Tomoya Mikami's middle-school days with his childhood friends Ayaka Hizuki and Yue Imasaka, and Ayaka's cousin Minamo Ibuki. It is the first Neo Geo Pocket Color game in this repository.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps patch to *Memories Off - Pure (Japan).ngc* (No-Intro, 1 MB, CRC32 7F919DDE) with Floating IPS, beat or ROM Patcher JS. The result is 1 MB, CRC32 29D523D7. Keep the .ngc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Memories.Off.-.Pure.EN.v0.9.bps\" \"Memories Off - Pure (Japan).ngc\" \"Memories Off - Pure (EN v0.9).ngc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nSave files from the Japanese game don't work with the patched game: start a new game.\n\n**What is translated**\n\n* The whole script: all three routes (Ayaka, Yue, Minamo), the scenes from Ayaka's and Yue's point of view, the choices, the endings and the staff roll.\n* All menus: title menu, options, button config, save/load, CG mode, BGM mode, extras, character profiles and the attract-mode demo.\n* Graphics: the title …"
+  }
+ ],
+ "produced_by": []
+}

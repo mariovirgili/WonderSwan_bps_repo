@@ -76,7 +76,7 @@ Last change to the patch catalog: 2026-11-14.
 | ✅ | Langrisser Millennium WS - The Last Century (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0) |
 | ⚠️ | Lode Runner for WonderSwan (Japan) | WonderSwan | ⚠️ for another dump of this title (ROM CRC32 `E407CABF`): **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0)<br>**Japanese**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0) |
 | ✅ | Macross - True Love Song (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MacrossTLS_0.9) |
-| ✅ | Magical Drop for WonderSwan (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MagicalDrop_0.9) |
+| ✅ | Magical Drop for WonderSwan (Japan) | WonderSwan | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MagicalDrop_0.9) |
 | ✅ | Makaimura for WonderSwan (Japan) | WonderSwan | **English**: [Gand46 v1](https://github.com/Gand46/MakaiMura-EEPROM-Wonderswan-English-Translation-AI_GPT-/blob/main/eeprom-mod/hf20-compatible/patches/Makaimura_HF20_EEPROM_v1_FROM_JP.bps) |
 | ✅ | Medarot Perfect Edition - Kabuto Version (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0) |
 | ✅ | Medarot Perfect Edition - Kuwagata Version (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0) |
@@ -216,7 +216,7 @@ Last change to the patch catalog: 2026-11-14.
 | ⚠️ | **Lode Runner for WonderSwan (Japan)** | `21279E82` | ⚠️ for another dump of this title (ROM CRC32 `E407CABF`): **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0)<br>**Japanese**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0) |
 |  | Mac the Speed Shooter (World) (Proto) (WonderWitch) | `C7493525` | — |
 | ✅ | **Macross - True Love Song (Japan)** | `62D419CD` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MacrossTLS_0.9) |
-| ✅ | **Magical Drop for WonderSwan (Japan)** | `637ADA93` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MagicalDrop_0.9) |
+| ✅ | **Magical Drop for WonderSwan (Japan)** | `637ADA93` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MagicalDrop_0.9) |
 |  | Mahjong Touryuumon (Japan) (Rev 1) | `C2ED122E` | — |
 |  | Mahjong Touryuumon (Japan) (Rev 3) | `E7E7FD4C` | — |
 | ✅ | **Makaimura for WonderSwan (Japan)** | `00B31FBB` | **English**: [Gand46 v1](https://github.com/Gand46/MakaiMura-EEPROM-Wonderswan-English-Translation-AI_GPT-/blob/main/eeprom-mod/hf20-compatible/patches/Makaimura_HF20_EEPROM_v1_FROM_JP.bps) |
@@ -571,7 +571,7 @@ Last change to the patch catalog: 2026-11-14.
 |  | Yuuki Paint (World) (v1.01) (WonderWitch) (WWGP2001) | `B560F389` | — |
 |  | Yuuki Paint (World) (v1.20) (WonderWitch) | `21FA994C` | — |
 
-## Other ROM versions with patches (4)
+## Other ROM versions with patches (5)
 
 Patches made for a ROM that is not in the lists above (another dump, revision or a modified ROM).
 
@@ -581,3 +581,4 @@ Patches made for a ROM that is not in the lists above (another dump, revision or
 | Densha de Go 2 | `06D88203` | **English**: [Gand46 v0.4.17](https://github.com/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/blob/main/densha/patches/Densha_de_Go_2_EN_v0.4.17_from_v0.4.16_INCREMENTAL.bps) |
 | Front Mission | `A6C6E19B` | **English**: [Gand46 v033](https://github.com/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/blob/main/history/v034/history/v033/patches/v033_TEST_from_v032.bps) |
 | GnG Trainer | `EE8B3230` | **English**: [mariovirgili](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test) |
+| Memories Off Pure (Neo Geo Pocket Color) | `7F919DDE` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MemoriesOffPure_0.9) |

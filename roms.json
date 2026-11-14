@@ -1894,6 +1894,34 @@
    ],
    "produced_by": []
   },
+  "29D523D7": {
+   "crc32": "29D523D7",
+   "size": 1048576,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "865afa63665b19c7",
+     "game": "Memories Off Pure (Neo Geo Pocket Color)",
+     "variant": "Memories.Off.-.Pure.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "7F919DDE",
+     "target_crc32": "29D523D7",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MemoriesOffPure_0.9/Memories.Off.-.Pure.EN.v0.9.bps",
+     "sha256": "865afa63665b19c754a4bb1bef46e7c11ae180c05c57902b8ed02a8e71546f52",
+     "size": 293022,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MemoriesOffPure_0.9",
+     "notes": "**Memories Off Pure** is a 2000 Neo Geo Pocket Color visual novel by KID, released only in Japan. It is the prequel to Memories Off: Tomoya Mikami's middle-school days with his childhood friends Ayaka Hizuki and Yue Imasaka, and Ayaka's cousin Minamo Ibuki. It is the first Neo Geo Pocket Color game in this repository.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps patch to *Memories Off - Pure (Japan).ngc* (No-Intro, 1 MB, CRC32 7F919DDE) with Floating IPS, beat or ROM Patcher JS. The result is 1 MB, CRC32 29D523D7. Keep the .ngc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Memories.Off.-.Pure.EN.v0.9.bps\" \"Memories Off - Pure (Japan).ngc\" \"Memories Off - Pure (EN v0.9).ngc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nSave files from the Japanese game don't work with the patched game: start a new game.\n\n**What is translated**\n\n* The whole script: all three routes (Ayaka, Yue, Minamo), the scenes from Ayaka's and Yue's point of view, the choices, the endings and the staff roll.\n* All menus: title menu, options, button config, save/load, CG mode, BGM mode, extras, character profiles and the attract-mode demo.\n* Graphics: the title …"
+    }
+   ]
+  },
   "2AA1F3E8": {
    "crc32": "2AA1F3E8",
    "size": 2097152,
@@ -3329,34 +3357,6 @@
    ],
    "produced_by": []
   },
-  "3E319733": {
-   "crc32": "3E319733",
-   "size": 2097152,
-   "names": [],
-   "patches": [],
-   "produced_by": [
-    {
-     "id": "9b7fb1c040f87344",
-     "game": "Magical Drop for WonderSwan",
-     "variant": "Magical.Drop.for.WonderSwan.EN.v0.9.Colour",
-     "version": "0.9",
-     "language": "en",
-     "platform": "wonderswan",
-     "latest": true,
-     "superseded": false,
-     "format": "bps",
-     "source_crc32": "637ADA93",
-     "target_crc32": "3E319733",
-     "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.Colour.bps",
-     "sha256": "9b7fb1c040f873441de28387f1810b47eec46562e87a8be760df8876704f4efd",
-     "size": 567821,
-     "source": "mariovirgili/WonderSwanColor-AI_Translation",
-     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MagicalDrop_0.9",
-     "notes": "**Magical Drop for WonderSwan** is the 1999 WonderSwan version of Data East's falling-ball puzzle game, published by Bandai and released only in Japan. Grab the coloured drops at the bottom of the field and throw them back up to clear three or more of a colour; chains send drops to the opponent. The cast are the Magical Drop tarot characters (Justice, Star, Moon, Devil, Empress, Chariot, Fool...). Besides Story, Endless and the link-cable Versus mode, this version has a whole tarot fortune-telling mode.\n\nThe translation comes in two versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades.\n* **Colour** (new): the game turned into a WonderSwan Color game. Every object keeps its original four shades and gets its own four colours: the drops are red, blue, green and yellow as in the arcade games, each of the ten characters has its own portrait colours in matches and in the story dialogues, and the title, the menus, the player select, the story scenes, the playfield, the endless rank screen and every screen of the fortune mode are coloured. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and …"
-    }
-   ]
-  },
   "3E655169": {
    "crc32": "3E655169",
    "size": 8388608,
@@ -3751,6 +3751,34 @@
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Tetsujin28_0.9",
      "notes": "**Tetsujin 28 Gou** is a 1999 WonderSwan game by MegaHouse based on Mitsuteru Yokoyama's Tetsujin 28 (known in the West as Gigantor). It was released only in Japan.\n\nYoung detective Shotaro Kaneda inherits the giant robot built by his late father. With Dr. Shikishima and Chief Otsuka he learns to pilot Tetsujin by remote control and takes on a string of robot crimes, from runaway express trains to an underground Robot Empire. Battles are fought with button combinations on the remote.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply the .bps to *Tetsujin 28 Gou (Japan).ws* (4 MB, CRC32 6F304DCA) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB, CRC32 45BA9049; keep the .ws extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Tetsujin 28 Gou (EN v0.9).bps\" \"Tetsujin 28 Gou (Japan).ws\" \"Tetsujin 28 Gou (EN v0.9).ws\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**What is translated**\n\n* The whole script, 242 messages: story, tutorials, every case, choices and save messages.\n* The title menu buttons (NEW GAME / …"
+    }
+   ]
+  },
+  "4660BF80": {
+   "crc32": "4660BF80",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "35384a12398110f2",
+     "game": "Magical Drop for WonderSwan",
+     "variant": "Magical.Drop.for.WonderSwan.EN.v0.9.1",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "637ADA93",
+     "target_crc32": "4660BF80",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.1.bps",
+     "sha256": "35384a12398110f281f0394a1e923036de6c5654c947048ef05ec621859a002f",
+     "size": 564768,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MagicalDrop_0.9",
+     "notes": "**Magical Drop for WonderSwan** is the 1999 WonderSwan version of Data East's falling-ball puzzle game, published by Bandai and released only in Japan. Grab the coloured drops at the bottom of the field and throw them back up to clear three or more of a colour; chains send drops to the opponent. The cast are the Magical Drop tarot characters (Justice, Star, Moon, Devil, Empress, Chariot, Fool...). Besides Story, Endless and the link-cable Versus mode, this version has a whole tarot fortune-telling mode.\n\nThe translation comes in two versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades.\n* **Colour** (new): the game turned into a WonderSwan Color game. Every object keeps its original four shades and gets its own four colours: the drops are red, blue, green and yellow as in the arcade games, each of the ten characters has its own portrait colours in matches and in the story dialogues, and the title, the menus, the player select, the story scenes, the playfield, the endless rank screen and every screen of the fortune mode are coloured. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and …"
     }
    ]
   },
@@ -5569,41 +5597,41 @@
    ],
    "patches": [
     {
-     "id": "f8ad1c8656ca8cf2",
+     "id": "35384a12398110f2",
      "game": "Magical Drop for WonderSwan",
-     "variant": "Magical.Drop.for.WonderSwan.EN.v0.9",
-     "version": "0.9",
+     "variant": "Magical.Drop.for.WonderSwan.EN.v0.9.1",
+     "version": "0.9.1",
      "language": "en",
      "platform": "wonderswan",
      "latest": true,
      "superseded": false,
      "format": "bps",
      "source_crc32": "637ADA93",
-     "target_crc32": "A4AE5611",
+     "target_crc32": "4660BF80",
      "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.bps",
-     "sha256": "f8ad1c8656ca8cf26558befdb7aaf07d6d8cab4127af0dfbd7a9fbaa1f4c7439",
-     "size": 564225,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.1.bps",
+     "sha256": "35384a12398110f281f0394a1e923036de6c5654c947048ef05ec621859a002f",
+     "size": 564768,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MagicalDrop_0.9",
      "notes": "**Magical Drop for WonderSwan** is the 1999 WonderSwan version of Data East's falling-ball puzzle game, published by Bandai and released only in Japan. Grab the coloured drops at the bottom of the field and throw them back up to clear three or more of a colour; chains send drops to the opponent. The cast are the Magical Drop tarot characters (Justice, Star, Moon, Devil, Empress, Chariot, Fool...). Besides Story, Endless and the link-cable Versus mode, this version has a whole tarot fortune-telling mode.\n\nThe translation comes in two versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades.\n* **Colour** (new): the game turned into a WonderSwan Color game. Every object keeps its original four shades and gets its own four colours: the drops are red, blue, green and yellow as in the arcade games, each of the ten characters has its own portrait colours in matches and in the story dialogues, and the title, the menus, the player select, the story scenes, the playfield, the endless rank screen and every screen of the fortune mode are coloured. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and …"
     },
     {
-     "id": "9b7fb1c040f87344",
+     "id": "7e0c7b9f7dc29623",
      "game": "Magical Drop for WonderSwan",
-     "variant": "Magical.Drop.for.WonderSwan.EN.v0.9.Colour",
-     "version": "0.9",
+     "variant": "Magical.Drop.for.WonderSwan.EN.v0.9.1.Colour",
+     "version": "0.9.1",
      "language": "en",
      "platform": "wonderswan",
      "latest": true,
      "superseded": false,
      "format": "bps",
      "source_crc32": "637ADA93",
-     "target_crc32": "3E319733",
+     "target_crc32": "DCFF7EA2",
      "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.Colour.bps",
-     "sha256": "9b7fb1c040f873441de28387f1810b47eec46562e87a8be760df8876704f4efd",
-     "size": 567821,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.1.Colour.bps",
+     "sha256": "7e0c7b9f7dc29623e85a5ee65aa73f9b13e697799e75ef9d71130509950898bb",
+     "size": 568364,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MagicalDrop_0.9",
      "notes": "**Magical Drop for WonderSwan** is the 1999 WonderSwan version of Data East's falling-ball puzzle game, published by Bandai and released only in Japan. Grab the coloured drops at the bottom of the field and throw them back up to clear three or more of a colour; chains send drops to the opponent. The cast are the Magical Drop tarot characters (Justice, Star, Moon, Devil, Empress, Chariot, Fool...). Besides Story, Endless and the link-cable Versus mode, this version has a whole tarot fortune-telling mode.\n\nThe translation comes in two versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades.\n* **Colour** (new): the game turned into a WonderSwan Color game. Every object keeps its original four shades and gets its own four colours: the drops are red, blue, green and yellow as in the arcade games, each of the ten characters has its own portrait colours in matches and in the story dialogues, and the title, the menus, the player select, the story scenes, the playfield, the endless rank screen and every screen of the fortune mode are coloured. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and …"
@@ -6653,6 +6681,36 @@
      "page": "https://github.com/Gand46/MakaiMura-EEPROM-Wonderswan-English-Translation-AI_GPT-/blob/main/reference/Makaimura_EN_US_Phase4W_CUMULATIVE_FROM_JP.bps"
     }
    ]
+  },
+  "7F919DDE": {
+   "crc32": "7F919DDE",
+   "size": 1048576,
+   "names": [
+    "Memories Off - Pure (Japan)"
+   ],
+   "patches": [
+    {
+     "id": "865afa63665b19c7",
+     "game": "Memories Off Pure (Neo Geo Pocket Color)",
+     "variant": "Memories.Off.-.Pure.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "7F919DDE",
+     "target_crc32": "29D523D7",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MemoriesOffPure_0.9/Memories.Off.-.Pure.EN.v0.9.bps",
+     "sha256": "865afa63665b19c754a4bb1bef46e7c11ae180c05c57902b8ed02a8e71546f52",
+     "size": 293022,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MemoriesOffPure_0.9",
+     "notes": "**Memories Off Pure** is a 2000 Neo Geo Pocket Color visual novel by KID, released only in Japan. It is the prequel to Memories Off: Tomoya Mikami's middle-school days with his childhood friends Ayaka Hizuki and Yue Imasaka, and Ayaka's cousin Minamo Ibuki. It is the first Neo Geo Pocket Color game in this repository.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps patch to *Memories Off - Pure (Japan).ngc* (No-Intro, 1 MB, CRC32 7F919DDE) with Floating IPS, beat or ROM Patcher JS. The result is 1 MB, CRC32 29D523D7. Keep the .ngc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Memories.Off.-.Pure.EN.v0.9.bps\" \"Memories Off - Pure (Japan).ngc\" \"Memories Off - Pure (EN v0.9).ngc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nSave files from the Japanese game don't work with the patched game: start a new game.\n\n**What is translated**\n\n* The whole script: all three routes (Ayaka, Yue, Minamo), the scenes from Ayaka's and Yue's point of view, the choices, the endings and the staff roll.\n* All menus: title menu, options, button config, save/load, CG mode, BGM mode, extras, character profiles and the attract-mode demo.\n* Graphics: the title …"
+    }
+   ],
+   "produced_by": []
   },
   "7F92316E": {
    "crc32": "7F92316E",
@@ -8901,34 +8959,6 @@
     }
    ],
    "produced_by": []
-  },
-  "A4AE5611": {
-   "crc32": "A4AE5611",
-   "size": 2097152,
-   "names": [],
-   "patches": [],
-   "produced_by": [
-    {
-     "id": "f8ad1c8656ca8cf2",
-     "game": "Magical Drop for WonderSwan",
-     "variant": "Magical.Drop.for.WonderSwan.EN.v0.9",
-     "version": "0.9",
-     "language": "en",
-     "platform": "wonderswan",
-     "latest": true,
-     "superseded": false,
-     "format": "bps",
-     "source_crc32": "637ADA93",
-     "target_crc32": "A4AE5611",
-     "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.bps",
-     "sha256": "f8ad1c8656ca8cf26558befdb7aaf07d6d8cab4127af0dfbd7a9fbaa1f4c7439",
-     "size": 564225,
-     "source": "mariovirgili/WonderSwanColor-AI_Translation",
-     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MagicalDrop_0.9",
-     "notes": "**Magical Drop for WonderSwan** is the 1999 WonderSwan version of Data East's falling-ball puzzle game, published by Bandai and released only in Japan. Grab the coloured drops at the bottom of the field and throw them back up to clear three or more of a colour; chains send drops to the opponent. The cast are the Magical Drop tarot characters (Justice, Star, Moon, Devil, Empress, Chariot, Fool...). Besides Story, Endless and the link-cable Versus mode, this version has a whole tarot fortune-telling mode.\n\nThe translation comes in two versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades.\n* **Colour** (new): the game turned into a WonderSwan Color game. Every object keeps its original four shades and gets its own four colours: the drops are red, blue, green and yellow as in the arcade games, each of the ten characters has its own portrait colours in matches and in the story dialogues, and the title, the menus, the player select, the story scenes, the playfield, the endless rank screen and every screen of the fortune mode are coloured. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and …"
-    }
-   ]
   },
   "A53C9190": {
    "crc32": "A53C9190",
@@ -11737,6 +11767,34 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wild-card-v1.0",
      "notes": "**Wild Card** (ワイルドカード) is a card-driven adventure game from Square, released in Japan on 29 March 2001 for the WonderSwan Color. Characters, scenarios, terrain, monsters, spells, items and events are all cards, and the field screen is also the battle screen. A comet appears over the Kingdom of Alan and everyone starts hunting the Star Fragments. An opening quiz picks one of nine heroes, and the game has seven stages made of short scenarios.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the opening quiz and each hero's opening, the title and file menus, name entry, the towns and taverns, all seven stages with their events, the card battles (menus, HUD, results, status messages), the shops, the Album, the link-cable card trade, both endings, the staff roll and the game-over screens. The game stores 4,820 text units and all of them are covered.\n* **Card names:** all 930 are translated. A name has to fit 16 letters in the game's own label, so 51 are shortened (for example \"Salamander Breath\" is shown as …"
+    }
+   ]
+  },
+  "DCFF7EA2": {
+   "crc32": "DCFF7EA2",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "7e0c7b9f7dc29623",
+     "game": "Magical Drop for WonderSwan",
+     "variant": "Magical.Drop.for.WonderSwan.EN.v0.9.1.Colour",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "637ADA93",
+     "target_crc32": "DCFF7EA2",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MagicalDrop_0.9/Magical.Drop.for.WonderSwan.EN.v0.9.1.Colour.bps",
+     "sha256": "7e0c7b9f7dc29623e85a5ee65aa73f9b13e697799e75ef9d71130509950898bb",
+     "size": 568364,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MagicalDrop_0.9",
+     "notes": "**Magical Drop for WonderSwan** is the 1999 WonderSwan version of Data East's falling-ball puzzle game, published by Bandai and released only in Japan. Grab the coloured drops at the bottom of the field and throw them back up to clear three or more of a colour; chains send drops to the opponent. The cast are the Magical Drop tarot characters (Justice, Star, Moon, Devil, Empress, Chariot, Fool...). Besides Story, Endless and the link-cable Versus mode, this version has a whole tarot fortune-telling mode.\n\nThe translation comes in two versions with the same English text:\n\n* **Black and white:** the game as it was made, a black-and-white WonderSwan game with its original graphics and shades.\n* **Colour** (new): the game turned into a WonderSwan Color game. Every object keeps its original four shades and gets its own four colours: the drops are red, blue, green and yellow as in the arcade games, each of the ten characters has its own portrait colours in matches and in the story dialogues, and the title, the menus, the player select, the story scenes, the playfield, the endless rank screen and every screen of the fortune mode are coloured. It needs a WonderSwan Color or SwanCrystal, or an emulator.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and …"
     }
    ]
   },
