@@ -1262,7 +1262,29 @@
    "md5": "aa46ad69657bedf13ebd524959b23c86",
    "sha1": "897ceb34d685fcd501f0c15b9c9ec5dd6c6b88ab",
    "names": [],
-   "patches": [],
+   "patches": [
+    {
+     "id": "ea65c4f60da4acb3",
+     "game": "Judgement Silversword",
+     "variant": "JSS_Normal+Arrange_v2_7_to_SpecialPink",
+     "version": "2",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "requires_patched_rom": true,
+     "source_crc32": "1A50FABF",
+     "target_crc32": "77C99C13",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/JSS_Arrange_2.7/JSS_Normal%2BArrange_v2_7_to_SpecialPink.bps",
+     "sha256": "ea65c4f60da4acb3357f4e3e0edb566b8adf7524fff4891424619679e503a977",
+     "size": 65,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/JSS_Arrange_2.7",
+     "notes": "A visual remix of the WonderSwan Color vertical shmup *Judgement Silversword – Rebirth Edition*.\nOne patch gives you **both editions in a single ROM** with a boot menu: the untouched **Normal Edition** and the new **Arrange Edition**. Gameplay, hitboxes, stage scripts and music are the same as the original in both.\n\nPatch by **/u/Gio-74**, ROM hacking and tools by Claude (Anthropic).\n\n---\n\n## What's new in the Arrange Edition\n\n**Backgrounds**\n- Stage 1: a solar corona instead of the Earth, fading into space\n- Stage 4: an icy moon with jagged rocky cliff edges, and an asteroid field instead of the Moon\n- Stage 5: Saturn instead of the gas giant, with soft edges\n- Final stage: a temple-mosaic floor, a nebula sky and a Doré-style backdrop for the final boss\n\n**Sprites, in a biomechanical \"organic mecha\" style**\n- A new player ship: an organic mecha with a green visor, armoured shoulders and arm cannons. It has 6 animation frames (banking and thrusters), and the lives icon in the HUD matches it.\n- **Every enemy redrawn**: wasps, beetle walkers and their rolled-up shells, claw fighters, moths, manta bombers, horned cruisers, a grey bio-robot, spore orbs that turn and open their eye, bone blades, a scythe mantis and spore missiles.\n- **Bosses redesigned**:\n  - MAGNIFICENCE is now a carapace-and-bone colossus.\n  - The Saturn battleship is a bone-white manta dreadnought.\n  - The MIRROR SHIELD judge carries an eye of flesh and bone.\n- New sprite palettes: emerald enemies, and crimson …"
+    }
+   ],
    "produced_by": [
     {
      "id": "848d238cf799dcf2",
@@ -1709,7 +1731,7 @@
      "version": "1.3",
      "language": "en",
      "platform": "wonderswan_color",
-     "latest": true,
+     "latest": false,
      "superseded": false,
      "format": "bps",
      "source_crc32": "4D21A347",
@@ -2394,6 +2416,34 @@
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Digimon-tamers_v0.9",
      "notes": "**Digimon Tamers: Brave Tamer** is a 2001 Bandai RPG for the WonderSwan Color that never left Japan. You play as Ryo Akiyama, the \"legendary Tamer\" of the WonderSwan games. He wakes up with no memory in ENIAC's world, next to his partner Monodramon, while Millenniummon attacks the past through black crevasses. The story goes through the worlds of the Adventure, Adventure 02 and Tamers kids, with card slashes, plug-ins, P-Factors and the Radar Chart.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **only with AI** (Claude), **for personal use**. I'm sharing it as it is for anyone who wants to play it, but it must **never be uploaded to romhacking sites** (romhacking.net and similar). It isn't worthy of them: it isn't a real fan translation, and it doesn't belong there.\n\n**What's translated**\n\n* All the dialogue (about 3,000 messages): the story, every NPC, the tutorials, the shops, Jijimon's Lab, the Otamamon Inn and the Digimon quiz show, with a new variable-width font.\n* Battles: every battle message, including the Digimon and technique names inserted into them, the EXP and BIT results, and the command menus.\n* All 310 Digimon names, every technique, item, P-Factor and card name, and the 289 card descriptions.\n* Menus: title menu, field menu, and the Status, Plug-in, P-Factor and Radar Chart screens.\n* Name entry, with a new English keyboard.\n* Jijimon's name chain game, adapted to English names.\n* Graphics: the \"Brave Tamer\" subtitle …"
+    }
+   ]
+  },
+  "322FB645": {
+   "crc32": "322FB645",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "0ba3ae6f8240af00",
+     "game": "SD Gundam G Generation: Gather Beat",
+     "variant": "gather-beat-gb1-en-1.3",
+     "version": "1.3",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "E4EB3AB1",
+     "target_crc32": "322FB645",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gather-beat-v1.3/gather-beat-gb1-en-1.3.bps",
+     "sha256": "0ba3ae6f8240af00f6de5c4381f459aabda95efa9bc62bae91dbdce032efbf62",
+     "size": 508150,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-v1.3",
+     "notes": "**SD Gundam G Generation: Gather Beat** (SDガンダム Gジェネレーション ギャザービート) is Bandai's 2000 G Generation strategy game for the WonderSwan, released only in Japan. You command a mixed force of mobile suits and ships from across the Gundam series on grid maps, replaying battles from Mobile Suit Gundam, The 08th MS Team, 0083, Zeta, ZZ, Char's Counterattack, G Gundam, Gundam Wing, Gundam X, Turn A and more. Pilots fire ID commands (special abilities with their own speech), and between stages you manage the Backstage: buying units, developing and modifying machines, assigning pilots. Two players can fight each other over the link cable. This patch translates it into English. (Gather Beat 2 has its own patch and release.)\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* All stage and battle dialogue, ID commands and their speech, menus, unit, pilot and weapon names, the Backstage menus, the stage objectives, the prologue and the ending narration.\n* Link-cable battles: map select, turn and battle menus, the defender's Fight / Evade / Guard choice and the result messages.\n* WonderGate: the shop …"
     }
    ]
   },
@@ -3871,6 +3921,35 @@
     }
    ]
   },
+  "4CB3DAEE": {
+   "crc32": "4CB3DAEE",
+   "size": 2097152,
+   "sha256": "d0c870149cc424b2a599bcc7d2a2693a4c6b9699187cf173646f4c8b88dc7639",
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "0620791fce466896",
+     "game": "Tanjou Debut for WonderSwan",
+     "variant": "tanjou-debut-en-original-quiz-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "8B74F59A",
+     "target_crc32": "4CB3DAEE",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/tanjou-debut-v1.0/tanjou-debut-en-original-quiz-1.0.bps",
+     "sha256": "0620791fce466896e18bbfbef35f0ecf6c13b486fe435e7b99d7f0c7d1d3f9b7",
+     "size": 145253,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tanjou-debut-v1.0",
+     "notes": "**Tanjou Debut for WonderSwan** (誕生 〜Debut〜 for WonderSwan) is an idol-raising simulation made by Bandai Visual / Image Works in 2000 for the original (monochrome) WonderSwan, based on a 1993 PC-98 game of the same name. You manage three young idols, Aki Ito (16), Saori Fujimura (17) and Kumi Tanaka (16), through a two-year schedule of lessons, jobs and talks, one week at a time, until the Idol Grand Prix decides how the story ends. The kanji in the title, 誕生, read \"tanjou\" and mean \"birth\". This patch translates all the text the game shows into English, in two editions that differ only in the quiz.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The script:** all 1,416 text units (dialogue, menus, messages, quiz questions, rival lines, news items, epilogues and the ending text), in the game's five text blocks plus the system strings. Names follow Western order: Aki Ito, Saori Fujimura, Kumi Tanaka.\n* **Pictures with text,** redrawn by hand in the original lettering: the menu plates, the schedule and job tables, stat labels, result tables, rankings, the Album labels, the credits, …"
+    }
+   ]
+  },
   "4D103236": {
    "crc32": "4D103236",
    "size": 1048576,
@@ -3934,13 +4013,33 @@
    ],
    "patches": [
     {
+     "id": "964667e297454ee9",
+     "game": "SD Gundam G Generation: Gather Beat 2",
+     "variant": "gather-beat-gb2-en-1.4",
+     "version": "1.4",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "4D21A347",
+     "target_crc32": "B0BB0D1E",
+     "target_size": 16777216,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gather-beat-2-v1.4/gather-beat-gb2-en-1.4.bps",
+     "sha256": "964667e297454ee9df20c75fb605d62988640ab7559d062c0ab67c1191de572d",
+     "size": 941329,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-2-v1.4",
+     "notes": "**SD Gundam G Generation: Gather Beat 2** (SDガンダム Gジェネレーション ギャザービート2) is Bandai's 2001 G Generation strategy game for the WonderSwan Color, released only in Japan. You command a mixed force of mobile suits and ships from across the Gundam series on grid maps, replaying battles from Mobile Suit Gundam, The 08th MS Team, 0083, Zeta, ZZ, Char's Counterattack, Victory, G Gundam, Gundam Wing, Gundam X, Turn A and more. Pilots fire ID commands (special abilities with their own speech), between stages you manage the Backstage (buying, developing and modifying units, assigning pilots), and the game adds an encyclopedia of characters and mobile suits, adventure scenes, two endings and unit trading over the link cable. This patch translates it into English. (The first Gather Beat has its own patch and release.)\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* All story, map and battle dialogue, ID and battle speech, the adventure scenes, menus and names, the encyclopedia (684 entries), and the narration of both endings.\n* Link cable: the Unit Trade screens and messages.\n* WonderGate: the shop …"
+    },
+    {
      "id": "684b515f7e869b0f",
      "game": "SD Gundam G Generation: Gather Beat 2",
      "variant": "gather-beat-gb2-en-1.3",
      "version": "1.3",
      "language": "en",
      "platform": "wonderswan_color",
-     "latest": true,
+     "latest": false,
      "superseded": false,
      "format": "bps",
      "source_crc32": "4D21A347",
@@ -3960,7 +4059,7 @@
      "version": "1.3",
      "language": "en",
      "platform": "wonderswan_color",
-     "latest": true,
+     "latest": false,
      "superseded": false,
      "format": "bps",
      "source_crc32": "4D21A347",
@@ -4341,6 +4440,34 @@
      "size": 28938,
      "source": "Gand46/MakaiMura-EEPROM-Wonderswan-English-Translation-AI_GPT-",
      "page": "https://github.com/Gand46/MakaiMura-EEPROM-Wonderswan-English-Translation-AI_GPT-/blob/main/patches/MakaiMura-Phase4W-HF20-release/MakaiMura-Phase4W-HF20-CUMULATIVE_FROM_JP.bps"
+    }
+   ]
+  },
+  "527761BF": {
+   "crc32": "527761BF",
+   "size": 1048576,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "55b8cf82009dbcbf",
+     "game": "Langrisser Millennium WS: The Last Century",
+     "variant": "langrisser-millennium-en-teststage-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "9E0854E2",
+     "target_crc32": "527761BF",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/langrisser-millennium-v1.0/langrisser-millennium-en-teststage-1.0.bps",
+     "sha256": "55b8cf82009dbcbfa75e3e327938c7f02c4559530eae373bc632bb2c7cf37378",
+     "size": 161937,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0",
+     "notes": "**Langrisser Millennium WS: The Last Century** (ラングリッサーミレニアムWS THE LAST CENTURY) is a tactical RPG for the original (monochrome) WonderSwan, made by NCS and released by Masaya/Bandai in Japan in 2000. Zion, a boy from a frontier ranch, is drawn into a war between the Neo-Empire, the Federation and the Mithra Church over the legacy of the lost super-civilization Suluktan: an ark, the Archangel and the Archdemon. Hire mercenaries for your commanders, place them, and fight 8 common scenarios, then one of two routes of 9 with their own endings, plus two hidden joke stages. This patch translates it into English.\n\nThis is a release of **wakabayashy's Langrisser Millennium WS English translation project**, which I have been helping with. See Credits below.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* Everything with text: the prologue captions, the title and its menus, the opening and the birthday quiz, all 29 scenarios on both routes (with the hidden X1 and X2 stages), every story and battle line, the scenario title cards, introductions and victory/defeat conditions.\n* The preparation …"
     }
    ]
   },
@@ -5512,6 +5639,34 @@
     }
    ]
   },
+  "66242FE6": {
+   "crc32": "66242FE6",
+   "size": 1048576,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "21ff676fe9bb8e5c",
+     "game": "Langrisser Millennium WS: The Last Century",
+     "variant": "langrisser-millennium-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "9E0854E2",
+     "target_crc32": "66242FE6",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/langrisser-millennium-v1.0/langrisser-millennium-en-1.0.bps",
+     "sha256": "21ff676fe9bb8e5c28bff48f8f778d2eb6a6db9b7473b0939c1f80591f638909",
+     "size": 161875,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0",
+     "notes": "**Langrisser Millennium WS: The Last Century** (ラングリッサーミレニアムWS THE LAST CENTURY) is a tactical RPG for the original (monochrome) WonderSwan, made by NCS and released by Masaya/Bandai in Japan in 2000. Zion, a boy from a frontier ranch, is drawn into a war between the Neo-Empire, the Federation and the Mithra Church over the legacy of the lost super-civilization Suluktan: an ark, the Archangel and the Archdemon. Hire mercenaries for your commanders, place them, and fight 8 common scenarios, then one of two routes of 9 with their own endings, plus two hidden joke stages. This patch translates it into English.\n\nThis is a release of **wakabayashy's Langrisser Millennium WS English translation project**, which I have been helping with. See Credits below.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* Everything with text: the prologue captions, the title and its menus, the opening and the birthday quiz, all 29 scenarios on both routes (with the hidden X1 and X2 stages), every story and battle line, the scenario title cards, introductions and victory/defeat conditions.\n* The preparation …"
+    }
+   ]
+  },
   "66B617D5": {
    "crc32": "66B617D5",
    "size": 4194304,
@@ -5922,6 +6077,34 @@
    ],
    "produced_by": []
   },
+  "720F2348": {
+   "crc32": "720F2348",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "acc308cead149558",
+     "game": "Memories Off: Festa",
+     "variant": "Memories.Off.-.Festa.EN.v0.9.ALL.CAPS",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "8E123373",
+     "target_crc32": "720F2348",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MemoriesOffFesta_0.9/Memories.Off.-.Festa.EN.v0.9.ALL.CAPS.bps",
+     "sha256": "acc308cead1495589dddf4116d85f263c1231c2594e909c4f4b7cfd1d82d6e9a",
+     "size": 238842,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MemoriesOffFesta_0.9",
+     "notes": "**Memories Off: Festa** is a 2001 WonderSwan Color game by KID, released only in Japan. It is a spin-off of the Memories Off visual novels. During the Sumisora Academy school festival, Tomoya and the heroines of the series (plus guests from KID's Never7 and Yume no Tsubasa) challenge each other at \"Pon-Jan\", a quick mahjong-like card game played with heroine and item cards. The Story Mode follows the festival and the Miss Sumisora contest; Free Play lets you pick any opponent.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Two versions**\n\n* Normal (mixed case)\n* ALL CAPS\n\nThe translation is the same in both; only the letter case of the text differs.\n\n**How to patch**\n\nApply one of the .bps patches to *Memories Off - Festa (Japan).wsc* (2 MB, CRC32 8E123373) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB, CRC32 8896B040 (normal) or 720F2348 (ALL CAPS). Keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Memories.Off.-.Festa.EN.v0.9.bps\" \"Memories Off - Festa (Japan).wsc\" \"Memories Off - Festa (EN v0.9).wsc\"\n    flips --apply \"Memories.Off.-.Festa.EN.v0.9.ALL.CAPS.bps\" \"Memories Off - Festa (Japan).wsc\" \"Memories Off - Festa (EN v0.9, ALL CAPS).wsc\"\n\nYou must provide your …"
+    }
+   ]
+  },
   "72AFDE86": {
    "crc32": "72AFDE86",
    "size": 4194304,
@@ -6062,6 +6245,55 @@
     }
    ]
   },
+  "77C99C13": {
+   "crc32": "77C99C13",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "a344f0b119004125",
+     "game": "Judgement Silversword",
+     "variant": "JSS_Normal+Arrange_v2_7_SpecialPink",
+     "version": "2",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "85C4C9A1",
+     "target_crc32": "77C99C13",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/JSS_Arrange_2.7/JSS_Normal%2BArrange_v2_7_SpecialPink.bps",
+     "sha256": "a344f0b11900412564bab3ab2e747ae601ce5dbea44692db88d381b084e9de79",
+     "size": 509123,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/JSS_Arrange_2.7",
+     "notes": "A visual remix of the WonderSwan Color vertical shmup *Judgement Silversword – Rebirth Edition*.\nOne patch gives you **both editions in a single ROM** with a boot menu: the untouched **Normal Edition** and the new **Arrange Edition**. Gameplay, hitboxes, stage scripts and music are the same as the original in both.\n\nPatch by **/u/Gio-74**, ROM hacking and tools by Claude (Anthropic).\n\n---\n\n## What's new in the Arrange Edition\n\n**Backgrounds**\n- Stage 1: a solar corona instead of the Earth, fading into space\n- Stage 4: an icy moon with jagged rocky cliff edges, and an asteroid field instead of the Moon\n- Stage 5: Saturn instead of the gas giant, with soft edges\n- Final stage: a temple-mosaic floor, a nebula sky and a Doré-style backdrop for the final boss\n\n**Sprites, in a biomechanical \"organic mecha\" style**\n- A new player ship: an organic mecha with a green visor, armoured shoulders and arm cannons. It has 6 animation frames (banking and thrusters), and the lives icon in the HUD matches it.\n- **Every enemy redrawn**: wasps, beetle walkers and their rolled-up shells, claw fighters, moths, manta bombers, horned cruisers, a grey bio-robot, spore orbs that turn and open their eye, bone blades, a scythe mantis and spore missiles.\n- **Bosses redesigned**:\n  - MAGNIFICENCE is now a carapace-and-bone colossus.\n  - The Saturn battleship is a bone-white manta dreadnought.\n  - The MIRROR SHIELD judge carries an eye of flesh and bone.\n- New sprite palettes: emerald enemies, and crimson …"
+    },
+    {
+     "id": "ea65c4f60da4acb3",
+     "game": "Judgement Silversword",
+     "variant": "JSS_Normal+Arrange_v2_7_to_SpecialPink",
+     "version": "2",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "requires_patched_rom": true,
+     "source_crc32": "1A50FABF",
+     "target_crc32": "77C99C13",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/JSS_Arrange_2.7/JSS_Normal%2BArrange_v2_7_to_SpecialPink.bps",
+     "sha256": "ea65c4f60da4acb3357f4e3e0edb566b8adf7524fff4891424619679e503a977",
+     "size": 65,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/JSS_Arrange_2.7",
+     "notes": "A visual remix of the WonderSwan Color vertical shmup *Judgement Silversword – Rebirth Edition*.\nOne patch gives you **both editions in a single ROM** with a boot menu: the untouched **Normal Edition** and the new **Arrange Edition**. Gameplay, hitboxes, stage scripts and music are the same as the original in both.\n\nPatch by **/u/Gio-74**, ROM hacking and tools by Claude (Anthropic).\n\n---\n\n## What's new in the Arrange Edition\n\n**Backgrounds**\n- Stage 1: a solar corona instead of the Earth, fading into space\n- Stage 4: an icy moon with jagged rocky cliff edges, and an asteroid field instead of the Moon\n- Stage 5: Saturn instead of the gas giant, with soft edges\n- Final stage: a temple-mosaic floor, a nebula sky and a Doré-style backdrop for the final boss\n\n**Sprites, in a biomechanical \"organic mecha\" style**\n- A new player ship: an organic mecha with a green visor, armoured shoulders and arm cannons. It has 6 animation frames (banking and thrusters), and the lives icon in the HUD matches it.\n- **Every enemy redrawn**: wasps, beetle walkers and their rolled-up shells, claw fighters, moths, manta bombers, horned cruisers, a grey bio-robot, spore orbs that turn and open their eye, bone blades, a scythe mantis and spore missiles.\n- **Bosses redesigned**:\n  - MAGNIFICENCE is now a carapace-and-bone colossus.\n  - The Saturn battleship is a bone-white manta dreadnought.\n  - The MIRROR SHIELD judge carries an eye of flesh and bone.\n- New sprite palettes: emerald enemies, and crimson …"
+    }
+   ]
+  },
   "77E9D607": {
    "crc32": "77E9D607",
    "size": 8388608,
@@ -6075,7 +6307,7 @@
      "version": "1.3",
      "language": "en",
      "platform": "wonderswan_color",
-     "latest": true,
+     "latest": false,
      "superseded": false,
      "format": "bps",
      "source_crc32": "4D21A347",
@@ -6861,6 +7093,26 @@
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/JSS_Arrange_2.7",
      "notes": "A visual remix of the WonderSwan Color vertical shmup *Judgement Silversword – Rebirth Edition*.\nOne patch gives you **both editions in a single ROM** with a boot menu: the untouched **Normal Edition** and the new **Arrange Edition**. Gameplay, hitboxes, stage scripts and music are the same as the original in both.\n\nPatch by **/u/Gio-74**, ROM hacking and tools by Claude (Anthropic).\n\n---\n\n## What's new in the Arrange Edition\n\n**Backgrounds**\n- Stage 1: a solar corona instead of the Earth, fading into space\n- Stage 4: an icy moon with jagged rocky cliff edges, and an asteroid field instead of the Moon\n- Stage 5: Saturn instead of the gas giant, with soft edges\n- Final stage: a temple-mosaic floor, a nebula sky and a Doré-style backdrop for the final boss\n\n**Sprites, in a biomechanical \"organic mecha\" style**\n- A new player ship: an organic mecha with a green visor, armoured shoulders and arm cannons. It has 6 animation frames (banking and thrusters), and the lives icon in the HUD matches it.\n- **Every enemy redrawn**: wasps, beetle walkers and their rolled-up shells, claw fighters, moths, manta bombers, horned cruisers, a grey bio-robot, spore orbs that turn and open their eye, bone blades, a scythe mantis and spore missiles.\n- **Bosses redesigned**:\n  - MAGNIFICENCE is now a carapace-and-bone colossus.\n  - The Saturn battleship is a bone-white manta dreadnought.\n  - The MIRROR SHIELD judge carries an eye of flesh and bone.\n- New sprite palettes: emerald enemies, and crimson …"
+    },
+    {
+     "id": "a344f0b119004125",
+     "game": "Judgement Silversword",
+     "variant": "JSS_Normal+Arrange_v2_7_SpecialPink",
+     "version": "2",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "85C4C9A1",
+     "target_crc32": "77C99C13",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/JSS_Arrange_2.7/JSS_Normal%2BArrange_v2_7_SpecialPink.bps",
+     "sha256": "a344f0b11900412564bab3ab2e747ae601ce5dbea44692db88d381b084e9de79",
+     "size": 509123,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/JSS_Arrange_2.7",
+     "notes": "A visual remix of the WonderSwan Color vertical shmup *Judgement Silversword – Rebirth Edition*.\nOne patch gives you **both editions in a single ROM** with a boot menu: the untouched **Normal Edition** and the new **Arrange Edition**. Gameplay, hitboxes, stage scripts and music are the same as the original in both.\n\nPatch by **/u/Gio-74**, ROM hacking and tools by Claude (Anthropic).\n\n---\n\n## What's new in the Arrange Edition\n\n**Backgrounds**\n- Stage 1: a solar corona instead of the Earth, fading into space\n- Stage 4: an icy moon with jagged rocky cliff edges, and an asteroid field instead of the Moon\n- Stage 5: Saturn instead of the gas giant, with soft edges\n- Final stage: a temple-mosaic floor, a nebula sky and a Doré-style backdrop for the final boss\n\n**Sprites, in a biomechanical \"organic mecha\" style**\n- A new player ship: an organic mecha with a green visor, armoured shoulders and arm cannons. It has 6 animation frames (banking and thrusters), and the lives icon in the HUD matches it.\n- **Every enemy redrawn**: wasps, beetle walkers and their rolled-up shells, claw fighters, moths, manta bombers, horned cruisers, a grey bio-robot, spore orbs that turn and open their eye, bone blades, a scythe mantis and spore missiles.\n- **Bosses redesigned**:\n  - MAGNIFICENCE is now a carapace-and-bone colossus.\n  - The Saturn battleship is a bone-white manta dreadnought.\n  - The MIRROR SHIELD judge carries an eye of flesh and bone.\n- New sprite palettes: emerald enemies, and crimson …"
     }
    ],
    "produced_by": []
@@ -7139,6 +7391,34 @@
     }
    ]
   },
+  "8896B040": {
+   "crc32": "8896B040",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "884aaa1d27ce79a6",
+     "game": "Memories Off: Festa",
+     "variant": "Memories.Off.-.Festa.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "8E123373",
+     "target_crc32": "8896B040",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MemoriesOffFesta_0.9/Memories.Off.-.Festa.EN.v0.9.bps",
+     "sha256": "884aaa1d27ce79a61649ecd526d3322c99bdda01d04b6469737c17e174e6c01f",
+     "size": 237741,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MemoriesOffFesta_0.9",
+     "notes": "**Memories Off: Festa** is a 2001 WonderSwan Color game by KID, released only in Japan. It is a spin-off of the Memories Off visual novels. During the Sumisora Academy school festival, Tomoya and the heroines of the series (plus guests from KID's Never7 and Yume no Tsubasa) challenge each other at \"Pon-Jan\", a quick mahjong-like card game played with heroine and item cards. The Story Mode follows the festival and the Miss Sumisora contest; Free Play lets you pick any opponent.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Two versions**\n\n* Normal (mixed case)\n* ALL CAPS\n\nThe translation is the same in both; only the letter case of the text differs.\n\n**How to patch**\n\nApply one of the .bps patches to *Memories Off - Festa (Japan).wsc* (2 MB, CRC32 8E123373) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB, CRC32 8896B040 (normal) or 720F2348 (ALL CAPS). Keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Memories.Off.-.Festa.EN.v0.9.bps\" \"Memories Off - Festa (Japan).wsc\" \"Memories Off - Festa (EN v0.9).wsc\"\n    flips --apply \"Memories.Off.-.Festa.EN.v0.9.ALL.CAPS.bps\" \"Memories Off - Festa (Japan).wsc\" \"Memories Off - Festa (EN v0.9, ALL CAPS).wsc\"\n\nYou must provide your …"
+    }
+   ]
+  },
   "88CFF1A6": {
    "crc32": "88CFF1A6",
    "size": 4194304,
@@ -7275,6 +7555,60 @@
      "notes": "*Marie & Elie: Futari no Atelier* is Gust's 2001 Atelier game for the WonderSwan Color, released only in Japan. Marie (Marlone), now a full-fledged alchemist, and Elie (Elfir Traum), the girl she once saved, open an atelier together in Salburg. Thieves have stolen everything Elie owned, and Fuehren from Kentnis asks the two of them to create something nobody has ever seen: the Primordial Flame. You have three years to synthesize items, take quests at the Sky Tavern, gather ingredients with adventurers, hold tea parties and meet the cast of both Atelier Marie and Atelier Elie.\n\nThis patch translates it into English.\n\n**What is translated**\n\n- The whole script: 2,643 messages (story events, town talk, quests, tea parties, gathering trips, battles, the endings, the item and character encyclopedia, the composer's comments in the music room, the staff roll).\n- Item and equipment names, all the menus and system strings.\n- The speaker nameplates (redrawn in English) and the item names painted on the item cards.\n- A new variable-width font for all the text; the dialogue is re-wrapped and paged automatically.\n- Names follow Koei Tecmo's official English releases of Atelier Marie where they exist (Marlone/Marie, Salburg, Ingrid, Schea Donnerstag, Enderk Yard, Kreis Kuehl, Ruven Filnir, Mu Seqstanse, Sky Tavern, Meister Rank...). The others were romanized from the Japanese.\n\n**Images**\n\n**How to patch**\n\nApply the .bps patch to the original Japanese ROM *Alchemist Marie & Elie - Futari …"
     }
    ]
+  },
+  "8B74F59A": {
+   "crc32": "8B74F59A",
+   "size": 2097152,
+   "md5": "c80ab865bc9a93e946354f41815e93c4",
+   "sha1": "2f35d250b8ddeb98ca3a2704a4ad85713f4c71b0",
+   "sha256": "47be2e0e51a960c1ade1bef4d990e084209d381c83dd2f612a4abe9af3bdf77e",
+   "names": [
+    "Tanjou Debut for WonderSwan (Japan) (Rev 1).ws",
+    "Tanjou Debut for WonderSwan (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "daf228ade53c6b09",
+     "game": "Tanjou Debut for WonderSwan",
+     "variant": "tanjou-debut-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "8B74F59A",
+     "target_crc32": "E4034CDD",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/tanjou-debut-v1.0/tanjou-debut-en-1.0.bps",
+     "sha256": "daf228ade53c6b09219689d4af47cc6bd97f46a6a0f4f1b719df6ca218da018c",
+     "size": 145290,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tanjou-debut-v1.0",
+     "notes": "**Tanjou Debut for WonderSwan** (誕生 〜Debut〜 for WonderSwan) is an idol-raising simulation made by Bandai Visual / Image Works in 2000 for the original (monochrome) WonderSwan, based on a 1993 PC-98 game of the same name. You manage three young idols, Aki Ito (16), Saori Fujimura (17) and Kumi Tanaka (16), through a two-year schedule of lessons, jobs and talks, one week at a time, until the Idol Grand Prix decides how the story ends. The kanji in the title, 誕生, read \"tanjou\" and mean \"birth\". This patch translates all the text the game shows into English, in two editions that differ only in the quiz.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The script:** all 1,416 text units (dialogue, menus, messages, quiz questions, rival lines, news items, epilogues and the ending text), in the game's five text blocks plus the system strings. Names follow Western order: Aki Ito, Saori Fujimura, Kumi Tanaka.\n* **Pictures with text,** redrawn by hand in the original lettering: the menu plates, the schedule and job tables, stat labels, result tables, rankings, the Album labels, the credits, …"
+    },
+    {
+     "id": "0620791fce466896",
+     "game": "Tanjou Debut for WonderSwan",
+     "variant": "tanjou-debut-en-original-quiz-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "8B74F59A",
+     "target_crc32": "4CB3DAEE",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/tanjou-debut-v1.0/tanjou-debut-en-original-quiz-1.0.bps",
+     "sha256": "0620791fce466896e18bbfbef35f0ecf6c13b486fe435e7b99d7f0c7d1d3f9b7",
+     "size": 145253,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tanjou-debut-v1.0",
+     "notes": "**Tanjou Debut for WonderSwan** (誕生 〜Debut〜 for WonderSwan) is an idol-raising simulation made by Bandai Visual / Image Works in 2000 for the original (monochrome) WonderSwan, based on a 1993 PC-98 game of the same name. You manage three young idols, Aki Ito (16), Saori Fujimura (17) and Kumi Tanaka (16), through a two-year schedule of lessons, jobs and talks, one week at a time, until the Idol Grand Prix decides how the story ends. The kanji in the title, 誕生, read \"tanjou\" and mean \"birth\". This patch translates all the text the game shows into English, in two editions that differ only in the quiz.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The script:** all 1,416 text units (dialogue, menus, messages, quiz questions, rival lines, news items, epilogues and the ending text), in the game's five text blocks plus the system strings. Names follow Western order: Aki Ito, Saori Fujimura, Kumi Tanaka.\n* **Pictures with text,** redrawn by hand in the original lettering: the menu plates, the schedule and job tables, stat labels, result tables, rankings, the Album labels, the credits, …"
+    }
+   ],
+   "produced_by": []
   },
   "8C660676": {
    "crc32": "8C660676",
@@ -7416,6 +7750,58 @@
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePiece_0.9",
      "notes": "**From TV Animation One Piece: Chopper no Daibouken** (\"Chopper's Big Adventure\") is a 2003 Bandai action RPG for the WonderSwan Color that never left Japan. Chopper gets separated from the Straw Hats on an island where the villagers have been turned into animals. You explore the plains, a volcano, a cave and a temple, mix medicine from what you find, meet the crew in the village, and eat Rumble Balls to clear the Rumble Stages with Brain Point, Walk Point, Arm Point and Guard Point.\n\nThis patch translates it into English.\n\n**Download:** See attachment\n\n> **Please read:** this translation was made **entirely with AI** (Claude), as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: the opening, the village and its animal villagers, the crew's talks, every dungeon event, Fang and Raccoon, Azuki, Edamame and Daizu, and the ending.\n* Robin's tutorials and the \"How to Play\" pages of the Rumble Stages.\n* Menus: field menu (Items, Mix, Settings, Map), item actions, mixing, settings, dungeon map, save/load, village menus (Move, Talk, shop, crew), system messages and Yes/No questions.\n* All 256 item names and descriptions.\n* Graphics: title copyright, title menu (New Game / Continue / Resume), status labels, Yes/No boxes, the RUMBLE STAGE / SUCCESS / …"
+    }
+   ],
+   "produced_by": []
+  },
+  "8E123373": {
+   "crc32": "8E123373",
+   "size": 2097152,
+   "md5": "a23a6c63016540a3e6e1ed6f7eb5e5cc",
+   "sha1": "f47b4ab9197999bbec351750601baa20fbbd7177",
+   "names": [
+    "Memories Off - Festa (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "884aaa1d27ce79a6",
+     "game": "Memories Off: Festa",
+     "variant": "Memories.Off.-.Festa.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "8E123373",
+     "target_crc32": "8896B040",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MemoriesOffFesta_0.9/Memories.Off.-.Festa.EN.v0.9.bps",
+     "sha256": "884aaa1d27ce79a61649ecd526d3322c99bdda01d04b6469737c17e174e6c01f",
+     "size": 237741,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MemoriesOffFesta_0.9",
+     "notes": "**Memories Off: Festa** is a 2001 WonderSwan Color game by KID, released only in Japan. It is a spin-off of the Memories Off visual novels. During the Sumisora Academy school festival, Tomoya and the heroines of the series (plus guests from KID's Never7 and Yume no Tsubasa) challenge each other at \"Pon-Jan\", a quick mahjong-like card game played with heroine and item cards. The Story Mode follows the festival and the Miss Sumisora contest; Free Play lets you pick any opponent.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Two versions**\n\n* Normal (mixed case)\n* ALL CAPS\n\nThe translation is the same in both; only the letter case of the text differs.\n\n**How to patch**\n\nApply one of the .bps patches to *Memories Off - Festa (Japan).wsc* (2 MB, CRC32 8E123373) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB, CRC32 8896B040 (normal) or 720F2348 (ALL CAPS). Keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Memories.Off.-.Festa.EN.v0.9.bps\" \"Memories Off - Festa (Japan).wsc\" \"Memories Off - Festa (EN v0.9).wsc\"\n    flips --apply \"Memories.Off.-.Festa.EN.v0.9.ALL.CAPS.bps\" \"Memories Off - Festa (Japan).wsc\" \"Memories Off - Festa (EN v0.9, ALL CAPS).wsc\"\n\nYou must provide your …"
+    },
+    {
+     "id": "acc308cead149558",
+     "game": "Memories Off: Festa",
+     "variant": "Memories.Off.-.Festa.EN.v0.9.ALL.CAPS",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "8E123373",
+     "target_crc32": "720F2348",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MemoriesOffFesta_0.9/Memories.Off.-.Festa.EN.v0.9.ALL.CAPS.bps",
+     "sha256": "acc308cead1495589dddf4116d85f263c1231c2594e909c4f4b7cfd1d82d6e9a",
+     "size": 238842,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MemoriesOffFesta_0.9",
+     "notes": "**Memories Off: Festa** is a 2001 WonderSwan Color game by KID, released only in Japan. It is a spin-off of the Memories Off visual novels. During the Sumisora Academy school festival, Tomoya and the heroines of the series (plus guests from KID's Never7 and Yume no Tsubasa) challenge each other at \"Pon-Jan\", a quick mahjong-like card game played with heroine and item cards. The Story Mode follows the festival and the Miss Sumisora contest; Free Play lets you pick any opponent.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Two versions**\n\n* Normal (mixed case)\n* ALL CAPS\n\nThe translation is the same in both; only the letter case of the text differs.\n\n**How to patch**\n\nApply one of the .bps patches to *Memories Off - Festa (Japan).wsc* (2 MB, CRC32 8E123373) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB, CRC32 8896B040 (normal) or 720F2348 (ALL CAPS). Keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Memories.Off.-.Festa.EN.v0.9.bps\" \"Memories Off - Festa (Japan).wsc\" \"Memories Off - Festa (EN v0.9).wsc\"\n    flips --apply \"Memories.Off.-.Festa.EN.v0.9.ALL.CAPS.bps\" \"Memories Off - Festa (Japan).wsc\" \"Memories Off - Festa (EN v0.9, ALL CAPS).wsc\"\n\nYou must provide your …"
     }
    ],
    "produced_by": []
@@ -8053,6 +8439,59 @@
      "notes": "**Puzzle Bobble** is Sunsoft's 1999 port of Taito's bubble shooter for the original black-and-white WonderSwan, released only in Japan. It has 1 Player rounds, Versus (computer or link cable), an endless Challenge mode, records and options.\n\nThis patch translates all of its menus and screens into English **and turns it into a WonderSwan Color game**, in two versions:\n\n* **16 colours:** the whole game runs in the console's 16-colour mode: the title logo, Bub (green) and Bob (blue), the character portraits (every Versus opponent in its own colours) and the game over screen are recoloured in the style of the arcade game, the Taito logo follows the official one, the playfield gets a carved stone frame and a dark blue checkerboard with soft shadows, the menus a tiled blue background, the ROUND box a maroon panel with a gold frame, and during play every bubble has its own colour (with a light spot and a soft shadow).\n* **4 colours:** every screen is in colour, but the game keeps its original four shades per palette: bubbles share one hue and are told apart by their patterns, closer to the original art.\n\nA third patch, **Black and White**, only translates the game: it stays a black-and-white WonderSwan game with its original graphics and shades, for those who prefer the original look or play on a black-and-white WonderSwan. It has the same translation and the same Records and 1UP fixes as the colour versions.\n\n> **Please read:** this translation was made **entirely with AI**, as a …"
     }
    ]
+  },
+  "9E0854E2": {
+   "crc32": "9E0854E2",
+   "size": 1048576,
+   "md5": "0e4369d3f611377433272b3563325ca2",
+   "sha1": "9fdf3f5821f2a4488139525fe49e87b23de4571f",
+   "names": [
+    "Langrisser Millennium WS - The Last Century (Japan) (Rev 1).ws",
+    "Langrisser Millennium WS - The Last Century (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "21ff676fe9bb8e5c",
+     "game": "Langrisser Millennium WS: The Last Century",
+     "variant": "langrisser-millennium-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "9E0854E2",
+     "target_crc32": "66242FE6",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/langrisser-millennium-v1.0/langrisser-millennium-en-1.0.bps",
+     "sha256": "21ff676fe9bb8e5c28bff48f8f778d2eb6a6db9b7473b0939c1f80591f638909",
+     "size": 161875,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0",
+     "notes": "**Langrisser Millennium WS: The Last Century** (ラングリッサーミレニアムWS THE LAST CENTURY) is a tactical RPG for the original (monochrome) WonderSwan, made by NCS and released by Masaya/Bandai in Japan in 2000. Zion, a boy from a frontier ranch, is drawn into a war between the Neo-Empire, the Federation and the Mithra Church over the legacy of the lost super-civilization Suluktan: an ark, the Archangel and the Archdemon. Hire mercenaries for your commanders, place them, and fight 8 common scenarios, then one of two routes of 9 with their own endings, plus two hidden joke stages. This patch translates it into English.\n\nThis is a release of **wakabayashy's Langrisser Millennium WS English translation project**, which I have been helping with. See Credits below.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* Everything with text: the prologue captions, the title and its menus, the opening and the birthday quiz, all 29 scenarios on both routes (with the hidden X1 and X2 stages), every story and battle line, the scenario title cards, introductions and victory/defeat conditions.\n* The preparation …"
+    },
+    {
+     "id": "55b8cf82009dbcbf",
+     "game": "Langrisser Millennium WS: The Last Century",
+     "variant": "langrisser-millennium-en-teststage-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "9E0854E2",
+     "target_crc32": "527761BF",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/langrisser-millennium-v1.0/langrisser-millennium-en-teststage-1.0.bps",
+     "sha256": "55b8cf82009dbcbfa75e3e327938c7f02c4559530eae373bc632bb2c7cf37378",
+     "size": 161937,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0",
+     "notes": "**Langrisser Millennium WS: The Last Century** (ラングリッサーミレニアムWS THE LAST CENTURY) is a tactical RPG for the original (monochrome) WonderSwan, made by NCS and released by Masaya/Bandai in Japan in 2000. Zion, a boy from a frontier ranch, is drawn into a war between the Neo-Empire, the Federation and the Mithra Church over the legacy of the lost super-civilization Suluktan: an ark, the Archangel and the Archdemon. Hire mercenaries for your commanders, place them, and fight 8 common scenarios, then one of two routes of 9 with their own endings, plus two hidden joke stages. This patch translates it into English.\n\nThis is a release of **wakabayashy's Langrisser Millennium WS English translation project**, which I have been helping with. See Credits below.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* Everything with text: the prologue captions, the title and its menus, the opening and the birthday quiz, all 29 scenarios on both routes (with the hidden X1 and X2 stages), every story and battle line, the scenario title cards, introductions and victory/defeat conditions.\n* The preparation …"
+    }
+   ],
+   "produced_by": []
   },
   "9F6E3F8D": {
    "crc32": "9F6E3F8D",
@@ -9206,6 +9645,34 @@
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9",
      "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai. It remakes the 1987 Famicom game *Saint Seiya: Ougon Densetsu* and was released only in Japan. Seiya comes back from Greece with the Pegasus Cloth. He fights in the Galaxian Wars and against the Black Saints and the Silver Saints, then climbs the Twelve Temples of the Sanctuary to save Athena. The game mixes side-scrolling exploration with command battles powered by your Cosmo.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Another translation already exists**\n\nAn earlier English translation of this game, made with Codex by Retroviews (v1.0, October 2026), is available on RetroGameTalk: https://retrogametalk.com/threads/saint-seiya-ougon-densetsuhen-perfect-edition-ai-assisted-translation.71478/\n\nThis translation was made by mistake: that one was not listed in the Translations section or on The Repo, so it was not found before the work started.\n\n**Differences between the two versions**\n\nThe two were compared line by line, and in an emulator with the same inputs.\n\n* *Script:* about 2,040 lines are translated in both, and 623 of them match apart from punctuation. The others say the same things in different words, with the same …"
+    }
+   ]
+  },
+  "B0BB0D1E": {
+   "crc32": "B0BB0D1E",
+   "size": 16777216,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "964667e297454ee9",
+     "game": "SD Gundam G Generation: Gather Beat 2",
+     "variant": "gather-beat-gb2-en-1.4",
+     "version": "1.4",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "4D21A347",
+     "target_crc32": "B0BB0D1E",
+     "target_size": 16777216,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gather-beat-2-v1.4/gather-beat-gb2-en-1.4.bps",
+     "sha256": "964667e297454ee9df20c75fb605d62988640ab7559d062c0ab67c1191de572d",
+     "size": 941329,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-2-v1.4",
+     "notes": "**SD Gundam G Generation: Gather Beat 2** (SDガンダム Gジェネレーション ギャザービート2) is Bandai's 2001 G Generation strategy game for the WonderSwan Color, released only in Japan. You command a mixed force of mobile suits and ships from across the Gundam series on grid maps, replaying battles from Mobile Suit Gundam, The 08th MS Team, 0083, Zeta, ZZ, Char's Counterattack, Victory, G Gundam, Gundam Wing, Gundam X, Turn A and more. Pilots fire ID commands (special abilities with their own speech), between stages you manage the Backstage (buying, developing and modifying units, assigning pilots), and the game adds an encyclopedia of characters and mobile suits, adventure scenes, two endings and unit trading over the link cable. This patch translates it into English. (The first Gather Beat has its own patch and release.)\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* All story, map and battle dialogue, ID and battle speech, the adventure scenes, menus and names, the encyclopedia (684 entries), and the narration of both endings.\n* Link cable: the Unit Trade screens and messages.\n* WonderGate: the shop …"
     }
    ]
   },
@@ -11420,6 +11887,35 @@
     }
    ]
   },
+  "E4034CDD": {
+   "crc32": "E4034CDD",
+   "size": 2097152,
+   "sha256": "95e8cf36832d7652146859ac16888b724e5a77c671cfe27ad041fca149698f0a",
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "daf228ade53c6b09",
+     "game": "Tanjou Debut for WonderSwan",
+     "variant": "tanjou-debut-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "8B74F59A",
+     "target_crc32": "E4034CDD",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/tanjou-debut-v1.0/tanjou-debut-en-1.0.bps",
+     "sha256": "daf228ade53c6b09219689d4af47cc6bd97f46a6a0f4f1b719df6ca218da018c",
+     "size": 145290,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tanjou-debut-v1.0",
+     "notes": "**Tanjou Debut for WonderSwan** (誕生 〜Debut〜 for WonderSwan) is an idol-raising simulation made by Bandai Visual / Image Works in 2000 for the original (monochrome) WonderSwan, based on a 1993 PC-98 game of the same name. You manage three young idols, Aki Ito (16), Saori Fujimura (17) and Kumi Tanaka (16), through a two-year schedule of lessons, jobs and talks, one week at a time, until the Idol Grand Prix decides how the story ends. The kanji in the title, 誕生, read \"tanjou\" and mean \"birth\". This patch translates all the text the game shows into English, in two editions that differ only in the quiz.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The script:** all 1,416 text units (dialogue, menus, messages, quiz questions, rival lines, news items, epilogues and the ending text), in the game's five text blocks plus the system strings. Names follow Western order: Aki Ito, Saori Fujimura, Kumi Tanaka.\n* **Pictures with text,** redrawn by hand in the original lettering: the menu plates, the schedule and job tables, stat labels, result tables, rankings, the Album labels, the credits, …"
+    }
+   ]
+  },
   "E407CABF": {
    "crc32": "E407CABF",
    "size": 524288,
@@ -11569,13 +12065,33 @@
    ],
    "patches": [
     {
+     "id": "0ba3ae6f8240af00",
+     "game": "SD Gundam G Generation: Gather Beat",
+     "variant": "gather-beat-gb1-en-1.3",
+     "version": "1.3",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "E4EB3AB1",
+     "target_crc32": "322FB645",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/gather-beat-v1.3/gather-beat-gb1-en-1.3.bps",
+     "sha256": "0ba3ae6f8240af00f6de5c4381f459aabda95efa9bc62bae91dbdce032efbf62",
+     "size": 508150,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-v1.3",
+     "notes": "**SD Gundam G Generation: Gather Beat** (SDガンダム Gジェネレーション ギャザービート) is Bandai's 2000 G Generation strategy game for the WonderSwan, released only in Japan. You command a mixed force of mobile suits and ships from across the Gundam series on grid maps, replaying battles from Mobile Suit Gundam, The 08th MS Team, 0083, Zeta, ZZ, Char's Counterattack, G Gundam, Gundam Wing, Gundam X, Turn A and more. Pilots fire ID commands (special abilities with their own speech), and between stages you manage the Backstage: buying units, developing and modifying machines, assigning pilots. Two players can fight each other over the link cable. This patch translates it into English. (Gather Beat 2 has its own patch and release.)\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* All stage and battle dialogue, ID commands and their speech, menus, unit, pilot and weapon names, the Backstage menus, the stage objectives, the prologue and the ending narration.\n* Link-cable battles: map select, turn and battle menus, the defender's Fight / Evade / Guard choice and the result messages.\n* WonderGate: the shop …"
+    },
+    {
      "id": "77ead29dade8ed60",
      "game": "SD Gundam G Generation: Gather Beat",
      "variant": "gather-beat-gb1-en-1.2",
      "version": "1.2",
      "language": "en",
      "platform": "wonderswan",
-     "latest": true,
+     "latest": false,
      "superseded": false,
      "format": "bps",
      "source_crc32": "E4EB3AB1",
@@ -12310,7 +12826,7 @@
      "version": "1.2",
      "language": "en",
      "platform": "wonderswan",
-     "latest": true,
+     "latest": false,
      "superseded": false,
      "format": "bps",
      "source_crc32": "E4EB3AB1",
@@ -12974,6 +13490,7 @@
  "by_md5": {
   "0215c4b8a395f6fcf8f5b07605eae08b": "BF8D9212",
   "0870f205e8a0148cc75d642f00558057": "B07E6A56",
+  "0e4369d3f611377433272b3563325ca2": "9E0854E2",
   "0eb951b486fe25f37371835be81eed75": "AA525C04",
   "12a59977999dcf7baebd79c81ab8f5a7": "D0B20C5A",
   "12c3cca0ef52343509dda1c1fb4c1b65": "F0ACDA5C",
@@ -13024,6 +13541,7 @@
   "9b15b2236cae605f7bc3bea3859fdd36": "B25A0635",
   "9bfcf86bf65c9fdae4a0f88fadafd0d8": "2F9E2560",
   "9f612c697b72b2d5e87776edd95de077": "5793BDDA",
+  "a23a6c63016540a3e6e1ed6f7eb5e5cc": "8E123373",
   "a466797b353d610f43a0f030cec721c1": "CE2F1A1D",
   "a4862ef07e13231ae429a98ef667a74a": "9C98D97D",
   "aa46ad69657bedf13ebd524959b23c86": "1A50FABF",
@@ -13038,6 +13556,7 @@
   "c1cb619ec3a596366a324da1f8957985": "A3ECC9AC",
   "c21571f057d05bb01db2ece8517b121d": "A5643AA3",
   "c53a5d8c189a23b16c444c4e8ef581af": "392DD813",
+  "c80ab865bc9a93e946354f41815e93c4": "8B74F59A",
   "cb58db877b8adfce59f2e34cc4224d8b": "B18CDC0D",
   "cdbcacff7dd0348beffb1e228592e2e1": "446E2581",
   "cf5e9f022baadd1ed9b0a9e88b503e95": "F504CD84",
@@ -13090,6 +13609,7 @@
   "2b2c2a0566646156bcdde2a00b728c5b8218aa23": "138D1018",
   "2da2a9bcff4813abcb5b2c88095258d89a575378": "D0B20C5A",
   "2e3f221d6965f53b29586d2019ee81dec6d1ac30": "31E09BED",
+  "2f35d250b8ddeb98ca3a2704a4ad85713f4c71b0": "8B74F59A",
   "315061e4739e947175d6ad7f006498cd61a33f8c": "2B40745D",
   "31a718cfbcff2dab56ab9606a0b5b2dfccecbbcb": "F1F4D41F",
   "35443e2ef8a20a0ad82da1274b2768c16239dd46": "A9F5BF54",
@@ -13132,6 +13652,7 @@
   "99c831c27c478064e3d3fa8f9f089cc28f0e946f": "F2E362B8",
   "99d9d7f951ae589059f34e76aea7489ae4cd79f1": "B18CDC0D",
   "9b4786adca7b83fe66a9d4b9fd4ffaf32abe7656": "1F10CA75",
+  "9fdf3f5821f2a4488139525fe49e87b23de4571f": "9E0854E2",
   "a1e24771dbc388af98781e894fc064fadd83517b": "DCAAFE90",
   "a25944969068ee495254f94c2c48dfffcb66ce8d": "637ADA93",
   "a8f8d3efc9b2d5741081e05f517d746ee5437f87": "2460B45A",
@@ -13162,6 +13683,7 @@
   "eb538b82c5516fae8ce38778e41fb118aa5c830f": "7FFF2520",
   "ebd4b37ade6df717f7b637747a4d3c45a6cca037": "C60E5162",
   "f38c28a858ff27826be3f4df8d8b32012609c3b8": "43BD6D16",
+  "f47b4ab9197999bbec351750601baa20fbbd7177": "8E123373",
   "f79451034b6d844f0e10c825306bbc26f26a5466": "4E467626",
   "f7aeab6724154f7ef6a389f9f18b7100045e1064": "D7A12BD5",
   "f8f077da30f227f3793e97c7f1d656559f08b9d4": "A1FB16FC",
@@ -13173,10 +13695,13 @@
   "38fd168a8cefa4ed80db42eed9f720e42da5b8f71d551c707520b24060c14728": "CCAA4853",
   "3ec68e02fa964383d6a0792aca7e53ab005e17a768a8546eb6dc5ed482db7c29": "AF9D8F42",
   "3fc350fd39cd1c15608c4e9e791487b9d2f8aa535a73482472e11d4c337a796a": "00B31FBB",
+  "47be2e0e51a960c1ade1bef4d990e084209d381c83dd2f612a4abe9af3bdf77e": "8B74F59A",
   "4aeaf266e8705772c832652d374e6147c544e37b45f6fd5b1ad9e0aa0d2fd6ed": "1F10CA75",
   "885eb8268ad8594c1ee5e229db22b0f639da5498a22f262e0d4c0884a1401b51": "80D995EA",
   "8f58e49ab4e509ff26e3b43e0c793755898be0d8b570de3ddc8437324d366c8f": "5795C7E3",
+  "95e8cf36832d7652146859ac16888b724e5a77c671cfe27ad041fca149698f0a": "E4034CDD",
   "bed365a706e13338c8bebc17723fc40f3804a114520524d3ad62f180d44f42c0": "E8DAEE38",
+  "d0c870149cc424b2a599bcc7d2a2693a4c6b9699187cf173646f4c8b88dc7639": "4CB3DAEE",
   "d1d21d5199971b345e9907861c04a080ac7b44e07303f96717fd7f603f9ba380": "2F9E2560"
  }
 }

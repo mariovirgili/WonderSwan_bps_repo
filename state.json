@@ -512,6 +512,16 @@
     "ac061cfda65dd0618c2698da7ab70f8f465ee4f7850610176a26a93a264d8a10"
    ]
   },
+  "asset:PokemonGoDB/wonderswan-english-patches:726088769:2026-11-09T03:30:50Z:161875": {
+   "entries": [
+    "21ff676fe9bb8e5c28bff48f8f778d2eb6a6db9b7473b0939c1f80591f638909"
+   ]
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:726088770:2026-11-09T03:30:50Z:161937": {
+   "entries": [
+    "55b8cf82009dbcbfa75e3e327938c7f02c4559530eae373bc632bb2c7cf37378"
+   ]
+  },
   "asset:PokemonGoDB/wonderswan-english-patches:726095952:2026-11-09T03:34:04Z:107814": {
    "entries": []
   },
@@ -649,6 +659,43 @@
    "entries": [
     "2cda7e6272c243cbea68b43478c400db5e0cc661fc211f177145b5d074c89e53"
    ]
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:747725266:2026-11-14T14:23:52Z:122572": {
+   "entries": []
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:747934269:2026-11-14T15:39:23Z:508150": {
+   "entries": [
+    "0ba3ae6f8240af00f6de5c4381f459aabda95efa9bc62bae91dbdce032efbf62"
+   ]
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:747934272:2026-11-14T15:39:23Z:49249": {
+   "entries": []
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:747948566:2026-11-14T15:44:29Z:145253": {
+   "entries": [
+    "0620791fce466896e18bbfbef35f0ecf6c13b486fe435e7b99d7f0c7d1d3f9b7"
+   ]
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:747948569:2026-11-14T15:44:29Z:145290": {
+   "entries": [
+    "daf228ade53c6b09219689d4af47cc6bd97f46a6a0f4f1b719df6ca218da018c"
+   ]
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:747948573:2026-11-14T15:44:29Z:237147": {
+   "entries": []
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:748150362:2026-11-14T16:58:24Z:959348": {
+   "entries": [
+    "684b515f7e869b0fd7a48c52da814f4fbaa0cf04ba6a86c9b98947c8a82e3a88"
+   ]
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:748150367:2026-11-14T16:58:24Z:941329": {
+   "entries": [
+    "964667e297454ee9df20c75fb605d62988640ab7559d062c0ab67c1191de572d"
+   ]
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:748150368:2026-11-14T16:58:23Z:111738": {
+   "entries": []
   },
   "asset:mariovirgili/WonderSwanColor-AI_Translation:598779217:2026-09-29T17:21:38Z:176856": {
    "entries": [
@@ -1147,9 +1194,6 @@
   "asset:mariovirgili/WonderSwanColor-AI_Translation:734768151:2026-11-11T08:36:17Z:242259": {
    "entries": []
   },
-  "asset:mariovirgili/WonderSwanColor-AI_Translation:735633511:2026-11-11T13:29:53Z:148366": {
-   "entries": []
-  },
   "asset:mariovirgili/WonderSwanColor-AI_Translation:737312406:2026-11-11T23:41:32Z:583965": {
    "entries": [
     "d5e977d20ec9104871a9efbd3b286aea1f80d5ed5cd9ad9ce8bd7aaae643505d"
@@ -1323,6 +1367,35 @@
    "entries": []
   },
   "asset:mariovirgili/WonderSwanColor-AI_Translation:746567255:2026-11-14T06:35:46Z:810681": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:747710662:2026-11-14T14:18:32Z:509123": {
+   "entries": [
+    "a344f0b11900412564bab3ab2e747ae601ce5dbea44692db88d381b084e9de79"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:747710733:2026-11-14T14:18:33Z:65": {
+   "entries": [
+    "ea65c4f60da4acb3357f4e3e0edb566b8adf7524fff4891424619679e503a977"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:747710756:2026-11-14T14:18:33Z:1811": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:747713034:2026-11-14T14:19:19Z:138678": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:748232827:2026-11-14T17:28:14Z:237741": {
+   "entries": [
+    "884aaa1d27ce79a61649ecd526d3322c99bdda01d04b6469737c17e174e6c01f"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:748232937:2026-11-14T17:28:16Z:238842": {
+   "entries": [
+    "acc308cead1495589dddf4116d85f263c1231c2594e909c4f4b7cfd1d82d6e9a"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:748232985:2026-11-14T17:28:16Z:96720": {
    "entries": []
   },
   "blob:Gand46/BlueWingBlitz-Wonderswan-English-Translation-AI_GPT:1ba4d77bf8f71be12be042beec307d9d1103b015:patch/Blue_Wing_Blitz_EN_Phase50_v5.0.0-test.1.bps": {

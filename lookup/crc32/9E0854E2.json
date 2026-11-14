@@ -1,0 +1,57 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "9E0854E2"
+ },
+ "crc32": "9E0854E2",
+ "size": 1048576,
+ "md5": "0e4369d3f611377433272b3563325ca2",
+ "sha1": "9fdf3f5821f2a4488139525fe49e87b23de4571f",
+ "names": [
+  "Langrisser Millennium WS - The Last Century (Japan) (Rev 1).ws",
+  "Langrisser Millennium WS - The Last Century (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "21ff676fe9bb8e5c",
+   "game": "Langrisser Millennium WS: The Last Century",
+   "variant": "langrisser-millennium-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "9E0854E2",
+   "target_crc32": "66242FE6",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/langrisser-millennium-v1.0/langrisser-millennium-en-1.0.bps",
+   "sha256": "21ff676fe9bb8e5c28bff48f8f778d2eb6a6db9b7473b0939c1f80591f638909",
+   "size": 161875,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0",
+   "notes": "**Langrisser Millennium WS: The Last Century** (ラングリッサーミレニアムWS THE LAST CENTURY) is a tactical RPG for the original (monochrome) WonderSwan, made by NCS and released by Masaya/Bandai in Japan in 2000. Zion, a boy from a frontier ranch, is drawn into a war between the Neo-Empire, the Federation and the Mithra Church over the legacy of the lost super-civilization Suluktan: an ark, the Archangel and the Archdemon. Hire mercenaries for your commanders, place them, and fight 8 common scenarios, then one of two routes of 9 with their own endings, plus two hidden joke stages. This patch translates it into English.\n\nThis is a release of **wakabayashy's Langrisser Millennium WS English translation project**, which I have been helping with. See Credits below.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* Everything with text: the prologue captions, the title and its menus, the opening and the birthday quiz, all 29 scenarios on both routes (with the hidden X1 and X2 stages), every story and battle line, the scenario title cards, introductions and victory/defeat conditions.\n* The preparation …"
+  },
+  {
+   "id": "55b8cf82009dbcbf",
+   "game": "Langrisser Millennium WS: The Last Century",
+   "variant": "langrisser-millennium-en-teststage-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "9E0854E2",
+   "target_crc32": "527761BF",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/langrisser-millennium-v1.0/langrisser-millennium-en-teststage-1.0.bps",
+   "sha256": "55b8cf82009dbcbfa75e3e327938c7f02c4559530eae373bc632bb2c7cf37378",
+   "size": 161937,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0",
+   "notes": "**Langrisser Millennium WS: The Last Century** (ラングリッサーミレニアムWS THE LAST CENTURY) is a tactical RPG for the original (monochrome) WonderSwan, made by NCS and released by Masaya/Bandai in Japan in 2000. Zion, a boy from a frontier ranch, is drawn into a war between the Neo-Empire, the Federation and the Mithra Church over the legacy of the lost super-civilization Suluktan: an ark, the Archangel and the Archdemon. Hire mercenaries for your commanders, place them, and fight 8 common scenarios, then one of two routes of 9 with their own endings, plus two hidden joke stages. This patch translates it into English.\n\nThis is a release of **wakabayashy's Langrisser Millennium WS English translation project**, which I have been helping with. See Credits below.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* Everything with text: the prologue captions, the title and its menus, the opening and the birthday quiz, all 29 scenarios on both routes (with the hidden X1 and X2 stages), every story and battle line, the scenario title cards, introductions and victory/defeat conditions.\n* The preparation …"
+  }
+ ],
+ "produced_by": []
+}
