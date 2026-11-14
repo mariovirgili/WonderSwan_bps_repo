@@ -4,12 +4,12 @@ Every released WonderSwan and WonderSwan Color title, and the translation patche
 
 | System | Titles | With a translation patch |
 | --- | ---: | ---: |
-| WonderSwan | 219 | 42 (+5 ⚠️ another dump) |
-| WonderSwan Color | 229 | 46 (+1 ⚠️ another dump) |
+| WonderSwan | 219 | 43 (+5 ⚠️ another dump) |
+| WonderSwan Color | 229 | 47 (+1 ⚠️ another dump) |
 
 Last change to the patch catalog: 2026-11-14.
 
-## Titles with translation patches (94)
+## Titles with translation patches (96)
 
 | | Title | System | Patches (newest version of each author) |
 | :---: | --- | --- | --- |
@@ -26,7 +26,7 @@ Last change to the patch catalog: 2026-11-14.
 | ✅ | Chaos Gear - Michibikareshi Mono (Japan) | WonderSwan | **English**: [PokemonGoDB v1.3](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/chaos-gear-v1.3) |
 | ✅ | Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 2) | WonderSwan | **Language not stated**: [Gand46 v1.1](https://github.com/Gand46/Chocobo_no_Fushigi_na_Dungeon_Mysterious_Dungeon_WS_AI_ROM-FIX-/blob/main/src/legacy_v1.1_original.ips) |
 | ✅ | Chou Aniki - Otoko no Tamafuda (Japan) (Rev 4) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ChouAniki_0.9) |
-| ✅ | Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3) | WonderSwan | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.1) |
+| ✅ | Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3) | WonderSwan | **English**: [PokemonGoDB v1.2](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.2) |
 | ✅ | D's Garage 21 Koubo Game - Tane o Maku Tori (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tane-o-maku-tori-v1.0) |
 | ✅ | Densha de Go! (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/densha-de-go-v1.0) |
 | ✅ | Densha de Go! 2 (Japan) | WonderSwan | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DenshaDeGo2_0.9.1) · [Gand46 v0.4.20](https://github.com/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/blob/main/patches/Densha_de_Go_2_EN_v0.4.20_OPTIONS_FONT_CUMULATIVE.bps) |
@@ -82,6 +82,7 @@ Last change to the patch catalog: 2026-11-14.
 | ✅ | Meitantei Conan - Yuugure no Oujo (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.6](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9.2) |
 | ✅ | MobileWonderGate (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/mobile-wondergate-v1.0) |
 | ✅ | Namco Super Wars (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/NamcoSuperWars_0.9.1) |
+| ✅ | Naruto - Konoha Ninpouchou (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/naruto-konoha-ninpouchou-v1.0) |
 | ✅ | Neon Genesis Evangelion - Shito Ikusei (Japan) | WonderSwan | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Evangelion_ShitoIkusei_0.9.1) |
 | ✅ | Pocket Fighter (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/pocket-fighter-v1.0) |
 | ✅ | Puyo Puyo Tsuu (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuyoPuyoTsuu_0.9) |
@@ -91,7 +92,7 @@ Last change to the patch catalog: 2026-11-14.
 | ✅ | Riviera - Yakusoku no Chi Riviera (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9) |
 | ✅ | Rockman EXE - N1 Battle (Japan) (Rev 1) | WonderSwan Color | **English**: [Gand46](https://github.com/Gand46/Rockman-EXE-N1-Battle-ChipControl-Wonderswan-English-Translation-AI_GPT/blob/main/patches/qa09/Rockman_N1_English_QA09_MANT05.bps) |
 | ✅ | Romancing Sa-Ga (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Petit1_v0.9) |
-| ✅ | Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9) |
+| ✅ | Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.3](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9) |
 | ✅ | SD Gundam - Operation U.C. (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9.1) |
 | ✅ | SD Gundam Eiyuu Den - Kishi Densetsu (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/KishiDensetsu_0.9) |
 | ✅ | SD Gundam Eiyuu Den - Musha Densetsu (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MushaDensetsu_0.9) |
@@ -105,6 +106,7 @@ Last change to the patch catalog: 2026-11-14.
 | ✅ | Tetsujin 28 Gou (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Tetsujin28_0.9) |
 | ✅ | Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan) | WonderSwan | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BokanDensetsu_0.9) |
 | ✅ | Uchuu Senkan Yamato (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/UchuuSenkanYamato_0.9) |
+| ✅ | Uzumaki - Denshi Kaiki Hen (Japan) (Rev 4) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/uzumaki-denshi-kaiki-hen-v1.0) |
 | ✅ | Wild Card (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wild-card-v1.0) |
 | ✅ | X - Card of Fate (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/X-Card_0.9) |
 
@@ -142,7 +144,7 @@ Last change to the patch catalog: 2026-11-14.
 | ✅ | **Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 2)** | `CCAA4853` | **Language not stated**: [Gand46 v1.1](https://github.com/Gand46/Chocobo_no_Fushigi_na_Dungeon_Mysterious_Dungeon_WS_AI_ROM-FIX-/blob/main/src/legacy_v1.1_original.ips) |
 |  | Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 3) | `AA53971D` | — |
 | ✅ | **Chou Aniki - Otoko no Tamafuda (Japan) (Rev 4)** | `7FFF2520` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ChouAniki_0.9) |
-| ✅ | **Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3)** | `56E2C069` | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.1) |
+| ✅ | **Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3)** | `56E2C069` | **English**: [PokemonGoDB v1.2](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.2) |
 |  | Chuuka Taisen (World) (WonderWitch) | `D53161B2` | — |
 |  | Clock Tower for WonderSwan (Japan) (Rev 1) | `4E8909D1` | — |
 |  | Crazy Climber (Japan) | `0CB57376` | — |
@@ -312,7 +314,7 @@ Last change to the patch catalog: 2026-11-14.
 |  | Turntablist - DJ Battle (Japan) | `0D5171F0` | — |
 |  | Umetatte (World) (WonderWitch) | `10818787` | — |
 |  | Umizuri ni Ikou! (Japan) | `86B56511` | — |
-|  | Uzumaki - Denshi Kaiki Hen (Japan) (Rev 4) | `812020EF` | — |
+| ✅ | **Uzumaki - Denshi Kaiki Hen (Japan) (Rev 4)** | `812020EF` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/uzumaki-denshi-kaiki-hen-v1.0) |
 |  | Uzumaki - Noroi Simulation (Japan) | `CA3F0B00` | — |
 |  | V-Attacker (World) (WonderWitch) | `9A521DD8` | — |
 |  | Vaitz Blade (Japan) (Rev 1) | `8FC9E145` | — |
@@ -474,7 +476,7 @@ Last change to the patch catalog: 2026-11-14.
 | ✅ | **Namco Super Wars (Japan)** | `8CE4652F` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/NamcoSuperWars_0.9.1) |
 |  | Nametry (World) (v1.00) (WonderWitch) (WWGP2001) | `23F6215D` | — |
 |  | Nametry (World) (v1.01) (WonderWitch) | `6B87A331` | — |
-|  | Naruto - Konoha Ninpouchou (Japan) | `71556E6A` | — |
+| ✅ | **Naruto - Konoha Ninpouchou (Japan)** | `71556E6A` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/naruto-konoha-ninpouchou-v1.0) |
 |  | Neko no Kurubushi (World) (WonderWitch) | `BDE8E20D` | — |
 |  | Neojan (World) (WonderWitch) | `90B0BFCD` | — |
 |  | Nijiiro Dandodan (World) (Ja) (WonderWitch) | `3F743F54` | — |
@@ -511,7 +513,7 @@ Last change to the patch catalog: 2026-11-14.
 |  | Rockman EXE WS (Japan) | `658C4B98` | — |
 | ✅ | **Romancing Sa-Ga (Japan)** | `9C98D97D` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Petit1_v0.9) |
 |  | RUN=DIM - Return to Earth (Japan) | `15C4552E` | — |
-| ✅ | **Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan)** | `6E8A792D` | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9) |
+| ✅ | **Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan)** | `6E8A792D` | **English**: [mariovirgili v0.9.3](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9) |
 |  | Samegame for WSC (World) (WonderWitch) | `50DB2635` | — |
 |  | Samoner (World) (Ja) (WonderWitch) | `C59BF216` | — |
 |  | Satori - WonderSwan Remix (World) (WonderWitch) | `4C85FCAA` | — |

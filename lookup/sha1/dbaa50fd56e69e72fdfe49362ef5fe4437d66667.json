@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "dbaa50fd56e69e72fdfe49362ef5fe4437d66667"
+ },
+ "crc32": "71556E6A",
+ "size": 4194304,
+ "md5": "5f742027ef79b71b0007ff5654e9565f",
+ "sha1": "dbaa50fd56e69e72fdfe49362ef5fe4437d66667",
+ "names": [
+  "Naruto - Konoha Ninpouchou (Japan).wsc"
+ ],
+ "patches": [
+  {
+   "id": "3df8f45090c98842",
+   "game": "Naruto: Konoha Ninpouchou",
+   "variant": "naruto-konoha-ninpouchou-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "71556E6A",
+   "target_crc32": "11D3625F",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/naruto-konoha-ninpouchou-v1.0/naruto-konoha-ninpouchou-en-1.0.bps",
+   "sha256": "3df8f45090c9884229529a205cf7b93a658ef9edfe092d8bab9404c8b021a888",
+   "size": 929397,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/naruto-konoha-ninpouchou-v1.0",
+   "notes": "**NARUTO -ナルト- 木ノ葉忍法帖** (Naruto: Konoha Ninpouchou, \"Konoha Ninja Arts\") is Bandai's 2003 WonderSwan Color RPG based on the anime. The game follows Naruto and Team 7 through the start of the story, from the Academy to the Land of Waves, with extra missions woven in between. Battles are fought with seals: the player picks seal cards, and certain combinations of seals make jutsu. This patch translates the whole game into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What you need:** the Japanese ROM of Naruto: Konoha Ninpouchou (4,194,304 bytes, CRC32 `71556E6A`). One patch applies to it and makes an **8 MiB** ROM (CRC32 `11D3625F`). There is also an optional second patch, a **Debug Menu** edition (see below).\n\n**What's translated**\n\n* **Everything the player reads:** the story and field dialogue (9,689 messages), the menus, battle text, names, seal and jutsu names and their descriptions, the credits and the intro pages.\n* **Pictures that carried Japanese, redrawn in English:** the title plate (KONOHA NINJA ARTS) and the small NINPOUCHOU badge, the four title buttons (START, CONTINUE, VERSUS, …"
+  },
+  {
+   "id": "aacc8f4f82ca40e5",
+   "game": "Naruto: Konoha Ninpouchou",
+   "variant": "naruto-konoha-ninpouchou-en-debugmenu-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "71556E6A",
+   "target_crc32": "AABA651B",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/naruto-konoha-ninpouchou-v1.0/naruto-konoha-ninpouchou-en-debugmenu-1.0.bps",
+   "sha256": "aacc8f4f82ca40e5388a8d6bdcbc3f443b092ee0bbf36dbebf29343b12df9244",
+   "size": 929403,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/naruto-konoha-ninpouchou-v1.0",
+   "notes": "**NARUTO -ナルト- 木ノ葉忍法帖** (Naruto: Konoha Ninpouchou, \"Konoha Ninja Arts\") is Bandai's 2003 WonderSwan Color RPG based on the anime. The game follows Naruto and Team 7 through the start of the story, from the Academy to the Land of Waves, with extra missions woven in between. Battles are fought with seals: the player picks seal cards, and certain combinations of seals make jutsu. This patch translates the whole game into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What you need:** the Japanese ROM of Naruto: Konoha Ninpouchou (4,194,304 bytes, CRC32 `71556E6A`). One patch applies to it and makes an **8 MiB** ROM (CRC32 `11D3625F`). There is also an optional second patch, a **Debug Menu** edition (see below).\n\n**What's translated**\n\n* **Everything the player reads:** the story and field dialogue (9,689 messages), the menus, battle text, names, seal and jutsu names and their descriptions, the credits and the intro pages.\n* **Pictures that carried Japanese, redrawn in English:** the title plate (KONOHA NINJA ARTS) and the small NINPOUCHOU badge, the four title buttons (START, CONTINUE, VERSUS, …"
+  }
+ ],
+ "produced_by": []
+}

@@ -1,0 +1,37 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "4c8166e0632bdb8c098d586a7b1522ed7b63b5f7"
+ },
+ "crc32": "812020EF",
+ "size": 2097152,
+ "md5": "eacb689de3482cf6e6da8befc7da65b2",
+ "sha1": "4c8166e0632bdb8c098d586a7b1522ed7b63b5f7",
+ "names": [
+  "Uzumaki - Denshi Kaiki Hen (Japan) (Rev 4).ws",
+  "Uzumaki - Denshi Kaiki Hen (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "2cda7e6272c243cb",
+   "game": "Uzumaki: Denshi Kaiki Hen",
+   "variant": "uzumaki-denshi-kaiki-hen-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "812020EF",
+   "target_crc32": "9B24E923",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/uzumaki-denshi-kaiki-hen-v1.0/uzumaki-denshi-kaiki-hen-en-1.0.bps",
+   "sha256": "2cda7e6272c243cbea68b43478c400db5e0cc661fc211f177145b5d074c89e53",
+   "size": 201605,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/uzumaki-denshi-kaiki-hen-v1.0",
+   "notes": "**Uzumaki: Denshi Kaiki Hen** (うずまき 〜電視怪奇篇〜) is a WonderSwan branching picture novel (a text adventure) made by Omega Micott in 2000 from Junji Ito's horror manga *Uzumaki*. You read the story of Kirie Goshima and her town, Kurouzu-cho, which is cursed with spirals, and at 35 points you choose what Kirie does. Three routes I played all end at a Bad End. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The story:** all 135 scripts, 3,825 text runs, 35 choices and 35 speaker labels. Names and terms follow the VIZ English edition of the manga (Kirie Goshima, Shuichi Saito, Azami Kurotani, Kurouzu-cho and so on); honorifics are dropped.\n* **Menus and system text:** the title menu, settings, in-game menu, power-off and data-wipe prompts, the attract-mode intro (Kirie's narration) and the credits.\n* **The Uzumaki quiz:** all 50 questions with their answers, the headers and the retry prompt. A few questions depend on Japanese wordplay and were adapted (for example a megabit question, which gives the ROM size, and a …"
+  }
+ ],
+ "produced_by": []
+}

@@ -622,6 +622,34 @@
    ],
    "produced_by": []
   },
+  "11D3625F": {
+   "crc32": "11D3625F",
+   "size": 8388608,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "3df8f45090c98842",
+     "game": "Naruto: Konoha Ninpouchou",
+     "variant": "naruto-konoha-ninpouchou-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "71556E6A",
+     "target_crc32": "11D3625F",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/naruto-konoha-ninpouchou-v1.0/naruto-konoha-ninpouchou-en-1.0.bps",
+     "sha256": "3df8f45090c9884229529a205cf7b93a658ef9edfe092d8bab9404c8b021a888",
+     "size": 929397,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/naruto-konoha-ninpouchou-v1.0",
+     "notes": "**NARUTO -ナルト- 木ノ葉忍法帖** (Naruto: Konoha Ninpouchou, \"Konoha Ninja Arts\") is Bandai's 2003 WonderSwan Color RPG based on the anime. The game follows Naruto and Team 7 through the start of the story, from the Academy to the Land of Waves, with extra missions woven in between. Battles are fought with seals: the player picks seal cards, and certain combinations of seals make jutsu. This patch translates the whole game into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What you need:** the Japanese ROM of Naruto: Konoha Ninpouchou (4,194,304 bytes, CRC32 `71556E6A`). One patch applies to it and makes an **8 MiB** ROM (CRC32 `11D3625F`). There is also an optional second patch, a **Debug Menu** edition (see below).\n\n**What's translated**\n\n* **Everything the player reads:** the story and field dialogue (9,689 messages), the menus, battle text, names, seal and jutsu names and their descriptions, the credits and the intro pages.\n* **Pictures that carried Japanese, redrawn in English:** the title plate (KONOHA NINJA ARTS) and the small NINPOUCHOU badge, the four title buttons (START, CONTINUE, VERSUS, …"
+    }
+   ]
+  },
   "12FB8B28": {
    "crc32": "12FB8B28",
    "size": 1048576,
@@ -4435,13 +4463,33 @@
    ],
    "patches": [
     {
+     "id": "77180a1fe2cd206a",
+     "game": "Chou Denki Card Battle: Youfu Makai",
+     "variant": "youfu-makai-en-1.2",
+     "version": "1.2",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "56E2C069",
+     "target_crc32": "AD600B55",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/youfu-makai-v1.2/youfu-makai-en-1.2.bps",
+     "sha256": "77180a1fe2cd206a84d24486013b3f8568c700fec35a2f9e5f68e4bdbce24d6b",
+     "size": 734883,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.2",
+     "notes": "**Chou Denki Card Battle: Youfu Makai** (超伝奇カードバトル 妖符魔界) is a 1999 card battle game from Kobunsha and Kappa Games for the original (monochrome) WonderSwan, released only in Japan. The scenario is by Hideyuki Kikuchi (*Vampire Hunter D*, *Demon City Shinjuku*) and the art by Ayami Kojima. It's set in Kikuchi's Demon City Shinjuku, and its story runs in three parts, told as illustrated pages of prose between battles with Demon Cards. You build a 30-card deck, lay cards on a field where each card's arrows set the direction it attacks, and win by covering the field with your own cards.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole story, all three parts (Crimson Lotus, Cursed Cards, Fusion), as horizontal English prose in place of the vertical Japanese.\n* Every card name, and the descriptions of all 200 cards in the Card Craft card view (press the Y pad left or right on the deck screen).\n* The menus (Scenario, Those in the Way, Worthy Rival, Card Craft...), the deck rules, the battle screens, and the save and erase prompts.\n* Graphics: the title logo becomes YOUFU MAKAI with …"
+    },
+    {
      "id": "07f0aa76490978a9",
      "game": "Chou Denki Card Battle: Youfu Makai",
      "variant": "youfu-makai-en-1.1",
      "version": "1.1",
      "language": "en",
      "platform": "wonderswan",
-     "latest": true,
+     "latest": false,
      "superseded": false,
      "format": "bps",
      "source_crc32": "56E2C069",
@@ -5464,34 +5512,6 @@
     }
    ]
   },
-  "65EF0498": {
-   "crc32": "65EF0498",
-   "size": 2097152,
-   "names": [],
-   "patches": [],
-   "produced_by": [
-    {
-     "id": "53590d3b6d4b1b74",
-     "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
-     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.2.ALL.CAPS",
-     "version": "0.9.2",
-     "language": "en",
-     "platform": "wonderswan_color",
-     "latest": true,
-     "superseded": false,
-     "format": "bps",
-     "source_crc32": "6E8A792D",
-     "target_crc32": "65EF0498",
-     "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_0.9/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.2.ALL.CAPS.bps",
-     "sha256": "53590d3b6d4b1b74a93b3a8396c2e18fc1013505fcbe06f60dec9f0161381b27",
-     "size": 75649,
-     "source": "mariovirgili/WonderSwanColor-AI_Translation",
-     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9",
-     "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai. It remakes the 1987 Famicom game *Saint Seiya: Ougon Densetsu* and was released only in Japan. Seiya comes back from Greece with the Pegasus Cloth. He fights in the Galaxian Wars and against the Black Saints and the Silver Saints, then climbs the Twelve Temples of the Sanctuary to save Athena. The game mixes side-scrolling exploration with command battles powered by your Cosmo.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Another translation already exists**\n\nAn earlier English translation of this game, made with Codex by Retroviews (v1.0, October 2026), is available on RetroGameTalk: https://retrogametalk.com/threads/saint-seiya-ougon-densetsuhen-perfect-edition-ai-assisted-translation.71478/\n\nThis translation was made by mistake: that one was not listed in the Translations section or on The Repo, so it was not found before the work started.\n\n**Differences between the two versions**\n\nThe two were compared line by line, and in an emulator with the same inputs.\n\n* *Script:* about 2,040 lines are translated in both, and 623 of them match apart from punctuation. The others say the same things in different words, with the same …"
-    }
-   ]
-  },
   "66B617D5": {
    "crc32": "66B617D5",
    "size": 4194304,
@@ -5678,41 +5698,61 @@
    ],
    "patches": [
     {
-     "id": "8cfd9a3400e6bb3e",
+     "id": "5d562815e45fa13d",
      "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
-     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.2",
-     "version": "0.9.2",
+     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.3",
+     "version": "0.9.3",
      "language": "en",
      "platform": "wonderswan_color",
      "latest": true,
      "superseded": false,
      "format": "bps",
      "source_crc32": "6E8A792D",
-     "target_crc32": "77AED9A4",
+     "target_crc32": "76DF85DA",
      "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_0.9/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.2.bps",
-     "sha256": "8cfd9a3400e6bb3e863f6ee5c7f03c4a18f5a7ff961979137a3a0aa6633912f6",
-     "size": 75656,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_0.9/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.3.bps",
+     "sha256": "5d562815e45fa13dc6d11b0b21772bb1b4a897c44d13f949b34b46f885354a4d",
+     "size": 76784,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9",
      "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai. It remakes the 1987 Famicom game *Saint Seiya: Ougon Densetsu* and was released only in Japan. Seiya comes back from Greece with the Pegasus Cloth. He fights in the Galaxian Wars and against the Black Saints and the Silver Saints, then climbs the Twelve Temples of the Sanctuary to save Athena. The game mixes side-scrolling exploration with command battles powered by your Cosmo.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Another translation already exists**\n\nAn earlier English translation of this game, made with Codex by Retroviews (v1.0, October 2026), is available on RetroGameTalk: https://retrogametalk.com/threads/saint-seiya-ougon-densetsuhen-perfect-edition-ai-assisted-translation.71478/\n\nThis translation was made by mistake: that one was not listed in the Translations section or on The Repo, so it was not found before the work started.\n\n**Differences between the two versions**\n\nThe two were compared line by line, and in an emulator with the same inputs.\n\n* *Script:* about 2,040 lines are translated in both, and 623 of them match apart from punctuation. The others say the same things in different words, with the same …"
     },
     {
-     "id": "53590d3b6d4b1b74",
+     "id": "dfc4d1d85917e75c",
      "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
-     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.2.ALL.CAPS",
-     "version": "0.9.2",
+     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.3.ALL.CAPS",
+     "version": "0.9.3",
      "language": "en",
      "platform": "wonderswan_color",
      "latest": true,
      "superseded": false,
      "format": "bps",
      "source_crc32": "6E8A792D",
-     "target_crc32": "65EF0498",
+     "target_crc32": "B0A032EE",
      "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_0.9/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.2.ALL.CAPS.bps",
-     "sha256": "53590d3b6d4b1b74a93b3a8396c2e18fc1013505fcbe06f60dec9f0161381b27",
-     "size": 75649,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_0.9/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.3.ALL.CAPS.bps",
+     "sha256": "dfc4d1d85917e75c4deb0a0eec3b5dd717478db5296b70f98c1817e8496b8296",
+     "size": 76766,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9",
+     "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai. It remakes the 1987 Famicom game *Saint Seiya: Ougon Densetsu* and was released only in Japan. Seiya comes back from Greece with the Pegasus Cloth. He fights in the Galaxian Wars and against the Black Saints and the Silver Saints, then climbs the Twelve Temples of the Sanctuary to save Athena. The game mixes side-scrolling exploration with command battles powered by your Cosmo.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Another translation already exists**\n\nAn earlier English translation of this game, made with Codex by Retroviews (v1.0, October 2026), is available on RetroGameTalk: https://retrogametalk.com/threads/saint-seiya-ougon-densetsuhen-perfect-edition-ai-assisted-translation.71478/\n\nThis translation was made by mistake: that one was not listed in the Translations section or on The Repo, so it was not found before the work started.\n\n**Differences between the two versions**\n\nThe two were compared line by line, and in an emulator with the same inputs.\n\n* *Script:* about 2,040 lines are translated in both, and 623 of them match apart from punctuation. The others say the same things in different words, with the same …"
+    },
+    {
+     "id": "7b7cbe15f72bbd49",
+     "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
+     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.3.debug.no.LIFE.loss",
+     "version": "0.9.3",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "6E8A792D",
+     "target_crc32": "772F988F",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_0.9/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.3.debug.no.LIFE.loss.bps",
+     "sha256": "7b7cbe15f72bbd49cfbf955657b79b9b57f52649c873adb7aec570a76e704ad2",
+     "size": 76827,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9",
      "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai. It remakes the 1987 Famicom game *Saint Seiya: Ougon Densetsu* and was released only in Japan. Seiya comes back from Greece with the Pegasus Cloth. He fights in the Galaxian Wars and against the Black Saints and the Silver Saints, then climbs the Twelve Temples of the Sanctuary to save Athena. The game mixes side-scrolling exploration with command battles powered by your Cosmo.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Another translation already exists**\n\nAn earlier English translation of this game, made with Codex by Retroviews (v1.0, October 2026), is available on RetroGameTalk: https://retrogametalk.com/threads/saint-seiya-ougon-densetsuhen-perfect-edition-ai-assisted-translation.71478/\n\nThis translation was made by mistake: that one was not listed in the Translations section or on The Repo, so it was not found before the work started.\n\n**Differences between the two versions**\n\nThe two were compared line by line, and in an emulator with the same inputs.\n\n* *Script:* about 2,040 lines are translated in both, and 623 of them match apart from punctuation. The others say the same things in different words, with the same …"
@@ -5830,6 +5870,58 @@
    ],
    "produced_by": []
   },
+  "71556E6A": {
+   "crc32": "71556E6A",
+   "size": 4194304,
+   "md5": "5f742027ef79b71b0007ff5654e9565f",
+   "sha1": "dbaa50fd56e69e72fdfe49362ef5fe4437d66667",
+   "names": [
+    "Naruto - Konoha Ninpouchou (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "3df8f45090c98842",
+     "game": "Naruto: Konoha Ninpouchou",
+     "variant": "naruto-konoha-ninpouchou-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "71556E6A",
+     "target_crc32": "11D3625F",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/naruto-konoha-ninpouchou-v1.0/naruto-konoha-ninpouchou-en-1.0.bps",
+     "sha256": "3df8f45090c9884229529a205cf7b93a658ef9edfe092d8bab9404c8b021a888",
+     "size": 929397,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/naruto-konoha-ninpouchou-v1.0",
+     "notes": "**NARUTO -ナルト- 木ノ葉忍法帖** (Naruto: Konoha Ninpouchou, \"Konoha Ninja Arts\") is Bandai's 2003 WonderSwan Color RPG based on the anime. The game follows Naruto and Team 7 through the start of the story, from the Academy to the Land of Waves, with extra missions woven in between. Battles are fought with seals: the player picks seal cards, and certain combinations of seals make jutsu. This patch translates the whole game into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What you need:** the Japanese ROM of Naruto: Konoha Ninpouchou (4,194,304 bytes, CRC32 `71556E6A`). One patch applies to it and makes an **8 MiB** ROM (CRC32 `11D3625F`). There is also an optional second patch, a **Debug Menu** edition (see below).\n\n**What's translated**\n\n* **Everything the player reads:** the story and field dialogue (9,689 messages), the menus, battle text, names, seal and jutsu names and their descriptions, the credits and the intro pages.\n* **Pictures that carried Japanese, redrawn in English:** the title plate (KONOHA NINJA ARTS) and the small NINPOUCHOU badge, the four title buttons (START, CONTINUE, VERSUS, …"
+    },
+    {
+     "id": "aacc8f4f82ca40e5",
+     "game": "Naruto: Konoha Ninpouchou",
+     "variant": "naruto-konoha-ninpouchou-en-debugmenu-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "71556E6A",
+     "target_crc32": "AABA651B",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/naruto-konoha-ninpouchou-v1.0/naruto-konoha-ninpouchou-en-debugmenu-1.0.bps",
+     "sha256": "aacc8f4f82ca40e5388a8d6bdcbc3f443b092ee0bbf36dbebf29343b12df9244",
+     "size": 929403,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/naruto-konoha-ninpouchou-v1.0",
+     "notes": "**NARUTO -ナルト- 木ノ葉忍法帖** (Naruto: Konoha Ninpouchou, \"Konoha Ninja Arts\") is Bandai's 2003 WonderSwan Color RPG based on the anime. The game follows Naruto and Team 7 through the start of the story, from the Academy to the Land of Waves, with extra missions woven in between. Battles are fought with seals: the player picks seal cards, and certain combinations of seals make jutsu. This patch translates the whole game into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What you need:** the Japanese ROM of Naruto: Konoha Ninpouchou (4,194,304 bytes, CRC32 `71556E6A`). One patch applies to it and makes an **8 MiB** ROM (CRC32 `11D3625F`). There is also an optional second patch, a **Debug Menu** edition (see below).\n\n**What's translated**\n\n* **Everything the player reads:** the story and field dialogue (9,689 messages), the menus, battle text, names, seal and jutsu names and their descriptions, the credits and the intro pages.\n* **Pictures that carried Japanese, redrawn in English:** the title plate (KONOHA NINJA ARTS) and the small NINPOUCHOU badge, the four title buttons (START, CONTINUE, VERSUS, …"
+    }
+   ],
+   "produced_by": []
+  },
   "72AFDE86": {
    "crc32": "72AFDE86",
    "size": 4194304,
@@ -5914,28 +6006,56 @@
     }
    ]
   },
-  "77AED9A4": {
-   "crc32": "77AED9A4",
+  "76DF85DA": {
+   "crc32": "76DF85DA",
    "size": 2097152,
    "names": [],
    "patches": [],
    "produced_by": [
     {
-     "id": "8cfd9a3400e6bb3e",
+     "id": "5d562815e45fa13d",
      "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
-     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.2",
-     "version": "0.9.2",
+     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.3",
+     "version": "0.9.3",
      "language": "en",
      "platform": "wonderswan_color",
      "latest": true,
      "superseded": false,
      "format": "bps",
      "source_crc32": "6E8A792D",
-     "target_crc32": "77AED9A4",
+     "target_crc32": "76DF85DA",
      "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_0.9/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.2.bps",
-     "sha256": "8cfd9a3400e6bb3e863f6ee5c7f03c4a18f5a7ff961979137a3a0aa6633912f6",
-     "size": 75656,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_0.9/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.3.bps",
+     "sha256": "5d562815e45fa13dc6d11b0b21772bb1b4a897c44d13f949b34b46f885354a4d",
+     "size": 76784,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9",
+     "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai. It remakes the 1987 Famicom game *Saint Seiya: Ougon Densetsu* and was released only in Japan. Seiya comes back from Greece with the Pegasus Cloth. He fights in the Galaxian Wars and against the Black Saints and the Silver Saints, then climbs the Twelve Temples of the Sanctuary to save Athena. The game mixes side-scrolling exploration with command battles powered by your Cosmo.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Another translation already exists**\n\nAn earlier English translation of this game, made with Codex by Retroviews (v1.0, October 2026), is available on RetroGameTalk: https://retrogametalk.com/threads/saint-seiya-ougon-densetsuhen-perfect-edition-ai-assisted-translation.71478/\n\nThis translation was made by mistake: that one was not listed in the Translations section or on The Repo, so it was not found before the work started.\n\n**Differences between the two versions**\n\nThe two were compared line by line, and in an emulator with the same inputs.\n\n* *Script:* about 2,040 lines are translated in both, and 623 of them match apart from punctuation. The others say the same things in different words, with the same …"
+    }
+   ]
+  },
+  "772F988F": {
+   "crc32": "772F988F",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "7b7cbe15f72bbd49",
+     "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
+     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.3.debug.no.LIFE.loss",
+     "version": "0.9.3",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "6E8A792D",
+     "target_crc32": "772F988F",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_0.9/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.3.debug.no.LIFE.loss.bps",
+     "sha256": "7b7cbe15f72bbd49cfbf955657b79b9b57f52649c873adb7aec570a76e704ad2",
+     "size": 76827,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9",
      "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai. It remakes the 1987 Famicom game *Saint Seiya: Ougon Densetsu* and was released only in Japan. Seiya comes back from Greece with the Pegasus Cloth. He fights in the Galaxian Wars and against the Black Saints and the Silver Saints, then climbs the Twelve Temples of the Sanctuary to save Athena. The game mixes side-scrolling exploration with command battles powered by your Cosmo.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Another translation already exists**\n\nAn earlier English translation of this game, made with Codex by Retroviews (v1.0, October 2026), is available on RetroGameTalk: https://retrogametalk.com/threads/saint-seiya-ougon-densetsuhen-perfect-edition-ai-assisted-translation.71478/\n\nThis translation was made by mistake: that one was not listed in the Translations section or on The Repo, so it was not found before the work started.\n\n**Differences between the two versions**\n\nThe two were compared line by line, and in an emulator with the same inputs.\n\n* *Script:* about 2,040 lines are translated in both, and 623 of them match apart from punctuation. The others say the same things in different words, with the same …"
@@ -6491,6 +6611,39 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/mobile-wondergate-v1.0",
      "notes": "**MobileWonderGate** (モバイルワンダーゲート) is the cartridge Bandai sold with the Mobile WonderGate adapter on 14 July 2000, for the original (monochrome) WonderSwan, only in Japan. The adapter put a WonderSwan online through an NTT DoCoMo mobile phone, and this cartridge is its toolkit: a web browser for DoCoMo's mopera service, an e-mail program with an address book, and a downloader for small games that then run from the main menu. Bandai's online services closed between 2001 and 2003, and mopera's dial-up service at the end of 2004. This patch translates the cartridge into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The browser: toolbar labels, settings (images, text encoding, page width, image size, home page, dial-up number, connection settings), bookmarks, URL entry, forms, downloads and every status message.\n* The mailer: inbox and outbox, reading (Subject, Date, From, To), writing, replying and forwarding, sending and receiving, mail settings and the automatic mail setup.\n* The address book.\n* The on-screen keyboard's labels and the kana-to-kanji conversion messages.\n* …"
+    }
+   ],
+   "produced_by": []
+  },
+  "812020EF": {
+   "crc32": "812020EF",
+   "size": 2097152,
+   "md5": "eacb689de3482cf6e6da8befc7da65b2",
+   "sha1": "4c8166e0632bdb8c098d586a7b1522ed7b63b5f7",
+   "names": [
+    "Uzumaki - Denshi Kaiki Hen (Japan) (Rev 4).ws",
+    "Uzumaki - Denshi Kaiki Hen (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "2cda7e6272c243cb",
+     "game": "Uzumaki: Denshi Kaiki Hen",
+     "variant": "uzumaki-denshi-kaiki-hen-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "812020EF",
+     "target_crc32": "9B24E923",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/uzumaki-denshi-kaiki-hen-v1.0/uzumaki-denshi-kaiki-hen-en-1.0.bps",
+     "sha256": "2cda7e6272c243cbea68b43478c400db5e0cc661fc211f177145b5d074c89e53",
+     "size": 201605,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/uzumaki-denshi-kaiki-hen-v1.0",
+     "notes": "**Uzumaki: Denshi Kaiki Hen** (うずまき 〜電視怪奇篇〜) is a WonderSwan branching picture novel (a text adventure) made by Omega Micott in 2000 from Junji Ito's horror manga *Uzumaki*. You read the story of Kirie Goshima and her town, Kurouzu-cho, which is cursed with spirals, and at 35 points you choose what Kirie does. Three routes I played all end at a Bad End. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The story:** all 135 scripts, 3,825 text runs, 35 choices and 35 speaker labels. Names and terms follow the VIZ English edition of the manga (Kirie Goshima, Shuichi Saito, Azami Kurotani, Kurouzu-cho and so on); honorifics are dropped.\n* **Menus and system text:** the title menu, settings, in-game menu, power-off and data-wipe prompts, the attract-mode intro (Kirie's narration) and the credits.\n* **The Uzumaki quiz:** all 50 questions with their answers, the headers and the retry prompt. A few questions depend on Japanese wordplay and were adapted (for example a megabit question, which gives the ROM size, and a …"
     }
    ],
    "produced_by": []
@@ -7442,7 +7595,7 @@
      "version": "1.1",
      "language": "en",
      "platform": "wonderswan",
-     "latest": true,
+     "latest": false,
      "superseded": false,
      "format": "bps",
      "source_crc32": "56E2C069",
@@ -7698,6 +7851,34 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol1-side7-v1.0",
      "notes": "**Kidou Senshi Gundam Vol. 1: Side 7** (機動戦士ガンダム Vol.1 〜SIDE7〜, \"Mobile Suit Gundam Vol. 1: Side 7\") is Bandai's 2001 game for the WonderSwan Color, released only in Japan, and the first of three cartridges that retell the 1979 anime *Mobile Suit Gundam*. This one covers episodes 1-12: Zeon's raid on Side 7, Amuro Ray climbing into the Gundam, the White Base's flight to Earth and the fight with Garma Zabi. Each episode is told in story scenes, with mobile-suit battles in between, and the crew's trust in Amuro rises and falls with how he fights.\n\nThis patch translates it into English. Vol. 1, Vol. 2 and Vol. 3 each have their own patch and their own page.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: every story scene and narration, the prologue, the battle chatter and the mission briefings, the ending and the staff credits.\n* Every menu and prompt: the episode select and its maps, weapon help, saving and continuing.\n* Everything drawn as a picture: the 12 episode title cards, the battle labels (commands, weapons and Amuro's mood) and the results screen after each …"
+    }
+   ]
+  },
+  "9B24E923": {
+   "crc32": "9B24E923",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "2cda7e6272c243cb",
+     "game": "Uzumaki: Denshi Kaiki Hen",
+     "variant": "uzumaki-denshi-kaiki-hen-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "812020EF",
+     "target_crc32": "9B24E923",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/uzumaki-denshi-kaiki-hen-v1.0/uzumaki-denshi-kaiki-hen-en-1.0.bps",
+     "sha256": "2cda7e6272c243cbea68b43478c400db5e0cc661fc211f177145b5d074c89e53",
+     "size": 201605,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/uzumaki-denshi-kaiki-hen-v1.0",
+     "notes": "**Uzumaki: Denshi Kaiki Hen** (うずまき 〜電視怪奇篇〜) is a WonderSwan branching picture novel (a text adventure) made by Omega Micott in 2000 from Junji Ito's horror manga *Uzumaki*. You read the story of Kirie Goshima and her town, Kurouzu-cho, which is cursed with spirals, and at 35 points you choose what Kirie does. Three routes I played all end at a Bad End. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The story:** all 135 scripts, 3,825 text runs, 35 choices and 35 speaker labels. Names and terms follow the VIZ English edition of the manga (Kirie Goshima, Shuichi Saito, Azami Kurotani, Kurouzu-cho and so on); honorifics are dropped.\n* **Menus and system text:** the title menu, settings, in-game menu, power-off and data-wipe prompts, the attract-mode intro (Kirie's narration) and the credits.\n* **The Uzumaki quiz:** all 50 questions with their answers, the headers and the retry prompt. A few questions depend on Japanese wordplay and were adapted (for example a megabit question, which gives the ROM size, and a …"
     }
    ]
   },
@@ -8646,6 +8827,34 @@
    ],
    "produced_by": []
   },
+  "AABA651B": {
+   "crc32": "AABA651B",
+   "size": 8388608,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "aacc8f4f82ca40e5",
+     "game": "Naruto: Konoha Ninpouchou",
+     "variant": "naruto-konoha-ninpouchou-en-debugmenu-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "71556E6A",
+     "target_crc32": "AABA651B",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/naruto-konoha-ninpouchou-v1.0/naruto-konoha-ninpouchou-en-debugmenu-1.0.bps",
+     "sha256": "aacc8f4f82ca40e5388a8d6bdcbc3f443b092ee0bbf36dbebf29343b12df9244",
+     "size": 929403,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/naruto-konoha-ninpouchou-v1.0",
+     "notes": "**NARUTO -ナルト- 木ノ葉忍法帖** (Naruto: Konoha Ninpouchou, \"Konoha Ninja Arts\") is Bandai's 2003 WonderSwan Color RPG based on the anime. The game follows Naruto and Team 7 through the start of the story, from the Academy to the Land of Waves, with extra missions woven in between. Battles are fought with seals: the player picks seal cards, and certain combinations of seals make jutsu. This patch translates the whole game into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What you need:** the Japanese ROM of Naruto: Konoha Ninpouchou (4,194,304 bytes, CRC32 `71556E6A`). One patch applies to it and makes an **8 MiB** ROM (CRC32 `11D3625F`). There is also an optional second patch, a **Debug Menu** edition (see below).\n\n**What's translated**\n\n* **Everything the player reads:** the story and field dialogue (9,689 messages), the menus, battle text, names, seal and jutsu names and their descriptions, the credits and the intro pages.\n* **Pictures that carried Japanese, redrawn in English:** the title plate (KONOHA NINJA ARTS) and the small NINPOUCHOU badge, the four title buttons (START, CONTINUE, VERSUS, …"
+    }
+   ]
+  },
   "AD5D5163": {
    "crc32": "AD5D5163",
    "size": 8388608,
@@ -8697,6 +8906,34 @@
      "size": 155279,
      "source": "Gand46/Rockman-EXE-N1-Battle-ChipControl-Wonderswan-English-Translation-AI_GPT",
      "page": "https://github.com/Gand46/Rockman-EXE-N1-Battle-ChipControl-Wonderswan-English-Translation-AI_GPT/blob/main/patches/qa09/Rockman_N1_English_QA09_MANT05.bps"
+    }
+   ]
+  },
+  "AD600B55": {
+   "crc32": "AD600B55",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "77180a1fe2cd206a",
+     "game": "Chou Denki Card Battle: Youfu Makai",
+     "variant": "youfu-makai-en-1.2",
+     "version": "1.2",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "56E2C069",
+     "target_crc32": "AD600B55",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/youfu-makai-v1.2/youfu-makai-en-1.2.bps",
+     "sha256": "77180a1fe2cd206a84d24486013b3f8568c700fec35a2f9e5f68e4bdbce24d6b",
+     "size": 734883,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.2",
+     "notes": "**Chou Denki Card Battle: Youfu Makai** (超伝奇カードバトル 妖符魔界) is a 1999 card battle game from Kobunsha and Kappa Games for the original (monochrome) WonderSwan, released only in Japan. The scenario is by Hideyuki Kikuchi (*Vampire Hunter D*, *Demon City Shinjuku*) and the art by Ayami Kojima. It's set in Kikuchi's Demon City Shinjuku, and its story runs in three parts, told as illustrated pages of prose between battles with Demon Cards. You build a 30-card deck, lay cards on a field where each card's arrows set the direction it attacks, and win by covering the field with your own cards.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole story, all three parts (Crimson Lotus, Cursed Cards, Fusion), as horizontal English prose in place of the vertical Japanese.\n* Every card name, and the descriptions of all 200 cards in the Card Craft card view (press the Y pad left or right on the deck screen).\n* The menus (Scenario, Those in the Way, Worthy Rival, Card Craft...), the deck rules, the battle screens, and the save and erase prompts.\n* Graphics: the title logo becomes YOUFU MAKAI with …"
     }
    ]
   },
@@ -8943,6 +9180,34 @@
     }
    ],
    "produced_by": []
+  },
+  "B0A032EE": {
+   "crc32": "B0A032EE",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "dfc4d1d85917e75c",
+     "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
+     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.3.ALL.CAPS",
+     "version": "0.9.3",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "6E8A792D",
+     "target_crc32": "B0A032EE",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_0.9/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.3.ALL.CAPS.bps",
+     "sha256": "dfc4d1d85917e75c4deb0a0eec3b5dd717478db5296b70f98c1817e8496b8296",
+     "size": 76766,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9",
+     "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai. It remakes the 1987 Famicom game *Saint Seiya: Ougon Densetsu* and was released only in Japan. Seiya comes back from Greece with the Pegasus Cloth. He fights in the Galaxian Wars and against the Black Saints and the Silver Saints, then climbs the Twelve Temples of the Sanctuary to save Athena. The game mixes side-scrolling exploration with command battles powered by your Cosmo.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Another translation already exists**\n\nAn earlier English translation of this game, made with Codex by Retroviews (v1.0, October 2026), is available on RetroGameTalk: https://retrogametalk.com/threads/saint-seiya-ougon-densetsuhen-perfect-edition-ai-assisted-translation.71478/\n\nThis translation was made by mistake: that one was not listed in the Translations section or on The Repo, so it was not found before the work started.\n\n**Differences between the two versions**\n\nThe two were compared line by line, and in an emulator with the same inputs.\n\n* *Script:* about 2,040 lines are translated in both, and 623 of them match apart from punctuation. The others say the same things in different words, with the same …"
+    }
+   ]
   },
   "B1478AA6": {
    "crc32": "B1478AA6",
@@ -12738,6 +13003,7 @@
   "5883b9d0f63fe8daa9c1a2259c154466": "F1F4D41F",
   "5a571edf5e34793c68a69bdc9dd328e5": "E357D462",
   "5e907dd88b3cfb2855a18fb1bf689860": "80C6EF12",
+  "5f742027ef79b71b0007ff5654e9565f": "71556E6A",
   "694042e6f8eaa2423693c0a9bba8aef0": "62D419CD",
   "6c1949e0201437ed16d9182956b67b0e": "4D21A347",
   "6c1b75de270e7e96df161833a5522b7d": "31E09BED",
@@ -12785,6 +13051,7 @@
   "e39e90944a683b9d4a996a53804826f0": "B1CAEC06",
   "e5394d336231c99e9c93f1f41e80a401": "5A41A7BA",
   "e79dddc7db77ad96c52b0b7690f8c1b1": "35361250",
+  "eacb689de3482cf6e6da8befc7da65b2": "812020EF",
   "eb3f161ea3db4ebd759c9b1346032d4f": "A1FB16FC",
   "edbc77ab0d585447d927318a6eb66c9b": "CCAA4853",
   "eec79ad5bb634a90b9d020415046e921": "AF9D8F42",
@@ -12835,6 +13102,7 @@
   "3d5a1ed77e721908eb1145aaedef17c0ee6355ae": "89E7D950",
   "4a756dab81e0101475dc2e5494270f3df7dac1e6": "8655269E",
   "4c3f092b095bdb0afdaf8d32d4c54b4d6c209c96": "B07E6A56",
+  "4c8166e0632bdb8c098d586a7b1522ed7b63b5f7": "812020EF",
   "509e5748e5efdfb56093c78ae886153dd1838215": "12FB8B28",
   "5384f9974c66e5e26129a4709976de0bb1ae1f17": "067238D1",
   "544e76133fa53fc0ae5e00e3465b9cf634f14fd0": "324622C9",
@@ -12884,6 +13152,7 @@
   "d3da0ae529c6f78162682141154a95879f288ca7": "B62E5DD0",
   "d72c1221c2ce3e281a0ee288a3d079aa8e1b714b": "5A41A7BA",
   "d8097e25431f0ad5183b2479ee0837599677a300": "18ECFFB8",
+  "dbaa50fd56e69e72fdfe49362ef5fe4437d66667": "71556E6A",
   "dd1878279a6667fb66dd1ac44a2cdb9a5acbe415": "5793BDDA",
   "df1a794f7e3992b1e1e9de14141b607746202202": "39A1391A",
   "e03332ebbd3fed88084bc96030c65a9b531e6ed1": "40E63922",
