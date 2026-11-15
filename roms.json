@@ -1201,6 +1201,7 @@
    "md5": "18267bcb9d31ffb6711f5464f6ab8077",
    "sha1": "d8097e25431f0ad5183b2479ee0837599677a300",
    "names": [
+    "SD Gundam Eiyuu Den - Musha Densetsu (Japan) (WS Compatible).wsc",
     "SD Gundam Eiyuu Den - Musha Densetsu (Japan).wsc"
    ],
    "patches": [
@@ -4743,7 +4744,7 @@
    "sha1": "dd1878279a6667fb66dd1ac44a2cdb9a5acbe415",
    "names": [
     "Uchuu Senkan Yamato (Japan)",
-    "Uchuu Senkan Yamato (Japan).wsc"
+    "Uchuu Senkan Yamato (Japan) (WS Compatible).wsc"
    ],
    "patches": [
     {
@@ -7057,7 +7058,7 @@
    "sha1": "6c5a2dc7e231ebd278fe22bb7f01b1a7cc3785d6",
    "names": [
     "Digimon Tamers - Digimon Medley (Japan) (Rev 1)",
-    "Digimon Tamers - Digimon Medley (Japan) (Rev 1).wsc"
+    "Digimon Tamers - Digimon Medley (Japan) (Rev 1) (WS Compatible).wsc"
    ],
    "patches": [
     {
@@ -8149,6 +8150,7 @@
    "sha1": "02103fc5fc97c3a38834ced32a3cfe6523832535",
    "names": [
     "Blue Wing Blitz (Japan)",
+    "Blue Wing Blitz (Japan) (WS Compatible).wsc",
     "Blue Wing Blitz (Japan).wsc"
    ],
    "patches": [
@@ -8557,7 +8559,7 @@
    "md5": "6ec4fe6789acab4347355fcb53f10146",
    "sha1": "36d8bc2ce7920d940943358d48f056f81055ab34",
    "names": [
-    "Meitantei Conan - Yuugure no Oujo (Japan).wsc"
+    "Meitantei Conan - Yuugure no Oujo (Japan) (WS Compatible).wsc"
    ],
    "patches": [
     {
@@ -10553,6 +10555,7 @@
    "md5": "3944c5d21434e5836f414b319af96331",
    "sha1": "ebd4b37ade6df717f7b637747a4d3c45a6cca037",
    "names": [
+    "SD Gundam Eiyuu Den - Kishi Densetsu (Japan) (WS Compatible).wsc",
     "SD Gundam Eiyuu Den - Kishi Densetsu (Japan).wsc"
    ],
    "patches": [
@@ -11526,7 +11529,7 @@
    "sha1": "caf4a8de853ded732b2a72619acf2784eeceafc7",
    "names": [
     "Another Heaven - Memory of those Days (Japan)",
-    "Another Heaven - Memory of those Days (Japan).wsc"
+    "Another Heaven - Memory of those Days (Japan) (WS Compatible).wsc"
    ],
    "patches": [
     {
@@ -12109,6 +12112,62 @@
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/CCS_ES",
      "notes": "**Cardcaptor Sakura - Sakura to Fushigi na Clow Card** (\"Sakura and the Mysterious Clow Cards\") is Bandai's 1999 Cardcaptor Sakura game for the WonderSwan, released only in Japan. It follows the first season of the anime: Sakura Kinomoto opens a strange book in her father's study, the Clow Cards scatter all over Tomoeda, and Kero, the Beast of the Seal, makes her a Cardcaptor. Week after week you plan Sakura's days, spend Sundays with her friends and family, and capture the Clow Cards in battles where the cards themselves are your weapons.\n\nHere is the game in **Spanish from Spain**, in two versions with the same text: black and white (WonderSwan and WonderSwan Color) and Color (in colour on the WonderSwan Color). English version will be done by Hilltop Works.\n\n> **Please read:** this translation was made **only with AI**, as a personal project. I'm sharing it as it is for personal use, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n****Download:** HERE**\n\n**How it was made (double AI check)**\n\n1. Claude translated the whole game from the Japanese.\n2. ChatGPT reviewed all 9,042 lines against the Japanese and flagged doubtful lines and open choices.\n3. Claude checked ChatGPT's review again line by line before applying it (some proposals were rewritten or shortened to fit the screen), and the open choices (terms and names) were decided by me, waiting for a …"
+    }
+   ]
+  },
+  "E41891CF": {
+   "crc32": "E41891CF",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "d97cfe42977ca776",
+     "game": "Harobots",
+     "variant": "harobots-rev1-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "F75CE82C",
+     "target_crc32": "E41891CF",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/harobots-v1.0/harobots-rev1-en-1.0.bps",
+     "sha256": "d97cfe42977ca7768e15f7ed5e8b3ae1e847be0b9a019f7cf799399a1134b8ae",
+     "size": 242559,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/harobots-v1.0",
+     "notes": "**Harobots** (ハロボッツ) is Sunrise Interactive's 1999 robot-raising RPG for the original (monochrome) WonderSwan, released only in Japan. Haro, the ball-shaped robot from *Mobile Suit Gundam*, is everyone's pet in this world, and with the right robot data a Haro can \"Harobots Change\" into robots from Sunrise anime (Dougram, VOTOMS, Dunbine, L-Gaim, Layzner, the Brave series, Escaflowne and more, 106 in all) for arcade battles. You play a boy who finds a stray Haro in the junkyard, trains it at the dojo, fits it with parts, combines items to unlock new robots and battles your way from town to town to the national tournament, while the expelled scientist Dr. Baro schemes to get his hands on the prototype Haro. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: the story, every town's people, the trainers' challenges, the tournament, the shop and the dojo, about 1,700 different dialogue lines.\n* Menus and screens: items (106 robots' attacks and skills, item names and descriptions), status pages, parts, Robot Set, Combinize, the shop, the …"
+    }
+   ]
+  },
+  "E4892F3D": {
+   "crc32": "E4892F3D",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "86955d10366a73a6",
+     "game": "Harobots",
+     "variant": "harobots-rev1-en-special-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "F75CE82C",
+     "target_crc32": "E4892F3D",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/harobots-v1.0/harobots-rev1-en-special-1.0.bps",
+     "sha256": "86955d10366a73a65e5a871b531d9b28394a67f8ca0947bf7e949794bb3c143a",
+     "size": 242799,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/harobots-v1.0",
+     "notes": "**Harobots** (ハロボッツ) is Sunrise Interactive's 1999 robot-raising RPG for the original (monochrome) WonderSwan, released only in Japan. Haro, the ball-shaped robot from *Mobile Suit Gundam*, is everyone's pet in this world, and with the right robot data a Haro can \"Harobots Change\" into robots from Sunrise anime (Dougram, VOTOMS, Dunbine, L-Gaim, Layzner, the Brave series, Escaflowne and more, 106 in all) for arcade battles. You play a boy who finds a stray Haro in the junkyard, trains it at the dojo, fits it with parts, combines items to unlock new robots and battles your way from town to town to the national tournament, while the expelled scientist Dr. Baro schemes to get his hands on the prototype Haro. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: the story, every town's people, the trainers' challenges, the tournament, the shop and the dojo, about 1,700 different dialogue lines.\n* Menus and screens: items (106 robots' attacks and skills, item names and descriptions), status pages, parts, Robot Set, Combinize, the shop, the …"
     }
    ]
   },
@@ -13293,6 +13352,59 @@
     }
    ]
   },
+  "F75CE82C": {
+   "crc32": "F75CE82C",
+   "size": 2097152,
+   "md5": "b9020cfae65fe791bd52723cbff31707",
+   "sha1": "ecbaf210f92c75a55df9dff4777ea364596ae0c9",
+   "names": [
+    "Harobots (Japan)",
+    "Harobots (Japan) (Rev 1).ws"
+   ],
+   "patches": [
+    {
+     "id": "d97cfe42977ca776",
+     "game": "Harobots",
+     "variant": "harobots-rev1-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "F75CE82C",
+     "target_crc32": "E41891CF",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/harobots-v1.0/harobots-rev1-en-1.0.bps",
+     "sha256": "d97cfe42977ca7768e15f7ed5e8b3ae1e847be0b9a019f7cf799399a1134b8ae",
+     "size": 242559,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/harobots-v1.0",
+     "notes": "**Harobots** (ハロボッツ) is Sunrise Interactive's 1999 robot-raising RPG for the original (monochrome) WonderSwan, released only in Japan. Haro, the ball-shaped robot from *Mobile Suit Gundam*, is everyone's pet in this world, and with the right robot data a Haro can \"Harobots Change\" into robots from Sunrise anime (Dougram, VOTOMS, Dunbine, L-Gaim, Layzner, the Brave series, Escaflowne and more, 106 in all) for arcade battles. You play a boy who finds a stray Haro in the junkyard, trains it at the dojo, fits it with parts, combines items to unlock new robots and battles your way from town to town to the national tournament, while the expelled scientist Dr. Baro schemes to get his hands on the prototype Haro. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: the story, every town's people, the trainers' challenges, the tournament, the shop and the dojo, about 1,700 different dialogue lines.\n* Menus and screens: items (106 robots' attacks and skills, item names and descriptions), status pages, parts, Robot Set, Combinize, the shop, the …"
+    },
+    {
+     "id": "86955d10366a73a6",
+     "game": "Harobots",
+     "variant": "harobots-rev1-en-special-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "F75CE82C",
+     "target_crc32": "E4892F3D",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/harobots-v1.0/harobots-rev1-en-special-1.0.bps",
+     "sha256": "86955d10366a73a65e5a871b531d9b28394a67f8ca0947bf7e949794bb3c143a",
+     "size": 242799,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/harobots-v1.0",
+     "notes": "**Harobots** (ハロボッツ) is Sunrise Interactive's 1999 robot-raising RPG for the original (monochrome) WonderSwan, released only in Japan. Haro, the ball-shaped robot from *Mobile Suit Gundam*, is everyone's pet in this world, and with the right robot data a Haro can \"Harobots Change\" into robots from Sunrise anime (Dougram, VOTOMS, Dunbine, L-Gaim, Layzner, the Brave series, Escaflowne and more, 106 in all) for arcade battles. You play a boy who finds a stray Haro in the junkyard, trains it at the dojo, fits it with parts, combines items to unlock new robots and battles your way from town to town to the national tournament, while the expelled scientist Dr. Baro schemes to get his hands on the prototype Haro. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: the story, every town's people, the trainers' challenges, the tournament, the shop and the dojo, about 1,700 different dialogue lines.\n* Menus and screens: items (106 robots' attacks and skills, item names and descriptions), status pages, parts, Robot Set, Combinize, the shop, the …"
+    }
+   ],
+   "produced_by": []
+  },
   "F8A1DD2B": {
    "crc32": "F8A1DD2B",
    "size": 8388608,
@@ -13608,6 +13720,7 @@
   "b1b20bb24be3767ab5bfcfca54b51c54": "80DE367D",
   "b7f9c3d80b83178ba192297ea755d066": "0C9CB12C",
   "b814e71eb1d079466a9535566d605280": "324622C9",
+  "b9020cfae65fe791bd52723cbff31707": "F75CE82C",
   "bb9f130931b2b7d1f646f44d1667ad63": "7F3A14C0",
   "be0f50bc4470711a31be0bd33c775ad2": "9750BC2A",
   "c17c4de6648c776b246ae83991ac3978": "1E760C41",
@@ -13740,6 +13853,7 @@
   "ea878a485a20abd5251065fd66e82d9d8b8a669d": "D9401F0A",
   "eb538b82c5516fae8ce38778e41fb118aa5c830f": "7FFF2520",
   "ebd4b37ade6df717f7b637747a4d3c45a6cca037": "C60E5162",
+  "ecbaf210f92c75a55df9dff4777ea364596ae0c9": "F75CE82C",
   "f38c28a858ff27826be3f4df8d8b32012609c3b8": "43BD6D16",
   "f47b4ab9197999bbec351750601baa20fbbd7177": "8E123373",
   "f79451034b6d844f0e10c825306bbc26f26a5466": "4E467626",

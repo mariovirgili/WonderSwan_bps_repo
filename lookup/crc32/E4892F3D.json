@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "E4892F3D"
+ },
+ "crc32": "E4892F3D",
+ "size": 4194304,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "86955d10366a73a6",
+   "game": "Harobots",
+   "variant": "harobots-rev1-en-special-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "F75CE82C",
+   "target_crc32": "E4892F3D",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/harobots-v1.0/harobots-rev1-en-special-1.0.bps",
+   "sha256": "86955d10366a73a65e5a871b531d9b28394a67f8ca0947bf7e949794bb3c143a",
+   "size": 242799,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/harobots-v1.0",
+   "notes": "**Harobots** (ハロボッツ) is Sunrise Interactive's 1999 robot-raising RPG for the original (monochrome) WonderSwan, released only in Japan. Haro, the ball-shaped robot from *Mobile Suit Gundam*, is everyone's pet in this world, and with the right robot data a Haro can \"Harobots Change\" into robots from Sunrise anime (Dougram, VOTOMS, Dunbine, L-Gaim, Layzner, the Brave series, Escaflowne and more, 106 in all) for arcade battles. You play a boy who finds a stray Haro in the junkyard, trains it at the dojo, fits it with parts, combines items to unlock new robots and battles your way from town to town to the national tournament, while the expelled scientist Dr. Baro schemes to get his hands on the prototype Haro. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: the story, every town's people, the trainers' challenges, the tournament, the shop and the dojo, about 1,700 different dialogue lines.\n* Menus and screens: items (106 robots' attacks and skills, item names and descriptions), status pages, parts, Robot Set, Combinize, the shop, the …"
+  }
+ ]
+}

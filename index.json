@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "repository": "mariovirgili/WonderSwan_bps_repo",
-  "generated_at": "2026-11-14T22:57:49+00:00",
+  "generated_at": "2026-11-15T12:01:06+00:00",
   "sources": [
     "mariovirgili/WonderSwanColor-AI_Translation",
     "PokemonGoDB/wonderswan-english-patches",
@@ -32,7 +32,7 @@
     "wonderswan_color",
     null
   ],
-  "count": 273,
+  "count": 275,
   "entries": [
     {
       "id": "fb49f952cc562ee5",
@@ -7359,6 +7359,114 @@
         "release_notes": "**Harobots** (ハロボッツ) is Sunrise Interactive's 1999 robot-raising RPG for the original (monochrome) WonderSwan, released only in Japan. Haro, the ball-shaped robot from *Mobile Suit Gundam*, is everyone's pet in this world, and with the right robot data a Haro can \"Harobots Change\" into robots from Sunrise anime (Dougram, VOTOMS, Dunbine, L-Gaim, Layzner, the Brave series, Escaflowne and more, 106 in all) for arcade battles. You play a boy who finds a stray Haro in the junkyard, trains it at the dojo, fits it with parts, combines items to unlock new robots and battles your way from town to town to the national tournament, while the expelled scientist Dr. Baro schemes to get his hands on the prototype Haro. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: the story, every town's people, the trainers' challenges, the tournament, the shop and the dojo, about 1,700 different dialogue lines.\n* Menus and screens: items (106 robots' attacks and skills, item names and descriptions), status pages, parts, Robot Set, Combinize, the shop, the …"
       },
       "first_seen": "2026-11-02"
+    },
+    {
+      "id": "d97cfe42977ca776",
+      "game": "Harobots",
+      "variant": "harobots-rev1-en-1.0",
+      "version": "1.0",
+      "language": "en",
+      "platform": "wonderswan",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "F75CE82C",
+      "target_crc32": "E41891CF",
+      "source_rom": {
+        "crc32": "F75CE82C",
+        "size": 2097152,
+        "crc32_from": "bps",
+        "name": "Harobots (Japan)"
+      },
+      "target_rom": {
+        "crc32": "E41891CF",
+        "size": 4194304,
+        "crc32_from": "bps"
+      },
+      "file_name": "harobots-rev1-en-1.0.bps",
+      "path": "patches/PokemonGoDB/wonderswan-english-patches/harobots-v1.0/harobots-rev1-en-1.0.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/harobots-v1.0/harobots-rev1-en-1.0.bps",
+      "size": 242559,
+      "sha256": "d97cfe42977ca7768e15f7ed5e8b3ae1e847be0b9a019f7cf799399a1134b8ae",
+      "patch_crc32": "2144DF1C",
+      "source_size": 2097152,
+      "target_size": 4194304,
+      "patch_crc32_footer": "1EA219D2",
+      "patch_checksum_ok": true,
+      "bps_metadata": "Harobots (Japan) (Rev 1) - English translation 1.0",
+      "origin": {
+        "source": "PokemonGoDB/wonderswan-english-patches",
+        "source_url": "https://github.com/PokemonGoDB/wonderswan-english-patches",
+        "kind": "release_asset",
+        "release_tag": "harobots-v1.0",
+        "release_name": "[Release] Harobots (WonderSwan) - AI English translation patch v1.0 (+ special edition)",
+        "release_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/harobots-v1.0",
+        "published_at": "2026-10-13T18:27:29Z",
+        "prerelease": false,
+        "asset_name": "harobots-rev1-en-1.0.bps",
+        "download_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/download/harobots-v1.0/harobots-rev1-en-1.0.bps",
+        "archive_member": null,
+        "key": "asset:PokemonGoDB/wonderswan-english-patches:749517590:2026-11-15T02:14:05Z:242559",
+        "release_notes": "**Harobots** (ハロボッツ) is Sunrise Interactive's 1999 robot-raising RPG for the original (monochrome) WonderSwan, released only in Japan. Haro, the ball-shaped robot from *Mobile Suit Gundam*, is everyone's pet in this world, and with the right robot data a Haro can \"Harobots Change\" into robots from Sunrise anime (Dougram, VOTOMS, Dunbine, L-Gaim, Layzner, the Brave series, Escaflowne and more, 106 in all) for arcade battles. You play a boy who finds a stray Haro in the junkyard, trains it at the dojo, fits it with parts, combines items to unlock new robots and battles your way from town to town to the national tournament, while the expelled scientist Dr. Baro schemes to get his hands on the prototype Haro. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: the story, every town's people, the trainers' challenges, the tournament, the shop and the dojo, about 1,700 different dialogue lines.\n* Menus and screens: items (106 robots' attacks and skills, item names and descriptions), status pages, parts, Robot Set, Combinize, the shop, the …"
+      },
+      "first_seen": "2026-11-15"
+    },
+    {
+      "id": "86955d10366a73a6",
+      "game": "Harobots",
+      "variant": "harobots-rev1-en-special-1.0",
+      "version": "1.0",
+      "language": "en",
+      "platform": "wonderswan",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "F75CE82C",
+      "target_crc32": "E4892F3D",
+      "source_rom": {
+        "crc32": "F75CE82C",
+        "size": 2097152,
+        "crc32_from": "bps",
+        "name": "Harobots (Japan)"
+      },
+      "target_rom": {
+        "crc32": "E4892F3D",
+        "size": 4194304,
+        "crc32_from": "bps"
+      },
+      "file_name": "harobots-rev1-en-special-1.0.bps",
+      "path": "patches/PokemonGoDB/wonderswan-english-patches/harobots-v1.0/harobots-rev1-en-special-1.0.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/harobots-v1.0/harobots-rev1-en-special-1.0.bps",
+      "size": 242799,
+      "sha256": "86955d10366a73a65e5a871b531d9b28394a67f8ca0947bf7e949794bb3c143a",
+      "patch_crc32": "2144DF1C",
+      "source_size": 2097152,
+      "target_size": 4194304,
+      "patch_crc32_footer": "73B768D5",
+      "patch_checksum_ok": true,
+      "bps_metadata": "Harobots (Japan) (Rev 1) - English translation 1.0",
+      "origin": {
+        "source": "PokemonGoDB/wonderswan-english-patches",
+        "source_url": "https://github.com/PokemonGoDB/wonderswan-english-patches",
+        "kind": "release_asset",
+        "release_tag": "harobots-v1.0",
+        "release_name": "[Release] Harobots (WonderSwan) - AI English translation patch v1.0 (+ special edition)",
+        "release_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/harobots-v1.0",
+        "published_at": "2026-10-13T18:27:29Z",
+        "prerelease": false,
+        "asset_name": "harobots-rev1-en-special-1.0.bps",
+        "download_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/download/harobots-v1.0/harobots-rev1-en-special-1.0.bps",
+        "archive_member": null,
+        "key": "asset:PokemonGoDB/wonderswan-english-patches:749517589:2026-11-15T02:14:05Z:242799",
+        "release_notes": "**Harobots** (ハロボッツ) is Sunrise Interactive's 1999 robot-raising RPG for the original (monochrome) WonderSwan, released only in Japan. Haro, the ball-shaped robot from *Mobile Suit Gundam*, is everyone's pet in this world, and with the right robot data a Haro can \"Harobots Change\" into robots from Sunrise anime (Dougram, VOTOMS, Dunbine, L-Gaim, Layzner, the Brave series, Escaflowne and more, 106 in all) for arcade battles. You play a boy who finds a stray Haro in the junkyard, trains it at the dojo, fits it with parts, combines items to unlock new robots and battles your way from town to town to the national tournament, while the expelled scientist Dr. Baro schemes to get his hands on the prototype Haro. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: the story, every town's people, the trainers' challenges, the tournament, the shop and the dojo, about 1,700 different dialogue lines.\n* Menus and screens: items (106 robots' attacks and skills, item names and descriptions), status pages, parts, Robot Set, Combinize, the shop, the …"
+      },
+      "first_seen": "2026-11-15"
     },
     {
       "id": "6e2d6db15b07c1c0",

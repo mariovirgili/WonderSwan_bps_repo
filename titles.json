@@ -2001,8 +2001,8 @@
   },
   {
    "system": "wonderswan_color",
-   "name": "Another Heaven - Memory of those Days (Japan)",
-   "rom": "Another Heaven - Memory of those Days (Japan).wsc",
+   "name": "Another Heaven - Memory of those Days (Japan) (WS Compatible)",
+   "rom": "Another Heaven - Memory of those Days (Japan) (WS Compatible).wsc",
    "size": 4194304,
    "crc32": "D7A0AB74",
    "md5": "30e5f0895254ea2952f4a6a707ace47c",
@@ -2100,8 +2100,8 @@
   },
   {
    "system": "wonderswan_color",
-   "name": "Blue Wing Blitz (Japan)",
-   "rom": "Blue Wing Blitz (Japan).wsc",
+   "name": "Blue Wing Blitz (Japan) (WS Compatible)",
+   "rom": "Blue Wing Blitz (Japan) (WS Compatible).wsc",
    "size": 2097152,
    "crc32": "99027238",
    "md5": "1ea61538422bc2d6349c321fa15b334f",
@@ -2235,8 +2235,8 @@
   },
   {
    "system": "wonderswan_color",
-   "name": "Dark Eyes - Battle Gate (Japan)",
-   "rom": "Dark Eyes - Battle Gate (Japan).wsc",
+   "name": "Dark Eyes - Battle Gate (Japan) (WS Compatible)",
+   "rom": "Dark Eyes - Battle Gate (Japan) (WS Compatible).wsc",
    "size": 4194304,
    "crc32": "12AE932C",
    "md5": "d3d18ea7800d93cb3a22e275bae9f836",
@@ -2307,21 +2307,21 @@
   },
   {
    "system": "wonderswan_color",
-   "name": "Digimon Adventure 02 - D1 Tamers (Japan)",
-   "rom": "Digimon Adventure 02 - D1 Tamers (Japan).wsc",
-   "size": 4194304,
-   "crc32": "4D28637E",
-   "md5": "833bd00f18fac9b03392a1d2cec17a54",
-   "sha1": "18d3dfe25d82964ab7bb61af363d368fd12f4d4b"
-  },
-  {
-   "system": "wonderswan_color",
-   "name": "Digimon Adventure 02 - D1 Tamers (Japan) (Rev 1)",
-   "rom": "Digimon Adventure 02 - D1 Tamers (Japan) (Rev 1).wsc",
+   "name": "Digimon Adventure 02 - D1 Tamers (Japan) (Rev 1) (WS Compatible)",
+   "rom": "Digimon Adventure 02 - D1 Tamers (Japan) (Rev 1) (WS Compatible).wsc",
    "size": 4194304,
    "crc32": "62F4E4B4",
    "md5": "bb1067e3df3b632b32cd38543da8bd81",
    "sha1": "6fbb07bfefac7832436ec56e4d95678428b0f7ba"
+  },
+  {
+   "system": "wonderswan_color",
+   "name": "Digimon Adventure 02 - D1 Tamers (Japan) (WS Compatible)",
+   "rom": "Digimon Adventure 02 - D1 Tamers (Japan) (WS Compatible).wsc",
+   "size": 4194304,
+   "crc32": "4D28637E",
+   "md5": "833bd00f18fac9b03392a1d2cec17a54",
+   "sha1": "18d3dfe25d82964ab7bb61af363d368fd12f4d4b"
   },
   {
    "system": "wonderswan_color",
@@ -2352,21 +2352,21 @@
   },
   {
    "system": "wonderswan_color",
-   "name": "Digimon Tamers - Digimon Medley (Japan)",
-   "rom": "Digimon Tamers - Digimon Medley (Japan).wsc",
-   "size": 4194304,
-   "crc32": "FA92418D",
-   "md5": "aaa71e8698a1e765d655eb24fcac19e3",
-   "sha1": "8638737e5a35c6be05a888dc81e504e0d80fd756"
-  },
-  {
-   "system": "wonderswan_color",
-   "name": "Digimon Tamers - Digimon Medley (Japan) (Rev 1)",
-   "rom": "Digimon Tamers - Digimon Medley (Japan) (Rev 1).wsc",
+   "name": "Digimon Tamers - Digimon Medley (Japan) (Rev 1) (WS Compatible)",
+   "rom": "Digimon Tamers - Digimon Medley (Japan) (Rev 1) (WS Compatible).wsc",
    "size": 4194304,
    "crc32": "84A46949",
    "md5": "367e9ef3630061fdf91a2110911611a7",
    "sha1": "6c5a2dc7e231ebd278fe22bb7f01b1a7cc3785d6"
+  },
+  {
+   "system": "wonderswan_color",
+   "name": "Digimon Tamers - Digimon Medley (Japan) (WS Compatible)",
+   "rom": "Digimon Tamers - Digimon Medley (Japan) (WS Compatible).wsc",
+   "size": 4194304,
+   "crc32": "FA92418D",
+   "md5": "aaa71e8698a1e765d655eb24fcac19e3",
+   "sha1": "8638737e5a35c6be05a888dc81e504e0d80fd756"
   },
   {
    "system": "wonderswan_color",
@@ -2415,8 +2415,8 @@
   },
   {
    "system": "wonderswan_color",
-   "name": "Dokodemo Hamster 3 - Odekake Saffron (Japan) (Rev 2)",
-   "rom": "Dokodemo Hamster 3 - Odekake Saffron (Japan) (Rev 2).wsc",
+   "name": "Dokodemo Hamster 3 - Odekake Saffron (Japan) (Rev 2) (WS Compatible)",
+   "rom": "Dokodemo Hamster 3 - Odekake Saffron (Japan) (Rev 2) (WS Compatible).wsc",
    "size": 2097152,
    "crc32": "93E19F13",
    "md5": "9ca8890339c62cc782b1a61c81e055ef",
@@ -2505,8 +2505,8 @@
   },
   {
    "system": "wonderswan_color",
-   "name": "Flash Koibito-kun (Japan)",
-   "rom": "Flash Koibito-kun (Japan).wsc",
+   "name": "Flash Koibito-kun (Japan) (WS Compatible)",
+   "rom": "Flash Koibito-kun (Japan) (WS Compatible).wsc",
    "size": 2097152,
    "crc32": "69D8D433",
    "md5": "ca1526278a8cf00816b1a88a51916b00",
@@ -2730,8 +2730,8 @@
   },
   {
    "system": "wonderswan_color",
-   "name": "Hataraku Chocobo (Japan)",
-   "rom": "Hataraku Chocobo (Japan).wsc",
+   "name": "Hataraku Chocobo (Japan) (WS Compatible)",
+   "rom": "Hataraku Chocobo (Japan) (WS Compatible).wsc",
    "size": 1048576,
    "crc32": "7A29E9A6",
    "md5": "ebab0f1f4148d54437834971d9756431",
@@ -3117,8 +3117,8 @@
   },
   {
    "system": "wonderswan_color",
-   "name": "Meitantei Conan - Yuugure no Oujo (Japan)",
-   "rom": "Meitantei Conan - Yuugure no Oujo (Japan).wsc",
+   "name": "Meitantei Conan - Yuugure no Oujo (Japan) (WS Compatible)",
+   "rom": "Meitantei Conan - Yuugure no Oujo (Japan) (WS Compatible).wsc",
    "size": 4194304,
    "crc32": "9F6E3F8D",
    "md5": "6ec4fe6789acab4347355fcb53f10146",
@@ -3378,8 +3378,8 @@
   },
   {
    "system": "wonderswan_color",
-   "name": "Pocket no Naka no Doraemon (Japan)",
-   "rom": "Pocket no Naka no Doraemon (Japan).wsc",
+   "name": "Pocket no Naka no Doraemon (Japan) (WS Compatible)",
+   "rom": "Pocket no Naka no Doraemon (Japan) (WS Compatible).wsc",
    "size": 4194304,
    "crc32": "2B61BB2B",
    "md5": "77e8335f51cd8f5baa2117bbf2b25307",
@@ -3594,8 +3594,8 @@
   },
   {
    "system": "wonderswan_color",
-   "name": "SD Gundam Eiyuu Den - Kishi Densetsu (Japan)",
-   "rom": "SD Gundam Eiyuu Den - Kishi Densetsu (Japan).wsc",
+   "name": "SD Gundam Eiyuu Den - Kishi Densetsu (Japan) (WS Compatible)",
+   "rom": "SD Gundam Eiyuu Den - Kishi Densetsu (Japan) (WS Compatible).wsc",
    "size": 4194304,
    "crc32": "C60E5162",
    "md5": "3944c5d21434e5836f414b319af96331",
@@ -3603,8 +3603,8 @@
   },
   {
    "system": "wonderswan_color",
-   "name": "SD Gundam Eiyuu Den - Musha Densetsu (Japan)",
-   "rom": "SD Gundam Eiyuu Den - Musha Densetsu (Japan).wsc",
+   "name": "SD Gundam Eiyuu Den - Musha Densetsu (Japan) (WS Compatible)",
+   "rom": "SD Gundam Eiyuu Den - Musha Densetsu (Japan) (WS Compatible).wsc",
    "size": 4194304,
    "crc32": "18ECFFB8",
    "md5": "18267bcb9d31ffb6711f5464f6ab8077",
@@ -3648,8 +3648,8 @@
   },
   {
    "system": "wonderswan_color",
-   "name": "Senkaiden Ni - TV Animation Senkaiden Houshin Engi Yori (Japan)",
-   "rom": "Senkaiden Ni - TV Animation Senkaiden Houshin Engi Yori (Japan).wsc",
+   "name": "Senkaiden Ni - TV Animation Senkaiden Houshin Engi Yori (Japan) (WS Compatible)",
+   "rom": "Senkaiden Ni - TV Animation Senkaiden Houshin Engi Yori (Japan) (WS Compatible).wsc",
    "size": 4194304,
    "crc32": "9F35D00F",
    "md5": "29badb7011c6d4d7b2047249f24fafb9",
@@ -3693,8 +3693,8 @@
   },
   {
    "system": "wonderswan_color",
-   "name": "Sorobang (Japan) (Rev 1)",
-   "rom": "Sorobang (Japan) (Rev 1).wsc",
+   "name": "Sorobang (Japan) (Rev 1) (WS Compatible)",
+   "rom": "Sorobang (Japan) (Rev 1) (WS Compatible).wsc",
    "size": 1048576,
    "crc32": "0E467D97",
    "md5": "8756f7653d5d7dd201c1048078ff1cd0",
@@ -3810,8 +3810,8 @@
   },
   {
    "system": "wonderswan_color",
-   "name": "Terrors 2 (Japan)",
-   "rom": "Terrors 2 (Japan).wsc",
+   "name": "Terrors 2 (Japan) (WS Compatible)",
+   "rom": "Terrors 2 (Japan) (WS Compatible).wsc",
    "size": 4194304,
    "crc32": "9BD8F08C",
    "md5": "a8f950c87c0237ead29b23c04368de44",
@@ -3819,8 +3819,8 @@
   },
   {
    "system": "wonderswan_color",
-   "name": "Tetris (Japan)",
-   "rom": "Tetris (Japan).wsc",
+   "name": "Tetris (Japan) (En) (WS Compatible)",
+   "rom": "Tetris (Japan) (En) (WS Compatible).wsc",
    "size": 1048576,
    "crc32": "7B0CAEA9",
    "md5": "b7e66090d059f77636161fa4e21f3e89",
@@ -3837,8 +3837,8 @@
   },
   {
    "system": "wonderswan_color",
-   "name": "Tonpuusou (Japan)",
-   "rom": "Tonpuusou (Japan).wsc",
+   "name": "Tonpuusou (Japan) (WS Compatible)",
+   "rom": "Tonpuusou (Japan) (WS Compatible).wsc",
    "size": 1048576,
    "crc32": "47659B2C",
    "md5": "ccab821fe0db8dc9c468d2d3479b530a",
@@ -3846,8 +3846,8 @@
   },
   {
    "system": "wonderswan_color",
-   "name": "Uchuu Senkan Yamato (Japan)",
-   "rom": "Uchuu Senkan Yamato (Japan).wsc",
+   "name": "Uchuu Senkan Yamato (Japan) (WS Compatible)",
+   "rom": "Uchuu Senkan Yamato (Japan) (WS Compatible).wsc",
    "size": 4194304,
    "crc32": "5793BDDA",
    "md5": "9f612c697b72b2d5e87776edd95de077",
@@ -3936,8 +3936,8 @@
   },
   {
    "system": "wonderswan_color",
-   "name": "Wizardry Scenario 1 - Proving Grounds of the Mad Overlord (Japan)",
-   "rom": "Wizardry Scenario 1 - Proving Grounds of the Mad Overlord (Japan).wsc",
+   "name": "Wizardry Scenario 1 - Proving Grounds of the Mad Overlord (Japan) (WS Compatible)",
+   "rom": "Wizardry Scenario 1 - Proving Grounds of the Mad Overlord (Japan) (WS Compatible).wsc",
    "size": 2097152,
    "crc32": "15E55706",
    "md5": "f0ba64cd7b88eab7add0f7af02080072",
@@ -3945,8 +3945,8 @@
   },
   {
    "system": "wonderswan_color",
-   "name": "Wonder Classic (Japan)",
-   "rom": "Wonder Classic (Japan).wsc",
+   "name": "Wonder Classic (Japan) (WS Compatible)",
+   "rom": "Wonder Classic (Japan) (WS Compatible).wsc",
    "size": 4194304,
    "crc32": "12F10B27",
    "md5": "50a6fd0e2a65487b5ea2672d2b93a862",
