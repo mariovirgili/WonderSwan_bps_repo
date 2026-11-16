@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "repository": "mariovirgili/WonderSwan_bps_repo",
-  "generated_at": "2026-11-15T12:01:06+00:00",
+  "generated_at": "2026-11-16T12:52:11+00:00",
   "sources": [
     "mariovirgili/WonderSwanColor-AI_Translation",
     "PokemonGoDB/wonderswan-english-patches",
@@ -32,7 +32,7 @@
     "wonderswan_color",
     null
   ],
-  "count": 275,
+  "count": 277,
   "entries": [
     {
       "id": "fb49f952cc562ee5",
@@ -1336,7 +1336,7 @@
       "version": "1.3",
       "language": "en",
       "platform": "wonderswan",
-      "latest": true,
+      "latest": false,
       "superseded": false,
       "duplicate_of": null,
       "requires_patched_rom": false,
@@ -1382,6 +1382,60 @@
         "release_notes": "**Chaos Gear: Michibikareshi Mono** (カオスギア 導かれし者) is a strategy game from Bandai, released in Japan in 1999 for the original (monochrome) WonderSwan. You play a Chaos Gainer, a being summoned into a world where four powers (the Empire, the Mana Kingdom, the Gaia tribes and the Eleal Brigade) fight over castles and over chaos gear, the substance only Chaos Gainers can produce. You build up your main tower and its facilities, plan, hire units and deploy them, collect cards in a Binder, and send your army into battle on the map.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Messages:** the story, the opening poem, battle shouts and quotes, and the game's system messages, in the game's own message boxes. Names you enter are inserted into messages.\n* **Names:** card names, unit names, weapon names and the names of facilities and castles.\n* **Menus:** the command menu reads Build / Plan / Hire / Deploy (the game's keiryaku command is called Plan everywhere), and the facility, Binder and phase menus are in English too.\n* **Pictures and label …"
       },
       "first_seen": "2026-11-13"
+    },
+    {
+      "id": "dce05bd1e3276909",
+      "game": "Chaos Gear: Michibikareshi Mono",
+      "variant": "chaos-gear-en-1.4",
+      "version": "1.4",
+      "language": "en",
+      "platform": "wonderswan",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "27B3CC18",
+      "target_crc32": "A041F407",
+      "source_rom": {
+        "crc32": "27B3CC18",
+        "size": 2097152,
+        "crc32_from": "bps",
+        "name": "Chaos Gear - Michibikareshi Mono (Japan)"
+      },
+      "target_rom": {
+        "crc32": "A041F407",
+        "size": 2097152,
+        "crc32_from": "bps"
+      },
+      "file_name": "chaos-gear-en-1.4.bps",
+      "path": "patches/PokemonGoDB/wonderswan-english-patches/chaos-gear-v1.4/chaos-gear-en-1.4.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/chaos-gear-v1.4/chaos-gear-en-1.4.bps",
+      "size": 146514,
+      "sha256": "dce05bd1e32769097417f78b71eb89bf3743f0f8eb79a8d360fc8382928ca740",
+      "patch_crc32": "2144DF1C",
+      "source_size": 2097152,
+      "target_size": 2097152,
+      "patch_crc32_footer": "9D60ACE7",
+      "patch_checksum_ok": true,
+      "bps_metadata": "Star Hearts: Hoshi to Daichi no Shisha - English translation",
+      "origin": {
+        "source": "PokemonGoDB/wonderswan-english-patches",
+        "source_url": "https://github.com/PokemonGoDB/wonderswan-english-patches",
+        "kind": "release_asset",
+        "release_tag": "chaos-gear-v1.4",
+        "release_name": "[Release] Chaos Gear: Michibikareshi Mono (WonderSwan) - AI English translation patch v1.4",
+        "release_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/chaos-gear-v1.4",
+        "published_at": "2026-11-15T19:51:57Z",
+        "prerelease": false,
+        "asset_name": "chaos-gear-en-1.4.bps",
+        "download_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/download/chaos-gear-v1.4/chaos-gear-en-1.4.bps",
+        "archive_member": null,
+        "key": "asset:PokemonGoDB/wonderswan-english-patches:752158682:2026-11-15T19:51:56Z:146514",
+        "release_notes": "**Chaos Gear: Michibikareshi Mono** (カオスギア 導かれし者) is a strategy game from Bandai, released in Japan in 1999 for the original (monochrome) WonderSwan. You play a Chaos Gainer, a being summoned into a world where four powers (the Empire, the Mana Kingdom, the Gaia tribes and the Eleal Brigade) fight over castles and over chaos gear, the substance only Chaos Gainers can produce. You build up your main tower and its facilities, plan, hire units and deploy them, collect cards in a Binder, and send your army into battle on the map.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Messages:** the story, the opening poem, battle shouts and quotes, and the game's system messages, in the game's own message boxes. Names you enter are inserted into messages.\n* **Names:** card names, unit names, weapon names and the names of facilities and castles.\n* **Menus:** the command menu reads Build / Plan / Hire / Deploy (the game's keiryaku command is called Plan everywhere), and the facility, Binder and phase menus are in English too.\n* **Pictures and label …"
+      },
+      "first_seen": "2026-11-16"
     },
     {
       "id": "9d1f54ae38727b8a",
@@ -2411,7 +2465,7 @@
       "version": "1.2",
       "language": "en",
       "platform": "wonderswan",
-      "latest": true,
+      "latest": false,
       "superseded": false,
       "duplicate_of": null,
       "requires_patched_rom": false,
@@ -2457,6 +2511,60 @@
         "release_notes": "**Chou Denki Card Battle: Youfu Makai** (超伝奇カードバトル 妖符魔界) is a 1999 card battle game from Kobunsha and Kappa Games for the original (monochrome) WonderSwan, released only in Japan. The scenario is by Hideyuki Kikuchi (*Vampire Hunter D*, *Demon City Shinjuku*) and the art by Ayami Kojima. It's set in Kikuchi's Demon City Shinjuku, and its story runs in three parts, told as illustrated pages of prose between battles with Demon Cards. You build a 30-card deck, lay cards on a field where each card's arrows set the direction it attacks, and win by covering the field with your own cards.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole story, all three parts (Crimson Lotus, Cursed Cards, Fusion), as horizontal English prose in place of the vertical Japanese.\n* Every card name, and the descriptions of all 200 cards in the Card Craft card view (press the Y pad left or right on the deck screen).\n* The menus (Scenario, Those in the Way, Worthy Rival, Card Craft...), the deck rules, the battle screens, and the save and erase prompts.\n* Graphics: the title logo becomes YOUFU MAKAI with …"
       },
       "first_seen": "2026-11-14"
+    },
+    {
+      "id": "3b7516b42f910896",
+      "game": "Chou Denki Card Battle: Youfu Makai",
+      "variant": "youfu-makai-en-1.3",
+      "version": "1.3",
+      "language": "en",
+      "platform": "wonderswan",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "56E2C069",
+      "target_crc32": "6B22E5D1",
+      "source_rom": {
+        "crc32": "56E2C069",
+        "size": 2097152,
+        "crc32_from": "bps",
+        "name": "Chou Denki Card Game - Youfu Makai - Kikuchi Shuukou (Japan)"
+      },
+      "target_rom": {
+        "crc32": "6B22E5D1",
+        "size": 4194304,
+        "crc32_from": "bps"
+      },
+      "file_name": "youfu-makai-en-1.3.bps",
+      "path": "patches/PokemonGoDB/wonderswan-english-patches/youfu-makai-v1.3/youfu-makai-en-1.3.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/youfu-makai-v1.3/youfu-makai-en-1.3.bps",
+      "size": 735368,
+      "sha256": "3b7516b42f9108968991d9487da8fac905b1bf5b4047ddac57887514003fe59b",
+      "patch_crc32": "2144DF1C",
+      "source_size": 2097152,
+      "target_size": 4194304,
+      "patch_crc32_footer": "CB3DE867",
+      "patch_checksum_ok": true,
+      "bps_metadata": "Star Hearts: Hoshi to Daichi no Shisha - English translation",
+      "origin": {
+        "source": "PokemonGoDB/wonderswan-english-patches",
+        "source_url": "https://github.com/PokemonGoDB/wonderswan-english-patches",
+        "kind": "release_asset",
+        "release_tag": "youfu-makai-v1.3",
+        "release_name": "[Release] Chou Denki Card Battle: Youfu Makai (WonderSwan) - AI English translation patch v1.3",
+        "release_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.3",
+        "published_at": "2026-11-15T20:29:01Z",
+        "prerelease": false,
+        "asset_name": "youfu-makai-en-1.3.bps",
+        "download_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/download/youfu-makai-v1.3/youfu-makai-en-1.3.bps",
+        "archive_member": null,
+        "key": "asset:PokemonGoDB/wonderswan-english-patches:752256817:2026-11-15T20:29:00Z:735368",
+        "release_notes": "**Chou Denki Card Battle: Youfu Makai** (超伝奇カードバトル 妖符魔界) is a 1999 card battle game from Kobunsha and Kappa Games for the original (monochrome) WonderSwan, released only in Japan. The scenario is by Hideyuki Kikuchi (*Vampire Hunter D*, *Demon City Shinjuku*) and the art by Ayami Kojima. It's set in Kikuchi's Demon City Shinjuku, and its story runs in three parts, told as illustrated pages of prose between battles with Demon Cards. You build a 30-card deck, lay cards on a field where each card's arrows set the direction it attacks, and win by covering the field with your own cards.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole story, all three parts (Crimson Lotus, Cursed Cards, Fusion), as horizontal English prose in place of the vertical Japanese.\n* Every card name, and the descriptions of all 200 cards in the Card Craft card view (press the Y pad left or right on the deck screen).\n* The menus (Scenario, Those in the Way, Worthy Rival, Card Craft...), the deck rules, the battle screens, and the save and erase prompts.\n* Graphics: the title logo becomes YOUFU MAKAI with …"
+      },
+      "first_seen": "2026-11-16"
     },
     {
       "id": "615c627599ef70ea",

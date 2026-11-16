@@ -7,7 +7,7 @@ Every released WonderSwan and WonderSwan Color title, and the translation patche
 | WonderSwan | 219 | 46 (+5 ⚠️ another dump) |
 | WonderSwan Color | 229 | 48 (+1 ⚠️ another dump) |
 
-Last change to the patch catalog: 2026-11-15.
+Last change to the patch catalog: 2026-11-16.
 
 ## Titles with translation patches (100)
 
@@ -23,10 +23,10 @@ Last change to the patch catalog: 2026-11-15.
 | ✅ | Blue Wing Blitz (Japan) (WS Compatible) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BlueWing_0.9.1) · [Gand46 v5.0.0](https://github.com/Gand46/BlueWingBlitz-Wonderswan-English-Translation-AI_GPT/blob/main/patch/Blue_Wing_Blitz_EN_Phase50_v5.0.0-test.1.bps) |
 | ✅ | Buffers Evolution (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/buffers-evolution-v1.0) |
 | ✅ | Cardcaptor Sakura - Sakura to Fushigi na Clow Card (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/cardcaptor-sakura-v1.0)<br>**Spanish**: [mariovirgili v0.2.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/CCS_ES) |
-| ✅ | Chaos Gear - Michibikareshi Mono (Japan) | WonderSwan | **English**: [PokemonGoDB v1.3](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/chaos-gear-v1.3) |
+| ✅ | Chaos Gear - Michibikareshi Mono (Japan) | WonderSwan | **English**: [PokemonGoDB v1.4](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/chaos-gear-v1.4) |
 | ✅ | Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 2) | WonderSwan | **Language not stated**: [Gand46 v1.1](https://github.com/Gand46/Chocobo_no_Fushigi_na_Dungeon_Mysterious_Dungeon_WS_AI_ROM-FIX-/blob/main/src/legacy_v1.1_original.ips) |
 | ✅ | Chou Aniki - Otoko no Tamafuda (Japan) (Rev 4) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ChouAniki_0.9) |
-| ✅ | Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3) | WonderSwan | **English**: [PokemonGoDB v1.2](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.2) |
+| ✅ | Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3) | WonderSwan | **English**: [PokemonGoDB v1.3](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.3) |
 | ✅ | D's Garage 21 Koubo Game - Tane o Maku Tori (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tane-o-maku-tori-v1.0) |
 | ✅ | Densha de Go! (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/densha-de-go-v1.0) |
 | ✅ | Densha de Go! 2 (Japan) | WonderSwan | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DenshaDeGo2_0.9.1) · [Gand46 v0.4.20](https://github.com/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/blob/main/patches/Densha_de_Go_2_EN_v0.4.20_OPTIONS_FONT_CUMULATIVE.bps) |
@@ -142,13 +142,13 @@ Last change to the patch catalog: 2026-11-15.
 |  | Castle (World) (WonderWitch) | `4AC2E602` | — |
 |  | Cave Flyer (World) (Proto 1) (WonderWitch) | `98D6FB9E` | — |
 |  | Cave Flyer (World) (Proto 2) (WonderWitch) (WWGP2001) | `AC62A425` | — |
-| ✅ | **Chaos Gear - Michibikareshi Mono (Japan)** | `27B3CC18` | **English**: [PokemonGoDB v1.3](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/chaos-gear-v1.3) |
+| ✅ | **Chaos Gear - Michibikareshi Mono (Japan)** | `27B3CC18` | **English**: [PokemonGoDB v1.4](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/chaos-gear-v1.4) |
 |  | Chikyou o Mamore Ozon-sou (World) (Ja) (Proto) (WonderWitch) | `8FE6EFF8` | — |
 |  | Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 1) | `A607A350` | — |
 | ✅ | **Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 2)** | `CCAA4853` | **Language not stated**: [Gand46 v1.1](https://github.com/Gand46/Chocobo_no_Fushigi_na_Dungeon_Mysterious_Dungeon_WS_AI_ROM-FIX-/blob/main/src/legacy_v1.1_original.ips) |
 |  | Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 3) | `AA53971D` | — |
 | ✅ | **Chou Aniki - Otoko no Tamafuda (Japan) (Rev 4)** | `7FFF2520` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ChouAniki_0.9) |
-| ✅ | **Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3)** | `56E2C069` | **English**: [PokemonGoDB v1.2](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.2) |
+| ✅ | **Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3)** | `56E2C069` | **English**: [PokemonGoDB v1.3](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.3) |
 |  | Chuuka Taisen (World) (WonderWitch) | `D53161B2` | — |
 |  | Clock Tower for WonderSwan (Japan) (Rev 1) | `4E8909D1` | — |
 |  | Crazy Climber (Japan) | `0CB57376` | — |
