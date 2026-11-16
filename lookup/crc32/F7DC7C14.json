@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "F7DC7C14"
+ },
+ "crc32": "F7DC7C14",
+ "size": 2097152,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "b12b0e93d72bcf71",
+   "game": "Memories Off: Festa",
+   "variant": "Memories.Off.-.Festa.EN.v0.9.1.ALL.CAPS",
+   "version": "0.9.1",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "8E123373",
+   "target_crc32": "F7DC7C14",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MemoriesOffFesta_0.9/Memories.Off.-.Festa.EN.v0.9.1.ALL.CAPS.bps",
+   "sha256": "b12b0e93d72bcf719789bc7cef3cc49605a2d3fba53878fd2bc3fc9d4e452e6b",
+   "size": 239647,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MemoriesOffFesta_0.9",
+   "notes": "**Memories Off: Festa** is a 2001 WonderSwan Color game by KID, released only in Japan. It is a spin-off of the Memories Off visual novels. During the Sumisora Academy school festival, Tomoya and the heroines of the series (plus guests from KID's Never7 and Yume no Tsubasa) challenge each other at \"Pon-Jan\", a quick mahjong-like card game played with heroine and item cards. The Story Mode follows the festival and the Miss Sumisora contest; Free Play lets you pick any opponent.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Two versions**\n\n* Normal (mixed case)\n* ALL CAPS\n\nThe translation is the same in both; only the letter case of the text differs.\n\n**How to patch**\n\nApply one of the .bps patches to *Memories Off - Festa (Japan).wsc* (2 MB, CRC32 8E123373) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB, CRC32 B7743695 (normal) or F7DC7C14 (ALL CAPS). Keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Memories.Off.-.Festa.EN.v0.9.1.bps\" \"Memories Off - Festa (Japan).wsc\" \"Memories Off - Festa (EN v0.9.1).wsc\"\n    flips --apply \"Memories.Off.-.Festa.EN.v0.9.1.ALL.CAPS.bps\" \"Memories Off - Festa (Japan).wsc\" \"Memories Off - Festa (EN v0.9.1, ALL CAPS).wsc\"\n\nYou must provide …"
+  }
+ ]
+}
