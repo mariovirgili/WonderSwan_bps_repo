@@ -899,12 +899,6 @@
     "1cfa65982392534ffb7834dee37168ad6ee99f67257b35ddcc8fc27ba57c4e4e"
    ]
   },
-  "asset:mariovirgili/WonderSwanColor-AI_Translation:636763067:2026-10-13T11:04:36Z:154155": {
-   "entries": [
-    "2186644586c621cd336d8bd00a7913c566c3e30c3536ae1d72634d48f7802c71",
-    "32260dd24431a8e9828ec314b691f9f939b14304e500be22983d5aad1dc49d1d"
-   ]
-  },
   "asset:mariovirgili/WonderSwanColor-AI_Translation:636833716:2026-10-13T11:33:54Z:289088": {
    "entries": [
     "9336b8468b9084da8ae72c7f3a7ce886c39b8f25040e99e078c05d5133641f90"
@@ -1430,6 +1424,15 @@
    "entries": []
   },
   "asset:mariovirgili/WonderSwanColor-AI_Translation:749041549:2026-11-14T22:55:47Z:174247": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:756579336:2026-11-16T21:50:12Z:172032": {
+   "entries": [
+    "a074321472e4d2350ac892fdd55d9994cfe8ac0897da4573aa6a0c055448d7b8",
+    "ce37249ba07ca41e20ecec7451848cd0909095b66f45b83cccda013830616abb"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:756579393:2026-11-16T21:50:12Z:10468": {
    "entries": []
   },
   "blob:Gand46/BlueWingBlitz-Wonderswan-English-Translation-AI_GPT:1ba4d77bf8f71be12be042beec307d9d1103b015:patch/Blue_Wing_Blitz_EN_Phase50_v5.0.0-test.1.bps": {
