@@ -41,7 +41,7 @@ Last change to the patch catalog: 2026-11-16.
 | ✅ | Engacho! for WonderSwan (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/engacho-v1.0) |
 | ✅ | Final Fantasy (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.3](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFI_v0.9) |
 | ✅ | Final Fantasy II (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFII_0.9.2) |
-| ✅ | Final Fantasy IV (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV) |
+| ✅ | Final Fantasy IV (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.3](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV) |
 | ✅ | Final Lap 2000 (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/final-lap-2000-v1.0) |
 | ✅ | Final Lap Special - GT & Formula Machine (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FinalLapSpecial_0.9.1) |
 | ✅ | Fire Pro Wrestling for WonderSwan (Japan) (Rev 5) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/fire-pro-v1.0) |
@@ -399,7 +399,7 @@ Last change to the patch catalog: 2026-11-16.
 |  | Features (World) (WonderWitch) | `3C995A4B` | — |
 | ✅ | **Final Fantasy (Japan)** | `B7243E88` | **English**: [mariovirgili v0.9.3](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFI_v0.9) |
 | ✅ | **Final Fantasy II (Japan)** | `F09E752F` | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFII_0.9.2) |
-| ✅ | **Final Fantasy IV (Japan)** | `F699D6D1` | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV) |
+| ✅ | **Final Fantasy IV (Japan)** | `F699D6D1` | **English**: [mariovirgili v0.9.3](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV) |
 | ✅ | **Final Lap Special - GT & Formula Machine (Japan)** | `B07E6A56` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FinalLapSpecial_0.9.1) |
 |  | Flash Koibito-kun (Japan) (WS Compatible) | `69D8D433` | — |
 |  | Flash Masta Firmware (World) | `C071D240` | — |
@@ -582,4 +582,4 @@ Patches made for a ROM that is not in the lists above (another dump, revision or
 | Densha de Go 2 | `06D88203` | **English**: [Gand46 v0.4.17](https://github.com/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/blob/main/densha/patches/Densha_de_Go_2_EN_v0.4.17_from_v0.4.16_INCREMENTAL.bps) |
 | Front Mission | `A6C6E19B` | **English**: [Gand46 v033](https://github.com/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/blob/main/history/v034/history/v033/patches/v033_TEST_from_v032.bps) |
 | GnG Trainer | `EE8B3230` | **English**: [mariovirgili](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test) |
-| Memories Off Pure (Neo Geo Pocket Color) | `7F919DDE` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MemoriesOffPure_0.9) |
+| Memories Off Pure (Neo Geo Pocket Color) | `7F919DDE` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MemoriesOffPure_0.9) |

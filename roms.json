@@ -1915,34 +1915,6 @@
    ],
    "produced_by": []
   },
-  "29D523D7": {
-   "crc32": "29D523D7",
-   "size": 1048576,
-   "names": [],
-   "patches": [],
-   "produced_by": [
-    {
-     "id": "865afa63665b19c7",
-     "game": "Memories Off Pure (Neo Geo Pocket Color)",
-     "variant": "Memories.Off.-.Pure.EN.v0.9",
-     "version": "0.9",
-     "language": "en",
-     "platform": "wonderswan",
-     "latest": true,
-     "superseded": false,
-     "format": "bps",
-     "source_crc32": "7F919DDE",
-     "target_crc32": "29D523D7",
-     "target_size": 1048576,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MemoriesOffPure_0.9/Memories.Off.-.Pure.EN.v0.9.bps",
-     "sha256": "865afa63665b19c754a4bb1bef46e7c11ae180c05c57902b8ed02a8e71546f52",
-     "size": 293022,
-     "source": "mariovirgili/WonderSwanColor-AI_Translation",
-     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MemoriesOffPure_0.9",
-     "notes": "**Memories Off Pure** is a 2000 Neo Geo Pocket Color visual novel by KID, released only in Japan. It is the prequel to Memories Off: Tomoya Mikami's middle-school days with his childhood friends Ayaka Hizuki and Yue Imasaka, and Ayaka's cousin Minamo Ibuki. It is the first Neo Geo Pocket Color game in this repository.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps patch to *Memories Off - Pure (Japan).ngc* (No-Intro, 1 MB, CRC32 7F919DDE) with Floating IPS, beat or ROM Patcher JS. The result is 1 MB, CRC32 29D523D7. Keep the .ngc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Memories.Off.-.Pure.EN.v0.9.bps\" \"Memories Off - Pure (Japan).ngc\" \"Memories Off - Pure (EN v0.9).ngc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nSave files from the Japanese game don't work with the patched game: start a new game.\n\n**What is translated**\n\n* The whole script: all three routes (Ayaka, Yue, Minamo), the scenes from Ayaka's and Yue's point of view, the choices, the endings and the staff roll.\n* All menus: title menu, options, button config, save/load, CG mode, BGM mode, extras, character profiles and the attract-mode demo.\n* Graphics: the title …"
-    }
-   ]
-  },
   "2AA1F3E8": {
    "crc32": "2AA1F3E8",
    "size": 2097152,
@@ -4745,7 +4717,7 @@
      "size": 177901,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV",
-     "notes": "**Final Fantasy IV** for the WonderSwan Color is Square's 2002 version of the classic, released only in Japan. Cecil, Dark Knight and captain of Baron's Red Wings, begins to doubt the king he serves, and sets out on the journey that will make him a Paladin.\n\nThis patch translates it into English.\n\n**Download:** Final.Fantasy.IV.T-En.v0.9.2.zip (both patches and the README)\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\n* **Claude** translated it directly from the Japanese text of the WonderSwan Color version. It is a new translation, not the SNES, GBA or Pixel Remaster script pasted in.\n* **ChatGPT** then reviewed it line by line (meaning, tone and official names), and Claude applied the accepted corrections to the ROM.\n\n> **About the names:** names and terms follow the **official English localization by Square Enix**: the **Pixel Remaster** first, then the GBA/PSP versions (Cecil, Kain, Rosa, Rydia, Edward, Yang, Palom, Porom, Edge, FuSoYa, Golbez, Red Wings, Land of Summons, Elemental Lords, Lunar Whale, Manor of Prayers...). Some of them don't match a literal reading of the Japanese (for example ギルバート is \"Edward\"). **This is intentional:** they are Square Enix's choices, not mine. Only …"
+     "notes": "**Final Fantasy IV** for the WonderSwan Color is Square's 2002 version of the classic, released only in Japan. Cecil, Dark Knight and captain of Baron's Red Wings, begins to doubt the king he serves, and sets out on the journey that will make him a Paladin.\n\nThis patch translates it into English.\n\n**Download:** Final.Fantasy.IV.T-En.v0.9.3.zip (both patches and the README)\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\n* **Claude** translated it directly from the Japanese text of the WonderSwan Color version. It is a new translation, not the SNES, GBA or Pixel Remaster script pasted in.\n* **ChatGPT** then reviewed it line by line (meaning, tone and official names), and Claude applied the accepted corrections to the ROM.\n\n> **About the names:** names and terms follow the **official English localization by Square Enix**: the **Pixel Remaster** first, then the GBA/PSP versions (Cecil, Kain, Rosa, Rydia, Edward, Yang, Palom, Porom, Edge, FuSoYa, Golbez, Red Wings, Land of Summons, Elemental Lords, Lunar Whale, Manor of Prayers...). Some of them don't match a literal reading of the Japanese (for example ギルバート is \"Edward\"). **This is intentional:** they are Square Enix's choices, not mine. Only …"
     }
    ]
   },
@@ -6647,24 +6619,24 @@
    ],
    "patches": [
     {
-     "id": "865afa63665b19c7",
+     "id": "dd647d8bcf0e06d2",
      "game": "Memories Off Pure (Neo Geo Pocket Color)",
-     "variant": "Memories.Off.-.Pure.EN.v0.9",
-     "version": "0.9",
+     "variant": "Memories.Off.-.Pure.EN.v0.9.1",
+     "version": "0.9.1",
      "language": "en",
      "platform": "wonderswan",
      "latest": true,
      "superseded": false,
      "format": "bps",
      "source_crc32": "7F919DDE",
-     "target_crc32": "29D523D7",
+     "target_crc32": "9FBC35F5",
      "target_size": 1048576,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MemoriesOffPure_0.9/Memories.Off.-.Pure.EN.v0.9.bps",
-     "sha256": "865afa63665b19c754a4bb1bef46e7c11ae180c05c57902b8ed02a8e71546f52",
-     "size": 293022,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MemoriesOffPure_0.9/Memories.Off.-.Pure.EN.v0.9.1.bps",
+     "sha256": "dd647d8bcf0e06d2c9df145ae0649083afce6cc0c0a285a51239c649c9167d9d",
+     "size": 294659,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MemoriesOffPure_0.9",
-     "notes": "**Memories Off Pure** is a 2000 Neo Geo Pocket Color visual novel by KID, released only in Japan. It is the prequel to Memories Off: Tomoya Mikami's middle-school days with his childhood friends Ayaka Hizuki and Yue Imasaka, and Ayaka's cousin Minamo Ibuki. It is the first Neo Geo Pocket Color game in this repository.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps patch to *Memories Off - Pure (Japan).ngc* (No-Intro, 1 MB, CRC32 7F919DDE) with Floating IPS, beat or ROM Patcher JS. The result is 1 MB, CRC32 29D523D7. Keep the .ngc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Memories.Off.-.Pure.EN.v0.9.bps\" \"Memories Off - Pure (Japan).ngc\" \"Memories Off - Pure (EN v0.9).ngc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nSave files from the Japanese game don't work with the patched game: start a new game.\n\n**What is translated**\n\n* The whole script: all three routes (Ayaka, Yue, Minamo), the scenes from Ayaka's and Yue's point of view, the choices, the endings and the staff roll.\n* All menus: title menu, options, button config, save/load, CG mode, BGM mode, extras, character profiles and the attract-mode demo.\n* Graphics: the title …"
+     "notes": "**Memories Off Pure** is a 2000 Neo Geo Pocket Color visual novel by KID, released only in Japan. It is the prequel to Memories Off: Tomoya Mikami's middle-school days with his childhood friends Ayaka Hizuki and Yue Imasaka, and Ayaka's cousin Minamo Ibuki. It is the first Neo Geo Pocket Color game in this repository.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps patch to *Memories Off - Pure (Japan).ngc* (No-Intro, 1 MB, CRC32 7F919DDE) with Floating IPS, beat or ROM Patcher JS. The result is 1 MB, CRC32 9FBC35F5. Keep the .ngc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Memories.Off.-.Pure.EN.v0.9.1.bps\" \"Memories Off - Pure (Japan).ngc\" \"Memories Off - Pure (EN v0.9.1).ngc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nSave files from the Japanese game don't work with the patched game: start a new game.\n\n**What is translated**\n\n* The whole script: all three routes (Ayaka, Yue, Minamo), the scenes from Ayaka's and Yue's point of view, the choices, the endings and the staff roll.\n* All menus: title menu, options, button config, save/load, CG mode, BGM mode, extras, character profiles and the attract-mode demo.\n* Graphics: the title …"
     }
    ],
    "produced_by": []
@@ -7351,6 +7323,34 @@
     }
    ]
   },
+  "87E34729": {
+   "crc32": "87E34729",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "4fb93c1da3d1d0f4",
+     "game": "Final Fantasy IV",
+     "variant": "Final Fantasy IV [T-En v0.9.3] (debug)",
+     "version": "0.9.3",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "F699D6D1",
+     "target_crc32": "87E34729",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFIV/Final%20Fantasy%20IV%20%5BT-En%20v0.9.3%5D%20%28debug%29.bps",
+     "sha256": "4fb93c1da3d1d0f435741434e5a1d50f26d0c07476e93d85e5fb5bfbf28e7bc0",
+     "size": 177930,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV",
+     "notes": "**Final Fantasy IV** for the WonderSwan Color is Square's 2002 version of the classic, released only in Japan. Cecil, Dark Knight and captain of Baron's Red Wings, begins to doubt the king he serves, and sets out on the journey that will make him a Paladin.\n\nThis patch translates it into English.\n\n**Download:** Final.Fantasy.IV.T-En.v0.9.3.zip (both patches and the README)\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\n* **Claude** translated it directly from the Japanese text of the WonderSwan Color version. It is a new translation, not the SNES, GBA or Pixel Remaster script pasted in.\n* **ChatGPT** then reviewed it line by line (meaning, tone and official names), and Claude applied the accepted corrections to the ROM.\n\n> **About the names:** names and terms follow the **official English localization by Square Enix**: the **Pixel Remaster** first, then the GBA/PSP versions (Cecil, Kain, Rosa, Rydia, Edward, Yang, Palom, Porom, Edge, FuSoYa, Golbez, Red Wings, Land of Summons, Elemental Lords, Lunar Whale, Manor of Prayers...). Some of them don't match a literal reading of the Japanese (for example ギルバート is \"Edward\"). **This is intentional:** they are Square Enix's choices, not mine. Only …"
+    }
+   ]
+  },
   "87FB2F93": {
    "crc32": "87FB2F93",
    "size": 4194304,
@@ -7374,34 +7374,6 @@
      "size": 652341,
      "source": "Gand46/StarHearts-Wonderswan-English-Translation-AI_GPT",
      "page": "https://github.com/Gand46/StarHearts-Wonderswan-English-Translation-AI_GPT/blob/main/patches/F38/StarHearts_EN_F38_CUMULATIVE_FROM_JP.bps"
-    }
-   ]
-  },
-  "88339CE0": {
-   "crc32": "88339CE0",
-   "size": 4194304,
-   "names": [],
-   "patches": [],
-   "produced_by": [
-    {
-     "id": "ce37249ba07ca41e",
-     "game": "Final Fantasy IV",
-     "variant": "Final Fantasy IV [T-En v0.9.2] (debug)",
-     "version": "0.9.2",
-     "language": "en",
-     "platform": "wonderswan_color",
-     "latest": true,
-     "superseded": false,
-     "format": "bps",
-     "source_crc32": "F699D6D1",
-     "target_crc32": "88339CE0",
-     "target_size": 4194304,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFIV/Final%20Fantasy%20IV%20%5BT-En%20v0.9.2%5D%20%28debug%29.bps",
-     "sha256": "ce37249ba07ca41e20ecec7451848cd0909095b66f45b83cccda013830616abb",
-     "size": 177954,
-     "source": "mariovirgili/WonderSwanColor-AI_Translation",
-     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV",
-     "notes": "**Final Fantasy IV** for the WonderSwan Color is Square's 2002 version of the classic, released only in Japan. Cecil, Dark Knight and captain of Baron's Red Wings, begins to doubt the king he serves, and sets out on the journey that will make him a Paladin.\n\nThis patch translates it into English.\n\n**Download:** Final.Fantasy.IV.T-En.v0.9.2.zip (both patches and the README)\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\n* **Claude** translated it directly from the Japanese text of the WonderSwan Color version. It is a new translation, not the SNES, GBA or Pixel Remaster script pasted in.\n* **ChatGPT** then reviewed it line by line (meaning, tone and official names), and Claude applied the accepted corrections to the ROM.\n\n> **About the names:** names and terms follow the **official English localization by Square Enix**: the **Pixel Remaster** first, then the GBA/PSP versions (Cecil, Kain, Rosa, Rydia, Edward, Yang, Palom, Porom, Edge, FuSoYa, Golbez, Red Wings, Land of Summons, Elemental Lords, Lunar Whale, Manor of Prayers...). Some of them don't match a literal reading of the Japanese (for example ギルバート is \"Edward\"). **This is intentional:** they are Square Enix's choices, not mine. Only …"
     }
    ]
   },
@@ -8620,6 +8592,34 @@
     }
    ],
    "produced_by": []
+  },
+  "9FBC35F5": {
+   "crc32": "9FBC35F5",
+   "size": 1048576,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "dd647d8bcf0e06d2",
+     "game": "Memories Off Pure (Neo Geo Pocket Color)",
+     "variant": "Memories.Off.-.Pure.EN.v0.9.1",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "7F919DDE",
+     "target_crc32": "9FBC35F5",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/MemoriesOffPure_0.9/Memories.Off.-.Pure.EN.v0.9.1.bps",
+     "sha256": "dd647d8bcf0e06d2c9df145ae0649083afce6cc0c0a285a51239c649c9167d9d",
+     "size": 294659,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MemoriesOffPure_0.9",
+     "notes": "**Memories Off Pure** is a 2000 Neo Geo Pocket Color visual novel by KID, released only in Japan. It is the prequel to Memories Off: Tomoya Mikami's middle-school days with his childhood friends Ayaka Hizuki and Yue Imasaka, and Ayaka's cousin Minamo Ibuki. It is the first Neo Geo Pocket Color game in this repository.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps patch to *Memories Off - Pure (Japan).ngc* (No-Intro, 1 MB, CRC32 7F919DDE) with Floating IPS, beat or ROM Patcher JS. The result is 1 MB, CRC32 9FBC35F5. Keep the .ngc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Memories.Off.-.Pure.EN.v0.9.1.bps\" \"Memories Off - Pure (Japan).ngc\" \"Memories Off - Pure (EN v0.9.1).ngc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nSave files from the Japanese game don't work with the patched game: start a new game.\n\n**What is translated**\n\n* The whole script: all three routes (Ayaka, Yue, Minamo), the scenes from Ayaka's and Yue's point of view, the choices, the endings and the staff roll.\n* All menus: title menu, options, button config, save/load, CG mode, BGM mode, extras, character profiles and the attract-mode demo.\n* Graphics: the title …"
+    }
+   ]
   },
   "A02909C5": {
    "crc32": "A02909C5",
@@ -10561,6 +10561,34 @@
     }
    ]
   },
+  "C473E15A": {
+   "crc32": "C473E15A",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "137c3d45c2a28164",
+     "game": "Final Fantasy IV",
+     "variant": "Final Fantasy IV [T-En v0.9.3]",
+     "version": "0.9.3",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "F699D6D1",
+     "target_crc32": "C473E15A",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFIV/Final%20Fantasy%20IV%20%5BT-En%20v0.9.3%5D.bps",
+     "sha256": "137c3d45c2a28164c4253c491acbb325a62429989b9459a4f971921c96ee414e",
+     "size": 177921,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV",
+     "notes": "**Final Fantasy IV** for the WonderSwan Color is Square's 2002 version of the classic, released only in Japan. Cecil, Dark Knight and captain of Baron's Red Wings, begins to doubt the king he serves, and sets out on the journey that will make him a Paladin.\n\nThis patch translates it into English.\n\n**Download:** Final.Fantasy.IV.T-En.v0.9.3.zip (both patches and the README)\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\n* **Claude** translated it directly from the Japanese text of the WonderSwan Color version. It is a new translation, not the SNES, GBA or Pixel Remaster script pasted in.\n* **ChatGPT** then reviewed it line by line (meaning, tone and official names), and Claude applied the accepted corrections to the ROM.\n\n> **About the names:** names and terms follow the **official English localization by Square Enix**: the **Pixel Remaster** first, then the GBA/PSP versions (Cecil, Kain, Rosa, Rydia, Edward, Yang, Palom, Porom, Edge, FuSoYa, Golbez, Red Wings, Land of Summons, Elemental Lords, Lunar Whale, Manor of Prayers...). Some of them don't match a literal reading of the Japanese (for example ギルバート is \"Edward\"). **This is intentional:** they are Square Enix's choices, not mine. Only …"
+    }
+   ]
+  },
   "C5A88BEB": {
    "crc32": "C5A88BEB",
    "size": 2097152,
@@ -10759,34 +10787,6 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.0",
      "notes": "**Chou Denki Card Battle: Youfu Makai** (超伝奇カードバトル 妖符魔界) is a 1999 card battle game from Kobunsha and Kappa Games for the original (monochrome) WonderSwan, released only in Japan. The scenario is by Hideyuki Kikuchi (*Vampire Hunter D*, *Demon City Shinjuku*) and the art by Ayami Kojima. It's set in Kikuchi's Demon City Shinjuku, and its story runs in three parts, told as illustrated pages of prose between battles with Demon Cards. You build a 30-card deck, lay cards on a field where each card's arrows set the direction it attacks, and win by covering the field with your own cards.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole story, all three parts (Crimson Lotus, Cursed Cards, Fusion), as horizontal English prose in place of the vertical Japanese.\n* Every card name, the menus (Scenario, Those in the Way, Worthy Rival, Card Craft...), the deck rules, the battle screens, and the save and erase prompts.\n* Graphics: the title logo becomes YOUFU MAKAI with the subtitle \"Realm of Demon Cards\"; the chapter cards; the brush-lettered result screens (DEFEAT, OUT OF CARDS...); and …"
-    }
-   ]
-  },
-  "CBA33A93": {
-   "crc32": "CBA33A93",
-   "size": 4194304,
-   "names": [],
-   "patches": [],
-   "produced_by": [
-    {
-     "id": "a074321472e4d235",
-     "game": "Final Fantasy IV",
-     "variant": "Final Fantasy IV [T-En v0.9.2]",
-     "version": "0.9.2",
-     "language": "en",
-     "platform": "wonderswan_color",
-     "latest": true,
-     "superseded": false,
-     "format": "bps",
-     "source_crc32": "F699D6D1",
-     "target_crc32": "CBA33A93",
-     "target_size": 4194304,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFIV/Final%20Fantasy%20IV%20%5BT-En%20v0.9.2%5D.bps",
-     "sha256": "a074321472e4d2350ac892fdd55d9994cfe8ac0897da4573aa6a0c055448d7b8",
-     "size": 177945,
-     "source": "mariovirgili/WonderSwanColor-AI_Translation",
-     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV",
-     "notes": "**Final Fantasy IV** for the WonderSwan Color is Square's 2002 version of the classic, released only in Japan. Cecil, Dark Knight and captain of Baron's Red Wings, begins to doubt the king he serves, and sets out on the journey that will make him a Paladin.\n\nThis patch translates it into English.\n\n**Download:** Final.Fantasy.IV.T-En.v0.9.2.zip (both patches and the README)\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\n* **Claude** translated it directly from the Japanese text of the WonderSwan Color version. It is a new translation, not the SNES, GBA or Pixel Remaster script pasted in.\n* **ChatGPT** then reviewed it line by line (meaning, tone and official names), and Claude applied the accepted corrections to the ROM.\n\n> **About the names:** names and terms follow the **official English localization by Square Enix**: the **Pixel Remaster** first, then the GBA/PSP versions (Cecil, Kain, Rosa, Rydia, Edward, Yang, Palom, Porom, Edge, FuSoYa, Golbez, Red Wings, Land of Summons, Elemental Lords, Lunar Whale, Manor of Prayers...). Some of them don't match a literal reading of the Japanese (for example ギルバート is \"Edward\"). **This is intentional:** they are Square Enix's choices, not mine. Only …"
     }
    ]
   },
@@ -11474,7 +11474,7 @@
      "size": 177910,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV",
-     "notes": "**Final Fantasy IV** for the WonderSwan Color is Square's 2002 version of the classic, released only in Japan. Cecil, Dark Knight and captain of Baron's Red Wings, begins to doubt the king he serves, and sets out on the journey that will make him a Paladin.\n\nThis patch translates it into English.\n\n**Download:** Final.Fantasy.IV.T-En.v0.9.2.zip (both patches and the README)\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\n* **Claude** translated it directly from the Japanese text of the WonderSwan Color version. It is a new translation, not the SNES, GBA or Pixel Remaster script pasted in.\n* **ChatGPT** then reviewed it line by line (meaning, tone and official names), and Claude applied the accepted corrections to the ROM.\n\n> **About the names:** names and terms follow the **official English localization by Square Enix**: the **Pixel Remaster** first, then the GBA/PSP versions (Cecil, Kain, Rosa, Rydia, Edward, Yang, Palom, Porom, Edge, FuSoYa, Golbez, Red Wings, Land of Summons, Elemental Lords, Lunar Whale, Manor of Prayers...). Some of them don't match a literal reading of the Japanese (for example ギルバート is \"Edward\"). **This is intentional:** they are Square Enix's choices, not mine. Only …"
+     "notes": "**Final Fantasy IV** for the WonderSwan Color is Square's 2002 version of the classic, released only in Japan. Cecil, Dark Knight and captain of Baron's Red Wings, begins to doubt the king he serves, and sets out on the journey that will make him a Paladin.\n\nThis patch translates it into English.\n\n**Download:** Final.Fantasy.IV.T-En.v0.9.3.zip (both patches and the README)\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\n* **Claude** translated it directly from the Japanese text of the WonderSwan Color version. It is a new translation, not the SNES, GBA or Pixel Remaster script pasted in.\n* **ChatGPT** then reviewed it line by line (meaning, tone and official names), and Claude applied the accepted corrections to the ROM.\n\n> **About the names:** names and terms follow the **official English localization by Square Enix**: the **Pixel Remaster** first, then the GBA/PSP versions (Cecil, Kain, Rosa, Rydia, Edward, Yang, Palom, Porom, Edge, FuSoYa, Golbez, Red Wings, Land of Summons, Elemental Lords, Lunar Whale, Manor of Prayers...). Some of them don't match a literal reading of the Japanese (for example ギルバート is \"Edward\"). **This is intentional:** they are Square Enix's choices, not mine. Only …"
     }
    ]
   },
@@ -13310,44 +13310,44 @@
    ],
    "patches": [
     {
-     "id": "a074321472e4d235",
+     "id": "137c3d45c2a28164",
      "game": "Final Fantasy IV",
-     "variant": "Final Fantasy IV [T-En v0.9.2]",
-     "version": "0.9.2",
+     "variant": "Final Fantasy IV [T-En v0.9.3]",
+     "version": "0.9.3",
      "language": "en",
      "platform": "wonderswan_color",
      "latest": true,
      "superseded": false,
      "format": "bps",
      "source_crc32": "F699D6D1",
-     "target_crc32": "CBA33A93",
+     "target_crc32": "C473E15A",
      "target_size": 4194304,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFIV/Final%20Fantasy%20IV%20%5BT-En%20v0.9.2%5D.bps",
-     "sha256": "a074321472e4d2350ac892fdd55d9994cfe8ac0897da4573aa6a0c055448d7b8",
-     "size": 177945,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFIV/Final%20Fantasy%20IV%20%5BT-En%20v0.9.3%5D.bps",
+     "sha256": "137c3d45c2a28164c4253c491acbb325a62429989b9459a4f971921c96ee414e",
+     "size": 177921,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV",
-     "notes": "**Final Fantasy IV** for the WonderSwan Color is Square's 2002 version of the classic, released only in Japan. Cecil, Dark Knight and captain of Baron's Red Wings, begins to doubt the king he serves, and sets out on the journey that will make him a Paladin.\n\nThis patch translates it into English.\n\n**Download:** Final.Fantasy.IV.T-En.v0.9.2.zip (both patches and the README)\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\n* **Claude** translated it directly from the Japanese text of the WonderSwan Color version. It is a new translation, not the SNES, GBA or Pixel Remaster script pasted in.\n* **ChatGPT** then reviewed it line by line (meaning, tone and official names), and Claude applied the accepted corrections to the ROM.\n\n> **About the names:** names and terms follow the **official English localization by Square Enix**: the **Pixel Remaster** first, then the GBA/PSP versions (Cecil, Kain, Rosa, Rydia, Edward, Yang, Palom, Porom, Edge, FuSoYa, Golbez, Red Wings, Land of Summons, Elemental Lords, Lunar Whale, Manor of Prayers...). Some of them don't match a literal reading of the Japanese (for example ギルバート is \"Edward\"). **This is intentional:** they are Square Enix's choices, not mine. Only …"
+     "notes": "**Final Fantasy IV** for the WonderSwan Color is Square's 2002 version of the classic, released only in Japan. Cecil, Dark Knight and captain of Baron's Red Wings, begins to doubt the king he serves, and sets out on the journey that will make him a Paladin.\n\nThis patch translates it into English.\n\n**Download:** Final.Fantasy.IV.T-En.v0.9.3.zip (both patches and the README)\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\n* **Claude** translated it directly from the Japanese text of the WonderSwan Color version. It is a new translation, not the SNES, GBA or Pixel Remaster script pasted in.\n* **ChatGPT** then reviewed it line by line (meaning, tone and official names), and Claude applied the accepted corrections to the ROM.\n\n> **About the names:** names and terms follow the **official English localization by Square Enix**: the **Pixel Remaster** first, then the GBA/PSP versions (Cecil, Kain, Rosa, Rydia, Edward, Yang, Palom, Porom, Edge, FuSoYa, Golbez, Red Wings, Land of Summons, Elemental Lords, Lunar Whale, Manor of Prayers...). Some of them don't match a literal reading of the Japanese (for example ギルバート is \"Edward\"). **This is intentional:** they are Square Enix's choices, not mine. Only …"
     },
     {
-     "id": "ce37249ba07ca41e",
+     "id": "4fb93c1da3d1d0f4",
      "game": "Final Fantasy IV",
-     "variant": "Final Fantasy IV [T-En v0.9.2] (debug)",
-     "version": "0.9.2",
+     "variant": "Final Fantasy IV [T-En v0.9.3] (debug)",
+     "version": "0.9.3",
      "language": "en",
      "platform": "wonderswan_color",
      "latest": true,
      "superseded": false,
      "format": "bps",
      "source_crc32": "F699D6D1",
-     "target_crc32": "88339CE0",
+     "target_crc32": "87E34729",
      "target_size": 4194304,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFIV/Final%20Fantasy%20IV%20%5BT-En%20v0.9.2%5D%20%28debug%29.bps",
-     "sha256": "ce37249ba07ca41e20ecec7451848cd0909095b66f45b83cccda013830616abb",
-     "size": 177954,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/FFIV/Final%20Fantasy%20IV%20%5BT-En%20v0.9.3%5D%20%28debug%29.bps",
+     "sha256": "4fb93c1da3d1d0f435741434e5a1d50f26d0c07476e93d85e5fb5bfbf28e7bc0",
+     "size": 177930,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV",
-     "notes": "**Final Fantasy IV** for the WonderSwan Color is Square's 2002 version of the classic, released only in Japan. Cecil, Dark Knight and captain of Baron's Red Wings, begins to doubt the king he serves, and sets out on the journey that will make him a Paladin.\n\nThis patch translates it into English.\n\n**Download:** Final.Fantasy.IV.T-En.v0.9.2.zip (both patches and the README)\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\n* **Claude** translated it directly from the Japanese text of the WonderSwan Color version. It is a new translation, not the SNES, GBA or Pixel Remaster script pasted in.\n* **ChatGPT** then reviewed it line by line (meaning, tone and official names), and Claude applied the accepted corrections to the ROM.\n\n> **About the names:** names and terms follow the **official English localization by Square Enix**: the **Pixel Remaster** first, then the GBA/PSP versions (Cecil, Kain, Rosa, Rydia, Edward, Yang, Palom, Porom, Edge, FuSoYa, Golbez, Red Wings, Land of Summons, Elemental Lords, Lunar Whale, Manor of Prayers...). Some of them don't match a literal reading of the Japanese (for example ギルバート is \"Edward\"). **This is intentional:** they are Square Enix's choices, not mine. Only …"
+     "notes": "**Final Fantasy IV** for the WonderSwan Color is Square's 2002 version of the classic, released only in Japan. Cecil, Dark Knight and captain of Baron's Red Wings, begins to doubt the king he serves, and sets out on the journey that will make him a Paladin.\n\nThis patch translates it into English.\n\n**Download:** Final.Fantasy.IV.T-En.v0.9.3.zip (both patches and the README)\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\n* **Claude** translated it directly from the Japanese text of the WonderSwan Color version. It is a new translation, not the SNES, GBA or Pixel Remaster script pasted in.\n* **ChatGPT** then reviewed it line by line (meaning, tone and official names), and Claude applied the accepted corrections to the ROM.\n\n> **About the names:** names and terms follow the **official English localization by Square Enix**: the **Pixel Remaster** first, then the GBA/PSP versions (Cecil, Kain, Rosa, Rydia, Edward, Yang, Palom, Porom, Edge, FuSoYa, Golbez, Red Wings, Land of Summons, Elemental Lords, Lunar Whale, Manor of Prayers...). Some of them don't match a literal reading of the Japanese (for example ギルバート is \"Edward\"). **This is intentional:** they are Square Enix's choices, not mine. Only …"
     },
     {
      "id": "5103da997b47059e",
@@ -13367,7 +13367,7 @@
      "size": 177901,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV",
-     "notes": "**Final Fantasy IV** for the WonderSwan Color is Square's 2002 version of the classic, released only in Japan. Cecil, Dark Knight and captain of Baron's Red Wings, begins to doubt the king he serves, and sets out on the journey that will make him a Paladin.\n\nThis patch translates it into English.\n\n**Download:** Final.Fantasy.IV.T-En.v0.9.2.zip (both patches and the README)\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\n* **Claude** translated it directly from the Japanese text of the WonderSwan Color version. It is a new translation, not the SNES, GBA or Pixel Remaster script pasted in.\n* **ChatGPT** then reviewed it line by line (meaning, tone and official names), and Claude applied the accepted corrections to the ROM.\n\n> **About the names:** names and terms follow the **official English localization by Square Enix**: the **Pixel Remaster** first, then the GBA/PSP versions (Cecil, Kain, Rosa, Rydia, Edward, Yang, Palom, Porom, Edge, FuSoYa, Golbez, Red Wings, Land of Summons, Elemental Lords, Lunar Whale, Manor of Prayers...). Some of them don't match a literal reading of the Japanese (for example ギルバート is \"Edward\"). **This is intentional:** they are Square Enix's choices, not mine. Only …"
+     "notes": "**Final Fantasy IV** for the WonderSwan Color is Square's 2002 version of the classic, released only in Japan. Cecil, Dark Knight and captain of Baron's Red Wings, begins to doubt the king he serves, and sets out on the journey that will make him a Paladin.\n\nThis patch translates it into English.\n\n**Download:** Final.Fantasy.IV.T-En.v0.9.3.zip (both patches and the README)\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\n* **Claude** translated it directly from the Japanese text of the WonderSwan Color version. It is a new translation, not the SNES, GBA or Pixel Remaster script pasted in.\n* **ChatGPT** then reviewed it line by line (meaning, tone and official names), and Claude applied the accepted corrections to the ROM.\n\n> **About the names:** names and terms follow the **official English localization by Square Enix**: the **Pixel Remaster** first, then the GBA/PSP versions (Cecil, Kain, Rosa, Rydia, Edward, Yang, Palom, Porom, Edge, FuSoYa, Golbez, Red Wings, Land of Summons, Elemental Lords, Lunar Whale, Manor of Prayers...). Some of them don't match a literal reading of the Japanese (for example ギルバート is \"Edward\"). **This is intentional:** they are Square Enix's choices, not mine. Only …"
     },
     {
      "id": "accc06bac2ba7745",
@@ -13387,7 +13387,7 @@
      "size": 177910,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV",
-     "notes": "**Final Fantasy IV** for the WonderSwan Color is Square's 2002 version of the classic, released only in Japan. Cecil, Dark Knight and captain of Baron's Red Wings, begins to doubt the king he serves, and sets out on the journey that will make him a Paladin.\n\nThis patch translates it into English.\n\n**Download:** Final.Fantasy.IV.T-En.v0.9.2.zip (both patches and the README)\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\n* **Claude** translated it directly from the Japanese text of the WonderSwan Color version. It is a new translation, not the SNES, GBA or Pixel Remaster script pasted in.\n* **ChatGPT** then reviewed it line by line (meaning, tone and official names), and Claude applied the accepted corrections to the ROM.\n\n> **About the names:** names and terms follow the **official English localization by Square Enix**: the **Pixel Remaster** first, then the GBA/PSP versions (Cecil, Kain, Rosa, Rydia, Edward, Yang, Palom, Porom, Edge, FuSoYa, Golbez, Red Wings, Land of Summons, Elemental Lords, Lunar Whale, Manor of Prayers...). Some of them don't match a literal reading of the Japanese (for example ギルバート is \"Edward\"). **This is intentional:** they are Square Enix's choices, not mine. Only …"
+     "notes": "**Final Fantasy IV** for the WonderSwan Color is Square's 2002 version of the classic, released only in Japan. Cecil, Dark Knight and captain of Baron's Red Wings, begins to doubt the king he serves, and sets out on the journey that will make him a Paladin.\n\nThis patch translates it into English.\n\n**Download:** Final.Fantasy.IV.T-En.v0.9.3.zip (both patches and the README)\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and it doesn't belong there.\n\n**How it was made**\n\n* **Claude** translated it directly from the Japanese text of the WonderSwan Color version. It is a new translation, not the SNES, GBA or Pixel Remaster script pasted in.\n* **ChatGPT** then reviewed it line by line (meaning, tone and official names), and Claude applied the accepted corrections to the ROM.\n\n> **About the names:** names and terms follow the **official English localization by Square Enix**: the **Pixel Remaster** first, then the GBA/PSP versions (Cecil, Kain, Rosa, Rydia, Edward, Yang, Palom, Porom, Edge, FuSoYa, Golbez, Red Wings, Land of Summons, Elemental Lords, Lunar Whale, Manor of Prayers...). Some of them don't match a literal reading of the Japanese (for example ギルバート is \"Edward\"). **This is intentional:** they are Square Enix's choices, not mine. Only …"
     }
    ],
    "produced_by": []
