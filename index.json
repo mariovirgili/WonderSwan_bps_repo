@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "repository": "mariovirgili/WonderSwan_bps_repo",
-  "generated_at": "2026-11-17T19:31:45+00:00",
+  "generated_at": "2026-11-18T00:07:05+00:00",
   "sources": [
     "mariovirgili/WonderSwanColor-AI_Translation",
     "PokemonGoDB/wonderswan-english-patches",
@@ -32,7 +32,7 @@
     "wonderswan_color",
     null
   ],
-  "count": 279,
+  "count": 280,
   "entries": [
     {
       "id": "fb49f952cc562ee5",
@@ -7909,6 +7909,60 @@
         "release_notes": "A visual remix of the WonderSwan Color vertical shmup *Judgement Silversword – Rebirth Edition*.\nOne patch gives you **both editions in a single ROM** with a boot menu: the untouched **Normal Edition** and the new **Arrange Edition**. Gameplay, hitboxes, stage scripts and music are the same as the original in both.\n\nPatch by **/u/Gio-74**, ROM hacking and tools by Claude (Anthropic).\n\n---\n\n## What's new in the Arrange Edition\n\n**Backgrounds**\n- Stage 1: a solar corona instead of the Earth, fading into space\n- Stage 4: an icy moon with jagged rocky cliff edges, and an asteroid field instead of the Moon\n- Stage 5: Saturn instead of the gas giant, with soft edges\n- Final stage: a temple-mosaic floor, a nebula sky and a Doré-style backdrop for the final boss\n\n**Sprites, in a biomechanical \"organic mecha\" style**\n- A new player ship: an organic mecha with a green visor, armoured shoulders and arm cannons. It has 6 animation frames (banking and thrusters), and the lives icon in the HUD matches it.\n- **Every enemy redrawn**: wasps, beetle walkers and their rolled-up shells, claw fighters, moths, manta bombers, horned cruisers, a grey bio-robot, spore orbs that turn and open their eye, bone blades, a scythe mantis and spore missiles.\n- **Bosses redesigned**:\n  - MAGNIFICENCE is now a carapace-and-bone colossus.\n  - The Saturn battleship is a bone-white manta dreadnought.\n  - The MIRROR SHIELD judge carries an eye of flesh and bone.\n- New sprite palettes: emerald enemies, and crimson …"
       },
       "first_seen": "2026-11-14"
+    },
+    {
+      "id": "827b715a358652c7",
+      "game": "Kakutou Ryouri Densetsu Bistro Recipe - Gekitou Foodon Battle Hen (Game Boy Color)",
+      "variant": "Bistro.Recipe.Foodon.Battle.GBC.EN.v0.9",
+      "version": "0.9",
+      "language": "en",
+      "platform": "wonderswan",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "459A126B",
+      "target_crc32": "BA4BE21B",
+      "source_rom": {
+        "crc32": "459A126B",
+        "size": 1048576,
+        "crc32_from": "bps",
+        "name": "Kakutou Ryouri Densetsu Bistro Recipe - Gekitou Foodon Battle Hen (Japan) (SGB Enhanced) (GB Compatible)"
+      },
+      "target_rom": {
+        "crc32": "BA4BE21B",
+        "size": 2097152,
+        "crc32_from": "bps"
+      },
+      "file_name": "Bistro.Recipe.Foodon.Battle.GBC.EN.v0.9.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/BistroRecipeGBC_0.9/Bistro.Recipe.Foodon.Battle.GBC.EN.v0.9.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BistroRecipeGBC_0.9/Bistro.Recipe.Foodon.Battle.GBC.EN.v0.9.bps",
+      "size": 78251,
+      "sha256": "827b715a358652c7d96992ceee4511e6e1b53ed21cf96c531f953a6b0fce1653",
+      "patch_crc32": "2144DF1C",
+      "source_size": 1048576,
+      "target_size": 2097152,
+      "patch_crc32_footer": "AF121904",
+      "patch_checksum_ok": true,
+      "bps_metadata": null,
+      "origin": {
+        "source": "mariovirgili/WonderSwanColor-AI_Translation",
+        "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
+        "kind": "release_asset",
+        "release_tag": "BistroRecipeGBC_0.9",
+        "release_name": "[GBC Release] Kakutou Ryouri Densetsu Bistro Recipe - Gekitou Foodon Battle Hen (Game Boy Color) - English v0.9",
+        "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipeGBC_0.9",
+        "published_at": "2026-11-18T00:05:12Z",
+        "prerelease": false,
+        "asset_name": "Bistro.Recipe.Foodon.Battle.GBC.EN.v0.9.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/BistroRecipeGBC_0.9/Bistro.Recipe.Foodon.Battle.GBC.EN.v0.9.bps",
+        "archive_member": null,
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:761151247:2026-11-18T00:04:40Z:78251",
+        "release_notes": "**Kakutou Ryouri Densetsu Bistro Recipe - Gekitou Foodon Battle Hen** is Banpresto's 1999 Game Boy Color game (also playable on the original Game Boy) based on the anime *Kakutou Ryouri Densetsu Bistro Recipe*, released only in Japan. Young Zen and his little sister Karin set out to find their father Tsukiji, a Bistra who vanished in a tournament set up by Don Cook and his Bishokker Corps. Cook dishes, turn them into fighting Foodons with Recipe Cards, battle rival Bistras, learn their recipes and free the four continents on the way to Bistgarm. It is the first Game Boy Color game in this repository.\n\nThis translation keeps the **original Japanese names** (Zen, Karin, Pitan, Haoji, Tsukiji, Bishokker, Foodon names romanized from the Japanese puns), not the names of the US dub *Fighting Foodons*.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps patch to *Kakutou Ryouri Densetsu Bistro Recipe - Gekitou Foodon Battle Hen (Japan) (SGB Enhanced) (GB Compatible).gbc* (No-Intro, 1 MB, CRC32 459A126B) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB, CRC32 BA4BE21B. Keep the .gbc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply …"
+      },
+      "first_seen": "2026-11-18"
     },
     {
       "id": "0a77afeeb6894428",

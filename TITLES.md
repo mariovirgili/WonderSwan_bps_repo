@@ -7,7 +7,7 @@ Every released WonderSwan and WonderSwan Color title, and the translation patche
 | WonderSwan | 219 | 46 (+5 ⚠️ another dump) |
 | WonderSwan Color | 229 | 48 (+1 ⚠️ another dump) |
 
-Last change to the patch catalog: 2026-11-17.
+Last change to the patch catalog: 2026-11-18.
 
 ## Titles with translation patches (100)
 
@@ -572,7 +572,7 @@ Last change to the patch catalog: 2026-11-17.
 |  | Yuuki Paint (World) (v1.01) (WonderWitch) (WWGP2001) | `B560F389` | — |
 |  | Yuuki Paint (World) (v1.20) (WonderWitch) | `21FA994C` | — |
 
-## Other ROM versions with patches (5)
+## Other ROM versions with patches (6)
 
 Patches made for a ROM that is not in the lists above (another dump, revision or a modified ROM).
 
@@ -582,4 +582,5 @@ Patches made for a ROM that is not in the lists above (another dump, revision or
 | Densha de Go 2 | `06D88203` | **English**: [Gand46 v0.4.17](https://github.com/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/blob/main/densha/patches/Densha_de_Go_2_EN_v0.4.17_from_v0.4.16_INCREMENTAL.bps) |
 | Front Mission | `A6C6E19B` | **English**: [Gand46 v033](https://github.com/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/blob/main/history/v034/history/v033/patches/v033_TEST_from_v032.bps) |
 | GnG Trainer | `EE8B3230` | **English**: [mariovirgili](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test) |
+| Kakutou Ryouri Densetsu Bistro Recipe - Gekitou Foodon Battle Hen (Game Boy Color) | `459A126B` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipeGBC_0.9) |
 | Memories Off Pure (Neo Geo Pocket Color) | `7F919DDE` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MemoriesOffPure_0.9) |
