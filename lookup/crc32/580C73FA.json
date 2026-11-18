@@ -1,28 +1,28 @@
 {
  "schema": 1,
  "query": {
-  "crc32": "737E1BDF"
+  "crc32": "580C73FA"
  },
- "crc32": "737E1BDF",
+ "crc32": "580C73FA",
  "size": 2097152,
  "names": [],
  "patches": [],
  "produced_by": [
   {
-   "id": "f32695abc1629974",
+   "id": "283c679b4144d252",
    "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
-   "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.5.debug.no.LIFE.loss",
-   "version": "0.9.5",
+   "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.6.debug.no.LIFE.loss",
+   "version": "0.9.6",
    "language": "en",
    "platform": "wonderswan_color",
    "latest": true,
    "superseded": false,
    "format": "bps",
    "source_crc32": "6E8A792D",
-   "target_crc32": "737E1BDF",
+   "target_crc32": "580C73FA",
    "target_size": 2097152,
-   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_0.9/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.5.debug.no.LIFE.loss.bps",
-   "sha256": "f32695abc16299746930197bd639a672c50eee8d475de4a962026ca36390bf1d",
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_0.9/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.EN.v0.9.6.debug.no.LIFE.loss.bps",
+   "sha256": "283c679b4144d252feebea96ecffd9b52290d005070e70440cae0c413a4668d3",
    "size": 76807,
    "source": "mariovirgili/WonderSwanColor-AI_Translation",
    "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9",
