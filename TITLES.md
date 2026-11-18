@@ -5,11 +5,11 @@ Every released WonderSwan and WonderSwan Color title, and the translation patche
 | System | Titles | With a translation patch |
 | --- | ---: | ---: |
 | WonderSwan | 219 | 46 (+5 ⚠️ another dump) |
-| WonderSwan Color | 229 | 48 (+1 ⚠️ another dump) |
+| WonderSwan Color | 229 | 49 (+1 ⚠️ another dump) |
 
 Last change to the patch catalog: 2026-11-18.
 
-## Titles with translation patches (100)
+## Titles with translation patches (101)
 
 | | Title | System | Patches (newest version of each author) |
 | :---: | --- | --- | --- |
@@ -65,6 +65,7 @@ Last change to the patch catalog: 2026-11-18.
 | ✅ | Hanjuku Hero - Ah, Sekai yo Hanjuku Nare...!! (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HanjukuHero_0.9) |
 | ✅ | Harobots (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/harobots-v1.0) |
 | ✅ | Harobots (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/harobots-v1.0) |
+| ✅ | Hunter X Hunter - Greed Island (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HxH_GreedIsland_0.9) |
 | ✅ | Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 2) | WonderSwan | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/hxh-ishi-v1.1) |
 | ✅ | Hunter X Hunter - Sorezore no Ketsui (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HxH_SorezoreNoKetsui_0.9) |
 | ✅ | Judgement Silversword - Rebirth Edition (Japan) (Rev 5C21) | WonderSwan Color | **English**: [mariovirgili v2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/JSS_Arrange_2.7) |
@@ -434,7 +435,7 @@ Last change to the patch catalog: 2026-11-18.
 |  | House Keeper (World) (Ja) (WonderWitch) | `73AE8016` | — |
 |  | House Keeper - 1.5 Generation (World) (Ja) (Proto) (WonderWitch) | `8393480D` | — |
 |  | Hunter X Hunter - Greed Island (Japan) | `A487B7A8` | — |
-|  | Hunter X Hunter - Greed Island (Japan) (Rev 1) | `130AF567` | — |
+| ✅ | **Hunter X Hunter - Greed Island (Japan) (Rev 1)** | `130AF567` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HxH_GreedIsland_0.9) |
 |  | Hunter X Hunter - Michibikareshi Mono (Japan) | `9402BCA9` | — |
 | ✅ | **Hunter X Hunter - Sorezore no Ketsui (Japan)** | `D0B20C5A` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HxH_SorezoreNoKetsui_0.9) |
 |  | Hurry Up! (World) (WonderWitch) | `84CA6856` | — |

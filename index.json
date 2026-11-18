@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "repository": "mariovirgili/WonderSwan_bps_repo",
-  "generated_at": "2026-11-18T13:10:41+00:00",
+  "generated_at": "2026-11-18T13:25:10+00:00",
   "sources": [
     "mariovirgili/WonderSwanColor-AI_Translation",
     "PokemonGoDB/wonderswan-english-patches",
@@ -32,7 +32,7 @@
     "wonderswan_color",
     null
   ],
-  "count": 280,
+  "count": 282,
   "entries": [
     {
       "id": "fb49f952cc562ee5",
@@ -7575,6 +7575,114 @@
         "release_notes": "**Harobots** (ハロボッツ) is Sunrise Interactive's 1999 robot-raising RPG for the original (monochrome) WonderSwan, released only in Japan. Haro, the ball-shaped robot from *Mobile Suit Gundam*, is everyone's pet in this world, and with the right robot data a Haro can \"Harobots Change\" into robots from Sunrise anime (Dougram, VOTOMS, Dunbine, L-Gaim, Layzner, the Brave series, Escaflowne and more, 106 in all) for arcade battles. You play a boy who finds a stray Haro in the junkyard, trains it at the dojo, fits it with parts, combines items to unlock new robots and battles your way from town to town to the national tournament, while the expelled scientist Dr. Baro schemes to get his hands on the prototype Haro. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: the story, every town's people, the trainers' challenges, the tournament, the shop and the dojo, about 1,700 different dialogue lines.\n* Menus and screens: items (106 robots' attacks and skills, item names and descriptions), status pages, parts, Robot Set, Combinize, the shop, the …"
       },
       "first_seen": "2026-11-15"
+    },
+    {
+      "id": "1a3c01d22c327432",
+      "game": "Hunter X Hunter: Greed Island",
+      "variant": "Hunter.X.Hunter.-.Greed.Island.EN.v0.9.ALL.CAPS",
+      "version": "0.9",
+      "language": "en",
+      "platform": "wonderswan_color",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "130AF567",
+      "target_crc32": "E08BCD72",
+      "source_rom": {
+        "crc32": "130AF567",
+        "size": 8388608,
+        "crc32_from": "bps",
+        "name": "Hunter X Hunter - Greed Island (Japan) (Rev 1).wsc"
+      },
+      "target_rom": {
+        "crc32": "E08BCD72",
+        "size": 8388608,
+        "crc32_from": "bps"
+      },
+      "file_name": "Hunter.X.Hunter.-.Greed.Island.EN.v0.9.ALL.CAPS.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/HxH_GreedIsland_0.9/Hunter.X.Hunter.-.Greed.Island.EN.v0.9.ALL.CAPS.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/HxH_GreedIsland_0.9/Hunter.X.Hunter.-.Greed.Island.EN.v0.9.ALL.CAPS.bps",
+      "size": 1120400,
+      "sha256": "1a3c01d22c32743295bd9ad01e5a76b5d290bb6632ca194958918b711866c6fb",
+      "patch_crc32": "2144DF1C",
+      "source_size": 8388608,
+      "target_size": 8388608,
+      "patch_crc32_footer": "840DB0EC",
+      "patch_checksum_ok": true,
+      "bps_metadata": null,
+      "origin": {
+        "source": "mariovirgili/WonderSwanColor-AI_Translation",
+        "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
+        "kind": "release_asset",
+        "release_tag": "HxH_GreedIsland_0.9",
+        "release_name": "[Release] Hunter X Hunter: Greed Island (WonderSwan Color) - English v0.9 (normal and ALL CAPS)",
+        "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HxH_GreedIsland_0.9",
+        "published_at": "2026-11-18T13:21:39Z",
+        "prerelease": false,
+        "asset_name": "Hunter.X.Hunter.-.Greed.Island.EN.v0.9.ALL.CAPS.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/HxH_GreedIsland_0.9/Hunter.X.Hunter.-.Greed.Island.EN.v0.9.ALL.CAPS.bps",
+        "archive_member": null,
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:763491630:2026-11-18T13:21:08Z:1120400",
+        "release_notes": "**Hunter X Hunter - Greed Island** is Bandai's 2003 WonderSwan Color RPG based on the Greed Island arc of Yoshihiro Togashi's *Hunter x Hunter*, released only in Japan. Gon and Killua enter Greed Island, the game made by Ging, train with Bisky, hunt for the 100 Specified Slot cards and run into Razor, the Bomber and the Phantom Troupe along the way. Battles are fought on a grid with Nen techniques and spell cards.\n\nCharacters use the **English dub / Viz names** (Gon, Killua, Bisky, Kurapika, Hisoka, Chrollo, Phinks, Feitan, Razor, Tsezguerra, Genthru, Binolt...), and cards use the official English names where they exist (Patch of Forest, Patch of Shore, Breath of Archangel, Risky Dice, Blue Planet...).\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply one of the .bps patches to *Hunter X Hunter - Greed Island (Japan) (Rev 1).wsc* (No-Intro, 8 MB, CRC32 130AF567) with Floating IPS, beat or ROM Patcher JS. Keep the .wsc extension.\n\n* Normal: `Hunter X Hunter - Greed Island (EN v0.9).bps`, result CRC32 CA91BA94.\n* ALL CAPS: `Hunter X Hunter - Greed Island (EN v0.9, ALL CAPS).bps`, result CRC32 E08BCD72.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Hunter X Hunter - Greed Island (EN …"
+      },
+      "first_seen": "2026-11-18"
+    },
+    {
+      "id": "6704c6e2a6025ceb",
+      "game": "Hunter X Hunter: Greed Island",
+      "variant": "Hunter.X.Hunter.-.Greed.Island.EN.v0.9",
+      "version": "0.9",
+      "language": "en",
+      "platform": "wonderswan_color",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "130AF567",
+      "target_crc32": "CA91BA94",
+      "source_rom": {
+        "crc32": "130AF567",
+        "size": 8388608,
+        "crc32_from": "bps",
+        "name": "Hunter X Hunter - Greed Island (Japan) (Rev 1).wsc"
+      },
+      "target_rom": {
+        "crc32": "CA91BA94",
+        "size": 8388608,
+        "crc32_from": "bps"
+      },
+      "file_name": "Hunter.X.Hunter.-.Greed.Island.EN.v0.9.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/HxH_GreedIsland_0.9/Hunter.X.Hunter.-.Greed.Island.EN.v0.9.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/HxH_GreedIsland_0.9/Hunter.X.Hunter.-.Greed.Island.EN.v0.9.bps",
+      "size": 1136702,
+      "sha256": "6704c6e2a6025ceb07273e4cb5b00535f5f12a3d7e42ac7482e9e85f73435a8a",
+      "patch_crc32": "2144DF1C",
+      "source_size": 8388608,
+      "target_size": 8388608,
+      "patch_crc32_footer": "965BFC9A",
+      "patch_checksum_ok": true,
+      "bps_metadata": null,
+      "origin": {
+        "source": "mariovirgili/WonderSwanColor-AI_Translation",
+        "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
+        "kind": "release_asset",
+        "release_tag": "HxH_GreedIsland_0.9",
+        "release_name": "[Release] Hunter X Hunter: Greed Island (WonderSwan Color) - English v0.9 (normal and ALL CAPS)",
+        "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HxH_GreedIsland_0.9",
+        "published_at": "2026-11-18T13:21:39Z",
+        "prerelease": false,
+        "asset_name": "Hunter.X.Hunter.-.Greed.Island.EN.v0.9.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/HxH_GreedIsland_0.9/Hunter.X.Hunter.-.Greed.Island.EN.v0.9.bps",
+        "archive_member": null,
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:763491512:2026-11-18T13:21:07Z:1136702",
+        "release_notes": "**Hunter X Hunter - Greed Island** is Bandai's 2003 WonderSwan Color RPG based on the Greed Island arc of Yoshihiro Togashi's *Hunter x Hunter*, released only in Japan. Gon and Killua enter Greed Island, the game made by Ging, train with Bisky, hunt for the 100 Specified Slot cards and run into Razor, the Bomber and the Phantom Troupe along the way. Battles are fought on a grid with Nen techniques and spell cards.\n\nCharacters use the **English dub / Viz names** (Gon, Killua, Bisky, Kurapika, Hisoka, Chrollo, Phinks, Feitan, Razor, Tsezguerra, Genthru, Binolt...), and cards use the official English names where they exist (Patch of Forest, Patch of Shore, Breath of Archangel, Risky Dice, Blue Planet...).\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply one of the .bps patches to *Hunter X Hunter - Greed Island (Japan) (Rev 1).wsc* (No-Intro, 8 MB, CRC32 130AF567) with Floating IPS, beat or ROM Patcher JS. Keep the .wsc extension.\n\n* Normal: `Hunter X Hunter - Greed Island (EN v0.9).bps`, result CRC32 CA91BA94.\n* ALL CAPS: `Hunter X Hunter - Greed Island (EN v0.9, ALL CAPS).bps`, result CRC32 E08BCD72.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Hunter X Hunter - Greed Island (EN …"
+      },
+      "first_seen": "2026-11-18"
     },
     {
       "id": "6e2d6db15b07c1c0",

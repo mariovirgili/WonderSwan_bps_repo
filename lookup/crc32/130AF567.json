@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "130AF567"
+ },
+ "crc32": "130AF567",
+ "size": 8388608,
+ "md5": "e54a236ff923346e1b6eaed84bc8033c",
+ "sha1": "e26410d4eee4cc8cec5e2e369604aedf26d69d0c",
+ "names": [
+  "Hunter X Hunter - Greed Island (Japan) (Rev 1).wsc"
+ ],
+ "patches": [
+  {
+   "id": "6704c6e2a6025ceb",
+   "game": "Hunter X Hunter: Greed Island",
+   "variant": "Hunter.X.Hunter.-.Greed.Island.EN.v0.9",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "130AF567",
+   "target_crc32": "CA91BA94",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/HxH_GreedIsland_0.9/Hunter.X.Hunter.-.Greed.Island.EN.v0.9.bps",
+   "sha256": "6704c6e2a6025ceb07273e4cb5b00535f5f12a3d7e42ac7482e9e85f73435a8a",
+   "size": 1136702,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HxH_GreedIsland_0.9",
+   "notes": "**Hunter X Hunter - Greed Island** is Bandai's 2003 WonderSwan Color RPG based on the Greed Island arc of Yoshihiro Togashi's *Hunter x Hunter*, released only in Japan. Gon and Killua enter Greed Island, the game made by Ging, train with Bisky, hunt for the 100 Specified Slot cards and run into Razor, the Bomber and the Phantom Troupe along the way. Battles are fought on a grid with Nen techniques and spell cards.\n\nCharacters use the **English dub / Viz names** (Gon, Killua, Bisky, Kurapika, Hisoka, Chrollo, Phinks, Feitan, Razor, Tsezguerra, Genthru, Binolt...), and cards use the official English names where they exist (Patch of Forest, Patch of Shore, Breath of Archangel, Risky Dice, Blue Planet...).\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply one of the .bps patches to *Hunter X Hunter - Greed Island (Japan) (Rev 1).wsc* (No-Intro, 8 MB, CRC32 130AF567) with Floating IPS, beat or ROM Patcher JS. Keep the .wsc extension.\n\n* Normal: `Hunter X Hunter - Greed Island (EN v0.9).bps`, result CRC32 CA91BA94.\n* ALL CAPS: `Hunter X Hunter - Greed Island (EN v0.9, ALL CAPS).bps`, result CRC32 E08BCD72.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Hunter X Hunter - Greed Island (EN …"
+  },
+  {
+   "id": "1a3c01d22c327432",
+   "game": "Hunter X Hunter: Greed Island",
+   "variant": "Hunter.X.Hunter.-.Greed.Island.EN.v0.9.ALL.CAPS",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "130AF567",
+   "target_crc32": "E08BCD72",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/HxH_GreedIsland_0.9/Hunter.X.Hunter.-.Greed.Island.EN.v0.9.ALL.CAPS.bps",
+   "sha256": "1a3c01d22c32743295bd9ad01e5a76b5d290bb6632ca194958918b711866c6fb",
+   "size": 1120400,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HxH_GreedIsland_0.9",
+   "notes": "**Hunter X Hunter - Greed Island** is Bandai's 2003 WonderSwan Color RPG based on the Greed Island arc of Yoshihiro Togashi's *Hunter x Hunter*, released only in Japan. Gon and Killua enter Greed Island, the game made by Ging, train with Bisky, hunt for the 100 Specified Slot cards and run into Razor, the Bomber and the Phantom Troupe along the way. Battles are fought on a grid with Nen techniques and spell cards.\n\nCharacters use the **English dub / Viz names** (Gon, Killua, Bisky, Kurapika, Hisoka, Chrollo, Phinks, Feitan, Razor, Tsezguerra, Genthru, Binolt...), and cards use the official English names where they exist (Patch of Forest, Patch of Shore, Breath of Archangel, Risky Dice, Blue Planet...).\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply one of the .bps patches to *Hunter X Hunter - Greed Island (Japan) (Rev 1).wsc* (No-Intro, 8 MB, CRC32 130AF567) with Floating IPS, beat or ROM Patcher JS. Keep the .wsc extension.\n\n* Normal: `Hunter X Hunter - Greed Island (EN v0.9).bps`, result CRC32 CA91BA94.\n* ALL CAPS: `Hunter X Hunter - Greed Island (EN v0.9, ALL CAPS).bps`, result CRC32 E08BCD72.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Hunter X Hunter - Greed Island (EN …"
+  }
+ ],
+ "produced_by": []
+}
