@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "repository": "mariovirgili/WonderSwan_bps_repo",
-  "generated_at": "2026-11-18T13:25:10+00:00",
+  "generated_at": "2026-11-18T15:47:20+00:00",
   "sources": [
     "mariovirgili/WonderSwanColor-AI_Translation",
     "PokemonGoDB/wonderswan-english-patches",
@@ -32,7 +32,7 @@
     "wonderswan_color",
     null
   ],
-  "count": 282,
+  "count": 284,
   "entries": [
     {
       "id": "fb49f952cc562ee5",
@@ -12530,6 +12530,114 @@
         "release_notes": "**Romancing SaGa** (WonderSwan Color) - **English translation patch v0.9.1** (new translation from the Japanese)\n\nRomancing SaGa for the WonderSwan Color is Square's 2001 remake of the first Romancing SaGa, released only in Japan. Eight heroes (Albert, Gray, Jamil, Aisha, Claudia, Sif, Barbara and Hawke), a free scenario system where you go wherever you like, and the war against Saruin, the dark god sealed away a thousand years ago by the hero Mirsa and the ten Destiny Stones. It came out a few years before Minstrel Song, with remade graphics, a world map and new scenes.\n\nThis patch translates it into English.\n\n**Download:** Work in progress\n\n**How to patch**\n\nApply the BPS to your dumped Japanese ROM \"Romancing Sa-Ga\" (CRC32 9C98D97D) with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 204CD622. It's a WonderSwan Color game, so keep the .wsc extension. You must provide your own copy of the original Japanese game to apply it.\n\n**What's new in v0.9.1**\n\n* The whole text (event script, menus, database) was **translated again from scratch, directly from the Japanese**, and so were all the monster and place names, including the ones drawn in the graphics (battle labels and world map).\n* How it was made: **Claude** translated it from the Japanese, the result was cross-checked line by line against **DeepL**, then reviewed by **ChatGPT** for meaning and official names, and the final corrections were applied to the ROM by Claude.\n* Names now follow the **official …"
       },
       "first_seen": "2026-11-02"
+    },
+    {
+      "id": "80fb135c10d51438",
+      "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
+      "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.ALL.CAPS",
+      "version": "0.1",
+      "language": "pt",
+      "platform": "wonderswan_color",
+      "latest": false,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "6E8A792D",
+      "target_crc32": "EB54FFA4",
+      "source_rom": {
+        "crc32": "6E8A792D",
+        "size": 2097152,
+        "crc32_from": "bps",
+        "name": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan).wsc"
+      },
+      "target_rom": {
+        "crc32": "EB54FFA4",
+        "size": 2097152,
+        "crc32_from": "bps"
+      },
+      "file_name": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.ALL.CAPS.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_PT-BR_0.1/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.ALL.CAPS.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_PT-BR_0.1/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.ALL.CAPS.bps",
+      "size": 77653,
+      "sha256": "80fb135c10d514385618e5469230d846916325d3b31baa7ec830a8052c1be371",
+      "patch_crc32": "2144DF1C",
+      "source_size": 2097152,
+      "target_size": 2097152,
+      "patch_crc32_footer": "B3A65CF3",
+      "patch_checksum_ok": true,
+      "bps_metadata": null,
+      "origin": {
+        "source": "mariovirgili/WonderSwanColor-AI_Translation",
+        "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
+        "kind": "release_asset",
+        "release_tag": "SaintSeiya_PT-BR_0.1",
+        "release_name": "[Release] Saint Seiya - Ougon Densetsu Hen - Perfect Edition (WonderSwan Color) - Brazilian Portuguese v0.1 (normal and ALL CAPS)",
+        "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_PT-BR_0.1",
+        "published_at": "2026-11-18T15:45:31Z",
+        "prerelease": false,
+        "asset_name": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.ALL.CAPS.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/SaintSeiya_PT-BR_0.1/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.ALL.CAPS.bps",
+        "archive_member": null,
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:763973772:2026-11-18T15:45:09Z:77653",
+        "release_notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai, a remake of the 1987 Famicom game, released only in Japan. This is a **Brazilian Portuguese** version of the English translation v0.9.6, made at the request of a Brazilian player. It uses the names of the Brazilian dub, *Os Cavaleiros do Zodíaco*: Cavaleiros, Armaduras, Atena, Grande Mestre, Mestre Ancião, Máscara da Morte, Aioria, Miro, Afrodite, Meteoro de Pégaso, Cólera do Dragão, Pó de Diamante...\n\n**v0.1 is a test version for review:** it has not been checked by a native speaker yet. The CSV in the zip has every line in Japanese, English and Portuguese, with the space available for each one.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply one of the .bps patches to *Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan).wsc* (2 MB, CRC32 6E8A792D) with Floating IPS, beat or ROM Patcher JS. Keep the .wsc extension.\n\n* Normal: `Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1).bps`, result CRC32 09AED7EA.\n* ALL CAPS: `Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1, ALL CAPS).bps`, result CRC32 EB54FFA4.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Saint …"
+      },
+      "first_seen": "2026-11-18"
+    },
+    {
+      "id": "926e4ee53f5e0a32",
+      "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
+      "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1",
+      "version": "0.1",
+      "language": "pt",
+      "platform": "wonderswan_color",
+      "latest": false,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "6E8A792D",
+      "target_crc32": "09AED7EA",
+      "source_rom": {
+        "crc32": "6E8A792D",
+        "size": 2097152,
+        "crc32_from": "bps",
+        "name": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan).wsc"
+      },
+      "target_rom": {
+        "crc32": "09AED7EA",
+        "size": 2097152,
+        "crc32_from": "bps"
+      },
+      "file_name": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_PT-BR_0.1/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_PT-BR_0.1/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.bps",
+      "size": 77656,
+      "sha256": "926e4ee53f5e0a32d0ac04548734198844a476bc45268d90b39351e711506855",
+      "patch_crc32": "2144DF1C",
+      "source_size": 2097152,
+      "target_size": 2097152,
+      "patch_crc32_footer": "80D4EBF8",
+      "patch_checksum_ok": true,
+      "bps_metadata": null,
+      "origin": {
+        "source": "mariovirgili/WonderSwanColor-AI_Translation",
+        "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
+        "kind": "release_asset",
+        "release_tag": "SaintSeiya_PT-BR_0.1",
+        "release_name": "[Release] Saint Seiya - Ougon Densetsu Hen - Perfect Edition (WonderSwan Color) - Brazilian Portuguese v0.1 (normal and ALL CAPS)",
+        "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_PT-BR_0.1",
+        "published_at": "2026-11-18T15:45:31Z",
+        "prerelease": false,
+        "asset_name": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/SaintSeiya_PT-BR_0.1/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.bps",
+        "archive_member": null,
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:763973681:2026-11-18T15:45:09Z:77656",
+        "release_notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai, a remake of the 1987 Famicom game, released only in Japan. This is a **Brazilian Portuguese** version of the English translation v0.9.6, made at the request of a Brazilian player. It uses the names of the Brazilian dub, *Os Cavaleiros do Zodíaco*: Cavaleiros, Armaduras, Atena, Grande Mestre, Mestre Ancião, Máscara da Morte, Aioria, Miro, Afrodite, Meteoro de Pégaso, Cólera do Dragão, Pó de Diamante...\n\n**v0.1 is a test version for review:** it has not been checked by a native speaker yet. The CSV in the zip has every line in Japanese, English and Portuguese, with the space available for each one.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply one of the .bps patches to *Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan).wsc* (2 MB, CRC32 6E8A792D) with Floating IPS, beat or ROM Patcher JS. Keep the .wsc extension.\n\n* Normal: `Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1).bps`, result CRC32 09AED7EA.\n* ALL CAPS: `Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1, ALL CAPS).bps`, result CRC32 EB54FFA4.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Saint …"
+      },
+      "first_seen": "2026-11-18"
     },
     {
       "id": "b2959187e5adb32b",
