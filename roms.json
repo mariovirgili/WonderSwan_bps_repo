@@ -512,6 +512,34 @@
     }
    ]
   },
+  "0BB721AC": {
+   "crc32": "0BB721AC",
+   "size": 8388608,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "61f1358d40a32003",
+     "game": "Super Robot Taisen Compact 3",
+     "variant": "srw-compact-3-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "188CA644",
+     "target_crc32": "0BB721AC",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-3-v1.0/srw-compact-3-en-debug-1.0.bps",
+     "sha256": "61f1358d40a320033c07c407a14766fcc18ac7eb28c9d166d212c6b6c2c0d690",
+     "size": 682274,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-3-v1.0",
+     "notes": "**Super Robot Taisen Compact 3** (スーパーロボット大戦コンパクト3) is a turn-based strategy RPG from Banpresto for the WonderSwan Color (2003). It is a crossover of mecha anime: the Mazinger series, Getter Robo, Combattler V, Mechander Robo, several Gundam series, Aura Battler Dunbine, The Vision of Escaflowne, Betterman and Acrobunch, plus an original side of enemies called the Shura. You move units on a map, fight with battle animations and spoken quotes, and between scenarios use the intermission menus to upgrade units and spend the Stage Bonus on your pilots. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story, the battle quotes, every menu, list and status page, the name-entry screen, the title menu, the 36 chapter cards, the HUD marks, the prologue scroll, the endings and the staff credits. The game's text catalog holds 17,188 text units and all of them are covered; the boot copyright page is romanized.\n* **Names and terms:** pilots, robots, attacks and terms follow official English and …"
+    }
+   ]
+  },
   "0C9CB12C": {
    "crc32": "0C9CB12C",
    "size": 1048576,
@@ -1274,6 +1302,79 @@
      "notes": "**Riviera - Yakusoku no Chi Riviera** is Sting's 2002 RPG for the WonderSwan Color, published by Bandai and released only in Japan. Most people know it from the later Game Boy Advance and PSP remakes, but it started on the WonderSwan Color. A thousand years after Ragnarok, the war between the gods of Asgard and the demons of Utgard, the Seven Magi send two Grim Angels, Ein and Ledah, to the island of Riviera to unleash Retribution, the hidden power of the gods, because the demons seem to be coming back. Ein loses his memory, wakes up in Elendia, a village of sprites, and goes on with Rose, his familiar, and the girls he meets there: Fia, Lina, Serene and Cierra.\n\nThis patch translates the WonderSwan Color original into English.\n\nv0.9.9 brings the bug fixes of **@shaomu0**'s Japanese patch (Riviera_fix_v6) into the English translation: thank you for the work! Claude took the patch apart, checked that every change lands on game code the translation leaves untouched and kept the free ROM space its two new routines need clear of English text.\n\n**Download:** `Riviera.-.Yakusoku.no.Chi.Riviera.T-En.v0.9.9.zip` in the attachments below (the .bps patch, the README and the full JP/EN tables). The older zips are kept for reference.\n\n> **Please read:** this translation was made **entirely with AI** (Claude), as a personal project. I'm sharing it as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the …"
     }
    ]
+  },
+  "188CA644": {
+   "crc32": "188CA644",
+   "size": 8388608,
+   "md5": "d43e85a61b91423de8a91f78e62936fe",
+   "sha1": "dd6fe0f278cdec2670d3be8552dbb0cf6a3a2841",
+   "names": [
+    "Super Robot Taisen Compact 3 (Japan) (Rev 6).wsc",
+    "Super Robot Taisen Compact 3 (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "a99c7e65178d6f02",
+     "game": "Super Robot Taisen Compact 3",
+     "variant": "srw-compact-3-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "188CA644",
+     "target_crc32": "B5EA1DE0",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-3-v1.0/srw-compact-3-en-1.0.bps",
+     "sha256": "a99c7e65178d6f0298140b213bcf02762475fca2b51a37dfd91093b146a86e5a",
+     "size": 677681,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-3-v1.0",
+     "notes": "**Super Robot Taisen Compact 3** (スーパーロボット大戦コンパクト3) is a turn-based strategy RPG from Banpresto for the WonderSwan Color (2003). It is a crossover of mecha anime: the Mazinger series, Getter Robo, Combattler V, Mechander Robo, several Gundam series, Aura Battler Dunbine, The Vision of Escaflowne, Betterman and Acrobunch, plus an original side of enemies called the Shura. You move units on a map, fight with battle animations and spoken quotes, and between scenarios use the intermission menus to upgrade units and spend the Stage Bonus on your pilots. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story, the battle quotes, every menu, list and status page, the name-entry screen, the title menu, the 36 chapter cards, the HUD marks, the prologue scroll, the endings and the staff credits. The game's text catalog holds 17,188 text units and all of them are covered; the boot copyright page is romanized.\n* **Names and terms:** pilots, robots, attacks and terms follow official English and …"
+    },
+    {
+     "id": "61f1358d40a32003",
+     "game": "Super Robot Taisen Compact 3",
+     "variant": "srw-compact-3-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "188CA644",
+     "target_crc32": "0BB721AC",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-3-v1.0/srw-compact-3-en-debug-1.0.bps",
+     "sha256": "61f1358d40a320033c07c407a14766fcc18ac7eb28c9d166d212c6b6c2c0d690",
+     "size": 682274,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-3-v1.0",
+     "notes": "**Super Robot Taisen Compact 3** (スーパーロボット大戦コンパクト3) is a turn-based strategy RPG from Banpresto for the WonderSwan Color (2003). It is a crossover of mecha anime: the Mazinger series, Getter Robo, Combattler V, Mechander Robo, several Gundam series, Aura Battler Dunbine, The Vision of Escaflowne, Betterman and Acrobunch, plus an original side of enemies called the Shura. You move units on a map, fight with battle animations and spoken quotes, and between scenarios use the intermission menus to upgrade units and spend the Stage Bonus on your pilots. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story, the battle quotes, every menu, list and status page, the name-entry screen, the title menu, the 36 chapter cards, the HUD marks, the prologue scroll, the endings and the staff credits. The game's text catalog holds 17,188 text units and all of them are covered; the boot copyright page is romanized.\n* **Names and terms:** pilots, robots, attacks and terms follow official English and …"
+    },
+    {
+     "id": "ab9aa4598a8e395e",
+     "game": "Super Robot Taisen Compact 3",
+     "variant": "srw-compact-3-en-longnames-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "188CA644",
+     "target_crc32": "9B68E1B8",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-3-v1.0/srw-compact-3-en-longnames-1.0.bps",
+     "sha256": "ab9aa4598a8e395e8880f279d1c377f60ff02f05663dcd36db38a5b6f9dd6335",
+     "size": 677689,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-3-v1.0",
+     "notes": "**Super Robot Taisen Compact 3** (スーパーロボット大戦コンパクト3) is a turn-based strategy RPG from Banpresto for the WonderSwan Color (2003). It is a crossover of mecha anime: the Mazinger series, Getter Robo, Combattler V, Mechander Robo, several Gundam series, Aura Battler Dunbine, The Vision of Escaflowne, Betterman and Acrobunch, plus an original side of enemies called the Shura. You move units on a map, fight with battle animations and spoken quotes, and between scenarios use the intermission menus to upgrade units and spend the Stage Bonus on your pilots. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story, the battle quotes, every menu, list and status page, the name-entry screen, the title menu, the 36 chapter cards, the HUD marks, the prologue scroll, the endings and the staff credits. The game's text catalog holds 17,188 text units and all of them are covered; the boot copyright page is romanized.\n* **Names and terms:** pilots, robots, attacks and terms follow official English and …"
+    }
+   ],
+   "produced_by": []
   },
   "18ECFFB8": {
    "crc32": "18ECFFB8",
@@ -8474,6 +8575,34 @@
     }
    ]
   },
+  "9B68E1B8": {
+   "crc32": "9B68E1B8",
+   "size": 8388608,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "ab9aa4598a8e395e",
+     "game": "Super Robot Taisen Compact 3",
+     "variant": "srw-compact-3-en-longnames-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "188CA644",
+     "target_crc32": "9B68E1B8",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-3-v1.0/srw-compact-3-en-longnames-1.0.bps",
+     "sha256": "ab9aa4598a8e395e8880f279d1c377f60ff02f05663dcd36db38a5b6f9dd6335",
+     "size": 677689,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-3-v1.0",
+     "notes": "**Super Robot Taisen Compact 3** (スーパーロボット大戦コンパクト3) is a turn-based strategy RPG from Banpresto for the WonderSwan Color (2003). It is a crossover of mecha anime: the Mazinger series, Getter Robo, Combattler V, Mechander Robo, several Gundam series, Aura Battler Dunbine, The Vision of Escaflowne, Betterman and Acrobunch, plus an original side of enemies called the Shura. You move units on a map, fight with battle animations and spoken quotes, and between scenarios use the intermission menus to upgrade units and spend the Stage Bonus on your pilots. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story, the battle quotes, every menu, list and status page, the name-entry screen, the title menu, the 36 chapter cards, the HUD marks, the prologue scroll, the endings and the staff credits. The game's text catalog holds 17,188 text units and all of them are covered; the boot copyright page is romanized.\n* **Names and terms:** pilots, robots, attacks and terms follow official English and …"
+    }
+   ]
+  },
   "9BEE9428": {
    "crc32": "9BEE9428",
    "size": 4194304,
@@ -10128,6 +10257,34 @@
     }
    ],
    "produced_by": []
+  },
+  "B5EA1DE0": {
+   "crc32": "B5EA1DE0",
+   "size": 8388608,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "a99c7e65178d6f02",
+     "game": "Super Robot Taisen Compact 3",
+     "variant": "srw-compact-3-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "188CA644",
+     "target_crc32": "B5EA1DE0",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-3-v1.0/srw-compact-3-en-1.0.bps",
+     "sha256": "a99c7e65178d6f0298140b213bcf02762475fca2b51a37dfd91093b146a86e5a",
+     "size": 677681,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-3-v1.0",
+     "notes": "**Super Robot Taisen Compact 3** (スーパーロボット大戦コンパクト3) is a turn-based strategy RPG from Banpresto for the WonderSwan Color (2003). It is a crossover of mecha anime: the Mazinger series, Getter Robo, Combattler V, Mechander Robo, several Gundam series, Aura Battler Dunbine, The Vision of Escaflowne, Betterman and Acrobunch, plus an original side of enemies called the Shura. You move units on a map, fight with battle animations and spoken quotes, and between scenarios use the intermission menus to upgrade units and spend the Stage Bonus on your pilots. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story, the battle quotes, every menu, list and status page, the name-entry screen, the title menu, the 36 chapter cards, the HUD marks, the prologue scroll, the endings and the staff credits. The game's text catalog holds 17,188 text units and all of them are covered; the boot copyright page is romanized.\n* **Names and terms:** pilots, robots, attacks and terms follow official English and …"
+    }
+   ]
   },
   "B62E5DD0": {
    "crc32": "B62E5DD0",
@@ -14185,6 +14342,7 @@
   "cb58db877b8adfce59f2e34cc4224d8b": "B18CDC0D",
   "cdbcacff7dd0348beffb1e228592e2e1": "446E2581",
   "cf5e9f022baadd1ed9b0a9e88b503e95": "F504CD84",
+  "d43e85a61b91423de8a91f78e62936fe": "188CA644",
   "d8a29d331e9ba86609c75a4aedf9c269": "2B40745D",
   "d902afdadf17b452621c50a1ffda2fa9": "1F10CA75",
   "da17db6b7f491510e4b284996ff0eebf": "89E7D950",
@@ -14301,6 +14459,7 @@
   "d8097e25431f0ad5183b2479ee0837599677a300": "18ECFFB8",
   "dbaa50fd56e69e72fdfe49362ef5fe4437d66667": "71556E6A",
   "dd1878279a6667fb66dd1ac44a2cdb9a5acbe415": "5793BDDA",
+  "dd6fe0f278cdec2670d3be8552dbb0cf6a3a2841": "188CA644",
   "df1a794f7e3992b1e1e9de14141b607746202202": "39A1391A",
   "e03332ebbd3fed88084bc96030c65a9b531e6ed1": "40E63922",
   "e212bba4fac51bbfcf440966da0e67b1686dcfc5": "27B3CC18",

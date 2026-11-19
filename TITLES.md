@@ -5,11 +5,11 @@ Every released WonderSwan and WonderSwan Color title, and the translation patche
 | System | Titles | With a translation patch |
 | --- | ---: | ---: |
 | WonderSwan | 219 | 46 (+5 ⚠️ another dump) |
-| WonderSwan Color | 229 | 49 (+1 ⚠️ another dump) |
+| WonderSwan Color | 229 | 50 (+1 ⚠️ another dump) |
 
-Last change to the patch catalog: 2026-11-18.
+Last change to the patch catalog: 2026-11-19.
 
-## Titles with translation patches (101)
+## Titles with translation patches (102)
 
 | | Title | System | Patches (newest version of each author) |
 | :---: | --- | --- | --- |
@@ -106,6 +106,7 @@ Last change to the patch catalog: 2026-11-18.
 | ✅ | Sennou Millennium (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/sennou-millennium-v1.0) |
 | ✅ | Side Pocket for WonderSwan (Japan) | WonderSwan | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SidePocket_0.9.1) |
 | ✅ | Star Hearts - Hoshi to Daichi no Shisha (Japan) | WonderSwan Color | **English**: [Gand46](https://github.com/Gand46/StarHearts-Wonderswan-English-Translation-AI_GPT/blob/main/patches/F37/StarHearts_EN_phase13BG_F37_CUMULATIVE_FROM_JP.bps) · [PokemonGoDB v1.2](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/star-hearts-v1.2) |
+| ✅ | Super Robot Taisen Compact 3 (Japan) (Rev 6) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-3-v1.0) |
 | ✅ | Tanjou Debut for WonderSwan (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tanjou-debut-v1.0) |
 | ✅ | Tare Panda no GunPey (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tare-panda-gunpey-v1.0) |
 | ✅ | Tetsujin 28 Gou (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Tetsujin28_0.9) |
@@ -541,7 +542,7 @@ Last change to the patch catalog: 2026-11-18.
 |  | Starlight Waltz (World) (Proto) (WonderWitch) | `B7E179D9` | — |
 |  | Starship (World) (Proto) | `BC2636E8` | — |
 |  | Super Robot Taisen Compact 3 (Japan) (Rev 5) | `6918C824` | — |
-|  | Super Robot Taisen Compact 3 (Japan) (Rev 6) | `188CA644` | — |
+| ✅ | **Super Robot Taisen Compact 3 (Japan) (Rev 6)** | `188CA644` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-3-v1.0) |
 |  | Super Robot Taisen Compact for WonderSwan Color (Japan) | `16E0D929` | — |
 |  | Surround (World) (Proto) (WonderWitch) | `9F98D0C2` | — |
 |  | Tank Island (World) (WonderWitch) | `A2E09CCC` | — |
