@@ -1221,6 +1221,38 @@
    ],
    "produced_by": []
   },
+  "15C4552E": {
+   "crc32": "15C4552E",
+   "size": 2097152,
+   "md5": "5898c0dfee65ff9b47ce6ec1be2014d5",
+   "sha1": "3a41a3b8fc126da07e2a82c21056a45c15efbc98",
+   "names": [
+    "RUN=DIM - Return to Earth (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "f648ab7c2be329cd",
+     "game": "RUN=DIM - Return to Earth",
+     "variant": "run-dim-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "15C4552E",
+     "target_crc32": "29BFFB91",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/run-dim-v1.0/run-dim-en-1.0.bps",
+     "sha256": "f648ab7c2be329cd0cb543893d218aea43e0b23ac48fb3a981eac84e34527b33",
+     "size": 153723,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/run-dim-v1.0",
+     "notes": "# RUN=DIM - Return to Earth (WonderSwan Color) - AI English translation patch v1.0\n\n**RUN=DIM - Return to Earth** (ランディム) is a horizontal mecha shooter from Digital Dream for the WonderSwan Color (2002, licensed by Bandai). You pilot the new mecha RUN=DIM for Green Frontier, an environmental group, through six stages against an enemy organisation that dumps nuclear waste, and between stages the story is told in pages of text over background pictures, with two young pilots, Kazuto and Kanna, and their commander. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story intro, the dialogue and narration before each of the six stages (97 pages in all), both pilot profile pages, the two ending pages, the special-weapon cut-in and the six stage cards. The game's text holds 198 records and all of them are covered. The staff roll, GAME RESULTS, RANKING, CONTINUE and the HUD were already English in the original and are unchanged.\n* **Pictures with text** were redrawn in English: the big title logo …"
+    }
+   ],
+   "produced_by": []
+  },
   "15EC0324": {
    "crc32": "15EC0324",
    "size": 4194304,
@@ -2095,6 +2127,34 @@
     }
    ],
    "produced_by": []
+  },
+  "29BFFB91": {
+   "crc32": "29BFFB91",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "f648ab7c2be329cd",
+     "game": "RUN=DIM - Return to Earth",
+     "variant": "run-dim-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "15C4552E",
+     "target_crc32": "29BFFB91",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/run-dim-v1.0/run-dim-en-1.0.bps",
+     "sha256": "f648ab7c2be329cd0cb543893d218aea43e0b23ac48fb3a981eac84e34527b33",
+     "size": 153723,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/run-dim-v1.0",
+     "notes": "# RUN=DIM - Return to Earth (WonderSwan Color) - AI English translation patch v1.0\n\n**RUN=DIM - Return to Earth** (ランディム) is a horizontal mecha shooter from Digital Dream for the WonderSwan Color (2002, licensed by Bandai). You pilot the new mecha RUN=DIM for Green Frontier, an environmental group, through six stages against an enemy organisation that dumps nuclear waste, and between stages the story is told in pages of text over background pictures, with two young pilots, Kazuto and Kanna, and their commander. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story intro, the dialogue and narration before each of the six stages (97 pages in all), both pilot profile pages, the two ending pages, the special-weapon cut-in and the six stage cards. The game's text holds 198 records and all of them are covered. The staff roll, GAME RESULTS, RANKING, CONTINUE and the HUD were already English in the original and are unchanged.\n* **Pictures with text** were redrawn in English: the big title logo …"
+    }
+   ]
   },
   "2AA1F3E8": {
    "crc32": "2AA1F3E8",
@@ -8140,6 +8200,59 @@
     }
    ]
   },
+  "8FC9E145": {
+   "crc32": "8FC9E145",
+   "size": 4194304,
+   "md5": "49a2932821583fa7d3ed07312b47ab32",
+   "sha1": "cfb877f0988920c8fe4da5cdd7583197799df621",
+   "names": [
+    "Vaitz Blade (Japan) (Rev 1).ws",
+    "Vaitz Blade (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "4815cb4aba9f2b7b",
+     "game": "Vaitz Blade",
+     "variant": "vaitz-blade-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "8FC9E145",
+     "target_crc32": "EEA440C8",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/vaitz-blade-v1.0/vaitz-blade-en-1.0.bps",
+     "sha256": "4815cb4aba9f2b7b894a1e7c10f07d20a65dfa198bdc46bba88306e8a4314c05",
+     "size": 401634,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/vaitz-blade-v1.0",
+     "notes": "# Vaitz Blade (WonderSwan) - AI English translation patch v1.0\n\n**Vaitz Blade** (ヴァイツブレイド) is a role-playing game from Bandai for the WonderSwan (1999). You play a young soldier of the Randor Empire (the hero's name is yours to enter) who is given a platoon of Vaitz, the beasts of the continent of Farland. You walk through castles, towns and the world map, fight turn-based battles, capture weakened Vaitz, and fuse them into new ones at the farm and the smithy, with an arena, an item shop, an auction and a Trade Center along the way. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads in the normal game:** the dialogue (3,151 messages), every menu, item, ability and monster name and description, the battle messages, the room-name plates, the name-entry screen, the arena menus and the end card. The game's text catalog holds 4,530 text units and all of them are covered.\n* **Names and terms:** the game has no official English, so the spellings are my choices (Randor, Farland, Vaitz, Zeribel, Polon …"
+    },
+    {
+     "id": "bb251cb9ba972e1a",
+     "game": "Vaitz Blade",
+     "variant": "vaitz-blade-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "8FC9E145",
+     "target_crc32": "E4E38BF6",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/vaitz-blade-v1.0/vaitz-blade-en-debug-1.0.bps",
+     "sha256": "bb251cb9ba972e1a45d81e7d71196deb81295bf3fbe4561eeced1f41908e8f77",
+     "size": 403149,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/vaitz-blade-v1.0",
+     "notes": "# Vaitz Blade (WonderSwan) - AI English translation patch v1.0\n\n**Vaitz Blade** (ヴァイツブレイド) is a role-playing game from Bandai for the WonderSwan (1999). You play a young soldier of the Randor Empire (the hero's name is yours to enter) who is given a platoon of Vaitz, the beasts of the continent of Farland. You walk through castles, towns and the world map, fight turn-based battles, capture weakened Vaitz, and fuse them into new ones at the farm and the smithy, with an arena, an item shop, an auction and a Trade Center along the way. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads in the normal game:** the dialogue (3,151 messages), every menu, item, ability and monster name and description, the battle messages, the room-name plates, the name-entry screen, the arena menus and the end card. The game's text catalog holds 4,530 text units and all of them are covered.\n* **Names and terms:** the game has no official English, so the spellings are my choices (Randor, Farland, Vaitz, Zeribel, Polon …"
+    }
+   ],
+   "produced_by": []
+  },
   "8FCD6D2C": {
    "crc32": "8FCD6D2C",
    "size": 524288,
@@ -11547,6 +11660,38 @@
     }
    ]
   },
+  "CCCAF8A1": {
+   "crc32": "CCCAF8A1",
+   "size": 2097152,
+   "md5": "cf7ee109aa551fdebaadd5bfbe344fd7",
+   "sha1": "d524da01f2bfad92c2fa080950229955a3030ef2",
+   "names": [
+    "Last Stand (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "750b057f5ea509f5",
+     "game": "Last Stand",
+     "variant": "last-stand-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "CCCAF8A1",
+     "target_crc32": "FC293A2E",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/last-stand-v1.0/last-stand-en-1.0.bps",
+     "sha256": "750b057f5ea509f540ea4d2976be0eea9fbf00b153b934fc5c7221941e1df584",
+     "size": 171356,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/last-stand-v1.0",
+     "notes": "# Last Stand (WonderSwan) - AI English translation patch v1.0\n\n**Last Stand** (ラストスタンド) is a strategy RPG for the mono WonderSwan, published by Bandai in Japan in 1999. A prince, a princess and their old butler Oblight have not aged in hundreds of years, until the demi-beasts of the world turn violent and the old protection of the land, Kruse's Protection, begins to fail. You name your heroes, form them into teams led by Masters, and each month deploy teams on the map to march on a country; the side-view battles then play out on their own, and between battles you train, scout and tutor your heroes and read what became of them. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The story:** the opening, the campfire scenes, the hall dialogue where the heroes join, the captions and every scene that follows. The test run drew all 2,606 story boxes of the script on screen and found no problem. The English needs more boxes than the Japanese in places (432 extra boxes), and the ending has 77 pages against 67 in Japanese.\n* …"
+    }
+   ],
+   "produced_by": []
+  },
   "CE2F1A1D": {
    "crc32": "CE2F1A1D",
    "size": 1048576,
@@ -12726,6 +12871,34 @@
     }
    ]
   },
+  "E4E38BF6": {
+   "crc32": "E4E38BF6",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "bb251cb9ba972e1a",
+     "game": "Vaitz Blade",
+     "variant": "vaitz-blade-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "8FC9E145",
+     "target_crc32": "E4E38BF6",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/vaitz-blade-v1.0/vaitz-blade-en-debug-1.0.bps",
+     "sha256": "bb251cb9ba972e1a45d81e7d71196deb81295bf3fbe4561eeced1f41908e8f77",
+     "size": 403149,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/vaitz-blade-v1.0",
+     "notes": "# Vaitz Blade (WonderSwan) - AI English translation patch v1.0\n\n**Vaitz Blade** (ヴァイツブレイド) is a role-playing game from Bandai for the WonderSwan (1999). You play a young soldier of the Randor Empire (the hero's name is yours to enter) who is given a platoon of Vaitz, the beasts of the continent of Farland. You walk through castles, towns and the world map, fight turn-based battles, capture weakened Vaitz, and fuse them into new ones at the farm and the smithy, with an arena, an item shop, an auction and a Trade Center along the way. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads in the normal game:** the dialogue (3,151 messages), every menu, item, ability and monster name and description, the battle messages, the room-name plates, the name-entry screen, the arena menus and the end card. The game's text catalog holds 4,530 text units and all of them are covered.\n* **Names and terms:** the game has no official English, so the spellings are my choices (Randor, Farland, Vaitz, Zeribel, Polon …"
+    }
+   ]
+  },
   "E4EB3AB1": {
    "crc32": "E4EB3AB1",
    "size": 4194304,
@@ -13155,6 +13328,34 @@
     }
    ],
    "produced_by": []
+  },
+  "EEA440C8": {
+   "crc32": "EEA440C8",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "4815cb4aba9f2b7b",
+     "game": "Vaitz Blade",
+     "variant": "vaitz-blade-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "8FC9E145",
+     "target_crc32": "EEA440C8",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/vaitz-blade-v1.0/vaitz-blade-en-1.0.bps",
+     "sha256": "4815cb4aba9f2b7b894a1e7c10f07d20a65dfa198bdc46bba88306e8a4314c05",
+     "size": 401634,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/vaitz-blade-v1.0",
+     "notes": "# Vaitz Blade (WonderSwan) - AI English translation patch v1.0\n\n**Vaitz Blade** (ヴァイツブレイド) is a role-playing game from Bandai for the WonderSwan (1999). You play a young soldier of the Randor Empire (the hero's name is yours to enter) who is given a platoon of Vaitz, the beasts of the continent of Farland. You walk through castles, towns and the world map, fight turn-based battles, capture weakened Vaitz, and fuse them into new ones at the farm and the smithy, with an arena, an item shop, an auction and a Trade Center along the way. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads in the normal game:** the dialogue (3,151 messages), every menu, item, ability and monster name and description, the battle messages, the room-name plates, the name-entry screen, the arena menus and the end card. The game's text catalog holds 4,530 text units and all of them are covered.\n* **Names and terms:** the game has no official English, so the spellings are my choices (Randor, Farland, Vaitz, Zeribel, Polon …"
+    }
+   ]
   },
   "EFB9B834": {
    "crc32": "EFB9B834",
@@ -14125,6 +14326,34 @@
     }
    ]
   },
+  "FC293A2E": {
+   "crc32": "FC293A2E",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "750b057f5ea509f5",
+     "game": "Last Stand",
+     "variant": "last-stand-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "CCCAF8A1",
+     "target_crc32": "FC293A2E",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/last-stand-v1.0/last-stand-en-1.0.bps",
+     "sha256": "750b057f5ea509f540ea4d2976be0eea9fbf00b153b934fc5c7221941e1df584",
+     "size": 171356,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/last-stand-v1.0",
+     "notes": "# Last Stand (WonderSwan) - AI English translation patch v1.0\n\n**Last Stand** (ラストスタンド) is a strategy RPG for the mono WonderSwan, published by Bandai in Japan in 1999. A prince, a princess and their old butler Oblight have not aged in hundreds of years, until the demi-beasts of the world turn violent and the old protection of the land, Kruse's Protection, begins to fail. You name your heroes, form them into teams led by Masters, and each month deploy teams on the map to march on a country; the side-view battles then play out on their own, and between battles you train, scout and tutor your heroes and read what became of them. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The story:** the opening, the campfire scenes, the hall dialogue where the heroes join, the captions and every scene that follows. The test run drew all 2,606 story boxes of the script on screen and found no problem. The English needs more boxes than the Japanese in places (432 extra boxes), and the ending has 77 pages against 67 in Japanese.\n* …"
+    }
+   ]
+  },
   "FD75CE60": {
    "crc32": "FD75CE60",
    "size": 4194304,
@@ -14296,9 +14525,11 @@
   "41a4a0ab39c036fb4ad741f19027e443": "138D1018",
   "47d83279cbdbd91c51cb7b0063d5d3e5": "F699D6D1",
   "496100bcd73fbfa39e473c6ddee190b2": "8655269E",
+  "49a2932821583fa7d3ed07312b47ab32": "8FC9E145",
   "5432d188664bc4e5dae0fc859580cda1": "56E2C069",
   "547501367ccf6262a70d0030e68cc75e": "427056C4",
   "5883b9d0f63fe8daa9c1a2259c154466": "F1F4D41F",
+  "5898c0dfee65ff9b47ce6ec1be2014d5": "15C4552E",
   "5a571edf5e34793c68a69bdc9dd328e5": "E357D462",
   "5e907dd88b3cfb2855a18fb1bf689860": "80C6EF12",
   "5f742027ef79b71b0007ff5654e9565f": "71556E6A",
@@ -14342,6 +14573,7 @@
   "cb58db877b8adfce59f2e34cc4224d8b": "B18CDC0D",
   "cdbcacff7dd0348beffb1e228592e2e1": "446E2581",
   "cf5e9f022baadd1ed9b0a9e88b503e95": "F504CD84",
+  "cf7ee109aa551fdebaadd5bfbe344fd7": "CCCAF8A1",
   "d43e85a61b91423de8a91f78e62936fe": "188CA644",
   "d8a29d331e9ba86609c75a4aedf9c269": "2B40745D",
   "d902afdadf17b452621c50a1ffda2fa9": "1F10CA75",
@@ -14401,6 +14633,7 @@
   "35eea568f756bacf533bb9aaad7e3239ba00e411": "B25A0635",
   "36d8bc2ce7920d940943358d48f056f81055ab34": "9F6E3F8D",
   "39e9a897b681b2c326b052827d7c534f22290286": "7F3A14C0",
+  "3a41a3b8fc126da07e2a82c21056a45c15efbc98": "15C4552E",
   "3b62fd2841602f1077270848ab7a3aad58712ee9": "CCAA4853",
   "3c752694ab651f9a00ccd39c334a2e3ff78f5cb2": "2F9E2560",
   "3d5a1ed77e721908eb1145aaedef17c0ee6355ae": "89E7D950",
@@ -14453,8 +14686,10 @@
   "c622f6742ca3f0129fc12dce0a1c17d292388ffb": "B5E675AE",
   "caf4a8de853ded732b2a72619acf2784eeceafc7": "D7A0AB74",
   "cbf6455e89b20a000b6121e5c485be1a20d1f726": "A193458C",
+  "cfb877f0988920c8fe4da5cdd7583197799df621": "8FC9E145",
   "cfcb14be6d2f1dbffdfcefb8c8d83b4f39bc102b": "CE2F1A1D",
   "d3da0ae529c6f78162682141154a95879f288ca7": "B62E5DD0",
+  "d524da01f2bfad92c2fa080950229955a3030ef2": "CCCAF8A1",
   "d72c1221c2ce3e281a0ee288a3d079aa8e1b714b": "5A41A7BA",
   "d8097e25431f0ad5183b2479ee0837599677a300": "18ECFFB8",
   "dbaa50fd56e69e72fdfe49362ef5fe4437d66667": "71556E6A",

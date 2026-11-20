@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "E4E38BF6"
+ },
+ "crc32": "E4E38BF6",
+ "size": 4194304,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "bb251cb9ba972e1a",
+   "game": "Vaitz Blade",
+   "variant": "vaitz-blade-en-debug-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "8FC9E145",
+   "target_crc32": "E4E38BF6",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/vaitz-blade-v1.0/vaitz-blade-en-debug-1.0.bps",
+   "sha256": "bb251cb9ba972e1a45d81e7d71196deb81295bf3fbe4561eeced1f41908e8f77",
+   "size": 403149,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/vaitz-blade-v1.0",
+   "notes": "# Vaitz Blade (WonderSwan) - AI English translation patch v1.0\n\n**Vaitz Blade** (ヴァイツブレイド) is a role-playing game from Bandai for the WonderSwan (1999). You play a young soldier of the Randor Empire (the hero's name is yours to enter) who is given a platoon of Vaitz, the beasts of the continent of Farland. You walk through castles, towns and the world map, fight turn-based battles, capture weakened Vaitz, and fuse them into new ones at the farm and the smithy, with an arena, an item shop, an auction and a Trade Center along the way. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads in the normal game:** the dialogue (3,151 messages), every menu, item, ability and monster name and description, the battle messages, the room-name plates, the name-entry screen, the arena menus and the end card. The game's text catalog holds 4,530 text units and all of them are covered.\n* **Names and terms:** the game has no official English, so the spellings are my choices (Randor, Farland, Vaitz, Zeribel, Polon …"
+  }
+ ]
+}
