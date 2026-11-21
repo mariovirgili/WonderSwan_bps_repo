@@ -1,0 +1,36 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "FE4FF701"
+ },
+ "crc32": "FE4FF701",
+ "size": 1048576,
+ "md5": "a461ad467a1bf5ba55fa1874017f621b",
+ "sha1": "977d5830e45c78b9020e9d06a63a9ad6bc623745",
+ "names": [
+  "Raku Jongg (Japan).wsc"
+ ],
+ "patches": [
+  {
+   "id": "13460ab13be4d7d0",
+   "game": "Raku Jongg",
+   "variant": "raku-jongg-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "FE4FF701",
+   "target_crc32": "4C72E4EF",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/raku-jongg-v1.0/raku-jongg-en-1.0.bps",
+   "sha256": "13460ab13be4d7d0c38b12a2e70969814f23410b4e4eb56f40c8c9b5f54bb6cf",
+   "size": 112172,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/raku-jongg-v1.0",
+   "notes": "# Raku Jongg (WonderSwan Color) - AI English translation patch v1.0\n\n**Raku Jongg** (落雀) is a falling-block puzzle played with mahjong tiles, from Enterbrain for the WonderSwan Color (Bandai, 2001). Tiles fall into a well, and you line up three or more of a kind, build sets and finish mahjong hands to score. In Story mode the broke Eggo enters a mahjong tournament for a 10 million yen prize, to buy his girlfriend Juliet a wedding dress, and beats five strange opponents across five acts. The game also has a rank test (Dan), a time attack, a versus mode for two consoles, a classroom that teaches the rules, and a national score ranking over Bandai's Mobile WonderGate. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the 154 text messages of the cartridge (story scenes, menus, prompts, result and ranking screens, the WonderGate messages and error numbers, and all 26 pages of the classroom lesson), plus about 5,000 tile patches that redraw the text drawn as pictures: the title buttons, the …"
+  }
+ ],
+ "produced_by": []
+}

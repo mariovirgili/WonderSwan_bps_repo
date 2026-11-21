@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "repository": "mariovirgili/WonderSwan_bps_repo",
-  "generated_at": "2026-11-20T13:02:58+00:00",
+  "generated_at": "2026-11-21T12:46:12+00:00",
   "sources": [
     "mariovirgili/WonderSwanColor-AI_Translation",
     "PokemonGoDB/wonderswan-english-patches",
@@ -32,7 +32,7 @@
     "wonderswan_color",
     null
   ],
-  "count": 293,
+  "count": 296,
   "entries": [
     {
       "id": "fb49f952cc562ee5",
@@ -8944,6 +8944,60 @@
       "first_seen": "2026-11-20"
     },
     {
+      "id": "8248be4b27c91e77",
+      "game": "Last Stand",
+      "variant": "last-stand-en-debug-1.0",
+      "version": "1.0",
+      "language": "en",
+      "platform": "wonderswan",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "CCCAF8A1",
+      "target_crc32": "71B36CE0",
+      "source_rom": {
+        "crc32": "CCCAF8A1",
+        "size": 2097152,
+        "crc32_from": "bps",
+        "name": "Last Stand (Japan).ws"
+      },
+      "target_rom": {
+        "crc32": "71B36CE0",
+        "size": 2097152,
+        "crc32_from": "bps"
+      },
+      "file_name": "last-stand-en-debug-1.0.bps",
+      "path": "patches/PokemonGoDB/wonderswan-english-patches/last-stand-v1.0/last-stand-en-debug-1.0.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/last-stand-v1.0/last-stand-en-debug-1.0.bps",
+      "size": 171412,
+      "sha256": "8248be4b27c91e77bc70017504dc84e7c7c91fbb796522bcc76d344443e3da15",
+      "patch_crc32": "2144DF1C",
+      "source_size": 2097152,
+      "target_size": 2097152,
+      "patch_crc32_footer": "75E9F566",
+      "patch_checksum_ok": true,
+      "bps_metadata": null,
+      "origin": {
+        "source": "PokemonGoDB/wonderswan-english-patches",
+        "source_url": "https://github.com/PokemonGoDB/wonderswan-english-patches",
+        "kind": "release_asset",
+        "release_tag": "last-stand-v1.0",
+        "release_name": "[Release] Last Stand (WonderSwan) - AI English translation patch v1.0",
+        "release_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/last-stand-v1.0",
+        "published_at": "2026-11-20T03:57:32Z",
+        "prerelease": false,
+        "asset_name": "last-stand-en-debug-1.0.bps",
+        "download_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/download/last-stand-v1.0/last-stand-en-debug-1.0.bps",
+        "archive_member": null,
+        "key": "asset:PokemonGoDB/wonderswan-english-patches:774041569:2026-11-21T01:41:13Z:171412",
+        "release_notes": "# Last Stand (WonderSwan) - AI English translation patch v1.0\n\n**Last Stand** (ラストスタンド) is a strategy RPG for the mono WonderSwan, published by Bandai in Japan in 1999. A prince, a princess and their old butler Oblight have not aged in hundreds of years, until the demi-beasts of the world turn violent and the old protection of the land, Kruse's Protection, begins to fail. You name your heroes, form them into teams led by Masters, and each month deploy teams on the map to march on a country; the side-view battles then play out on their own, and between battles you train, scout and tutor your heroes and read what became of them. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The story:** the opening, the campfire scenes, the hall dialogue where the heroes join, the captions and every scene that follows. The test run drew all 2,606 story boxes of the script on screen and found no problem. The English needs more boxes than the Japanese in places (432 extra boxes), and the ending has 77 pages against 67 in Japanese.\n* …"
+      },
+      "first_seen": "2026-11-21"
+    },
+    {
       "id": "5a39ab4b7576f410",
       "game": "Lode Runner for WonderSwan",
       "variant": "lode-runner-en-1.0",
@@ -11092,6 +11146,60 @@
         "release_notes": "**Puzzle Bobble** is Sunsoft's 1999 port of Taito's bubble shooter for the original black-and-white WonderSwan, released only in Japan. It has 1 Player rounds, Versus (computer or link cable), an endless Challenge mode, records and options.\n\nThis patch translates all of its menus and screens into English **and turns it into a WonderSwan Color game**, in two versions:\n\n* **16 colours:** the whole game runs in the console's 16-colour mode: the title logo, Bub (green) and Bob (blue), the character portraits (every Versus opponent in its own colours) and the game over screen are recoloured in the style of the arcade game, the Taito logo follows the official one, the playfield gets a carved stone frame and a dark blue checkerboard with soft shadows, the menus a tiled blue background, the ROUND box a maroon panel with a gold frame, and during play every bubble has its own colour (with a light spot and a soft shadow).\n* **4 colours:** every screen is in colour, but the game keeps its original four shades per palette: bubbles share one hue and are told apart by their patterns, closer to the original art.\n\nA third patch, **Black and White**, only translates the game: it stays a black-and-white WonderSwan game with its original graphics and shades, for those who prefer the original look or play on a black-and-white WonderSwan. It has the same translation and the same Records and 1UP fixes as the colour versions.\n\n> **Please read:** this translation was made **entirely with AI**, as a …"
       },
       "first_seen": "2026-11-09"
+    },
+    {
+      "id": "13460ab13be4d7d0",
+      "game": "Raku Jongg",
+      "variant": "raku-jongg-en-1.0",
+      "version": "1.0",
+      "language": "en",
+      "platform": "wonderswan_color",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "FE4FF701",
+      "target_crc32": "4C72E4EF",
+      "source_rom": {
+        "crc32": "FE4FF701",
+        "size": 1048576,
+        "crc32_from": "bps",
+        "name": "Raku Jongg (Japan).wsc"
+      },
+      "target_rom": {
+        "crc32": "4C72E4EF",
+        "size": 1048576,
+        "crc32_from": "bps"
+      },
+      "file_name": "raku-jongg-en-1.0.bps",
+      "path": "patches/PokemonGoDB/wonderswan-english-patches/raku-jongg-v1.0/raku-jongg-en-1.0.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/raku-jongg-v1.0/raku-jongg-en-1.0.bps",
+      "size": 112172,
+      "sha256": "13460ab13be4d7d0c38b12a2e70969814f23410b4e4eb56f40c8c9b5f54bb6cf",
+      "patch_crc32": "2144DF1C",
+      "source_size": 1048576,
+      "target_size": 1048576,
+      "patch_crc32_footer": "32E46052",
+      "patch_checksum_ok": true,
+      "bps_metadata": "Star Hearts: Hoshi to Daichi no Shisha - English translation",
+      "origin": {
+        "source": "PokemonGoDB/wonderswan-english-patches",
+        "source_url": "https://github.com/PokemonGoDB/wonderswan-english-patches",
+        "kind": "release_asset",
+        "release_tag": "raku-jongg-v1.0",
+        "release_name": "[Release] Raku Jongg (WonderSwan Color) - AI English translation patch v1.0",
+        "release_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/raku-jongg-v1.0",
+        "published_at": "2026-11-21T01:02:04Z",
+        "prerelease": false,
+        "asset_name": "raku-jongg-en-1.0.bps",
+        "download_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/download/raku-jongg-v1.0/raku-jongg-en-1.0.bps",
+        "archive_member": null,
+        "key": "asset:PokemonGoDB/wonderswan-english-patches:773951171:2026-11-21T01:02:03Z:112172",
+        "release_notes": "# Raku Jongg (WonderSwan Color) - AI English translation patch v1.0\n\n**Raku Jongg** (落雀) is a falling-block puzzle played with mahjong tiles, from Enterbrain for the WonderSwan Color (Bandai, 2001). Tiles fall into a well, and you line up three or more of a kind, build sets and finish mahjong hands to score. In Story mode the broke Eggo enters a mahjong tournament for a 10 million yen prize, to buy his girlfriend Juliet a wedding dress, and beats five strange opponents across five acts. The game also has a rank test (Dan), a time attack, a versus mode for two consoles, a classroom that teaches the rules, and a national score ranking over Bandai's Mobile WonderGate. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the 154 text messages of the cartridge (story scenes, menus, prompts, result and ranking screens, the WonderGate messages and error numbers, and all 26 pages of the classroom lesson), plus about 5,000 tile patches that redraw the text drawn as pictures: the title buttons, the …"
+      },
+      "first_seen": "2026-11-21"
     },
     {
       "id": "7384e3474a8ca8a4",
@@ -14910,6 +15018,61 @@
         "release_notes": "**Super Robot Taisen Compact 3** (スーパーロボット大戦コンパクト3) is a turn-based strategy RPG from Banpresto for the WonderSwan Color (2003). It is a crossover of mecha anime: the Mazinger series, Getter Robo, Combattler V, Mechander Robo, several Gundam series, Aura Battler Dunbine, The Vision of Escaflowne, Betterman and Acrobunch, plus an original side of enemies called the Shura. You move units on a map, fight with battle animations and spoken quotes, and between scenarios use the intermission menus to upgrade units and spend the Stage Bonus on your pilots. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story, the battle quotes, every menu, list and status page, the name-entry screen, the title menu, the 36 chapter cards, the HUD marks, the prologue scroll, the endings and the staff credits. The game's text catalog holds 17,188 text units and all of them are covered; the boot copyright page is romanized.\n* **Names and terms:** pilots, robots, attacks and terms follow official English and …"
       },
       "first_seen": "2026-11-19"
+    },
+    {
+      "id": "26eb1000d3552639",
+      "game": "Super Robot Taisen Compact for WonderSwan Color",
+      "variant": "srw-compact-wsc-en-1.0",
+      "version": "1.0",
+      "language": "en",
+      "platform": "wonderswan_color",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "16E0D929",
+      "target_crc32": "62240306",
+      "source_rom": {
+        "crc32": "16E0D929",
+        "size": 4194304,
+        "crc32_from": "bps",
+        "sha1": "bf212cecbbc51ee32ee2655a072f55e7bf70b9ec",
+        "name": "Super Robot Taisen Compact for WonderSwan Color (Japan).wsc"
+      },
+      "target_rom": {
+        "crc32": "62240306",
+        "size": 4194304,
+        "crc32_from": "bps"
+      },
+      "file_name": "srw-compact-wsc-en-1.0.bps",
+      "path": "patches/PokemonGoDB/wonderswan-english-patches/srw-compact-wsc-v1.0/srw-compact-wsc-en-1.0.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-wsc-v1.0/srw-compact-wsc-en-1.0.bps",
+      "size": 648819,
+      "sha256": "26eb1000d35526394af2abda37e06e0c5ba344be06e0f44064fb2759fde561a7",
+      "patch_crc32": "2144DF1C",
+      "source_size": 4194304,
+      "target_size": 4194304,
+      "patch_crc32_footer": "772815AE",
+      "patch_checksum_ok": true,
+      "bps_metadata": "Star Hearts: Hoshi to Daichi no Shisha - English translation",
+      "origin": {
+        "source": "PokemonGoDB/wonderswan-english-patches",
+        "source_url": "https://github.com/PokemonGoDB/wonderswan-english-patches",
+        "kind": "release_asset",
+        "release_tag": "srw-compact-wsc-v1.0",
+        "release_name": "[Release] Super Robot Taisen Compact for WonderSwan Color (WonderSwan Color) - AI English translation patch v1.0",
+        "release_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-wsc-v1.0",
+        "published_at": "2026-11-21T01:03:51Z",
+        "prerelease": false,
+        "asset_name": "srw-compact-wsc-en-1.0.bps",
+        "download_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/download/srw-compact-wsc-v1.0/srw-compact-wsc-en-1.0.bps",
+        "archive_member": null,
+        "key": "asset:PokemonGoDB/wonderswan-english-patches:773956522:2026-11-21T01:03:50Z:648819",
+        "release_notes": "# Super Robot Taisen Compact for WonderSwan Color - AI English translation patch v1.0\n\n**Super Robot Taisen Compact for WonderSwan Color** (スーパーロボット大戦コンパクト for WonderSwan Color) is a turn-based strategy RPG from Banpresto for the WonderSwan Color (2001), the colour remake of the first Super Robot Taisen Compact. It is a crossover of mecha anime: Mazinger Z and Great Mazinger, Getter Robo, Brave Raideen, Daimos, Daitarn 3, Dancouga, several Gundam series (the One Year War, Zeta, ZZ, Char's Counterattack, F91, Wing Endless Waltz), Aura Battler Dunbine and Heavy Metal L-Gaim. You move units on a map, fight with battle animations and spoken quotes, and between stages use the intermission menus to upgrade units and pick the next map. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the opening text crawl, the story dialogue, the battle quotes and attack quotes, every menu, list and status page, the title menu, the stage names and Next Map briefings, the HUD marks, the endings and the staff roll. …"
+      },
+      "first_seen": "2026-11-21"
     },
     {
       "id": "d2543bc0fd6f5917",

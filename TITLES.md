@@ -5,11 +5,11 @@ Every released WonderSwan and WonderSwan Color title, and the translation patche
 | System | Titles | With a translation patch |
 | --- | ---: | ---: |
 | WonderSwan | 219 | 48 (+5 ⚠️ another dump) |
-| WonderSwan Color | 229 | 51 (+1 ⚠️ another dump) |
+| WonderSwan Color | 229 | 53 (+1 ⚠️ another dump) |
 
-Last change to the patch catalog: 2026-11-20.
+Last change to the patch catalog: 2026-11-21.
 
-## Titles with translation patches (105)
+## Titles with translation patches (107)
 
 | | Title | System | Patches (newest version of each author) |
 | :---: | --- | --- | --- |
@@ -92,6 +92,7 @@ Last change to the patch catalog: 2026-11-20.
 | ✅ | Pocket Fighter (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/pocket-fighter-v1.0) |
 | ✅ | Puyo Puyo Tsuu (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuyoPuyoTsuu_0.9) |
 | ✅ | Puzzle Bobble (Japan) | WonderSwan | **English**: [mariovirgili v0.9.5.16](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/PuzzleBobble_0.9.5) |
+| ✅ | Raku Jongg (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/raku-jongg-v1.0) |
 | ✅ | Ring Infinity (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/RingInfinity) · [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/ring-infinity-v1.1) |
 | ✅ | Riviera - Yakusoku no Chi Riviera (Japan) | WonderSwan Color | **English**: [Gand46 v0110](https://github.com/Gand46/Riviera-Wonderswan-English-Translation-AI_GPT/blob/main/sources/Riviera_S457_FULL_SOURCE/patches/Riviera_CLEAN_JP_to_v0110_S457_cumulative.bps) |
 | ✅ | Riviera - Yakusoku no Chi Riviera (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Riviera_0.9) |
@@ -109,6 +110,7 @@ Last change to the patch catalog: 2026-11-20.
 | ✅ | Side Pocket for WonderSwan (Japan) | WonderSwan | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SidePocket_0.9.1) |
 | ✅ | Star Hearts - Hoshi to Daichi no Shisha (Japan) | WonderSwan Color | **English**: [Gand46](https://github.com/Gand46/StarHearts-Wonderswan-English-Translation-AI_GPT/blob/main/patches/F37/StarHearts_EN_phase13BG_F37_CUMULATIVE_FROM_JP.bps) · [PokemonGoDB v1.2](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/star-hearts-v1.2) |
 | ✅ | Super Robot Taisen Compact 3 (Japan) (Rev 6) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-3-v1.0) |
+| ✅ | Super Robot Taisen Compact for WonderSwan Color (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-wsc-v1.0) |
 | ✅ | Tanjou Debut for WonderSwan (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tanjou-debut-v1.0) |
 | ✅ | Tare Panda no GunPey (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tare-panda-gunpey-v1.0) |
 | ✅ | Tetsujin 28 Gou (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Tetsujin28_0.9) |
@@ -509,7 +511,7 @@ Last change to the patch catalog: 2026-11-20.
 |  | Project E-Force (World) (Proto) (WonderWitch) | `7E86E88E` | — |
 |  | Putipati (World) (v1.11) (WonderWitch) (WWGP2002) | `F4B6EEF1` | — |
 |  | Putipati (World) (v1.12) (WonderWitch) | `A109567E` | — |
-|  | Raku Jongg (Japan) | `FE4FF701` | — |
+| ✅ | **Raku Jongg (Japan)** | `FE4FF701` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/raku-jongg-v1.0) |
 |  | Rave Hunter (World) (WonderWitch) | `E912A376` | — |
 |  | Real Cheese (World) (Ja) (WonderWitch) | `0BEA50DA` | — |
 |  | Rect for WonderSwan (World) (WonderWitch) | `322B2DF1` | — |
@@ -546,7 +548,7 @@ Last change to the patch catalog: 2026-11-20.
 |  | Starship (World) (Proto) | `BC2636E8` | — |
 |  | Super Robot Taisen Compact 3 (Japan) (Rev 5) | `6918C824` | — |
 | ✅ | **Super Robot Taisen Compact 3 (Japan) (Rev 6)** | `188CA644` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-3-v1.0) |
-|  | Super Robot Taisen Compact for WonderSwan Color (Japan) | `16E0D929` | — |
+| ✅ | **Super Robot Taisen Compact for WonderSwan Color (Japan)** | `16E0D929` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-wsc-v1.0) |
 |  | Surround (World) (Proto) (WonderWitch) | `9F98D0C2` | — |
 |  | Tank Island (World) (WonderWitch) | `A2E09CCC` | — |
 |  | Tank Move Color (World) (WonderWitch) | `EC2E8B11` | — |

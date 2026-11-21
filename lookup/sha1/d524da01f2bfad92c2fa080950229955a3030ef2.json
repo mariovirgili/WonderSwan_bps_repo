@@ -30,6 +30,26 @@
    "source": "PokemonGoDB/wonderswan-english-patches",
    "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/last-stand-v1.0",
    "notes": "# Last Stand (WonderSwan) - AI English translation patch v1.0\n\n**Last Stand** (ラストスタンド) is a strategy RPG for the mono WonderSwan, published by Bandai in Japan in 1999. A prince, a princess and their old butler Oblight have not aged in hundreds of years, until the demi-beasts of the world turn violent and the old protection of the land, Kruse's Protection, begins to fail. You name your heroes, form them into teams led by Masters, and each month deploy teams on the map to march on a country; the side-view battles then play out on their own, and between battles you train, scout and tutor your heroes and read what became of them. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The story:** the opening, the campfire scenes, the hall dialogue where the heroes join, the captions and every scene that follows. The test run drew all 2,606 story boxes of the script on screen and found no problem. The English needs more boxes than the Japanese in places (432 extra boxes), and the ending has 77 pages against 67 in Japanese.\n* …"
+  },
+  {
+   "id": "8248be4b27c91e77",
+   "game": "Last Stand",
+   "variant": "last-stand-en-debug-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "CCCAF8A1",
+   "target_crc32": "71B36CE0",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/last-stand-v1.0/last-stand-en-debug-1.0.bps",
+   "sha256": "8248be4b27c91e77bc70017504dc84e7c7c91fbb796522bcc76d344443e3da15",
+   "size": 171412,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/last-stand-v1.0",
+   "notes": "# Last Stand (WonderSwan) - AI English translation patch v1.0\n\n**Last Stand** (ラストスタンド) is a strategy RPG for the mono WonderSwan, published by Bandai in Japan in 1999. A prince, a princess and their old butler Oblight have not aged in hundreds of years, until the demi-beasts of the world turn violent and the old protection of the land, Kruse's Protection, begins to fail. You name your heroes, form them into teams led by Masters, and each month deploy teams on the map to march on a country; the side-view battles then play out on their own, and between battles you train, scout and tutor your heroes and read what became of them. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The story:** the opening, the campfire scenes, the hall dialogue where the heroes join, the captions and every scene that follows. The test run drew all 2,606 story boxes of the script on screen and found no problem. The English needs more boxes than the Japanese in places (432 extra boxes), and the ending has 77 pages against 67 in Japanese.\n* …"
   }
  ],
  "produced_by": []

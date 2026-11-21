@@ -1307,6 +1307,38 @@
     }
    ]
   },
+  "16E0D929": {
+   "crc32": "16E0D929",
+   "size": 4194304,
+   "md5": "59c20a67961e60791360d8d29d937ef0",
+   "sha1": "bf212cecbbc51ee32ee2655a072f55e7bf70b9ec",
+   "names": [
+    "Super Robot Taisen Compact for WonderSwan Color (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "26eb1000d3552639",
+     "game": "Super Robot Taisen Compact for WonderSwan Color",
+     "variant": "srw-compact-wsc-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "16E0D929",
+     "target_crc32": "62240306",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-wsc-v1.0/srw-compact-wsc-en-1.0.bps",
+     "sha256": "26eb1000d35526394af2abda37e06e0c5ba344be06e0f44064fb2759fde561a7",
+     "size": 648819,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-wsc-v1.0",
+     "notes": "# Super Robot Taisen Compact for WonderSwan Color - AI English translation patch v1.0\n\n**Super Robot Taisen Compact for WonderSwan Color** (スーパーロボット大戦コンパクト for WonderSwan Color) is a turn-based strategy RPG from Banpresto for the WonderSwan Color (2001), the colour remake of the first Super Robot Taisen Compact. It is a crossover of mecha anime: Mazinger Z and Great Mazinger, Getter Robo, Brave Raideen, Daimos, Daitarn 3, Dancouga, several Gundam series (the One Year War, Zeta, ZZ, Char's Counterattack, F91, Wing Endless Waltz), Aura Battler Dunbine and Heavy Metal L-Gaim. You move units on a map, fight with battle animations and spoken quotes, and between stages use the intermission menus to upgrade units and pick the next map. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the opening text crawl, the story dialogue, the battle quotes and attack quotes, every menu, list and status page, the title menu, the stage names and Next Map briefings, the HUD marks, the endings and the staff roll. …"
+    }
+   ],
+   "produced_by": []
+  },
   "179CF58B": {
    "crc32": "179CF58B",
    "size": 8388608,
@@ -4157,6 +4189,34 @@
     }
    ]
   },
+  "4C72E4EF": {
+   "crc32": "4C72E4EF",
+   "size": 1048576,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "13460ab13be4d7d0",
+     "game": "Raku Jongg",
+     "variant": "raku-jongg-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "FE4FF701",
+     "target_crc32": "4C72E4EF",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/raku-jongg-v1.0/raku-jongg-en-1.0.bps",
+     "sha256": "13460ab13be4d7d0c38b12a2e70969814f23410b4e4eb56f40c8c9b5f54bb6cf",
+     "size": 112172,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/raku-jongg-v1.0",
+     "notes": "# Raku Jongg (WonderSwan Color) - AI English translation patch v1.0\n\n**Raku Jongg** (落雀) is a falling-block puzzle played with mahjong tiles, from Enterbrain for the WonderSwan Color (Bandai, 2001). Tiles fall into a well, and you line up three or more of a kind, build sets and finish mahjong hands to score. In Story mode the broke Eggo enters a mahjong tournament for a 10 million yen prize, to buy his girlfriend Juliet a wedding dress, and beats five strange opponents across five acts. The game also has a rank test (Dan), a time attack, a versus mode for two consoles, a classroom that teaches the rules, and a national score ranking over Bandai's Mobile WonderGate. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the 154 text messages of the cartridge (story scenes, menus, prompts, result and ranking screens, the WonderGate messages and error numbers, and all 26 pages of the classroom lesson), plus about 5,000 tile patches that redraw the text drawn as pictures: the title buttons, the …"
+    }
+   ]
+  },
   "4CA9F7B4": {
    "crc32": "4CA9F7B4",
    "size": 2097152,
@@ -5602,6 +5662,34 @@
     }
    ]
   },
+  "62240306": {
+   "crc32": "62240306",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "26eb1000d3552639",
+     "game": "Super Robot Taisen Compact for WonderSwan Color",
+     "variant": "srw-compact-wsc-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "16E0D929",
+     "target_crc32": "62240306",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-wsc-v1.0/srw-compact-wsc-en-1.0.bps",
+     "sha256": "26eb1000d35526394af2abda37e06e0c5ba344be06e0f44064fb2759fde561a7",
+     "size": 648819,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-wsc-v1.0",
+     "notes": "# Super Robot Taisen Compact for WonderSwan Color - AI English translation patch v1.0\n\n**Super Robot Taisen Compact for WonderSwan Color** (スーパーロボット大戦コンパクト for WonderSwan Color) is a turn-based strategy RPG from Banpresto for the WonderSwan Color (2001), the colour remake of the first Super Robot Taisen Compact. It is a crossover of mecha anime: Mazinger Z and Great Mazinger, Getter Robo, Brave Raideen, Daimos, Daitarn 3, Dancouga, several Gundam series (the One Year War, Zeta, ZZ, Char's Counterattack, F91, Wing Endless Waltz), Aura Battler Dunbine and Heavy Metal L-Gaim. You move units on a map, fight with battle animations and spoken quotes, and between stages use the intermission menus to upgrade units and pick the next map. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the opening text crawl, the story dialogue, the battle quotes and attack quotes, every menu, list and status page, the title menu, the stage names and Next Map briefings, the HUD marks, the endings and the staff roll. …"
+    }
+   ]
+  },
   "624C7B55": {
    "crc32": "624C7B55",
    "size": 4194304,
@@ -6524,6 +6612,34 @@
     }
    ],
    "produced_by": []
+  },
+  "71B36CE0": {
+   "crc32": "71B36CE0",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "8248be4b27c91e77",
+     "game": "Last Stand",
+     "variant": "last-stand-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "CCCAF8A1",
+     "target_crc32": "71B36CE0",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/last-stand-v1.0/last-stand-en-debug-1.0.bps",
+     "sha256": "8248be4b27c91e77bc70017504dc84e7c7c91fbb796522bcc76d344443e3da15",
+     "size": 171412,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/last-stand-v1.0",
+     "notes": "# Last Stand (WonderSwan) - AI English translation patch v1.0\n\n**Last Stand** (ラストスタンド) is a strategy RPG for the mono WonderSwan, published by Bandai in Japan in 1999. A prince, a princess and their old butler Oblight have not aged in hundreds of years, until the demi-beasts of the world turn violent and the old protection of the land, Kruse's Protection, begins to fail. You name your heroes, form them into teams led by Masters, and each month deploy teams on the map to march on a country; the side-view battles then play out on their own, and between battles you train, scout and tutor your heroes and read what became of them. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The story:** the opening, the campfire scenes, the hall dialogue where the heroes join, the captions and every scene that follows. The test run drew all 2,606 story boxes of the script on screen and found no problem. The English needs more boxes than the Japanese in places (432 extra boxes), and the ending has 77 pages against 67 in Japanese.\n* …"
+    }
+   ]
   },
   "72AFDE86": {
    "crc32": "72AFDE86",
@@ -11688,6 +11804,26 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/last-stand-v1.0",
      "notes": "# Last Stand (WonderSwan) - AI English translation patch v1.0\n\n**Last Stand** (ラストスタンド) is a strategy RPG for the mono WonderSwan, published by Bandai in Japan in 1999. A prince, a princess and their old butler Oblight have not aged in hundreds of years, until the demi-beasts of the world turn violent and the old protection of the land, Kruse's Protection, begins to fail. You name your heroes, form them into teams led by Masters, and each month deploy teams on the map to march on a country; the side-view battles then play out on their own, and between battles you train, scout and tutor your heroes and read what became of them. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The story:** the opening, the campfire scenes, the hall dialogue where the heroes join, the captions and every scene that follows. The test run drew all 2,606 story boxes of the script on screen and found no problem. The English needs more boxes than the Japanese in places (432 extra boxes), and the ending has 77 pages against 67 in Japanese.\n* …"
+    },
+    {
+     "id": "8248be4b27c91e77",
+     "game": "Last Stand",
+     "variant": "last-stand-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "CCCAF8A1",
+     "target_crc32": "71B36CE0",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/last-stand-v1.0/last-stand-en-debug-1.0.bps",
+     "sha256": "8248be4b27c91e77bc70017504dc84e7c7c91fbb796522bcc76d344443e3da15",
+     "size": 171412,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/last-stand-v1.0",
+     "notes": "# Last Stand (WonderSwan) - AI English translation patch v1.0\n\n**Last Stand** (ラストスタンド) is a strategy RPG for the mono WonderSwan, published by Bandai in Japan in 1999. A prince, a princess and their old butler Oblight have not aged in hundreds of years, until the demi-beasts of the world turn violent and the old protection of the land, Kruse's Protection, begins to fail. You name your heroes, form them into teams led by Masters, and each month deploy teams on the map to march on a country; the side-view battles then play out on their own, and between battles you train, scout and tutor your heroes and read what became of them. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The story:** the opening, the campfire scenes, the hall dialogue where the heroes join, the captions and every scene that follows. The test run drew all 2,606 story boxes of the script on screen and found no problem. The English needs more boxes than the Japanese in places (432 extra boxes), and the ending has 77 pages against 67 in Japanese.\n* …"
     }
    ],
    "produced_by": []
@@ -14410,6 +14546,38 @@
     }
    ]
   },
+  "FE4FF701": {
+   "crc32": "FE4FF701",
+   "size": 1048576,
+   "md5": "a461ad467a1bf5ba55fa1874017f621b",
+   "sha1": "977d5830e45c78b9020e9d06a63a9ad6bc623745",
+   "names": [
+    "Raku Jongg (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "13460ab13be4d7d0",
+     "game": "Raku Jongg",
+     "variant": "raku-jongg-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "FE4FF701",
+     "target_crc32": "4C72E4EF",
+     "target_size": 1048576,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/raku-jongg-v1.0/raku-jongg-en-1.0.bps",
+     "sha256": "13460ab13be4d7d0c38b12a2e70969814f23410b4e4eb56f40c8c9b5f54bb6cf",
+     "size": 112172,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/raku-jongg-v1.0",
+     "notes": "# Raku Jongg (WonderSwan Color) - AI English translation patch v1.0\n\n**Raku Jongg** (落雀) is a falling-block puzzle played with mahjong tiles, from Enterbrain for the WonderSwan Color (Bandai, 2001). Tiles fall into a well, and you line up three or more of a kind, build sets and finish mahjong hands to score. In Story mode the broke Eggo enters a mahjong tournament for a 10 million yen prize, to buy his girlfriend Juliet a wedding dress, and beats five strange opponents across five acts. The game also has a rank test (Dan), a time attack, a versus mode for two consoles, a classroom that teaches the rules, and a national score ranking over Bandai's Mobile WonderGate. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the 154 text messages of the cartridge (story scenes, menus, prompts, result and ranking screens, the WonderGate messages and error numbers, and all 26 pages of the classroom lesson), plus about 5,000 tile patches that redraw the text drawn as pictures: the title buttons, the …"
+    }
+   ],
+   "produced_by": []
+  },
   "FE7374D2": {
    "crc32": "FE7374D2",
    "size": 524288,
@@ -14530,6 +14698,7 @@
   "547501367ccf6262a70d0030e68cc75e": "427056C4",
   "5883b9d0f63fe8daa9c1a2259c154466": "F1F4D41F",
   "5898c0dfee65ff9b47ce6ec1be2014d5": "15C4552E",
+  "59c20a67961e60791360d8d29d937ef0": "16E0D929",
   "5a571edf5e34793c68a69bdc9dd328e5": "E357D462",
   "5e907dd88b3cfb2855a18fb1bf689860": "80C6EF12",
   "5f742027ef79b71b0007ff5654e9565f": "71556E6A",
@@ -14554,6 +14723,7 @@
   "9bfcf86bf65c9fdae4a0f88fadafd0d8": "2F9E2560",
   "9f612c697b72b2d5e87776edd95de077": "5793BDDA",
   "a23a6c63016540a3e6e1ed6f7eb5e5cc": "8E123373",
+  "a461ad467a1bf5ba55fa1874017f621b": "FE4FF701",
   "a466797b353d610f43a0f030cec721c1": "CE2F1A1D",
   "a4862ef07e13231ae429a98ef667a74a": "9C98D97D",
   "aa46ad69657bedf13ebd524959b23c86": "1A50FABF",
@@ -14665,6 +14835,7 @@
   "9427f4a6c9b6de37c205249149c11cc7ee1259ce": "9ADAFACD",
   "959321e3b971516e38a4cbf95b0fc3efc0b0a825": "F09E752F",
   "9622c65c939f05a9dfae288919ec5bd15c348f14": "A5643AA3",
+  "977d5830e45c78b9020e9d06a63a9ad6bc623745": "FE4FF701",
   "9896d93c97381dc06b6f044de6c9bd112ca0c94b": "14ADBD4B",
   "99c831c27c478064e3d3fa8f9f089cc28f0e946f": "F2E362B8",
   "99d9d7f951ae589059f34e76aea7489ae4cd79f1": "B18CDC0D",
@@ -14679,6 +14850,7 @@
   "af3fe9da3f5ee0f5a7b06b0440223db88fcb3bf2": "00137E86",
   "b40fbc7b72921c9ac31330831c0f77e4133ec7d6": "4D103236",
   "b7775e8f60fd62dc07f2865f8fad29a11e12dbb5": "0D1048F0",
+  "bf212cecbbc51ee32ee2655a072f55e7bf70b9ec": "16E0D929",
   "c07f776ac4374b648d1a49efd9d6fcd0db2ac1fa": "AF9D8F42",
   "c1ab4e24f261615ca59f937b866fcf7047b67796": "66B617D5",
   "c4436a59fd830ba6af2d63462f71e1ab1cfa3212": "56E2C069",
