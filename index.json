@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "repository": "mariovirgili/WonderSwan_bps_repo",
-  "generated_at": "2026-11-23T21:08:51+00:00",
+  "generated_at": "2026-11-23T23:38:41+00:00",
   "sources": [
     "mariovirgili/WonderSwanColor-AI_Translation",
     "PokemonGoDB/wonderswan-english-patches",
@@ -32,7 +32,7 @@
     "wonderswan_color",
     null
   ],
-  "count": 298,
+  "count": 299,
   "entries": [
     {
       "id": "fb49f952cc562ee5",
@@ -8179,6 +8179,60 @@
         "release_notes": "**Kakutou Ryouri Densetsu Bistro Recipe - Gekitou Foodon Battle Hen** is Banpresto's 1999 Game Boy Color game (also playable on the original Game Boy) based on the anime *Kakutou Ryouri Densetsu Bistro Recipe*, released only in Japan. Young Zen and his little sister Karin set out to find their father Tsukiji, a Bistra who vanished in a tournament set up by Don Cook and his Bishokker Corps. Cook dishes, turn them into fighting Foodons with Recipe Cards, battle rival Bistras, learn their recipes and free the four continents on the way to Bistgarm. It is the first Game Boy Color game in this repository.\n\nThis translation keeps the **original Japanese names** (Zen, Karin, Pitan, Haoji, Tsukiji, Bishokker, Foodon names romanized from the Japanese puns), not the names of the US dub *Fighting Foodons*.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps patch to *Kakutou Ryouri Densetsu Bistro Recipe - Gekitou Foodon Battle Hen (Japan) (SGB Enhanced) (GB Compatible).gbc* (No-Intro, 1 MB, CRC32 459A126B) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB, CRC32 BA4BE21B. Keep the .gbc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply …"
       },
       "first_seen": "2026-11-18"
+    },
+    {
+      "id": "475c8691148e2200",
+      "game": "Kakutou Ryouri Densetsu Bistro Recipe - Kettou Bistgarm Hen (Game Boy Color)",
+      "variant": "Bistro.Recipe.Bistgarm.GBC.EN.v0.9",
+      "version": "0.9",
+      "language": "en",
+      "platform": "wonderswan",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "4FBEC464",
+      "target_crc32": "5704E0DB",
+      "source_rom": {
+        "crc32": "4FBEC464",
+        "size": 1048576,
+        "crc32_from": "bps",
+        "name": "Kakutou Ryouri Densetsu Bistro Recipe - Kettou Bistgarm Hen (Japan) (SGB Enhanced) (GB Compatible)"
+      },
+      "target_rom": {
+        "crc32": "5704E0DB",
+        "size": 2097152,
+        "crc32_from": "bps"
+      },
+      "file_name": "Bistro.Recipe.Bistgarm.GBC.EN.v0.9.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/BistroBistgarmGBC_0.9/Bistro.Recipe.Bistgarm.GBC.EN.v0.9.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BistroBistgarmGBC_0.9/Bistro.Recipe.Bistgarm.GBC.EN.v0.9.bps",
+      "size": 97447,
+      "sha256": "475c8691148e22006e447d84b265a88df0df37f171bcc146a9ac829cbf05cddd",
+      "patch_crc32": "2144DF1C",
+      "source_size": 1048576,
+      "target_size": 2097152,
+      "patch_crc32_footer": "993EC401",
+      "patch_checksum_ok": true,
+      "bps_metadata": null,
+      "origin": {
+        "source": "mariovirgili/WonderSwanColor-AI_Translation",
+        "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
+        "kind": "release_asset",
+        "release_tag": "BistroBistgarmGBC_0.9",
+        "release_name": "[GBC Release] Kakutou Ryouri Densetsu Bistro Recipe - Kettou Bistgarm Hen (Game Boy Color) - English v0.9",
+        "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroBistgarmGBC_0.9",
+        "published_at": "2026-11-23T23:36:26Z",
+        "prerelease": false,
+        "asset_name": "Bistro.Recipe.Bistgarm.GBC.EN.v0.9.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/BistroBistgarmGBC_0.9/Bistro.Recipe.Bistgarm.GBC.EN.v0.9.bps",
+        "archive_member": null,
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:784955099:2026-11-23T23:34:33Z:97447",
+        "release_notes": "**Kakutou Ryouri Densetsu Bistro Recipe - Kettou Bistgarm Hen** is Banpresto's 1999 Game Boy Color game (also playable on the original Game Boy) based on the anime *Kakutou Ryouri Densetsu Bistro Recipe*, released only in Japan. It is the sequel of *Gekitou Foodon Battle Hen*: Zen has freed his father Tsukiji from the mask of Crown, and now he must storm Bistgarm, the island fortress of Don Cook and his Bishokker, beat the Big Four in their tower, free the captured Bistras and find out what Don Cook is planning. Cook dishes, turn them into fighting Foodons, battle rival Bistras, learn their recipes, try the casino and the minigames of Yatai Land, and use Pitan's new Topping Studies.\n\nThis translation keeps the **original Japanese names** (Zen, Karin, Pitan, Haoji, Tsukiji, Bishokker, Foodon names romanized from the Japanese puns), not the names of the US dub *Fighting Foodons*, and it uses the same names and terms as the English translation of *Gekitou Foodon Battle Hen*.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps patch to *Kakutou Ryouri Densetsu Bistro Recipe - Kettou Bistgarm Hen (Japan) (SGB Enhanced) (GB Compatible).gbc* (No-Intro, 1 MB, CRC32 4FBEC464) with Floating IPS, beat or …"
+      },
+      "first_seen": "2026-11-23"
     },
     {
       "id": "3da930e2c878df9b",

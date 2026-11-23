@@ -4813,6 +4813,36 @@
     }
    ]
   },
+  "4FBEC464": {
+   "crc32": "4FBEC464",
+   "size": 1048576,
+   "names": [
+    "Kakutou Ryouri Densetsu Bistro Recipe - Kettou Bistgarm Hen (Japan) (SGB Enhanced) (GB Compatible)"
+   ],
+   "patches": [
+    {
+     "id": "475c8691148e2200",
+     "game": "Kakutou Ryouri Densetsu Bistro Recipe - Kettou Bistgarm Hen (Game Boy Color)",
+     "variant": "Bistro.Recipe.Bistgarm.GBC.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "4FBEC464",
+     "target_crc32": "5704E0DB",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BistroBistgarmGBC_0.9/Bistro.Recipe.Bistgarm.GBC.EN.v0.9.bps",
+     "sha256": "475c8691148e22006e447d84b265a88df0df37f171bcc146a9ac829cbf05cddd",
+     "size": 97447,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroBistgarmGBC_0.9",
+     "notes": "**Kakutou Ryouri Densetsu Bistro Recipe - Kettou Bistgarm Hen** is Banpresto's 1999 Game Boy Color game (also playable on the original Game Boy) based on the anime *Kakutou Ryouri Densetsu Bistro Recipe*, released only in Japan. It is the sequel of *Gekitou Foodon Battle Hen*: Zen has freed his father Tsukiji from the mask of Crown, and now he must storm Bistgarm, the island fortress of Don Cook and his Bishokker, beat the Big Four in their tower, free the captured Bistras and find out what Don Cook is planning. Cook dishes, turn them into fighting Foodons, battle rival Bistras, learn their recipes, try the casino and the minigames of Yatai Land, and use Pitan's new Topping Studies.\n\nThis translation keeps the **original Japanese names** (Zen, Karin, Pitan, Haoji, Tsukiji, Bishokker, Foodon names romanized from the Japanese puns), not the names of the US dub *Fighting Foodons*, and it uses the same names and terms as the English translation of *Gekitou Foodon Battle Hen*.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps patch to *Kakutou Ryouri Densetsu Bistro Recipe - Kettou Bistgarm Hen (Japan) (SGB Enhanced) (GB Compatible).gbc* (No-Intro, 1 MB, CRC32 4FBEC464) with Floating IPS, beat or …"
+    }
+   ],
+   "produced_by": []
+  },
   "513EE998": {
    "crc32": "513EE998",
    "size": 16777216,
@@ -5142,6 +5172,34 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/fishing-freaks-v1.0",
      "notes": "> **Superseded by v1.1.** v1.1 adds a Ranking code for online leaderboards under the fish password; the translation is otherwise the same. Use v1.1 unless you need this exact version (patched ROM CRC32 57039F1F).\n\n**Fishing Freaks: Bass Rise for WonderSwan** (フィッシングフリークス バスライズ for WonderSwan) is Bec's 2000 bass-fishing game for the original (monochrome) WonderSwan, released only in Japan and played holding the console vertically. You pick a lake (a farm pond, Kasumigaura, Lake Biwa, Lake Ikehara, Lake Hibara), a season and a time of day, fill your lure box from 16 lure types in several colours, choose tackle and a rig, then cast, work the lure, set the hook and fight the fish. Lecture Mode has a guide who tips you on lures, colours and spots as you fish; Free Mode has free fishing and three tournament types (Most Weight, Biggest Fish, Most Fish) of three rounds each against 20 rival anglers, with prize lures; win all three for the ending. There's also a Lure Manual, a catch log, a link battle for two consoles, and a hidden sound test.\n\nIts text is a normal 12x12 text engine plus a lot of words drawn as pictures (menus, lure and fish names, place names, headers). This patch translates both.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to …"
+    }
+   ]
+  },
+  "5704E0DB": {
+   "crc32": "5704E0DB",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "475c8691148e2200",
+     "game": "Kakutou Ryouri Densetsu Bistro Recipe - Kettou Bistgarm Hen (Game Boy Color)",
+     "variant": "Bistro.Recipe.Bistgarm.GBC.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "4FBEC464",
+     "target_crc32": "5704E0DB",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BistroBistgarmGBC_0.9/Bistro.Recipe.Bistgarm.GBC.EN.v0.9.bps",
+     "sha256": "475c8691148e22006e447d84b265a88df0df37f171bcc146a9ac829cbf05cddd",
+     "size": 97447,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroBistgarmGBC_0.9",
+     "notes": "**Kakutou Ryouri Densetsu Bistro Recipe - Kettou Bistgarm Hen** is Banpresto's 1999 Game Boy Color game (also playable on the original Game Boy) based on the anime *Kakutou Ryouri Densetsu Bistro Recipe*, released only in Japan. It is the sequel of *Gekitou Foodon Battle Hen*: Zen has freed his father Tsukiji from the mask of Crown, and now he must storm Bistgarm, the island fortress of Don Cook and his Bishokker, beat the Big Four in their tower, free the captured Bistras and find out what Don Cook is planning. Cook dishes, turn them into fighting Foodons, battle rival Bistras, learn their recipes, try the casino and the minigames of Yatai Land, and use Pitan's new Topping Studies.\n\nThis translation keeps the **original Japanese names** (Zen, Karin, Pitan, Haoji, Tsukiji, Bishokker, Foodon names romanized from the Japanese puns), not the names of the US dub *Fighting Foodons*, and it uses the same names and terms as the English translation of *Gekitou Foodon Battle Hen*.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps patch to *Kakutou Ryouri Densetsu Bistro Recipe - Kettou Bistgarm Hen (Japan) (SGB Enhanced) (GB Compatible).gbc* (No-Intro, 1 MB, CRC32 4FBEC464) with Floating IPS, beat or …"
     }
    ]
   },
