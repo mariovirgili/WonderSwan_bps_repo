@@ -874,11 +874,6 @@
     "c0a59c764b5445373a5a4e781ca8535af09c67ea38fff5a68098acf4582a9609"
    ]
   },
-  "asset:mariovirgili/WonderSwanColor-AI_Translation:606514047:2026-10-02T21:22:44Z:676620": {
-   "entries": [
-    "1363fdfcd60d7b4453f1670252872b527306de83e69c18d5b443babadf3708a5"
-   ]
-  },
   "asset:mariovirgili/WonderSwanColor-AI_Translation:606527895:2026-10-02T21:32:32Z:562587": {
    "entries": [
     "1b8610909f815bf062a5268eebeded7d72523e85c221d7e55f55d0fc1cc091c3"
@@ -1448,17 +1443,6 @@
   "asset:mariovirgili/WonderSwanColor-AI_Translation:760404442:2026-11-17T19:49:19Z:65426": {
    "entries": []
   },
-  "asset:mariovirgili/WonderSwanColor-AI_Translation:761151247:2026-11-18T00:04:40Z:78251": {
-   "entries": [
-    "827b715a358652c7d96992ceee4511e6e1b53ed21cf96c531f953a6b0fce1653"
-   ]
-  },
-  "asset:mariovirgili/WonderSwanColor-AI_Translation:761151311:2026-11-18T00:04:41Z:57238": {
-   "entries": []
-  },
-  "asset:mariovirgili/WonderSwanColor-AI_Translation:761151916:2026-11-18T00:04:56Z:148982": {
-   "entries": []
-  },
   "asset:mariovirgili/WonderSwanColor-AI_Translation:763491512:2026-11-18T13:21:07Z:1136702": {
    "entries": [
     "6704c6e2a6025ceb07273e4cb5b00535f5f12a3d7e42ac7482e9e85f73435a8a"
@@ -1563,6 +1547,25 @@
    "entries": []
   },
   "asset:mariovirgili/WonderSwanColor-AI_Translation:784955259:2026-11-23T23:34:35Z:73457": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:784979800:2026-11-23T23:43:48Z:79672": {
+   "entries": [
+    "522dfd27211fc58a8e96a62b8b9d18cc857ddb78f59f2f03e4c3a2e5daa54f2f"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:784979855:2026-11-23T23:43:48Z:149616": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:784979882:2026-11-23T23:43:49Z:58324": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:784981951:2026-11-23T23:44:28Z:692460": {
+   "entries": [
+    "afcffb3577de2c80d7f19af9166134cd20686fd262a6142b93b669a202c721db"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:784981971:2026-11-23T23:44:28Z:7684": {
    "entries": []
   },
   "blob:Gand46/BlueWingBlitz-Wonderswan-English-Translation-AI_GPT:1ba4d77bf8f71be12be042beec307d9d1103b015:patch/Blue_Wing_Blitz_EN_Phase50_v5.0.0-test.1.bps": {

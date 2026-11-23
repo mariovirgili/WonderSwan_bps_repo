@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "8FCE596F"
+ },
+ "crc32": "8FCE596F",
+ "size": 4194304,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "afcffb3577de2c80",
+   "game": "X - Card of Fate",
+   "variant": "X.-.Card.of.Fate.EN.v0.9.1",
+   "version": "0.9.1",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "66B617D5",
+   "target_crc32": "8FCE596F",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/X-Card_0.9/X.-.Card.of.Fate.EN.v0.9.1.bps",
+   "sha256": "afcffb3577de2c80d7f19af9166134cd20686fd262a6142b93b669a202c721db",
+   "size": 692460,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/X-Card_0.9",
+   "notes": "**X - Card of Fate** is Bandai's 2002 card battle game for the WonderSwan Color, based on the TV anime of CLAMP's *X* and released only in Japan. Kamui Shiro has come back to Tokyo and the end of the world is close: the Dragons of Heaven, the Seven Seals, protect the kekkai of Tokyo, while the Dragons of Earth, the Seven Angels, want to destroy them. You pick one of fourteen characters from either side, follow their story across the 23 wards of Tokyo, talk with the others, fight card battles and win new cards among the 256 of the game.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply the .bps to *X - Card of Fate (Japan).wsc* (4 MB, CRC32 66B617D5) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB, CRC32 8FCE596F; keep the .wsc extension (the game is WonderSwan Color only).\n\nWith Floating IPS on the command line:\n\n    flips --apply \"X.-.Card.of.Fate.EN.v0.9.1.bps\" \"X - Card of Fate (Japan).wsc\" \"X - Card of Fate (EN v0.9.1).wsc\"\n\nYou must provide your own copy of the original Japanese game to apply it.\n\nYou can also try the patched game in the browser with the web emulator: https://mariovirgili.github.io/wonderswan-web/\n\n**What is translated**\n\n* The story of every character: the main …"
+  }
+ ]
+}

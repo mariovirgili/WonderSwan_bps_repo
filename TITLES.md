@@ -120,7 +120,7 @@ Last change to the patch catalog: 2026-11-23.
 | ✅ | Uzumaki - Denshi Kaiki Hen (Japan) (Rev 4) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/uzumaki-denshi-kaiki-hen-v1.0) |
 | ✅ | Vaitz Blade (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/vaitz-blade-v1.0) |
 | ✅ | Wild Card (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wild-card-v1.0) |
-| ✅ | X - Card of Fate (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/X-Card_0.9) |
+| ✅ | X - Card of Fate (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/X-Card_0.9) |
 
 ## WonderSwan (219 titles)
 
@@ -573,7 +573,7 @@ Last change to the patch catalog: 2026-11-23.
 |  | Wonder Racer (World) (WonderWitch) | `D993F2D0` | — |
 |  | WonderCell (World) (v0.2) | `49B527E4` | — |
 |  | WonderCell (World) (v0.2) (WonderWitch) | `222710FF` | — |
-| ✅ | **X - Card of Fate (Japan)** | `66B617D5` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/X-Card_0.9) |
+| ✅ | **X - Card of Fate (Japan)** | `66B617D5` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/X-Card_0.9) |
 |  | XI Little (Japan) | `25E2BA75` | — |
 |  | Yokeru Kamo (World) (v1.1) (WonderWitch) | `48F14C43` | — |
 |  | Yokeru Kamo (World) (WonderWitch) (WWGP2002) | `857C1F7A` | — |
@@ -590,6 +590,6 @@ Patches made for a ROM that is not in the lists above (another dump, revision or
 | Densha de Go 2 | `06D88203` | **English**: [Gand46 v0.4.17](https://github.com/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/blob/main/densha/patches/Densha_de_Go_2_EN_v0.4.17_from_v0.4.16_INCREMENTAL.bps) |
 | Front Mission | `A6C6E19B` | **English**: [Gand46 v033](https://github.com/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/blob/main/history/v034/history/v033/patches/v033_TEST_from_v032.bps) |
 | GnG Trainer | `EE8B3230` | **English**: [mariovirgili](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Test) |
-| Kakutou Ryouri Densetsu Bistro Recipe - Gekitou Foodon Battle Hen (Game Boy Color) | `459A126B` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipeGBC_0.9) |
+| Kakutou Ryouri Densetsu Bistro Recipe - Gekitou Foodon Battle Hen (Game Boy Color) | `459A126B` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipeGBC_0.9) |
 | Kakutou Ryouri Densetsu Bistro Recipe - Kettou Bistgarm Hen (Game Boy Color) | `4FBEC464` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroBistgarmGBC_0.9) |
 | Memories Off Pure (Neo Geo Pocket Color) | `7F919DDE` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MemoriesOffPure_0.9) |
