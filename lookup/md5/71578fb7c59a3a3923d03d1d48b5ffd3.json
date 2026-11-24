@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "query": {
+  "md5": "71578fb7c59a3a3923d03d1d48b5ffd3"
+ },
+ "crc32": "3FF5791F",
+ "size": 4194304,
+ "md5": "71578fb7c59a3a3923d03d1d48b5ffd3",
+ "sha1": "99d5bdde193685a1d09ea73bb79a54b4da82625d",
+ "names": [
+  "Inuyasha - Fuuun Emaki (Japan).wsc"
+ ],
+ "patches": [
+  {
+   "id": "44269e17a448ffba",
+   "game": "Inuyasha: Fuuun Emaki",
+   "variant": "inuyasha-fuuun-emaki-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "3FF5791F",
+   "target_crc32": "739FF4F7",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/inuyasha-fuuun-emaki-v1.0/inuyasha-fuuun-emaki-en-1.0.bps",
+   "sha256": "44269e17a448ffba5acc621ab60649d8e9039434d34de50a3c4ee1a71fb98f14",
+   "size": 478970,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-fuuun-emaki-v1.0",
+   "notes": "**Inuyasha: Fuuun Emaki** (犬夜叉 風雲絵巻) is a story-driven action-adventure for the WonderSwan Color, based on Rumiko Takahashi's Inuyasha (Bandai, 2002-07-27). You follow the story chapter by chapter over a map: portrait dialogue scenes, side-scrolling battles against demons, a skill board that grows between fights and save prompts. The title menu also offers a Versus mode and, after you have saved, 100 Fights. It was released only in Japan. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** 3,484 story and interface messages (3,483 translated; one is empty): the dialogue and chapter scenes, skills, battle and board text, save prompts, the Versus mode, 100 Fights and the ending.\n* **Text drawn as pictures:** the title subtitle and the \"Press a button\" prompt, the title menu (Story, Versus, 100 Fights), the battle banners (One Round, Begin!, Decided!, Victory, Defeat), the chapter headings (Chapter 1 to 8), the map plates, the status and rank labels, the Versus buttons and name plaques, the link …"
+  },
+  {
+   "id": "1d066c75b7bb5ac4",
+   "game": "Inuyasha: Fuuun Emaki",
+   "variant": "inuyasha-fuuun-emaki-en-debug-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "3FF5791F",
+   "target_crc32": "95E14D90",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/inuyasha-fuuun-emaki-v1.0/inuyasha-fuuun-emaki-en-debug-1.0.bps",
+   "sha256": "1d066c75b7bb5ac424247278efb6cb5ff8232d38f65110718d2638559f639f6a",
+   "size": 478973,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-fuuun-emaki-v1.0",
+   "notes": "**Inuyasha: Fuuun Emaki** (犬夜叉 風雲絵巻) is a story-driven action-adventure for the WonderSwan Color, based on Rumiko Takahashi's Inuyasha (Bandai, 2002-07-27). You follow the story chapter by chapter over a map: portrait dialogue scenes, side-scrolling battles against demons, a skill board that grows between fights and save prompts. The title menu also offers a Versus mode and, after you have saved, 100 Fights. It was released only in Japan. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** 3,484 story and interface messages (3,483 translated; one is empty): the dialogue and chapter scenes, skills, battle and board text, save prompts, the Versus mode, 100 Fights and the ending.\n* **Text drawn as pictures:** the title subtitle and the \"Press a button\" prompt, the title menu (Story, Versus, 100 Fights), the battle banners (One Round, Begin!, Decided!, Victory, Defeat), the chapter headings (Chapter 1 to 8), the map plates, the status and rank labels, the Versus buttons and name plaques, the link …"
+  }
+ ],
+ "produced_by": []
+}

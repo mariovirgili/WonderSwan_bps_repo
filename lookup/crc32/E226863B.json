@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "E226863B"
+ },
+ "crc32": "E226863B",
+ "size": 2097152,
+ "md5": "1990a2c04395b08df6181f6c8be2a953",
+ "sha1": "e5684789e81f9d739010db575022a12a448b5509",
+ "names": [
+  "Meitantei Conan - Nishi no Meitantei Saidai no Kiki! (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "6b6990aa5f4ed215",
+   "game": "Meitantei Conan: Nishi no Meitantei Saidai no Kiki!?",
+   "variant": "Meitantei.Conan.Nishi.no.Meitantei.Saidai.no.Kiki.EN.v0.9",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "E226863B",
+   "target_crc32": "C2AEACF8",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/ConanNishi_0.9/Meitantei.Conan.Nishi.no.Meitantei.Saidai.no.Kiki.EN.v0.9.bps",
+   "sha256": "6b6990aa5f4ed21543ff014c5655813cfb91e73c168c380f42c5b204ae06f793",
+   "size": 863787,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ConanNishi_0.9",
+   "notes": "Meitantei Conan: Nishi no Meitantei Saidai no Kiki!? (Detective Conan: The Western Detective's Greatest Crisis!?) is Bandai's 2000 WonderSwan detective adventure, released only in Japan. Conan, Ran, Kogoro, the Detective Boys and Heiji Hattori solve a chain of cases around Beika City until Heiji himself disappears and Conan must find him in time. You walk the town map, question witnesses, collect Hints and Keys and solve each mystery with the O-X Tool, a logic grid. The Conan Notebook adds character profiles, daily fortunes, a friend list with data exchange and a schedule. The minor characters (suspects, witnesses, shop staff) get their names from the game's casting database, so they change from game to game.\n\nThe translation comes in two versions with the same English text: normal (upper and lower case) and ALL CAPS. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> Please read: this translation was made entirely with AI, as a personal project. It is shared as it is for anyone who wants to play, but it must never be uploaded to romhacking sites (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n## Images\n\nALL CAPS version:\n\n## How to patch\n\nApply one of the patches to *Meitantei Conan - Nishi no Meitantei Saidai no Kiki! (Japan).ws* (2 MB, CRC32 E226863B) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB; keep the .ws extension.\n\n* Normal: …"
+  },
+  {
+   "id": "575eacd88c47e8d6",
+   "game": "Meitantei Conan: Nishi no Meitantei Saidai no Kiki!?",
+   "variant": "Meitantei.Conan.Nishi.no.Meitantei.Saidai.no.Kiki.EN.v0.9.ALL.CAPS",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "E226863B",
+   "target_crc32": "F112AAD4",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/ConanNishi_0.9/Meitantei.Conan.Nishi.no.Meitantei.Saidai.no.Kiki.EN.v0.9.ALL.CAPS.bps",
+   "sha256": "575eacd88c47e8d67c27fabe6a6f3fab5e5bf2612d0175a12b1dff1d440057c9",
+   "size": 863717,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ConanNishi_0.9",
+   "notes": "Meitantei Conan: Nishi no Meitantei Saidai no Kiki!? (Detective Conan: The Western Detective's Greatest Crisis!?) is Bandai's 2000 WonderSwan detective adventure, released only in Japan. Conan, Ran, Kogoro, the Detective Boys and Heiji Hattori solve a chain of cases around Beika City until Heiji himself disappears and Conan must find him in time. You walk the town map, question witnesses, collect Hints and Keys and solve each mystery with the O-X Tool, a logic grid. The Conan Notebook adds character profiles, daily fortunes, a friend list with data exchange and a schedule. The minor characters (suspects, witnesses, shop staff) get their names from the game's casting database, so they change from game to game.\n\nThe translation comes in two versions with the same English text: normal (upper and lower case) and ALL CAPS. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> Please read: this translation was made entirely with AI, as a personal project. It is shared as it is for anyone who wants to play, but it must never be uploaded to romhacking sites (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n## Images\n\nALL CAPS version:\n\n## How to patch\n\nApply one of the patches to *Meitantei Conan - Nishi no Meitantei Saidai no Kiki! (Japan).ws* (2 MB, CRC32 E226863B) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB; keep the .ws extension.\n\n* Normal: …"
+  }
+ ],
+ "produced_by": []
+}

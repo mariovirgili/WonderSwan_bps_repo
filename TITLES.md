@@ -4,12 +4,12 @@ Every released WonderSwan and WonderSwan Color title, and the translation patche
 
 | System | Titles | With a translation patch |
 | --- | ---: | ---: |
-| WonderSwan | 219 | 50 (+5 ⚠️ another dump) |
-| WonderSwan Color | 229 | 54 (+1 ⚠️ another dump) |
+| WonderSwan | 219 | 51 (+5 ⚠️ another dump) |
+| WonderSwan Color | 229 | 55 (+1 ⚠️ another dump) |
 
 Last change to the patch catalog: 2026-11-24.
 
-## Titles with translation patches (110)
+## Titles with translation patches (112)
 
 | | Title | System | Patches (newest version of each author) |
 | :---: | --- | --- | --- |
@@ -69,6 +69,7 @@ Last change to the patch catalog: 2026-11-24.
 | ✅ | Hunter X Hunter - Greed Island (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HxH_GreedIsland_0.9) |
 | ✅ | Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 2) | WonderSwan | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/hxh-ishi-v1.1) |
 | ✅ | Hunter X Hunter - Sorezore no Ketsui (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HxH_SorezoreNoKetsui_0.9) |
+| ✅ | Inuyasha - Fuuun Emaki (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-fuuun-emaki-v1.0) |
 | ✅ | Judgement Silversword - Rebirth Edition (Japan) (Rev 5C21) | WonderSwan Color | **English**: [mariovirgili v2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/JSS_Arrange_2.7) |
 | ✅ | Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan) | WonderSwan | **English**: [mariovirgili v0.9.5](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9) |
 | ✅ | Kaze no Klonoa - Moonlight Museum (Japan) | WonderSwan | **English**: [mariovirgili v39.4M](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Klonoa_MM_0.9) |
@@ -85,6 +86,7 @@ Last change to the patch catalog: 2026-11-24.
 | ✅ | Medarot Perfect Edition - Kabuto Version (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0) |
 | ✅ | Medarot Perfect Edition - Kuwagata Version (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0) |
 | ✅ | Meitantei Conan - Majutsushi no Chousenjou! (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ConanMajutsushi_0.9) |
+| ✅ | Meitantei Conan - Nishi no Meitantei Saidai no Kiki! (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ConanNishi_0.9) |
 | ✅ | Meitantei Conan - Yuugure no Oujo (Japan) (WS Compatible) | WonderSwan Color | **English**: [mariovirgili v0.9.6](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9.2) |
 | ✅ | Memories Off - Festa (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MemoriesOffFesta_0.9) |
 | ✅ | MobileWonderGate (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/mobile-wondergate-v1.0) |
@@ -234,7 +236,7 @@ Last change to the patch catalog: 2026-11-24.
 | ✅ | **Medarot Perfect Edition - Kabuto Version (Japan)** | `12FB8B28` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0) |
 | ✅ | **Medarot Perfect Edition - Kuwagata Version (Japan)** | `2B40745D` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0) |
 | ✅ | **Meitantei Conan - Majutsushi no Chousenjou! (Japan)** | `92FBF7FB` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ConanMajutsushi_0.9) |
-|  | Meitantei Conan - Nishi no Meitantei Saidai no Kiki! (Japan) | `E226863B` | — |
+| ✅ | **Meitantei Conan - Nishi no Meitantei Saidai no Kiki! (Japan)** | `E226863B` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ConanNishi_0.9) |
 |  | Metakomi Theraphy - Nee Kiite! (Japan) | `A3EAD689` | — |
 |  | Migi Mawari no Randi (World) (Proto) (WonderWitch) | `C6412766` | — |
 |  | Mingle Magnet (Japan) (En,Ja) (Rev 1) | `9BAAC7BB` | — |
@@ -451,7 +453,7 @@ Last change to the patch catalog: 2026-11-24.
 |  | Ice Cream Shop (World) (WonderWitch) | `5E383EC0` | — |
 |  | Illusion Garden (World) (Ja) (WonderWitch) | `1FBD22DD` | — |
 |  | Inu Renda 2 (World) (Ja) (WonderWitch) | `CCA71DCE` | — |
-|  | Inuyasha - Fuuun Emaki (Japan) | `3FF5791F` | — |
+| ✅ | **Inuyasha - Fuuun Emaki (Japan)** | `3FF5791F` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-fuuun-emaki-v1.0) |
 |  | Inuyasha - Kagome no Sengoku Nikki (Japan) | `0C23D551` | — |
 |  | Inuyasha - Kagome no Yume Nikki (Japan) | `44453234` | — |
 |  | Isomon - Get Oh No!! (World) (Ja) (WonderWitch) | `3884DD9F` | — |

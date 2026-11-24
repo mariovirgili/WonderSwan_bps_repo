@@ -3842,6 +3842,58 @@
     }
    ]
   },
+  "3FF5791F": {
+   "crc32": "3FF5791F",
+   "size": 4194304,
+   "md5": "71578fb7c59a3a3923d03d1d48b5ffd3",
+   "sha1": "99d5bdde193685a1d09ea73bb79a54b4da82625d",
+   "names": [
+    "Inuyasha - Fuuun Emaki (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "44269e17a448ffba",
+     "game": "Inuyasha: Fuuun Emaki",
+     "variant": "inuyasha-fuuun-emaki-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "3FF5791F",
+     "target_crc32": "739FF4F7",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/inuyasha-fuuun-emaki-v1.0/inuyasha-fuuun-emaki-en-1.0.bps",
+     "sha256": "44269e17a448ffba5acc621ab60649d8e9039434d34de50a3c4ee1a71fb98f14",
+     "size": 478970,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-fuuun-emaki-v1.0",
+     "notes": "**Inuyasha: Fuuun Emaki** (犬夜叉 風雲絵巻) is a story-driven action-adventure for the WonderSwan Color, based on Rumiko Takahashi's Inuyasha (Bandai, 2002-07-27). You follow the story chapter by chapter over a map: portrait dialogue scenes, side-scrolling battles against demons, a skill board that grows between fights and save prompts. The title menu also offers a Versus mode and, after you have saved, 100 Fights. It was released only in Japan. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** 3,484 story and interface messages (3,483 translated; one is empty): the dialogue and chapter scenes, skills, battle and board text, save prompts, the Versus mode, 100 Fights and the ending.\n* **Text drawn as pictures:** the title subtitle and the \"Press a button\" prompt, the title menu (Story, Versus, 100 Fights), the battle banners (One Round, Begin!, Decided!, Victory, Defeat), the chapter headings (Chapter 1 to 8), the map plates, the status and rank labels, the Versus buttons and name plaques, the link …"
+    },
+    {
+     "id": "1d066c75b7bb5ac4",
+     "game": "Inuyasha: Fuuun Emaki",
+     "variant": "inuyasha-fuuun-emaki-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "3FF5791F",
+     "target_crc32": "95E14D90",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/inuyasha-fuuun-emaki-v1.0/inuyasha-fuuun-emaki-en-debug-1.0.bps",
+     "sha256": "1d066c75b7bb5ac424247278efb6cb5ff8232d38f65110718d2638559f639f6a",
+     "size": 478973,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-fuuun-emaki-v1.0",
+     "notes": "**Inuyasha: Fuuun Emaki** (犬夜叉 風雲絵巻) is a story-driven action-adventure for the WonderSwan Color, based on Rumiko Takahashi's Inuyasha (Bandai, 2002-07-27). You follow the story chapter by chapter over a map: portrait dialogue scenes, side-scrolling battles against demons, a skill board that grows between fights and save prompts. The title menu also offers a Versus mode and, after you have saved, 100 Fights. It was released only in Japan. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** 3,484 story and interface messages (3,483 translated; one is empty): the dialogue and chapter scenes, skills, battle and board text, save prompts, the Versus mode, 100 Fights and the ending.\n* **Text drawn as pictures:** the title subtitle and the \"Press a button\" prompt, the title menu (Story, Versus, 100 Fights), the battle banners (One Round, Begin!, Decided!, Victory, Defeat), the chapter headings (Chapter 1 to 8), the map plates, the status and rank labels, the Versus buttons and name plaques, the link …"
+    }
+   ],
+   "produced_by": []
+  },
   "40E63922": {
    "crc32": "40E63922",
    "size": 8388608,
@@ -6919,6 +6971,34 @@
     }
    ]
   },
+  "739FF4F7": {
+   "crc32": "739FF4F7",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "44269e17a448ffba",
+     "game": "Inuyasha: Fuuun Emaki",
+     "variant": "inuyasha-fuuun-emaki-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "3FF5791F",
+     "target_crc32": "739FF4F7",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/inuyasha-fuuun-emaki-v1.0/inuyasha-fuuun-emaki-en-1.0.bps",
+     "sha256": "44269e17a448ffba5acc621ab60649d8e9039434d34de50a3c4ee1a71fb98f14",
+     "size": 478970,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-fuuun-emaki-v1.0",
+     "notes": "**Inuyasha: Fuuun Emaki** (犬夜叉 風雲絵巻) is a story-driven action-adventure for the WonderSwan Color, based on Rumiko Takahashi's Inuyasha (Bandai, 2002-07-27). You follow the story chapter by chapter over a map: portrait dialogue scenes, side-scrolling battles against demons, a skill board that grows between fights and save prompts. The title menu also offers a Versus mode and, after you have saved, 100 Fights. It was released only in Japan. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** 3,484 story and interface messages (3,483 translated; one is empty): the dialogue and chapter scenes, skills, battle and board text, save prompts, the Versus mode, 100 Fights and the ending.\n* **Text drawn as pictures:** the title subtitle and the \"Press a button\" prompt, the title menu (Story, Versus, 100 Fights), the battle banners (One Round, Begin!, Decided!, Victory, Defeat), the chapter headings (Chapter 1 to 8), the map plates, the status and rank labels, the Versus buttons and name plaques, the link …"
+    }
+   ]
+  },
   "76D6F197": {
    "crc32": "76D6F197",
    "size": 1048576,
@@ -8830,6 +8910,34 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.1",
      "notes": "**Chou Denki Card Battle: Youfu Makai** (超伝奇カードバトル 妖符魔界) is a 1999 card battle game from Kobunsha and Kappa Games for the original (monochrome) WonderSwan, released only in Japan. The scenario is by Hideyuki Kikuchi (*Vampire Hunter D*, *Demon City Shinjuku*) and the art by Ayami Kojima. It's set in Kikuchi's Demon City Shinjuku, and its story runs in three parts, told as illustrated pages of prose between battles with Demon Cards. You build a 30-card deck, lay cards on a field where each card's arrows set the direction it attacks, and win by covering the field with your own cards.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole story, all three parts (Crimson Lotus, Cursed Cards, Fusion), as horizontal English prose in place of the vertical Japanese.\n* Every card name, and the descriptions of all 200 cards in the Card Craft card view (press the Y pad left or right on the deck screen).\n* The menus (Scenario, Those in the Way, Worthy Rival, Card Craft...), the deck rules, the battle screens, and the save and erase prompts.\n* Graphics: the title logo becomes YOUFU MAKAI with …"
+    }
+   ]
+  },
+  "95E14D90": {
+   "crc32": "95E14D90",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "1d066c75b7bb5ac4",
+     "game": "Inuyasha: Fuuun Emaki",
+     "variant": "inuyasha-fuuun-emaki-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "3FF5791F",
+     "target_crc32": "95E14D90",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/inuyasha-fuuun-emaki-v1.0/inuyasha-fuuun-emaki-en-debug-1.0.bps",
+     "sha256": "1d066c75b7bb5ac424247278efb6cb5ff8232d38f65110718d2638559f639f6a",
+     "size": 478973,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-fuuun-emaki-v1.0",
+     "notes": "**Inuyasha: Fuuun Emaki** (犬夜叉 風雲絵巻) is a story-driven action-adventure for the WonderSwan Color, based on Rumiko Takahashi's Inuyasha (Bandai, 2002-07-27). You follow the story chapter by chapter over a map: portrait dialogue scenes, side-scrolling battles against demons, a skill board that grows between fights and save prompts. The title menu also offers a Versus mode and, after you have saved, 100 Fights. It was released only in Japan. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** 3,484 story and interface messages (3,483 translated; one is empty): the dialogue and chapter scenes, skills, battle and board text, save prompts, the Versus mode, 100 Fights and the ending.\n* **Text drawn as pictures:** the title subtitle and the \"Press a button\" prompt, the title menu (Story, Versus, 100 Fights), the battle banners (One Round, Begin!, Decided!, Victory, Defeat), the chapter headings (Chapter 1 to 8), the map plates, the status and rank labels, the Versus buttons and name plaques, the link …"
     }
    ]
   },
@@ -11410,6 +11518,34 @@
     }
    ]
   },
+  "C2AEACF8": {
+   "crc32": "C2AEACF8",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "6b6990aa5f4ed215",
+     "game": "Meitantei Conan: Nishi no Meitantei Saidai no Kiki!?",
+     "variant": "Meitantei.Conan.Nishi.no.Meitantei.Saidai.no.Kiki.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "E226863B",
+     "target_crc32": "C2AEACF8",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/ConanNishi_0.9/Meitantei.Conan.Nishi.no.Meitantei.Saidai.no.Kiki.EN.v0.9.bps",
+     "sha256": "6b6990aa5f4ed21543ff014c5655813cfb91e73c168c380f42c5b204ae06f793",
+     "size": 863787,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ConanNishi_0.9",
+     "notes": "Meitantei Conan: Nishi no Meitantei Saidai no Kiki!? (Detective Conan: The Western Detective's Greatest Crisis!?) is Bandai's 2000 WonderSwan detective adventure, released only in Japan. Conan, Ran, Kogoro, the Detective Boys and Heiji Hattori solve a chain of cases around Beika City until Heiji himself disappears and Conan must find him in time. You walk the town map, question witnesses, collect Hints and Keys and solve each mystery with the O-X Tool, a logic grid. The Conan Notebook adds character profiles, daily fortunes, a friend list with data exchange and a schedule. The minor characters (suspects, witnesses, shop staff) get their names from the game's casting database, so they change from game to game.\n\nThe translation comes in two versions with the same English text: normal (upper and lower case) and ALL CAPS. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> Please read: this translation was made entirely with AI, as a personal project. It is shared as it is for anyone who wants to play, but it must never be uploaded to romhacking sites (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n## Images\n\nALL CAPS version:\n\n## How to patch\n\nApply one of the patches to *Meitantei Conan - Nishi no Meitantei Saidai no Kiki! (Japan).ws* (2 MB, CRC32 E226863B) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB; keep the .ws extension.\n\n* Normal: …"
+    }
+   ]
+  },
   "C2F3CCBD": {
    "crc32": "C2F3CCBD",
    "size": 8388608,
@@ -12966,6 +13102,58 @@
     }
    ]
   },
+  "E226863B": {
+   "crc32": "E226863B",
+   "size": 2097152,
+   "md5": "1990a2c04395b08df6181f6c8be2a953",
+   "sha1": "e5684789e81f9d739010db575022a12a448b5509",
+   "names": [
+    "Meitantei Conan - Nishi no Meitantei Saidai no Kiki! (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "6b6990aa5f4ed215",
+     "game": "Meitantei Conan: Nishi no Meitantei Saidai no Kiki!?",
+     "variant": "Meitantei.Conan.Nishi.no.Meitantei.Saidai.no.Kiki.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "E226863B",
+     "target_crc32": "C2AEACF8",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/ConanNishi_0.9/Meitantei.Conan.Nishi.no.Meitantei.Saidai.no.Kiki.EN.v0.9.bps",
+     "sha256": "6b6990aa5f4ed21543ff014c5655813cfb91e73c168c380f42c5b204ae06f793",
+     "size": 863787,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ConanNishi_0.9",
+     "notes": "Meitantei Conan: Nishi no Meitantei Saidai no Kiki!? (Detective Conan: The Western Detective's Greatest Crisis!?) is Bandai's 2000 WonderSwan detective adventure, released only in Japan. Conan, Ran, Kogoro, the Detective Boys and Heiji Hattori solve a chain of cases around Beika City until Heiji himself disappears and Conan must find him in time. You walk the town map, question witnesses, collect Hints and Keys and solve each mystery with the O-X Tool, a logic grid. The Conan Notebook adds character profiles, daily fortunes, a friend list with data exchange and a schedule. The minor characters (suspects, witnesses, shop staff) get their names from the game's casting database, so they change from game to game.\n\nThe translation comes in two versions with the same English text: normal (upper and lower case) and ALL CAPS. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> Please read: this translation was made entirely with AI, as a personal project. It is shared as it is for anyone who wants to play, but it must never be uploaded to romhacking sites (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n## Images\n\nALL CAPS version:\n\n## How to patch\n\nApply one of the patches to *Meitantei Conan - Nishi no Meitantei Saidai no Kiki! (Japan).ws* (2 MB, CRC32 E226863B) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB; keep the .ws extension.\n\n* Normal: …"
+    },
+    {
+     "id": "575eacd88c47e8d6",
+     "game": "Meitantei Conan: Nishi no Meitantei Saidai no Kiki!?",
+     "variant": "Meitantei.Conan.Nishi.no.Meitantei.Saidai.no.Kiki.EN.v0.9.ALL.CAPS",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "E226863B",
+     "target_crc32": "F112AAD4",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/ConanNishi_0.9/Meitantei.Conan.Nishi.no.Meitantei.Saidai.no.Kiki.EN.v0.9.ALL.CAPS.bps",
+     "sha256": "575eacd88c47e8d67c27fabe6a6f3fab5e5bf2612d0175a12b1dff1d440057c9",
+     "size": 863717,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ConanNishi_0.9",
+     "notes": "Meitantei Conan: Nishi no Meitantei Saidai no Kiki!? (Detective Conan: The Western Detective's Greatest Crisis!?) is Bandai's 2000 WonderSwan detective adventure, released only in Japan. Conan, Ran, Kogoro, the Detective Boys and Heiji Hattori solve a chain of cases around Beika City until Heiji himself disappears and Conan must find him in time. You walk the town map, question witnesses, collect Hints and Keys and solve each mystery with the O-X Tool, a logic grid. The Conan Notebook adds character profiles, daily fortunes, a friend list with data exchange and a schedule. The minor characters (suspects, witnesses, shop staff) get their names from the game's casting database, so they change from game to game.\n\nThe translation comes in two versions with the same English text: normal (upper and lower case) and ALL CAPS. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> Please read: this translation was made entirely with AI, as a personal project. It is shared as it is for anyone who wants to play, but it must never be uploaded to romhacking sites (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n## Images\n\nALL CAPS version:\n\n## How to patch\n\nApply one of the patches to *Meitantei Conan - Nishi no Meitantei Saidai no Kiki! (Japan).ws* (2 MB, CRC32 E226863B) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB; keep the .ws extension.\n\n* Normal: …"
+    }
+   ],
+   "produced_by": []
+  },
   "E2317345": {
    "crc32": "E2317345",
    "size": 8388608,
@@ -13981,6 +14169,34 @@
     }
    ],
    "produced_by": []
+  },
+  "F112AAD4": {
+   "crc32": "F112AAD4",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "575eacd88c47e8d6",
+     "game": "Meitantei Conan: Nishi no Meitantei Saidai no Kiki!?",
+     "variant": "Meitantei.Conan.Nishi.no.Meitantei.Saidai.no.Kiki.EN.v0.9.ALL.CAPS",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "E226863B",
+     "target_crc32": "F112AAD4",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/ConanNishi_0.9/Meitantei.Conan.Nishi.no.Meitantei.Saidai.no.Kiki.EN.v0.9.ALL.CAPS.bps",
+     "sha256": "575eacd88c47e8d67c27fabe6a6f3fab5e5bf2612d0175a12b1dff1d440057c9",
+     "size": 863717,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ConanNishi_0.9",
+     "notes": "Meitantei Conan: Nishi no Meitantei Saidai no Kiki!? (Detective Conan: The Western Detective's Greatest Crisis!?) is Bandai's 2000 WonderSwan detective adventure, released only in Japan. Conan, Ran, Kogoro, the Detective Boys and Heiji Hattori solve a chain of cases around Beika City until Heiji himself disappears and Conan must find him in time. You walk the town map, question witnesses, collect Hints and Keys and solve each mystery with the O-X Tool, a logic grid. The Conan Notebook adds character profiles, daily fortunes, a friend list with data exchange and a schedule. The minor characters (suspects, witnesses, shop staff) get their names from the game's casting database, so they change from game to game.\n\nThe translation comes in two versions with the same English text: normal (upper and lower case) and ALL CAPS. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> Please read: this translation was made entirely with AI, as a personal project. It is shared as it is for anyone who wants to play, but it must never be uploaded to romhacking sites (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n## Images\n\nALL CAPS version:\n\n## How to patch\n\nApply one of the patches to *Meitantei Conan - Nishi no Meitantei Saidai no Kiki! (Japan).ws* (2 MB, CRC32 E226863B) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB; keep the .ws extension.\n\n* Normal: …"
+    }
+   ]
   },
   "F1EF50C6": {
    "crc32": "F1EF50C6",
@@ -15009,6 +15225,7 @@
   "166946565e646215816123677c7c2108": "3DF3E34C",
   "173e9d76206a88bf05696027b4d55850": "0E40829C",
   "18267bcb9d31ffb6711f5464f6ab8077": "18ECFFB8",
+  "1990a2c04395b08df6181f6c8be2a953": "E226863B",
   "1adacf9cb5aa3eb5839a9e2c94933348": "00137E86",
   "1e8bca5c31f62a9dd1121884351a2885": "E7C608E5",
   "1ea61538422bc2d6349c321fa15b334f": "99027238",
@@ -15042,6 +15259,7 @@
   "6c1b75de270e7e96df161833a5522b7d": "31E09BED",
   "6ec4fe6789acab4347355fcb53f10146": "9F6E3F8D",
   "6f09fc64352ba0051e724c4ae58402f4": "A193458C",
+  "71578fb7c59a3a3923d03d1d48b5ffd3": "3FF5791F",
   "7209acaa3415a4f179ac17fd574453a6": "067238D1",
   "7528a5de5924896d152920b1eaf8fd5d": "425EB893",
   "768b8f5722f0b07be4e8ac356e90acf2": "B5E675AE",
@@ -15177,6 +15395,7 @@
   "977d5830e45c78b9020e9d06a63a9ad6bc623745": "FE4FF701",
   "9896d93c97381dc06b6f044de6c9bd112ca0c94b": "14ADBD4B",
   "99c831c27c478064e3d3fa8f9f089cc28f0e946f": "F2E362B8",
+  "99d5bdde193685a1d09ea73bb79a54b4da82625d": "3FF5791F",
   "99d9d7f951ae589059f34e76aea7489ae4cd79f1": "B18CDC0D",
   "9b4786adca7b83fe66a9d4b9fd4ffaf32abe7656": "1F10CA75",
   "9fdf3f5821f2a4488139525fe49e87b23de4571f": "9E0854E2",
@@ -15212,6 +15431,7 @@
   "e212bba4fac51bbfcf440966da0e67b1686dcfc5": "27B3CC18",
   "e26410d4eee4cc8cec5e2e369604aedf26d69d0c": "130AF567",
   "e31bfa54cbf539a9d28090b372d8e669a93c3e28": "1E760C41",
+  "e5684789e81f9d739010db575022a12a448b5509": "E226863B",
   "ea878a485a20abd5251065fd66e82d9d8b8a669d": "D9401F0A",
   "eb538b82c5516fae8ce38778e41fb118aa5c830f": "7FFF2520",
   "ebd4b37ade6df717f7b637747a4d3c45a6cca037": "C60E5162",
