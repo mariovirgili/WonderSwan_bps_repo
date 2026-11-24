@@ -4,12 +4,12 @@ Every released WonderSwan and WonderSwan Color title, and the translation patche
 
 | System | Titles | With a translation patch |
 | --- | ---: | ---: |
-| WonderSwan | 219 | 48 (+5 ⚠️ another dump) |
+| WonderSwan | 219 | 50 (+5 ⚠️ another dump) |
 | WonderSwan Color | 229 | 54 (+1 ⚠️ another dump) |
 
 Last change to the patch catalog: 2026-11-24.
 
-## Titles with translation patches (108)
+## Titles with translation patches (110)
 
 | | Title | System | Patches (newest version of each author) |
 | :---: | --- | --- | --- |
@@ -84,6 +84,7 @@ Last change to the patch catalog: 2026-11-24.
 | ✅ | Makaimura for WonderSwan (Japan) | WonderSwan | **English**: [Gand46 v1](https://github.com/Gand46/MakaiMura-EEPROM-Wonderswan-English-Translation-AI_GPT-/blob/main/eeprom-mod/hf20-compatible/patches/Makaimura_HF20_EEPROM_v1_FROM_JP.bps) |
 | ✅ | Medarot Perfect Edition - Kabuto Version (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0) |
 | ✅ | Medarot Perfect Edition - Kuwagata Version (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0) |
+| ✅ | Meitantei Conan - Majutsushi no Chousenjou! (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ConanMajutsushi_0.9) |
 | ✅ | Meitantei Conan - Yuugure no Oujo (Japan) (WS Compatible) | WonderSwan Color | **English**: [mariovirgili v0.9.6](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9.2) |
 | ✅ | Memories Off - Festa (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MemoriesOffFesta_0.9) |
 | ✅ | MobileWonderGate (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/mobile-wondergate-v1.0) |
@@ -114,6 +115,7 @@ Last change to the patch catalog: 2026-11-24.
 | ✅ | Super Robot Taisen Compact for WonderSwan Color (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-wsc-v1.0) |
 | ✅ | Tanjou Debut for WonderSwan (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tanjou-debut-v1.0) |
 | ✅ | Tare Panda no GunPey (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tare-panda-gunpey-v1.0) |
+| ✅ | Tekken Card Challenge (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tekken-card-challenge-v1.0) |
 | ✅ | Tetsujin 28 Gou (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Tetsujin28_0.9) |
 | ✅ | Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan) | WonderSwan | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BokanDensetsu_0.9) |
 | ✅ | Uchuu Senkan Yamato (Japan) (WS Compatible) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/UchuuSenkanYamato_0.9) |
@@ -231,7 +233,7 @@ Last change to the patch catalog: 2026-11-24.
 | ✅ | **Makaimura for WonderSwan (Japan)** | `00B31FBB` | **English**: [Gand46 v1](https://github.com/Gand46/MakaiMura-EEPROM-Wonderswan-English-Translation-AI_GPT-/blob/main/eeprom-mod/hf20-compatible/patches/Makaimura_HF20_EEPROM_v1_FROM_JP.bps) |
 | ✅ | **Medarot Perfect Edition - Kabuto Version (Japan)** | `12FB8B28` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0) |
 | ✅ | **Medarot Perfect Edition - Kuwagata Version (Japan)** | `2B40745D` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/medarot-v1.0) |
-|  | Meitantei Conan - Majutsushi no Chousenjou! (Japan) | `92FBF7FB` | — |
+| ✅ | **Meitantei Conan - Majutsushi no Chousenjou! (Japan)** | `92FBF7FB` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ConanMajutsushi_0.9) |
 |  | Meitantei Conan - Nishi no Meitantei Saidai no Kiki! (Japan) | `E226863B` | — |
 |  | Metakomi Theraphy - Nee Kiite! (Japan) | `A3EAD689` | — |
 |  | Migi Mawari no Randi (World) (Proto) (WonderWitch) | `C6412766` | — |
@@ -309,7 +311,7 @@ Last change to the patch catalog: 2026-11-24.
 |  | Taitoru Moji Koudo-hyo (World) (Ja) (WonderWitch) | `D497C07D` | — |
 | ✅ | **Tanjou Debut for WonderSwan (Japan) (Rev 1)** | `8B74F59A` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tanjou-debut-v1.0) |
 | ✅ | **Tare Panda no GunPey (Japan)** | `A5643AA3` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tare-panda-gunpey-v1.0) |
-|  | Tekken Card Challenge (Japan) | `E7C608E5` | — |
+| ✅ | **Tekken Card Challenge (Japan)** | `E7C608E5` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tekken-card-challenge-v1.0) |
 |  | Tenori-on (Japan) (En) | `6FE79BB1` | — |
 |  | Terrors (Japan) | `EF5B6B82` | — |
 |  | Testarossa (World) (WonderWitch) | `D291B29B` | — |

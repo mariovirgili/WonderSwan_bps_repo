@@ -1,0 +1,36 @@
+{
+ "schema": 1,
+ "query": {
+  "md5": "1e8bca5c31f62a9dd1121884351a2885"
+ },
+ "crc32": "E7C608E5",
+ "size": 1048576,
+ "md5": "1e8bca5c31f62a9dd1121884351a2885",
+ "sha1": "96a9ce5e56dc0c9648027ad4454e6f35e88d9a07",
+ "names": [
+  "Tekken Card Challenge (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "ed14667e39a2612b",
+   "game": "Tekken Card Challenge",
+   "variant": "tekken-card-challenge-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "E7C608E5",
+   "target_crc32": "2FAA5139",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/tekken-card-challenge-v1.0/tekken-card-challenge-en-1.0.bps",
+   "sha256": "ed14667e39a2612b802f1ff40255410521308d424cb71bdcf33abef6e3216677",
+   "size": 88793,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tekken-card-challenge-v1.0",
+   "notes": "**Tekken Card Challenge** (鉄拳 カードチャレンジ) is a card-fighting spin-off of Namco's Tekken for the WonderSwan (Bandai, 1998 on the title screen). In Adventure mode you pick a fighter and walk a map, collecting cards and meeting rivals; each meeting is a card duel in which both sides choose cards and the moves play out as a bout. Stage by stage your fighter levels up at the shrines, and defeated rivals can become selectable. The game also has a one-player battle, a two-player battle, a link-cable battle and the fighter bios of 21 fighters. It was released only in Japan. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story intro, the bios of all 21 fighters, the reading and the description of every card (12 per fighter; 547 text strings in all), the effect labels, the special-card text and the menus.\n* **Text drawn as pictures:** 228 distinct card-name pictures (the move names on the cards), the mode menu and its submenus, the link-wait heading, the stage-clear menu and the map-help diagram …"
+  }
+ ],
+ "produced_by": []
+}

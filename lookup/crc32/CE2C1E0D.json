@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "CE2C1E0D"
+ },
+ "crc32": "CE2C1E0D",
+ "size": 2097152,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "b04135c38a4c5fed",
+   "game": "Meitantei Conan: Majutsushi no Chousenjou!",
+   "variant": "Meitantei.Conan.Majutsushi.no.Chousenjou.EN.v0.9",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "92FBF7FB",
+   "target_crc32": "CE2C1E0D",
+   "target_size": 2097152,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/ConanMajutsushi_0.9/Meitantei.Conan.Majutsushi.no.Chousenjou.EN.v0.9.bps",
+   "sha256": "b04135c38a4c5fed348c26c06bb266cf2f0fcf03685cffc17e5ca030bb55ace0",
+   "size": 635375,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ConanMajutsushi_0.9",
+   "notes": "**Meitantei Conan: Majutsushi no Chousenjou!** (Detective Conan: The Wizard's Challenge!) is Bandai's 1999 WonderSwan detective adventure, released only in Japan. Conan, Ran, Kogoro, the Detective Boys, Heiji and Kaitou Kid face five cases tied to the \"Wizard,\" a legendary gang of thieves, ending in a treasure hunt at Tropical Land. You investigate around Beika City, collect testimonies in your notebook and solve each mystery with the O-X Tool, a logic grid; a Puzzle mode adds 30 more logic puzzles.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nALL CAPS version:\n\n**How to patch**\n\nApply one of the patches to *Meitantei Conan - Majutsushi no Chousenjou! (Japan).ws* (1 MB, CRC32 92FBF7FB) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB; keep the .ws extension.\n\n* Normal: `Meitantei.Conan.Majutsushi.no.Chousenjou.EN.v0.9.bps`, CRC32 CE2C1E0D.\n* ALL CAPS: `Meitantei.Conan.Majutsushi.no.Chousenjou.EN.v0.9.ALL.CAPS.bps`, CRC32 39BAF3AD.\n\nWith Floating IPS on the command line:\n\n    flips --apply …"
+  }
+ ]
+}

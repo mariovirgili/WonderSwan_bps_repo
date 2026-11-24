@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "repository": "mariovirgili/WonderSwan_bps_repo",
-  "generated_at": "2026-11-24T07:34:42+00:00",
+  "generated_at": "2026-11-24T19:00:01+00:00",
   "sources": [
     "mariovirgili/WonderSwanColor-AI_Translation",
     "PokemonGoDB/wonderswan-english-patches",
@@ -32,7 +32,7 @@
     "wonderswan_color",
     null
   ],
-  "count": 299,
+  "count": 302,
   "entries": [
     {
       "id": "fb49f952cc562ee5",
@@ -10181,6 +10181,114 @@
       "first_seen": "2026-11-13"
     },
     {
+      "id": "9e4aab6341dfd338",
+      "game": "Meitantei Conan: Majutsushi no Chousenjou!",
+      "variant": "Meitantei.Conan.Majutsushi.no.Chousenjou.EN.v0.9.ALL.CAPS",
+      "version": "0.9",
+      "language": "en",
+      "platform": "wonderswan",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "92FBF7FB",
+      "target_crc32": "39BAF3AD",
+      "source_rom": {
+        "crc32": "92FBF7FB",
+        "size": 1048576,
+        "crc32_from": "bps",
+        "name": "Meitantei Conan - Majutsushi no Chousenjou! (Japan).ws"
+      },
+      "target_rom": {
+        "crc32": "39BAF3AD",
+        "size": 2097152,
+        "crc32_from": "bps"
+      },
+      "file_name": "Meitantei.Conan.Majutsushi.no.Chousenjou.EN.v0.9.ALL.CAPS.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/ConanMajutsushi_0.9/Meitantei.Conan.Majutsushi.no.Chousenjou.EN.v0.9.ALL.CAPS.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/ConanMajutsushi_0.9/Meitantei.Conan.Majutsushi.no.Chousenjou.EN.v0.9.ALL.CAPS.bps",
+      "size": 635653,
+      "sha256": "9e4aab6341dfd338bfb60cc8bb380785a60536a9acd5b141607f8d9dc006fde1",
+      "patch_crc32": "2144DF1C",
+      "source_size": 1048576,
+      "target_size": 2097152,
+      "patch_crc32_footer": "9A66FD8A",
+      "patch_checksum_ok": true,
+      "bps_metadata": null,
+      "origin": {
+        "source": "mariovirgili/WonderSwanColor-AI_Translation",
+        "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
+        "kind": "release_asset",
+        "release_tag": "ConanMajutsushi_0.9",
+        "release_name": "[Release] Meitantei Conan: Majutsushi no Chousenjou! (WonderSwan) - English v0.9 (normal and ALL CAPS)",
+        "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ConanMajutsushi_0.9",
+        "published_at": "2026-11-24T18:58:31Z",
+        "prerelease": false,
+        "asset_name": "Meitantei.Conan.Majutsushi.no.Chousenjou.EN.v0.9.ALL.CAPS.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/ConanMajutsushi_0.9/Meitantei.Conan.Majutsushi.no.Chousenjou.EN.v0.9.ALL.CAPS.bps",
+        "archive_member": null,
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:788454249:2026-11-24T18:58:08Z:635653",
+        "release_notes": "**Meitantei Conan: Majutsushi no Chousenjou!** (Detective Conan: The Wizard's Challenge!) is Bandai's 1999 WonderSwan detective adventure, released only in Japan. Conan, Ran, Kogoro, the Detective Boys, Heiji and Kaitou Kid face five cases tied to the \"Wizard,\" a legendary gang of thieves, ending in a treasure hunt at Tropical Land. You investigate around Beika City, collect testimonies in your notebook and solve each mystery with the O-X Tool, a logic grid; a Puzzle mode adds 30 more logic puzzles.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nALL CAPS version:\n\n**How to patch**\n\nApply one of the patches to *Meitantei Conan - Majutsushi no Chousenjou! (Japan).ws* (1 MB, CRC32 92FBF7FB) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB; keep the .ws extension.\n\n* Normal: `Meitantei.Conan.Majutsushi.no.Chousenjou.EN.v0.9.bps`, CRC32 CE2C1E0D.\n* ALL CAPS: `Meitantei.Conan.Majutsushi.no.Chousenjou.EN.v0.9.ALL.CAPS.bps`, CRC32 39BAF3AD.\n\nWith Floating IPS on the command line:\n\n    flips --apply …"
+      },
+      "first_seen": "2026-11-24"
+    },
+    {
+      "id": "b04135c38a4c5fed",
+      "game": "Meitantei Conan: Majutsushi no Chousenjou!",
+      "variant": "Meitantei.Conan.Majutsushi.no.Chousenjou.EN.v0.9",
+      "version": "0.9",
+      "language": "en",
+      "platform": "wonderswan",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "92FBF7FB",
+      "target_crc32": "CE2C1E0D",
+      "source_rom": {
+        "crc32": "92FBF7FB",
+        "size": 1048576,
+        "crc32_from": "bps",
+        "name": "Meitantei Conan - Majutsushi no Chousenjou! (Japan).ws"
+      },
+      "target_rom": {
+        "crc32": "CE2C1E0D",
+        "size": 2097152,
+        "crc32_from": "bps"
+      },
+      "file_name": "Meitantei.Conan.Majutsushi.no.Chousenjou.EN.v0.9.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/ConanMajutsushi_0.9/Meitantei.Conan.Majutsushi.no.Chousenjou.EN.v0.9.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/ConanMajutsushi_0.9/Meitantei.Conan.Majutsushi.no.Chousenjou.EN.v0.9.bps",
+      "size": 635375,
+      "sha256": "b04135c38a4c5fed348c26c06bb266cf2f0fcf03685cffc17e5ca030bb55ace0",
+      "patch_crc32": "2144DF1C",
+      "source_size": 1048576,
+      "target_size": 2097152,
+      "patch_crc32_footer": "607F1673",
+      "patch_checksum_ok": true,
+      "bps_metadata": null,
+      "origin": {
+        "source": "mariovirgili/WonderSwanColor-AI_Translation",
+        "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
+        "kind": "release_asset",
+        "release_tag": "ConanMajutsushi_0.9",
+        "release_name": "[Release] Meitantei Conan: Majutsushi no Chousenjou! (WonderSwan) - English v0.9 (normal and ALL CAPS)",
+        "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ConanMajutsushi_0.9",
+        "published_at": "2026-11-24T18:58:31Z",
+        "prerelease": false,
+        "asset_name": "Meitantei.Conan.Majutsushi.no.Chousenjou.EN.v0.9.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/ConanMajutsushi_0.9/Meitantei.Conan.Majutsushi.no.Chousenjou.EN.v0.9.bps",
+        "archive_member": null,
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:788454151:2026-11-24T18:58:08Z:635375",
+        "release_notes": "**Meitantei Conan: Majutsushi no Chousenjou!** (Detective Conan: The Wizard's Challenge!) is Bandai's 1999 WonderSwan detective adventure, released only in Japan. Conan, Ran, Kogoro, the Detective Boys, Heiji and Kaitou Kid face five cases tied to the \"Wizard,\" a legendary gang of thieves, ending in a treasure hunt at Tropical Land. You investigate around Beika City, collect testimonies in your notebook and solve each mystery with the O-X Tool, a logic grid; a Puzzle mode adds 30 more logic puzzles.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nALL CAPS version:\n\n**How to patch**\n\nApply one of the patches to *Meitantei Conan - Majutsushi no Chousenjou! (Japan).ws* (1 MB, CRC32 92FBF7FB) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB; keep the .ws extension.\n\n* Normal: `Meitantei.Conan.Majutsushi.no.Chousenjou.EN.v0.9.bps`, CRC32 CE2C1E0D.\n* ALL CAPS: `Meitantei.Conan.Majutsushi.no.Chousenjou.EN.v0.9.ALL.CAPS.bps`, CRC32 39BAF3AD.\n\nWith Floating IPS on the command line:\n\n    flips --apply …"
+      },
+      "first_seen": "2026-11-24"
+    },
+    {
       "id": "dd647d8bcf0e06d2",
       "game": "Memories Off Pure (Neo Geo Pocket Color)",
       "variant": "Memories.Off.-.Pure.EN.v0.9.1",
@@ -15617,6 +15725,60 @@
         "release_notes": "**Tare Panda no GunPey** (たれぱんだのぐんぺい, \"Tarepanda's GunPey\") is Bandai's 1999 version of the puzzle game GunPey for the original (monochrome) WonderSwan, starring San-X's Tarepanda, the lazy, flattened panda. It is played with the console held upright and was released only in Japan. You swap panels up and down their columns to join their line pieces into a path from one side of the field to the other; a joined path disappears, and new rows keep pushing up from below. It has five single-player modes, served as dishes on a restaurant menu: an endless game, an observation mode, 100 set puzzles, a story mode in which a tarepanda rolls through nine stages of little scenes, and a game that never ends. There are also two-player link-cable battles and a hidden WonderGate mode that once sent scores to Bandai's national rankings.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* Every word in this game is a picture, and every one of them was redrawn: the title logo and menus, the mode menu, the round screens (labels, banners, the SP gauge, the portrait's …"
       },
       "first_seen": "2026-11-02"
+    },
+    {
+      "id": "ed14667e39a2612b",
+      "game": "Tekken Card Challenge",
+      "variant": "tekken-card-challenge-en-1.0",
+      "version": "1.0",
+      "language": "en",
+      "platform": "wonderswan",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "E7C608E5",
+      "target_crc32": "2FAA5139",
+      "source_rom": {
+        "crc32": "E7C608E5",
+        "size": 1048576,
+        "crc32_from": "bps",
+        "name": "Tekken Card Challenge (Japan).ws"
+      },
+      "target_rom": {
+        "crc32": "2FAA5139",
+        "size": 1048576,
+        "crc32_from": "bps"
+      },
+      "file_name": "tekken-card-challenge-en-1.0.bps",
+      "path": "patches/PokemonGoDB/wonderswan-english-patches/tekken-card-challenge-v1.0/tekken-card-challenge-en-1.0.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/tekken-card-challenge-v1.0/tekken-card-challenge-en-1.0.bps",
+      "size": 88793,
+      "sha256": "ed14667e39a2612b802f1ff40255410521308d424cb71bdcf33abef6e3216677",
+      "patch_crc32": "2144DF1C",
+      "source_size": 1048576,
+      "target_size": 1048576,
+      "patch_crc32_footer": "D41E9020",
+      "patch_checksum_ok": true,
+      "bps_metadata": "Star Hearts: Hoshi to Daichi no Shisha - English translation",
+      "origin": {
+        "source": "PokemonGoDB/wonderswan-english-patches",
+        "source_url": "https://github.com/PokemonGoDB/wonderswan-english-patches",
+        "kind": "release_asset",
+        "release_tag": "tekken-card-challenge-v1.0",
+        "release_name": "[Release] Tekken Card Challenge (WonderSwan) - AI English translation patch v1.0",
+        "release_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tekken-card-challenge-v1.0",
+        "published_at": "2026-11-24T17:21:54Z",
+        "prerelease": false,
+        "asset_name": "tekken-card-challenge-en-1.0.bps",
+        "download_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/download/tekken-card-challenge-v1.0/tekken-card-challenge-en-1.0.bps",
+        "archive_member": null,
+        "key": "asset:PokemonGoDB/wonderswan-english-patches:788131322:2026-11-24T17:21:53Z:88793",
+        "release_notes": "**Tekken Card Challenge** (鉄拳 カードチャレンジ) is a card-fighting spin-off of Namco's Tekken for the WonderSwan (Bandai, 1998 on the title screen). In Adventure mode you pick a fighter and walk a map, collecting cards and meeting rivals; each meeting is a card duel in which both sides choose cards and the moves play out as a bout. Stage by stage your fighter levels up at the shrines, and defeated rivals can become selectable. The game also has a one-player battle, a two-player battle, a link-cable battle and the fighter bios of 21 fighters. It was released only in Japan. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story intro, the bios of all 21 fighters, the reading and the description of every card (12 per fighter; 547 text strings in all), the effect labels, the special-card text and the menus.\n* **Text drawn as pictures:** 228 distinct card-name pictures (the move names on the cards), the mode menu and its submenus, the link-wait heading, the stage-clear menu and the map-help diagram …"
+      },
+      "first_seen": "2026-11-24"
     },
     {
       "id": "fd43eaf7508cf75e",
