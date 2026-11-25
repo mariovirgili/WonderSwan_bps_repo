@@ -104,7 +104,7 @@ Last change to the patch catalog: 2026-11-25.
 | ✅ | Rockman EXE - N1 Battle (Japan) (Rev 1) | WonderSwan Color | **English**: [Gand46](https://github.com/Gand46/Rockman-EXE-N1-Battle-ChipControl-Wonderswan-English-Translation-AI_GPT/blob/main/patches/qa09/Rockman_N1_English_QA09_MANT05.bps) |
 | ✅ | Romancing Sa-Ga (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Petit1_v0.9) |
 | ✅ | RUN=DIM - Return to Earth (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/run-dim-v1.0) |
-| ✅ | Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.7](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9)<br>**Portuguese**: [mariovirgili v0.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_PT-BR_0.1) |
+| ✅ | Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.8](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9)<br>**Portuguese**: [mariovirgili v0.1.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_PT-BR_0.1) |
 | ✅ | SD Gundam - Operation U.C. (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9.1) |
 | ✅ | SD Gundam Eiyuu Den - Kishi Densetsu (Japan) (WS Compatible) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/KishiDensetsu_0.9) |
 | ✅ | SD Gundam Eiyuu Den - Musha Densetsu (Japan) (WS Compatible) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MushaDensetsu_0.9) |
@@ -530,7 +530,7 @@ Last change to the patch catalog: 2026-11-25.
 |  | Rockman EXE WS (Japan) | `658C4B98` | — |
 | ✅ | **Romancing Sa-Ga (Japan)** | `9C98D97D` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Petit1_v0.9) |
 | ✅ | **RUN=DIM - Return to Earth (Japan)** | `15C4552E` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/run-dim-v1.0) |
-| ✅ | **Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan)** | `6E8A792D` | **English**: [mariovirgili v0.9.7](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9)<br>**Portuguese**: [mariovirgili v0.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_PT-BR_0.1) |
+| ✅ | **Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan)** | `6E8A792D` | **English**: [mariovirgili v0.9.8](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9)<br>**Portuguese**: [mariovirgili v0.1.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_PT-BR_0.1) |
 |  | Samegame for WSC (World) (WonderWitch) | `50DB2635` | — |
 |  | Samoner (World) (Ja) (WonderWitch) | `C59BF216` | — |
 |  | Satori - WonderSwan Remix (World) (WonderWitch) | `4C85FCAA` | — |
