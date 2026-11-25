@@ -1274,6 +1274,34 @@
    ],
    "produced_by": []
   },
+  "1569A86E": {
+   "crc32": "1569A86E",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "01aa42b6bc9c006d",
+     "game": "Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen",
+     "variant": "Bistro.Recipe.EN.v0.9.7",
+     "version": "0.9.7",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "4D103236",
+     "target_crc32": "1569A86E",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BistroRecipe_0.9/Bistro.Recipe.EN.v0.9.7.bps",
+     "sha256": "01aa42b6bc9c006dc81d5c5d17326c9139df2f4e32f702f08d3391ccf786ca3c",
+     "size": 430598,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9",
+     "notes": "**Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen** is Banpresto's 1999 WonderSwan game based on the anime known in English as **Fighting Foodons**, released only in Japan. Chase, son of the great Bistro Chef Jack, travels with his little sister Kayla to the Foodon Battle Tournament of the mysterious King Gorgeous Gorge. Chefs cook dishes, turn them into living fighting Foodons with Blank Meal Tickets and battle them: the game mixes town exploration, shopping for ingredients, cooking and Foodon battles.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Each also comes with the **Fighting Foodons names**: the English dub's names for the Foodons that appear in the anime, where they fit the game's name field. All are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the patches to *Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan).ws* (1 MB, CRC32 4D103236) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB; keep the .ws extension.\n\n* Normal: `Bistro.Recipe.EN.v0.9.7.bps`, CRC32 1569A86E.\n* ALL CAPS: …"
+    }
+   ]
+  },
   "15C4552E": {
    "crc32": "15C4552E",
    "size": 2097152,
@@ -3539,34 +3567,6 @@
    ],
    "produced_by": []
   },
-  "3995A1CA": {
-   "crc32": "3995A1CA",
-   "size": 2097152,
-   "names": [],
-   "patches": [],
-   "produced_by": [
-    {
-     "id": "0268ddf56feb02f4",
-     "game": "Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen",
-     "variant": "Bistro.Recipe.EN.v0.9.6.Fighting.Foodons.names.ALL.CAPS",
-     "version": "0.9.6",
-     "language": "en",
-     "platform": "wonderswan",
-     "latest": true,
-     "superseded": false,
-     "format": "bps",
-     "source_crc32": "4D103236",
-     "target_crc32": "3995A1CA",
-     "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BistroRecipe_0.9/Bistro.Recipe.EN.v0.9.6.Fighting.Foodons.names.ALL.CAPS.bps",
-     "sha256": "0268ddf56feb02f41c2d28231f8f3065a97456ffe5cabbeed78d3cc14e5b8422",
-     "size": 430186,
-     "source": "mariovirgili/WonderSwanColor-AI_Translation",
-     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9",
-     "notes": "**Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen** is Banpresto's 1999 WonderSwan game based on the anime known in English as **Fighting Foodons**, released only in Japan. Chase, son of the great Bistro Chef Jack, travels with his little sister Kayla to the Foodon Battle Tournament of the mysterious King Gorgeous Gorge. Chefs cook dishes, turn them into living fighting Foodons with Blank Meal Tickets and battle them: the game mixes town exploration, shopping for ingredients, cooking and Foodon battles.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Each also comes with the **Fighting Foodons names**: the English dub's names for the Foodons that appear in the anime, where they fit the game's name field. All are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the patches to *Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan).ws* (1 MB, CRC32 4D103236) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB; keep the .ws extension.\n\n* Normal: `Bistro.Recipe.EN.v0.9.6.bps`, CRC32 A37AF365.\n* ALL CAPS: …"
-    }
-   ]
-  },
   "39A1391A": {
    "crc32": "39A1391A",
    "size": 8388608,
@@ -4637,84 +4637,84 @@
    ],
    "patches": [
     {
-     "id": "dcedf5ca2dc6d0a3",
+     "id": "01aa42b6bc9c006d",
      "game": "Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen",
-     "variant": "Bistro.Recipe.EN.v0.9.6",
-     "version": "0.9.6",
+     "variant": "Bistro.Recipe.EN.v0.9.7",
+     "version": "0.9.7",
      "language": "en",
      "platform": "wonderswan",
      "latest": true,
      "superseded": false,
      "format": "bps",
      "source_crc32": "4D103236",
-     "target_crc32": "A37AF365",
+     "target_crc32": "1569A86E",
      "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BistroRecipe_0.9/Bistro.Recipe.EN.v0.9.6.bps",
-     "sha256": "dcedf5ca2dc6d0a3343c5962114eb07095e02263a42dcba25d12ce652cf63672",
-     "size": 430527,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BistroRecipe_0.9/Bistro.Recipe.EN.v0.9.7.bps",
+     "sha256": "01aa42b6bc9c006dc81d5c5d17326c9139df2f4e32f702f08d3391ccf786ca3c",
+     "size": 430598,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9",
-     "notes": "**Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen** is Banpresto's 1999 WonderSwan game based on the anime known in English as **Fighting Foodons**, released only in Japan. Chase, son of the great Bistro Chef Jack, travels with his little sister Kayla to the Foodon Battle Tournament of the mysterious King Gorgeous Gorge. Chefs cook dishes, turn them into living fighting Foodons with Blank Meal Tickets and battle them: the game mixes town exploration, shopping for ingredients, cooking and Foodon battles.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Each also comes with the **Fighting Foodons names**: the English dub's names for the Foodons that appear in the anime, where they fit the game's name field. All are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the patches to *Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan).ws* (1 MB, CRC32 4D103236) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB; keep the .ws extension.\n\n* Normal: `Bistro.Recipe.EN.v0.9.6.bps`, CRC32 A37AF365.\n* ALL CAPS: …"
+     "notes": "**Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen** is Banpresto's 1999 WonderSwan game based on the anime known in English as **Fighting Foodons**, released only in Japan. Chase, son of the great Bistro Chef Jack, travels with his little sister Kayla to the Foodon Battle Tournament of the mysterious King Gorgeous Gorge. Chefs cook dishes, turn them into living fighting Foodons with Blank Meal Tickets and battle them: the game mixes town exploration, shopping for ingredients, cooking and Foodon battles.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Each also comes with the **Fighting Foodons names**: the English dub's names for the Foodons that appear in the anime, where they fit the game's name field. All are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the patches to *Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan).ws* (1 MB, CRC32 4D103236) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB; keep the .ws extension.\n\n* Normal: `Bistro.Recipe.EN.v0.9.7.bps`, CRC32 1569A86E.\n* ALL CAPS: …"
     },
     {
-     "id": "7adec4b371077535",
+     "id": "879b375f464408b5",
      "game": "Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen",
-     "variant": "Bistro.Recipe.EN.v0.9.6.ALL.CAPS",
-     "version": "0.9.6",
+     "variant": "Bistro.Recipe.EN.v0.9.7.ALL.CAPS",
+     "version": "0.9.7",
      "language": "en",
      "platform": "wonderswan",
      "latest": true,
      "superseded": false,
      "format": "bps",
      "source_crc32": "4D103236",
-     "target_crc32": "E58DA6FB",
+     "target_crc32": "7C86AD82",
      "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BistroRecipe_0.9/Bistro.Recipe.EN.v0.9.6.ALL.CAPS.bps",
-     "sha256": "7adec4b3710775350dd8f7b2a5ee5951c40810f667578c25219875be3ce00fa2",
-     "size": 429852,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BistroRecipe_0.9/Bistro.Recipe.EN.v0.9.7.ALL.CAPS.bps",
+     "sha256": "879b375f464408b5fb85267acded0770a0a134c05af5b03c701d0915c9a78f83",
+     "size": 429961,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9",
-     "notes": "**Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen** is Banpresto's 1999 WonderSwan game based on the anime known in English as **Fighting Foodons**, released only in Japan. Chase, son of the great Bistro Chef Jack, travels with his little sister Kayla to the Foodon Battle Tournament of the mysterious King Gorgeous Gorge. Chefs cook dishes, turn them into living fighting Foodons with Blank Meal Tickets and battle them: the game mixes town exploration, shopping for ingredients, cooking and Foodon battles.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Each also comes with the **Fighting Foodons names**: the English dub's names for the Foodons that appear in the anime, where they fit the game's name field. All are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the patches to *Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan).ws* (1 MB, CRC32 4D103236) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB; keep the .ws extension.\n\n* Normal: `Bistro.Recipe.EN.v0.9.6.bps`, CRC32 A37AF365.\n* ALL CAPS: …"
+     "notes": "**Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen** is Banpresto's 1999 WonderSwan game based on the anime known in English as **Fighting Foodons**, released only in Japan. Chase, son of the great Bistro Chef Jack, travels with his little sister Kayla to the Foodon Battle Tournament of the mysterious King Gorgeous Gorge. Chefs cook dishes, turn them into living fighting Foodons with Blank Meal Tickets and battle them: the game mixes town exploration, shopping for ingredients, cooking and Foodon battles.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Each also comes with the **Fighting Foodons names**: the English dub's names for the Foodons that appear in the anime, where they fit the game's name field. All are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the patches to *Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan).ws* (1 MB, CRC32 4D103236) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB; keep the .ws extension.\n\n* Normal: `Bistro.Recipe.EN.v0.9.7.bps`, CRC32 1569A86E.\n* ALL CAPS: …"
     },
     {
-     "id": "1e7c78348437da51",
+     "id": "db0d72855e2ea3e4",
      "game": "Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen",
-     "variant": "Bistro.Recipe.EN.v0.9.6.Fighting.Foodons.names",
-     "version": "0.9.6",
+     "variant": "Bistro.Recipe.EN.v0.9.7.Fighting.Foodons.names",
+     "version": "0.9.7",
      "language": "en",
      "platform": "wonderswan",
      "latest": true,
      "superseded": false,
      "format": "bps",
      "source_crc32": "4D103236",
-     "target_crc32": "A2B8CD0C",
+     "target_crc32": "6A00ABBB",
      "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BistroRecipe_0.9/Bistro.Recipe.EN.v0.9.6.Fighting.Foodons.names.bps",
-     "sha256": "1e7c78348437da514c6db22a0ceb0cadce3b9401d9494418535762d01244ee65",
-     "size": 430605,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BistroRecipe_0.9/Bistro.Recipe.EN.v0.9.7.Fighting.Foodons.names.bps",
+     "sha256": "db0d72855e2ea3e42952c93018cdda55f76230269e45426d233978d64f1d09cd",
+     "size": 430685,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9",
-     "notes": "**Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen** is Banpresto's 1999 WonderSwan game based on the anime known in English as **Fighting Foodons**, released only in Japan. Chase, son of the great Bistro Chef Jack, travels with his little sister Kayla to the Foodon Battle Tournament of the mysterious King Gorgeous Gorge. Chefs cook dishes, turn them into living fighting Foodons with Blank Meal Tickets and battle them: the game mixes town exploration, shopping for ingredients, cooking and Foodon battles.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Each also comes with the **Fighting Foodons names**: the English dub's names for the Foodons that appear in the anime, where they fit the game's name field. All are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the patches to *Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan).ws* (1 MB, CRC32 4D103236) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB; keep the .ws extension.\n\n* Normal: `Bistro.Recipe.EN.v0.9.6.bps`, CRC32 A37AF365.\n* ALL CAPS: …"
+     "notes": "**Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen** is Banpresto's 1999 WonderSwan game based on the anime known in English as **Fighting Foodons**, released only in Japan. Chase, son of the great Bistro Chef Jack, travels with his little sister Kayla to the Foodon Battle Tournament of the mysterious King Gorgeous Gorge. Chefs cook dishes, turn them into living fighting Foodons with Blank Meal Tickets and battle them: the game mixes town exploration, shopping for ingredients, cooking and Foodon battles.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Each also comes with the **Fighting Foodons names**: the English dub's names for the Foodons that appear in the anime, where they fit the game's name field. All are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the patches to *Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan).ws* (1 MB, CRC32 4D103236) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB; keep the .ws extension.\n\n* Normal: `Bistro.Recipe.EN.v0.9.7.bps`, CRC32 1569A86E.\n* ALL CAPS: …"
     },
     {
-     "id": "0268ddf56feb02f4",
+     "id": "54c27e5b9281fcee",
      "game": "Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen",
-     "variant": "Bistro.Recipe.EN.v0.9.6.Fighting.Foodons.names.ALL.CAPS",
-     "version": "0.9.6",
+     "variant": "Bistro.Recipe.EN.v0.9.7.Fighting.Foodons.names.ALL.CAPS",
+     "version": "0.9.7",
      "language": "en",
      "platform": "wonderswan",
      "latest": true,
      "superseded": false,
      "format": "bps",
      "source_crc32": "4D103236",
-     "target_crc32": "3995A1CA",
+     "target_crc32": "7EE3B752",
      "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BistroRecipe_0.9/Bistro.Recipe.EN.v0.9.6.Fighting.Foodons.names.ALL.CAPS.bps",
-     "sha256": "0268ddf56feb02f41c2d28231f8f3065a97456ffe5cabbeed78d3cc14e5b8422",
-     "size": 430186,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BistroRecipe_0.9/Bistro.Recipe.EN.v0.9.7.Fighting.Foodons.names.ALL.CAPS.bps",
+     "sha256": "54c27e5b9281fceea1dc195c53a2861a07b6a2fd2b2374426cb9d0bda2c1180e",
+     "size": 430222,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9",
-     "notes": "**Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen** is Banpresto's 1999 WonderSwan game based on the anime known in English as **Fighting Foodons**, released only in Japan. Chase, son of the great Bistro Chef Jack, travels with his little sister Kayla to the Foodon Battle Tournament of the mysterious King Gorgeous Gorge. Chefs cook dishes, turn them into living fighting Foodons with Blank Meal Tickets and battle them: the game mixes town exploration, shopping for ingredients, cooking and Foodon battles.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Each also comes with the **Fighting Foodons names**: the English dub's names for the Foodons that appear in the anime, where they fit the game's name field. All are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the patches to *Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan).ws* (1 MB, CRC32 4D103236) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB; keep the .ws extension.\n\n* Normal: `Bistro.Recipe.EN.v0.9.6.bps`, CRC32 A37AF365.\n* ALL CAPS: …"
+     "notes": "**Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen** is Banpresto's 1999 WonderSwan game based on the anime known in English as **Fighting Foodons**, released only in Japan. Chase, son of the great Bistro Chef Jack, travels with his little sister Kayla to the Foodon Battle Tournament of the mysterious King Gorgeous Gorge. Chefs cook dishes, turn them into living fighting Foodons with Blank Meal Tickets and battle them: the game mixes town exploration, shopping for ingredients, cooking and Foodon battles.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Each also comes with the **Fighting Foodons names**: the English dub's names for the Foodons that appear in the anime, where they fit the game's name field. All are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the patches to *Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan).ws* (1 MB, CRC32 4D103236) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB; keep the .ws extension.\n\n* Normal: `Bistro.Recipe.EN.v0.9.7.bps`, CRC32 1569A86E.\n* ALL CAPS: …"
     }
    ],
    "produced_by": []
@@ -6550,6 +6550,34 @@
     }
    ]
   },
+  "6A00ABBB": {
+   "crc32": "6A00ABBB",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "db0d72855e2ea3e4",
+     "game": "Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen",
+     "variant": "Bistro.Recipe.EN.v0.9.7.Fighting.Foodons.names",
+     "version": "0.9.7",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "4D103236",
+     "target_crc32": "6A00ABBB",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BistroRecipe_0.9/Bistro.Recipe.EN.v0.9.7.Fighting.Foodons.names.bps",
+     "sha256": "db0d72855e2ea3e42952c93018cdda55f76230269e45426d233978d64f1d09cd",
+     "size": 430685,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9",
+     "notes": "**Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen** is Banpresto's 1999 WonderSwan game based on the anime known in English as **Fighting Foodons**, released only in Japan. Chase, son of the great Bistro Chef Jack, travels with his little sister Kayla to the Foodon Battle Tournament of the mysterious King Gorgeous Gorge. Chefs cook dishes, turn them into living fighting Foodons with Blank Meal Tickets and battle them: the game mixes town exploration, shopping for ingredients, cooking and Foodon battles.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Each also comes with the **Fighting Foodons names**: the English dub's names for the Foodons that appear in the anime, where they fit the game's name field. All are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the patches to *Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan).ws* (1 MB, CRC32 4D103236) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB; keep the .ws extension.\n\n* Normal: `Bistro.Recipe.EN.v0.9.7.bps`, CRC32 1569A86E.\n* ALL CAPS: …"
+    }
+   ]
+  },
   "6A88E21E": {
    "crc32": "6A88E21E",
    "size": 2097152,
@@ -7288,6 +7316,34 @@
     }
    ]
   },
+  "7C86AD82": {
+   "crc32": "7C86AD82",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "879b375f464408b5",
+     "game": "Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen",
+     "variant": "Bistro.Recipe.EN.v0.9.7.ALL.CAPS",
+     "version": "0.9.7",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "4D103236",
+     "target_crc32": "7C86AD82",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BistroRecipe_0.9/Bistro.Recipe.EN.v0.9.7.ALL.CAPS.bps",
+     "sha256": "879b375f464408b5fb85267acded0770a0a134c05af5b03c701d0915c9a78f83",
+     "size": 429961,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9",
+     "notes": "**Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen** is Banpresto's 1999 WonderSwan game based on the anime known in English as **Fighting Foodons**, released only in Japan. Chase, son of the great Bistro Chef Jack, travels with his little sister Kayla to the Foodon Battle Tournament of the mysterious King Gorgeous Gorge. Chefs cook dishes, turn them into living fighting Foodons with Blank Meal Tickets and battle them: the game mixes town exploration, shopping for ingredients, cooking and Foodon battles.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Each also comes with the **Fighting Foodons names**: the English dub's names for the Foodons that appear in the anime, where they fit the game's name field. All are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the patches to *Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan).ws* (1 MB, CRC32 4D103236) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB; keep the .ws extension.\n\n* Normal: `Bistro.Recipe.EN.v0.9.7.bps`, CRC32 1569A86E.\n* ALL CAPS: …"
+    }
+   ]
+  },
   "7DA6ACB9": {
    "crc32": "7DA6ACB9",
    "size": 1048576,
@@ -7345,6 +7401,34 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/fire-pro-v1.0",
      "notes": "**Fire Pro Wrestling for WonderSwan** (ファイヤープロレスリング for WonderSwan) is Human Entertainment's handheld entry in the Fire Pro series, released in 2000 by Kaga Tech for the original (monochrome) WonderSwan and only in Japan. It plays like the other Fire Pro games, with timing-based grapples and a roster of 132 wrestlers who are thinly veiled parodies of 1990s stars. Its main mode, **Master of Ring**, makes you the promoter: you book shows venue by venue, pick title matches and five bouts, play or watch them, and are judged on the matchmaking, the match quality and the attendance. There are also single matches, one-night tournaments, round-robin leagues, team elimination matches, a wrestler editor (looks, moves, stats and CPU logic) and link-cable trading. This patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* Every menu, prompt and message of every mode: Master of Ring (with its Free mode), One Night Match, One Night Tournament, Open League, Elimination Match, Edit, Network Battle and Options.\n* All 132 wrestler names, their profiles and about 860 move …"
+    }
+   ]
+  },
+  "7EE3B752": {
+   "crc32": "7EE3B752",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "54c27e5b9281fcee",
+     "game": "Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen",
+     "variant": "Bistro.Recipe.EN.v0.9.7.Fighting.Foodons.names.ALL.CAPS",
+     "version": "0.9.7",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "4D103236",
+     "target_crc32": "7EE3B752",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BistroRecipe_0.9/Bistro.Recipe.EN.v0.9.7.Fighting.Foodons.names.ALL.CAPS.bps",
+     "sha256": "54c27e5b9281fceea1dc195c53a2861a07b6a2fd2b2374426cb9d0bda2c1180e",
+     "size": 430222,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9",
+     "notes": "**Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen** is Banpresto's 1999 WonderSwan game based on the anime known in English as **Fighting Foodons**, released only in Japan. Chase, son of the great Bistro Chef Jack, travels with his little sister Kayla to the Foodon Battle Tournament of the mysterious King Gorgeous Gorge. Chefs cook dishes, turn them into living fighting Foodons with Blank Meal Tickets and battle them: the game mixes town exploration, shopping for ingredients, cooking and Foodon battles.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Each also comes with the **Fighting Foodons names**: the English dub's names for the Foodons that appear in the anime, where they fit the game's name field. All are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the patches to *Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan).ws* (1 MB, CRC32 4D103236) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB; keep the .ws extension.\n\n* Normal: `Bistro.Recipe.EN.v0.9.7.bps`, CRC32 1569A86E.\n* ALL CAPS: …"
     }
    ]
   },
@@ -9874,62 +9958,6 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/pocket-fighter-v1.0",
      "notes": "**Pocket Fighter** is the WonderSwan version of Capcom's chibi fighting game (known in English as Super Gem Fighter Mini Mix), made for Bandai by Soft Machine and released only in Japan in April 2000 for the original (monochrome) WonderSwan. Twelve fighters from Street Fighter, Darkstalkers and Red Earth brawl, collect gems and level up their special moves; on top of the arcade-style story mode with an ending for every fighter, the WonderSwan version adds Point Battle, a 131-card collection with its own turn-based Card Battle mode and Card Gallery, link-cable play, and online features through Bandai's Mobile WonderGate phone adapter.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Story mode:** every opening, rival meeting and ending (36 scenes, 274 pages), and the conversations shown over the fight stages.\n* **Fights:** all 193 win quotes and the CONTINUE? hints.\n* **Cards:** the 131 card names (GET CARD and Point Battle), and every picture in Card Battle: the card plates and categories, the 77 move names, the comparison icons (INI / ATK / …"
-    }
-   ]
-  },
-  "A2B8CD0C": {
-   "crc32": "A2B8CD0C",
-   "size": 2097152,
-   "names": [],
-   "patches": [],
-   "produced_by": [
-    {
-     "id": "1e7c78348437da51",
-     "game": "Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen",
-     "variant": "Bistro.Recipe.EN.v0.9.6.Fighting.Foodons.names",
-     "version": "0.9.6",
-     "language": "en",
-     "platform": "wonderswan",
-     "latest": true,
-     "superseded": false,
-     "format": "bps",
-     "source_crc32": "4D103236",
-     "target_crc32": "A2B8CD0C",
-     "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BistroRecipe_0.9/Bistro.Recipe.EN.v0.9.6.Fighting.Foodons.names.bps",
-     "sha256": "1e7c78348437da514c6db22a0ceb0cadce3b9401d9494418535762d01244ee65",
-     "size": 430605,
-     "source": "mariovirgili/WonderSwanColor-AI_Translation",
-     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9",
-     "notes": "**Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen** is Banpresto's 1999 WonderSwan game based on the anime known in English as **Fighting Foodons**, released only in Japan. Chase, son of the great Bistro Chef Jack, travels with his little sister Kayla to the Foodon Battle Tournament of the mysterious King Gorgeous Gorge. Chefs cook dishes, turn them into living fighting Foodons with Blank Meal Tickets and battle them: the game mixes town exploration, shopping for ingredients, cooking and Foodon battles.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Each also comes with the **Fighting Foodons names**: the English dub's names for the Foodons that appear in the anime, where they fit the game's name field. All are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the patches to *Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan).ws* (1 MB, CRC32 4D103236) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB; keep the .ws extension.\n\n* Normal: `Bistro.Recipe.EN.v0.9.6.bps`, CRC32 A37AF365.\n* ALL CAPS: …"
-    }
-   ]
-  },
-  "A37AF365": {
-   "crc32": "A37AF365",
-   "size": 2097152,
-   "names": [],
-   "patches": [],
-   "produced_by": [
-    {
-     "id": "dcedf5ca2dc6d0a3",
-     "game": "Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen",
-     "variant": "Bistro.Recipe.EN.v0.9.6",
-     "version": "0.9.6",
-     "language": "en",
-     "platform": "wonderswan",
-     "latest": true,
-     "superseded": false,
-     "format": "bps",
-     "source_crc32": "4D103236",
-     "target_crc32": "A37AF365",
-     "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BistroRecipe_0.9/Bistro.Recipe.EN.v0.9.6.bps",
-     "sha256": "dcedf5ca2dc6d0a3343c5962114eb07095e02263a42dcba25d12ce652cf63672",
-     "size": 430527,
-     "source": "mariovirgili/WonderSwanColor-AI_Translation",
-     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9",
-     "notes": "**Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen** is Banpresto's 1999 WonderSwan game based on the anime known in English as **Fighting Foodons**, released only in Japan. Chase, son of the great Bistro Chef Jack, travels with his little sister Kayla to the Foodon Battle Tournament of the mysterious King Gorgeous Gorge. Chefs cook dishes, turn them into living fighting Foodons with Blank Meal Tickets and battle them: the game mixes town exploration, shopping for ingredients, cooking and Foodon battles.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Each also comes with the **Fighting Foodons names**: the English dub's names for the Foodons that appear in the anime, where they fit the game's name field. All are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the patches to *Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan).ws* (1 MB, CRC32 4D103236) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB; keep the .ws extension.\n\n* Normal: `Bistro.Recipe.EN.v0.9.6.bps`, CRC32 A37AF365.\n* ALL CAPS: …"
     }
    ]
   },
@@ -13697,34 +13725,6 @@
     }
    ],
    "produced_by": []
-  },
-  "E58DA6FB": {
-   "crc32": "E58DA6FB",
-   "size": 2097152,
-   "names": [],
-   "patches": [],
-   "produced_by": [
-    {
-     "id": "7adec4b371077535",
-     "game": "Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen",
-     "variant": "Bistro.Recipe.EN.v0.9.6.ALL.CAPS",
-     "version": "0.9.6",
-     "language": "en",
-     "platform": "wonderswan",
-     "latest": true,
-     "superseded": false,
-     "format": "bps",
-     "source_crc32": "4D103236",
-     "target_crc32": "E58DA6FB",
-     "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/BistroRecipe_0.9/Bistro.Recipe.EN.v0.9.6.ALL.CAPS.bps",
-     "sha256": "7adec4b3710775350dd8f7b2a5ee5951c40810f667578c25219875be3ce00fa2",
-     "size": 429852,
-     "source": "mariovirgili/WonderSwanColor-AI_Translation",
-     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9",
-     "notes": "**Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen** is Banpresto's 1999 WonderSwan game based on the anime known in English as **Fighting Foodons**, released only in Japan. Chase, son of the great Bistro Chef Jack, travels with his little sister Kayla to the Foodon Battle Tournament of the mysterious King Gorgeous Gorge. Chefs cook dishes, turn them into living fighting Foodons with Blank Meal Tickets and battle them: the game mixes town exploration, shopping for ingredients, cooking and Foodon battles.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Each also comes with the **Fighting Foodons names**: the English dub's names for the Foodons that appear in the anime, where they fit the game's name field. All are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\n**How to patch**\n\nApply one of the patches to *Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan).ws* (1 MB, CRC32 4D103236) with Floating IPS, beat or ROM Patcher JS. The result is 2 MB; keep the .ws extension.\n\n* Normal: `Bistro.Recipe.EN.v0.9.6.bps`, CRC32 A37AF365.\n* ALL CAPS: …"
-    }
-   ]
   },
   "E7B6B96E": {
    "crc32": "E7B6B96E",
