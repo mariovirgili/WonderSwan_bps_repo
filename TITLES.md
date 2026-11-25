@@ -4,12 +4,12 @@ Every released WonderSwan and WonderSwan Color title, and the translation patche
 
 | System | Titles | With a translation patch |
 | --- | ---: | ---: |
-| WonderSwan | 219 | 52 (+5 ⚠️ another dump) |
+| WonderSwan | 219 | 53 (+5 ⚠️ another dump) |
 | WonderSwan Color | 229 | 59 (+1 ⚠️ another dump) |
 
 Last change to the patch catalog: 2026-11-25.
 
-## Titles with translation patches (117)
+## Titles with translation patches (118)
 
 | | Title | System | Patches (newest version of each author) |
 | :---: | --- | --- | --- |
@@ -28,7 +28,7 @@ Last change to the patch catalog: 2026-11-25.
 | ✅ | Chou Aniki - Otoko no Tamafuda (Japan) (Rev 4) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ChouAniki_0.9) |
 | ✅ | Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3) | WonderSwan | **English**: [PokemonGoDB v1.3](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.3) |
 | ✅ | D's Garage 21 Koubo Game - Tane o Maku Tori (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tane-o-maku-tori-v1.0) |
-| ✅ | Dark Eyes - Battle Gate (Japan) (WS Compatible) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DarkEyes_0.9) |
+| ✅ | Dark Eyes - Battle Gate (Japan) (WS Compatible) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DarkEyes_0.9) |
 | ✅ | Densha de Go! (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/densha-de-go-v1.0) |
 | ✅ | Densha de Go! 2 (Japan) | WonderSwan | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DenshaDeGo2_0.9.1) · [Gand46 v0.4.20](https://github.com/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/blob/main/patches/Densha_de_Go_2_EN_v0.4.20_OPTIONS_FONT_CUMULATIVE.bps) |
 | ⚠️ | Dicing Knight. (Japan) | WonderSwan Color | ⚠️ for another dump of this title (ROM CRC32 `D28DC930`): **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dicing-knight-v1.1) |
@@ -125,6 +125,7 @@ Last change to the patch catalog: 2026-11-25.
 | ✅ | Tekken Card Challenge (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tekken-card-challenge-v1.0) |
 | ✅ | Tetsujin 28 Gou (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Tetsujin28_0.9) |
 | ✅ | Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan) | WonderSwan | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BokanDensetsu_0.9) |
+| ✅ | Tokyo Majin Gakuen - Fuju Houroku (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tokyo-majin-gakuen-v1.0) |
 | ✅ | Uchuu Senkan Yamato (Japan) (WS Compatible) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/UchuuSenkanYamato_0.9) |
 | ✅ | Uzumaki - Denshi Kaiki Hen (Japan) (Rev 4) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/uzumaki-denshi-kaiki-hen-v1.0) |
 | ✅ | Vaitz Blade (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/vaitz-blade-v1.0) |
@@ -324,7 +325,7 @@ Last change to the patch catalog: 2026-11-25.
 |  | Testarossa (World) (WonderWitch) | `D291B29B` | — |
 | ✅ | **Tetsujin 28 Gou (Japan)** | `6F304DCA` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Tetsujin28_0.9) |
 | ✅ | **Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan)** | `7DA6ACB9` | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BokanDensetsu_0.9) |
-|  | Tokyo Majin Gakuen - Fuju Houroku (Japan) | `91117D1B` | — |
+| ✅ | **Tokyo Majin Gakuen - Fuju Houroku (Japan)** | `91117D1B` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tokyo-majin-gakuen-v1.0) |
 |  | Trap Trap (World) (Ja) (WonderWitch) | `2DF069A1` | — |
 |  | Triangle (World) (WonderWitch) | `8E1EF5C6` | — |
 |  | Truchet (World) (WonderWitch) | `224B58F5` | — |
@@ -388,7 +389,7 @@ Last change to the patch catalog: 2026-11-25.
 |  | Course Out 2 (World) (Ja) (v0.0.1) (WonderWitch) | `4995EB60` | — |
 |  | Course Out 3 (World) (Ja) (v0.0.1) (Proto) (WonderWitch) | `1143A561` | — |
 |  | Dai Meikyuu (World) (Ja) (WonderWitch) | `A8B42C3A` | — |
-| ✅ | **Dark Eyes - Battle Gate (Japan) (WS Compatible)** | `12AE932C` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DarkEyes_0.9) |
+| ✅ | **Dark Eyes - Battle Gate (Japan) (WS Compatible)** | `12AE932C` | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DarkEyes_0.9) |
 |  | Darkhero Figment - Calibur Edition (World) (Ja) (WonderWitch) | `1E2B5421` | — |
 |  | Darkhero Figment - Doris Edition (World) (Ja) (WonderWitch) | `B518B51C` | — |
 |  | Darkhero Figment 2 (World) (Ja) (WonderWitch) | `3951D2D0` | — |

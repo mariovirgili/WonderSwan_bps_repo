@@ -1,0 +1,36 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "866c67737a4fbb5f09a0b13bbdb89397bcab1f55"
+ },
+ "crc32": "91117D1B",
+ "size": 8388608,
+ "md5": "a002e1af08611506555e9a2fe559eddc",
+ "sha1": "866c67737a4fbb5f09a0b13bbdb89397bcab1f55",
+ "names": [
+  "Tokyo Majin Gakuen - Fuju Houroku (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "1a178daed2d99a21",
+   "game": "Tokyo Majin Gakuen: Fuju Houroku",
+   "variant": "tokyo-majin-gakuen-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "91117D1B",
+   "target_crc32": "7850C84C",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/tokyo-majin-gakuen-v1.0/tokyo-majin-gakuen-en-1.0.bps",
+   "sha256": "1a178daed2d99a212fd622ff1dea24e21e928a9c037cf7a06f6db9c090e809a2",
+   "size": 975257,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tokyo-majin-gakuen-v1.0",
+   "notes": "# Tokyo Majin Gakuen: Fuju Houroku (WonderSwan) - AI English translation patch v1.0\n\n**Tokyo Majin Gakuen: Fuju Houroku** (東京魔人學園 符咒封録) is a story-driven spell-card battle game for the WonderSwan, made by Shout! Designworks and published by Asmik Ace Entertainment (12 October 2000), based on the *Tokyo Majin* series. You play a hero who is made the tutelary god of two teenagers, Shun Yamura and Isuzu Mizukane, and together you seal the evil (邪気) spreading across Tokyo by fighting with spell cards, over 13 chapters. The console is held on its side. This patch translates the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The story:** 18,130 text boxes across the 13 chapters, the 120 card-character conversations, narration and the ending with the staff roll. The villains' threats and the dark scenes are kept at full strength, as the Japanese has them (decision items 11-14).\n* **Menus and systems:** the title and settings menus, name entry (Latin letters, 6 per part), birthplace, birthday and blood type, the deck editor, card lists and card details, …"
+  }
+ ],
+ "produced_by": []
+}
