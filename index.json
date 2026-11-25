@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "repository": "mariovirgili/WonderSwan_bps_repo",
-  "generated_at": "2026-11-25T20:16:32+00:00",
+  "generated_at": "2026-11-25T21:02:39+00:00",
   "sources": [
     "mariovirgili/WonderSwanColor-AI_Translation",
     "PokemonGoDB/wonderswan-english-patches",
@@ -2567,10 +2567,10 @@
       "first_seen": "2026-11-16"
     },
     {
-      "id": "392a11799eeb9d7d",
+      "id": "6c6b9980dd016d11",
       "game": "Dark Eyes: Battle Gate",
-      "variant": "Dark.Eyes.-.Battle.Gate.EN.v0.9.2.ALL.CAPS",
-      "version": "0.9.2",
+      "variant": "Dark.Eyes.-.Battle.Gate.EN.v0.9.3.ALL.CAPS",
+      "version": "0.9.3",
       "language": "en",
       "platform": "wonderswan_color",
       "latest": true,
@@ -2580,7 +2580,7 @@
       "requires_patch_ids": null,
       "format": "bps",
       "source_crc32": "12AE932C",
-      "target_crc32": "6E6AD804",
+      "target_crc32": "BFD31C59",
       "source_rom": {
         "crc32": "12AE932C",
         "size": 4194304,
@@ -2588,19 +2588,19 @@
         "name": "Dark Eyes - Battle Gate (Japan).wsc"
       },
       "target_rom": {
-        "crc32": "6E6AD804",
+        "crc32": "BFD31C59",
         "size": 8388608,
         "crc32_from": "bps"
       },
-      "file_name": "Dark.Eyes.-.Battle.Gate.EN.v0.9.2.ALL.CAPS.bps",
-      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/DarkEyes_0.9/Dark.Eyes.-.Battle.Gate.EN.v0.9.2.ALL.CAPS.bps",
-      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DarkEyes_0.9/Dark.Eyes.-.Battle.Gate.EN.v0.9.2.ALL.CAPS.bps",
-      "size": 289435,
-      "sha256": "392a11799eeb9d7d95c3606394ebde1f1f6dc6d68791c350796ff0f90078d90b",
+      "file_name": "Dark.Eyes.-.Battle.Gate.EN.v0.9.3.ALL.CAPS.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/DarkEyes_0.9/Dark.Eyes.-.Battle.Gate.EN.v0.9.3.ALL.CAPS.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DarkEyes_0.9/Dark.Eyes.-.Battle.Gate.EN.v0.9.3.ALL.CAPS.bps",
+      "size": 289421,
+      "sha256": "6c6b9980dd016d11aa05748fe15037782f36086999e5989ca350da1e1336ebd0",
       "patch_crc32": "2144DF1C",
       "source_size": 4194304,
       "target_size": 8388608,
-      "patch_crc32_footer": "B5454581",
+      "patch_crc32_footer": "DAD38707",
       "patch_checksum_ok": true,
       "bps_metadata": null,
       "origin": {
@@ -2608,23 +2608,23 @@
         "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
         "kind": "release_asset",
         "release_tag": "DarkEyes_0.9",
-        "release_name": "[Release] Dark Eyes: Battle Gate (WonderSwan Color) - English v0.9.2",
+        "release_name": "[Release] Dark Eyes: Battle Gate (WonderSwan Color) - English v0.9.3",
         "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DarkEyes_0.9",
         "published_at": "2026-11-23T21:06:21Z",
         "prerelease": false,
-        "asset_name": "Dark.Eyes.-.Battle.Gate.EN.v0.9.2.ALL.CAPS.bps",
-        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/DarkEyes_0.9/Dark.Eyes.-.Battle.Gate.EN.v0.9.2.ALL.CAPS.bps",
+        "asset_name": "Dark.Eyes.-.Battle.Gate.EN.v0.9.3.ALL.CAPS.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/DarkEyes_0.9/Dark.Eyes.-.Battle.Gate.EN.v0.9.3.ALL.CAPS.bps",
         "archive_member": null,
-        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:792986582:2026-11-25T20:14:52Z:289435",
-        "release_notes": "**Dark Eyes: Battle Gate** is a 2001 strategy RPG for the WonderSwan Color by Nextech. It was released only in Japan.\n\nOn the planet Fairhope, two peoples live side by side: the Orghal, the Sun Folk, who built machines and ki arts, and the Infan, the Wind Folk, who forged sorcery in a harsh land. A fragile truce holds while an evil god's cult stirs in the shadows. You pick a side, Orghal or Infan, and lead your party through tactical battles on isometric maps, with class changes, mercenaries and \"mind games\" (cheer, scare, daze, persuade).\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nTwo versions with the same translation: normal (mixed case) and ALL CAPS. Apply the .bps to *Dark Eyes - Battle Gate (Japan).wsc* (4 MB, CRC32 12AE932C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB, CRC32 A1953607 (normal) or 6E6AD804 (ALL CAPS); keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Dark Eyes - Battle Gate (EN v0.9.2).bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9.2).wsc\"\n    flips --apply \"Dark Eyes - Battle Gate (EN v0.9.2, ALL CAPS).bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9.2, ALL …"
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:793130671:2026-11-25T21:01:18Z:289421",
+        "release_notes": "**Dark Eyes: Battle Gate** is a 2001 strategy RPG for the WonderSwan Color by Nextech. It was released only in Japan.\n\nOn the planet Fairhope, two peoples live side by side: the Orghal, the Sun Folk, who built machines and ki arts, and the Infan, the Wind Folk, who forged sorcery in a harsh land. A fragile truce holds while an evil god's cult stirs in the shadows. You pick a side, Orghal or Infan, and lead your party through tactical battles on isometric maps, with class changes, mercenaries and \"mind games\" (cheer, scare, daze, persuade).\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nTwo versions with the same translation: normal (mixed case) and ALL CAPS. Apply the .bps to *Dark Eyes - Battle Gate (Japan).wsc* (4 MB, CRC32 12AE932C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB, CRC32 6BC8A08C (normal) or BFD31C59 (ALL CAPS); keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Dark Eyes - Battle Gate (EN v0.9.3).bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9.3).wsc\"\n    flips --apply \"Dark Eyes - Battle Gate (EN v0.9.3, ALL CAPS).bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9.3, ALL …"
       },
       "first_seen": "2026-11-25"
     },
     {
-      "id": "f07437ecfec1acec",
+      "id": "29f38b7026b55229",
       "game": "Dark Eyes: Battle Gate",
-      "variant": "Dark.Eyes.-.Battle.Gate.EN.v0.9.2",
-      "version": "0.9.2",
+      "variant": "Dark.Eyes.-.Battle.Gate.EN.v0.9.3",
+      "version": "0.9.3",
       "language": "en",
       "platform": "wonderswan_color",
       "latest": true,
@@ -2634,7 +2634,7 @@
       "requires_patch_ids": null,
       "format": "bps",
       "source_crc32": "12AE932C",
-      "target_crc32": "A1953607",
+      "target_crc32": "6BC8A08C",
       "source_rom": {
         "crc32": "12AE932C",
         "size": 4194304,
@@ -2642,19 +2642,19 @@
         "name": "Dark Eyes - Battle Gate (Japan).wsc"
       },
       "target_rom": {
-        "crc32": "A1953607",
+        "crc32": "6BC8A08C",
         "size": 8388608,
         "crc32_from": "bps"
       },
-      "file_name": "Dark.Eyes.-.Battle.Gate.EN.v0.9.2.bps",
-      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/DarkEyes_0.9/Dark.Eyes.-.Battle.Gate.EN.v0.9.2.bps",
-      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DarkEyes_0.9/Dark.Eyes.-.Battle.Gate.EN.v0.9.2.bps",
-      "size": 289494,
-      "sha256": "f07437ecfec1aceca352d628cf6e47493b3fd21b30c8a89ea725144108c95816",
+      "file_name": "Dark.Eyes.-.Battle.Gate.EN.v0.9.3.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/DarkEyes_0.9/Dark.Eyes.-.Battle.Gate.EN.v0.9.3.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DarkEyes_0.9/Dark.Eyes.-.Battle.Gate.EN.v0.9.3.bps",
+      "size": 289480,
+      "sha256": "29f38b7026b55229af98ae04c86356268ab365a07a7f59de0509cd5cd76a33b4",
       "patch_crc32": "2144DF1C",
       "source_size": 4194304,
       "target_size": 8388608,
-      "patch_crc32_footer": "0EDC3BB6",
+      "patch_crc32_footer": "ECA38DFF",
       "patch_checksum_ok": true,
       "bps_metadata": null,
       "origin": {
@@ -2662,15 +2662,15 @@
         "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
         "kind": "release_asset",
         "release_tag": "DarkEyes_0.9",
-        "release_name": "[Release] Dark Eyes: Battle Gate (WonderSwan Color) - English v0.9.2",
+        "release_name": "[Release] Dark Eyes: Battle Gate (WonderSwan Color) - English v0.9.3",
         "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DarkEyes_0.9",
         "published_at": "2026-11-23T21:06:21Z",
         "prerelease": false,
-        "asset_name": "Dark.Eyes.-.Battle.Gate.EN.v0.9.2.bps",
-        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/DarkEyes_0.9/Dark.Eyes.-.Battle.Gate.EN.v0.9.2.bps",
+        "asset_name": "Dark.Eyes.-.Battle.Gate.EN.v0.9.3.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/DarkEyes_0.9/Dark.Eyes.-.Battle.Gate.EN.v0.9.3.bps",
         "archive_member": null,
-        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:792986548:2026-11-25T20:14:52Z:289494",
-        "release_notes": "**Dark Eyes: Battle Gate** is a 2001 strategy RPG for the WonderSwan Color by Nextech. It was released only in Japan.\n\nOn the planet Fairhope, two peoples live side by side: the Orghal, the Sun Folk, who built machines and ki arts, and the Infan, the Wind Folk, who forged sorcery in a harsh land. A fragile truce holds while an evil god's cult stirs in the shadows. You pick a side, Orghal or Infan, and lead your party through tactical battles on isometric maps, with class changes, mercenaries and \"mind games\" (cheer, scare, daze, persuade).\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nTwo versions with the same translation: normal (mixed case) and ALL CAPS. Apply the .bps to *Dark Eyes - Battle Gate (Japan).wsc* (4 MB, CRC32 12AE932C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB, CRC32 A1953607 (normal) or 6E6AD804 (ALL CAPS); keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Dark Eyes - Battle Gate (EN v0.9.2).bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9.2).wsc\"\n    flips --apply \"Dark Eyes - Battle Gate (EN v0.9.2, ALL CAPS).bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9.2, ALL …"
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:793130591:2026-11-25T21:01:18Z:289480",
+        "release_notes": "**Dark Eyes: Battle Gate** is a 2001 strategy RPG for the WonderSwan Color by Nextech. It was released only in Japan.\n\nOn the planet Fairhope, two peoples live side by side: the Orghal, the Sun Folk, who built machines and ki arts, and the Infan, the Wind Folk, who forged sorcery in a harsh land. A fragile truce holds while an evil god's cult stirs in the shadows. You pick a side, Orghal or Infan, and lead your party through tactical battles on isometric maps, with class changes, mercenaries and \"mind games\" (cheer, scare, daze, persuade).\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nTwo versions with the same translation: normal (mixed case) and ALL CAPS. Apply the .bps to *Dark Eyes - Battle Gate (Japan).wsc* (4 MB, CRC32 12AE932C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB, CRC32 6BC8A08C (normal) or BFD31C59 (ALL CAPS); keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Dark Eyes - Battle Gate (EN v0.9.3).bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9.3).wsc\"\n    flips --apply \"Dark Eyes - Battle Gate (EN v0.9.3, ALL CAPS).bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9.3, ALL …"
       },
       "first_seen": "2026-11-25"
     },
