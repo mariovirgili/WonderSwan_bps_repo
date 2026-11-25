@@ -5,11 +5,11 @@ Every released WonderSwan and WonderSwan Color title, and the translation patche
 | System | Titles | With a translation patch |
 | --- | ---: | ---: |
 | WonderSwan | 219 | 51 (+5 ⚠️ another dump) |
-| WonderSwan Color | 229 | 55 (+1 ⚠️ another dump) |
+| WonderSwan Color | 229 | 56 (+1 ⚠️ another dump) |
 
-Last change to the patch catalog: 2026-11-24.
+Last change to the patch catalog: 2026-11-25.
 
-## Titles with translation patches (112)
+## Titles with translation patches (113)
 
 | | Title | System | Patches (newest version of each author) |
 | :---: | --- | --- | --- |
@@ -77,6 +77,7 @@ Last change to the patch catalog: 2026-11-24.
 | ✅ | Kidou Senshi Gundam Vol. 1 - Side 7 (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol1-side7-v1.1) |
 | ✅ | Kidou Senshi Gundam Vol. 2 - Jaburo (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol2-jaburo-v1.1) |
 | ✅ | Kidou Senshi Gundam Vol. 3 - A Baoa Qu (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol3-a-baoa-qu-v1.1) |
+| ✅ | Kurupara! (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Kurupara_0.9) |
 | ✅ | Langrisser Millennium WS - The Last Century (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0) |
 | ✅ | Last Stand (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/last-stand-v1.0) |
 | ⚠️ | Lode Runner for WonderSwan (Japan) | WonderSwan | ⚠️ for another dump of this title (ROM CRC32 `E407CABF`): **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0)<br>**Japanese**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0) |
@@ -471,7 +472,7 @@ Last change to the patch catalog: 2026-11-24.
 | ✅ | **Kidou Senshi Gundam Vol. 3 - A Baoa Qu (Japan)** | `A9F5BF54` | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol3-a-baoa-qu-v1.1) |
 |  | Kinnikuman II-Sei - Choujin Seisenshi (Japan) | `6142FD9D` | — |
 |  | Kinnikuman II-Sei - Dream Tag Match (Japan) | `462F9275` | — |
-|  | Kurupara! (Japan) (Rev 1) | `274719F5` | — |
+| ✅ | **Kurupara! (Japan) (Rev 1)** | `274719F5` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Kurupara_0.9) |
 |  | Kuttsuke Su (World) (Ja) (WonderWitch) | `09A94F00` | — |
 |  | Last Alive (Japan) | `DA4479BF` | — |
 |  | Lolita Queen (World) (WonderWitch) | `A1818B41` | — |

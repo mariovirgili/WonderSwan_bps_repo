@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "37B1AC87"
+ },
+ "crc32": "37B1AC87",
+ "size": 4194304,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "013f83979a0e34ca",
+   "game": "Kurupara!",
+   "variant": "Kurupara.EN.v0.9",
+   "version": "0.9",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "274719F5",
+   "target_crc32": "37B1AC87",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Kurupara_0.9/Kurupara.EN.v0.9.bps",
+   "sha256": "013f83979a0e34cafef1b0bc69c624b4381fe99ef7b78aa7549d400582b5fda5",
+   "size": 663139,
+   "source": "mariovirgili/WonderSwanColor-AI_Translation",
+   "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Kurupara_0.9",
+   "notes": "Kurupara! is Tom Create's 2001 puzzle game for the WonderSwan Color, published by Bandai and released only in Japan. You flip and match picture panels on a 5x5 board to clear them in chains. Kurupara, a cheerful girl from a dream resort island, meets an alien frog from planet Keropore and a cast of odd visitors. The game has a Story mode, a Puzzles mode with 80 problems, a Dojo with the Dan Rank Exam, practice matches and lessons, and Battle against the computer or over the link cable.\n\nThe translation comes in two versions with the same English text: normal (upper and lower case) and ALL CAPS. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> Please read: this translation was made entirely with AI, as a personal project. It is shared as it is for anyone who wants to play, but it must never be uploaded to romhacking sites (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n## Images\n\n## How to patch\n\nApply one of the patches to *Kurupara! (Japan) (Rev 1).wsc* (2 MB, CRC32 274719F5) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB; keep the .wsc extension.\n\n* Normal: `Kurupara.EN.v0.9.bps`, patched ROM CRC32 37B1AC87.\n* ALL CAPS: `Kurupara.EN.v0.9.ALL.CAPS.bps`, patched ROM CRC32 081D6182.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Kurupara.EN.v0.9.bps\" \"Kurupara! (Japan) (Rev 1).wsc\" \"Kurupara! (EN v0.9).wsc\"\n\n    flips --apply \"Kurupara.EN.v0.9.ALL.CAPS.bps\" …"
+  }
+ ]
+}

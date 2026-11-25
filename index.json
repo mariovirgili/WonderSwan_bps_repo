@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "repository": "mariovirgili/WonderSwan_bps_repo",
-  "generated_at": "2026-11-24T22:54:51+00:00",
+  "generated_at": "2026-11-25T06:11:40+00:00",
   "sources": [
     "mariovirgili/WonderSwanColor-AI_Translation",
     "PokemonGoDB/wonderswan-english-patches",
@@ -32,7 +32,7 @@
     "wonderswan_color",
     null
   ],
-  "count": 306,
+  "count": 308,
   "entries": [
     {
       "id": "fb49f952cc562ee5",
@@ -9050,6 +9050,114 @@
         "release_notes": "**Kidou Senshi Gundam Vol. 3: A Baoa Qu** (機動戦士ガンダム Vol.3 -A BAOA QU-, \"Mobile Suit Gundam Vol. 3: A Baoa Qu\") is Bandai's 2002 game for the WonderSwan Color, released only in Japan, and the last of three cartridges that retell the 1979 anime *Mobile Suit Gundam*. It covers episodes 31-43: the White Base back in space, Solomon, Lalah Sune and the Elmeth, and the final battle at A Baoa Qu. Each episode is told in story scenes, with mobile-suit battles in between; a new game can carry over Amuro's skill from the earlier volumes.\n\nThis patch translates it into English. Vol. 1, Vol. 2 and Vol. 3 each have their own patch and their own page.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script: every story scene and narration, the battle chatter and radio calls, the battle report comments, the tips, the epilogue and the staff credits.\n* Every menu and prompt: the map and destination prompts, the event list, saving, quitting and continuing.\n* Everything drawn as a picture: the title logo (MOBILE SUIT GUNDAM), the episode title cards, the battle report panel, the carry-over …"
       },
       "first_seen": "2026-11-02"
+    },
+    {
+      "id": "fdb1c0756b17b7e4",
+      "game": "Kurupara!",
+      "variant": "Kurupara.EN.v0.9.ALL.CAPS",
+      "version": "0.9",
+      "language": "en",
+      "platform": "wonderswan",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "274719F5",
+      "target_crc32": "081D6182",
+      "source_rom": {
+        "crc32": "274719F5",
+        "size": 2097152,
+        "crc32_from": "bps",
+        "name": "Kurupara! (Japan) (Rev 1).wsc"
+      },
+      "target_rom": {
+        "crc32": "081D6182",
+        "size": 4194304,
+        "crc32_from": "bps"
+      },
+      "file_name": "Kurupara.EN.v0.9.ALL.CAPS.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/Kurupara_0.9/Kurupara.EN.v0.9.ALL.CAPS.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Kurupara_0.9/Kurupara.EN.v0.9.ALL.CAPS.bps",
+      "size": 663620,
+      "sha256": "fdb1c0756b17b7e43735a975dfdc0747a2b0888c722c55f2697f142b8c0fba2e",
+      "patch_crc32": "2144DF1C",
+      "source_size": 2097152,
+      "target_size": 4194304,
+      "patch_crc32_footer": "994C4915",
+      "patch_checksum_ok": true,
+      "bps_metadata": null,
+      "origin": {
+        "source": "mariovirgili/WonderSwanColor-AI_Translation",
+        "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
+        "kind": "release_asset",
+        "release_tag": "Kurupara_0.9",
+        "release_name": "[Release] Kurupara! (WonderSwan) - English v0.9 (normal and ALL CAPS)",
+        "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Kurupara_0.9",
+        "published_at": "2026-11-25T06:08:59Z",
+        "prerelease": false,
+        "asset_name": "Kurupara.EN.v0.9.ALL.CAPS.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/Kurupara_0.9/Kurupara.EN.v0.9.ALL.CAPS.bps",
+        "archive_member": null,
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:790299050:2026-11-25T06:04:58Z:663620",
+        "release_notes": "Kurupara! is Tom Create's 2001 puzzle game for the WonderSwan Color, published by Bandai and released only in Japan. You flip and match picture panels on a 5x5 board to clear them in chains. Kurupara, a cheerful girl from a dream resort island, meets an alien frog from planet Keropore and a cast of odd visitors. The game has a Story mode, a Puzzles mode with 80 problems, a Dojo with the Dan Rank Exam, practice matches and lessons, and Battle against the computer or over the link cable.\n\nThe translation comes in two versions with the same English text: normal (upper and lower case) and ALL CAPS. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> Please read: this translation was made entirely with AI, as a personal project. It is shared as it is for anyone who wants to play, but it must never be uploaded to romhacking sites (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n## Images\n\n## How to patch\n\nApply one of the patches to *Kurupara! (Japan) (Rev 1).wsc* (2 MB, CRC32 274719F5) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB; keep the .wsc extension.\n\n* Normal: `Kurupara.EN.v0.9.bps`, patched ROM CRC32 37B1AC87.\n* ALL CAPS: `Kurupara.EN.v0.9.ALL.CAPS.bps`, patched ROM CRC32 081D6182.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Kurupara.EN.v0.9.bps\" \"Kurupara! (Japan) (Rev 1).wsc\" \"Kurupara! (EN v0.9).wsc\"\n\n    flips --apply \"Kurupara.EN.v0.9.ALL.CAPS.bps\" …"
+      },
+      "first_seen": "2026-11-25"
+    },
+    {
+      "id": "013f83979a0e34ca",
+      "game": "Kurupara!",
+      "variant": "Kurupara.EN.v0.9",
+      "version": "0.9",
+      "language": "en",
+      "platform": "wonderswan",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "274719F5",
+      "target_crc32": "37B1AC87",
+      "source_rom": {
+        "crc32": "274719F5",
+        "size": 2097152,
+        "crc32_from": "bps",
+        "name": "Kurupara! (Japan) (Rev 1).wsc"
+      },
+      "target_rom": {
+        "crc32": "37B1AC87",
+        "size": 4194304,
+        "crc32_from": "bps"
+      },
+      "file_name": "Kurupara.EN.v0.9.bps",
+      "path": "patches/mariovirgili/WonderSwanColor-AI_Translation/Kurupara_0.9/Kurupara.EN.v0.9.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Kurupara_0.9/Kurupara.EN.v0.9.bps",
+      "size": 663139,
+      "sha256": "013f83979a0e34cafef1b0bc69c624b4381fe99ef7b78aa7549d400582b5fda5",
+      "patch_crc32": "2144DF1C",
+      "source_size": 2097152,
+      "target_size": 4194304,
+      "patch_crc32_footer": "CE17B2C2",
+      "patch_checksum_ok": true,
+      "bps_metadata": null,
+      "origin": {
+        "source": "mariovirgili/WonderSwanColor-AI_Translation",
+        "source_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation",
+        "kind": "release_asset",
+        "release_tag": "Kurupara_0.9",
+        "release_name": "[Release] Kurupara! (WonderSwan) - English v0.9 (normal and ALL CAPS)",
+        "release_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Kurupara_0.9",
+        "published_at": "2026-11-25T06:08:59Z",
+        "prerelease": false,
+        "asset_name": "Kurupara.EN.v0.9.bps",
+        "download_url": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/download/Kurupara_0.9/Kurupara.EN.v0.9.bps",
+        "archive_member": null,
+        "key": "asset:mariovirgili/WonderSwanColor-AI_Translation:790298991:2026-11-25T06:04:57Z:663139",
+        "release_notes": "Kurupara! is Tom Create's 2001 puzzle game for the WonderSwan Color, published by Bandai and released only in Japan. You flip and match picture panels on a 5x5 board to clear them in chains. Kurupara, a cheerful girl from a dream resort island, meets an alien frog from planet Keropore and a cast of odd visitors. The game has a Story mode, a Puzzles mode with 80 problems, a Dojo with the Dan Rank Exam, practice matches and lessons, and Battle against the computer or over the link cable.\n\nThe translation comes in two versions with the same English text: normal (upper and lower case) and ALL CAPS. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> Please read: this translation was made entirely with AI, as a personal project. It is shared as it is for anyone who wants to play, but it must never be uploaded to romhacking sites (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n## Images\n\n## How to patch\n\nApply one of the patches to *Kurupara! (Japan) (Rev 1).wsc* (2 MB, CRC32 274719F5) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB; keep the .wsc extension.\n\n* Normal: `Kurupara.EN.v0.9.bps`, patched ROM CRC32 37B1AC87.\n* ALL CAPS: `Kurupara.EN.v0.9.ALL.CAPS.bps`, patched ROM CRC32 081D6182.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Kurupara.EN.v0.9.bps\" \"Kurupara! (Japan) (Rev 1).wsc\" \"Kurupara! (EN v0.9).wsc\"\n\n    flips --apply \"Kurupara.EN.v0.9.ALL.CAPS.bps\" …"
+      },
+      "first_seen": "2026-11-25"
     },
     {
       "id": "21ff676fe9bb8e5c",

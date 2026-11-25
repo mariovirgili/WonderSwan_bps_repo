@@ -375,6 +375,34 @@
     }
    ]
   },
+  "081D6182": {
+   "crc32": "081D6182",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "fdb1c0756b17b7e4",
+     "game": "Kurupara!",
+     "variant": "Kurupara.EN.v0.9.ALL.CAPS",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "274719F5",
+     "target_crc32": "081D6182",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Kurupara_0.9/Kurupara.EN.v0.9.ALL.CAPS.bps",
+     "sha256": "fdb1c0756b17b7e43735a975dfdc0747a2b0888c722c55f2697f142b8c0fba2e",
+     "size": 663620,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Kurupara_0.9",
+     "notes": "Kurupara! is Tom Create's 2001 puzzle game for the WonderSwan Color, published by Bandai and released only in Japan. You flip and match picture panels on a 5x5 board to clear them in chains. Kurupara, a cheerful girl from a dream resort island, meets an alien frog from planet Keropore and a cast of odd visitors. The game has a Story mode, a Puzzles mode with 80 problems, a Dojo with the Dan Rank Exam, practice matches and lessons, and Battle against the computer or over the link cable.\n\nThe translation comes in two versions with the same English text: normal (upper and lower case) and ALL CAPS. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> Please read: this translation was made entirely with AI, as a personal project. It is shared as it is for anyone who wants to play, but it must never be uploaded to romhacking sites (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n## Images\n\n## How to patch\n\nApply one of the patches to *Kurupara! (Japan) (Rev 1).wsc* (2 MB, CRC32 274719F5) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB; keep the .wsc extension.\n\n* Normal: `Kurupara.EN.v0.9.bps`, patched ROM CRC32 37B1AC87.\n* ALL CAPS: `Kurupara.EN.v0.9.ALL.CAPS.bps`, patched ROM CRC32 081D6182.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Kurupara.EN.v0.9.bps\" \"Kurupara! (Japan) (Rev 1).wsc\" \"Kurupara! (EN v0.9).wsc\"\n\n    flips --apply \"Kurupara.EN.v0.9.ALL.CAPS.bps\" …"
+    }
+   ]
+  },
   "08C0247B": {
    "crc32": "08C0247B",
    "size": 4194304,
@@ -2188,6 +2216,58 @@
     }
    ]
   },
+  "274719F5": {
+   "crc32": "274719F5",
+   "size": 2097152,
+   "md5": "9450a7cf7d4adea3aa9a97529bcd5b4b",
+   "sha1": "9942d1b7d1c00126b9891e560e6a3e264f8fdc2e",
+   "names": [
+    "Kurupara! (Japan) (Rev 1).wsc"
+   ],
+   "patches": [
+    {
+     "id": "013f83979a0e34ca",
+     "game": "Kurupara!",
+     "variant": "Kurupara.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "274719F5",
+     "target_crc32": "37B1AC87",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Kurupara_0.9/Kurupara.EN.v0.9.bps",
+     "sha256": "013f83979a0e34cafef1b0bc69c624b4381fe99ef7b78aa7549d400582b5fda5",
+     "size": 663139,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Kurupara_0.9",
+     "notes": "Kurupara! is Tom Create's 2001 puzzle game for the WonderSwan Color, published by Bandai and released only in Japan. You flip and match picture panels on a 5x5 board to clear them in chains. Kurupara, a cheerful girl from a dream resort island, meets an alien frog from planet Keropore and a cast of odd visitors. The game has a Story mode, a Puzzles mode with 80 problems, a Dojo with the Dan Rank Exam, practice matches and lessons, and Battle against the computer or over the link cable.\n\nThe translation comes in two versions with the same English text: normal (upper and lower case) and ALL CAPS. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> Please read: this translation was made entirely with AI, as a personal project. It is shared as it is for anyone who wants to play, but it must never be uploaded to romhacking sites (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n## Images\n\n## How to patch\n\nApply one of the patches to *Kurupara! (Japan) (Rev 1).wsc* (2 MB, CRC32 274719F5) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB; keep the .wsc extension.\n\n* Normal: `Kurupara.EN.v0.9.bps`, patched ROM CRC32 37B1AC87.\n* ALL CAPS: `Kurupara.EN.v0.9.ALL.CAPS.bps`, patched ROM CRC32 081D6182.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Kurupara.EN.v0.9.bps\" \"Kurupara! (Japan) (Rev 1).wsc\" \"Kurupara! (EN v0.9).wsc\"\n\n    flips --apply \"Kurupara.EN.v0.9.ALL.CAPS.bps\" …"
+    },
+    {
+     "id": "fdb1c0756b17b7e4",
+     "game": "Kurupara!",
+     "variant": "Kurupara.EN.v0.9.ALL.CAPS",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "274719F5",
+     "target_crc32": "081D6182",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Kurupara_0.9/Kurupara.EN.v0.9.ALL.CAPS.bps",
+     "sha256": "fdb1c0756b17b7e43735a975dfdc0747a2b0888c722c55f2697f142b8c0fba2e",
+     "size": 663620,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Kurupara_0.9",
+     "notes": "Kurupara! is Tom Create's 2001 puzzle game for the WonderSwan Color, published by Bandai and released only in Japan. You flip and match picture panels on a 5x5 board to clear them in chains. Kurupara, a cheerful girl from a dream resort island, meets an alien frog from planet Keropore and a cast of odd visitors. The game has a Story mode, a Puzzles mode with 80 problems, a Dojo with the Dan Rank Exam, practice matches and lessons, and Battle against the computer or over the link cable.\n\nThe translation comes in two versions with the same English text: normal (upper and lower case) and ALL CAPS. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> Please read: this translation was made entirely with AI, as a personal project. It is shared as it is for anyone who wants to play, but it must never be uploaded to romhacking sites (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n## Images\n\n## How to patch\n\nApply one of the patches to *Kurupara! (Japan) (Rev 1).wsc* (2 MB, CRC32 274719F5) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB; keep the .wsc extension.\n\n* Normal: `Kurupara.EN.v0.9.bps`, patched ROM CRC32 37B1AC87.\n* ALL CAPS: `Kurupara.EN.v0.9.ALL.CAPS.bps`, patched ROM CRC32 081D6182.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Kurupara.EN.v0.9.bps\" \"Kurupara! (Japan) (Rev 1).wsc\" \"Kurupara! (EN v0.9).wsc\"\n\n    flips --apply \"Kurupara.EN.v0.9.ALL.CAPS.bps\" …"
+    }
+   ],
+   "produced_by": []
+  },
   "27B3CC18": {
    "crc32": "27B3CC18",
    "size": 2097152,
@@ -3267,6 +3347,34 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tare-panda-gunpey-v1.0",
      "notes": "**Tare Panda no GunPey** (たれぱんだのぐんぺい, \"Tarepanda's GunPey\") is Bandai's 1999 version of the puzzle game GunPey for the original (monochrome) WonderSwan, starring San-X's Tarepanda, the lazy, flattened panda. It is played with the console held upright and was released only in Japan. You swap panels up and down their columns to join their line pieces into a path from one side of the field to the other; a joined path disappears, and new rows keep pushing up from below. It has five single-player modes, served as dishes on a restaurant menu: an endless game, an observation mode, 100 set puzzles, a story mode in which a tarepanda rolls through nine stages of little scenes, and a game that never ends. There are also two-player link-cable battles and a hidden WonderGate mode that once sent scores to Bandai's national rankings.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* Every word in this game is a picture, and every one of them was redrawn: the title logo and menus, the mode menu, the round screens (labels, banners, the SP gauge, the portrait's …"
+    }
+   ]
+  },
+  "37B1AC87": {
+   "crc32": "37B1AC87",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "013f83979a0e34ca",
+     "game": "Kurupara!",
+     "variant": "Kurupara.EN.v0.9",
+     "version": "0.9",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "274719F5",
+     "target_crc32": "37B1AC87",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/Kurupara_0.9/Kurupara.EN.v0.9.bps",
+     "sha256": "013f83979a0e34cafef1b0bc69c624b4381fe99ef7b78aa7549d400582b5fda5",
+     "size": 663139,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Kurupara_0.9",
+     "notes": "Kurupara! is Tom Create's 2001 puzzle game for the WonderSwan Color, published by Bandai and released only in Japan. You flip and match picture panels on a 5x5 board to clear them in chains. Kurupara, a cheerful girl from a dream resort island, meets an alien frog from planet Keropore and a cast of odd visitors. The game has a Story mode, a Puzzles mode with 80 problems, a Dojo with the Dan Rank Exam, practice matches and lessons, and Battle against the computer or over the link cable.\n\nThe translation comes in two versions with the same English text: normal (upper and lower case) and ALL CAPS. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> Please read: this translation was made entirely with AI, as a personal project. It is shared as it is for anyone who wants to play, but it must never be uploaded to romhacking sites (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n## Images\n\n## How to patch\n\nApply one of the patches to *Kurupara! (Japan) (Rev 1).wsc* (2 MB, CRC32 274719F5) with Floating IPS, beat or ROM Patcher JS. The result is 4 MB; keep the .wsc extension.\n\n* Normal: `Kurupara.EN.v0.9.bps`, patched ROM CRC32 37B1AC87.\n* ALL CAPS: `Kurupara.EN.v0.9.ALL.CAPS.bps`, patched ROM CRC32 081D6182.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Kurupara.EN.v0.9.bps\" \"Kurupara! (Japan) (Rev 1).wsc\" \"Kurupara! (EN v0.9).wsc\"\n\n    flips --apply \"Kurupara.EN.v0.9.ALL.CAPS.bps\" …"
     }
    ]
   },
@@ -15270,6 +15378,7 @@
   "893ac7863337a65c919780b41bc52406": "12FB8B28",
   "8b8ea655dbea4a3152b300126556404c": "6F304DCA",
   "8be5abfaef7ad77d14f92f10b2460098": "4D103236",
+  "9450a7cf7d4adea3aa9a97529bcd5b4b": "274719F5",
   "95b2632395ce85fc5f0cdb762e665136": "39A1391A",
   "98e88544d8b7df359e37bf2c17dd0641": "92FBF7FB",
   "9a41ed23b82a090ec4508d3725e19f9b": "7DA6ACB9",
@@ -15394,6 +15503,7 @@
   "96a9ce5e56dc0c9648027ad4454e6f35e88d9a07": "E7C608E5",
   "977d5830e45c78b9020e9d06a63a9ad6bc623745": "FE4FF701",
   "9896d93c97381dc06b6f044de6c9bd112ca0c94b": "14ADBD4B",
+  "9942d1b7d1c00126b9891e560e6a3e264f8fdc2e": "274719F5",
   "99c831c27c478064e3d3fa8f9f089cc28f0e946f": "F2E362B8",
   "99d5bdde193685a1d09ea73bb79a54b4da82625d": "3FF5791F",
   "99d9d7f951ae589059f34e76aea7489ae4cd79f1": "B18CDC0D",
