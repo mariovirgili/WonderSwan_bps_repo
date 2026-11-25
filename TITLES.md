@@ -28,7 +28,7 @@ Last change to the patch catalog: 2026-11-25.
 | ✅ | Chou Aniki - Otoko no Tamafuda (Japan) (Rev 4) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ChouAniki_0.9) |
 | ✅ | Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3) | WonderSwan | **English**: [PokemonGoDB v1.3](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.3) |
 | ✅ | D's Garage 21 Koubo Game - Tane o Maku Tori (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tane-o-maku-tori-v1.0) |
-| ✅ | Dark Eyes - Battle Gate (Japan) (WS Compatible) | WonderSwan Color | **English**: [mariovirgili v0.9.3](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DarkEyes_0.9) |
+| ✅ | Dark Eyes - Battle Gate (Japan) (WS Compatible) | WonderSwan Color | **English**: [mariovirgili v0.9.4](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DarkEyes_0.9) |
 | ✅ | Densha de Go! (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/densha-de-go-v1.0) |
 | ✅ | Densha de Go! 2 (Japan) | WonderSwan | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DenshaDeGo2_0.9.1) · [Gand46 v0.4.20](https://github.com/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/blob/main/patches/Densha_de_Go_2_EN_v0.4.20_OPTIONS_FONT_CUMULATIVE.bps) |
 | ⚠️ | Dicing Knight. (Japan) | WonderSwan Color | ⚠️ for another dump of this title (ROM CRC32 `D28DC930`): **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dicing-knight-v1.1) |
@@ -389,7 +389,7 @@ Last change to the patch catalog: 2026-11-25.
 |  | Course Out 2 (World) (Ja) (v0.0.1) (WonderWitch) | `4995EB60` | — |
 |  | Course Out 3 (World) (Ja) (v0.0.1) (Proto) (WonderWitch) | `1143A561` | — |
 |  | Dai Meikyuu (World) (Ja) (WonderWitch) | `A8B42C3A` | — |
-| ✅ | **Dark Eyes - Battle Gate (Japan) (WS Compatible)** | `12AE932C` | **English**: [mariovirgili v0.9.3](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DarkEyes_0.9) |
+| ✅ | **Dark Eyes - Battle Gate (Japan) (WS Compatible)** | `12AE932C` | **English**: [mariovirgili v0.9.4](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DarkEyes_0.9) |
 |  | Darkhero Figment - Calibur Edition (World) (Ja) (WonderWitch) | `1E2B5421` | — |
 |  | Darkhero Figment - Doris Edition (World) (Ja) (WonderWitch) | `B518B51C` | — |
 |  | Darkhero Figment 2 (World) (Ja) (WonderWitch) | `3951D2D0` | — |
