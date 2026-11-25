@@ -71,7 +71,7 @@ Last change to the patch catalog: 2026-11-25.
 | ✅ | Hunter X Hunter - Sorezore no Ketsui (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HxH_SorezoreNoKetsui_0.9) |
 | ✅ | Inuyasha - Fuuun Emaki (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-fuuun-emaki-v1.0) |
 | ✅ | Judgement Silversword - Rebirth Edition (Japan) (Rev 5C21) | WonderSwan Color | **English**: [mariovirgili v2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/JSS_Arrange_2.7) |
-| ✅ | Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan) | WonderSwan | **English**: [mariovirgili v0.9.5](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9) |
+| ✅ | Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan) | WonderSwan | **English**: [mariovirgili v0.9.6](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9) |
 | ✅ | Kaze no Klonoa - Moonlight Museum (Japan) | WonderSwan | **English**: [mariovirgili v39.4M](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Klonoa_MM_0.9) |
 | ✅ | Kidou Senshi Gundam - Giren no Yabou - Tokubetsu Hen - Aoki Hoshi no Hasha (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Giren_0.9) |
 | ✅ | Kidou Senshi Gundam Vol. 1 - Side 7 (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol1-side7-v1.1) |
@@ -214,7 +214,7 @@ Last change to the patch catalog: 2026-11-25.
 |  | Ishikari (World) (Ja) (WonderWitch) | `8240AD86` | — |
 |  | Jiban Ryuoki - WonderSwan Edition (World) (WonderWitch) | `E0316605` | — |
 |  | Jump on Step (World) (WonderWitch) | `54705B16` | — |
-| ✅ | **Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan)** | `4D103236` | **English**: [mariovirgili v0.9.5](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9) |
+| ✅ | **Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan)** | `4D103236` | **English**: [mariovirgili v0.9.6](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9) |
 |  | Kana (World) (Ja) (WonderWitch) | `B048E00B` | — |
 | ✅ | **Kaze no Klonoa - Moonlight Museum (Japan)** | `80C6EF12` | **English**: [mariovirgili v39.4M](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Klonoa_MM_0.9) |
 |  | Keiba Yosou Shien Soft - Yosou Shinkaron (Japan) | `517F962E` | — |
