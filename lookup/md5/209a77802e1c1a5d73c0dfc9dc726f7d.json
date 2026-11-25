@@ -1,0 +1,36 @@
+{
+ "schema": 1,
+ "query": {
+  "md5": "209a77802e1c1a5d73c0dfc9dc726f7d"
+ },
+ "crc32": "44453234",
+ "size": 4194304,
+ "md5": "209a77802e1c1a5d73c0dfc9dc726f7d",
+ "sha1": "f7c8f8b6b6d036df8fc4bde72fcfac2846dffe35",
+ "names": [
+  "Inuyasha - Kagome no Yume Nikki (Japan).wsc"
+ ],
+ "patches": [
+  {
+   "id": "e6e40268c0b1ce03",
+   "game": "Inuyasha: Kagome no Yume Nikki",
+   "variant": "inuyasha-kagome-no-yume-nikki-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "44453234",
+   "target_crc32": "82518E21",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/inuyasha-kagome-no-yume-nikki-v1.0/inuyasha-kagome-no-yume-nikki-en-1.0.bps",
+   "sha256": "e6e40268c0b1ce032c28996541d2fa89c53a73b271dff0ceee4175473fb545d7",
+   "size": 1601334,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-kagome-no-yume-nikki-v1.0",
+   "notes": "**Inuyasha: Kagome no Yume Nikki** (犬夜叉 かごめの夢日記, \"Kagome's Dream Diary\") is a raising game for the WonderSwan Color, based on Rumiko Takahashi's Inuyasha (Bandai, 2002). Kagome looks after Inuyasha in a dream: the game runs over 15 days of 6 time slots each, you choose where to go on a map, meet visitors and villagers, give Inuyasha things, and read the results in a dream diary and a status card. A Memory Box (思い出箱) on the title menu keeps a \"Daily Life Guide\" of what you have seen. It was released only in Japan. This patch translates all the text the game shows into English and lets you type your name with Latin letters.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the opening and the dream scenes, the village events, the diary (events, schedule, status), the command menu, the status card, the item list and item notices, the explore map and its prompts, the mini-games' instructions that can be reached, and the staff roll. The project's checks drew 17,262 text strings with the game's own text drawing, with 0 Japanese characters left in them.\n* …"
+  }
+ ],
+ "produced_by": []
+}

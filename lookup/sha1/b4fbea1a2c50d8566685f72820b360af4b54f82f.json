@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "b4fbea1a2c50d8566685f72820b360af4b54f82f"
+ },
+ "crc32": "0C23D551",
+ "size": 2097152,
+ "md5": "f1e53c706af452671467b8f4595258d4",
+ "sha1": "b4fbea1a2c50d8566685f72820b360af4b54f82f",
+ "names": [
+  "Inuyasha - Kagome no Sengoku Nikki (Japan).wsc"
+ ],
+ "patches": [
+  {
+   "id": "3c2f09221641bde5",
+   "game": "Inuyasha: Kagome no Sengoku Nikki",
+   "variant": "inuyasha-kagome-no-sengoku-nikki-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "0C23D551",
+   "target_crc32": "B25E410B",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/inuyasha-kagome-no-sengoku-nikki-v1.0/inuyasha-kagome-no-sengoku-nikki-en-1.0.bps",
+   "sha256": "3c2f09221641bde5a5141026a2af60f1208594a745d31a91b4bb6840019415b9",
+   "size": 804993,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-kagome-no-sengoku-nikki-v1.0",
+   "notes": "**Inuyasha: Kagome no Sengoku Nikki** (犬夜叉 かごめの戦国日記, \"Kagome's Feudal Diary\") is a virtual-companion adventure for the WonderSwan Color, based on Rumiko Takahashi's Inuyasha (Bandai, 2001). It runs on the cartridge's real-time clock: you set the date and time, play a short opening (the shrine, the well, the Feudal Era, Inuyasha), and then live alongside him in a main loop with a clock at the top right, a caption saying what Inuyasha is doing right now and a command menu (Explore, Talk, Mini-Games, Go Home, Items, Inuyasha, Close). From there you can go home to Kagome's room (items, the forest, the diary). It was released only in Japan. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** 19,901 messages plus 895 fixed strings (menus, prompts, item names, captions, the diary and talk topics). None of the English text holds a Japanese character.\n* **A real English name entry:** the original's kana and kanji grid is replaced by one page of Latin letters (A-Z, a-z and a few marks, no digits) with …"
+  },
+  {
+   "id": "9f47784544a49240",
+   "game": "Inuyasha: Kagome no Sengoku Nikki",
+   "variant": "inuyasha-kagome-no-sengoku-nikki-en-debug-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "0C23D551",
+   "target_crc32": "1209B679",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/inuyasha-kagome-no-sengoku-nikki-v1.0/inuyasha-kagome-no-sengoku-nikki-en-debug-1.0.bps",
+   "sha256": "9f47784544a49240a60f9f82cad6060494474aab09879e331f25fdeec03c1898",
+   "size": 805127,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-kagome-no-sengoku-nikki-v1.0",
+   "notes": "**Inuyasha: Kagome no Sengoku Nikki** (犬夜叉 かごめの戦国日記, \"Kagome's Feudal Diary\") is a virtual-companion adventure for the WonderSwan Color, based on Rumiko Takahashi's Inuyasha (Bandai, 2001). It runs on the cartridge's real-time clock: you set the date and time, play a short opening (the shrine, the well, the Feudal Era, Inuyasha), and then live alongside him in a main loop with a clock at the top right, a caption saying what Inuyasha is doing right now and a command menu (Explore, Talk, Mini-Games, Go Home, Items, Inuyasha, Close). From there you can go home to Kagome's room (items, the forest, the diary). It was released only in Japan. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** 19,901 messages plus 895 fixed strings (menus, prompts, item names, captions, the diary and talk topics). None of the English text holds a Japanese character.\n* **A real English name entry:** the original's kana and kanji grid is replaced by one page of Latin letters (A-Z, a-z and a few marks, no digits) with …"
+  }
+ ],
+ "produced_by": []
+}

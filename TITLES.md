@@ -4,12 +4,12 @@ Every released WonderSwan and WonderSwan Color title, and the translation patche
 
 | System | Titles | With a translation patch |
 | --- | ---: | ---: |
-| WonderSwan | 219 | 51 (+5 ⚠️ another dump) |
-| WonderSwan Color | 229 | 56 (+1 ⚠️ another dump) |
+| WonderSwan | 219 | 52 (+5 ⚠️ another dump) |
+| WonderSwan Color | 229 | 59 (+1 ⚠️ another dump) |
 
 Last change to the patch catalog: 2026-11-25.
 
-## Titles with translation patches (113)
+## Titles with translation patches (117)
 
 | | Title | System | Patches (newest version of each author) |
 | :---: | --- | --- | --- |
@@ -28,7 +28,7 @@ Last change to the patch catalog: 2026-11-25.
 | ✅ | Chou Aniki - Otoko no Tamafuda (Japan) (Rev 4) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ChouAniki_0.9) |
 | ✅ | Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3) | WonderSwan | **English**: [PokemonGoDB v1.3](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.3) |
 | ✅ | D's Garage 21 Koubo Game - Tane o Maku Tori (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tane-o-maku-tori-v1.0) |
-| ✅ | Dark Eyes - Battle Gate (Japan) (WS Compatible) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DarkEyes_0.9) |
+| ✅ | Dark Eyes - Battle Gate (Japan) (WS Compatible) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DarkEyes_0.9) |
 | ✅ | Densha de Go! (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/densha-de-go-v1.0) |
 | ✅ | Densha de Go! 2 (Japan) | WonderSwan | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DenshaDeGo2_0.9.1) · [Gand46 v0.4.20](https://github.com/Gand46/Densha-de-Go-2-Wonderswan-English-Translation-AI_GPT/blob/main/patches/Densha_de_Go_2_EN_v0.4.20_OPTIONS_FONT_CUMULATIVE.bps) |
 | ⚠️ | Dicing Knight. (Japan) | WonderSwan Color | ⚠️ for another dump of this title (ROM CRC32 `D28DC930`): **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dicing-knight-v1.1) |
@@ -68,8 +68,11 @@ Last change to the patch catalog: 2026-11-25.
 | ✅ | Harobots (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/harobots-v1.0) |
 | ✅ | Hunter X Hunter - Greed Island (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HxH_GreedIsland_0.9) |
 | ✅ | Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 2) | WonderSwan | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/hxh-ishi-v1.1) |
+| ✅ | Hunter X Hunter - Michibikareshi Mono (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/hxh-michibikareshi-mono-v1.0) |
 | ✅ | Hunter X Hunter - Sorezore no Ketsui (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HxH_SorezoreNoKetsui_0.9) |
 | ✅ | Inuyasha - Fuuun Emaki (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-fuuun-emaki-v1.0) |
+| ✅ | Inuyasha - Kagome no Sengoku Nikki (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-kagome-no-sengoku-nikki-v1.0) |
+| ✅ | Inuyasha - Kagome no Yume Nikki (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-kagome-no-yume-nikki-v1.0) |
 | ✅ | Judgement Silversword - Rebirth Edition (Japan) (Rev 5C21) | WonderSwan Color | **English**: [mariovirgili v2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/JSS_Arrange_2.7) |
 | ✅ | Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan) | WonderSwan | **English**: [mariovirgili v0.9.7](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9) |
 | ✅ | Kaze no Klonoa - Moonlight Museum (Japan) | WonderSwan | **English**: [mariovirgili v39.4M](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Klonoa_MM_0.9) |
@@ -77,6 +80,7 @@ Last change to the patch catalog: 2026-11-25.
 | ✅ | Kidou Senshi Gundam Vol. 1 - Side 7 (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol1-side7-v1.1) |
 | ✅ | Kidou Senshi Gundam Vol. 2 - Jaburo (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol2-jaburo-v1.1) |
 | ✅ | Kidou Senshi Gundam Vol. 3 - A Baoa Qu (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol3-a-baoa-qu-v1.1) |
+| ✅ | Kiss Yori... - Seaside Serenade (Japan) (Rev 2) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/kiss-yori-seaside-serenade-v1.0) |
 | ✅ | Kurupara! (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Kurupara_0.9) |
 | ✅ | Langrisser Millennium WS - The Last Century (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0) |
 | ✅ | Last Stand (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/last-stand-v1.0) |
@@ -220,7 +224,7 @@ Last change to the patch catalog: 2026-11-25.
 |  | Keiba Yosou Shien Soft - Yosou Shinkaron (Japan) | `517F962E` | — |
 |  | Kirin Editor + Kuro Pad (World) (Ja) (WonderWitch) | `0B006D79` | — |
 |  | Kiss Communication (World) (Ja) (WonderWitch) | `ACC09417` | — |
-|  | Kiss Yori... - Seaside Serenade (Japan) (Rev 2) | `3B4C60C6` | — |
+| ✅ | **Kiss Yori... - Seaside Serenade (Japan) (Rev 2)** | `3B4C60C6` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/kiss-yori-seaside-serenade-v1.0) |
 |  | Kosodate Quiz - Dokodemo My Angel (Japan) | `4C48624C` | — |
 |  | Kyousouba Ikusei Simulation - Keiba (Japan) (Rev 1) | `ECFBCB1D` | — |
 | ✅ | **Langrisser Millennium WS - The Last Century (Japan) (Rev 1)** | `9E0854E2` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0) |
@@ -384,7 +388,7 @@ Last change to the patch catalog: 2026-11-25.
 |  | Course Out 2 (World) (Ja) (v0.0.1) (WonderWitch) | `4995EB60` | — |
 |  | Course Out 3 (World) (Ja) (v0.0.1) (Proto) (WonderWitch) | `1143A561` | — |
 |  | Dai Meikyuu (World) (Ja) (WonderWitch) | `A8B42C3A` | — |
-| ✅ | **Dark Eyes - Battle Gate (Japan) (WS Compatible)** | `12AE932C` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DarkEyes_0.9) |
+| ✅ | **Dark Eyes - Battle Gate (Japan) (WS Compatible)** | `12AE932C` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DarkEyes_0.9) |
 |  | Darkhero Figment - Calibur Edition (World) (Ja) (WonderWitch) | `1E2B5421` | — |
 |  | Darkhero Figment - Doris Edition (World) (Ja) (WonderWitch) | `B518B51C` | — |
 |  | Darkhero Figment 2 (World) (Ja) (WonderWitch) | `3951D2D0` | — |
@@ -448,15 +452,15 @@ Last change to the patch catalog: 2026-11-25.
 |  | House Keeper - 1.5 Generation (World) (Ja) (Proto) (WonderWitch) | `8393480D` | — |
 |  | Hunter X Hunter - Greed Island (Japan) | `A487B7A8` | — |
 | ✅ | **Hunter X Hunter - Greed Island (Japan) (Rev 1)** | `130AF567` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HxH_GreedIsland_0.9) |
-|  | Hunter X Hunter - Michibikareshi Mono (Japan) | `9402BCA9` | — |
+| ✅ | **Hunter X Hunter - Michibikareshi Mono (Japan)** | `9402BCA9` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/hxh-michibikareshi-mono-v1.0) |
 | ✅ | **Hunter X Hunter - Sorezore no Ketsui (Japan)** | `D0B20C5A` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HxH_SorezoreNoKetsui_0.9) |
 |  | Hurry Up! (World) (WonderWitch) | `84CA6856` | — |
 |  | Ice Cream Shop (World) (WonderWitch) | `5E383EC0` | — |
 |  | Illusion Garden (World) (Ja) (WonderWitch) | `1FBD22DD` | — |
 |  | Inu Renda 2 (World) (Ja) (WonderWitch) | `CCA71DCE` | — |
 | ✅ | **Inuyasha - Fuuun Emaki (Japan)** | `3FF5791F` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-fuuun-emaki-v1.0) |
-|  | Inuyasha - Kagome no Sengoku Nikki (Japan) | `0C23D551` | — |
-|  | Inuyasha - Kagome no Yume Nikki (Japan) | `44453234` | — |
+| ✅ | **Inuyasha - Kagome no Sengoku Nikki (Japan)** | `0C23D551` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-kagome-no-sengoku-nikki-v1.0) |
+| ✅ | **Inuyasha - Kagome no Yume Nikki (Japan)** | `44453234` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-kagome-no-yume-nikki-v1.0) |
 |  | Isomon - Get Oh No!! (World) (Ja) (WonderWitch) | `3884DD9F` | — |
 |  | Judgement Silversword (World) (Ja) (WonderWitch) | `B2DFE2B6` | — |
 |  | Judgement Silversword - Rebirth Edition (Japan) (Rev 4321) | `AA13E9DE` | — |

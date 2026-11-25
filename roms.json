@@ -540,6 +540,58 @@
     }
    ]
   },
+  "0C23D551": {
+   "crc32": "0C23D551",
+   "size": 2097152,
+   "md5": "f1e53c706af452671467b8f4595258d4",
+   "sha1": "b4fbea1a2c50d8566685f72820b360af4b54f82f",
+   "names": [
+    "Inuyasha - Kagome no Sengoku Nikki (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "3c2f09221641bde5",
+     "game": "Inuyasha: Kagome no Sengoku Nikki",
+     "variant": "inuyasha-kagome-no-sengoku-nikki-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "0C23D551",
+     "target_crc32": "B25E410B",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/inuyasha-kagome-no-sengoku-nikki-v1.0/inuyasha-kagome-no-sengoku-nikki-en-1.0.bps",
+     "sha256": "3c2f09221641bde5a5141026a2af60f1208594a745d31a91b4bb6840019415b9",
+     "size": 804993,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-kagome-no-sengoku-nikki-v1.0",
+     "notes": "**Inuyasha: Kagome no Sengoku Nikki** (犬夜叉 かごめの戦国日記, \"Kagome's Feudal Diary\") is a virtual-companion adventure for the WonderSwan Color, based on Rumiko Takahashi's Inuyasha (Bandai, 2001). It runs on the cartridge's real-time clock: you set the date and time, play a short opening (the shrine, the well, the Feudal Era, Inuyasha), and then live alongside him in a main loop with a clock at the top right, a caption saying what Inuyasha is doing right now and a command menu (Explore, Talk, Mini-Games, Go Home, Items, Inuyasha, Close). From there you can go home to Kagome's room (items, the forest, the diary). It was released only in Japan. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** 19,901 messages plus 895 fixed strings (menus, prompts, item names, captions, the diary and talk topics). None of the English text holds a Japanese character.\n* **A real English name entry:** the original's kana and kanji grid is replaced by one page of Latin letters (A-Z, a-z and a few marks, no digits) with …"
+    },
+    {
+     "id": "9f47784544a49240",
+     "game": "Inuyasha: Kagome no Sengoku Nikki",
+     "variant": "inuyasha-kagome-no-sengoku-nikki-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "0C23D551",
+     "target_crc32": "1209B679",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/inuyasha-kagome-no-sengoku-nikki-v1.0/inuyasha-kagome-no-sengoku-nikki-en-debug-1.0.bps",
+     "sha256": "9f47784544a49240a60f9f82cad6060494474aab09879e331f25fdeec03c1898",
+     "size": 805127,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-kagome-no-sengoku-nikki-v1.0",
+     "notes": "**Inuyasha: Kagome no Sengoku Nikki** (犬夜叉 かごめの戦国日記, \"Kagome's Feudal Diary\") is a virtual-companion adventure for the WonderSwan Color, based on Rumiko Takahashi's Inuyasha (Bandai, 2001). It runs on the cartridge's real-time clock: you set the date and time, play a short opening (the shrine, the well, the Feudal Era, Inuyasha), and then live alongside him in a main loop with a clock at the top right, a caption saying what Inuyasha is doing right now and a command menu (Explore, Talk, Mini-Games, Go Home, Items, Inuyasha, Close). From there you can go home to Kagome's room (items, the forest, the diary). It was released only in Japan. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** 19,901 messages plus 895 fixed strings (menus, prompts, item names, captions, the diary and talk topics). None of the English text holds a Japanese character.\n* **A real English name entry:** the original's kana and kanji grid is replaced by one page of Latin letters (A-Z, a-z and a few marks, no digits) with …"
+    }
+   ],
+   "produced_by": []
+  },
   "0C9CB12C": {
    "crc32": "0C9CB12C",
    "size": 1048576,
@@ -706,6 +758,35 @@
     }
    ]
   },
+  "1209B679": {
+   "crc32": "1209B679",
+   "size": 4194304,
+   "sha1": "3f295f1396d7157db783dae90c35fd3f4b9ddfec",
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "9f47784544a49240",
+     "game": "Inuyasha: Kagome no Sengoku Nikki",
+     "variant": "inuyasha-kagome-no-sengoku-nikki-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "0C23D551",
+     "target_crc32": "1209B679",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/inuyasha-kagome-no-sengoku-nikki-v1.0/inuyasha-kagome-no-sengoku-nikki-en-debug-1.0.bps",
+     "sha256": "9f47784544a49240a60f9f82cad6060494474aab09879e331f25fdeec03c1898",
+     "size": 805127,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-kagome-no-sengoku-nikki-v1.0",
+     "notes": "**Inuyasha: Kagome no Sengoku Nikki** (犬夜叉 かごめの戦国日記, \"Kagome's Feudal Diary\") is a virtual-companion adventure for the WonderSwan Color, based on Rumiko Takahashi's Inuyasha (Bandai, 2001). It runs on the cartridge's real-time clock: you set the date and time, play a short opening (the shrine, the well, the Feudal Era, Inuyasha), and then live alongside him in a main loop with a clock at the top right, a caption saying what Inuyasha is doing right now and a command menu (Explore, Talk, Mini-Games, Go Home, Items, Inuyasha, Close). From there you can go home to Kagome's room (items, the forest, the diary). It was released only in Japan. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** 19,901 messages plus 895 fixed strings (menus, prompts, item names, captions, the diary and talk topics). None of the English text holds a Japanese character.\n* **A real English name entry:** the original's kana and kanji grid is replaced by one page of Latin letters (A-Z, a-z and a few marks, no digits) with …"
+    }
+   ]
+  },
   "12AE932C": {
    "crc32": "12AE932C",
    "size": 4194304,
@@ -717,44 +798,44 @@
    ],
    "patches": [
     {
-     "id": "14a49e59ff0b985c",
+     "id": "b956d3dbfd378d69",
      "game": "Dark Eyes: Battle Gate",
-     "variant": "Dark.Eyes.-.Battle.Gate.EN.v0.9",
-     "version": "0.9",
+     "variant": "Dark.Eyes.-.Battle.Gate.EN.v0.9.1",
+     "version": "0.9.1",
      "language": "en",
      "platform": "wonderswan_color",
      "latest": true,
      "superseded": false,
      "format": "bps",
      "source_crc32": "12AE932C",
-     "target_crc32": "CBE53CBF",
+     "target_crc32": "72D01551",
      "target_size": 8388608,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DarkEyes_0.9/Dark.Eyes.-.Battle.Gate.EN.v0.9.bps",
-     "sha256": "14a49e59ff0b985cf1f1a68c7bc16716b47726e5b8e0639801712cb5c9343677",
-     "size": 287898,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DarkEyes_0.9/Dark.Eyes.-.Battle.Gate.EN.v0.9.1.bps",
+     "sha256": "b956d3dbfd378d69f44dec9a9d00f357cdcf176c2ae00cf8505f640b5f9205ba",
+     "size": 288068,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DarkEyes_0.9",
-     "notes": "**Dark Eyes: Battle Gate** is a 2001 strategy RPG for the WonderSwan Color by Nextech. It was released only in Japan.\n\nOn the planet Fairhope, two peoples live side by side: the Orghal, the Sun Folk, who built machines and ki arts, and the Infan, the Wind Folk, who forged sorcery in a harsh land. A fragile truce holds while an evil god's cult stirs in the shadows. You pick a side, Orghal or Infan, and lead your party through tactical battles on isometric maps, with class changes, mercenaries and \"mind games\" (cheer, scare, daze, persuade).\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nTwo versions with the same translation: normal (mixed case) and ALL CAPS. Apply the .bps to *Dark Eyes - Battle Gate (Japan).wsc* (4 MB, CRC32 12AE932C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB, CRC32 CBE53CBF (normal) or 31020981 (ALL CAPS); keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Dark.Eyes.-.Battle.Gate.EN.v0.9.bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9).wsc\"\n    flips --apply \"Dark.Eyes.-.Battle.Gate.EN.v0.9.ALL.CAPS.bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9, ALL CAPS).wsc\"\n\nYou must …"
+     "notes": "**Dark Eyes: Battle Gate** is a 2001 strategy RPG for the WonderSwan Color by Nextech. It was released only in Japan.\n\nOn the planet Fairhope, two peoples live side by side: the Orghal, the Sun Folk, who built machines and ki arts, and the Infan, the Wind Folk, who forged sorcery in a harsh land. A fragile truce holds while an evil god's cult stirs in the shadows. You pick a side, Orghal or Infan, and lead your party through tactical battles on isometric maps, with class changes, mercenaries and \"mind games\" (cheer, scare, daze, persuade).\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nTwo versions with the same translation: normal (mixed case) and ALL CAPS. Apply the .bps to *Dark Eyes - Battle Gate (Japan).wsc* (4 MB, CRC32 12AE932C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB, CRC32 72D01551 (normal) or 57FAF0DF (ALL CAPS); keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Dark Eyes - Battle Gate (EN v0.9.1).bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9.1).wsc\"\n    flips --apply \"Dark Eyes - Battle Gate (EN v0.9.1, ALL CAPS).bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9.1, ALL …"
     },
     {
-     "id": "780aeb44f048dda7",
+     "id": "c9b066057c155953",
      "game": "Dark Eyes: Battle Gate",
-     "variant": "Dark.Eyes.-.Battle.Gate.EN.v0.9.ALL.CAPS",
-     "version": "0.9",
+     "variant": "Dark.Eyes.-.Battle.Gate.EN.v0.9.1.ALL.CAPS",
+     "version": "0.9.1",
      "language": "en",
      "platform": "wonderswan_color",
      "latest": true,
      "superseded": false,
      "format": "bps",
      "source_crc32": "12AE932C",
-     "target_crc32": "31020981",
+     "target_crc32": "57FAF0DF",
      "target_size": 8388608,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DarkEyes_0.9/Dark.Eyes.-.Battle.Gate.EN.v0.9.ALL.CAPS.bps",
-     "sha256": "780aeb44f048dda755d413fd6bef054c584915afaf84e816124c255fece7db0d",
-     "size": 287839,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DarkEyes_0.9/Dark.Eyes.-.Battle.Gate.EN.v0.9.1.ALL.CAPS.bps",
+     "sha256": "c9b066057c15595311811dcdcf713667884aac3fc2f30f207a939860b93c3369",
+     "size": 288008,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DarkEyes_0.9",
-     "notes": "**Dark Eyes: Battle Gate** is a 2001 strategy RPG for the WonderSwan Color by Nextech. It was released only in Japan.\n\nOn the planet Fairhope, two peoples live side by side: the Orghal, the Sun Folk, who built machines and ki arts, and the Infan, the Wind Folk, who forged sorcery in a harsh land. A fragile truce holds while an evil god's cult stirs in the shadows. You pick a side, Orghal or Infan, and lead your party through tactical battles on isometric maps, with class changes, mercenaries and \"mind games\" (cheer, scare, daze, persuade).\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nTwo versions with the same translation: normal (mixed case) and ALL CAPS. Apply the .bps to *Dark Eyes - Battle Gate (Japan).wsc* (4 MB, CRC32 12AE932C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB, CRC32 CBE53CBF (normal) or 31020981 (ALL CAPS); keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Dark.Eyes.-.Battle.Gate.EN.v0.9.bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9).wsc\"\n    flips --apply \"Dark.Eyes.-.Battle.Gate.EN.v0.9.ALL.CAPS.bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9, ALL CAPS).wsc\"\n\nYou must …"
+     "notes": "**Dark Eyes: Battle Gate** is a 2001 strategy RPG for the WonderSwan Color by Nextech. It was released only in Japan.\n\nOn the planet Fairhope, two peoples live side by side: the Orghal, the Sun Folk, who built machines and ki arts, and the Infan, the Wind Folk, who forged sorcery in a harsh land. A fragile truce holds while an evil god's cult stirs in the shadows. You pick a side, Orghal or Infan, and lead your party through tactical battles on isometric maps, with class changes, mercenaries and \"mind games\" (cheer, scare, daze, persuade).\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nTwo versions with the same translation: normal (mixed case) and ALL CAPS. Apply the .bps to *Dark Eyes - Battle Gate (Japan).wsc* (4 MB, CRC32 12AE932C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB, CRC32 72D01551 (normal) or 57FAF0DF (ALL CAPS); keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Dark Eyes - Battle Gate (EN v0.9.1).bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9.1).wsc\"\n    flips --apply \"Dark Eyes - Battle Gate (EN v0.9.1, ALL CAPS).bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9.1, ALL …"
     }
    ],
    "produced_by": []
@@ -1413,6 +1494,26 @@
      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-wsc-v1.0/srw-compact-wsc-en-1.0.bps",
      "sha256": "26eb1000d35526394af2abda37e06e0c5ba344be06e0f44064fb2759fde561a7",
      "size": 648819,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-wsc-v1.0",
+     "notes": "# Super Robot Taisen Compact for WonderSwan Color - AI English translation patch v1.0\n\n**Super Robot Taisen Compact for WonderSwan Color** (スーパーロボット大戦コンパクト for WonderSwan Color) is a turn-based strategy RPG from Banpresto for the WonderSwan Color (2001), the colour remake of the first Super Robot Taisen Compact. It is a crossover of mecha anime: Mazinger Z and Great Mazinger, Getter Robo, Brave Raideen, Daimos, Daitarn 3, Dancouga, several Gundam series (the One Year War, Zeta, ZZ, Char's Counterattack, F91, Wing Endless Waltz), Aura Battler Dunbine and Heavy Metal L-Gaim. You move units on a map, fight with battle animations and spoken quotes, and between stages use the intermission menus to upgrade units and pick the next map. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the opening text crawl, the story dialogue, the battle quotes and attack quotes, every menu, list and status page, the title menu, the stage names and Next Map briefings, the HUD marks, the endings and the staff roll. …"
+    },
+    {
+     "id": "7f498219682381f5",
+     "game": "Super Robot Taisen Compact for WonderSwan Color",
+     "variant": "srw-compact-wsc-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "16E0D929",
+     "target_crc32": "B6A75226",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-wsc-v1.0/srw-compact-wsc-en-debug-1.0.bps",
+     "sha256": "7f498219682381f55658b123956385b8c42e8409da9d0b7f1088b3277c08f8cf",
+     "size": 652949,
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-wsc-v1.0",
      "notes": "# Super Robot Taisen Compact for WonderSwan Color - AI English translation patch v1.0\n\n**Super Robot Taisen Compact for WonderSwan Color** (スーパーロボット大戦コンパクト for WonderSwan Color) is a turn-based strategy RPG from Banpresto for the WonderSwan Color (2001), the colour remake of the first Super Robot Taisen Compact. It is a crossover of mecha anime: Mazinger Z and Great Mazinger, Getter Robo, Brave Raideen, Daimos, Daitarn 3, Dancouga, several Gundam series (the One Year War, Zeta, ZZ, Char's Counterattack, F91, Wing Endless Waltz), Aura Battler Dunbine and Heavy Metal L-Gaim. You move units on a map, fight with battle animations and spoken quotes, and between stages use the intermission menus to upgrade units and pick the next map. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the opening text crawl, the story dialogue, the battle quotes and attack quotes, every menu, list and status page, the title menu, the stage names and Next Map briefings, the HUD marks, the endings and the staff roll. …"
@@ -2757,34 +2858,6 @@
     }
    ]
   },
-  "31020981": {
-   "crc32": "31020981",
-   "size": 8388608,
-   "names": [],
-   "patches": [],
-   "produced_by": [
-    {
-     "id": "780aeb44f048dda7",
-     "game": "Dark Eyes: Battle Gate",
-     "variant": "Dark.Eyes.-.Battle.Gate.EN.v0.9.ALL.CAPS",
-     "version": "0.9",
-     "language": "en",
-     "platform": "wonderswan_color",
-     "latest": true,
-     "superseded": false,
-     "format": "bps",
-     "source_crc32": "12AE932C",
-     "target_crc32": "31020981",
-     "target_size": 8388608,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DarkEyes_0.9/Dark.Eyes.-.Battle.Gate.EN.v0.9.ALL.CAPS.bps",
-     "sha256": "780aeb44f048dda755d413fd6bef054c584915afaf84e816124c255fece7db0d",
-     "size": 287839,
-     "source": "mariovirgili/WonderSwanColor-AI_Translation",
-     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DarkEyes_0.9",
-     "notes": "**Dark Eyes: Battle Gate** is a 2001 strategy RPG for the WonderSwan Color by Nextech. It was released only in Japan.\n\nOn the planet Fairhope, two peoples live side by side: the Orghal, the Sun Folk, who built machines and ki arts, and the Infan, the Wind Folk, who forged sorcery in a harsh land. A fragile truce holds while an evil god's cult stirs in the shadows. You pick a side, Orghal or Infan, and lead your party through tactical battles on isometric maps, with class changes, mercenaries and \"mind games\" (cheer, scare, daze, persuade).\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nTwo versions with the same translation: normal (mixed case) and ALL CAPS. Apply the .bps to *Dark Eyes - Battle Gate (Japan).wsc* (4 MB, CRC32 12AE932C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB, CRC32 CBE53CBF (normal) or 31020981 (ALL CAPS); keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Dark.Eyes.-.Battle.Gate.EN.v0.9.bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9).wsc\"\n    flips --apply \"Dark.Eyes.-.Battle.Gate.EN.v0.9.ALL.CAPS.bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9, ALL CAPS).wsc\"\n\nYou must …"
-    }
-   ]
-  },
   "316A6271": {
    "crc32": "316A6271",
    "size": 4194304,
@@ -3704,6 +3777,39 @@
     }
    ]
   },
+  "3B4C60C6": {
+   "crc32": "3B4C60C6",
+   "size": 2097152,
+   "md5": "611d42816a979ece34dd8221d3023c9c",
+   "sha1": "9ef89b6fe68c5a06d34344e8c783ec24114ad959",
+   "names": [
+    "Kiss Yori... - Seaside Serenade (Japan) (Rev 2).ws",
+    "Kiss Yori... - Seaside Serenade (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "7bada2faf5795c5c",
+     "game": "Kiss Yori... Seaside Serenade",
+     "variant": "kiss-yori-seaside-serenade-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "3B4C60C6",
+     "target_crc32": "4F253095",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/kiss-yori-seaside-serenade-v1.0/kiss-yori-seaside-serenade-en-1.0.bps",
+     "sha256": "7bada2faf5795c5c3e89354c9e80fb709211d47319d4fbff0e94f144a152e01e",
+     "size": 853794,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/kiss-yori-seaside-serenade-v1.0",
+     "notes": "**Kiss Yori... Seaside Serenade** (KISSより... Seaside Serenade) is a summer dating adventure for the WonderSwan, made by KID under Bandai's licence (1999) from the Saturn original. You play a boy in a seaside town over about 42 summer days: you pick where to go on the town map, take evening shifts at the manager's shop, talk to the four heroines (Chihiro Asaoka, Chieri Sugita, Kanna Yamazaki and Miku Hayasaka), phone them, ask them out on dates and get one of the endings on August 31. It was released only in Japan. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** 12,401 messages: the opening, the part-time job and shop scenes, every place on the map, the Real-Time Talk conversations, phone calls, dates, the endings and the staff roll, and every menu. The SOUND TEST song titles and the ALBUM picture captions are in English too.\n* **Text drawn as pictures:** the title's subtitle, the room menu, the conversation tabs, the name-entry buttons and banners, the date bar (weekday and time of day), …"
+    }
+   ],
+   "produced_by": []
+  },
   "3BA04D6B": {
    "crc32": "3BA04D6B",
    "size": 1048576,
@@ -4257,6 +4363,38 @@
     }
    ]
   },
+  "44453234": {
+   "crc32": "44453234",
+   "size": 4194304,
+   "md5": "209a77802e1c1a5d73c0dfc9dc726f7d",
+   "sha1": "f7c8f8b6b6d036df8fc4bde72fcfac2846dffe35",
+   "names": [
+    "Inuyasha - Kagome no Yume Nikki (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "e6e40268c0b1ce03",
+     "game": "Inuyasha: Kagome no Yume Nikki",
+     "variant": "inuyasha-kagome-no-yume-nikki-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "44453234",
+     "target_crc32": "82518E21",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/inuyasha-kagome-no-yume-nikki-v1.0/inuyasha-kagome-no-yume-nikki-en-1.0.bps",
+     "sha256": "e6e40268c0b1ce032c28996541d2fa89c53a73b271dff0ceee4175473fb545d7",
+     "size": 1601334,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-kagome-no-yume-nikki-v1.0",
+     "notes": "**Inuyasha: Kagome no Yume Nikki** (犬夜叉 かごめの夢日記, \"Kagome's Dream Diary\") is a raising game for the WonderSwan Color, based on Rumiko Takahashi's Inuyasha (Bandai, 2002). Kagome looks after Inuyasha in a dream: the game runs over 15 days of 6 time slots each, you choose where to go on a map, meet visitors and villagers, give Inuyasha things, and read the results in a dream diary and a status card. A Memory Box (思い出箱) on the title menu keeps a \"Daily Life Guide\" of what you have seen. It was released only in Japan. This patch translates all the text the game shows into English and lets you type your name with Latin letters.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the opening and the dream scenes, the village events, the diary (events, schedule, status), the command menu, the status card, the item list and item notices, the explore map and its prompts, the mini-games' instructions that can be reached, and the staff roll. The project's checks drew 17,262 text strings with the game's own text drawing, with 0 Japanese characters left in them.\n* …"
+    }
+   ],
+   "produced_by": []
+  },
   "446E2581": {
    "crc32": "446E2581",
    "size": 2097152,
@@ -4484,6 +4622,35 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/hanafuda-shiyouyo-v1.0",
      "notes": "**Hanafuda Shiyouyo** (花札しようよ, \"Let's play hanafuda\") is Success's 2000 hanafuda game for the original (monochrome) WonderSwan, licensed by Bandai and released only in Japan. It has the two classic games: **Koi-Koi**, one on one against the computer (6 rounds, 12 rounds or no limit), and **Hana-Awase**, three players (you and two computer opponents) scored against the 88-point par. Each game has its own house rules (Moon/Flower viewing yaku, Oya-Ken, the rain set, Fuke), and with a link cable two players can play either game against each other.\n\nThe game has no text engine: every Japanese word is a picture (compressed tiles and raw tile blocks). This patch redraws all of them in English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Title logo:** the oval now reads \"Hanafuda / Let's Play!\".\n* **Menus:** 1-Player Game / 2-Player Match (with a link cable), New Game / Continue, Game Select, both games' Settings with every value, Choose Dealer with the Oya and Ko badges, and the pause box (\"Quit to title?\").\n* **Play:** the Yaku Complete! popup with all 13 koi-koi and 17 hana-awase …"
+    }
+   ]
+  },
+  "49CAF0EF": {
+   "crc32": "49CAF0EF",
+   "size": 4194304,
+   "sha1": "3a81c10200e0083d413cabb5dd94765e73c7996d",
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "84c42ae8ac9d15d4",
+     "game": "Hunter x Hunter: Michibikareshi Mono",
+     "variant": "hxh-michibikareshi-mono-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "9402BCA9",
+     "target_crc32": "49CAF0EF",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/hxh-michibikareshi-mono-v1.0/hxh-michibikareshi-mono-en-1.0.bps",
+     "sha256": "84c42ae8ac9d15d47e186c19b02778aaf2f136418f28f1fa2449b6947c396f72",
+     "size": 896967,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/hxh-michibikareshi-mono-v1.0",
+     "notes": "**Hunter x Hunter: Michibikareshi Mono** (ハンター×ハンター 導かれし者, \"The Guided\") is a story and investigation adventure for the WonderSwan Color, based on Yoshihiro Togashi's Hunter x Hunter (Bandai, 2001). It follows the Yorknew City arc: you move over a city map where the time of day matters, choose who to talk to and what to ask from command menus, fight the Phantom Troupe in a command battle, bid in the Cyber Auction and unlock a password bonus corner with mini games. It was released only in Japan. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** all 2,172 messages (13,263 pages) the game can show: dialogue, the talk and map menus, the command battle's messages, item names and descriptions, the Cyber Auction, the password screens and the game's replies, the bonus corner with its mini games, save and load screens, the endings and the staff roll. Two dialogue blocks that the cartridge never displays were left as they are.\n* **Text drawn as pictures:** the title and its menu (New Game, Continue, …"
     }
    ]
   },
@@ -4970,6 +5137,35 @@
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9",
      "notes": "**Digital Monster Card Game - Ver. WonderSwan Color** is a 2002 Bandai card battle game for the WonderSwan Color that never left Japan. It's built around the Digimon Card Game of that era, with the Digimon Tamers cast (plus guests from Adventure and 02). You meet Takato, Rika, Henry and the others around town and in the Digital World, battle them in card tournaments, collect 211 cards and build your own decks.\n\nThis patch translates it into English.\n\n**What's translated**\n\n* The whole story mode (about 800 text boxes), with a new variable-width font.\n* Every card: names, attacks, special/support ability texts, option card effects, and the Digimon profiles in the gallery.\n* The tutorial (9 lessons), the in-battle help bar and prompts, and the speech bubbles of all 14 opponents.\n* Battle screens: phase banners, turn order, card panels (level, type, attribute, option category and timing), the info bar, the guard bar and digivolve overlays.\n* All menus: Deck Edit, Auto Edit, Copy/Rename/Delete Deck, Card Gallery, Card Install, Options, and the Network screens (Net Battle, Card Trade, Recipe Trade).\n* Graphics with Japanese text, redrawn by hand: screen headers, the big card name graphics, type/attribute labels, map plates, deck view labels and every popup.\n* The name entry keyboard now opens on the ABC page.\n\nNames follow the English dub (Takato, Rika, Henry, T.K., Davis, Gallantmon, Beelzemon, MegaGargomon, Omnimon...). Attack names come from the dubs, or from official Bandai …"
+    }
+   ]
+  },
+  "4F253095": {
+   "crc32": "4F253095",
+   "size": 4194304,
+   "sha1": "d71d51ef5815ca13c2821859141f62b542f4e6e9",
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "7bada2faf5795c5c",
+     "game": "Kiss Yori... Seaside Serenade",
+     "variant": "kiss-yori-seaside-serenade-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "3B4C60C6",
+     "target_crc32": "4F253095",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/kiss-yori-seaside-serenade-v1.0/kiss-yori-seaside-serenade-en-1.0.bps",
+     "sha256": "7bada2faf5795c5c3e89354c9e80fb709211d47319d4fbff0e94f144a152e01e",
+     "size": 853794,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/kiss-yori-seaside-serenade-v1.0",
+     "notes": "**Kiss Yori... Seaside Serenade** (KISSより... Seaside Serenade) is a summer dating adventure for the WonderSwan, made by KID under Bandai's licence (1999) from the Saturn original. You play a boy in a seaside town over about 42 summer days: you pick where to go on the town map, take evening shifts at the manager's shop, talk to the four heroines (Chihiro Asaoka, Chieri Sugita, Kanna Yamazaki and Miku Hayasaka), phone them, ask them out on dates and get one of the endings on August 31. It was released only in Japan. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** 12,401 messages: the opening, the part-time job and shop scenes, every place on the map, the Real-Time Talk conversations, phone calls, dates, the endings and the staff roll, and every menu. The SOUND TEST song titles and the ALBUM picture captions are in English too.\n* **Text drawn as pictures:** the title's subtitle, the room menu, the conversation tabs, the name-entry buttons and banners, the date bar (weekday and time of day), …"
     }
    ]
   },
@@ -5589,6 +5785,34 @@
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/OnePieceTreasureWars2_0.9",
      "notes": "**From TV Animation One Piece: Treasure Wars 2 - Welcome to Buggy Land** is Bandai's 2002 One Piece board game for the WonderSwan Color, released only in Japan. Buggy has opened a pirate amusement park, Buggy Land, and invites Luffy's crew and a crowd of other characters to play the \"Treasure Wars\": roll the dice across the park's attractions, collect hints, steal treasures and keys with Actions and items, and hold the treasure when the Log is full. Story mode follows the crew through the attractions up to Buggy Castle; there are also Party (up to 4 players on one Swan), Teach (tutorial), Bingo Book and Link modes.\n\nThe translation comes in two versions with the same English text: **normal** (upper and lower case) and **ALL CAPS**. Both are made from the same Japanese ROM; pick the one you prefer.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Images**\n\nALL CAPS version:\n\n**How to patch**\n\nApply one of the patches to *From TV Animation One Piece - Treasure Wars 2 - Buggy Land e Youkoso (Japan).wsc* (8 MB, CRC32 0D1048F0) with Floating IPS, beat or ROM Patcher JS. The result is 16 MB; keep the .wsc extension.\n\n* Normal: `One.Piece.-.Treasure.Wars.2.EN.v0.9.bps`, CRC32 31AF460F.\n* ALL CAPS: …"
+    }
+   ]
+  },
+  "57FAF0DF": {
+   "crc32": "57FAF0DF",
+   "size": 8388608,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "c9b066057c155953",
+     "game": "Dark Eyes: Battle Gate",
+     "variant": "Dark.Eyes.-.Battle.Gate.EN.v0.9.1.ALL.CAPS",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "12AE932C",
+     "target_crc32": "57FAF0DF",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DarkEyes_0.9/Dark.Eyes.-.Battle.Gate.EN.v0.9.1.ALL.CAPS.bps",
+     "sha256": "c9b066057c15595311811dcdcf713667884aac3fc2f30f207a939860b93c3369",
+     "size": 288008,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DarkEyes_0.9",
+     "notes": "**Dark Eyes: Battle Gate** is a 2001 strategy RPG for the WonderSwan Color by Nextech. It was released only in Japan.\n\nOn the planet Fairhope, two peoples live side by side: the Orghal, the Sun Folk, who built machines and ki arts, and the Infan, the Wind Folk, who forged sorcery in a harsh land. A fragile truce holds while an evil god's cult stirs in the shadows. You pick a side, Orghal or Infan, and lead your party through tactical battles on isometric maps, with class changes, mercenaries and \"mind games\" (cheer, scare, daze, persuade).\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nTwo versions with the same translation: normal (mixed case) and ALL CAPS. Apply the .bps to *Dark Eyes - Battle Gate (Japan).wsc* (4 MB, CRC32 12AE932C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB, CRC32 72D01551 (normal) or 57FAF0DF (ALL CAPS); keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Dark Eyes - Battle Gate (EN v0.9.1).bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9.1).wsc\"\n    flips --apply \"Dark Eyes - Battle Gate (EN v0.9.1, ALL CAPS).bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9.1, ALL …"
     }
    ]
   },
@@ -7079,6 +7303,34 @@
     }
    ]
   },
+  "72D01551": {
+   "crc32": "72D01551",
+   "size": 8388608,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "b956d3dbfd378d69",
+     "game": "Dark Eyes: Battle Gate",
+     "variant": "Dark.Eyes.-.Battle.Gate.EN.v0.9.1",
+     "version": "0.9.1",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "12AE932C",
+     "target_crc32": "72D01551",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DarkEyes_0.9/Dark.Eyes.-.Battle.Gate.EN.v0.9.1.bps",
+     "sha256": "b956d3dbfd378d69f44dec9a9d00f357cdcf176c2ae00cf8505f640b5f9205ba",
+     "size": 288068,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DarkEyes_0.9",
+     "notes": "**Dark Eyes: Battle Gate** is a 2001 strategy RPG for the WonderSwan Color by Nextech. It was released only in Japan.\n\nOn the planet Fairhope, two peoples live side by side: the Orghal, the Sun Folk, who built machines and ki arts, and the Infan, the Wind Folk, who forged sorcery in a harsh land. A fragile truce holds while an evil god's cult stirs in the shadows. You pick a side, Orghal or Infan, and lead your party through tactical battles on isometric maps, with class changes, mercenaries and \"mind games\" (cheer, scare, daze, persuade).\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nTwo versions with the same translation: normal (mixed case) and ALL CAPS. Apply the .bps to *Dark Eyes - Battle Gate (Japan).wsc* (4 MB, CRC32 12AE932C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB, CRC32 72D01551 (normal) or 57FAF0DF (ALL CAPS); keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Dark Eyes - Battle Gate (EN v0.9.1).bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9.1).wsc\"\n    flips --apply \"Dark Eyes - Battle Gate (EN v0.9.1, ALL CAPS).bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9.1, ALL …"
+    }
+   ]
+  },
   "739FF4F7": {
    "crc32": "739FF4F7",
    "size": 4194304,
@@ -7909,6 +8161,34 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/dekotora-v1.1",
      "notes": "**Bakusou Dekotora Densetsu for WonderSwan** (爆走デコトラ伝説) is KID and Kaga Tech's 1999 trucking-and-racing game about *dekotora*, Japan's lit-up, chrome-covered decorated trucks, released only in Japan for the original (monochrome) WonderSwan. You play a young trucker who left his hometown girlfriend Yukie with a promise: he'll become Japan's No. 1 trucker and come back for her. You haul cargo between 20 cities, race rival truckers over the CB radio for their parts and their money (BP), climb a ladder of expressway bosses all the way to Hokkaido, and tune and decorate your truck. Along the way you meet six women, and at the end you choose where to go. It's earnest, corny, hot-blooded melodrama with plenty of trash talk, and nobody in it is subtle. That's the charm.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole script, about 4,900 lines: the story, every rival trucker's challenge and taunts, the six women's stories and the endings, jobs and cargo, shops, parts, and the CB radio chatter.\n* Menus, the name entry (an English letter grid), race HUD labels and song captions, …"
+    }
+   ]
+  },
+  "82518E21": {
+   "crc32": "82518E21",
+   "size": 8388608,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "e6e40268c0b1ce03",
+     "game": "Inuyasha: Kagome no Yume Nikki",
+     "variant": "inuyasha-kagome-no-yume-nikki-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "44453234",
+     "target_crc32": "82518E21",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/inuyasha-kagome-no-yume-nikki-v1.0/inuyasha-kagome-no-yume-nikki-en-1.0.bps",
+     "sha256": "e6e40268c0b1ce032c28996541d2fa89c53a73b271dff0ceee4175473fb545d7",
+     "size": 1601334,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-kagome-no-yume-nikki-v1.0",
+     "notes": "**Inuyasha: Kagome no Yume Nikki** (犬夜叉 かごめの夢日記, \"Kagome's Dream Diary\") is a raising game for the WonderSwan Color, based on Rumiko Takahashi's Inuyasha (Bandai, 2002). Kagome looks after Inuyasha in a dream: the game runs over 15 days of 6 time slots each, you choose where to go on a map, meet visitors and villagers, give Inuyasha things, and read the results in a dream diary and a status card. A Memory Box (思い出箱) on the title menu keeps a \"Daily Life Guide\" of what you have seen. It was released only in Japan. This patch translates all the text the game shows into English and lets you type your name with Latin letters.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the opening and the dream scenes, the village events, the diary (events, schedule, status), the command menu, the status card, the item list and item notices, the explore map and its prompts, the mini-games' instructions that can be reached, and the staff roll. The project's checks drew 17,262 text strings with the game's own text drawing, with 0 Japanese characters left in them.\n* …"
     }
    ]
   },
@@ -9048,6 +9328,38 @@
      "notes": "**Chou Denki Card Battle: Youfu Makai** (超伝奇カードバトル 妖符魔界) is a 1999 card battle game from Kobunsha and Kappa Games for the original (monochrome) WonderSwan, released only in Japan. The scenario is by Hideyuki Kikuchi (*Vampire Hunter D*, *Demon City Shinjuku*) and the art by Ayami Kojima. It's set in Kikuchi's Demon City Shinjuku, and its story runs in three parts, told as illustrated pages of prose between battles with Demon Cards. You build a 30-card deck, lay cards on a field where each card's arrows set the direction it attacks, and win by covering the field with your own cards.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole story, all three parts (Crimson Lotus, Cursed Cards, Fusion), as horizontal English prose in place of the vertical Japanese.\n* Every card name, and the descriptions of all 200 cards in the Card Craft card view (press the Y pad left or right on the deck screen).\n* The menus (Scenario, Those in the Way, Worthy Rival, Card Craft...), the deck rules, the battle screens, and the save and erase prompts.\n* Graphics: the title logo becomes YOUFU MAKAI with …"
     }
    ]
+  },
+  "9402BCA9": {
+   "crc32": "9402BCA9",
+   "size": 4194304,
+   "md5": "d3e0f6a6731565c1bd57757a0e4bad3c",
+   "sha1": "bc591fc24d3f8e94b70503fd8b6a35fa58151139",
+   "names": [
+    "Hunter X Hunter - Michibikareshi Mono (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "84c42ae8ac9d15d4",
+     "game": "Hunter x Hunter: Michibikareshi Mono",
+     "variant": "hxh-michibikareshi-mono-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "9402BCA9",
+     "target_crc32": "49CAF0EF",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/hxh-michibikareshi-mono-v1.0/hxh-michibikareshi-mono-en-1.0.bps",
+     "sha256": "84c42ae8ac9d15d47e186c19b02778aaf2f136418f28f1fa2449b6947c396f72",
+     "size": 896967,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/hxh-michibikareshi-mono-v1.0",
+     "notes": "**Hunter x Hunter: Michibikareshi Mono** (ハンター×ハンター 導かれし者, \"The Guided\") is a story and investigation adventure for the WonderSwan Color, based on Yoshihiro Togashi's Hunter x Hunter (Bandai, 2001). It follows the Yorknew City arc: you move over a city map where the time of day matters, choose who to talk to and what to ask from command menus, fight the Phantom Troupe in a command battle, bid in the Cyber Auction and unlock a password bonus corner with mini games. It was released only in Japan. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** all 2,172 messages (13,263 pages) the game can show: dialogue, the talk and map menus, the command battle's messages, item names and descriptions, the Cyber Auction, the password screens and the game's replies, the bonus corner with its mini games, save and load screens, the endings and the staff roll. Two dialogue blocks that the cartridge never displays were left as they are.\n* **Text drawn as pictures:** the title and its menu (New Game, Continue, …"
+    }
+   ],
+   "produced_by": []
   },
   "95E14D90": {
    "crc32": "95E14D90",
@@ -10952,6 +11264,35 @@
    ],
    "produced_by": []
   },
+  "B25E410B": {
+   "crc32": "B25E410B",
+   "size": 4194304,
+   "sha1": "b156084890146912700f81e44642f27607f7583d",
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "3c2f09221641bde5",
+     "game": "Inuyasha: Kagome no Sengoku Nikki",
+     "variant": "inuyasha-kagome-no-sengoku-nikki-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "0C23D551",
+     "target_crc32": "B25E410B",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/inuyasha-kagome-no-sengoku-nikki-v1.0/inuyasha-kagome-no-sengoku-nikki-en-1.0.bps",
+     "sha256": "3c2f09221641bde5a5141026a2af60f1208594a745d31a91b4bb6840019415b9",
+     "size": 804993,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-kagome-no-sengoku-nikki-v1.0",
+     "notes": "**Inuyasha: Kagome no Sengoku Nikki** (犬夜叉 かごめの戦国日記, \"Kagome's Feudal Diary\") is a virtual-companion adventure for the WonderSwan Color, based on Rumiko Takahashi's Inuyasha (Bandai, 2001). It runs on the cartridge's real-time clock: you set the date and time, play a short opening (the shrine, the well, the Feudal Era, Inuyasha), and then live alongside him in a main loop with a clock at the top right, a caption saying what Inuyasha is doing right now and a command menu (Explore, Talk, Mini-Games, Go Home, Items, Inuyasha, Close). From there you can go home to Kagome's room (items, the forest, the diary). It was released only in Japan. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** 19,901 messages plus 895 fixed strings (menus, prompts, item names, captions, the diary and talk topics). None of the English text holds a Japanese character.\n* **A real English name entry:** the original's kana and kanji grid is replaced by one page of Latin letters (A-Z, a-z and a few marks, no digits) with …"
+    }
+   ]
+  },
   "B2D98B01": {
    "crc32": "B2D98B01",
    "size": 524288,
@@ -11119,6 +11460,34 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/digital-partner-v1.8",
      "notes": "**Digimon Adventure 02: Digital Partner** (デジタルパートナー) is a Bandai game from 2000, released only in Japan for the original (monochrome) WonderSwan. It's a virtual-pet game with RPG parts, based on the Digimon Adventure 02 anime. Gennai greets you on File Island and gives you a limited time, measured by an eclipse clock that starts at 478 minutes, to teach words to the partner Digimon. You talk to them, bring one to your room and teach it words, and battle with those words: in the Japanese game a battle follows the rules of shiritori (each word starts with the last kana of the previous one). When the clock reaches zero, one of the partners sees you off, and the game has 34 different endings.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The story:** all 4,820 story strings: Gennai's introduction, the File Island tour, the partners' and visitors' talk, the word-teaching conversations, the farewells and the endings. Digimon, places and attacks use the names of the English dub.\n* **Menus and screens:** the room and field menus, status screen, …"
+    }
+   ]
+  },
+  "B6A75226": {
+   "crc32": "B6A75226",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "7f498219682381f5",
+     "game": "Super Robot Taisen Compact for WonderSwan Color",
+     "variant": "srw-compact-wsc-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "16E0D929",
+     "target_crc32": "B6A75226",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-wsc-v1.0/srw-compact-wsc-en-debug-1.0.bps",
+     "sha256": "7f498219682381f55658b123956385b8c42e8409da9d0b7f1088b3277c08f8cf",
+     "size": 652949,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-wsc-v1.0",
+     "notes": "# Super Robot Taisen Compact for WonderSwan Color - AI English translation patch v1.0\n\n**Super Robot Taisen Compact for WonderSwan Color** (スーパーロボット大戦コンパクト for WonderSwan Color) is a turn-based strategy RPG from Banpresto for the WonderSwan Color (2001), the colour remake of the first Super Robot Taisen Compact. It is a crossover of mecha anime: Mazinger Z and Great Mazinger, Getter Robo, Brave Raideen, Daimos, Daitarn 3, Dancouga, several Gundam series (the One Year War, Zeta, ZZ, Char's Counterattack, F91, Wing Endless Waltz), Aura Battler Dunbine and Heavy Metal L-Gaim. You move units on a map, fight with battle animations and spoken quotes, and between stages use the intermission menus to upgrade units and pick the next map. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the opening text crawl, the story dialogue, the battle quotes and attack quotes, every menu, list and status page, the title menu, the stage names and Next Map briefings, the HUD marks, the endings and the staff roll. …"
     }
    ]
   },
@@ -11993,34 +12362,6 @@
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9.2",
      "notes": "**Meitantei Conan: Yuugure no Koujo** (\"Princess of Twilight\") is a 2001 Bandai adventure game for the WonderSwan Color that never left Japan. You play as Conan with the Detective Boys, collect clues in the Detective Note, test theories with the O-X Tool, and there is also the \"Conan Notebook\", a small organizer with a calendar, friend profiles and a school timetable.\n\nThis patch translates it into English.\n\n**What's translated**\n\n* The whole script: story, all scenarios, the Puzzle Club logic puzzles, GRAY CAT / data-link chats, credits. It uses a variable-width font.\n* Detective Note, testimonies/hints, O-X Tool clues, item boxes, map location names, menus, save/erase dialogs, character database, card fortunes.\n* Name entry and registration: the labels and buttons are graphics, so I redrew them by hand. The keyboard now opens in ABC mode. Names typed in capitals show up in normal case in the story (\"CONAN\" becomes \"Conan\").\n* Conan Notebook: I redrew the menu labels, the JAN-DEC month plates, weekdays, buttons, the Stamp Select window, Friend Data, Timetable and Favorites pages in the original palettes.\n* The default cast and profiles are romanized.\n\n**How to patch**\n\nApply the BPS to the Japanese ROM (CRC32 9F6E3F8D) with Floating IPS, beat or ROM Patcher JS. The result should be CRC32 CBC9077E. Play it in WonderSwan **Color** mode (keep the .wsc extension): the redrawn graphics only cover the color mode.\n\n**Download:** see attachment\n\n**Known issues**\n\n* A few graphics …"
-    }
-   ]
-  },
-  "CBE53CBF": {
-   "crc32": "CBE53CBF",
-   "size": 8388608,
-   "names": [],
-   "patches": [],
-   "produced_by": [
-    {
-     "id": "14a49e59ff0b985c",
-     "game": "Dark Eyes: Battle Gate",
-     "variant": "Dark.Eyes.-.Battle.Gate.EN.v0.9",
-     "version": "0.9",
-     "language": "en",
-     "platform": "wonderswan_color",
-     "latest": true,
-     "superseded": false,
-     "format": "bps",
-     "source_crc32": "12AE932C",
-     "target_crc32": "CBE53CBF",
-     "target_size": 8388608,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/DarkEyes_0.9/Dark.Eyes.-.Battle.Gate.EN.v0.9.bps",
-     "sha256": "14a49e59ff0b985cf1f1a68c7bc16716b47726e5b8e0639801712cb5c9343677",
-     "size": 287898,
-     "source": "mariovirgili/WonderSwanColor-AI_Translation",
-     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/DarkEyes_0.9",
-     "notes": "**Dark Eyes: Battle Gate** is a 2001 strategy RPG for the WonderSwan Color by Nextech. It was released only in Japan.\n\nOn the planet Fairhope, two peoples live side by side: the Orghal, the Sun Folk, who built machines and ki arts, and the Infan, the Wind Folk, who forged sorcery in a harsh land. A fragile truce holds while an evil god's cult stirs in the shadows. You pick a side, Orghal or Infan, and lead your party through tactical battles on isometric maps, with class changes, mercenaries and \"mind games\" (cheer, scare, daze, persuade).\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play, but it must **never be uploaded to romhacking sites** (romhacking.net and the like). It isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nTwo versions with the same translation: normal (mixed case) and ALL CAPS. Apply the .bps to *Dark Eyes - Battle Gate (Japan).wsc* (4 MB, CRC32 12AE932C) with Floating IPS, beat or ROM Patcher JS. The result is 8 MB, CRC32 CBE53CBF (normal) or 31020981 (ALL CAPS); keep the .wsc extension.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Dark.Eyes.-.Battle.Gate.EN.v0.9.bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9).wsc\"\n    flips --apply \"Dark.Eyes.-.Battle.Gate.EN.v0.9.ALL.CAPS.bps\" \"Dark Eyes - Battle Gate (Japan).wsc\" \"Dark Eyes - Battle Gate (EN v0.9, ALL CAPS).wsc\"\n\nYou must …"
     }
    ]
   },
@@ -15338,6 +15679,7 @@
   "1e8bca5c31f62a9dd1121884351a2885": "E7C608E5",
   "1ea61538422bc2d6349c321fa15b334f": "99027238",
   "1eb91e6b46ab5624c7b707ea7b7abe9d": "D7A12BD5",
+  "209a77802e1c1a5d73c0dfc9dc726f7d": "44453234",
   "24fd819c4f4866d7c5c340d0273acbf9": "7FFF2520",
   "26c76cfcb14c5c8799dbe4367184d4a5": "66B617D5",
   "30e5f0895254ea2952f4a6a707ace47c": "D7A0AB74",
@@ -15362,6 +15704,7 @@
   "5a571edf5e34793c68a69bdc9dd328e5": "E357D462",
   "5e907dd88b3cfb2855a18fb1bf689860": "80C6EF12",
   "5f742027ef79b71b0007ff5654e9565f": "71556E6A",
+  "611d42816a979ece34dd8221d3023c9c": "3B4C60C6",
   "694042e6f8eaa2423693c0a9bba8aef0": "62D419CD",
   "6c1949e0201437ed16d9182956b67b0e": "4D21A347",
   "6c1b75de270e7e96df161833a5522b7d": "31E09BED",
@@ -15408,6 +15751,7 @@
   "cf5e9f022baadd1ed9b0a9e88b503e95": "F504CD84",
   "cf7ee109aa551fdebaadd5bfbe344fd7": "CCCAF8A1",
   "d3d18ea7800d93cb3a22e275bae9f836": "12AE932C",
+  "d3e0f6a6731565c1bd57757a0e4bad3c": "9402BCA9",
   "d43e85a61b91423de8a91f78e62936fe": "188CA644",
   "d8a29d331e9ba86609c75a4aedf9c269": "2B40745D",
   "d902afdadf17b452621c50a1ffda2fa9": "1F10CA75",
@@ -15426,6 +15770,7 @@
   "eec79ad5bb634a90b9d020415046e921": "AF9D8F42",
   "f06beaff2703728baa8dddc0ddeb7094": "00B31FBB",
   "f19436970509e5e97b5fd96752aadb8a": "8E120B5A",
+  "f1e53c706af452671467b8f4595258d4": "0C23D551",
   "f647a51827915109d1bc6a05c076eda4": "27B3CC18",
   "f98cbebf4a06794aa74636e7a6285ace": "637ADA93",
   "fc3bf32e77a2b1f6b749242e89f35e9a": "A9F5BF54",
@@ -15468,9 +15813,11 @@
   "36d8bc2ce7920d940943358d48f056f81055ab34": "9F6E3F8D",
   "39e9a897b681b2c326b052827d7c534f22290286": "7F3A14C0",
   "3a41a3b8fc126da07e2a82c21056a45c15efbc98": "15C4552E",
+  "3a81c10200e0083d413cabb5dd94765e73c7996d": "49CAF0EF",
   "3b62fd2841602f1077270848ab7a3aad58712ee9": "CCAA4853",
   "3c752694ab651f9a00ccd39c334a2e3ff78f5cb2": "2F9E2560",
   "3d5a1ed77e721908eb1145aaedef17c0ee6355ae": "89E7D950",
+  "3f295f1396d7157db783dae90c35fd3f4b9ddfec": "1209B679",
   "4a756dab81e0101475dc2e5494270f3df7dac1e6": "8655269E",
   "4c3f092b095bdb0afdaf8d32d4c54b4d6c209c96": "B07E6A56",
   "4c8166e0632bdb8c098d586a7b1522ed7b63b5f7": "812020EF",
@@ -15508,6 +15855,7 @@
   "99d5bdde193685a1d09ea73bb79a54b4da82625d": "3FF5791F",
   "99d9d7f951ae589059f34e76aea7489ae4cd79f1": "B18CDC0D",
   "9b4786adca7b83fe66a9d4b9fd4ffaf32abe7656": "1F10CA75",
+  "9ef89b6fe68c5a06d34344e8c783ec24114ad959": "3B4C60C6",
   "9fdf3f5821f2a4488139525fe49e87b23de4571f": "9E0854E2",
   "a1e24771dbc388af98781e894fc064fadd83517b": "DCAAFE90",
   "a25944969068ee495254f94c2c48dfffcb66ce8d": "637ADA93",
@@ -15516,8 +15864,11 @@
   "adbe6e38a0bc6a2d19da64a444071977b771f14f": "446E2581",
   "ae31488cee1c91f383efbe3083b4abec092dda36": "BF8D9212",
   "af3fe9da3f5ee0f5a7b06b0440223db88fcb3bf2": "00137E86",
+  "b156084890146912700f81e44642f27607f7583d": "B25E410B",
   "b40fbc7b72921c9ac31330831c0f77e4133ec7d6": "4D103236",
+  "b4fbea1a2c50d8566685f72820b360af4b54f82f": "0C23D551",
   "b7775e8f60fd62dc07f2865f8fad29a11e12dbb5": "0D1048F0",
+  "bc591fc24d3f8e94b70503fd8b6a35fa58151139": "9402BCA9",
   "bf212cecbbc51ee32ee2655a072f55e7bf70b9ec": "16E0D929",
   "c07f776ac4374b648d1a49efd9d6fcd0db2ac1fa": "AF9D8F42",
   "c1ab4e24f261615ca59f937b866fcf7047b67796": "66B617D5",
@@ -15531,6 +15882,7 @@
   "cfcb14be6d2f1dbffdfcefb8c8d83b4f39bc102b": "CE2F1A1D",
   "d3da0ae529c6f78162682141154a95879f288ca7": "B62E5DD0",
   "d524da01f2bfad92c2fa080950229955a3030ef2": "CCCAF8A1",
+  "d71d51ef5815ca13c2821859141f62b542f4e6e9": "4F253095",
   "d72c1221c2ce3e281a0ee288a3d079aa8e1b714b": "5A41A7BA",
   "d8097e25431f0ad5183b2479ee0837599677a300": "18ECFFB8",
   "dbaa50fd56e69e72fdfe49362ef5fe4437d66667": "71556E6A",
@@ -15550,6 +15902,7 @@
   "f47b4ab9197999bbec351750601baa20fbbd7177": "8E123373",
   "f79451034b6d844f0e10c825306bbc26f26a5466": "4E467626",
   "f7aeab6724154f7ef6a389f9f18b7100045e1064": "D7A12BD5",
+  "f7c8f8b6b6d036df8fc4bde72fcfac2846dffe35": "44453234",
   "f8f077da30f227f3793e97c7f1d656559f08b9d4": "A1FB16FC",
   "fb8d0f4e58a4192989ec71eb6e392d182aaa3eec": "35361250",
   "fbb745b016cc710ff6f82ec3091a181415d8de61": "F246A68E",

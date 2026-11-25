@@ -794,6 +794,48 @@
     "1d066c75b7bb5ac424247278efb6cb5ff8232d38f65110718d2638559f639f6a"
    ]
   },
+  "asset:PokemonGoDB/wonderswan-english-patches:791921150:2026-11-25T14:40:50Z:216341": {
+   "entries": []
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:791921154:2026-11-25T14:40:51Z:896967": {
+   "entries": [
+    "84c42ae8ac9d15d47e186c19b02778aaf2f136418f28f1fa2449b6947c396f72"
+   ]
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:792204946:2026-11-25T16:15:14Z:805127": {
+   "entries": [
+    "9f47784544a49240a60f9f82cad6060494474aab09879e331f25fdeec03c1898"
+   ]
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:792205136:2026-11-25T16:15:17Z:804993": {
+   "entries": [
+    "3c2f09221641bde5a5141026a2af60f1208594a745d31a91b4bb6840019415b9"
+   ]
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:792206451:2026-11-25T16:15:53Z:267602": {
+   "entries": []
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:792263512:2026-11-25T16:31:13Z:853794": {
+   "entries": [
+    "7bada2faf5795c5c3e89354c9e80fb709211d47319d4fbff0e94f144a152e01e"
+   ]
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:792263514:2026-11-25T16:31:13Z:124013": {
+   "entries": []
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:792538267:2026-11-25T17:52:17Z:652949": {
+   "entries": [
+    "7f498219682381f55658b123956385b8c42e8409da9d0b7f1088b3277c08f8cf"
+   ]
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:792762412:2026-11-25T19:02:18Z:324915": {
+   "entries": []
+  },
+  "asset:PokemonGoDB/wonderswan-english-patches:792762417:2026-11-25T19:02:18Z:1601334": {
+   "entries": [
+    "e6e40268c0b1ce032c28996541d2fa89c53a73b271dff0ceee4175473fb545d7"
+   ]
+  },
   "asset:mariovirgili/WonderSwanColor-AI_Translation:598779217:2026-09-29T17:21:38Z:176856": {
    "entries": [
     "7052719ae50c224335854e0bbefb3d52c4e9e30686ad86e8126504014a44281f"
@@ -1483,19 +1525,6 @@
   "asset:mariovirgili/WonderSwanColor-AI_Translation:784195477:2026-11-23T19:08:50Z:145264": {
    "entries": []
   },
-  "asset:mariovirgili/WonderSwanColor-AI_Translation:784539858:2026-11-23T21:05:59Z:287898": {
-   "entries": [
-    "14a49e59ff0b985cf1f1a68c7bc16716b47726e5b8e0639801712cb5c9343677"
-   ]
-  },
-  "asset:mariovirgili/WonderSwanColor-AI_Translation:784539894:2026-11-23T21:06:00Z:287839": {
-   "entries": [
-    "780aeb44f048dda755d413fd6bef054c584915afaf84e816124c255fece7db0d"
-   ]
-  },
-  "asset:mariovirgili/WonderSwanColor-AI_Translation:784539922:2026-11-23T21:06:00Z:148724": {
-   "entries": []
-  },
   "asset:mariovirgili/WonderSwanColor-AI_Translation:784955099:2026-11-23T23:34:33Z:97447": {
    "entries": [
     "475c8691148e22006e447d84b265a88df0df37f171bcc146a9ac829cbf05cddd"
@@ -1623,6 +1652,19 @@
    "entries": []
   },
   "asset:mariovirgili/WonderSwanColor-AI_Translation:791553725:2026-11-25T12:53:43Z:923333": {
+   "entries": []
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:792806146:2026-11-25T19:17:26Z:288068": {
+   "entries": [
+    "b956d3dbfd378d69f44dec9a9d00f357cdcf176c2ae00cf8505f640b5f9205ba"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:792806313:2026-11-25T19:17:26Z:288008": {
+   "entries": [
+    "c9b066057c15595311811dcdcf713667884aac3fc2f30f207a939860b93c3369"
+   ]
+  },
+  "asset:mariovirgili/WonderSwanColor-AI_Translation:792806364:2026-11-25T19:17:07Z:152984": {
    "entries": []
   },
   "blob:Gand46/BlueWingBlitz-Wonderswan-English-Translation-AI_GPT:1ba4d77bf8f71be12be042beec307d9d1103b015:patch/Blue_Wing_Blitz_EN_Phase50_v5.0.0-test.1.bps": {

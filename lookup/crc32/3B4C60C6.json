@@ -1,0 +1,37 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "3B4C60C6"
+ },
+ "crc32": "3B4C60C6",
+ "size": 2097152,
+ "md5": "611d42816a979ece34dd8221d3023c9c",
+ "sha1": "9ef89b6fe68c5a06d34344e8c783ec24114ad959",
+ "names": [
+  "Kiss Yori... - Seaside Serenade (Japan) (Rev 2).ws",
+  "Kiss Yori... - Seaside Serenade (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "7bada2faf5795c5c",
+   "game": "Kiss Yori... Seaside Serenade",
+   "variant": "kiss-yori-seaside-serenade-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "3B4C60C6",
+   "target_crc32": "4F253095",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/kiss-yori-seaside-serenade-v1.0/kiss-yori-seaside-serenade-en-1.0.bps",
+   "sha256": "7bada2faf5795c5c3e89354c9e80fb709211d47319d4fbff0e94f144a152e01e",
+   "size": 853794,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/kiss-yori-seaside-serenade-v1.0",
+   "notes": "**Kiss Yori... Seaside Serenade** (KISSより... Seaside Serenade) is a summer dating adventure for the WonderSwan, made by KID under Bandai's licence (1999) from the Saturn original. You play a boy in a seaside town over about 42 summer days: you pick where to go on the town map, take evening shifts at the manager's shop, talk to the four heroines (Chihiro Asaoka, Chieri Sugita, Kanna Yamazaki and Miku Hayasaka), phone them, ask them out on dates and get one of the endings on August 31. It was released only in Japan. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** 12,401 messages: the opening, the part-time job and shop scenes, every place on the map, the Real-Time Talk conversations, phone calls, dates, the endings and the staff roll, and every menu. The SOUND TEST song titles and the ALBUM picture captions are in English too.\n* **Text drawn as pictures:** the title's subtitle, the room menu, the conversation tabs, the name-entry buttons and banners, the date bar (weekday and time of day), …"
+  }
+ ],
+ "produced_by": []
+}

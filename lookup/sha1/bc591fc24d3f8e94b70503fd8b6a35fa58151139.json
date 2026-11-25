@@ -1,0 +1,36 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "bc591fc24d3f8e94b70503fd8b6a35fa58151139"
+ },
+ "crc32": "9402BCA9",
+ "size": 4194304,
+ "md5": "d3e0f6a6731565c1bd57757a0e4bad3c",
+ "sha1": "bc591fc24d3f8e94b70503fd8b6a35fa58151139",
+ "names": [
+  "Hunter X Hunter - Michibikareshi Mono (Japan).wsc"
+ ],
+ "patches": [
+  {
+   "id": "84c42ae8ac9d15d4",
+   "game": "Hunter x Hunter: Michibikareshi Mono",
+   "variant": "hxh-michibikareshi-mono-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "9402BCA9",
+   "target_crc32": "49CAF0EF",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/hxh-michibikareshi-mono-v1.0/hxh-michibikareshi-mono-en-1.0.bps",
+   "sha256": "84c42ae8ac9d15d47e186c19b02778aaf2f136418f28f1fa2449b6947c396f72",
+   "size": 896967,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/hxh-michibikareshi-mono-v1.0",
+   "notes": "**Hunter x Hunter: Michibikareshi Mono** (ハンター×ハンター 導かれし者, \"The Guided\") is a story and investigation adventure for the WonderSwan Color, based on Yoshihiro Togashi's Hunter x Hunter (Bandai, 2001). It follows the Yorknew City arc: you move over a city map where the time of day matters, choose who to talk to and what to ask from command menus, fight the Phantom Troupe in a command battle, bid in the Cyber Auction and unlock a password bonus corner with mini games. It was released only in Japan. This patch translates all the text the game shows into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** all 2,172 messages (13,263 pages) the game can show: dialogue, the talk and map menus, the command battle's messages, item names and descriptions, the Cyber Auction, the password screens and the game's replies, the bonus corner with its mini games, save and load screens, the endings and the staff roll. Two dialogue blocks that the cartridge never displays were left as they are.\n* **Text drawn as pictures:** the title and its menu (New Game, Continue, …"
+  }
+ ],
+ "produced_by": []
+}
