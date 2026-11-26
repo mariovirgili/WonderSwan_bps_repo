@@ -428,6 +428,34 @@
    ],
    "produced_by": []
   },
+  "09149343": {
+   "crc32": "09149343",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "50ced688528c588a",
+     "game": "Super Robot Taisen Compact 2 Part 1: Earth Upheaval",
+     "variant": "srw-compact-2-part1-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "782877BC",
+     "target_crc32": "09149343",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-2-part1-v1.0/srw-compact-2-part1-en-1.0.bps",
+     "sha256": "50ced688528c588ad542baa28d55dd5c059d14edb622b6c2ce2f4ff0eaae0b3b",
+     "size": 570826,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part1-v1.0",
+     "notes": "**Super Robot Taisen Compact 2 Part 1: Earth Upheaval** (スーパーロボット大戦コンパクト2 第1部 地上激動篇) is the first of three cartridges that tell one story: Banpresto's tactical-RPG crossover of the Super Robot Wars series for the monochrome WonderSwan (2001-02). You move your robots on a map, fight with spirit commands and weapons, and read the story between stages. This cartridge's story is set in: Earth: Japan, the world, Byston Well and Jaburo. It was released only in Japan. This patch translates all the text the game shows into English. The other two parts are separate patches.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story scenes, the battle quotes, every menu, list and status page, the name-entry screen, the staff roll and the epilogue (17,280 text units in all, 11,665 of them drawn and checked in their real boxes).\n* **Text drawn as pictures:** the episode cards, menu words, credit cards and the like were redrawn in English in the original's style.\n* **Title screen:** the original art is kept untouched; an English line \"PART 1: EARTH UPHEAVAL\" sits …"
+    }
+   ]
+  },
   "0A02A1A0": {
    "crc32": "0A02A1A0",
    "size": 2097152,
@@ -455,6 +483,59 @@
      "page": "https://github.com/Gand46/Chocobo_no_Fushigi_na_Dungeon_Mysterious_Dungeon_WS_AI_ROM-FIX-/blob/main/patches/Chocobo_EN_v1.1_HF19_TEST_JP_CCAA4853.bps"
     }
    ]
+  },
+  "0B0F8981": {
+   "crc32": "0B0F8981",
+   "size": 4194304,
+   "md5": "44f63dcb11c916df900a128a6f2e3839",
+   "sha1": "d24d8cea57c5c487e877eaa523eefb0dd184556d",
+   "names": [
+    "Super Robot Taisen Compact 2 - Dai-3-bu - Ginga Kessen Hen (Japan) (Rev 2).ws",
+    "Super Robot Taisen Compact 2 - Dai-3-bu - Ginga Kessen Hen (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "6d80cfadd45a29b9",
+     "game": "Super Robot Taisen Compact 2 Part 3: Galactic Showdown",
+     "variant": "srw-compact-2-part3-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "0B0F8981",
+     "target_crc32": "5ACF62C7",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-2-part3-v1.0/srw-compact-2-part3-en-1.0.bps",
+     "sha256": "6d80cfadd45a29b966009dde519b4da369495e2af643a7f05feff8eb48caf21a",
+     "size": 789626,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part3-v1.0",
+     "notes": "**Super Robot Taisen Compact 2 Part 3: Galactic Showdown** (スーパーロボット大戦コンパクト2 第3部 銀河決戦篇) is the third of three cartridges that tell one story: Banpresto's tactical-RPG crossover of the Super Robot Wars series for the monochrome WonderSwan (2001-02). You move your robots on a map, fight with spirit commands and weapons, and read the story between stages. This cartridge's story is set in: Dirad, Earth and space, the Dark Zone, Einst space and the epilogue at Axis. It was released only in Japan. This patch translates all the text the game shows into English. The other two parts are separate patches.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story scenes, the battle quotes, every menu, list and status page, the name-entry screen, the staff roll and the epilogue (21,588 text units in all, 17,021 of them drawn and checked in their real boxes).\n* **Text drawn as pictures:** the episode cards, menu words, credit cards and the like were redrawn in English in the original's style.\n* **Title screen:** the original art is kept untouched; an English line …"
+    },
+    {
+     "id": "239891863c018335",
+     "game": "Super Robot Taisen Compact 2 Part 3: Galactic Showdown",
+     "variant": "srw-compact-2-part3-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "0B0F8981",
+     "target_crc32": "697E2FD4",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-2-part3-v1.0/srw-compact-2-part3-en-debug-1.0.bps",
+     "sha256": "239891863c018335da6866900502cc6d3fc0d47afaac92294b4960fc26a5c3df",
+     "size": 793601,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part3-v1.0",
+     "notes": "**Super Robot Taisen Compact 2 Part 3: Galactic Showdown** (スーパーロボット大戦コンパクト2 第3部 銀河決戦篇) is the third of three cartridges that tell one story: Banpresto's tactical-RPG crossover of the Super Robot Wars series for the monochrome WonderSwan (2001-02). You move your robots on a map, fight with spirit commands and weapons, and read the story between stages. This cartridge's story is set in: Dirad, Earth and space, the Dark Zone, Einst space and the epilogue at Axis. It was released only in Japan. This patch translates all the text the game shows into English. The other two parts are separate patches.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story scenes, the battle quotes, every menu, list and status page, the name-entry screen, the staff roll and the epilogue (21,588 text units in all, 17,021 of them drawn and checked in their real boxes).\n* **Text drawn as pictures:** the episode cards, menu words, credit cards and the like were redrawn in English in the original's style.\n* **Title screen:** the original art is kept untouched; an English line …"
+    }
+   ],
+   "produced_by": []
   },
   "0B8DAAA4": {
    "crc32": "0B8DAAA4",
@@ -2455,34 +2536,6 @@
    ],
    "produced_by": []
   },
-  "28C9CCC2": {
-   "crc32": "28C9CCC2",
-   "size": 2097152,
-   "names": [],
-   "patches": [],
-   "produced_by": [
-    {
-     "id": "4d4a02d5ce9278a8",
-     "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
-     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.1",
-     "version": "0.1.1",
-     "language": "pt",
-     "platform": "wonderswan_color",
-     "latest": false,
-     "superseded": false,
-     "format": "bps",
-     "source_crc32": "6E8A792D",
-     "target_crc32": "28C9CCC2",
-     "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_PT-BR_0.1/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.1.bps",
-     "sha256": "4d4a02d5ce9278a82c9dc344ae1301342bf51c8d757d7ba617d906349fc5259f",
-     "size": 85184,
-     "source": "mariovirgili/WonderSwanColor-AI_Translation",
-     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_PT-BR_0.1",
-     "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai, a remake of the 1987 Famicom game, released only in Japan. This is a **Brazilian Portuguese** version of the English translation v0.9.6, made at the request of a Brazilian player. It uses the names of the Brazilian dub, *Os Cavaleiros do Zodíaco*: Cavaleiros, Armaduras, Atena, Grande Mestre, Mestre Ancião, Máscara da Morte, Aioria, Miro, Afrodite, Meteoro de Pégaso, Cólera do Dragão, Pó de Diamante...\n\n**v0.1.1 is a test version for review:** it has not been checked by a native speaker yet.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply one of the .bps patches to *Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan).wsc* (2 MB, CRC32 6E8A792D) with Floating IPS, beat or ROM Patcher JS. Keep the .wsc extension.\n\n* Normal: `Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.1).bps`, result CRC32 28C9CCC2.\n* ALL CAPS: `Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.1, ALL CAPS).bps`, result CRC32 CA33E48C.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.1).bps\" \"Saint Seiya - Ougon Densetsu Hen - …"
-    }
-   ]
-  },
   "29BFFB91": {
    "crc32": "29BFFB91",
    "size": 4194304,
@@ -3868,6 +3921,34 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/final-lap-2000-v1.0",
      "notes": "**Final Lap 2000** (ファイナルラップ2000) is Namco's 2000 Formula racer for the original (monochrome) WonderSwan, published with Bandai and released only in Japan (March 2000). It brings the arcade Final Lap series to a handheld: an Arcade mode against the clock, a World Tour season of 15 rounds plus a special round, Time Trial, a course editor, and link-cable racing and course swapping with a second WonderSwan.\n\nMost of the game was already in English: the menus, the race screens, the results, the rankings and the staff credits. The Japanese was hidden in pictures: the Arcade entry screen everyone sees, the course-exchange messages, the link-play error, a hidden online-ranking menu, and billboards beside the tracks. This patch translates all of it.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Arcade entry screen**, the 15-second \"now accepting entries\" countdown before every Arcade race: NOW ACCEPTING ENTRIES / TIME LEFT 15 SEC, in the game's own lettering.\n* **Course Edit > Exchange** (swapping a course over the link cable): all four messages, including the ones you see without a cable …"
+    }
+   ]
+  },
+  "3BB0B9AF": {
+   "crc32": "3BB0B9AF",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "05e8feb651338c0e",
+     "game": "Super Robot Taisen Compact 2 Part 2: Space Quake",
+     "variant": "srw-compact-2-part2-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "ECBB46DE",
+     "target_crc32": "3BB0B9AF",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-2-part2-v1.0/srw-compact-2-part2-en-1.0.bps",
+     "sha256": "05e8feb651338c0ec75b7c19c3dc333fa3f18e39350b3e91717aba97d08b4491",
+     "size": 656265,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part2-v1.0",
+     "notes": "**Super Robot Taisen Compact 2 Part 2: Space Quake** (スーパーロボット大戦コンパクト2 第2部 宇宙激震篇) is the second of three cartridges that tell one story: Banpresto's tactical-RPG crossover of the Super Robot Wars series for the monochrome WonderSwan (2001-02). You move your robots on a map, fight with spirit commands and weapons, and read the story between stages. This cartridge's story is set in: Earth orbit, the Moon, the colonies and the approach of Dirad. It was released only in Japan. This patch translates all the text the game shows into English. The other two parts are separate patches.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story scenes, the battle quotes, every menu, list and status page, the name-entry screen, the staff roll and the epilogue (18,908 text units in all, 13,638 of them drawn and checked in their real boxes).\n* **Text drawn as pictures:** the episode cards, menu words, credit cards and the like were redrawn in English in the original's style.\n* **Title screen:** the original art is kept untouched; an English line \"PART 2: SPACE …"
     }
    ]
   },
@@ -6134,6 +6215,34 @@
     }
    ]
   },
+  "5ACF62C7": {
+   "crc32": "5ACF62C7",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "6d80cfadd45a29b9",
+     "game": "Super Robot Taisen Compact 2 Part 3: Galactic Showdown",
+     "variant": "srw-compact-2-part3-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "0B0F8981",
+     "target_crc32": "5ACF62C7",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-2-part3-v1.0/srw-compact-2-part3-en-1.0.bps",
+     "sha256": "6d80cfadd45a29b966009dde519b4da369495e2af643a7f05feff8eb48caf21a",
+     "size": 789626,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part3-v1.0",
+     "notes": "**Super Robot Taisen Compact 2 Part 3: Galactic Showdown** (スーパーロボット大戦コンパクト2 第3部 銀河決戦篇) is the third of three cartridges that tell one story: Banpresto's tactical-RPG crossover of the Super Robot Wars series for the monochrome WonderSwan (2001-02). You move your robots on a map, fight with spirit commands and weapons, and read the story between stages. This cartridge's story is set in: Dirad, Earth and space, the Dark Zone, Einst space and the epilogue at Axis. It was released only in Japan. This patch translates all the text the game shows into English. The other two parts are separate patches.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story scenes, the battle quotes, every menu, list and status page, the name-entry screen, the staff roll and the epilogue (21,588 text units in all, 17,021 of them drawn and checked in their real boxes).\n* **Text drawn as pictures:** the episode cards, menu words, credit cards and the like were redrawn in English in the original's style.\n* **Title screen:** the original art is kept untouched; an English line …"
+    }
+   ]
+  },
   "5B68EAFE": {
    "crc32": "5B68EAFE",
    "size": 524288,
@@ -6835,6 +6944,34 @@
     }
    ]
   },
+  "697E2FD4": {
+   "crc32": "697E2FD4",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "239891863c018335",
+     "game": "Super Robot Taisen Compact 2 Part 3: Galactic Showdown",
+     "variant": "srw-compact-2-part3-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "0B0F8981",
+     "target_crc32": "697E2FD4",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-2-part3-v1.0/srw-compact-2-part3-en-debug-1.0.bps",
+     "sha256": "239891863c018335da6866900502cc6d3fc0d47afaac92294b4960fc26a5c3df",
+     "size": 793601,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part3-v1.0",
+     "notes": "**Super Robot Taisen Compact 2 Part 3: Galactic Showdown** (スーパーロボット大戦コンパクト2 第3部 銀河決戦篇) is the third of three cartridges that tell one story: Banpresto's tactical-RPG crossover of the Super Robot Wars series for the monochrome WonderSwan (2001-02). You move your robots on a map, fight with spirit commands and weapons, and read the story between stages. This cartridge's story is set in: Dirad, Earth and space, the Dark Zone, Einst space and the epilogue at Axis. It was released only in Japan. This patch translates all the text the game shows into English. The other two parts are separate patches.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story scenes, the battle quotes, every menu, list and status page, the name-entry screen, the staff roll and the epilogue (21,588 text units in all, 17,021 of them drawn and checked in their real boxes).\n* **Text drawn as pictures:** the episode cards, menu words, credit cards and the like were redrawn in English in the original's style.\n* **Title screen:** the original art is kept untouched; an English line …"
+    }
+   ]
+  },
   "6A88E21E": {
    "crc32": "6A88E21E",
    "size": 2097152,
@@ -6888,6 +7025,34 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/youfu-makai-v1.3",
      "notes": "**Chou Denki Card Battle: Youfu Makai** (超伝奇カードバトル 妖符魔界) is a 1999 card battle game from Kobunsha and Kappa Games for the original (monochrome) WonderSwan, released only in Japan. The scenario is by Hideyuki Kikuchi (*Vampire Hunter D*, *Demon City Shinjuku*) and the art by Ayami Kojima. It's set in Kikuchi's Demon City Shinjuku, and its story runs in three parts, told as illustrated pages of prose between battles with Demon Cards. You build a 30-card deck, lay cards on a field where each card's arrows set the direction it attacks, and win by covering the field with your own cards.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* The whole story, all three parts (Crimson Lotus, Cursed Cards, Fusion), as horizontal English prose in place of the vertical Japanese.\n* Every card name, and the descriptions of all 200 cards in the Card Craft card view (press the Y pad left or right on the deck screen).\n* The menus (Scenario, Those in the Way, Worthy Rival, Card Craft...), the deck rules, the battle screens, and the save and erase prompts.\n* Graphics: the title logo becomes YOUFU MAKAI with …"
+    }
+   ]
+  },
+  "6BD12B48": {
+   "crc32": "6BD12B48",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "90ce723ad6d63e36",
+     "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
+     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.2",
+     "version": "0.1.2",
+     "language": "pt",
+     "platform": "wonderswan_color",
+     "latest": false,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "6E8A792D",
+     "target_crc32": "6BD12B48",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_PT-BR_0.1/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.2.bps",
+     "sha256": "90ce723ad6d63e36e479f510c43372e5cdd7dfd724111e3597d2407e65022b78",
+     "size": 85038,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_PT-BR_0.1",
+     "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai, a remake of the 1987 Famicom game, released only in Japan. This is a **Brazilian Portuguese** version of the English translation v0.9.6, made at the request of a Brazilian player. It uses the names of the Brazilian dub, *Os Cavaleiros do Zodíaco*: Cavaleiros, Armaduras, Atena, Grande Mestre, Mestre Ancião, Máscara da Morte, Aioria, Miro, Afrodite, Meteoro de Pégaso, Cólera do Dragão, Pó de Diamante...\n\n**v0.1.2 is a test version for review:** it has not been checked by a native speaker yet.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply one of the .bps patches to *Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan).wsc* (2 MB, CRC32 6E8A792D) with Floating IPS, beat or ROM Patcher JS. Keep the .wsc extension.\n\n* Normal: `Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.2).bps`, result CRC32 6BD12B48.\n* ALL CAPS: `Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.2, ALL CAPS).bps`, result CRC32 892B0306.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.2).bps\" \"Saint Seiya - Ougon Densetsu Hen - …"
     }
    ]
   },
@@ -7048,44 +7213,44 @@
      "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai. It remakes the 1987 Famicom game *Saint Seiya: Ougon Densetsu* and was released only in Japan. Seiya comes back from Greece with the Pegasus Cloth. He fights in the Galaxian Wars and against the Black Saints and the Silver Saints, then climbs the Twelve Temples of the Sanctuary to save Athena. The game mixes side-scrolling exploration with command battles powered by your Cosmo.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**Another translation already exists**\n\nAn earlier English translation of this game, made with Codex by Retroviews (v1.0, October 2026), is available on RetroGameTalk: https://retrogametalk.com/threads/saint-seiya-ougon-densetsuhen-perfect-edition-ai-assisted-translation.71478/\n\nThis translation was made by mistake: that one was not listed in the Translations section or on The Repo, so it was not found before the work started.\n\n**Differences between the two versions**\n\nThe two were compared line by line, and in an emulator with the same inputs.\n\n* *Script:* about 2,040 lines are translated in both, and 623 of them match apart from punctuation. The others say the same things in different words, with the same …"
     },
     {
-     "id": "4d4a02d5ce9278a8",
+     "id": "90ce723ad6d63e36",
      "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
-     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.1",
-     "version": "0.1.1",
+     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.2",
+     "version": "0.1.2",
      "language": "pt",
      "platform": "wonderswan_color",
      "latest": false,
      "superseded": false,
      "format": "bps",
      "source_crc32": "6E8A792D",
-     "target_crc32": "28C9CCC2",
+     "target_crc32": "6BD12B48",
      "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_PT-BR_0.1/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.1.bps",
-     "sha256": "4d4a02d5ce9278a82c9dc344ae1301342bf51c8d757d7ba617d906349fc5259f",
-     "size": 85184,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_PT-BR_0.1/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.2.bps",
+     "sha256": "90ce723ad6d63e36e479f510c43372e5cdd7dfd724111e3597d2407e65022b78",
+     "size": 85038,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_PT-BR_0.1",
-     "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai, a remake of the 1987 Famicom game, released only in Japan. This is a **Brazilian Portuguese** version of the English translation v0.9.6, made at the request of a Brazilian player. It uses the names of the Brazilian dub, *Os Cavaleiros do Zodíaco*: Cavaleiros, Armaduras, Atena, Grande Mestre, Mestre Ancião, Máscara da Morte, Aioria, Miro, Afrodite, Meteoro de Pégaso, Cólera do Dragão, Pó de Diamante...\n\n**v0.1.1 is a test version for review:** it has not been checked by a native speaker yet.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply one of the .bps patches to *Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan).wsc* (2 MB, CRC32 6E8A792D) with Floating IPS, beat or ROM Patcher JS. Keep the .wsc extension.\n\n* Normal: `Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.1).bps`, result CRC32 28C9CCC2.\n* ALL CAPS: `Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.1, ALL CAPS).bps`, result CRC32 CA33E48C.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.1).bps\" \"Saint Seiya - Ougon Densetsu Hen - …"
+     "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai, a remake of the 1987 Famicom game, released only in Japan. This is a **Brazilian Portuguese** version of the English translation v0.9.6, made at the request of a Brazilian player. It uses the names of the Brazilian dub, *Os Cavaleiros do Zodíaco*: Cavaleiros, Armaduras, Atena, Grande Mestre, Mestre Ancião, Máscara da Morte, Aioria, Miro, Afrodite, Meteoro de Pégaso, Cólera do Dragão, Pó de Diamante...\n\n**v0.1.2 is a test version for review:** it has not been checked by a native speaker yet.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply one of the .bps patches to *Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan).wsc* (2 MB, CRC32 6E8A792D) with Floating IPS, beat or ROM Patcher JS. Keep the .wsc extension.\n\n* Normal: `Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.2).bps`, result CRC32 6BD12B48.\n* ALL CAPS: `Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.2, ALL CAPS).bps`, result CRC32 892B0306.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.2).bps\" \"Saint Seiya - Ougon Densetsu Hen - …"
     },
     {
-     "id": "2cb949bb0ef5b5e4",
+     "id": "42261ed9cb51da6e",
      "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
-     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.1.ALL.CAPS",
-     "version": "0.1.1",
+     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.2.ALL.CAPS",
+     "version": "0.1.2",
      "language": "pt",
      "platform": "wonderswan_color",
      "latest": false,
      "superseded": false,
      "format": "bps",
      "source_crc32": "6E8A792D",
-     "target_crc32": "CA33E48C",
+     "target_crc32": "892B0306",
      "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_PT-BR_0.1/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.1.ALL.CAPS.bps",
-     "sha256": "2cb949bb0ef5b5e44eb1d2fd77ede44857837afa286379091cf49af0a8ae6481",
-     "size": 85181,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_PT-BR_0.1/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.2.ALL.CAPS.bps",
+     "sha256": "42261ed9cb51da6ebf2ccc87ab36954f80e1d3fb8ee1a14137bcdbaa97afd339",
+     "size": 85035,
      "source": "mariovirgili/WonderSwanColor-AI_Translation",
      "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_PT-BR_0.1",
-     "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai, a remake of the 1987 Famicom game, released only in Japan. This is a **Brazilian Portuguese** version of the English translation v0.9.6, made at the request of a Brazilian player. It uses the names of the Brazilian dub, *Os Cavaleiros do Zodíaco*: Cavaleiros, Armaduras, Atena, Grande Mestre, Mestre Ancião, Máscara da Morte, Aioria, Miro, Afrodite, Meteoro de Pégaso, Cólera do Dragão, Pó de Diamante...\n\n**v0.1.1 is a test version for review:** it has not been checked by a native speaker yet.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply one of the .bps patches to *Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan).wsc* (2 MB, CRC32 6E8A792D) with Floating IPS, beat or ROM Patcher JS. Keep the .wsc extension.\n\n* Normal: `Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.1).bps`, result CRC32 28C9CCC2.\n* ALL CAPS: `Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.1, ALL CAPS).bps`, result CRC32 CA33E48C.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.1).bps\" \"Saint Seiya - Ougon Densetsu Hen - …"
+     "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai, a remake of the 1987 Famicom game, released only in Japan. This is a **Brazilian Portuguese** version of the English translation v0.9.6, made at the request of a Brazilian player. It uses the names of the Brazilian dub, *Os Cavaleiros do Zodíaco*: Cavaleiros, Armaduras, Atena, Grande Mestre, Mestre Ancião, Máscara da Morte, Aioria, Miro, Afrodite, Meteoro de Pégaso, Cólera do Dragão, Pó de Diamante...\n\n**v0.1.2 is a test version for review:** it has not been checked by a native speaker yet.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply one of the .bps patches to *Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan).wsc* (2 MB, CRC32 6E8A792D) with Floating IPS, beat or ROM Patcher JS. Keep the .wsc extension.\n\n* Normal: `Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.2).bps`, result CRC32 6BD12B48.\n* ALL CAPS: `Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.2, ALL CAPS).bps`, result CRC32 892B0306.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.2).bps\" \"Saint Seiya - Ougon Densetsu Hen - …"
     }
    ],
    "produced_by": []
@@ -7364,6 +7529,34 @@
     }
    ]
   },
+  "73F556B0": {
+   "crc32": "73F556B0",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "3d9acdeefd27eede",
+     "game": "Super Robot Taisen Compact 2 Part 1: Earth Upheaval",
+     "variant": "srw-compact-2-part1-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "782877BC",
+     "target_crc32": "73F556B0",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-2-part1-v1.0/srw-compact-2-part1-en-debug-1.0.bps",
+     "sha256": "3d9acdeefd27eede67e7186154f9ef0bdf72354473653100b3ccdf8677fb6d11",
+     "size": 574801,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part1-v1.0",
+     "notes": "**Super Robot Taisen Compact 2 Part 1: Earth Upheaval** (スーパーロボット大戦コンパクト2 第1部 地上激動篇) is the first of three cartridges that tell one story: Banpresto's tactical-RPG crossover of the Super Robot Wars series for the monochrome WonderSwan (2001-02). You move your robots on a map, fight with spirit commands and weapons, and read the story between stages. This cartridge's story is set in: Earth: Japan, the world, Byston Well and Jaburo. It was released only in Japan. This patch translates all the text the game shows into English. The other two parts are separate patches.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story scenes, the battle quotes, every menu, list and status page, the name-entry screen, the staff roll and the epilogue (17,280 text units in all, 11,665 of them drawn and checked in their real boxes).\n* **Text drawn as pictures:** the episode cards, menu words, credit cards and the like were redrawn in English in the original's style.\n* **Title screen:** the original art is kept untouched; an English line \"PART 1: EARTH UPHEAVAL\" sits …"
+    }
+   ]
+  },
   "76D6F197": {
    "crc32": "76D6F197",
    "size": 1048576,
@@ -7468,6 +7661,58 @@
      "notes": "**SD Gundam G Generation: Gather Beat 2** (SDガンダム Gジェネレーション ギャザービート2) is Bandai's 2001 G Generation strategy game for the WonderSwan Color, released only in Japan. You command a mixed force of mobile suits and ships from across the Gundam series on grid maps, replaying battles from Mobile Suit Gundam, The 08th MS Team, 0083, Zeta, ZZ, Char's Counterattack, Victory, G Gundam, Gundam Wing, Gundam X, Turn A and more. Pilots fire ID commands (special abilities with their own speech), between stages you manage the Backstage (buying, developing and modifying units, assigning pilots), and the game adds an encyclopedia of characters and mobile suits, adventure scenes, two endings and unit trading over the link cable. This patch translates it into English. (The first Gather Beat has its own patch and release.)\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* All story, map and battle dialogue, ID and battle speech, the adventure scenes, menus and names, the encyclopedia (684 entries), and the narration of both endings.\n* Link cable: the Unit Trade screens and messages.\n* WonderGate: the shop …"
     }
    ]
+  },
+  "782877BC": {
+   "crc32": "782877BC",
+   "size": 4194304,
+   "md5": "af355adec937a9db1d447980bf85aa2e",
+   "sha1": "e6911e5bb0a742ba299e05b20ee81f2faa4854a5",
+   "names": [
+    "Super Robot Taisen Compact 2 - Dai-1-bu - Chijou Gekidou Hen (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "50ced688528c588a",
+     "game": "Super Robot Taisen Compact 2 Part 1: Earth Upheaval",
+     "variant": "srw-compact-2-part1-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "782877BC",
+     "target_crc32": "09149343",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-2-part1-v1.0/srw-compact-2-part1-en-1.0.bps",
+     "sha256": "50ced688528c588ad542baa28d55dd5c059d14edb622b6c2ce2f4ff0eaae0b3b",
+     "size": 570826,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part1-v1.0",
+     "notes": "**Super Robot Taisen Compact 2 Part 1: Earth Upheaval** (スーパーロボット大戦コンパクト2 第1部 地上激動篇) is the first of three cartridges that tell one story: Banpresto's tactical-RPG crossover of the Super Robot Wars series for the monochrome WonderSwan (2001-02). You move your robots on a map, fight with spirit commands and weapons, and read the story between stages. This cartridge's story is set in: Earth: Japan, the world, Byston Well and Jaburo. It was released only in Japan. This patch translates all the text the game shows into English. The other two parts are separate patches.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story scenes, the battle quotes, every menu, list and status page, the name-entry screen, the staff roll and the epilogue (17,280 text units in all, 11,665 of them drawn and checked in their real boxes).\n* **Text drawn as pictures:** the episode cards, menu words, credit cards and the like were redrawn in English in the original's style.\n* **Title screen:** the original art is kept untouched; an English line \"PART 1: EARTH UPHEAVAL\" sits …"
+    },
+    {
+     "id": "3d9acdeefd27eede",
+     "game": "Super Robot Taisen Compact 2 Part 1: Earth Upheaval",
+     "variant": "srw-compact-2-part1-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "782877BC",
+     "target_crc32": "73F556B0",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-2-part1-v1.0/srw-compact-2-part1-en-debug-1.0.bps",
+     "sha256": "3d9acdeefd27eede67e7186154f9ef0bdf72354473653100b3ccdf8677fb6d11",
+     "size": 574801,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part1-v1.0",
+     "notes": "**Super Robot Taisen Compact 2 Part 1: Earth Upheaval** (スーパーロボット大戦コンパクト2 第1部 地上激動篇) is the first of three cartridges that tell one story: Banpresto's tactical-RPG crossover of the Super Robot Wars series for the monochrome WonderSwan (2001-02). You move your robots on a map, fight with spirit commands and weapons, and read the story between stages. This cartridge's story is set in: Earth: Japan, the world, Byston Well and Jaburo. It was released only in Japan. This patch translates all the text the game shows into English. The other two parts are separate patches.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story scenes, the battle quotes, every menu, list and status page, the name-entry screen, the staff roll and the epilogue (17,280 text units in all, 11,665 of them drawn and checked in their real boxes).\n* **Text drawn as pictures:** the episode cards, menu words, credit cards and the like were redrawn in English in the original's style.\n* **Title screen:** the original art is kept untouched; an English line \"PART 1: EARTH UPHEAVAL\" sits …"
+    }
+   ],
+   "produced_by": []
   },
   "7850C84C": {
    "crc32": "7850C84C",
@@ -8485,6 +8730,58 @@
     }
    ]
   },
+  "86B56511": {
+   "crc32": "86B56511",
+   "size": 524288,
+   "md5": "bce82b55b44a7d9b8eeb06cdcc884968",
+   "sha1": "4f739292d11a45490851eaf40c0a7081824ad75a",
+   "names": [
+    "Umizuri ni Ikou! (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "bc0a510ec023fc3e",
+     "game": "Umizuri ni Ikou!",
+     "variant": "umizuri-ni-ikou-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "86B56511",
+     "target_crc32": "97EBB09F",
+     "target_size": 524288,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/umizuri-ni-ikou-v1.0/umizuri-ni-ikou-en-1.0.bps",
+     "sha256": "bc0a510ec023fc3ee07a1c3e96391508643b96dbe2935c598c1b5eb05afc2bbd",
+     "size": 42784,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/umizuri-ni-ikou-v1.0",
+     "notes": "**Umizuri ni Ikou!** (海釣りに行こう!, \"Let's Go Sea Fishing!\") is a fishing game for the monochrome WonderSwan, made by Coconuts Japan Entertainment and licensed by Bandai (1999). A boy goes fishing for a day at four spots (a breakwater, a sandy beach, a rocky shore and the open sea) and has to catch a set number of kinds of fish at each one, choosing bait and tackle and reading the hints he gets. After the four stages a special stage on a boat has eight cartoon \"monster fish\". There is no save RAM: progress is a password, and fish and items can be given or swapped with another WonderSwan over the link cable. It was released only in Japan. The English version is a patch with two editions: the standard one, and a Debug edition that opens the developers' hidden scene selector and sound test.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **All the text the game draws:** 111 strings: the dialogue (stage intros by weather, catch and miss comments, goal counts), the fishing tips and hints, the item descriptions, the menus and the data-exchange (link) messages. The game's own font has capitals …"
+    },
+    {
+     "id": "054a6c28c394e830",
+     "game": "Umizuri ni Ikou!",
+     "variant": "umizuri-ni-ikou-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "86B56511",
+     "target_crc32": "9DA0EC2E",
+     "target_size": 524288,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/umizuri-ni-ikou-v1.0/umizuri-ni-ikou-en-debug-1.0.bps",
+     "sha256": "054a6c28c394e83050eb0059a65e6643a810e8c3762443e68d4535ea1a45bc10",
+     "size": 42896,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/umizuri-ni-ikou-v1.0",
+     "notes": "**Umizuri ni Ikou!** (海釣りに行こう!, \"Let's Go Sea Fishing!\") is a fishing game for the monochrome WonderSwan, made by Coconuts Japan Entertainment and licensed by Bandai (1999). A boy goes fishing for a day at four spots (a breakwater, a sandy beach, a rocky shore and the open sea) and has to catch a set number of kinds of fish at each one, choosing bait and tackle and reading the hints he gets. After the four stages a special stage on a boat has eight cartoon \"monster fish\". There is no save RAM: progress is a password, and fish and items can be given or swapped with another WonderSwan over the link cable. It was released only in Japan. The English version is a patch with two editions: the standard one, and a Debug edition that opens the developers' hidden scene selector and sound test.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **All the text the game draws:** 111 strings: the dialogue (stage intros by weather, catch and miss comments, goal counts), the fishing tips and hints, the item descriptions, the menus and the data-exchange (link) messages. The game's own font has capitals …"
+    }
+   ],
+   "produced_by": []
+  },
   "86F9B687": {
    "crc32": "86F9B687",
    "size": 4194304,
@@ -8677,6 +8974,34 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/digital-partner-v1.8",
      "notes": "**Digimon Adventure 02: Digital Partner** (デジタルパートナー) is a Bandai game from 2000, released only in Japan for the original (monochrome) WonderSwan. It's a virtual-pet game with RPG parts, based on the Digimon Adventure 02 anime. Gennai greets you on File Island and gives you a limited time, measured by an eclipse clock that starts at 478 minutes, to teach words to the partner Digimon. You talk to them, bring one to your room and teach it words, and battle with those words: in the Japanese game a battle follows the rules of shiritori (each word starts with the last kana of the previous one). When the clock reaches zero, one of the partners sees you off, and the game has 34 different endings.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **The story:** all 4,820 story strings: Gennai's introduction, the File Island tour, the partners' and visitors' talk, the word-teaching conversations, the farewells and the endings. Digimon, places and attacks use the names of the English dub.\n* **Menus and screens:** the room and field menus, status screen, …"
+    }
+   ]
+  },
+  "892B0306": {
+   "crc32": "892B0306",
+   "size": 2097152,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "42261ed9cb51da6e",
+     "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
+     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.2.ALL.CAPS",
+     "version": "0.1.2",
+     "language": "pt",
+     "platform": "wonderswan_color",
+     "latest": false,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "6E8A792D",
+     "target_crc32": "892B0306",
+     "target_size": 2097152,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_PT-BR_0.1/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.2.ALL.CAPS.bps",
+     "sha256": "42261ed9cb51da6ebf2ccc87ab36954f80e1d3fb8ee1a14137bcdbaa97afd339",
+     "size": 85035,
+     "source": "mariovirgili/WonderSwanColor-AI_Translation",
+     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_PT-BR_0.1",
+     "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai, a remake of the 1987 Famicom game, released only in Japan. This is a **Brazilian Portuguese** version of the English translation v0.9.6, made at the request of a Brazilian player. It uses the names of the Brazilian dub, *Os Cavaleiros do Zodíaco*: Cavaleiros, Armaduras, Atena, Grande Mestre, Mestre Ancião, Máscara da Morte, Aioria, Miro, Afrodite, Meteoro de Pégaso, Cólera do Dragão, Pó de Diamante...\n\n**v0.1.2 is a test version for review:** it has not been checked by a native speaker yet.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply one of the .bps patches to *Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan).wsc* (2 MB, CRC32 6E8A792D) with Floating IPS, beat or ROM Patcher JS. Keep the .wsc extension.\n\n* Normal: `Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.2).bps`, result CRC32 6BD12B48.\n* ALL CAPS: `Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.2, ALL CAPS).bps`, result CRC32 892B0306.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.2).bps\" \"Saint Seiya - Ougon Densetsu Hen - …"
     }
    ]
   },
@@ -9486,6 +9811,34 @@
    ],
    "produced_by": []
   },
+  "97EBB09F": {
+   "crc32": "97EBB09F",
+   "size": 524288,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "bc0a510ec023fc3e",
+     "game": "Umizuri ni Ikou!",
+     "variant": "umizuri-ni-ikou-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "86B56511",
+     "target_crc32": "97EBB09F",
+     "target_size": 524288,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/umizuri-ni-ikou-v1.0/umizuri-ni-ikou-en-1.0.bps",
+     "sha256": "bc0a510ec023fc3ee07a1c3e96391508643b96dbe2935c598c1b5eb05afc2bbd",
+     "size": 42784,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/umizuri-ni-ikou-v1.0",
+     "notes": "**Umizuri ni Ikou!** (海釣りに行こう!, \"Let's Go Sea Fishing!\") is a fishing game for the monochrome WonderSwan, made by Coconuts Japan Entertainment and licensed by Bandai (1999). A boy goes fishing for a day at four spots (a breakwater, a sandy beach, a rocky shore and the open sea) and has to catch a set number of kinds of fish at each one, choosing bait and tackle and reading the hints he gets. After the four stages a special stage on a boat has eight cartoon \"monster fish\". There is no save RAM: progress is a password, and fish and items can be given or swapped with another WonderSwan over the link cable. It was released only in Japan. The English version is a patch with two editions: the standard one, and a Debug edition that opens the developers' hidden scene selector and sound test.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **All the text the game draws:** 111 strings: the dialogue (stage intros by weather, catch and miss comments, goal counts), the fishing tips and hints, the item descriptions, the menus and the data-exchange (link) messages. The game's own font has capitals …"
+    }
+   ]
+  },
   "99027238": {
    "crc32": "99027238",
    "size": 2097152,
@@ -9784,6 +10137,34 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-v1.1",
      "notes": "**SD Gundam G Generation: Gather Beat** (SDガンダム Gジェネレーション ギャザービート) is Bandai's 2000 G Generation strategy game for the WonderSwan, released only in Japan. You command a mixed force of mobile suits and ships from across the Gundam series on grid maps, replaying battles from Mobile Suit Gundam, The 08th MS Team, 0083, Zeta, ZZ, Char's Counterattack, G Gundam, Gundam Wing, Gundam X, Turn A and more. Pilots fire ID commands (special abilities with their own speech), and between stages you manage the Backstage: buying units, developing and modifying machines, assigning pilots. Two players can fight each other over the link cable. This patch translates it into English. (Gather Beat 2 has its own patch and release.)\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* All stage and battle dialogue, ID commands and their speech, menus, unit, pilot and weapon names, the Backstage menus, the stage objectives, the prologue and the ending narration.\n* Link-cable battles: map select, turn and battle menus, the defender's Fight / Evade / Guard choice and the result messages.\n* WonderGate: the shop …"
+    }
+   ]
+  },
+  "9DA0EC2E": {
+   "crc32": "9DA0EC2E",
+   "size": 524288,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "054a6c28c394e830",
+     "game": "Umizuri ni Ikou!",
+     "variant": "umizuri-ni-ikou-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "86B56511",
+     "target_crc32": "9DA0EC2E",
+     "target_size": 524288,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/umizuri-ni-ikou-v1.0/umizuri-ni-ikou-en-debug-1.0.bps",
+     "sha256": "054a6c28c394e83050eb0059a65e6643a810e8c3762443e68d4535ea1a45bc10",
+     "size": 42896,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/umizuri-ni-ikou-v1.0",
+     "notes": "**Umizuri ni Ikou!** (海釣りに行こう!, \"Let's Go Sea Fishing!\") is a fishing game for the monochrome WonderSwan, made by Coconuts Japan Entertainment and licensed by Bandai (1999). A boy goes fishing for a day at four spots (a breakwater, a sandy beach, a rocky shore and the open sea) and has to catch a set number of kinds of fish at each one, choosing bait and tackle and reading the hints he gets. After the four stages a special stage on a boat has eight cartoon \"monster fish\". There is no save RAM: progress is a password, and fish and items can be given or swapped with another WonderSwan over the link cable. It was released only in Japan. The English version is a patch with two editions: the standard one, and a Debug edition that opens the developers' hidden scene selector and sound test.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **All the text the game draws:** 111 strings: the dialogue (stage intros by weather, catch and miss comments, goal counts), the fishing tips and hints, the item descriptions, the menus and the data-exchange (link) messages. The game's own font has capitals …"
     }
    ]
   },
@@ -12234,6 +12615,34 @@
     }
    ]
   },
+  "C8CBEAA5": {
+   "crc32": "C8CBEAA5",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "874aad6f2d880e07",
+     "game": "Super Robot Taisen Compact 2 Part 2: Space Quake",
+     "variant": "srw-compact-2-part2-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "ECBB46DE",
+     "target_crc32": "C8CBEAA5",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-2-part2-v1.0/srw-compact-2-part2-en-debug-1.0.bps",
+     "sha256": "874aad6f2d880e0735543cf953df5ea29c66dee9901dff85a07148d9c24fc221",
+     "size": 660240,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part2-v1.0",
+     "notes": "**Super Robot Taisen Compact 2 Part 2: Space Quake** (スーパーロボット大戦コンパクト2 第2部 宇宙激震篇) is the second of three cartridges that tell one story: Banpresto's tactical-RPG crossover of the Super Robot Wars series for the monochrome WonderSwan (2001-02). You move your robots on a map, fight with spirit commands and weapons, and read the story between stages. This cartridge's story is set in: Earth orbit, the Moon, the colonies and the approach of Dirad. It was released only in Japan. This patch translates all the text the game shows into English. The other two parts are separate patches.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story scenes, the battle quotes, every menu, list and status page, the name-entry screen, the staff roll and the epilogue (18,908 text units in all, 13,638 of them drawn and checked in their real boxes).\n* **Text drawn as pictures:** the episode cards, menu words, credit cards and the like were redrawn in English in the original's style.\n* **Title screen:** the original art is kept untouched; an English line \"PART 2: SPACE …"
+    }
+   ]
+  },
   "C8F5E947": {
    "crc32": "C8F5E947",
    "size": 524288,
@@ -12287,34 +12696,6 @@
      "source": "PokemonGoDB/wonderswan-english-patches",
      "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gather-beat-v1.0",
      "notes": "**SD Gundam G Generation: Gather Beat** (SDガンダム Gジェネレーション ギャザービート, WonderSwan, 2000) and **Gather Beat 2** (ギャザービート2, WonderSwan Color, 2001) are Bandai's handheld G Generation strategy games, released only in Japan. You command a mixed force of mobile suits and ships from across the Gundam series on grid maps, replaying battles from Mobile Suit Gundam, The 08th MS Team, 0083, Zeta, ZZ, Char's Counterattack, G Gundam, Gundam Wing, Gundam X, Turn A and more. Pilots fire ID commands (special abilities with their own speech), and between stages you manage the Backstage: buying units, developing and modifying machines, assigning pilots. Gather Beat 2 adds an encyclopedia of characters and mobile suits, adventure scenes and two endings. This patch translates both games into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Gather Beat:** all stage and battle dialogue, ID commands and their speech, menus, unit, pilot and weapon names, the Backstage menus, the stage objectives, the prologue and the ending narration. Pictures redrawn in English: the Backstage bars, the Pilot tab, the …"
-    }
-   ]
-  },
-  "CA33E48C": {
-   "crc32": "CA33E48C",
-   "size": 2097152,
-   "names": [],
-   "patches": [],
-   "produced_by": [
-    {
-     "id": "2cb949bb0ef5b5e4",
-     "game": "Saint Seiya - Ougon Densetsu Hen - Perfect Edition",
-     "variant": "Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.1.ALL.CAPS",
-     "version": "0.1.1",
-     "language": "pt",
-     "platform": "wonderswan_color",
-     "latest": false,
-     "superseded": false,
-     "format": "bps",
-     "source_crc32": "6E8A792D",
-     "target_crc32": "CA33E48C",
-     "target_size": 2097152,
-     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/mariovirgili/WonderSwanColor-AI_Translation/SaintSeiya_PT-BR_0.1/Saint.Seiya.-.Ougon.Densetsu.Hen.-.Perfect.Edition.PT-BR.v0.1.1.ALL.CAPS.bps",
-     "sha256": "2cb949bb0ef5b5e44eb1d2fd77ede44857837afa286379091cf49af0a8ae6481",
-     "size": 85181,
-     "source": "mariovirgili/WonderSwanColor-AI_Translation",
-     "page": "https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_PT-BR_0.1",
-     "notes": "**Saint Seiya: Ougon Densetsu Hen Perfect Edition** is a 2003 WonderSwan Color game by Bandai, a remake of the 1987 Famicom game, released only in Japan. This is a **Brazilian Portuguese** version of the English translation v0.9.6, made at the request of a Brazilian player. It uses the names of the Brazilian dub, *Os Cavaleiros do Zodíaco*: Cavaleiros, Armaduras, Atena, Grande Mestre, Mestre Ancião, Máscara da Morte, Aioria, Miro, Afrodite, Meteoro de Pégaso, Cólera do Dragão, Pó de Diamante...\n\n**v0.1.1 is a test version for review:** it has not been checked by a native speaker yet.\n\n> **Please read:** this translation was made **entirely with AI**, as a personal project. It is shared as it is for anyone who wants to play. It must **never be uploaded to romhacking sites** (romhacking.net and the like): it isn't up to the standard of a real fan translation and doesn't belong there.\n\n**How to patch**\n\nApply one of the .bps patches to *Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan).wsc* (2 MB, CRC32 6E8A792D) with Floating IPS, beat or ROM Patcher JS. Keep the .wsc extension.\n\n* Normal: `Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.1).bps`, result CRC32 28C9CCC2.\n* ALL CAPS: `Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.1, ALL CAPS).bps`, result CRC32 CA33E48C.\n\nWith Floating IPS on the command line:\n\n    flips --apply \"Saint Seiya - Ougon Densetsu Hen - Perfect Edition (PT-BR v0.1.1).bps\" \"Saint Seiya - Ougon Densetsu Hen - …"
     }
    ]
   },
@@ -14418,6 +14799,59 @@
     }
    ]
   },
+  "ECBB46DE": {
+   "crc32": "ECBB46DE",
+   "size": 4194304,
+   "md5": "bb1cf0d7237d7ae2c8aac562fc62906d",
+   "sha1": "6014ac0b8978e710f26c9cc41180cdf788584743",
+   "names": [
+    "Super Robot Taisen Compact 2 - Dai-2-bu - Uchuu Gekishin Hen (Japan) (Rev 4).ws",
+    "Super Robot Taisen Compact 2 - Dai-2-bu - Uchuu Gekishin Hen (Japan).ws"
+   ],
+   "patches": [
+    {
+     "id": "05e8feb651338c0e",
+     "game": "Super Robot Taisen Compact 2 Part 2: Space Quake",
+     "variant": "srw-compact-2-part2-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "ECBB46DE",
+     "target_crc32": "3BB0B9AF",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-2-part2-v1.0/srw-compact-2-part2-en-1.0.bps",
+     "sha256": "05e8feb651338c0ec75b7c19c3dc333fa3f18e39350b3e91717aba97d08b4491",
+     "size": 656265,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part2-v1.0",
+     "notes": "**Super Robot Taisen Compact 2 Part 2: Space Quake** (スーパーロボット大戦コンパクト2 第2部 宇宙激震篇) is the second of three cartridges that tell one story: Banpresto's tactical-RPG crossover of the Super Robot Wars series for the monochrome WonderSwan (2001-02). You move your robots on a map, fight with spirit commands and weapons, and read the story between stages. This cartridge's story is set in: Earth orbit, the Moon, the colonies and the approach of Dirad. It was released only in Japan. This patch translates all the text the game shows into English. The other two parts are separate patches.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story scenes, the battle quotes, every menu, list and status page, the name-entry screen, the staff roll and the epilogue (18,908 text units in all, 13,638 of them drawn and checked in their real boxes).\n* **Text drawn as pictures:** the episode cards, menu words, credit cards and the like were redrawn in English in the original's style.\n* **Title screen:** the original art is kept untouched; an English line \"PART 2: SPACE …"
+    },
+    {
+     "id": "874aad6f2d880e07",
+     "game": "Super Robot Taisen Compact 2 Part 2: Space Quake",
+     "variant": "srw-compact-2-part2-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "ECBB46DE",
+     "target_crc32": "C8CBEAA5",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-2-part2-v1.0/srw-compact-2-part2-en-debug-1.0.bps",
+     "sha256": "874aad6f2d880e0735543cf953df5ea29c66dee9901dff85a07148d9c24fc221",
+     "size": 660240,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part2-v1.0",
+     "notes": "**Super Robot Taisen Compact 2 Part 2: Space Quake** (スーパーロボット大戦コンパクト2 第2部 宇宙激震篇) is the second of three cartridges that tell one story: Banpresto's tactical-RPG crossover of the Super Robot Wars series for the monochrome WonderSwan (2001-02). You move your robots on a map, fight with spirit commands and weapons, and read the story between stages. This cartridge's story is set in: Earth orbit, the Moon, the colonies and the approach of Dirad. It was released only in Japan. This patch translates all the text the game shows into English. The other two parts are separate patches.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story scenes, the battle quotes, every menu, list and status page, the name-entry screen, the staff roll and the epilogue (18,908 text units in all, 13,638 of them drawn and checked in their real boxes).\n* **Text drawn as pictures:** the episode cards, menu words, credit cards and the like were redrawn in English in the original's style.\n* **Title screen:** the original art is kept untouched; an English line \"PART 2: SPACE …"
+    }
+   ],
+   "produced_by": []
+  },
   "ED5AEB47": {
    "crc32": "ED5AEB47",
    "size": 4194304,
@@ -15814,6 +16248,7 @@
   "3f81d86b97a81ed8fb2fd90a20b94c7a": "08C0247B",
   "4180034fe25dbc97ddd0d7e3adf83e3b": "8CE4652F",
   "41a4a0ab39c036fb4ad741f19027e443": "138D1018",
+  "44f63dcb11c916df900a128a6f2e3839": "0B0F8981",
   "47d83279cbdbd91c51cb7b0063d5d3e5": "F699D6D1",
   "496100bcd73fbfa39e473c6ddee190b2": "8655269E",
   "49a2932821583fa7d3ed07312b47ab32": "8FC9E145",
@@ -15856,13 +16291,16 @@
   "a466797b353d610f43a0f030cec721c1": "CE2F1A1D",
   "a4862ef07e13231ae429a98ef667a74a": "9C98D97D",
   "aa46ad69657bedf13ebd524959b23c86": "1A50FABF",
+  "af355adec937a9db1d447980bf85aa2e": "782877BC",
   "b017d367af1ba43171beba3e184d9ee9": "85C4C9A1",
   "b1832d4e48ba931adbfaf2ed35314fe0": "62CB398B",
   "b1b20bb24be3767ab5bfcfca54b51c54": "80DE367D",
   "b7f9c3d80b83178ba192297ea755d066": "0C9CB12C",
   "b814e71eb1d079466a9535566d605280": "324622C9",
   "b9020cfae65fe791bd52723cbff31707": "F75CE82C",
+  "bb1cf0d7237d7ae2c8aac562fc62906d": "ECBB46DE",
   "bb9f130931b2b7d1f646f44d1667ad63": "7F3A14C0",
+  "bce82b55b44a7d9b8eeb06cdcc884968": "86B56511",
   "be0f50bc4470711a31be0bd33c775ad2": "9750BC2A",
   "c17c4de6648c776b246ae83991ac3978": "1E760C41",
   "c1cb619ec3a596366a324da1f8957985": "A3ECC9AC",
@@ -15944,6 +16382,7 @@
   "4a756dab81e0101475dc2e5494270f3df7dac1e6": "8655269E",
   "4c3f092b095bdb0afdaf8d32d4c54b4d6c209c96": "B07E6A56",
   "4c8166e0632bdb8c098d586a7b1522ed7b63b5f7": "812020EF",
+  "4f739292d11a45490851eaf40c0a7081824ad75a": "86B56511",
   "509e5748e5efdfb56093c78ae886153dd1838215": "12FB8B28",
   "5384f9974c66e5e26129a4709976de0bb1ae1f17": "067238D1",
   "544e76133fa53fc0ae5e00e3465b9cf634f14fd0": "324622C9",
@@ -15953,6 +16392,7 @@
   "5e5db8b066e1b41c5c12a2d4ffa97b73ed6c3f03": "E4EB3AB1",
   "5eaeab859e5f647fac354dad285a311387ea126b": "00B31FBB",
   "5f3b81c2f7459b602fecb621d288cf4ddf5e640f": "19AC67B5",
+  "6014ac0b8978e710f26c9cc41180cdf788584743": "ECBB46DE",
   "65c4c6aaa36328bba5d56419af59af5d3420ed78": "6F304DCA",
   "68981c05d8118d4189100eed462ee6639328dc59": "E2317345",
   "6b3146e8c5b5ea51a7bed47d8afbc607d6f91051": "E245AF80",
@@ -16005,6 +16445,7 @@
   "cbf6455e89b20a000b6121e5c485be1a20d1f726": "A193458C",
   "cfb877f0988920c8fe4da5cdd7583197799df621": "8FC9E145",
   "cfcb14be6d2f1dbffdfcefb8c8d83b4f39bc102b": "CE2F1A1D",
+  "d24d8cea57c5c487e877eaa523eefb0dd184556d": "0B0F8981",
   "d3da0ae529c6f78162682141154a95879f288ca7": "B62E5DD0",
   "d524da01f2bfad92c2fa080950229955a3030ef2": "CCCAF8A1",
   "d71d51ef5815ca13c2821859141f62b542f4e6e9": "4F253095",
@@ -16019,6 +16460,7 @@
   "e26410d4eee4cc8cec5e2e369604aedf26d69d0c": "130AF567",
   "e31bfa54cbf539a9d28090b372d8e669a93c3e28": "1E760C41",
   "e5684789e81f9d739010db575022a12a448b5509": "E226863B",
+  "e6911e5bb0a742ba299e05b20ee81f2faa4854a5": "782877BC",
   "ea878a485a20abd5251065fd66e82d9d8b8a669d": "D9401F0A",
   "eb538b82c5516fae8ce38778e41fb118aa5c830f": "7FFF2520",
   "ebd4b37ade6df717f7b637747a4d3c45a6cca037": "C60E5162",

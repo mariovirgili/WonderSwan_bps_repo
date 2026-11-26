@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "697E2FD4"
+ },
+ "crc32": "697E2FD4",
+ "size": 4194304,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "239891863c018335",
+   "game": "Super Robot Taisen Compact 2 Part 3: Galactic Showdown",
+   "variant": "srw-compact-2-part3-en-debug-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "0B0F8981",
+   "target_crc32": "697E2FD4",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-2-part3-v1.0/srw-compact-2-part3-en-debug-1.0.bps",
+   "sha256": "239891863c018335da6866900502cc6d3fc0d47afaac92294b4960fc26a5c3df",
+   "size": 793601,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part3-v1.0",
+   "notes": "**Super Robot Taisen Compact 2 Part 3: Galactic Showdown** (スーパーロボット大戦コンパクト2 第3部 銀河決戦篇) is the third of three cartridges that tell one story: Banpresto's tactical-RPG crossover of the Super Robot Wars series for the monochrome WonderSwan (2001-02). You move your robots on a map, fight with spirit commands and weapons, and read the story between stages. This cartridge's story is set in: Dirad, Earth and space, the Dark Zone, Einst space and the epilogue at Axis. It was released only in Japan. This patch translates all the text the game shows into English. The other two parts are separate patches.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story scenes, the battle quotes, every menu, list and status page, the name-entry screen, the staff roll and the epilogue (21,588 text units in all, 17,021 of them drawn and checked in their real boxes).\n* **Text drawn as pictures:** the episode cards, menu words, credit cards and the like were redrawn in English in the original's style.\n* **Title screen:** the original art is kept untouched; an English line …"
+  }
+ ]
+}

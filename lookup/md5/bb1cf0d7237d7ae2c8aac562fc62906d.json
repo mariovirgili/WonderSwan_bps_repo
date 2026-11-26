@@ -1,0 +1,57 @@
+{
+ "schema": 1,
+ "query": {
+  "md5": "bb1cf0d7237d7ae2c8aac562fc62906d"
+ },
+ "crc32": "ECBB46DE",
+ "size": 4194304,
+ "md5": "bb1cf0d7237d7ae2c8aac562fc62906d",
+ "sha1": "6014ac0b8978e710f26c9cc41180cdf788584743",
+ "names": [
+  "Super Robot Taisen Compact 2 - Dai-2-bu - Uchuu Gekishin Hen (Japan) (Rev 4).ws",
+  "Super Robot Taisen Compact 2 - Dai-2-bu - Uchuu Gekishin Hen (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "05e8feb651338c0e",
+   "game": "Super Robot Taisen Compact 2 Part 2: Space Quake",
+   "variant": "srw-compact-2-part2-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "ECBB46DE",
+   "target_crc32": "3BB0B9AF",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-2-part2-v1.0/srw-compact-2-part2-en-1.0.bps",
+   "sha256": "05e8feb651338c0ec75b7c19c3dc333fa3f18e39350b3e91717aba97d08b4491",
+   "size": 656265,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part2-v1.0",
+   "notes": "**Super Robot Taisen Compact 2 Part 2: Space Quake** (スーパーロボット大戦コンパクト2 第2部 宇宙激震篇) is the second of three cartridges that tell one story: Banpresto's tactical-RPG crossover of the Super Robot Wars series for the monochrome WonderSwan (2001-02). You move your robots on a map, fight with spirit commands and weapons, and read the story between stages. This cartridge's story is set in: Earth orbit, the Moon, the colonies and the approach of Dirad. It was released only in Japan. This patch translates all the text the game shows into English. The other two parts are separate patches.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story scenes, the battle quotes, every menu, list and status page, the name-entry screen, the staff roll and the epilogue (18,908 text units in all, 13,638 of them drawn and checked in their real boxes).\n* **Text drawn as pictures:** the episode cards, menu words, credit cards and the like were redrawn in English in the original's style.\n* **Title screen:** the original art is kept untouched; an English line \"PART 2: SPACE …"
+  },
+  {
+   "id": "874aad6f2d880e07",
+   "game": "Super Robot Taisen Compact 2 Part 2: Space Quake",
+   "variant": "srw-compact-2-part2-en-debug-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "ECBB46DE",
+   "target_crc32": "C8CBEAA5",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-2-part2-v1.0/srw-compact-2-part2-en-debug-1.0.bps",
+   "sha256": "874aad6f2d880e0735543cf953df5ea29c66dee9901dff85a07148d9c24fc221",
+   "size": 660240,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part2-v1.0",
+   "notes": "**Super Robot Taisen Compact 2 Part 2: Space Quake** (スーパーロボット大戦コンパクト2 第2部 宇宙激震篇) is the second of three cartridges that tell one story: Banpresto's tactical-RPG crossover of the Super Robot Wars series for the monochrome WonderSwan (2001-02). You move your robots on a map, fight with spirit commands and weapons, and read the story between stages. This cartridge's story is set in: Earth orbit, the Moon, the colonies and the approach of Dirad. It was released only in Japan. This patch translates all the text the game shows into English. The other two parts are separate patches.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story scenes, the battle quotes, every menu, list and status page, the name-entry screen, the staff roll and the epilogue (18,908 text units in all, 13,638 of them drawn and checked in their real boxes).\n* **Text drawn as pictures:** the episode cards, menu words, credit cards and the like were redrawn in English in the original's style.\n* **Title screen:** the original art is kept untouched; an English line \"PART 2: SPACE …"
+  }
+ ],
+ "produced_by": []
+}

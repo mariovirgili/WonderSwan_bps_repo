@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "query": {
+  "sha1": "e6911e5bb0a742ba299e05b20ee81f2faa4854a5"
+ },
+ "crc32": "782877BC",
+ "size": 4194304,
+ "md5": "af355adec937a9db1d447980bf85aa2e",
+ "sha1": "e6911e5bb0a742ba299e05b20ee81f2faa4854a5",
+ "names": [
+  "Super Robot Taisen Compact 2 - Dai-1-bu - Chijou Gekidou Hen (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "50ced688528c588a",
+   "game": "Super Robot Taisen Compact 2 Part 1: Earth Upheaval",
+   "variant": "srw-compact-2-part1-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "782877BC",
+   "target_crc32": "09149343",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-2-part1-v1.0/srw-compact-2-part1-en-1.0.bps",
+   "sha256": "50ced688528c588ad542baa28d55dd5c059d14edb622b6c2ce2f4ff0eaae0b3b",
+   "size": 570826,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part1-v1.0",
+   "notes": "**Super Robot Taisen Compact 2 Part 1: Earth Upheaval** (スーパーロボット大戦コンパクト2 第1部 地上激動篇) is the first of three cartridges that tell one story: Banpresto's tactical-RPG crossover of the Super Robot Wars series for the monochrome WonderSwan (2001-02). You move your robots on a map, fight with spirit commands and weapons, and read the story between stages. This cartridge's story is set in: Earth: Japan, the world, Byston Well and Jaburo. It was released only in Japan. This patch translates all the text the game shows into English. The other two parts are separate patches.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story scenes, the battle quotes, every menu, list and status page, the name-entry screen, the staff roll and the epilogue (17,280 text units in all, 11,665 of them drawn and checked in their real boxes).\n* **Text drawn as pictures:** the episode cards, menu words, credit cards and the like were redrawn in English in the original's style.\n* **Title screen:** the original art is kept untouched; an English line \"PART 1: EARTH UPHEAVAL\" sits …"
+  },
+  {
+   "id": "3d9acdeefd27eede",
+   "game": "Super Robot Taisen Compact 2 Part 1: Earth Upheaval",
+   "variant": "srw-compact-2-part1-en-debug-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "782877BC",
+   "target_crc32": "73F556B0",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/srw-compact-2-part1-v1.0/srw-compact-2-part1-en-debug-1.0.bps",
+   "sha256": "3d9acdeefd27eede67e7186154f9ef0bdf72354473653100b3ccdf8677fb6d11",
+   "size": 574801,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part1-v1.0",
+   "notes": "**Super Robot Taisen Compact 2 Part 1: Earth Upheaval** (スーパーロボット大戦コンパクト2 第1部 地上激動篇) is the first of three cartridges that tell one story: Banpresto's tactical-RPG crossover of the Super Robot Wars series for the monochrome WonderSwan (2001-02). You move your robots on a map, fight with spirit commands and weapons, and read the story between stages. This cartridge's story is set in: Earth: Japan, the world, Byston Well and Jaburo. It was released only in Japan. This patch translates all the text the game shows into English. The other two parts are separate patches.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the story scenes, the battle quotes, every menu, list and status page, the name-entry screen, the staff roll and the epilogue (17,280 text units in all, 11,665 of them drawn and checked in their real boxes).\n* **Text drawn as pictures:** the episode cards, menu words, credit cards and the like were redrawn in English in the original's style.\n* **Title screen:** the original art is kept untouched; an English line \"PART 1: EARTH UPHEAVAL\" sits …"
+  }
+ ],
+ "produced_by": []
+}

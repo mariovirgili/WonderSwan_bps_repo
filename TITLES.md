@@ -4,12 +4,12 @@ Every released WonderSwan and WonderSwan Color title, and the translation patche
 
 | System | Titles | With a translation patch |
 | --- | ---: | ---: |
-| WonderSwan | 219 | 53 (+5 ⚠️ another dump) |
+| WonderSwan | 219 | 57 (+5 ⚠️ another dump) |
 | WonderSwan Color | 229 | 60 (+1 ⚠️ another dump) |
 
 Last change to the patch catalog: 2026-11-26.
 
-## Titles with translation patches (119)
+## Titles with translation patches (123)
 
 | | Title | System | Patches (newest version of each author) |
 | :---: | --- | --- | --- |
@@ -108,7 +108,7 @@ Last change to the patch catalog: 2026-11-26.
 | ✅ | Rockman EXE - N1 Battle (Japan) (Rev 1) | WonderSwan Color | **English**: [Gand46](https://github.com/Gand46/Rockman-EXE-N1-Battle-ChipControl-Wonderswan-English-Translation-AI_GPT/blob/main/patches/qa09/Rockman_N1_English_QA09_MANT05.bps) |
 | ✅ | Romancing Sa-Ga (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Petit1_v0.9) |
 | ✅ | RUN=DIM - Return to Earth (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/run-dim-v1.0) |
-| ✅ | Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.8](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9)<br>**Portuguese**: [mariovirgili v0.1.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_PT-BR_0.1) |
+| ✅ | Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.8](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9)<br>**Portuguese**: [mariovirgili v0.1.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_PT-BR_0.1) |
 | ✅ | SD Gundam - Operation U.C. (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/v0.9.1) |
 | ✅ | SD Gundam Eiyuu Den - Kishi Densetsu (Japan) (WS Compatible) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/KishiDensetsu_0.9) |
 | ✅ | SD Gundam Eiyuu Den - Musha Densetsu (Japan) (WS Compatible) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MushaDensetsu_0.9) |
@@ -119,6 +119,9 @@ Last change to the patch catalog: 2026-11-26.
 | ✅ | Side Pocket for WonderSwan (Japan) | WonderSwan | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SidePocket_0.9.1) |
 | ✅ | Sorobang (Japan) (Rev 1) (WS Compatible) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/sorobang-v1.0) |
 | ✅ | Star Hearts - Hoshi to Daichi no Shisha (Japan) | WonderSwan Color | **English**: [Gand46](https://github.com/Gand46/StarHearts-Wonderswan-English-Translation-AI_GPT/blob/main/patches/F37/StarHearts_EN_phase13BG_F37_CUMULATIVE_FROM_JP.bps) · [PokemonGoDB v1.2](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/star-hearts-v1.2) |
+| ✅ | Super Robot Taisen Compact 2 - Dai-1-bu - Chijou Gekidou Hen (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part1-v1.0) |
+| ✅ | Super Robot Taisen Compact 2 - Dai-2-bu - Uchuu Gekishin Hen (Japan) (Rev 4) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part2-v1.0) |
+| ✅ | Super Robot Taisen Compact 2 - Dai-3-bu - Ginga Kessen Hen (Japan) (Rev 2) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part3-v1.0) |
 | ✅ | Super Robot Taisen Compact 3 (Japan) (Rev 6) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-3-v1.0) |
 | ✅ | Super Robot Taisen Compact for WonderSwan Color (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-wsc-v1.0) |
 | ✅ | Tanjou Debut for WonderSwan (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tanjou-debut-v1.0) |
@@ -128,6 +131,7 @@ Last change to the patch catalog: 2026-11-26.
 | ✅ | Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan) | WonderSwan | **English**: [mariovirgili v0.9.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BokanDensetsu_0.9) |
 | ✅ | Tokyo Majin Gakuen - Fuju Houroku (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/tokyo-majin-gakuen-v1.0) |
 | ✅ | Uchuu Senkan Yamato (Japan) (WS Compatible) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/UchuuSenkanYamato_0.9) |
+| ✅ | Umizuri ni Ikou! (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/umizuri-ni-ikou-v1.0) |
 | ✅ | Uzumaki - Denshi Kaiki Hen (Japan) (Rev 4) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/uzumaki-denshi-kaiki-hen-v1.0) |
 | ✅ | Vaitz Blade (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/vaitz-blade-v1.0) |
 | ✅ | Wild Card (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wild-card-v1.0) |
@@ -312,9 +316,9 @@ Last change to the patch catalog: 2026-11-26.
 |  | Super Robot Taisen Compact (Japan) | `8A8C5AA8` | — |
 |  | Super Robot Taisen Compact (Japan) (Rev 1) | `7572E478` | — |
 |  | Super Robot Taisen Compact (Japan) (Rev 2) | `7021D54F` | — |
-|  | Super Robot Taisen Compact 2 - Dai-1-bu - Chijou Gekidou Hen (Japan) | `782877BC` | — |
-|  | Super Robot Taisen Compact 2 - Dai-2-bu - Uchuu Gekishin Hen (Japan) (Rev 4) | `ECBB46DE` | — |
-|  | Super Robot Taisen Compact 2 - Dai-3-bu - Ginga Kessen Hen (Japan) (Rev 2) | `0B0F8981` | — |
+| ✅ | **Super Robot Taisen Compact 2 - Dai-1-bu - Chijou Gekidou Hen (Japan)** | `782877BC` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part1-v1.0) |
+| ✅ | **Super Robot Taisen Compact 2 - Dai-2-bu - Uchuu Gekishin Hen (Japan) (Rev 4)** | `ECBB46DE` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part2-v1.0) |
+| ✅ | **Super Robot Taisen Compact 2 - Dai-3-bu - Ginga Kessen Hen (Japan) (Rev 2)** | `0B0F8981` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/srw-compact-2-part3-v1.0) |
 |  | Taikyoku Igo - Heisei Kiin (Japan) | `5023DB90` | — |
 |  | Taisen Othello Game (World) (Ja) (WonderWitch) | `18597D3C` | — |
 |  | Taitoru Moji Koudo-hyo (World) (Ja) (WonderWitch) | `D497C07D` | — |
@@ -336,7 +340,7 @@ Last change to the patch catalog: 2026-11-26.
 |  | Tumble (World) (WonderWitch) | `04DDF1C0` | — |
 |  | Turntablist - DJ Battle (Japan) | `0D5171F0` | — |
 |  | Umetatte (World) (WonderWitch) | `10818787` | — |
-|  | Umizuri ni Ikou! (Japan) | `86B56511` | — |
+| ✅ | **Umizuri ni Ikou! (Japan)** | `86B56511` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/umizuri-ni-ikou-v1.0) |
 | ✅ | **Uzumaki - Denshi Kaiki Hen (Japan) (Rev 4)** | `812020EF` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/uzumaki-denshi-kaiki-hen-v1.0) |
 |  | Uzumaki - Noroi Simulation (Japan) | `CA3F0B00` | — |
 |  | V-Attacker (World) (WonderWitch) | `9A521DD8` | — |
@@ -536,7 +540,7 @@ Last change to the patch catalog: 2026-11-26.
 |  | Rockman EXE WS (Japan) | `658C4B98` | — |
 | ✅ | **Romancing Sa-Ga (Japan)** | `9C98D97D` | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Petit1_v0.9) |
 | ✅ | **RUN=DIM - Return to Earth (Japan)** | `15C4552E` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/run-dim-v1.0) |
-| ✅ | **Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan)** | `6E8A792D` | **English**: [mariovirgili v0.9.8](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9)<br>**Portuguese**: [mariovirgili v0.1.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_PT-BR_0.1) |
+| ✅ | **Saint Seiya - Ougon Densetsu Hen - Perfect Edition (Japan)** | `6E8A792D` | **English**: [mariovirgili v0.9.8](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_0.9)<br>**Portuguese**: [mariovirgili v0.1.2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/SaintSeiya_PT-BR_0.1) |
 |  | Samegame for WSC (World) (WonderWitch) | `50DB2635` | — |
 |  | Samoner (World) (Ja) (WonderWitch) | `C59BF216` | — |
 |  | Satori - WonderSwan Remix (World) (WonderWitch) | `4C85FCAA` | — |

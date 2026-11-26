@@ -1,0 +1,56 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "86B56511"
+ },
+ "crc32": "86B56511",
+ "size": 524288,
+ "md5": "bce82b55b44a7d9b8eeb06cdcc884968",
+ "sha1": "4f739292d11a45490851eaf40c0a7081824ad75a",
+ "names": [
+  "Umizuri ni Ikou! (Japan).ws"
+ ],
+ "patches": [
+  {
+   "id": "bc0a510ec023fc3e",
+   "game": "Umizuri ni Ikou!",
+   "variant": "umizuri-ni-ikou-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "86B56511",
+   "target_crc32": "97EBB09F",
+   "target_size": 524288,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/umizuri-ni-ikou-v1.0/umizuri-ni-ikou-en-1.0.bps",
+   "sha256": "bc0a510ec023fc3ee07a1c3e96391508643b96dbe2935c598c1b5eb05afc2bbd",
+   "size": 42784,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/umizuri-ni-ikou-v1.0",
+   "notes": "**Umizuri ni Ikou!** (海釣りに行こう!, \"Let's Go Sea Fishing!\") is a fishing game for the monochrome WonderSwan, made by Coconuts Japan Entertainment and licensed by Bandai (1999). A boy goes fishing for a day at four spots (a breakwater, a sandy beach, a rocky shore and the open sea) and has to catch a set number of kinds of fish at each one, choosing bait and tackle and reading the hints he gets. After the four stages a special stage on a boat has eight cartoon \"monster fish\". There is no save RAM: progress is a password, and fish and items can be given or swapped with another WonderSwan over the link cable. It was released only in Japan. The English version is a patch with two editions: the standard one, and a Debug edition that opens the developers' hidden scene selector and sound test.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **All the text the game draws:** 111 strings: the dialogue (stage intros by weather, catch and miss comments, goal counts), the fishing tips and hints, the item descriptions, the menus and the data-exchange (link) messages. The game's own font has capitals …"
+  },
+  {
+   "id": "054a6c28c394e830",
+   "game": "Umizuri ni Ikou!",
+   "variant": "umizuri-ni-ikou-en-debug-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "86B56511",
+   "target_crc32": "9DA0EC2E",
+   "target_size": 524288,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/umizuri-ni-ikou-v1.0/umizuri-ni-ikou-en-debug-1.0.bps",
+   "sha256": "054a6c28c394e83050eb0059a65e6643a810e8c3762443e68d4535ea1a45bc10",
+   "size": 42896,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/umizuri-ni-ikou-v1.0",
+   "notes": "**Umizuri ni Ikou!** (海釣りに行こう!, \"Let's Go Sea Fishing!\") is a fishing game for the monochrome WonderSwan, made by Coconuts Japan Entertainment and licensed by Bandai (1999). A boy goes fishing for a day at four spots (a breakwater, a sandy beach, a rocky shore and the open sea) and has to catch a set number of kinds of fish at each one, choosing bait and tackle and reading the hints he gets. After the four stages a special stage on a boat has eight cartoon \"monster fish\". There is no save RAM: progress is a password, and fish and items can be given or swapped with another WonderSwan over the link cable. It was released only in Japan. The English version is a patch with two editions: the standard one, and a Debug edition that opens the developers' hidden scene selector and sound test.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **All the text the game draws:** 111 strings: the dialogue (stage intros by weather, catch and miss comments, goal counts), the fishing tips and hints, the item descriptions, the menus and the data-exchange (link) messages. The game's own font has capitals …"
+  }
+ ],
+ "produced_by": []
+}
