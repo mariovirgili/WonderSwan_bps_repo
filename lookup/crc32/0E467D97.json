@@ -1,0 +1,37 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "0E467D97"
+ },
+ "crc32": "0E467D97",
+ "size": 1048576,
+ "md5": "8756f7653d5d7dd201c1048078ff1cd0",
+ "sha1": "983582fe8d18839df30b6d29fb75780a9e32f4ec",
+ "names": [
+  "Sorobang (Japan) (Rev 1) (WS Compatible).wsc",
+  "Sorobang (Japan).wsc"
+ ],
+ "patches": [
+  {
+   "id": "6826140b001273bc",
+   "game": "Sorobang",
+   "variant": "sorobang-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "0E467D97",
+   "target_crc32": "EB02A5E8",
+   "target_size": 1048576,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/sorobang-v1.0/sorobang-en-1.0.bps",
+   "sha256": "6826140b001273bc59e7a27ddb0910ae3f0b8b1dd53fe8996fc9c022941946b8",
+   "size": 30802,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/sorobang-v1.0",
+   "notes": "**Sorobang** (そろばんぐ) is an action puzzle game for the WonderSwan Color, made by Mechanic Arms and licensed by Bandai (2000). You play on a grid of coloured round pieces and bars, against a BLOCK count, a MISS gauge and a clock, in Time Attack and Endless modes, with a ranking table, a settings page and a link-cable versus mode. The console is held upright (portrait). It was released only in Japan. The game has no text engine: every word it shows is a picture in the cartridge, so this patch redraws those pictures as English lettering.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Every word the game shows**, redrawn as English pixel lettering in the style, size and colours of the original: the mode-select buttons, the settings page (headings, labels and values), RETRY? and GAME OVER, the ranking page and name entry, the level-up and TIME UP banners, the versus lobby and its link messages, and the staff roll. 42 blocks of Japanese lettering plus the lettering that is drawn as sprites were found and replaced.\n* **Both graphics sets.** The game carries a colour set and a separate …"
+  }
+ ],
+ "produced_by": []
+}
