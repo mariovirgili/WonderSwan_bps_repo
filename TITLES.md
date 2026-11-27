@@ -7,7 +7,7 @@ Every released WonderSwan and WonderSwan Color title, and the translation patche
 | WonderSwan | 219 | 57 (+5 ⚠️ another dump) |
 | WonderSwan Color | 229 | 60 (+1 ⚠️ another dump) |
 
-Last change to the patch catalog: 2026-11-26.
+Last change to the patch catalog: 2026-11-27.
 
 ## Titles with translation patches (123)
 
@@ -74,7 +74,7 @@ Last change to the patch catalog: 2026-11-26.
 | ✅ | Inuyasha - Kagome no Sengoku Nikki (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-kagome-no-sengoku-nikki-v1.0) |
 | ✅ | Inuyasha - Kagome no Yume Nikki (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/inuyasha-kagome-no-yume-nikki-v1.0) |
 | ✅ | Judgement Silversword - Rebirth Edition (Japan) (Rev 5C21) | WonderSwan Color | **English**: [mariovirgili v2](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/JSS_Arrange_2.7) |
-| ✅ | Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan) | WonderSwan | **English**: [mariovirgili v0.9.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9) |
+| ✅ | Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan) | WonderSwan | **English**: [mariovirgili v1.0](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9) |
 | ✅ | Kaze no Klonoa - Moonlight Museum (Japan) | WonderSwan | **English**: [mariovirgili v39.4M](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Klonoa_MM_0.9) |
 | ✅ | Kidou Senshi Gundam - Giren no Yabou - Tokubetsu Hen - Aoki Hoshi no Hasha (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Giren_0.9) |
 | ✅ | Kidou Senshi Gundam Vol. 1 - Side 7 (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.1](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/gundam-vol1-side7-v1.1) |
@@ -224,7 +224,7 @@ Last change to the patch catalog: 2026-11-26.
 |  | Ishikari (World) (Ja) (WonderWitch) | `8240AD86` | — |
 |  | Jiban Ryuoki - WonderSwan Edition (World) (WonderWitch) | `E0316605` | — |
 |  | Jump on Step (World) (WonderWitch) | `54705B16` | — |
-| ✅ | **Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan)** | `4D103236` | **English**: [mariovirgili v0.9.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9) |
+| ✅ | **Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan)** | `4D103236` | **English**: [mariovirgili v1.0](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BistroRecipe_0.9) |
 |  | Kana (World) (Ja) (WonderWitch) | `B048E00B` | — |
 | ✅ | **Kaze no Klonoa - Moonlight Museum (Japan)** | `80C6EF12` | **English**: [mariovirgili v39.4M](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Klonoa_MM_0.9) |
 |  | Keiba Yosou Shien Soft - Yosou Shinkaron (Japan) | `517F962E` | — |
