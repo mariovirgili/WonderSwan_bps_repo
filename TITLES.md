@@ -5,11 +5,11 @@ Every released WonderSwan and WonderSwan Color title, and the translation patche
 | System | Titles | With a translation patch |
 | --- | ---: | ---: |
 | WonderSwan | 219 | 57 (+5 ⚠️ another dump) |
-| WonderSwan Color | 229 | 60 (+1 ⚠️ another dump) |
+| WonderSwan Color | 229 | 62 (+1 ⚠️ another dump) |
 
-Last change to the patch catalog: 2026-11-27.
+Last change to the patch catalog: 2026-11-28.
 
-## Titles with translation patches (123)
+## Titles with translation patches (125)
 
 | | Title | System | Patches (newest version of each author) |
 | :---: | --- | --- | --- |
@@ -83,6 +83,7 @@ Last change to the patch catalog: 2026-11-27.
 | ✅ | Kiss Yori... - Seaside Serenade (Japan) (Rev 2) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/kiss-yori-seaside-serenade-v1.0) |
 | ✅ | Kurupara! (Japan) (Rev 1) | WonderSwan Color | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Kurupara_0.9) |
 | ✅ | Langrisser Millennium WS - The Last Century (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/langrisser-millennium-v1.0) |
+| ✅ | Last Alive (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/last-alive-v1.0) |
 | ✅ | Last Stand (Japan) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/last-stand-v1.0) |
 | ⚠️ | Lode Runner for WonderSwan (Japan) | WonderSwan | ⚠️ for another dump of this title (ROM CRC32 `E407CABF`): **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0)<br>**Japanese**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/lode-runner-v1.0) |
 | ✅ | Macross - True Love Song (Japan) | WonderSwan | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/MacrossTLS_0.9) |
@@ -135,6 +136,7 @@ Last change to the patch catalog: 2026-11-27.
 | ✅ | Uzumaki - Denshi Kaiki Hen (Japan) (Rev 4) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/uzumaki-denshi-kaiki-hen-v1.0) |
 | ✅ | Vaitz Blade (Japan) (Rev 1) | WonderSwan | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/vaitz-blade-v1.0) |
 | ✅ | Wild Card (Japan) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wild-card-v1.0) |
+| ✅ | Wonder Classic (Japan) (WS Compatible) | WonderSwan Color | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wonder-classic-v1.0) |
 | ✅ | X - Card of Fate (Japan) | WonderSwan Color | **English**: [mariovirgili v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/X-Card_0.9) |
 
 ## WonderSwan (219 titles)
@@ -484,7 +486,7 @@ Last change to the patch catalog: 2026-11-27.
 |  | Kinnikuman II-Sei - Dream Tag Match (Japan) | `462F9275` | — |
 | ✅ | **Kurupara! (Japan) (Rev 1)** | `274719F5` | **English**: [mariovirgili v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/Kurupara_0.9) |
 |  | Kuttsuke Su (World) (Ja) (WonderWitch) | `09A94F00` | — |
-|  | Last Alive (Japan) | `DA4479BF` | — |
+| ✅ | **Last Alive (Japan)** | `DA4479BF` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/last-alive-v1.0) |
 |  | Lolita Queen (World) (WonderWitch) | `A1818B41` | — |
 |  | Magical Harvest (World) (v0.99) (WonderWitch) | `6E1513B4` | — |
 |  | Magical Harvest (World) (v1.00) (WonderWitch) (WWGP2001) | `647F7637` | — |
@@ -584,7 +586,7 @@ Last change to the patch catalog: 2026-11-27.
 |  | Witches! (World) (WonderWitch) | `8B743ABD` | — |
 |  | With You - Mitsumete Itai (Japan) | `E14E9D36` | — |
 |  | Wizardry Scenario 1 - Proving Grounds of the Mad Overlord (Japan) (WS Compatible) | `15E55706` | — |
-|  | Wonder Classic (Japan) (WS Compatible) | `12F10B27` | — |
+| ✅ | **Wonder Classic (Japan) (WS Compatible)** | `12F10B27` | **English**: [PokemonGoDB v1.0](https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wonder-classic-v1.0) |
 |  | Wonder Racer (World) (WonderWitch) | `D993F2D0` | — |
 |  | WonderCell (World) (v0.2) | `49B527E4` | — |
 |  | WonderCell (World) (v0.2) (WonderWitch) | `222710FF` | — |

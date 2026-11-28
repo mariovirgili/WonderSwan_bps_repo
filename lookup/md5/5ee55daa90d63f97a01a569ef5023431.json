@@ -1,0 +1,36 @@
+{
+ "schema": 1,
+ "query": {
+  "md5": "5ee55daa90d63f97a01a569ef5023431"
+ },
+ "crc32": "DA4479BF",
+ "size": 4194304,
+ "md5": "5ee55daa90d63f97a01a569ef5023431",
+ "sha1": "b019f41207e396d9fe3509dccdbe1cc6e7ac46bb",
+ "names": [
+  "Last Alive (Japan).wsc"
+ ],
+ "patches": [
+  {
+   "id": "ce6b0e6daa42ede8",
+   "game": "Last Alive",
+   "variant": "last-alive-en-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "DA4479BF",
+   "target_crc32": "B52EAA1A",
+   "target_size": 8388608,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/last-alive-v1.0/last-alive-en-1.0.bps",
+   "sha256": "ce6b0e6daa42ede857e24725f9139370ec9ed81b507d9fbd07e7ead6436a699c",
+   "size": 441953,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/last-alive-v1.0",
+   "notes": "**Last Alive** (ラスト アライブ) is a horror adventure in the form of a photo novel for the WonderSwan Color, published by Bandai on 26 July 2001 and played with the console held upright. Japanese tourists on the luxury liner Blue Silence are caught in a typhoon and a seajacking by island separatists. You read the story page by page, choose at the branch points and either survive or die. There are two scenarios, Yosuke's (a job-hunting graduate) and Hikaru's (a high-school girl on a school trip), and the story is told with photographs of the cast. It was released only in Japan. This patch translates the whole script and redraws the pictures that carry lettering.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**Content note:** the game has gunshot, strangling and drowning deaths, a character burning a terrorist, a leering character and a separatist grievance against a company. The English keeps all of it at the strength of the Japanese, neither softer nor harsher, including the innuendo.\n\n**What's translated**\n\n* **The whole script of both scenarios:** 6,624 text units (about 237,000 Japanese characters), the …"
+  }
+ ],
+ "produced_by": []
+}

@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "repository": "mariovirgili/WonderSwan_bps_repo",
-  "generated_at": "2026-11-27T12:34:19+00:00",
+  "generated_at": "2026-11-28T13:10:17+00:00",
   "sources": [
     "mariovirgili/WonderSwanColor-AI_Translation",
     "PokemonGoDB/wonderswan-english-patches",
@@ -32,7 +32,7 @@
     "wonderswan_color",
     null
   ],
-  "count": 322,
+  "count": 325,
   "entries": [
     {
       "id": "fb49f952cc562ee5",
@@ -9546,6 +9546,60 @@
       "first_seen": "2026-11-14"
     },
     {
+      "id": "ce6b0e6daa42ede8",
+      "game": "Last Alive",
+      "variant": "last-alive-en-1.0",
+      "version": "1.0",
+      "language": "en",
+      "platform": "wonderswan_color",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "DA4479BF",
+      "target_crc32": "B52EAA1A",
+      "source_rom": {
+        "crc32": "DA4479BF",
+        "size": 4194304,
+        "crc32_from": "bps",
+        "name": "Last Alive (Japan).wsc"
+      },
+      "target_rom": {
+        "crc32": "B52EAA1A",
+        "size": 8388608,
+        "crc32_from": "bps"
+      },
+      "file_name": "last-alive-en-1.0.bps",
+      "path": "patches/PokemonGoDB/wonderswan-english-patches/last-alive-v1.0/last-alive-en-1.0.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/last-alive-v1.0/last-alive-en-1.0.bps",
+      "size": 441953,
+      "sha256": "ce6b0e6daa42ede857e24725f9139370ec9ed81b507d9fbd07e7ead6436a699c",
+      "patch_crc32": "2144DF1C",
+      "source_size": 4194304,
+      "target_size": 8388608,
+      "patch_crc32_footer": "2ECFC9E5",
+      "patch_checksum_ok": true,
+      "bps_metadata": "Star Hearts: Hoshi to Daichi no Shisha - English translation",
+      "origin": {
+        "source": "PokemonGoDB/wonderswan-english-patches",
+        "source_url": "https://github.com/PokemonGoDB/wonderswan-english-patches",
+        "kind": "release_asset",
+        "release_tag": "last-alive-v1.0",
+        "release_name": "[Release] Last Alive (WonderSwan Color) - AI English translation patch v1.0",
+        "release_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/last-alive-v1.0",
+        "published_at": "2026-11-28T04:12:24Z",
+        "prerelease": false,
+        "asset_name": "last-alive-en-1.0.bps",
+        "download_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/download/last-alive-v1.0/last-alive-en-1.0.bps",
+        "archive_member": null,
+        "key": "asset:PokemonGoDB/wonderswan-english-patches:803175388:2026-11-28T04:12:23Z:441953",
+        "release_notes": "**Last Alive** (ラスト アライブ) is a horror adventure in the form of a photo novel for the WonderSwan Color, published by Bandai on 26 July 2001 and played with the console held upright. Japanese tourists on the luxury liner Blue Silence are caught in a typhoon and a seajacking by island separatists. You read the story page by page, choose at the branch points and either survive or die. There are two scenarios, Yosuke's (a job-hunting graduate) and Hikaru's (a high-school girl on a school trip), and the story is told with photographs of the cast. It was released only in Japan. This patch translates the whole script and redraws the pictures that carry lettering.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**Content note:** the game has gunshot, strangling and drowning deaths, a character burning a terrorist, a leering character and a separatist grievance against a company. The English keeps all of it at the strength of the Japanese, neither softer nor harsher, including the innuendo.\n\n**What's translated**\n\n* **The whole script of both scenarios:** 6,624 text units (about 237,000 Japanese characters), the …"
+      },
+      "first_seen": "2026-11-28"
+    },
+    {
       "id": "750b057f5ea509f5",
       "game": "Last Stand",
       "variant": "last-stand-en-1.0",
@@ -17298,6 +17352,114 @@
         "release_notes": "**Wild Card** (ワイルドカード) is a card-driven adventure game from Square, released in Japan on 29 March 2001 for the WonderSwan Color. Characters, scenarios, terrain, monsters, spells, items and events are all cards, and the field screen is also the battle screen. A comet appears over the Kingdom of Alan and everyone starts hunting the Star Fragments. An opening quiz picks one of nine heroes, and the game has seven stages made of short scenarios.\n\nThis patch translates it into English.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **Everything the player reads:** the opening quiz and each hero's opening, the title and file menus, name entry, the towns and taverns, all seven stages with their events, the card battles (menus, HUD, results, status messages), the shops, the Album, the link-cable card trade, both endings, the staff roll and the game-over screens. The game stores 4,820 text units and all of them are covered.\n* **Card names:** all 930 are translated. A name has to fit 16 letters in the game's own label, so 51 are shortened (for example \"Salamander Breath\" is shown as …"
       },
       "first_seen": "2026-11-13"
+    },
+    {
+      "id": "6a155c4270a6a8df",
+      "game": "Wonder Classic",
+      "variant": "wonder-classic-en-1.0",
+      "version": "1.0",
+      "language": "en",
+      "platform": "wonderswan_color",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "12F10B27",
+      "target_crc32": "F12666B9",
+      "source_rom": {
+        "crc32": "12F10B27",
+        "size": 4194304,
+        "crc32_from": "bps",
+        "name": "Wonder Classic (Japan).wsc"
+      },
+      "target_rom": {
+        "crc32": "F12666B9",
+        "size": 4194304,
+        "crc32_from": "bps"
+      },
+      "file_name": "wonder-classic-en-1.0.bps",
+      "path": "patches/PokemonGoDB/wonderswan-english-patches/wonder-classic-v1.0/wonder-classic-en-1.0.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/wonder-classic-v1.0/wonder-classic-en-1.0.bps",
+      "size": 144226,
+      "sha256": "6a155c4270a6a8df2897d54f131065593c47f4c26212c55e7ddef16c60a62009",
+      "patch_crc32": "2144DF1C",
+      "source_size": 4194304,
+      "target_size": 4194304,
+      "patch_crc32_footer": "DB0E0373",
+      "patch_checksum_ok": true,
+      "bps_metadata": "Star Hearts: Hoshi to Daichi no Shisha - English translation",
+      "origin": {
+        "source": "PokemonGoDB/wonderswan-english-patches",
+        "source_url": "https://github.com/PokemonGoDB/wonderswan-english-patches",
+        "kind": "release_asset",
+        "release_tag": "wonder-classic-v1.0",
+        "release_name": "[Release] Wonder Classic (WonderSwan Color) - AI English translation patch v1.0",
+        "release_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wonder-classic-v1.0",
+        "published_at": "2026-11-28T00:25:29Z",
+        "prerelease": false,
+        "asset_name": "wonder-classic-en-1.0.bps",
+        "download_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/download/wonder-classic-v1.0/wonder-classic-en-1.0.bps",
+        "archive_member": null,
+        "key": "asset:PokemonGoDB/wonderswan-english-patches:802581060:2026-11-28T00:25:28Z:144226",
+        "release_notes": "**Wonder Classic** (ナムコワンダークラシック, \"Namco Wonder Classic\") is a golf game for the WonderSwan Color, made by Namco and published by Bandai on 18 January 2001, played with the console held upright. It has no story. You pick one of 12 golfers and play training, stroke play, match play, mini battles, a mini course or a tour on the Wonder Golf Course, choosing club, ball, glove and shoes, reading the wind and lie and timing a three-stage swing meter. Opponents and caddies comment in short lines in boxes with a portrait, and many of the 124 rival golfers are Namco characters or in-jokes. The game also has Mobile WonderGate online screens (net tour, ranking, downloads), which no longer have a server. It was released only in Japan. The English version is a patch with two editions: the standard one, and a Debug Edition that opens the developers' hidden DEBUG_MENU.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **All the text the game draws:** 490 distinct strings: the menus, the Data and Link menus, the item and profile text, the caddie and rival lines, the scorecards and records, the in-hole …"
+      },
+      "first_seen": "2026-11-28"
+    },
+    {
+      "id": "e007545ffd5d4dde",
+      "game": "Wonder Classic",
+      "variant": "wonder-classic-en-debug-1.0",
+      "version": "1.0",
+      "language": "en",
+      "platform": "wonderswan_color",
+      "latest": true,
+      "superseded": false,
+      "duplicate_of": null,
+      "requires_patched_rom": false,
+      "requires_patch_ids": null,
+      "format": "bps",
+      "source_crc32": "12F10B27",
+      "target_crc32": "B45C8939",
+      "source_rom": {
+        "crc32": "12F10B27",
+        "size": 4194304,
+        "crc32_from": "bps",
+        "name": "Wonder Classic (Japan).wsc"
+      },
+      "target_rom": {
+        "crc32": "B45C8939",
+        "size": 4194304,
+        "crc32_from": "bps"
+      },
+      "file_name": "wonder-classic-en-debug-1.0.bps",
+      "path": "patches/PokemonGoDB/wonderswan-english-patches/wonder-classic-v1.0/wonder-classic-en-debug-1.0.bps",
+      "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/wonder-classic-v1.0/wonder-classic-en-debug-1.0.bps",
+      "size": 144230,
+      "sha256": "e007545ffd5d4dde90d70e2972eb56e819fd67c85823ac9fd9466f340e0d3240",
+      "patch_crc32": "2144DF1C",
+      "source_size": 4194304,
+      "target_size": 4194304,
+      "patch_crc32_footer": "6E3FB6ED",
+      "patch_checksum_ok": true,
+      "bps_metadata": "Star Hearts: Hoshi to Daichi no Shisha - English translation",
+      "origin": {
+        "source": "PokemonGoDB/wonderswan-english-patches",
+        "source_url": "https://github.com/PokemonGoDB/wonderswan-english-patches",
+        "kind": "release_asset",
+        "release_tag": "wonder-classic-v1.0",
+        "release_name": "[Release] Wonder Classic (WonderSwan Color) - AI English translation patch v1.0",
+        "release_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wonder-classic-v1.0",
+        "published_at": "2026-11-28T00:25:29Z",
+        "prerelease": false,
+        "asset_name": "wonder-classic-en-debug-1.0.bps",
+        "download_url": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/download/wonder-classic-v1.0/wonder-classic-en-debug-1.0.bps",
+        "archive_member": null,
+        "key": "asset:PokemonGoDB/wonderswan-english-patches:802581058:2026-11-28T00:25:28Z:144230",
+        "release_notes": "**Wonder Classic** (ナムコワンダークラシック, \"Namco Wonder Classic\") is a golf game for the WonderSwan Color, made by Namco and published by Bandai on 18 January 2001, played with the console held upright. It has no story. You pick one of 12 golfers and play training, stroke play, match play, mini battles, a mini course or a tour on the Wonder Golf Course, choosing club, ball, glove and shoes, reading the wind and lie and timing a three-stage swing meter. Opponents and caddies comment in short lines in boxes with a portrait, and many of the 124 rival golfers are Namco characters or in-jokes. The game also has Mobile WonderGate online screens (net tour, ranking, downloads), which no longer have a server. It was released only in Japan. The English version is a patch with two editions: the standard one, and a Debug Edition that opens the developers' hidden DEBUG_MENU.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **All the text the game draws:** 490 distinct strings: the menus, the Data and Link menus, the item and profile text, the caddie and rival lines, the scorecards and records, the in-hole …"
+      },
+      "first_seen": "2026-11-28"
     },
     {
       "id": "afcffb3577de2c80",

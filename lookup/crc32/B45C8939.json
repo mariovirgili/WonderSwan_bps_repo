@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "query": {
+  "crc32": "B45C8939"
+ },
+ "crc32": "B45C8939",
+ "size": 4194304,
+ "names": [],
+ "patches": [],
+ "produced_by": [
+  {
+   "id": "e007545ffd5d4dde",
+   "game": "Wonder Classic",
+   "variant": "wonder-classic-en-debug-1.0",
+   "version": "1.0",
+   "language": "en",
+   "platform": "wonderswan_color",
+   "latest": true,
+   "superseded": false,
+   "format": "bps",
+   "source_crc32": "12F10B27",
+   "target_crc32": "B45C8939",
+   "target_size": 4194304,
+   "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/wonder-classic-v1.0/wonder-classic-en-debug-1.0.bps",
+   "sha256": "e007545ffd5d4dde90d70e2972eb56e819fd67c85823ac9fd9466f340e0d3240",
+   "size": 144230,
+   "source": "PokemonGoDB/wonderswan-english-patches",
+   "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wonder-classic-v1.0",
+   "notes": "**Wonder Classic** (ナムコワンダークラシック, \"Namco Wonder Classic\") is a golf game for the WonderSwan Color, made by Namco and published by Bandai on 18 January 2001, played with the console held upright. It has no story. You pick one of 12 golfers and play training, stroke play, match play, mini battles, a mini course or a tour on the Wonder Golf Course, choosing club, ball, glove and shoes, reading the wind and lie and timing a three-stage swing meter. Opponents and caddies comment in short lines in boxes with a portrait, and many of the 124 rival golfers are Namco characters or in-jokes. The game also has Mobile WonderGate online screens (net tour, ranking, downloads), which no longer have a server. It was released only in Japan. The English version is a patch with two editions: the standard one, and a Debug Edition that opens the developers' hidden DEBUG_MENU.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **All the text the game draws:** 490 distinct strings: the menus, the Data and Link menus, the item and profile text, the caddie and rival lines, the scorecards and records, the in-hole …"
+  }
+ ]
+}

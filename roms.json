@@ -954,6 +954,59 @@
    ],
    "produced_by": []
   },
+  "12F10B27": {
+   "crc32": "12F10B27",
+   "size": 4194304,
+   "md5": "50a6fd0e2a65487b5ea2672d2b93a862",
+   "sha1": "55b54944efd6e277fa7140925ed2457a8cfb40b8",
+   "names": [
+    "Wonder Classic (Japan) (WS Compatible).wsc",
+    "Wonder Classic (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "6a155c4270a6a8df",
+     "game": "Wonder Classic",
+     "variant": "wonder-classic-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "12F10B27",
+     "target_crc32": "F12666B9",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/wonder-classic-v1.0/wonder-classic-en-1.0.bps",
+     "sha256": "6a155c4270a6a8df2897d54f131065593c47f4c26212c55e7ddef16c60a62009",
+     "size": 144226,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wonder-classic-v1.0",
+     "notes": "**Wonder Classic** (ナムコワンダークラシック, \"Namco Wonder Classic\") is a golf game for the WonderSwan Color, made by Namco and published by Bandai on 18 January 2001, played with the console held upright. It has no story. You pick one of 12 golfers and play training, stroke play, match play, mini battles, a mini course or a tour on the Wonder Golf Course, choosing club, ball, glove and shoes, reading the wind and lie and timing a three-stage swing meter. Opponents and caddies comment in short lines in boxes with a portrait, and many of the 124 rival golfers are Namco characters or in-jokes. The game also has Mobile WonderGate online screens (net tour, ranking, downloads), which no longer have a server. It was released only in Japan. The English version is a patch with two editions: the standard one, and a Debug Edition that opens the developers' hidden DEBUG_MENU.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **All the text the game draws:** 490 distinct strings: the menus, the Data and Link menus, the item and profile text, the caddie and rival lines, the scorecards and records, the in-hole …"
+    },
+    {
+     "id": "e007545ffd5d4dde",
+     "game": "Wonder Classic",
+     "variant": "wonder-classic-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "12F10B27",
+     "target_crc32": "B45C8939",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/wonder-classic-v1.0/wonder-classic-en-debug-1.0.bps",
+     "sha256": "e007545ffd5d4dde90d70e2972eb56e819fd67c85823ac9fd9466f340e0d3240",
+     "size": 144230,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wonder-classic-v1.0",
+     "notes": "**Wonder Classic** (ナムコワンダークラシック, \"Namco Wonder Classic\") is a golf game for the WonderSwan Color, made by Namco and published by Bandai on 18 January 2001, played with the console held upright. It has no story. You pick one of 12 golfers and play training, stroke play, match play, mini battles, a mini course or a tour on the Wonder Golf Course, choosing club, ball, glove and shoes, reading the wind and lie and timing a three-stage swing meter. Opponents and caddies comment in short lines in boxes with a portrait, and many of the 124 rival golfers are Namco characters or in-jokes. The game also has Mobile WonderGate online screens (net tour, ranking, downloads), which no longer have a server. It was released only in Japan. The English version is a patch with two editions: the standard one, and a Debug Edition that opens the developers' hidden DEBUG_MENU.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **All the text the game draws:** 490 distinct strings: the menus, the Data and Link menus, the item and profile text, the caddie and rival lines, the scorecards and records, the in-hole …"
+    }
+   ],
+   "produced_by": []
+  },
   "12FB8B28": {
    "crc32": "12FB8B28",
    "size": 1048576,
@@ -11711,6 +11764,62 @@
     }
    ]
   },
+  "B45C8939": {
+   "crc32": "B45C8939",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "e007545ffd5d4dde",
+     "game": "Wonder Classic",
+     "variant": "wonder-classic-en-debug-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "12F10B27",
+     "target_crc32": "B45C8939",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/wonder-classic-v1.0/wonder-classic-en-debug-1.0.bps",
+     "sha256": "e007545ffd5d4dde90d70e2972eb56e819fd67c85823ac9fd9466f340e0d3240",
+     "size": 144230,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wonder-classic-v1.0",
+     "notes": "**Wonder Classic** (ナムコワンダークラシック, \"Namco Wonder Classic\") is a golf game for the WonderSwan Color, made by Namco and published by Bandai on 18 January 2001, played with the console held upright. It has no story. You pick one of 12 golfers and play training, stroke play, match play, mini battles, a mini course or a tour on the Wonder Golf Course, choosing club, ball, glove and shoes, reading the wind and lie and timing a three-stage swing meter. Opponents and caddies comment in short lines in boxes with a portrait, and many of the 124 rival golfers are Namco characters or in-jokes. The game also has Mobile WonderGate online screens (net tour, ranking, downloads), which no longer have a server. It was released only in Japan. The English version is a patch with two editions: the standard one, and a Debug Edition that opens the developers' hidden DEBUG_MENU.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **All the text the game draws:** 490 distinct strings: the menus, the Data and Link menus, the item and profile text, the caddie and rival lines, the scorecards and records, the in-hole …"
+    }
+   ]
+  },
+  "B52EAA1A": {
+   "crc32": "B52EAA1A",
+   "size": 8388608,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "ce6b0e6daa42ede8",
+     "game": "Last Alive",
+     "variant": "last-alive-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "DA4479BF",
+     "target_crc32": "B52EAA1A",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/last-alive-v1.0/last-alive-en-1.0.bps",
+     "sha256": "ce6b0e6daa42ede857e24725f9139370ec9ed81b507d9fbd07e7ead6436a699c",
+     "size": 441953,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/last-alive-v1.0",
+     "notes": "**Last Alive** (ラスト アライブ) is a horror adventure in the form of a photo novel for the WonderSwan Color, published by Bandai on 26 July 2001 and played with the console held upright. Japanese tourists on the luxury liner Blue Silence are caught in a typhoon and a seajacking by island separatists. You read the story page by page, choose at the branch points and either survive or die. There are two scenarios, Yosuke's (a job-hunting graduate) and Hikaru's (a high-school girl on a school trip), and the story is told with photographs of the cast. It was released only in Japan. This patch translates the whole script and redraws the pictures that carry lettering.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**Content note:** the game has gunshot, strangling and drowning deaths, a character burning a terrorist, a leering character and a separatist grievance against a company. The English keeps all of it at the strength of the Japanese, neither softer nor harsher, including the innuendo.\n\n**What's translated**\n\n* **The whole script of both scenarios:** 6,624 text units (about 237,000 Japanese characters), the …"
+    }
+   ]
+  },
   "B5E675AE": {
    "crc32": "B5E675AE",
    "size": 2097152,
@@ -13801,6 +13910,38 @@
     }
    ]
   },
+  "DA4479BF": {
+   "crc32": "DA4479BF",
+   "size": 4194304,
+   "md5": "5ee55daa90d63f97a01a569ef5023431",
+   "sha1": "b019f41207e396d9fe3509dccdbe1cc6e7ac46bb",
+   "names": [
+    "Last Alive (Japan).wsc"
+   ],
+   "patches": [
+    {
+     "id": "ce6b0e6daa42ede8",
+     "game": "Last Alive",
+     "variant": "last-alive-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "DA4479BF",
+     "target_crc32": "B52EAA1A",
+     "target_size": 8388608,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/last-alive-v1.0/last-alive-en-1.0.bps",
+     "sha256": "ce6b0e6daa42ede857e24725f9139370ec9ed81b507d9fbd07e7ead6436a699c",
+     "size": 441953,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/last-alive-v1.0",
+     "notes": "**Last Alive** (ラスト アライブ) is a horror adventure in the form of a photo novel for the WonderSwan Color, published by Bandai on 26 July 2001 and played with the console held upright. Japanese tourists on the luxury liner Blue Silence are caught in a typhoon and a seajacking by island separatists. You read the story page by page, choose at the branch points and either survive or die. There are two scenarios, Yosuke's (a job-hunting graduate) and Hikaru's (a high-school girl on a school trip), and the story is told with photographs of the cast. It was released only in Japan. This patch translates the whole script and redraws the pictures that carry lettering.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**Content note:** the game has gunshot, strangling and drowning deaths, a character burning a terrorist, a leering character and a separatist grievance against a company. The English keeps all of it at the strength of the Japanese, neither softer nor harsher, including the innuendo.\n\n**What's translated**\n\n* **The whole script of both scenarios:** 6,624 text units (about 237,000 Japanese characters), the …"
+    }
+   ],
+   "produced_by": []
+  },
   "DCAAFE90": {
    "crc32": "DCAAFE90",
    "size": 8388608,
@@ -15146,6 +15287,34 @@
     }
    ]
   },
+  "F12666B9": {
+   "crc32": "F12666B9",
+   "size": 4194304,
+   "names": [],
+   "patches": [],
+   "produced_by": [
+    {
+     "id": "6a155c4270a6a8df",
+     "game": "Wonder Classic",
+     "variant": "wonder-classic-en-1.0",
+     "version": "1.0",
+     "language": "en",
+     "platform": "wonderswan_color",
+     "latest": true,
+     "superseded": false,
+     "format": "bps",
+     "source_crc32": "12F10B27",
+     "target_crc32": "F12666B9",
+     "target_size": 4194304,
+     "url": "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/patches/PokemonGoDB/wonderswan-english-patches/wonder-classic-v1.0/wonder-classic-en-1.0.bps",
+     "sha256": "6a155c4270a6a8df2897d54f131065593c47f4c26212c55e7ddef16c60a62009",
+     "size": 144226,
+     "source": "PokemonGoDB/wonderswan-english-patches",
+     "page": "https://github.com/PokemonGoDB/wonderswan-english-patches/releases/tag/wonder-classic-v1.0",
+     "notes": "**Wonder Classic** (ナムコワンダークラシック, \"Namco Wonder Classic\") is a golf game for the WonderSwan Color, made by Namco and published by Bandai on 18 January 2001, played with the console held upright. It has no story. You pick one of 12 golfers and play training, stroke play, match play, mini battles, a mini course or a tour on the Wonder Golf Course, choosing club, ball, glove and shoes, reading the wind and lie and timing a three-stage swing meter. Opponents and caddies comment in short lines in boxes with a portrait, and many of the 124 rival golfers are Namco characters or in-jokes. The game also has Mobile WonderGate online screens (net tour, ranking, downloads), which no longer have a server. It was released only in Japan. The English version is a patch with two editions: the standard one, and a Debug Edition that opens the developers' hidden DEBUG_MENU.\n\n> **Please read:** this translation was made **with AI** (Claude), as a hobby project. A person (me) made every judgement call before release, but nobody on the project is a professional translator. I'm sharing it as it is for anyone who wants to play. Please **don't upload it to romhacking sites** (romhacking.net and the like). It may not be up to the standard of a real fan translation and it doesn't belong there.\n\n**What's translated**\n\n* **All the text the game draws:** 490 distinct strings: the menus, the Data and Link menus, the item and profile text, the caddie and rival lines, the scorecards and records, the in-hole …"
+    }
+   ]
+  },
   "F1EF50C6": {
    "crc32": "F1EF50C6",
    "size": 4194304,
@@ -16252,6 +16421,7 @@
   "47d83279cbdbd91c51cb7b0063d5d3e5": "F699D6D1",
   "496100bcd73fbfa39e473c6ddee190b2": "8655269E",
   "49a2932821583fa7d3ed07312b47ab32": "8FC9E145",
+  "50a6fd0e2a65487b5ea2672d2b93a862": "12F10B27",
   "5432d188664bc4e5dae0fc859580cda1": "56E2C069",
   "547501367ccf6262a70d0030e68cc75e": "427056C4",
   "5883b9d0f63fe8daa9c1a2259c154466": "F1F4D41F",
@@ -16259,6 +16429,7 @@
   "59c20a67961e60791360d8d29d937ef0": "16E0D929",
   "5a571edf5e34793c68a69bdc9dd328e5": "E357D462",
   "5e907dd88b3cfb2855a18fb1bf689860": "80C6EF12",
+  "5ee55daa90d63f97a01a569ef5023431": "DA4479BF",
   "5f742027ef79b71b0007ff5654e9565f": "71556E6A",
   "611d42816a979ece34dd8221d3023c9c": "3B4C60C6",
   "694042e6f8eaa2423693c0a9bba8aef0": "62D419CD",
@@ -16387,6 +16558,7 @@
   "5384f9974c66e5e26129a4709976de0bb1ae1f17": "067238D1",
   "544e76133fa53fc0ae5e00e3465b9cf634f14fd0": "324622C9",
   "55088795164170c24b243a1b572506f123064c0f": "3DF3E34C",
+  "55b54944efd6e277fa7140925ed2457a8cfb40b8": "12F10B27",
   "57b4278fc5812f52413ca65f45225922d4f2ec3d": "70AA800E",
   "58c691cb31f96eea5689693fd23768d02e8b133f": "85C4C9A1",
   "5e5db8b066e1b41c5c12a2d4ffa97b73ed6c3f03": "E4EB3AB1",
@@ -16429,6 +16601,7 @@
   "adbe6e38a0bc6a2d19da64a444071977b771f14f": "446E2581",
   "ae31488cee1c91f383efbe3083b4abec092dda36": "BF8D9212",
   "af3fe9da3f5ee0f5a7b06b0440223db88fcb3bf2": "00137E86",
+  "b019f41207e396d9fe3509dccdbe1cc6e7ac46bb": "DA4479BF",
   "b156084890146912700f81e44642f27607f7583d": "B25E410B",
   "b40fbc7b72921c9ac31330831c0f77e4133ec7d6": "4D103236",
   "b4fbea1a2c50d8566685f72820b360af4b54f82f": "0C23D551",
